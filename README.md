@@ -8,9 +8,9 @@ Stormworks: Build and Rescue中文汉化项目
 
  `SimplifiedChinese.tsv` 即为翻译文件，其中结构样例如下
 
-|  id  |  description  |  en  |  local  |
-| --- | --- | --- | --- | --- |
-| def_giga_prop_node_0_label |  | Power | 动力 |
+|id |description|en|local|
+:-:|:-:|:-:|:-:
+|def_giga_prop_node_0_label| |Power|动力|
 
 其中`id`与`description`字段不用管，也有很大概率为空，只需要将`en`翻译到`local`就可以了
 
