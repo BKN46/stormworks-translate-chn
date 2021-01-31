@@ -83,11 +83,11 @@ id	description	en	local
 		Place the next five wedges.\n\nMultiple wedges can be placed at once by dragging.	放置下五个楔子。\n\n可以通过拖动一次放置多个楔子。
 		You can also use the following keys to rotate and flip the component.\n\n[j] rotates on the x axis\n[k] rotates on the y axis\n[l] rotates on the z axis\n\n[u] flips on the x axis\n[i] flips on the y axis\n[o] flips on the z axis\n\n[p] toggles the rotation display	也可以使用下列键旋转和翻转组件。\n\n[j]在x轴上旋转\n[k]在y轴上旋转\n[l]在z轴上旋转\n\n[u]在x轴上翻转\n[i]在y轴上翻转\n[o]在z轴上翻转\n\n[p]切换旋转显示
 		Click on the pyramid block in the component list to start building with it.	单击组件列表中的棱锥图块开始构建。
-		First, connect the button in front of seat to the engine's 'on/off' node.\n\nThis will allow you to switch the engine on by pressing the button.\n\nClick on one of the flashing logic nodes to select it and then drag and release while hovering over the node you want to connect it to.	
-		Next, connect the 'Axis 2 [$[action_up]]/[$[action_down]]' node from the seat to the engine's 'throttle in' node.\n\nThis will allow you to apply throttle power to the engine by pressing [$[action_up]] and [$[action_down]].\n\nClick on one of the flashing logic nodes to select it and then drag and release while hovering over the node you want to connect it to.	
-		Next, connect the 'Axis 1 [$[action_left]]/[$[action_right]]' node from the seat to one rudder's 'rotation input' node.\n\nThis will allow you to apply a turning force by pressing [$[action_left]] or [$[action_right]].	
-		Next, connect the 'Axis 1 [$[action_left]]/[$[action_right]]' node from the seat to the the 'rotation input' node in the second rudder.\n\nThis will allow you to apply a turning force by pressing [$[action_left]] or [$[action_right]].	
-		Finally, connect the power between the engine and propeller.\n\nThis will pass the power created by the engine through to the propeller and allow you to move the boat forward and back with the throttle.	
+		First, connect the button in front of seat to the engine's 'on/off' node.\n\nThis will allow you to switch the engine on by pressing the button.\n\nClick on one of the flashing logic nodes to select it and then drag and release while hovering over the node you want to connect it to.	首先，将座椅前面的按钮连接收到引擎的“开/关”节点。\n\n这将允许您通过按按钮打开引擎。\n\n单击其中一个闪烁的逻辑节点将其选中，然后在悬停在要连接的节点上时将其拖动并释放。
+		Next, connect the 'Axis 2 [$[action_up]]/[$[action_down]]' node from the seat to the engine's 'throttle in' node.\n\nThis will allow you to apply throttle power to the engine by pressing [$[action_up]] and [$[action_down]].\n\nClick on one of the flashing logic nodes to select it and then drag and release while hovering over the node you want to connect it to.	接下来，将'Axis 2 [$[action_up]]/[$[action_down]]'节点从座椅连接收到发动机的“throttle in”节点。\n\n这将允许您通过按[$[action_up]]和[$[action_down]]向发动机应用油门功率。\n\n单击其中一个闪烁的逻辑节点将其选中，然后在悬停在要连接的节点上时将其拖放去吧。
+		Next, connect the 'Axis 1 [$[action_left]]/[$[action_right]]' node from the seat to one rudder's 'rotation input' node.\n\nThis will allow you to apply a turning force by pressing [$[action_left]] or [$[action_right]].	接下来，将座椅上的'Axis 1 [$[action_left]]/[$[action_right]]'节点连接收到一个方向舵的“旋转输入”节点。\n\n这将允许您通过按[$[action_left]]或[$[action_right]]来施加一个转向的力。
+		Next, connect the 'Axis 1 [$[action_left]]/[$[action_right]]' node from the seat to the the 'rotation input' node in the second rudder.\n\nThis will allow you to apply a turning force by pressing [$[action_left]] or [$[action_right]].	接下来，将座椅上的'Axis 1 [$[action_left]]/[$[action_right]]'节点连接收到第二个方向舵上的“旋转输入”节点。\n\n这将允许您通过按[$[action_left]]或[$[action_right]]施加一个转向的力。
+		Finally, connect the power between the engine and propeller.\n\nThis will pass the power created by the engine through to the propeller and allow you to move the boat forward and back with the throttle.	最后，连接发动机和螺旋桨。\n\n这将把发动机产生的动力传递到螺旋桨上，并允许您使用油门前后移动船。
 		Click on the large '+' button to create a new save file.	单击“+”按钮创建一个新的保存文件。
 		Type in a name for your boat.\nThen click on the 'Save' button.	键入船名。\n然后单击“保存”按钮。
 		Click on the 'Save' button in the top bar to start saving your boat.	单击顶部栏中的“保存”按钮开始保存您的船。
@@ -164,9 +164,9 @@ id	description	en	local
 		Airport	机场
 		Large runway in the shadow of an impenetrable plateau.	在难以横跨的高原的阴影下的大型跑道。
 		Brinkfield	布林克菲尔德
-		Nuclear power plant with dock, reactor rooms and underground disposal pool.	
+		Nuclear power plant with dock, reactor rooms and underground disposal pool.	带有码头、反应堆室和地下废料池的核电站。
 		Fishing Village	渔村
-		Small fishing village with mountain, multiple sea stacks and a rocky peninsula.	
+		Small fishing village with mountain, multiple sea stacks and a rocky peninsula.	小渔村，有山，多个海蚀柱和岩石半岛屿。
 		Wind Turbine	风力发电机
 		Large offshore wind turbine.	大型海上风力涡轮机。
 		Small Oil Rig	小型石油钻机
@@ -194,7 +194,7 @@ id	description	en	local
 		Mainland Road	大陆路
 		Coastal road with a natural tunnel through a rock face.	海岸公路，天然隧道穿过岩石表面。
 		Mainland Quarry	大陆采石场
-		Large quarry with mine, natural rock bridge and small castle ruin.	
+		Large quarry with mine, natural rock bridge and small castle ruin.	大型采石场，带有矿山、天然岩桥和小城堡遗址。
 		Mainland Beach	大陆海滩
 		Small beach with several rock stacks.	有几个岩石堆的小海滩。
 		Mainland Cliff 2	大陆悬崖2
@@ -219,9 +219,9 @@ id	description	en	local
 		Uninhabited 7	无人居住7
 		High cliffs and a bay with 2 narrow entrances.	高耸的悬崖和一个有两个狭窄入口的海湾。
 		Ruins 1	废墟1
-		Rocky coastline with small cave, ancient ruin and sheltered beach.	
+		Rocky coastline with small cave, ancient ruin and sheltered beach.	岩石海岸线，有小山洞，古老的遗迹和隐蔽的海滩。
 		Ruins 2	废墟2
-		Sheltered cove, ancient ruin, cliff face connected by natural arch.	
+		Sheltered cove, ancient ruin, cliff face connected by natural arch.	隐蔽的海湾，古老的废墟，悬崖面由自然拱门连接。
 		Seabed Rock Formation 1	海床岩层1
 		A rocky formation with cave on the ocean bed.	海床上有洞穴的岩石。
 		Seabed Rock Formation 2	海床岩层2
@@ -257,13 +257,13 @@ id	description	en	local
 		Arctic Mainland Rocks	北极大陆岩石
 		A rocky coastal area surrounded by multiple small icebergs.	被多个小冰山包围的岩石海岸地区。
 		Arctic Oil Platform	北极石油平台
-		An oil platform built on the edge of the Arctic mainland, with road access to a train terminal.	
+		An oil platform built on the edge of the Arctic mainland, with road access to a train terminal.	一个建在北极大陆边缘的石油平台，有通往火载具站的公路。
 		Arctic Mainland Hill	北极大陆山
 		A snow-covered rocky hill. Small section of train line with junction boxes.	白雪覆盖的岩石山。带有接线盒的铁路线小区段。
 		Arctic Mainland Outcrop	北极大陆露头
 		Southern end of an outcrop off the coast of the Arctic mainland.	北极大陆海岸外露头的南端。
 		Arctic Mainland Outpost	北极大陆哨所
-		An Arctic research outpost, large inland lake and train terminal with road access.	
+		An Arctic research outpost, large inland lake and train terminal with road access.	北极研究前哨，大型内陆湖和火载具站，有公路通道。
 		Arctic Fishing Village	北极渔村
 		A small fishing village with a dock and a un-manned lighthouse.	一个有码头和无人驾驶灯塔的小渔村。
 		Arctic Mainland Arch	北极大陆拱
@@ -277,7 +277,7 @@ id	description	en	local
 		Arctic Underwater Mining	北极水下矿井
 		An underwater drilling and mining facility with dock and trainline access.	水下钻井和采矿设施，带码头和火载具线通道。
 		Multiplayer Island Base	多人岛屿基地
-		A large island complete with dock and airstrip, both featuring with two workbenches.	
+		A large island complete with dock and airstrip, both featuring with two workbenches.	一个大型岛屿，配有码头和简易机场，均配有两个工作台。
 		Ice Shelf 1	冰架1
 		An ice shelf with multiple large icebergs.	有多个大冰山的冰架。
 		Ice Shelf 2	冰架2
@@ -299,9 +299,9 @@ id	description	en	local
 		Ice Shelf 10	冰架10
 		Two small icebergs.	两个小冰山。
 		Ice Shelf 11	冰架11
-		An ice shelf with multiple large icebergs.	
+		An ice shelf with multiple large icebergs.	有多个大冰山的冰架。
 		Ice Shelf 12	冰架12
-		An ice shelf with multiple large icebergs.	
+		An ice shelf with multiple large icebergs.	有多个大冰山的冰架。
 		Volcano Northwest	西北火山
 		Northwest region of a dormant volcano.	休眠火山的西北地区。
 		Volcano North	火山北部
@@ -342,7 +342,7 @@ id	description	en	local
 		SET ACTION OBJECTIVES	制定行动目标
 		Uploading to workshop. Please wait...	上传到创意工坊。请稍候...
 		Loading. Please wait...	加载中。请稍候...
-		Your addon has errors that must be fixed in order to upload to the Steam workshop:\n\n	
+		Your addon has errors that must be fixed in order to upload to the Steam workshop:\n\n	你的插件存在以下错误导致无法更新至创意工坊:\n\n
 		CANNOT UPLOAD TO WORKSHOP	无法上传到创意工坊
 		Your mission has errors that must be fixed before it can be tested:\n\n	您的任务有错误，必须先修复这些错误，然后才能进行测试。\n\n
 		CANNOT SPAWN MISSION	无法生成任务
@@ -353,7 +353,7 @@ id	description	en	local
 		ADDON UPLOAD COMPLETE	插件上传完成
 		Your addon was successfully uploaded to the Steam workshop.\n\n We recommend heading to your addon's workshop page to add more information about the content you've included.\n\n Any vehicles used in your addon have been included as part of the upload. Players will not need to separately subscribe to any of these vehicles.	你的插件已经成功的上传到了Steam创意工坊\n\n我们建议您去该插件的创意工坊界面添加说明信息。\n\n任何插件内的载具都作为该插件的一部分被上传上去了。玩家不需要额外订阅载具。
 		ADDON UPDATE COMPLETE	插件上传完成
-		Your addon was updated successfully.\n\nYou can customise the changelog for this update by heading to your addon's workshop page to let your subscribers know what's new.	
+		Your addon was updated successfully.\n\nYou can customise the changelog for this update by heading to your addon's workshop page to let your subscribers know what's new.	你的插件上传成功\n\n你可以去创意工坊插件页为这此更新自定义更新日志，来让你的订阅者知道更新了什么。
 		missions	任务
 		mission	任务
 		objectives	目标
@@ -450,7 +450,7 @@ id	description	en	local
 		No Active Mission	没有当前激活任务
 		Recommended difficulty for new players. No vehicle or character damage. No advanced vehicle mechanics.	新玩家的推荐难度。无载具或人物损坏。没有高级载具选项。
 		Survival difficulty. Advanced vehicle mechanics. Transmission pipes. Injuries and death. No starting vehicles.	生存困难。高级载具。传输管道。受伤和死亡。没有起始载具。
-		Survival difficulty with reduced starting money, locked to first person view, no fast travel or vehicle teleporting, limited fuel.	
+		Survival difficulty with reduced starting money, locked to first person view, no fast travel or vehicle teleporting, limited fuel.	生存困难与启动资金减少，锁定第一人称，没有快速旅行或载具传送，有限的燃料。
 		Hardcore mode with permadeath (save file will be deleted upon death).	带有永久死亡的硬核模式(保存文件将在死亡时被删除)。
 		Custom difficulty settings.	自定义难度设置。
 		Custom mode. A sandbox environment with an array of settings to customise your session. Career or Creative.	自定义模式，随意设定你的游戏，无论是生涯还是创造。
@@ -638,17 +638,17 @@ id	description	en	local
 		Edit the current addon's locations.	编辑当前插件地点
 		View the currently edited addon.	查看当前编辑插件
 		ADD CHARACTER	添加角色
-		You can customise outfits and whether this character is a survivor or NPC in the properties window. Survivors will follow you and can be picked up, but NPCs can not be interacted with.	
+		You can customise outfits and whether this character is a survivor or NPC in the properties window. Survivors will follow you and can be picked up, but NPCs can not be interacted with.	你可以在属性窗口中定制装备以及这个角色是幸存者还是NPC。幸存者将跟随你并且可以被捡起，但是NPC不能被交互。
 		ADD OBJECT	添加对象
-		Objects can be picked up, thrown and moved around by the player. They can be used for delivery missions or just as decoration. You can customise the object type in the properties window.	
+		Objects can be picked up, thrown and moved around by the player. They can be used for delivery missions or just as decoration. You can customise the object type in the properties window.	玩家可以捡起、投掷和移动物体。它们可以用于运输任务或仅仅作为装饰。可以在“属性”窗口中自定义对象类型。
 		ADD ZONE	添加区域
 		ADD ENV MOD ZONE	添加环境MOD区域
-		Env Mod Zones are persistent zones, they can be used to set up advanced mission behaviour at specific world locations and can be manipulated from addon Lua. These zones can be accessed globally by any addon script with functions getZones() and isInZone().	
-		Zones are used to specify a location, these zones are local to a addon and can be accessed like any other local component through getLocationObjectData(). Mission Zones are generally more appropriate for constructing procedural style missions.	
+		Env Mod Zones are persistent zones, they can be used to set up advanced mission behaviour at specific world locations and can be manipulated from addon Lua. These zones can be accessed globally by any addon script with functions getZones() and isInZone().	环境MOD区域是永久性区域，它们可以用来在特定的世界位置设置高级任务行为，并且可以通过Playlist Lua进行操作。这些区域可以通过任何Playlist脚本使用函数getZones()和isInZone()进行全局访问。
+		Zones are used to specify a location, these zones are local to a addon and can be accessed like any other local component through getLocationObjectData(). Mission Zones are generally more appropriate for constructing procedural style missions.	区域用于指定一个位置，这些区域是playlist的地点，可以像其他本地组件一样通过getLocationObjectData()来访问。任务区一般更适合构建流程式的任务。
 		ADD VEHICLE	添加载具
-		You can set a vehicle to be static in the properties window. Static vehicles are fixed in place, making them useful for adding buildings or cranes to missions.	
+		You can set a vehicle to be static in the properties window. Static vehicles are fixed in place, making them useful for adding buildings or cranes to missions.	可以在“属性”窗口中将载具设置为静态。静态载具被固定在一个位置，这使得它们有助于在任务中增加建筑或机械臂。
 		ADD VEHICLE BUTTON	添加载具按钮
-		Vehicle buttons allow your mission to interact with a named button on a vehicle. You must parent the button to a vehicle, and set the 'button display name' in the properties window to be the name of a button on the parent vehicle.	
+		Vehicle buttons allow your mission to interact with a named button on a vehicle. You must parent the button to a vehicle, and set the 'button display name' in the properties window to be the name of a button on the parent vehicle.	载具按钮允许您的任务与载具上的指定按钮交互。必须将按钮设置为载具的父级，并将“属性”窗口中的“按钮显示名称”设置为父级载具上按钮的名称。
 		ADD FLARE	添加照明弹
 		Flares emit a plume of coloured smoke that can be used to get the player's attention in an emergency situation. The colour of the flare can be customised in the properties window.	照明弹会释放出一股彩色烟雾，在紧急情况下可以用来引起玩家的注意。可以在“属性”窗口中自定义照明弹的颜色。
 		ADD FIRE	添加火焰
@@ -656,7 +656,7 @@ id	description	en	local
 		ADD LOOT	添加战利品
 		Loot boxes allow you to hide additional rewards in your missions. Each one will give the player a random reward with a value between $6000 and $10000.	战利品箱允许你在任务中隐藏额外的奖励。每位玩家将随机获得一份价值在6000到10000美元之间的奖励。
 		ADD ANIMAL	添加动物
-		The animal type can be customised in the properties window. If the 'Sharks' difficulty option is enabled, sharks will stalk and attack characters in the water.	
+		The animal type can be customised in the properties window. If the 'Sharks' difficulty option is enabled, sharks will stalk and attack characters in the water.	可以在“属性”窗口中自定义动物类型。如果启用“鲨鱼”难度选项，鲨鱼将跟踪并攻击水中的角色。
 		Done	完成
 		Clear Parent	清除父类
 		Properties	属性
@@ -730,7 +730,7 @@ id	description	en	local
 		EDIT MICROCONTROLLER	编辑微控制器
 		Are you sure you want to open this microcontroller in the editor?\n\nAny unsaved changed currently open in the microcontroller editor will be lost.	你确定要在编辑器中打开这个微控制器吗？\n\n微控制器编辑器中当前打开的任何未保存的更改都将丢失。
 		UPDATE MICROCONTROLLER	更新微控制器
-		Are you sure you want to update the selected microcontroller with this schematic?\n\n- If you have resized the schematic, some components may be removed to make room for the new microcontroller.\n- If you have moved or changed any logic inputs/outputs, some logic links may not be preserved.	
+		Are you sure you want to update the selected microcontroller with this schematic?\n\n- If you have resized the schematic, some components may be removed to make room for the new microcontroller.\n- If you have moved or changed any logic inputs/outputs, some logic links may not be preserved.	是否确实要用此示意图更新选定的微控制器？\n\n-如果调整了微处理器的大小，则可能会删除某些组件以为新微控制器腾出空间。\n-如果移动或更改了任何逻辑输入/输出，则可能无法保留某些逻辑链接。
 		Enter a name for this vehicle	输入此载具的名称
 		Enter file name to export vehicle model to	输入要将载具型导出到的文件名
 		EXPORT 3D MODEL	导出三维模型
@@ -763,11 +763,11 @@ id	description	en	local
 		Please select at least 1 tag.	请至少选择一个标签。
 		Your vehicle is too small to be uploaded to the workshop.	您的载具太小，无法上传到创意工坊。
 		Your custom thumbnail is not a 512x512 size PNG.	您的自定义缩略图不是512x512大小的PNG。
-		You are missing some components in this vehicle, they have been removed:\n	
-		Some components do not fit or may be overlapping, they have been removed:\n	
+		You are missing some components in this vehicle, they have been removed:\n	您没有此载具中的某些组件，这些组件已被删除：\n
+		Some components do not fit or may be overlapping, they have been removed:\n	某些组件不匹配或可能重叠，它们已被删除：\n
 		INCOMPATIBLE DIFFICULTY	困难度不兼容
-		This vehicle was built with the 'Advanced Vehicles' difficulty option enabled.\n\nYou are currently playing with Advanced Vehicles disabled, so this vehicle may not function correctly or at all without modification.	
-		This vehicle was built with the 'Advanced Vehicles' difficulty option disabled.\n\nYou are currently playing with Advanced Vehicles enabled, so this vehicle may not function correctly or at all without modification.	
+		This vehicle was built with the 'Advanced Vehicles' difficulty option enabled.\n\nYou are currently playing with Advanced Vehicles disabled, so this vehicle may not function correctly or at all without modification.	此载具是在启用“高级载具”困难选项的情况下制造的。\n\n您当前正在禁用高级载具，因此此载具可能无法正常工作，或者根本无法进行修改。
+		This vehicle was built with the 'Advanced Vehicles' difficulty option disabled.\n\nYou are currently playing with Advanced Vehicles enabled, so this vehicle may not function correctly or at all without modification.	此载具是在禁用“高级载具”困难选项的情况下制造的。\n\n您当前正在使用启用的高级载具进行游戏，因此此载具可能无法正常工作，或者根本无法进行修改。
 		SOME COMPONENTS DID NOT FIT	有些组件并不兼容
 		Some components have been updated and no longer fit on this vehicle. You will still be able to edit this vehicle but these components have been removed:\n	某些部件已更新，不再适合此载具。您仍可以编辑此载具，但这些组件已被删除：\ n
 		Your microcontroller has errors that must be fixed in order to upload to the workshop:\n\n	您的微控制器有一些错误，必须修复这些错误才能上传到创意工坊：\ n\n
@@ -776,7 +776,7 @@ id	description	en	local
 		VEHICLE UPLOAD COMPLETE	载具上传完成
 		Your vehicle was successfully uploaded to the Steam workshop.\n\nWe recommend heading to your vehicle's workshop page to add a description and screenshots.	您的载具已成功上传到Steam创意工坊。\n\n我们建议您转到载具的创意工坊页面以添加说明和屏幕截图。
 		MICROCONTROLLER UPLOAD COMPLETE	微控制器上传完成
-		Your microcontroller was successfully uploaded to the Steam workshop.\n\nWe recommend heading to your microcontroller's workshop page to add a description, screenshots, and usage instructions.	
+		Your microcontroller was successfully uploaded to the Steam workshop.\n\nWe recommend heading to your microcontroller's workshop page to add a description, screenshots, and usage instructions.	您的微控制器已成功上传到Steam创意工坊。\n\n我们建议您转到微控制器的创意工坊页以添加说明、屏幕截图和使用说明。
 		VEHICLE UPDATE COMPLETE	载具更新完成
 		Your vehicle was updated successfully.\n\nYou can customise the changelog for this update by heading to your vehicle's workshop page to let your subscribers know what's new.	您的载具已成功更新。\n\n您可以自定义此更新的更改日志，方法是转到您载具的“创意工坊”页面，让您的订阅用户了解最新情况。
 		MICROCONTROLLER UPDATE COMPLETE	微控制器更新完成
@@ -815,7 +815,7 @@ id	description	en	local
 		Load a saved microcontroller.	加载保存的微控制器。
 		Save your microcontroller for use in your vehicles.	保存您的微控制器以便在您的载具中使用。
 		WORKSHOP	创意工坊
-		Upload your microcontroller to the Steam Workshop, or update a previous upload.	
+		Upload your microcontroller to the Steam Workshop, or update a previous upload.	将微控制器上传到Steam创意工坊，或更新以前的上传。
 		DESIGN	设计
 		Design the physical layout of your microcontroller and customise inputs and outputs.	设计微控制器的物理布局并定制输入和输出。
 		LOGIC	逻辑
@@ -920,7 +920,7 @@ id	description	en	local
 		First Person Vehicle Only	禁用载具第三人称
 		Camera is locked to first person in vehicles.	载具中保持第一人称模式。
 		Advanced Vehicles	高级载具
-		Transmission pipes, fuel requirement, advanced engine mechanics.	
+		Transmission pipes, fuel requirement, advanced engine mechanics.	传动管道、载具燃料需求、高级发动机原理。
 		Vehicle Damage	载具损坏
 		Vehicles can be damaged by the environment.	载具可能会受到环境的破坏。
 		Player Damage	玩家伤害
@@ -987,7 +987,7 @@ id	description	en	local
 		Sawyer Islands' North Harbour	索耶群岛屿北港
 		A harbour with railway access on the North coast of the Sawyer Islands.	索耶群岛屿北岸有铁路通道的港口。
 		Harbour Base	港口基地
-		Harbour base, large dock.	
+		Harbour base, large dock.	港口基地，大型码头。
 		Airstrip Base	简易机场基地
 		Features a hangar and runway.	设有机库和跑道。
 		Military Base	军事基地
@@ -1200,7 +1200,7 @@ id	description	en	local
 		Save	保存
 		Load	加载
 		Time of Day/Weather	时间/天气
-		Addon Editor	
+		Addon Editor	插件编辑器
 		DELETE SAVE DATA	删除保存数据
 		Are you sure you want to delete this save data?	是否确实要删除此保存数据？
 		QUIT TO MENU	退出菜单
@@ -1211,7 +1211,7 @@ id	description	en	local
 		Save and Quit	保存并退出
 		Quit Without Saving	不保存就退出
 		RETURN TO ADDON EDITOR	返回到插件编辑器
-		You are currently testing a mission.\n\nReturning to the addon editor will despawn all vehicles and objects associated with the mission.\n\nAre you sure you want to return to the addon editor?	
+		You are currently testing a mission.\n\nReturning to the addon editor will despawn all vehicles and objects associated with the mission.\n\nAre you sure you want to return to the addon editor?	您当前正在测试任务。\n\n返回任务编辑器将销毁与任务相关的所有载具和对象。\n\n确实要返回任务编辑器吗？
 		Are you sure you want to disconnect from this server?	确实要断开与此服务器的连接吗？
 		Are you sure you want to quit to the main menu?	你确定要退出主菜单吗？
 		Field of View	视野(FOV)
@@ -1351,7 +1351,7 @@ id	description	en	local
 		Discard any changes and start a new vehicle. This will refund any money spent.	放弃所有更改并创建一个新车辆。这将退还所有开销。
 		Load a saved vehicle. You will need enough inventory and money to fully construct a loaded vehicle.	加载保存的载具。你需要足够的库存和资金来建造一辆满载的载具。
 		Save your vehicle for later.	把你的载具留着待会儿用。
-		Upload your vehicle to the Steam Workshop, or update a previous upload.	
+		Upload your vehicle to the Steam Workshop, or update a previous upload.	将您的载具上传到Steam创意工坊，或更新以前的上传。
 		UNDO	撤消
 		Undo your most recent change.	撤消最近的更改。
 		REDO	重做
@@ -1366,9 +1366,9 @@ id	description	en	local
 		Move your vehicle within the bounds of the edit grid.	在编辑网格的范围内移动载具。
 		Hook up logic connections between components.	连接组件之间的逻辑连接。
 		MERGE	合并
-		Merge two vehicle bodies. Different bodies are denoted by different colours. Click on a body to select it, then click an adjacent one to merge them.	
+		Merge two vehicle bodies. Different bodies are denoted by different colours. Click on a body to select it, then click an adjacent one to merge them.	合并两个载具。不同的物体用不同的颜色表示。单击一个实体将其选中，然后单击相邻的实体将其合并。
 		SELECTION GRID	选择网格
-		Select parts of your vehicle to cut, copy, paste, rotate, flip and move them around. Export a selection as a new vehicle, or import a saved subassembly to place on your vehicle.	
+		Select parts of your vehicle to cut, copy, paste, rotate, flip and move them around. Export a selection as a new vehicle, or import a saved subassembly to place on your vehicle.	选择要切割、复制、粘贴、旋转、翻转和移动的载具部件。将选定内容导出为新载具，或导入保存的部件以放置在载具上。
 		MICROCONTROLLER EDITOR	微控制器编辑器
 		Create and edit microcontrollers to build compact logic circuits for your vehicle.	创建和编辑微控制器，为您的载具构建紧凑的逻辑电路。
 		INVENTORY	库存
@@ -1379,7 +1379,7 @@ id	description	en	local
 		Vehicles you've subscribed to on the Steam Workshop.	您在Steam创意工坊预订的载具。
 		Some basic vehicles to get you started.	一些让你起步的基础载具。
 		Preset subassemblies to paste onto your vehicles.	粘贴到载具上的预设部件。
-		Upload a new vehicle to the steam workshop, or select one of your existing workshop vehicles to edit and overwrite it	
+		Upload a new vehicle to the steam workshop, or select one of your existing workshop vehicles to edit and overwrite it	将新载具上传到steam创意工坊，或选择一辆现有的创意工坊载具进行编辑和覆盖
 		VEHICLE NAME	载具名称
 		Vehicle Type	载具类型
 		Vehicle Functionality	载具功能
@@ -1482,7 +1482,7 @@ id	description	en	local
 		Fire	火
 		Vehicle Button	载具按钮
 		Mission Component	任务部分
-		Addons you've uploaded to the Steam Workshop.	
+		Addons you've uploaded to the Steam Workshop.	你已经上传到创意工坊的插件
 		No description	没有描述
 		SELECT LOCATION	选择位置
 		Location	位置
@@ -1705,7 +1705,7 @@ id	description	en	local
 		sail	帆
 		Edit rope transfer nodes.	编辑绳索传输节点
 		LUA SCRIPTING OVERVIEW	LUA脚本概述
-		Lua scripting gives you the tools to create advanced logic components using the Lua scripting language. Stormworks provides a number of functions to allow your script to interface with your vehicle's logic system, as well as drawing to in-game monitors.\n\nThis guide outlines the functions that are available for use in your scripts but it is not a comprehensive tutorial on using the Lua language.	
+		Lua scripting gives you the tools to create advanced logic components using the Lua scripting language. Stormworks provides a number of functions to allow your script to interface with your vehicle's logic system, as well as drawing to in-game monitors.\n\nThis guide outlines the functions that are available for use in your scripts but it is not a comprehensive tutorial on using the Lua language.	Lua脚本提供了使用Lua脚本语言创建高级逻辑组件的工具。Stormworks提供了许多功能，允许脚本与载具的逻辑系统进行交互，并绘制到游戏中的屏幕中。\n\n本指南概述了可在脚本中使用的功能，但它不是使用Lua语言的综合系统性教程。
 		SCRIPT BASICS	脚本基础
 		The tick function will be called once every logic tick and should be used for reading composite data and any required processing. Screen functions will have no effect if called within onTick.	tick函数将在每个逻辑tick调用一次，并应用于读取复合数据和任何所需的处理。如果在onTick中调用屏幕功能，则不会产生任何效果。
 		The draw function will be called any time this script is drawn by a monitor. Note that it can be called multiple times if this microcontroller is connected to multiple monitors whereas onTick is only called once. Composite input/output functions will have no effect if called within onDraw.	当屏幕绘制此脚本时，将调用draw函数。注意，如果这个微控制器连接收到多个屏幕，它可以被多次调用，而onTick只被调用一次。如果在onDraw中调用复合输入/输出函数，则不会产生任何效果。
@@ -1734,9 +1734,9 @@ id	description	en	local
 		Convert pixel coordinates into world coordinates.	将像素坐标转换为世界坐标。
 		Convert world coordinates into pixel coordinates.	将世界坐标转换为像素坐标。
 		LUA FUNCTIONS	LUA函数
-		The following global lua functions are available:\n\n- pairs\n- ipairs\n- next\n- tostring\n- tonumber\n\nand additional functions are available through the following lua libraries:\n\n- math\n- table\n- string\n\nFor full documentation of the functions provided by these libraries, visit https://www.lua.org/manual/.	
+		The following global lua functions are available:\n\n- pairs\n- ipairs\n- next\n- tostring\n- tonumber\n\nand additional functions are available through the following lua libraries:\n\n- math\n- table\n- string\n\nFor full documentation of the functions provided by these libraries, visit https://www.lua.org/manual/.	以下全局lua函数可用：\ n\n-pairs\n-ipairs\n-next\n-tostring\n-tonumber\n\n其他函数可通过以下lua库使用：\ n\n-math\n-table\n-string\n\n有关这些库提供的函数的完整文档，请访问https://www。lua。org/manual/。
 		TELEMETRY FUNCTIONS	遥测功能
-		The following global async functions are available:\n\n- httpGet\n\nHTTP requests are sent to the localhost on the specified port. Responses are caught with the httpReply(port, request_body, response_body) callback function.\n\nasync.httpGet(port, request_body)\n\nExample of a HTTP request sent to port 80:	
+		The following global async functions are available:\n\n- httpGet\n\nHTTP requests are sent to the localhost on the specified port. Responses are caught with the httpReply(port, request_body, response_body) callback function.\n\nasync.httpGet(port, request_body)\n\nExample of a HTTP request sent to port 80:	可以使用以下全局异步函数：\n\n-httpGet\n\nHTTP请求被发送到指定端口上的本地主机。使用httpReply（端口，request_body，response_body）回调函数捕获响应。\n\nasync.httpGet（端口，request_body）\n\n[译者注:此函数使用可以参考本人B站视频:BV1mV411B7Bg] \n\n发送到端口80的HTTP请求示例：
 		META FROM THE DEVS	来自开发组的参考
 		This scripting API is very powerful and as such there are some important reminders to take note of:\n\n- Your script has a max execution time of 1000 milliseconds, however it is still possible to create scripts that significantly slow down the game. It is your responsibility to ensure your script runs efficiently.\n\n- Random number functions are provided by the Lua math library. Use of randomness in your scripts is likely to cause desync in multiplayer, so use these functions at your own risk.\n\n- When your vehicle despawns and respawns, your script will be executed 'fresh' and any state stored within the script will be lost. We recommend keeping your script as stateless as possible, and making use of existing logic components (e.g. memory register) to store values that you wish to persist.\n\n- Your scripts run as a 'black box' with only the logic inputs/outputs being synced in multiplayer. Keep in mind that complex logic in your script may behave differently for different players in a multiplayer session.\n\n- A number of safeguards are in place to sandbox your script, however it is still possible to write scripts that will potentially crash your game. If you crash your game with a script, it's likely that you're doing something (very) wrong. This is your own responsibility. If you suspect you have encountered a legitimate bug, please report it on the Stormworks issue tracker (accessible from the pause-menu).\n\n- Malicious and harmful scripts will not be tolerated on the Stormworks Steam Workshop.\n\nFinally, enjoy the almost limitless possibilities that these scripts provide. This short wiki aims to give a good overview of how scripting in Stormworks works, however if you have any questions that are not covered here, please feel free to join us on Discord (accessible from the pause-menu)!	这个脚本API非常强大，因此有一些重要的提示需要注意：\n\n-您的脚本的最大执行时间为1000毫秒，但是仍然可以创建显著降低游戏速度的脚本。您有责任确保脚本高效运行。\n\n-随机数函数由Lua数学库提供。在脚本中使用随机性可能会导致多人游戏中的失同步，因此使用这些函数的风险由您自己承担。\n\n-当您的车辆报废和重新启用时，您的脚本将被“刷新”执行，并且脚本中存储的任何状态都将丢失。我们建议您的脚本尽可能保持无状态，并利用现有的逻辑组件（例如内存寄存器）来存储希望持久化的值。\n\n-您的脚本作为“黑盒”运行，只有逻辑输入/输出在多人游戏中同步。请记住，脚本中的复杂逻辑对于多人游戏会话中的不同玩家可能会有不同的行为。\n\n-有许多保护措施可以对脚本进行沙盒处理，但是仍然可以编写可能会使游戏崩溃的脚本。如果你用一个脚本使游戏崩溃，很可能你做错了什么。这是你自己的责任。如果您怀疑遇到了合法的错误，请在Stormworks问题跟踪程序（可从“暂停”菜单访问）上报告。\n\n-在Stormworks Steam Workshop上不允许使用恶意和有害的脚本。\n\n最后，请享受这些脚本提供的几乎无限的可能性。这个简短的wiki旨在很好地概述Stormworks中的脚本是如何工作的，但是如果您有任何问题，请随时加入我们的Discord（可从暂停菜单访问）！
 		TOUCHSCREEN DATA	触摸屏数据
@@ -1816,7 +1816,7 @@ id	description	en	local
 		Put out forest fire	扑灭森林火灾
 		Put out this forest fire that will cause major environmental damage.	扑灭这场会造成重大环境破坏的森林大火。
 		A forest fire has appeared that threatens local flora and fauna.	一场威胁当地动植物的森林大火已经出现。
-		An uncontrolled blaze has sprung up, decimating the natural scenery.	
+		An uncontrolled blaze has sprung up, decimating the natural scenery.	一场无法控制的大火突然爆发，破坏了自然环境。
 		Extinguish the wildfire before it gets out of control.	在野火失去控制之前把它扑灭。
 		A forest fire needs to be extinguished.	森林大火需要扑灭。
 		Cargo Zone	卸货区
@@ -1857,7 +1857,7 @@ id	description	en	local
 		Diving Equipment	潜水设备
 		Firefighting Outfit	救火外套
 		Scuba Gear	水肺装备
-		Parachute	
+		Parachute	降落伞
 		Thermal Clothing	隔热服
 		Binoculars	望远镜
 		Cable	线
@@ -5240,7 +5240,7 @@ def_wing_xxl_s_desc		The wing surface cuts through the air while resisting movem
 		This playlist includes the following	此游玩列表包括以下内容
 		Please note that some missions in this playlist will only naturally spawn if certain criteria are met(such as owning a specific type of island, or having unlocked fire equipment).	请注意，此游玩列表中的某些任务只有在满足某些条件(例如拥有特定类型的岛屿或拥有未锁定的消防设备)时才会自然生成。
 		The author of this playlist has tagged it as creative, so some or all included missions may be unsuitable for career mode.	此游玩列表的作者已将其标记为创造性，因此某些或所有包含的任务可能不适合生涯模式。
-		(If you are the author of this playlist, you can edit this description to add more details)	
+		(If you are the author of this playlist, you can edit this description to add more details)	(如果您是此游玩列表的作者，则可以编辑此描述以添加更多详细信息)
 		Playlist must have a name	游玩列表必须有名称
 		Playlist must be renamed	必须重命名游玩列表
 		Playlist has no missions or Environment Mods	游玩列表没有任务或环境模式
@@ -5259,8 +5259,8 @@ def_wing_xxl_s_desc		The wing surface cuts through the air while resisting movem
 		View the currently edited playlist.	查看当前编辑的游玩列表。
 		Edit the current playlist's locations.	编辑当前游玩列表的位置。
 		View the currently edited mission.	查看当前编辑的任务。
-		Env Mod Zones are persistent zones, they can be used to set up advanced mission behaviour at specific world locations and can be manipulated from playlist Lua. These zones can be accessed globally by any playlist script with functions getZones() and isInZone().	
-		Zones are used to specify a location, these zones are local to a playlist and can be accessed like any other local component through getLocationObjectData(). Mission Zones are generally more appropriate for constructing procedural style missions.	
+		Env Mod Zones are persistent zones, they can be used to set up advanced mission behaviour at specific world locations and can be manipulated from playlist Lua. These zones can be accessed globally by any playlist script with functions getZones() and isInZone().	环境MOD区域是永久性区域，它们可以用来在特定的世界位置设置高级任务行为，并且可以通过Playlist Lua进行操作。这些区域可以通过任何Playlist脚本使用函数getZones()和isInZone()进行全局访问。
+		Zones are used to specify a location, these zones are local to a playlist and can be accessed like any other local component through getLocationObjectData(). Mission Zones are generally more appropriate for constructing procedural style missions.	区域用于指定一个位置，这些区域是playlist的地点，可以像其他本地组件一样通过getLocationObjectData()来访问。任务区一般更适合构建流程式的任务。
 		Are you sure you want to create a new mission playlist?	是否确实要创建新的任务游玩列表？
 		Enter a save name for this mission playlist:	输入此任务游玩列表的保存名称：
 		DELETE MISSION PLAYLIST	删除任务游玩列表
