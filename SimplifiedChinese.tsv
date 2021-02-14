@@ -36,7 +36,7 @@ id	description	en	local
 		Input 7	输入7
 		Input 8	输入8
 		Constants	常数
-		Operators	符号
+		Operators	运算符
 		Addition	加
 		Subtraction	减
 		Multiply	乘
@@ -163,7 +163,7 @@ id	description	en	local
 		Police	警察
 		Small police station.	小警察局。
 		Airport	机场
-		Large runway in the shadow of an impenetrable plateau.	在难以横跨的高原的阴影下的大型跑道。
+		Large runway in the shadow of an impenetrable plateau.	高原下的大型跑道。
 		Brinkfield	布林克菲尔德
 		Nuclear power plant with dock, reactor rooms and underground disposal pool.	带有码头、反应堆室和地下废料池的核电站。
 		Fishing Village	渔村
@@ -177,10 +177,10 @@ id	description	en	local
 		Oil Refinery	炼油厂
 		An industrial oil refinery with boat access.	有船通道的工业炼油厂。
 		Lighthouse	灯塔
-		An unmanned lighthouse surrounded by hazardous rock formations.	被危险岩层包围的无人灯塔。
+		An unmanned lighthouse surrounded by hazardous rock formations.	被礁石包围的无人灯塔。
 		Observatory	天文台
 		An astronomical observatory research base.	天文台研究基地。
-		Sea Fort	海垒
+		Sea Fort	海上堡垒
 		An abandoned military sea fort that has been reopened as a tourist hotspot.	作为旅游热点重新开放的废弃军事海堡。
 		Mainland Cliff	大陆悬崖
 		Small cliff at the corner of the mainland.	大陆一角的小悬崖。
@@ -193,34 +193,34 @@ id	description	en	local
 		Mainland Junction	大陆枢纽
 		The junction point on the mainland where the trainline to the Arctic begins.	大陆上通往北极的铁路线的交汇点。
 		Mainland Road	大陆路
-		Coastal road with a natural tunnel through a rock face.	海岸公路，天然隧道穿过岩石表面。
+		Coastal road with a natural tunnel through a rock face.	经过穿山隧道的海滨公路。
 		Mainland Quarry	大陆采石场
 		Large quarry with mine, natural rock bridge and small castle ruin.	大型采石场，带有矿山、天然岩桥和小城堡遗址。
 		Mainland Beach	大陆海滩
 		Small beach with several rock stacks.	有几个岩石堆的小海滩。
 		Mainland Cliff 2	大陆悬崖2
-		Key Cottage	关键小屋
-		Small island with lone cottage on the key.	按键上有一间孤零零的小屋的小岛屿。
-		Key Chemical Plant	重点化工厂
-		Small island with chemical plant on the key.	小岛屿上有化工厂的按键。
-		Key Lighthouse OB	关键灯塔OB
-		Small island with lighthouse on the key.	按键上有灯塔的小岛屿。
+		Key Cottage	沙洲小屋
+		Small island with lone cottage on the key.	建有一个沙洲小屋的小岛。
+		Key Chemical Plant	沙洲化工厂
+		Small island with chemical plant on the key.	建有一个沙洲化工厂的小岛。
+		Key Lighthouse OB	沙洲灯塔OB
+		Small island with lighthouse on the key.	建有一个沙洲灯塔的小岛。
 		Uninhabited 1	无人居住1
-		Small island with cliff edges.	有悬崖边的小岛屿。
+		Small island with cliff edges.	有峭壁的小岛。
 		Uninhabited 2	无人居住2
 		Smooth climb to a rocky cliffside.	平稳地爬到岩石峭壁上。
 		Uninhabited 3	无人居住3
-		Two small islands surrounded by cliffs. Aerial access only.	两个被悬崖环绕的小岛屿。只有空中通道。
+		Two small islands surrounded by cliffs. Aerial access only.	只能从空中进入的四壁高耸的小岛。
 		Uninhabited 4	无人居住4
-		Multiple scattered sea stacks.	多个分散的海栈。
+		Multiple scattered sea stacks.	多个散落的海蚀柱。
 		Uninhabited 5	无人居住5
-		Relatively flat island with central rocky outcrop.	相对平坦的岛屿，中部岩石露头。
+		Relatively flat island with central rocky outcrop.	相对平坦的岛屿，中部有突出的岩石。
 		Uninhabited 6	无人居住6
 		Rocky shoreline with a small bay.	有一个小海湾的岩石海岸线。
 		Uninhabited 7	无人居住7
 		High cliffs and a bay with 2 narrow entrances.	高耸的悬崖和一个有两个狭窄入口的海湾。
 		Ruins 1	废墟1
-		Rocky coastline with small cave, ancient ruin and sheltered beach.	岩石海岸线，有小山洞，古老的遗迹和隐蔽的海滩。
+		Rocky coastline with small cave, ancient ruin and sheltered beach.	包含小洞穴、古代遗迹和隐蔽沙滩的多礁石海岸线。
 		Ruins 2	废墟2
 		Sheltered cove, ancient ruin, cliff face connected by natural arch.	隐蔽的海湾，古老的废墟，悬崖面由自然拱门连接。
 		Seabed Rock Formation 1	海床岩层1
@@ -228,14 +228,14 @@ id	description	en	local
 		Seabed Rock Formation 2	海床岩层2
 		Two small rock formations on the ocean bed.	海床上的两个小岩层。
 		Seabed Rock Formation 3	海床岩层3
-		Multiple scattered rock stacks on the ocean bed.	多个分散的岩石堆在海床上。
+		Multiple scattered rock stacks on the ocean bed.	海床上的多个分散的石堆。
 		Seabed Rock Formation 4	海床岩层4
-		A flat rocky formation with central mound on the ocean bed.	海床上有中心丘的平坦岩石层。
+		A flat rocky formation with central mound on the ocean bed.	海床上的有中心丘的平坦岩石层。
 		Seabed Rock Formation 5	海床岩层5
 		Seabed Rock Formation 6	海床岩层6
 		Small rocky formation on the ocean bed.	海床上的小岩石。
 		Seabed Rock Formation 7	海床岩层7
-		Several rocky stacks on the ocean bed.	海床上有几堆岩石。
+		Several rocky stacks on the ocean bed.	海床上的几个岩堆。
 		Seabed Caves	海底洞穴
 		A system of underwater caves.	水下洞穴系统。
 		Seabed Shipwreck	海床沉船
@@ -243,28 +243,28 @@ id	description	en	local
 		Seabed Shipwreck 2	海床沉船2
 		A sunken historic timber caravel.	一个沉入水中的历史性的木箱。
 		Ice	冰
-		Ice Variant	冰变体
-		Ice Scale	冰垢
-		Add Ice	加冰
+		Ice Variant	冰块变量
+		Ice Scale	冰块尺寸
+		Add Ice	添加冰块
 		Ice cannot be picked up but can be moved using vehicles. Its size and type can be set in the properties window.	冰不能被捡起，但可以用载具移动。其大小和类型可以在“属性”窗口中设置。
 		Arctic Ocean	北冰洋
 		1km x 1km of empty Arctic ocean.	1 x 1km 的空北冰洋。
 		Arctic Oil Refinery	北极炼油厂
-		An oil refinery with rail access.	有铁路通道的炼油厂。
-		Arctic Ship Breaking Yard	北极破船场
+		An oil refinery with rail access.	有铁路连通的炼油厂。
+		Arctic Ship Breaking Yard	北极船只拆解厂
 		A ship breaking yard with dry dock where boats are brought to be scrapped.	一个带干船坞的破船场，船在那里被运来报废。
 		Arctic Research Facility	北极研究设施
 		An Arctic survey base situated on top of a large iceberg.	位于一座大冰山顶部的北极考察基地。
 		Arctic Mainland Rocks	北极大陆岩石
 		A rocky coastal area surrounded by multiple small icebergs.	被多个小冰山包围的岩石海岸地区。
 		Arctic Oil Platform	北极石油平台
-		An oil platform built on the edge of the Arctic mainland, with road access to a train terminal.	一个建在北极大陆边缘的石油平台，有通往火载具站的公路。
+		An oil platform built on the edge of the Arctic mainland, with road access to a train terminal.	一个建在北极大陆边缘的石油平台，有通往火车站的公路。
 		Arctic Mainland Hill	北极大陆山
-		A snow-covered rocky hill. Small section of train line with junction boxes.	白雪覆盖的岩石山。带有接线盒的铁路线小区段。
-		Arctic Mainland Outcrop	北极大陆露头
+		A snow-covered rocky hill. Small section of train line with junction boxes.	白雪覆盖的岩石山。带有岔路的铁路线小区段。
+		Arctic Mainland Outcrop	露出海面的北极大陆
 		Southern end of an outcrop off the coast of the Arctic mainland.	北极大陆海岸外露头的南端。
 		Arctic Mainland Outpost	北极大陆哨所
-		An Arctic research outpost, large inland lake and train terminal with road access.	北极研究前哨，大型内陆湖和火载具站，有公路通道。
+		An Arctic research outpost, large inland lake and train terminal with road access.	北极研究前哨，大型内陆湖和有公路连接的火车站。
 		Arctic Fishing Village	北极渔村
 		A small fishing village with a dock and a un-manned lighthouse.	一个有码头和无人驾驶灯塔的小渔村。
 		Arctic Mainland Arch	北极大陆拱
@@ -274,9 +274,9 @@ id	description	en	local
 		Arctic Mainland Coast	北极大陆海岸
 		A small section of coastline with multiple small icebergs offshore.	海岸线的一小部分，离岸有多个小冰山。
 		Arctic Container Depot	北极集装箱仓库
-		A large shipping container depot with several docking areas and trainline access.	有多个停靠区和铁路线通道的大型集装箱仓库。
+		A large shipping container depot with several docking areas and trainline access.	有多个停泊区和铁路线连接的大型集装箱仓库。
 		Arctic Underwater Mining	北极水下矿井
-		An underwater drilling and mining facility with dock and trainline access.	水下钻井和采矿设施，带码头和火载具线通道。
+		An underwater drilling and mining facility with dock and trainline access.	水下钻井和采矿设施，带码头和火铁路连接。
 		Multiplayer Island Base	多人岛屿基地
 		A large island complete with dock and airstrip, both featuring with two workbenches.	一个大型岛屿，配有码头和简易机场，均配有两个工作台。
 		Ice Shelf 1	冰架1
@@ -1771,7 +1771,7 @@ id	description	en	local
 		Diving Equipment	潜水装备
 		Deep Sea Diving	深潜装备
 		Firefighting Equipment	消防装备
-		Advanced Rescue Equipment	先进救援装备
+		Advanced Rescue Equipment	高级救援装备
 		Arctic Rescue	极地救援装备
 		Sensors	传感器
 		Advanced Sensors	高级传感器
@@ -1878,8 +1878,8 @@ id	description	en	local
 		Strobe Light	频闪灯
 		Strobe Light (infrared)	频闪灯(红外)
 		Transponder	应答器
-		Underwater Welding Torch	水下火旱枪
-		Welding Torch	火旱枪
+		Underwater Welding Torch	水下焊枪
+		Welding Torch	焊枪
 			
 			
 			
@@ -1922,7 +1922,7 @@ id	description	en	local
 		105mm Shell	105mm口径炮弹
 		203mm Shell	203mm口径炮弹
 		Temperature	温度
-		Auto Refuel	自动重新补充
+		Auto Refuel	自动补充燃料
 		Third Person Vehicle	第三人称载具
 		BLUEPRINT UNLOCK	蓝图解锁
 		BLUEPRINT	蓝图
@@ -1961,64 +1961,64 @@ id	description	en	local
 def_01_block_name		Block	方块
 def_01_block_desc		The block is a quarter-metre in size. Components can be attached to all 6 faces.	这个方块有四分之一米大。组件可以连接收到所有6个面。
 def_01_block_s_desc		Basic cube-shaped building block.	基本立方形建筑块。
-def_01_block_static_name		Static Block	静态块
+def_01_block_static_name		Static Block	基准块
 def_01_block_static_desc		This block cannot be removed.	无法删除此块。
-def_01_block_static_s_desc		Static root block used as a base for all vehicles.	用作所有载具底座的静态根块。
-def_01_block_weight_name		Weight Block	重量块
-def_01_block_weight_desc		Weight blocks have a larger impact on the vehicle's centre of mass, making them useful for balance and stability.	重量块对载具的质心有较大的影响，使其有助于平衡和稳定。
-def_01_block_weight_s_desc		Basic cube-shaped building block with an increased mass.	质量增加的基本立方形建筑块。
-def_02_wedge_name		Wedge	斜面
-def_02_wedge_desc		Components can be attached to all faces, with the exception of the sloped face.	组件可以附着到所有面，但斜面除外。
-def_02_wedge_s_desc		Basic wedge-shaped building block.	基本的斜面建筑块。
-def_03_pyramid_name		Pyramid	楔形
-def_03_pyramid_desc		Components can be attached to all faces, with the exception of the triangular face. Pyramids can act as a corner-piece for perpendicular lines of wedge blocks.	组件可以附加到所有面，三角形面除外。楔形可以作为楔形块垂直线的角件。
-def_03_pyramid_s_desc		Basic pyramid-shaped building block. 	基本的楔形形建筑块。
-def_04_invpyramid_name		Inverse Pyramid	倒楔形
-def_04_invpyramid_desc		Components can be attached to all faces, with the exception of the triangular face. Inverse pyramids are useful for closing gaps between perpendicular lines of wedge and pyramid blocks.	组件可以附加到所有面，三角形面除外。反向棱锥体用于闭合斜面和棱锥体块的垂直线之间的间隙。
-def_04_invpyramid_s_desc		Basic inverse pyramid-shaped building block.	基本的倒楔形形建筑块。
-def_05_wedge_2_name		Wedge 1x2	斜面1x2
-def_05_wedge_2_desc		Components can be attached to all faces, with the exception of the sloped face.	组件可以附着到所有面，但斜面除外。
-def_05_wedge_2_s_desc		1x2 wedge-shaped building block.	1x2斜面砌块。
-def_06_pyramid_2_name		Pyramid 1x2	楔形1x2
-def_06_pyramid_2_desc		Components can be attached to all faces, with the exception of the triangular face. Pyramids can act as a corner-piece for perpendicular lines of wedge blocks.	组件可以附加到所有面，三角形面除外。楔形可以作为楔形块垂直线的角件。
+def_01_block_static_s_desc		Static root block used as a base for all vehicles.	用作所有载具底座的基准块。
+def_01_block_weight_name		Weight Block	配重块
+def_01_block_weight_desc		Weight blocks have a larger impact on the vehicle's centre of mass, making them useful for balance and stability.	配重块对载具的质心有较大的影响，使其有助于平衡和稳定。
+def_01_block_weight_s_desc		Basic cube-shaped building block with an increased mass.	高重量的基本立方形建筑块。
+def_02_wedge_name		Wedge	楔形块
+def_02_wedge_desc		Components can be attached to all faces, with the exception of the sloped face.	组件可以附着到除斜面外的所有面。
+def_02_wedge_s_desc		Basic wedge-shaped building block.	基本的楔形建筑块。
+def_03_pyramid_name		Pyramid	锥形块
+def_03_pyramid_desc		Components can be attached to all faces, with the exception of the triangular face. Pyramids can act as a corner-piece for perpendicular lines of wedge blocks.	组件可以附加到除三角面外的所有面。锥形块可以作为楔形块侧面的角件。
+def_03_pyramid_s_desc		Basic pyramid-shaped building block. 	基本的锥形建筑块。
+def_04_invpyramid_name		Inverse Pyramid	倒锥形块
+def_04_invpyramid_desc		Components can be attached to all faces, with the exception of the triangular face. Inverse pyramids are useful for closing gaps between perpendicular lines of wedge and pyramid blocks.	组件可以附加到除三角面的所有面。倒锥形块用于填补楔形块侧面和锥形块之间的间隙。
+def_04_invpyramid_s_desc		Basic inverse pyramid-shaped building block.	基本的倒锥形建筑块。
+def_05_wedge_2_name		Wedge 1x2	1x2楔形块
+def_05_wedge_2_desc		Components can be attached to all faces, with the exception of the sloped face.	组件可以附着到除斜面外的所有面。
+def_05_wedge_2_s_desc		1x2 wedge-shaped building block.	1x2楔形建筑块。
+def_06_pyramid_2_name		Pyramid 1x2	1x2锥形块
+def_06_pyramid_2_desc		Components can be attached to all faces, with the exception of the triangular face. Pyramids can act as a corner-piece for perpendicular lines of wedge blocks.	组件可以附加到除三角面外的所有面。锥形块可以作为楔形块侧面的角件。
 def_06_pyramid_2_s_desc		1x2 pyramid-shaped building block. 	1x2楔形形建筑块。
-def_07_invpyramid_2_name		Inverse pyramid 1x2	倒楔形1x2
-def_07_invpyramid_2_desc		Components can be attached to all faces, with the exception of the triangular face. Inverse pyramids are useful for closing gaps between perpendicular lines of wedge and pyramid blocks.	组件可以附加到所有面，三角形面除外。反向棱锥体用于闭合斜面和棱锥体块的垂直线之间的间隙。
-def_07_invpyramid_2_s_desc		1x2 inverse pyramid-shaped building block.	1x2倒楔形形砌块。
-def_08_wedge_4_name		Wedge 1x4	斜面1x4
-def_08_wedge_4_desc		Components can be attached to all faces, with the exception of the sloped face.	组件可以附着到所有面，但斜面除外。
-def_08_wedge_4_s_desc		1x4 wedge-shaped building block.	1x4楔形砌块。
-def_09_pyramid_4_name		Pyramid 1x4	楔形1x4
-def_09_pyramid_4_desc		Components can be attached to all faces, with the exception of the triangular face. Pyramids can act as a corner-piece for perpendicular lines of wedge blocks.	组件可以附加到所有面，三角形面除外。楔形可以作为楔形块垂直线的角件。
-def_09_pyramid_4_s_desc		1x4 pyramid-shaped building block. 	1x4楔形形建筑块。
-def_10_invpyramid_4_name		Inverse Pyramid 1x4	倒楔形1x4
-def_10_invpyramid_4_desc		Components can be attached to all faces, with the exception of the triangular face. Inverse pyramids are useful for closing gaps between perpendicular lines of wedge and pyramid blocks.	组件可以附加到所有面，三角形面除外。反向棱锥体用于闭合斜面和棱锥体块的垂直线之间的间隙。
-def_10_invpyramid_4_s_desc		1x4 inverse pyramid-shaped building block.	1x4倒楔形形砌块。
+def_07_invpyramid_2_name		Inverse pyramid 1x2	1x2倒锥形块
+def_07_invpyramid_2_desc		Components can be attached to all faces, with the exception of the triangular face. Inverse pyramids are useful for closing gaps between perpendicular lines of wedge and pyramid blocks.	组件可以附加到组件可以附加到除三角面外的所有面所有面。倒锥形块用于填补楔形块侧面和锥形块之间的间。
+def_07_invpyramid_2_s_desc		1x2 inverse pyramid-shaped building block.	1x2倒锥形建筑块。
+def_08_wedge_4_name		Wedge 1x4	1x4楔形块
+def_08_wedge_4_desc		Components can be attached to all faces, with the exception of the sloped face.	组件可以附着到除斜面外的所有面。
+def_08_wedge_4_s_desc		1x4 wedge-shaped building block.	1x4楔形形建筑块。
+def_09_pyramid_4_name		Pyramid 1x4	1x4锥形块
+def_09_pyramid_4_desc		Components can be attached to all faces, with the exception of the triangular face. Pyramids can act as a corner-piece for perpendicular lines of wedge blocks.	组件可以附加到除三角面外的所有面。锥形块可以作为楔形块侧面的角件。
+def_09_pyramid_4_s_desc		1x4 pyramid-shaped building block. 	1x4锥形建筑块。
+def_10_invpyramid_4_name		Inverse Pyramid 1x4	1x4倒锥形块
+def_10_invpyramid_4_desc		Components can be attached to all faces, with the exception of the triangular face. Inverse pyramids are useful for closing gaps between perpendicular lines of wedge and pyramid blocks.	组件可以附加到组件可以附加到除三角面外的所有面所有面。倒锥形块用于填补楔形块侧面和锥形块之间的间。
+def_10_invpyramid_4_s_desc		1x4 inverse pyramid-shaped building block.	1x4倒锥形建筑块。
 def_11_pyramid_2x2_name		Pyramid 2x2	楔形2x2
-def_11_pyramid_2x2_desc		Components can be attached to all faces, with the exception of the triangular face. Pyramids can act as a corner-piece for perpendicular lines of wedge blocks.	组件可以附加到所有面，三角形面除外。楔形可以作为楔形块垂直线的角件。
-def_11_pyramid_2x2_s_desc		2x2 pyramid-shaped building block. 	2x2楔形形建筑块。
+def_11_pyramid_2x2_desc		Components can be attached to all faces, with the exception of the triangular face. Pyramids can act as a corner-piece for perpendicular lines of wedge blocks.	组件可以附加到除三角面外的所有面。锥形块可以作为楔形块侧面的角件。
+def_11_pyramid_2x2_s_desc		2x2 pyramid-shaped building block. 	2x2锥形建筑块。
 def_12_pyramid_2x4_name		Pyramid 2x4	楔形2x4
-def_12_pyramid_2x4_desc		Components can be attached to all faces, with the exception of the triangular face. Pyramids can act as a corner-piece for perpendicular lines of wedge blocks.	组件可以附加到所有面，三角形面除外。楔形可以作为楔形块垂直线的角件。
-def_12_pyramid_2x4_s_desc		2x4 pyramid-shaped building block. 	2x4楔形形建筑块。
+def_12_pyramid_2x4_desc		Components can be attached to all faces, with the exception of the triangular face. Pyramids can act as a corner-piece for perpendicular lines of wedge blocks.	组件可以附加到除三角面外的所有面。锥形块可以作为楔形块侧面的角件。
+def_12_pyramid_2x4_s_desc		2x4 pyramid-shaped building block. 	2x4锥形建筑块。
 def_13_pyramid_4x4_name		Pyramid 4x4	楔形4x4
-def_13_pyramid_4x4_desc		Components can be attached to all faces, with the exception of the triangular face. Pyramids can act as a corner-piece for perpendicular lines of wedge blocks.	组件可以附加到所有面，三角形面除外。楔形可以作为楔形块垂直线的角件。
-def_13_pyramid_4x4_s_desc		4x4 pyramid-shaped building block. 	4x4楔形形建筑块。
+def_13_pyramid_4x4_desc		Components can be attached to all faces, with the exception of the triangular face. Pyramids can act as a corner-piece for perpendicular lines of wedge blocks.	组件可以附加到除三角面外的所有面。锥形块可以作为楔形块侧面的角件。
+def_13_pyramid_4x4_s_desc		4x4 pyramid-shaped building block. 	4x4锥形建筑块。
 def_14_invpyramid_2x2_name		Inverse Pyramid 2x2	倒楔形2x2
-def_14_invpyramid_2x2_desc		Components can be attached to all faces, with the exception of the triangular face. Pyramids can act as a corner-piece for perpendicular lines of wedge blocks.	组件可以附加到所有面，三角形面除外。楔形可以作为楔形块垂直线的角件。
-def_14_invpyramid_2x2_s_desc		2x2 inverse pyramid-shaped building block.	2x2倒楔形形建筑块。
+def_14_invpyramid_2x2_desc		Components can be attached to all faces, with the exception of the triangular face. Pyramids can act as a corner-piece for perpendicular lines of wedge blocks.	组件可以附加到除三角面外的所有面。锥形块可以作为楔形块侧面的角件。
+def_14_invpyramid_2x2_s_desc		2x2 inverse pyramid-shaped building block.	2x2倒锥形建筑块。
 def_15_invpyramid_2x4_name		Inverse Pyramid 2x4	倒楔形2x4
-def_15_invpyramid_2x4_desc		Components can be attached to all faces, with the exception of the triangular face. Pyramids can act as a corner-piece for perpendicular lines of wedge blocks.	组件可以附加到所有面，三角形面除外。楔形可以作为楔形块垂直线的角件。
-def_15_invpyramid_2x4_s_desc		2x4 inverse pyramid-shaped building block.	2x4倒楔形形建筑块。
+def_15_invpyramid_2x4_desc		Components can be attached to all faces, with the exception of the triangular face. Pyramids can act as a corner-piece for perpendicular lines of wedge blocks.	组件可以附加到除三角面外的所有面。锥形块可以作为楔形块侧面的角件。
+def_15_invpyramid_2x4_s_desc		2x4 inverse pyramid-shaped building block.	2x4倒锥形建筑块。
 def_16_invpyramid_4x4_name		Inverse Pyramid 4x4	倒楔形4x4
-def_16_invpyramid_4x4_desc		Components can be attached to all faces, with the exception of the triangular face. Pyramids can act as a corner-piece for perpendicular lines of wedge blocks.	组件可以附加到所有面，三角形面除外。楔形可以作为楔形块垂直线的角件。
-def_16_invpyramid_4x4_s_desc		4x4 inverse pyramid-shaped building block.	4x4倒楔形形建筑块。
+def_16_invpyramid_4x4_desc		Components can be attached to all faces, with the exception of the triangular face. Pyramids can act as a corner-piece for perpendicular lines of wedge blocks.	组组件可以附加到除三角面外的所有面。锥形块可以作为楔形块侧面的角件。
+def_16_invpyramid_4x4_s_desc		4x4 inverse pyramid-shaped building block.	4x4倒锥形建筑块。
 def_aircraft_engine_name		Medium Engine	中型发动机
 def_aircraft_engine_desc		An on/off signal controls engine startup and throttle signal controls energy output.	开/关信号控制发动机操作，油门信号控制能量输出。
 def_aircraft_engine_s_desc		Medium diesel engine that can be connected to powered components.	可连接收到动力部件的中型柴油机。
 def_aircraft_engine_node_0_label		Throttle	油门
 def_aircraft_engine_node_0_desc		Standard value between 0 and 1 that controls the throttle of the engine.	控制发动机前进/后退油门的-1和1之间的标准值。
 def_aircraft_engine_node_1_label		Starter	发动机开/关
-def_aircraft_engine_node_1_desc		Increases the engine RPS using electrical power to start up the engine.	控制发动机是否产生任何动力。
+def_aircraft_engine_node_1_desc		Increases the engine RPS using electrical power to start up the engine.	使用电能启动发动机来提高转速。
 def_aircraft_engine_node_2_label		Power	动力
 def_aircraft_engine_node_2_desc		The power supplied by the engine for inputting to other components.	发动机为输入其它部件而提供的动力。
 def_aircraft_engine_node_3_label		Fuel	燃料
@@ -2026,21 +2026,21 @@ def_aircraft_engine_node_3_desc		The fuel supply for the engine.	发动机的燃
 def_aircraft_engine_node_4_label		Air	空气
 def_aircraft_engine_node_4_desc		The air supply for the engine.	发动机的空气供给。
 def_aircraft_engine_node_5_label		In Coolant	冷却液进入
-def_aircraft_engine_node_5_desc		The return flow (cold) for the coolant system.	冷却系统的回流(冷)。
+def_aircraft_engine_node_5_desc		The return flow (cold) for the coolant system.	连接冷却系统的输出(冷)。
 def_aircraft_engine_node_6_label		Out Coolant	冷却液流出
-def_aircraft_engine_node_6_desc		The output flow (hot) for the coolant system.	冷却系统的输出流量(热)。
+def_aircraft_engine_node_6_desc		The output flow (hot) for the coolant system.	连接冷却系统的输入(热)。
 def_aircraft_engine_node_7_label		Exhaust	排气
 def_aircraft_engine_node_7_desc		Out flow for combusted fumes from the engine.	从发动机排出的燃烧废气。
 def_aircraft_engine_node_8_label		Exhaust	排气
 def_aircraft_engine_node_8_desc		Out flow for combusted fumes from the engine.	从发动机排出的燃烧废气。
-def_aircraft_engine_node_9_label		RPS	每秒旋转次数(RPS)
+def_aircraft_engine_node_9_label		RPS	转速(RPS)
 def_aircraft_engine_node_9_desc		Output value giving data info on engine speed.	输出值，提供有关发动机转速的数据信息。
 def_aircraft_engine_node_10_label		Temperature	温度
 def_aircraft_engine_node_10_desc		Output value giving data info on engine temperature.	输出值，提供有关发动机温度的数据信息。
 def_aircraft_engine_node_11_label		Electric	电源
 def_aircraft_engine_node_11_desc		Electrical power connection.	电源连接。
 def_aircraft_propeller_name		Aircraft Propeller	飞机螺旋桨
-def_aircraft_propeller_desc		The amount of thrust produced is directly linked to how much torque it receives from a connected engine.	产生的推力大小直接关系到它从连接的发动机上获得的扭矩。
+def_aircraft_propeller_desc		The amount of thrust produced is directly linked to how much torque it receives from a connected engine.	产生的推力大小取决于它从连接的发动机上获得的扭矩。
 def_aircraft_propeller_s_desc		A large propeller that can be used to generate thrust.	可以用来产生推力的大螺旋桨。
 def_aircraft_propeller_node_0_label		Power Received	接收动力
 def_aircraft_propeller_node_0_desc		Receives power generated by an engine.	接收发动机产生的能量。
@@ -2050,14 +2050,14 @@ def_altimeter_name		Altimeter	高度计
 def_altimeter_desc		Outputs distance above sea-level in meters.	输出高于海平面的距离(米)。
 def_altimeter_s_desc		An altitude sensor.	高度传感器。
 def_altimeter_node_0_label		Altitude	海拔高度
-def_altimeter_node_0_desc		The measured altitude of the component in metres above sea-level.	组件的测量高度，以海平面以上米为单位。
+def_altimeter_node_0_desc		The measured altitude of the component in metres above sea-level.	组件测量的基于海平面的高度，以米为单位。
 def_angular_speed_sensor_name		Angular Speed Sensor	角速度传感器
-def_angular_speed_sensor_desc		This sensor outputs the angular speed of the component about the component's y axis.	该传感器输出组件绕组件y轴的角速度。
-def_angular_speed_sensor_s_desc		This sensor outputs its current angular speed in rotations per second, allowing you to measure how fast your vehicle is rotating.	此传感器以每秒旋转的速度输出当前的角速度，允许您测量载具旋转的速度。
+def_angular_speed_sensor_desc		This sensor outputs the angular speed of the component about the component's y axis.	该传感器输出组件绕y轴的角速度。
+def_angular_speed_sensor_s_desc		This sensor outputs its current angular speed in rotations per second, allowing you to measure how fast your vehicle is rotating.	此传感器以转/秒输出当前的角速度，允许您测量载具旋转的速度。
 def_angular_speed_sensor_node_0_label		Angular Speed	角速度
-def_angular_speed_sensor_node_0_desc		The sensor's angular speed in rotations per second.	传感器的角速度，以每秒的旋转为单位。
+def_angular_speed_sensor_node_0_desc		The sensor's angular speed in rotations per second.	传感器的角速度，以转/秒为单位。
 def_artificial_horizon_name		Artificial Horizon	水平仪
-def_artificial_horizon_desc		The horizon ball rotates up and down as your vehicle's pitch changes, and the central line gives an indication of your vehicle's roll. This is a useful component to have in your helicopter to make it easier to fly at night and in thick fog. An on/off signal can be used to toggle the backlight.	水平球随着载具的俯仰(Pitch)变化上下旋转，中心线指示载具的侧倾。这是一个有用的组成部分，你的直升机，使它更容易在夜间和浓雾中飞行。开/关信号可用于切换背光。
+def_artificial_horizon_desc		The horizon ball rotates up and down as your vehicle's pitch changes, and the central line gives an indication of your vehicle's roll. This is a useful component to have in your helicopter to make it easier to fly at night and in thick fog. An on/off signal can be used to toggle the backlight.	水平球随着载具的俯仰(Pitch)变化上下旋转，中心线指示载具的横滚（Roll）。给你的直升机配备该组件，能够使它更容易在夜间和浓雾中飞行。开/关信号可用于切换背光。
 def_artificial_horizon_s_desc		The artificial horizon shows you the orientation of your vehicle with respect to the horizon line.	水平仪显示载具相对于水平的方向。
 def_artificial_horizon_node_0_label		Backlight	背光
 def_artificial_horizon_node_0_desc		Enables the backlight when receiving an on signal.	接收到打开信号时启用背光。
@@ -2068,9 +2068,9 @@ def_azimuth_thruster_desc		The thruster can be attached to a robotic pivot to pr
 def_azimuth_thruster_s_desc		An azimuth thruster for boats.	船用方位推进器。
 def_azimuth_thruster_node_0_label		Power	动力
 def_azimuth_thruster_node_0_desc		Receives power generated by an engine.	接收发动机产生的能量。
-def_battery_large_name		Electric Battery Large	大电池
+def_battery_large_name		Electric Battery Large	大型电池
 def_battery_large_desc			
-def_battery_large_s_desc		A large battery array for storing electrical charge.	储存电荷的大电池阵列。
+def_battery_large_s_desc		A large battery array for storing electrical charge.	储存电荷的大型电池阵列。
 def_battery_large_node_0_label		Electric Store	电力储存
 def_battery_large_node_0_desc		Energy storage for the electrical system.	电力系统的能量储存。
 def_battery_large_node_1_label		Charge	剩余电量
@@ -2082,18 +2082,18 @@ def_battery_medium_node_0_label		Electric Store	电力存储
 def_battery_medium_node_0_desc		Energy storage for the electrical system.	电力系统的能量储存。
 def_battery_medium_node_1_label		Charge	剩余电量
 def_battery_medium_node_1_desc		Data output giving the charge of the battery from 0 to 1.	从0到1显示电池电量的数据输出。
-def_battery_small_name		Electric Battery Small	小电池
+def_battery_small_name		Electric Battery Small	小型电池
 def_battery_small_desc			
-def_battery_small_s_desc		A small battery for storing electrical charge.	储存电荷的小电池。
+def_battery_small_s_desc		A small battery for storing electrical charge.	储存电荷的小型电池。
 def_battery_small_node_0_label		Electric Store	电力存储
 def_battery_small_node_0_desc		Energy storage for the electrical system.	电力系统的能量储存。
 def_battery_small_node_1_label		Charge	剩余电量
 def_battery_small_node_1_desc		Data output giving the charge of the battery from 0 to 1.	从0到1显示电池电量的数据输出。
 def_button_key_name		Key Button	钥匙开关
-def_button_key_desc		Once activated, pressing the button again will deactivate it instantly. The hold duration can be customised by selecting this component with the select tool. The external input can be used to simulate holding the button down using the output of another component. The button's default state can be configured by selecting it with the select component.	一旦激活，再次按下按钮将立即停用。通过使用选择工具选择此组件，可以自定义保持持续时间。外部输入可用于模拟使用其他组件的输出按住按钮。通过使用select组件选择按钮，可以配置该按钮的默认状态。
-def_button_key_s_desc		A button that must be held down for a set duration before activating.	一种在激活前必须按住一定时间的按钮。
+def_button_key_desc		Once activated, pressing the button again will deactivate it instantly. The hold duration can be customised by selecting this component with the select tool. The external input can be used to simulate holding the button down using the output of another component. The button's default state can be configured by selecting it with the select component.	一旦激活，再次按下按钮将立即停用。通过使用选择工具选择此组件，可以自定义启动开关所需的按压时间。外部输入可用于模拟使用其他组件的输出按住按钮。通过使用选择工具选择按钮，可以配置该按钮的默认状态。
+def_button_key_s_desc		A button that must be held down for a set duration before activating.	一种需要持续按压一段时间才能激活的按钮。
 def_button_key_node_0_label		Activated	激活
-def_button_key_node_0_desc		Outputs an on signal when [e] has been held on the button for the set duration.	当[e]在设定的持续时间内按住按钮时，输出接通信号。
+def_button_key_node_0_desc		Outputs an on signal when [e] has been held on the button for the set duration.	当[e]按压超过设定的时长后，输出接通信号。
 def_button_key_node_1_label		External Input	外部输入
 def_button_key_node_1_desc		Allows an external on/off signal to hold the button down.	允许外部开/关信号按住按钮。
 def_button_key_node_2_label		Electric	电源
@@ -2107,7 +2107,7 @@ def_button_keypad_large_node_1_label		Backlight	背光
 def_button_keypad_large_node_1_desc		Enables the backlight when receiving an on signal.	接收到打开信号时启用背光。
 def_button_keypad_large_node_2_label		Output B	输出B
 def_button_keypad_large_node_2_desc		Outputs the second stored value.	输出第二个存储值。
-def_button_keypad_large_node_3_label		Pulse	脉搏
+def_button_keypad_large_node_3_label		Pulse	脉冲
 def_button_keypad_large_node_3_desc		Emits a short pulse when a value is entered.	输入值时发出短脉冲。
 def_button_keypad_large_node_4_label		Electric	电源
 def_button_keypad_large_node_4_desc		Electrical power connection.	电源连接。
@@ -2129,32 +2129,32 @@ def_button_lock_node_1_label		Unlock	解锁
 def_button_lock_node_1_desc		Allows the button to be interacted with when receiving an on signal.	允许按钮在接收到打开信号时与之交互。
 def_button_lock_node_2_label		Electric	电源
 def_button_lock_node_2_desc		Electrical power connection.	电源连接。
-def_button_push_name		Push Button	按钮
+def_button_push_name		Push Button	按压按钮
 def_button_push_desc		An external on/off signal can also be used to control whether or not the button is pressed, allowing you to chain multiple buttons together to unify their outputs.	外部开/关信号也可用于控制是否按下按钮，允许您将多个按钮链接在一起，以统一其输出。
-def_button_push_s_desc		A button that outputs an on signal when you are pressing [e] on it, and an off signal when you are not.	一种按钮，当你按[e]时，它输出一个接通信号，当你不按时，它输出一个断开信号。
+def_button_push_s_desc		A button that outputs an on signal when you are pressing [e] on it, and an off signal when you are not.	一种按钮，当你按住[e]时，它输出一个接通信号，当你松开时，它输出一个断开信号。
 def_button_push_node_0_label		Pressed	按下
-def_button_push_node_0_desc		Outputs an on signal when you are pressing [e] on the button, and an off signal otherwise.	当您按下按钮上的[e]时，输出接通信号，否则输出断开信号。
+def_button_push_node_0_desc		Outputs an on signal when you are pressing [e] on the button, and an off signal otherwise.	当您按住按钮上的[e]时，输出接通信号，否则输出断开信号。
 def_button_push_node_1_label		External Input	外部输入
 def_button_push_node_1_desc		Allows an external on/off signal to control whether or not the button is pressed.	允许外部开/关信号控制按钮是否按下。
 def_button_push_node_2_label		Electric	电源
 def_button_push_node_2_desc		Electrical power connection.	电源连接。
-def_button_push_2side_name		Push Button (2 Sided)	按钮(双面)
+def_button_push_2side_name		Push Button (2 Sided)	按压按钮(双面)
 def_button_push_2side_desc		An external on/off signal can also be used to control whether or not the button is pressed, allowing you to chain multiple buttons together to unify their outputs.	外部开/关信号也可用于控制是否按下按钮，允许您将多个按钮链接在一起，以统一其输出。
-def_button_push_2side_s_desc		A button that outputs an on signal when you are pressing [e] on it, and an off signal when you are not.	一种按钮，当你按[e]时，它输出一个接通信号，当你不按时，它输出一个断开信号。
+def_button_push_2side_s_desc		A button that outputs an on signal when you are pressing [e] on it, and an off signal when you are not.	一种按钮，当你按住[e]时，它输出一个接通信号，当你松开时，它输出一个断开信号。
 def_button_push_2side_node_0_label		Pressed	按下
-def_button_push_2side_node_0_desc		Outputs an on signal when you are pressing [e] on the button, and an off signal otherwise.	当您按下按钮上的[e]时，输出接通信号，否则输出断开信号。
+def_button_push_2side_node_0_desc		Outputs an on signal when you are pressing [e] on the button, and an off signal otherwise.	当您按住按钮上的[e]时，输出接通信号，否则输出断开信号。
 def_button_push_2side_node_1_label		External Input	外部输入
 def_button_push_2side_node_1_desc		Allows an external on/off signal to control whether or not the button is pressed.	允许外部开/关信号控制按钮是否按下。
 def_button_push_2side_node_2_label		Electric	电源
 def_button_push_2side_node_2_desc		Electrical power connection.	电源连接。
 def_button_throttle_lever_name		Throttle Lever	油门推杆
 def_button_throttle_lever_desc		The output ranges from -1 to 1, and will increase/decrease depending on which half of the lever you interact with. The two on/off inputs can be used to control the lever externally with different buttons. The speed of the lever can be configured by selecting this component with the select tool.	输出范围从-1到1，并且将根据与哪一半控制杆交互而增加/减少。两个开/关输入可用于用不同的按钮从外部控制操纵杆。可以通过使用选择工具选择该部件来配置操纵杆的速度。
-def_button_throttle_lever_s_desc		A throttle lever that acts as two buttons controlling one number output.	作为两个按钮控制一个数字输出的节流杆。
-def_button_throttle_lever_node_0_label		Up	加输入
-def_button_throttle_lever_node_0_desc		Increases the Throttle Value when input is held.	保持输入时增加油门值。
-def_button_throttle_lever_node_1_label		Down	减输入
-def_button_throttle_lever_node_1_desc		Decreases the Throttle Value when input is held.	保持输入时减小油门值。
-def_button_throttle_lever_node_2_label		Throttle	油门值
+def_button_throttle_lever_s_desc		A throttle lever that acts as two buttons controlling one number output.	作为两个按钮控制一个数字输出的油门推杆。
+def_button_throttle_lever_node_0_label		Up	增加
+def_button_throttle_lever_node_0_desc		Increases the Throttle Value when input is held.	按压时持续增加油门值。
+def_button_throttle_lever_node_1_label		Down	减少
+def_button_throttle_lever_node_1_desc		Decreases the Throttle Value when input is held.	按压时持续减小油门值。
+def_button_throttle_lever_node_2_label		Throttle	油门
 def_button_throttle_lever_node_2_desc		Outputs the stored Throttle Value.	输出存储的油门值。
 def_button_throttle_lever_node_3_label		Electric	电源
 def_button_throttle_lever_node_3_desc		Electrical power connection.	电源连接。
@@ -2167,7 +2167,7 @@ def_button_toggle_node_1_label		External Input	外部输入
 def_button_toggle_node_1_desc		Allows an external on/off signal to control whether or not the button is pressed.	允许外部开/关信号控制按钮是否按下。
 def_button_toggle_node_2_label		Electric	电源
 def_button_toggle_node_2_desc		Electrical power connection.	电源连接。
-def_button_toggle_2side_name		Toggle Button (2 Sided)	切换按钮(双面)
+def_button_toggle_2side_name		Toggle Button (2 Sided)	开关按钮(双面)
 def_button_toggle_2side_desc		An external on/off signal can also be used to control whether or not the button is pressed, allowing you to chain multiple buttons together to unify their outputs. The button's default state can be configured by selecting it with the select component.	外部开/关信号也可用于控制是否按下按钮，允许您将多个按钮链接在一起，以统一其输出。通过使用select组件选择按钮，可以配置该按钮的默认状态。
 def_button_toggle_2side_s_desc		A button that toggles between sending an on or off signal when you press [e] on it.	当您按[e]时，在发送开或关信号之间切换的按钮。
 def_button_toggle_2side_node_0_label		Toggled	切换
@@ -2184,51 +2184,51 @@ def_buzzer_node_0_desc		Plays the selected sound when toggled from off to on.	�
 def_buzzer_node_1_label		Electric	电源
 def_buzzer_node_1_desc		Electrical power connection.	电源连接。
 def_camera_gimbal_name		Camera Gimbal	摄像头云台
-def_camera_gimbal_desc		Has an infrared mode as well as pivot controls, a variable field of view.	具有红外模式以及枢轴控件和可变视野。
-def_camera_gimbal_s_desc		A gimbal camera with video output feed.	带视频输出源的万向节摄像机。
-def_camera_gimbal_node_0_label		Camera Feed	摄像头输入
+def_camera_gimbal_desc		Has an infrared mode as well as pivot controls, a variable field of view.	具有红外模式以及转动控制和可变的视野。
+def_camera_gimbal_s_desc		A gimbal camera with video output feed.	带视频输出源的云台摄像机。
+def_camera_gimbal_node_0_label		Camera Feed	摄像头输出
 def_camera_gimbal_node_0_desc			
 def_camera_gimbal_node_1_label		Electric	电源
 def_camera_gimbal_node_1_desc			
 def_camera_gimbal_node_2_label		Infrared Mode	红外模式
 def_camera_gimbal_node_2_desc		Controls whether or not the infrared mode is switched on.	控制红外模式是否打开。
 def_camera_gimbal_node_3_label		Field of View	视野
-def_camera_gimbal_node_3_desc		Controls the level of zoom of the camera.	控制摄像头的缩放级别。
-def_camera_gimbal_node_4_label		Pivot Rotation	旋转枢轴
-def_camera_gimbal_node_4_desc		Controls the rotation of the camera base.	控制摄像头底座的旋转。
-def_camera_gimbal_node_5_label		Pitch Rotation	旋转节距
-def_camera_gimbal_node_5_desc		Controls the rotation of the camera head.	控制摄影机头部的旋转。
+def_camera_gimbal_node_3_desc		Controls the level of zoom of the camera.	控制摄像头的缩放。
+def_camera_gimbal_node_4_label		Pivot Rotation	航向控制
+def_camera_gimbal_node_4_desc		Controls the rotation of the camera base.	控制摄像头底座的水平旋转。
+def_camera_gimbal_node_5_label		Pitch Rotation	俯仰控制
+def_camera_gimbal_node_5_desc		Controls the rotation of the camera head.	控制摄影机的俯仰旋转。
 def_camera_gimbal_laser_name		Camera Stabilized	自稳定云台摄像机
-def_camera_gimbal_laser_desc		Has an infrared mode, variable field of view, stabilized and tracking modes.	拥有红外模式、可变FOV、自稳定，还有跟踪模式
+def_camera_gimbal_laser_desc		Has an infrared mode, variable field of view, stabilized and tracking modes.	拥有红外模式、可变视野以及锁定/跟踪模式
 def_camera_gimbal_laser_s_desc		A stabilized gimbal camera with video output feed.	一个拥有视频信号输出的自稳定云台摄像头
 def_camera_gimbal_laser_node_0_label		Camera Feed	视频输出
 def_camera_gimbal_laser_node_0_desc			
-def_camera_gimbal_laser_node_1_label		Electric	电力连接
+def_camera_gimbal_laser_node_1_label		Electric	电源
 def_camera_gimbal_laser_node_1_desc			
 def_camera_gimbal_laser_node_2_label		Infrared Mode	红外模式
 def_camera_gimbal_laser_node_2_desc		Controls whether or not the infrared mode is switched on.	控制红外模式是否开启
 def_camera_gimbal_laser_node_3_label		Enable Laser	开启激光
 def_camera_gimbal_laser_node_3_desc		Enables the Laser.	开启激光
-def_camera_gimbal_laser_node_4_label		Field of View	FOV(可视角)
-def_camera_gimbal_laser_node_4_desc		Controls the level of zoom of the camera.	控制摄像头缩放程度
-def_camera_gimbal_laser_node_5_label		Pivot Rotation	枢轴旋转
-def_camera_gimbal_laser_node_5_desc		Controls the rotation of the camera base.	控制摄像头基座旋转
-def_camera_gimbal_laser_node_6_label		Pitch Rotation	俯仰角
-def_camera_gimbal_laser_node_6_desc		Controls the rotation of the camera head.	控制摄像头俯仰旋转
+def_camera_gimbal_laser_node_4_label		Field of View	FOV(视野)
+def_camera_gimbal_laser_node_4_desc		Controls the level of zoom of the camera.	控制摄像头的缩放
+def_camera_gimbal_laser_node_5_label		Pivot Rotation	航向控制
+def_camera_gimbal_laser_node_5_desc		Controls the rotation of the camera base.	控制摄像头基座的水平旋转
+def_camera_gimbal_laser_node_6_label		Pitch Rotation	俯仰控制
+def_camera_gimbal_laser_node_6_desc		Controls the rotation of the camera head.	控制摄像头的俯仰旋转
 def_camera_gimbal_laser_node_7_label		Laser Distance	激光指示距离
 def_camera_gimbal_laser_node_7_desc		The measured distance in meters.	激光指示距离(单位：米)
-def_camera_gimbal_laser_node_8_label		Stabilizer Mode	稳定模式
+def_camera_gimbal_laser_node_8_label		Stabilizer Mode	锁定模式
 def_camera_gimbal_laser_node_8_desc		Enable stabilization to keep the camera focused in its current direction.	开启稳定模式让摄像头稳定在目前朝向
 def_camera_gimbal_laser_node_9_label		Tracker Mode	追踪模式
 def_camera_gimbal_laser_node_9_desc		Enable tracking to direct the camera at the current lazed position.	开启后将相机朝向稳定至当前激光照射位置
 def_camera_gimbal_laser_node_10_label		Composite Output	混合输出
 def_camera_gimbal_laser_node_10_desc		x, y, z output for the laser target in channels 1, 2, 3 respectively.	"输出目标x,y,z轴位置，对应1,2,3通道"
 def_camera_gimbal_laser_node_11_label		Laser Wavelength	激光波长
-def_camera_gimbal_laser_node_11_desc		The specific light wavelength to emit (whole number).	指定激光发出特定波长(证书)
+def_camera_gimbal_laser_node_11_desc		The specific light wavelength to emit (whole number).	指定激光发出特定波长(整数)
 def_camera_med_name		Camera Medium	中型摄像头
 def_camera_med_desc		Has infrared mode as well as variable field of view.	具有红外模式以及可变视野。
 def_camera_med_s_desc		A camera with video output feed.	有视频输出的摄像头。
-def_camera_med_node_0_label		Camera Feed	摄像头输入
+def_camera_med_node_0_label		Camera Feed	摄像头输出
 def_camera_med_node_0_desc			
 def_camera_med_node_1_label		Electric	电源
 def_camera_med_node_1_desc			
@@ -2239,7 +2239,7 @@ def_camera_med_node_3_desc		Controls the level of zoom of the camera.	控制摄�
 def_camera_small_name		Camera Small	小型摄像机
 def_camera_small_desc			
 def_camera_small_s_desc		A camera with video output feed.	有视频输出的摄像头。
-def_camera_small_node_0_label		Camera Feed	摄像头输入
+def_camera_small_node_0_label		Camera Feed	摄像头输出
 def_camera_small_node_0_desc			
 def_camera_small_node_1_label		Electric	电源
 def_camera_small_node_1_desc			
@@ -2247,7 +2247,7 @@ def_clock_name		Clock	时钟
 def_clock_desc		The clock has a display to visualise the time of day or night. The 12 o'clock position is the white arrow on the face of the display.	时钟有一个显示器，可以直观地显示白天或晚上的时间。12点钟的位置是显示屏正面的白色箭头。
 def_clock_s_desc		An analogue clock display that outputs a number value representing the time of day.	一种模拟时钟显示器，输出代表一天中时间的数值。
 def_clock_node_0_label		Time	时间
-def_clock_node_0_desc		The time as a factor of a day, from 0 (midnight) to 1 (midnight).	一天中从0(午夜)到1(午夜)的时间。
+def_clock_node_0_desc		The time as a factor of a day, from 0 (midnight) to 1 (midnight).	一天中从0(午夜0点)到1(午夜24点)的时间。
 def_clock_node_1_label		Backlight	背光
 def_clock_node_1_desc		Enables the backlight when receiving an on signal.	接收到打开信号时启用背光。
 def_clock_node_2_label		Electric	电源
@@ -2261,9 +2261,9 @@ def_compass_node_1_label		Electric	电源
 def_compass_node_1_desc		Electrical power connection.	电源连接。
 def_compass_sensor_name		Compass Sensor	罗盘感应器
 def_compass_sensor_desc		The sensor has a display to visualise the direction of north. The measured output is taken relative to the white arrow on the face of the display.	这个传感器有一个显示北方方向的显示器。测量的输出是相对于显示器表面的白色箭头进行的。
-def_compass_sensor_s_desc		A digital compass that outputs a number value representing the turn that must be made for it to face north.	一种数字罗盘，它输出一个数字值，表示它必须向北方转弯。
+def_compass_sensor_s_desc		A digital compass that outputs a number value representing the turn that must be made for it to face north.	一种数字罗盘，它输出一个数字值，表示它偏离正北方向的角度。
 def_compass_sensor_node_0_label		Compass Reading	罗盘读数
-def_compass_sensor_node_0_desc		The angle measured in turns that the needle is rotated from the white arrow on the display.	指针从显示屏上的白色箭头开始旋转的角度。
+def_compass_sensor_node_0_desc		The angle measured in turns that the needle is rotated from the white arrow on the display.	指针从显示屏上的白色箭头开始旋转的角度（单位：圆周）（译者注：若数值为x，则代表偏离角度为x*360）。
 def_compass_sensor_node_1_label		Backlight	背光
 def_compass_sensor_node_1_desc		Enables the backlight when receiving an on signal.	接收到打开信号时启用背光。
 def_compass_sensor_node_2_label		Electric	电源
@@ -2273,7 +2273,7 @@ def_connector_electric_desc		Two electric connectors will attach when they are w
 def_connector_electric_s_desc		A small electric connector that can be used to transfer electric energy between vehicles.	一种小型电线连接头，可用于在载具之间传输电能。
 def_connector_electric_node_0_label		Release Connector	连接头释放
 def_connector_electric_node_0_desc		Release the connector when receiving an on signal.	接收到接通信号时，松开接头。
-def_connector_electric_node_1_label		Connected	有联系的
+def_connector_electric_node_1_label		Connected	已连接
 def_connector_electric_node_1_desc		Outputs an on signal if the connector is attached to another connector.	如果连接头连接收到另一个连接头，则输出接通信号。
 def_connector_electric_node_2_label		Electric	电源
 def_connector_electric_node_2_desc		Electrical power connection.	电源连接。
@@ -2442,7 +2442,7 @@ def_distance_sensor_node_0_label		Distance	距离
 def_distance_sensor_node_0_desc		The measured distance in metres.	以米为单位测量的距离，可达250米。
 def_distance_sensor_node_1_label		Electric	电源
 def_distance_sensor_node_1_desc		Electrical power connection.	电源连接。
-def_door_name		Sliding Door (Electric)	门
+def_door_name		Sliding Door (Electric)	滑动门（电动）
 def_door_desc			
 def_door_s_desc		Sliding door that can be opened and closed using an on/off signal.	可使用开/关信号打开和关闭的滑动门。
 def_door_node_0_label		Open/Close	开门/关门
@@ -2508,7 +2508,7 @@ def_door_frame_corner_s_desc		A corner piece for building openings to sealed flu
 def_door_frame_straight_name		Door Frame Edge	门框边缘
 def_door_frame_straight_desc		To create a valid frame, there must be a continuous loop of frame parts in a consistent orientation with no other parts inside the frame.	要创建有效的框架，必须有一个连续的框架部件循环，其方向一致，框架内没有其他部件。
 def_door_frame_straight_s_desc		A straight edge for building openings to sealed fluid compartments.	一种直尺，用于在密封的流体室中建立开口。
-def_door_manual_name		Sliding Door	滑动门
+def_door_manual_name		Sliding Door	滑动门（手动）
 def_door_manual_desc			
 def_door_manual_s_desc		Sliding door that can be opened and closed by hand and locked using an on/off signal.	滑动门通过手动打开，使用on/off信号锁定
 def_door_manual_node_0_label		Lock	锁定
@@ -2571,9 +2571,9 @@ def_engine_node_3_desc		The fuel supply for the engine.	发动机的燃料供应
 def_engine_node_4_label		Air	空气
 def_engine_node_4_desc		The air supply for the engine.	发动机的空气供给。
 def_engine_node_5_label		In Coolant	冷却液进入
-def_engine_node_5_desc		The return flow (cold) for the coolant system.	冷却系统的回流(冷)。
+def_engine_node_5_desc		The return flow (cold) for the coolant system.	连接冷却系统的输出端(冷)。
 def_engine_node_6_label		Out Coolant	冷却液流出
-def_engine_node_6_desc		The output flow (hot) for the coolant system.	冷却系统的输出流量(热)。
+def_engine_node_6_desc		The output flow (hot) for the coolant system.	连接冷却系统的输入端(热)。
 def_engine_node_7_label		Exhaust	排气
 def_engine_node_7_desc		Out flow for combusted fumes from the engine.	从发动机排出的燃烧废气。
 def_engine_node_8_label		RPS	每秒旋转次数
@@ -2596,9 +2596,9 @@ def_engine_diesel_node_3_desc		The fuel supply for the engine.	发动机的燃�
 def_engine_diesel_node_4_label		Air	空气
 def_engine_diesel_node_4_desc		The air supply for the engine.	发动机的空气供给。
 def_engine_diesel_node_5_label		In Coolant	冷却液进入
-def_engine_diesel_node_5_desc		The return flow (cold) for the coolant system.	冷却系统的回流(冷)。
+def_engine_diesel_node_5_desc		The return flow (cold) for the coolant system.	连接冷却系统的输出端(冷)。
 def_engine_diesel_node_6_label		Out Coolant	冷却液流出
-def_engine_diesel_node_6_desc		The output flow (hot) for the coolant system.	冷却系统的输出流量(热)。
+def_engine_diesel_node_6_desc		The output flow (hot) for the coolant system.	连接冷却系统的输入端(热)。
 def_engine_diesel_node_7_label		Exhaust	排气
 def_engine_diesel_node_7_desc		Out flow for combusted fumes from the engine.	从发动机排出的燃烧废气。
 def_engine_diesel_node_8_label		Exhaust	排气
@@ -2610,12 +2610,12 @@ def_engine_diesel_node_10_desc		Output value giving data info on engine temperat
 def_engine_diesel_node_11_label		Electric	电源
 def_engine_diesel_node_11_desc		Electrical power connection.	电源连接。
 def_fan_large_name		Large Ducted Fan	大型涵道风扇
-def_fan_large_desc		The amount of force generated by the fan is directly linked to how much torque it receives from a connected engine.	风扇产生的力的大小直接与它从连接的发动机接收到的扭矩有关。
+def_fan_large_desc		The amount of force generated by the fan is directly linked to how much torque it receives from a connected engine.	风扇产生的力的取决于它从连接的发动机接收到的扭矩有关。
 def_fan_large_s_desc		A large ducted fan used for propulsion.	用于推进的大型涵道风扇。
 def_fan_large_node_0_label		Power Received	接收功率
 def_fan_large_node_0_desc			
 def_fan_small_name		Small Ducted Fan	小型涵道风扇
-def_fan_small_desc		The amount of force generated by the fan is directly linked to how much torque it receives from a connected engine.	风扇产生的力的大小直接与它从连接的发动机接收到的扭矩有关。
+def_fan_small_desc		The amount of force generated by the fan is directly linked to how much torque it receives from a connected engine.	风扇产生的力的取决于它从连接的发动机接收到的扭矩有关。
 def_fan_small_s_desc		A small ducted fan used for propulsion.	用于推进的小型涵道风扇。
 def_fan_small_node_0_label		Power Received	接收功率
 def_fan_small_node_0_desc			
@@ -2736,13 +2736,13 @@ def_gate_bool_blink_node_0_desc		Controls whether or not the blinker should outp
 def_gate_bool_blink_node_1_label		Blinking Signal	闪烁信号
 def_gate_bool_blink_node_1_desc		Outputs a signal that blinks between on and off at the set rate when the control signal is on. Outputs off if the control signal is off.	当控制信号打开时，输出一个在开和关之间以设定速率闪烁的信号。如果控制信号关闭，则输出关闭。
 def_gate_bool_capacitor_name		Capacitor	电容器
-def_gate_bool_capacitor_desc		The charge and discharge times can be configured by selecting this component with the select tool. Once charged, inputting a new signal will reset the discharge timer.	充电和放电时间可通过使用选择工具选择该部件进行配置。一旦充电，输入一个新的信号将重置放电计时器。
+def_gate_bool_capacitor_desc		The charge and discharge times can be configured by selecting this component with the select tool. Once charged, inputting a new signal will reset the discharge timer.	充电和放电时间可通过使用选择工具选择该部件进行配置。一旦充电，输入一个新的信号将重置放电计时器。（译者注：电容通过设置充电时间x和放电时间y来实现信号延时。ON信号会在触发后x秒后才发送给连接的逻辑节点，OFF信号会在触发后y秒后再发送给连接的逻辑节点。）
 def_gate_bool_capacitor_s_desc		Charges up when receiving an on signal, then discharges over a period of time.	接收到接通信号时充电，然后在一段时间内放电。
 def_gate_bool_capacitor_node_0_label		Charge	充电
 def_gate_bool_capacitor_node_0_desc		Charges the capacitor when on, discharges when off.	打开时给电容器充电，关闭时放电。
 def_gate_bool_capacitor_node_1_label		Stored Charge	储存电荷
 def_gate_bool_capacitor_node_1_desc		The capacitor's stored charge.	电容器的储存电荷。
-def_gate_bool_constant_name		Constant On Signal	信号恒定
+def_gate_bool_constant_name		Constant On Signal	恒定ON信号
 def_gate_bool_constant_desc		This is useful for creating logic circuits that are permanently switched on.	这对于创建永久打开的逻辑电路很有用。
 def_gate_bool_constant_s_desc		A simple logic component that continuously outputs an on signal.	一种连续输出接通信号的简单逻辑元件。
 def_gate_bool_constant_node_0_label		On	打开
@@ -2796,14 +2796,14 @@ def_gate_float_add_node_1_desc		Outputs the result of A + B.	输出A+B的结果�
 def_gate_float_add_node_2_label		B	B
 def_gate_float_add_node_2_desc		The second value to be added.	加的第二个值。
 def_gate_float_clamp_name		Clamp	Clamp函数
-def_gate_float_clamp_desc		The upper and lower values to clamp to can be configured by selecting this component with the select tool.	通过使用选择工具选择此组件，可以配置要钳制的上下值。
-def_gate_float_clamp_s_desc		The clamp takes a number input and clamps it to a set range.	夹钳接受一个数字输入并将其夹钳到一个设定的范围。
-def_gate_float_clamp_node_0_label		Clamped Number	钳制数
-def_gate_float_clamp_node_0_desc		The input after being clamped within the upper and lower bounds.	在上下界被钳制后的输入。
-def_gate_float_clamp_node_1_label		Number to Clamp	要夹紧的数字
-def_gate_float_clamp_node_1_desc		The value to clamp within the upper and lower bounds.	要在上下限内钳制的值。
+def_gate_float_clamp_desc		The upper and lower values to clamp to can be configured by selecting this component with the select tool.	通过使用选择工具选择此组件，可以配置限制区间的端点值。
+def_gate_float_clamp_s_desc		The clamp takes a number input and clamps it to a set range.	Clamp函数接受一个数字输入并将其限制到一个设定的范围。（译者注：假定输入值为x，限定区间为[a,b]。当x<=a时，输出值为a；当x>=b时，输出值为b；当a<=x<=b时，输出值为x。）
+def_gate_float_clamp_node_0_label		Clamped Number	被限制数
+def_gate_float_clamp_node_0_desc		The input after being clamped within the upper and lower bounds.	需要被限制的输入值。
+def_gate_float_clamp_node_1_label		Number to Clamp	限制结果值
+def_gate_float_clamp_node_1_desc		The value to clamp within the upper and lower bounds.	被限制后的输出值。
 def_gate_float_constant_name		Constant Number	常数
-def_gate_float_constant_desc		The number that is being outputted can be configured by selecting this component with the select tool.	可以通过使用选择工具选择此组件来配置正在输出的编号。
+def_gate_float_constant_desc		The number that is being outputted can be configured by selecting this component with the select tool.	可以通过使用选择工具选择此组件来配置常数数值。
 def_gate_float_constant_s_desc		Outputs a constant numerical value.	输出一个恒定的数值。
 def_gate_float_constant_node_0_label		Constant Number	常数
 def_gate_float_constant_node_0_desc		The selected output number.	选定的输出编号。
@@ -2814,7 +2814,7 @@ def_gate_float_counter_node_0_label		Speed	速度
 def_gate_float_counter_node_0_desc		The speed the count rises by.	计数速度。
 def_gate_float_counter_node_1_label		Count	计数
 def_gate_float_counter_node_1_desc		The current count.	当前计数。
-def_gate_float_counter_ping_pong_name		Counter (Ping Pong)	计数器(震荡)
+def_gate_float_counter_ping_pong_name		Counter (Ping Pong)	计数器(振荡)
 def_gate_float_counter_ping_pong_desc			
 def_gate_float_counter_ping_pong_s_desc		A counter which oscillates between -1 and +1 with a set speed.	以设定速度在-1和+1之间振荡的计数器。
 def_gate_float_counter_ping_pong_node_0_label		Speed	速度
@@ -2831,11 +2831,11 @@ def_gate_float_divide_node_1_desc		The number to divide by.	除数。
 def_gate_float_divide_node_2_label		Error	错误
 def_gate_float_divide_node_2_desc		Outputs true when a division by 0 occurs.	当除以0时输出为真。
 def_gate_float_divide_node_3_label		A / B	A/B
-def_gate_float_divide_node_3_desc		The result of A divided by B, or 0 attempting to divide by 0.	A除以B的结果，或0试图除以0的结果。
+def_gate_float_divide_node_3_desc		The result of A divided by B, or 0 attempting to divide by 0.	A除以B的结果，或0（当B=0时的返回值）。
 def_gate_float_exponent_name		Exponent	指数
 def_gate_float_exponent_desc		The exponent can be changed by selecting this component with the select tool.	通过使用选择工具选择此组件，可以更改指数。
 def_gate_float_exponent_s_desc		Outputs its input raised to the power of a selected exponent.	将其输入提升为所选指数的幂。
-def_gate_float_exponent_node_0_label		Powered Number	电源数字
+def_gate_float_exponent_node_0_label		Powered Number	指数运算结果
 def_gate_float_exponent_node_0_desc		The input raised to the power of the selected exponent.	提高到所选指数的幂的输入。
 def_gate_float_exponent_node_1_label		Input Number	输入数字
 def_gate_float_exponent_node_1_desc		The number to exponentiate.	要指数化的数字。
@@ -2845,7 +2845,7 @@ def_gate_float_greater_than_s_desc		Compares two numerical values.	比较两个�
 def_gate_float_greater_than_node_0_label		A	A
 def_gate_float_greater_than_node_0_desc		The value to compare.	要比较的值。
 def_gate_float_greater_than_node_1_label		B	B
-def_gate_float_greater_than_node_1_desc		The value to be compared to.	要比较的值。
+def_gate_float_greater_than_node_1_desc		The value to be compared to.	要被比较的值。
 def_gate_float_greater_than_node_2_label		A GREATER THAN B	A大于B
 def_gate_float_greater_than_node_2_desc		Outputs an on signal if A is greater than B. Outputs an off signal if A is less than or equal to B.	如果A大于B，则输出on信号；如果A小于或等于B，则输出off信号。
 def_gate_float_invert_name		Numerical Inverter	数字取反器
@@ -2861,7 +2861,7 @@ def_gate_float_less_than_s_desc		Compares two numerical values.	比较两个数�
 def_gate_float_less_than_node_0_label		A	A
 def_gate_float_less_than_node_0_desc		The value to compare.	要比较的值。
 def_gate_float_less_than_node_1_label		B	B
-def_gate_float_less_than_node_1_desc		The value to be compared to.	要比较的值。
+def_gate_float_less_than_node_1_desc		The value to be compared to.	要被比较的值。
 def_gate_float_less_than_node_2_label		A LESS THAN B	A小于B
 def_gate_float_less_than_node_2_desc		Outputs an on signal if A is less than B. Outputs an off signal if A is greater than or equal to B.	如果A小于B，则输出打开信号。如果A大于或等于B，则输出关闭信号。
 def_gate_float_modulo_name		Modulo	模(Modulo)
@@ -2882,14 +2882,14 @@ def_gate_float_multiply_node_1_label		A x B	A x B级
 def_gate_float_multiply_node_1_desc		Outputs the result of multiplying A by B.	输出A乘B的结果。
 def_gate_float_multiply_node_2_label		B	B
 def_gate_float_multiply_node_2_desc		The value to multiply by.	要乘以的值。
-def_gate_float_register_name		Memory Register	存储器寄存器
+def_gate_float_register_name		Memory Register	存储寄存器
 def_gate_float_register_desc		The number input will be stored when an on signal is received. A secondary on/off signal can be used to clear the stored value, resetting it to the configured value set using the select tool.	当接收到接通信号时，数字输入将被存储。辅助开/关信号可用于清除存储值，使用选择工具将其重置为配置值集。
-def_gate_float_register_s_desc		A memory register that can store a number value.	一种能存储数值的存储器寄存器。
+def_gate_float_register_s_desc		A memory register that can store a number value.	一种能存储数值的存储寄存器。
 def_gate_float_register_node_0_label		Stored Value	存储值
 def_gate_float_register_node_0_desc		The value that is stored in the memory.	存储在内存中的值。
 def_gate_float_register_node_1_label		Value to Store	要存储的值
 def_gate_float_register_node_1_desc		The value that will be stored when receiving an on signal.	接收到接通信号时存储的值。
-def_gate_float_register_node_2_label		Set	套
+def_gate_float_register_node_2_label		Set	设定
 def_gate_float_register_node_2_desc		Stores the input value when receiving an on signal.	存储接收到打开信号时的输入值。
 def_gate_float_register_node_3_label		Clear	清除
 def_gate_float_register_node_3_desc		Resets the stored value to 0.	将存储的值重置为0.
@@ -2957,9 +2957,9 @@ def_gate_function_small_node_0_desc		Outputs the evaluation of the entered funct
 def_gate_function_small_node_1_label		Input 1 (x)	输入1(x)
 def_gate_function_small_node_1_desc		X input to the function.	函数的X输入。
 def_gate_jk_flipflop_name		JK Flip-Flop	JK触发器
-def_gate_jk_flipflop_desc		When both inputs are off, there is no change in state. If both Set and Reset are set to on, the state will be toggled.	当两个输入都关闭时，状态没有变化。如果Set和Reset都设置为on，则状态将被切换。
+def_gate_jk_flipflop_desc		When both inputs are off, there is no change in state. If both Set and Reset are set to on, the state will be toggled.	当两个输入都关闭时，状态没有变化。如果Set和Reset都设置为on，则状态将被切换（反转）。
 def_gate_jk_flipflop_s_desc		A JK flip-flop that can be set and reset using two on/off inputs.	一种JK触发器，可以用两个开/关输入进行设置和复位。
-def_gate_jk_flipflop_node_0_label		Set	套
+def_gate_jk_flipflop_node_0_label		Set	设置（Set）
 def_gate_jk_flipflop_node_0_desc		Sets the output to on.	将输出设置为打开。
 def_gate_jk_flipflop_node_1_label		Reset	重置(Reset)
 def_gate_jk_flipflop_node_1_desc		Sets the output to off.	将输出设置为关闭。
@@ -2974,19 +2974,19 @@ def_gate_pid_controller_node_0_label		Active	激活
 def_gate_pid_controller_node_0_desc		Sets whether or not the controller is active. When inactive, stored values are reset.	设置控制器是否处于活动状态。不活动时，存储的值将重置。
 def_gate_pid_controller_node_1_label		Control Output	控制输出
 def_gate_pid_controller_node_1_desc		The output computed by the controller.	控制器计算的输出。
-def_gate_pid_controller_node_2_label		Process Variable	过程变量
+def_gate_pid_controller_node_2_label		Process Variable	被校准变量
 def_gate_pid_controller_node_2_desc		The current measured value of the system.	系统的当前测量值。
 def_gate_pid_controller_node_3_label		Setpoint	设定值
-def_gate_pid_controller_node_3_desc		The desired value to correct the process variable to.	将流程变量更正为的所需值。
-def_gate_push_to_toggle_name		Push to Toggle	按键开关
-def_gate_push_to_toggle_desc		This can allow regular push buttons to act as toggle buttons.	这可以让常规按钮充当切换按钮。
+def_gate_pid_controller_node_3_desc		The desired value to correct the process variable to.	预期的校准结果。
+def_gate_push_to_toggle_name		Push to Toggle	按压-切换
+def_gate_push_to_toggle_desc		This can allow regular push buttons to act as toggle buttons.	这可以让常规的按压按钮充当切换按钮。
 def_gate_push_to_toggle_s_desc		This component has an internal on/off switch that is toggled every time a new on signal is sent to its input.	此组件有一个内部开/关开关，每次向其输入端发送新的开信号时都会切换该开关。
 def_gate_push_to_toggle_node_0_label		Toggle Signal	开关信号
 def_gate_push_to_toggle_node_0_desc		An on signal toggles the internal on/off switch.	打开信号切换内部开/关开关。
 def_gate_push_to_toggle_node_1_label		Internal State	内部状态
 def_gate_push_to_toggle_node_1_desc		The output of the internal on/off switch.	内部开/关开关的输出。
 def_gate_sr_latch_name		SR Latch	SR锁存器
-def_gate_sr_latch_desc		When both inputs are off, there is no change in state. If both Set and Reset are set to on, Reset will take precedence.	当两个输入都关闭时，状态没有变化。如果Set和Reset都设置为on，将创建一个无效状态，并且两个输出都设置为off。
+def_gate_sr_latch_desc		When both inputs are off, there is no change in state. If both Set and Reset are set to on, Reset will take precedence.	当两个输入都设置为off时，状态没有变化。如果Set和Reset都设置为on，将创建一个无效状态，并且两个输出都设置为off。
 def_gate_sr_latch_s_desc		An SR latch that can be set and reset using two on/off inputs.	一种SR锁存器，可使用两个开/关输入进行设置和复位。
 def_gate_sr_latch_node_0_label		Set	组(Set)
 def_gate_sr_latch_node_0_desc		Sets the output to on.	将输出设置为打开。
