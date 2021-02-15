@@ -1958,6 +1958,9 @@ id	description	en	local
 		C4 Detonator	C4雷管
 		Speargun	鱼叉枪
 		Speargun Ammo	鱼叉枪弹药
+		Pistol	手枪
+		Pistol Ammo	手枪弹药
+		Grenade	手榴弹
 def_01_block_name		Block	方块
 def_01_block_desc		The block is a quarter-metre in size. Components can be attached to all 6 faces.	这个方块有四分之一米大。组件可以连接收到所有6个面。
 def_01_block_s_desc		Basic cube-shaped building block.	基本立方形建筑块。
@@ -3262,11 +3265,6 @@ def_inventory_equipment_rope_desc		Pressing [$[action_interact_left]]/[$[action_
 def_inventory_equipment_rope_s_desc		A large equipment storage unit containing 20m of rope.	大型装备架，存储20m长绳索
 def_inventory_equipment_rope_node_0_label		Electric	电源
 def_inventory_equipment_rope_node_0_desc		Electrical power connection.	电源连接
-def_inventory_equipment_speargun_ammo_name		Equipment inventory (Speargun Ammo)	装备架(鱼叉枪弹药)
-def_inventory_equipment_speargun_ammo_desc		Pressing [$[action_interact_left]]/[$[action_interact_right]] will equip/store the selected item. Press [$[action_equipment_use]] to reload any unloaded flaregun in the players inventory. This equipment has a limited uses, picking up additional boxes of flaregun ammo will replenish these uses. This equipment can be stored on the belt when not in use.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按下 [$[action_equipment_use]] 来给在库存中没有装弹的鱼叉枪装上弹药。有着有限使用次数，拿起其他鱼叉枪弹药能够补充使用次数。不使用时可以挂在腰上。
-def_inventory_equipment_speargun_ammo_s_desc		A small equipment storage unit containing a box flaregun ammo.	小型装备架，存储一盒鱼叉枪弹药
-def_inventory_equipment_speargun_ammo_node_0_label		Electric	电力
-def_inventory_equipment_speargun_ammo_node_0_desc		Electrical power connection.	电力接口
 def_inventory_equipment_strobe_light_name		Equipment inventory (Strobe Light)	装备架(频闪灯)
 def_inventory_equipment_strobe_light_desc		Pressing [$[action_interact_left]]/[$[action_interact_right]] will equip/store the selected item. Press [$[action_equipment_use]] to toggle the strobe light on or off. Press [$[action_equipment_secondary]] to toggle MOB (man overboard) mode, which will automatically turn the strobe light on if the player is submerged in water. The strobe light will continue to function when unequipped or discarded. This equipment requires electric charge to function, and will recharge when placed into a powered small equipment storage unit. This equipment can be stored on the belt.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按下 [$[action_equipment_use]] 来开关频闪灯。按下 [$[action_equipment_secondary]] 开关MOB(落水)模式，MOB模式下会在玩家落入水中时自动打开频闪。频闪灯在不被装备时依然会继续作用。该设备需要充电才能发挥作用，放入已供电的小型装备架时充电。不使用时可以挂在腰上。
 def_inventory_equipment_strobe_light_s_desc		A small equipment storage unit containing a strobe light.	小型装备架，存储一个频闪灯
@@ -4782,7 +4780,7 @@ def_stair_segment_s_desc		A single step that can be stacked to create a staircas
 def_stair_top_name		Stair Top	楼梯顶部
 def_stair_top_desc			
 def_stair_top_s_desc		A single step that can be used at the top of a staircase to make it flush with a platform.	一种台阶，可用于楼梯顶部，使其与平台平齐。
-def_tail_rotor_name		rotor (Tail)	尾桨
+def_tail_rotor_name		Rotor (Tail)	尾桨
 def_tail_rotor_desc		A standard number input allows you to control how much force the rotor generates.	标准数字输入允许您控制螺旋桨产生的力。
 def_tail_rotor_s_desc		A basic helicopter tail rotor.	一种基本的直升机尾桨。
 def_tail_rotor_node_0_label		Power	动力
@@ -5329,6 +5327,11 @@ def_wing_xl_s_desc		The wing surface cuts through the air while resisting moveme
 def_wing_xxl_name		Wing Section (XXLarge)	机翼面(超大)
 def_wing_xxl_desc		Wing surface to provide lift and cut through the air.	机翼表面提供升力并穿过空气。
 def_wing_xxl_s_desc		The wing surface cuts through the air while resisting movement against the flat plane of its surface. The aerofoil section also provides lift.	机翼表面穿透空气，同时抵抗其表面平面的运动。机翼部分也提供升力。
+def_inventory_equipment_speargun_ammo_name		Equipment inventory (Speargun Ammo)	装备架(鱼叉枪弹药)
+def_inventory_equipment_speargun_ammo_desc		Pressing [$[action_interact_left]]/[$[action_interact_right]] will equip/store the selected item. Press [$[action_equipment_use]] to reload any unloaded flaregun in the players inventory. This equipment has a limited uses, picking up additional boxes of flaregun ammo will replenish these uses. This equipment can be stored on the belt when not in use.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按下 [$[action_equipment_use]] 来给在库存中没有装弹的鱼叉枪装上弹药。有着有限使用次数，拿起其他鱼叉枪弹药能够补充使用次数。不使用时可以挂在腰上。
+def_inventory_equipment_speargun_ammo_s_desc		A small equipment storage unit containing a box flaregun ammo.	小型装备架，存储一盒鱼叉枪弹药
+def_inventory_equipment_speargun_ammo_node_0_label		Electric	电力
+def_inventory_equipment_speargun_ammo_node_0_desc		Electrical power connection.	电力接口
 		NEW PLAYLIST	新游玩列表
 		Are you sure you want to test this mission in the world?\n\nYour mission will be automatically despawned when you return to the mission editor.	你确定要在世界中测试这个任务吗？\n\n当您返回任务编辑器时，您的任务将自动取消。
 		Enable time/weather control menu, mission editor, mission spawn menu.	启用时间/天气控制菜单，任务编辑器，任务生成菜单。
