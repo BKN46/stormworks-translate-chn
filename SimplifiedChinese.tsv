@@ -2263,7 +2263,7 @@ def_compass_sensor_name		Compass Sensor	罗盘感应器
 def_compass_sensor_desc		The sensor has a display to visualise the direction of north. The measured output is taken relative to the white arrow on the face of the display.	这个传感器有一个显示北方方向的显示器。测量的输出是相对于显示器表面的白色箭头进行的。
 def_compass_sensor_s_desc		A digital compass that outputs a number value representing the turn that must be made for it to face north.	一种数字罗盘，它输出一个数字值，表示它偏离正北方向的角度。
 def_compass_sensor_node_0_label		Compass Reading	罗盘读数
-def_compass_sensor_node_0_desc		The angle measured in turns that the needle is rotated from the white arrow on the display.	指针从显示屏上的白色箭头开始旋转的角度（单位：圆周）（译者注：若数值为x，则代表偏离角度为x*360）。
+def_compass_sensor_node_0_desc		The angle measured in turns that the needle is rotated from the white arrow on the display.	指针从显示屏上的白色箭头开始旋转的角度（单位：圆周）\n（译者注：若数值为x，则代表偏离角度为x*360）。
 def_compass_sensor_node_1_label		Backlight	背光
 def_compass_sensor_node_1_desc		Enables the backlight when receiving an on signal.	接收到打开信号时启用背光。
 def_compass_sensor_node_2_label		Electric	电源
@@ -2736,7 +2736,7 @@ def_gate_bool_blink_node_0_desc		Controls whether or not the blinker should outp
 def_gate_bool_blink_node_1_label		Blinking Signal	闪烁信号
 def_gate_bool_blink_node_1_desc		Outputs a signal that blinks between on and off at the set rate when the control signal is on. Outputs off if the control signal is off.	当控制信号打开时，输出一个在开和关之间以设定速率闪烁的信号。如果控制信号关闭，则输出关闭。
 def_gate_bool_capacitor_name		Capacitor	电容器
-def_gate_bool_capacitor_desc		The charge and discharge times can be configured by selecting this component with the select tool. Once charged, inputting a new signal will reset the discharge timer.	充电和放电时间可通过使用选择工具选择该部件进行配置。一旦充电，输入一个新的信号将重置放电计时器。（译者注：电容通过设置充电时间x和放电时间y来实现信号延时。ON信号会在触发后x秒后才发送给连接的逻辑节点，OFF信号会在触发后y秒后再发送给连接的逻辑节点。）
+def_gate_bool_capacitor_desc		The charge and discharge times can be configured by selecting this component with the select tool. Once charged, inputting a new signal will reset the discharge timer.	充电和放电时间可通过使用选择工具选择该部件进行配置。一旦充电，输入一个新的信号将重置放电计时器。\n（译者注：电容通过设置充电时间x和放电时间y来实现信号延时。ON信号会在触发后x秒后才发送给连接的逻辑节点，OFF信号会在触发后y秒后再发送给连接的逻辑节点。）
 def_gate_bool_capacitor_s_desc		Charges up when receiving an on signal, then discharges over a period of time.	接收到接通信号时充电，然后在一段时间内放电。
 def_gate_bool_capacitor_node_0_label		Charge	充电
 def_gate_bool_capacitor_node_0_desc		Charges the capacitor when on, discharges when off.	打开时给电容器充电，关闭时放电。
@@ -2797,7 +2797,7 @@ def_gate_float_add_node_2_label		B	B
 def_gate_float_add_node_2_desc		The second value to be added.	加的第二个值。
 def_gate_float_clamp_name		Clamp	Clamp函数
 def_gate_float_clamp_desc		The upper and lower values to clamp to can be configured by selecting this component with the select tool.	通过使用选择工具选择此组件，可以配置限制区间的端点值。
-def_gate_float_clamp_s_desc		The clamp takes a number input and clamps it to a set range.	Clamp函数接受一个数字输入并将其限制到一个设定的范围。（译者注：假定输入值为x，限定区间为[a,b]。当x<=a时，输出值为a；当x>=b时，输出值为b；当a<=x<=b时，输出值为x。）
+def_gate_float_clamp_s_desc		The clamp takes a number input and clamps it to a set range.	Clamp函数接受一个数字输入并将其限制到一个设定的范围。\n（译者注：假定输入值为x，限定区间为[a,b]。当x<=a时，输出值为a；当x>=b时，输出值为b；当a<=x<=b时，输出值为x。）
 def_gate_float_clamp_node_0_label		Clamped Number	被限制数
 def_gate_float_clamp_node_0_desc		The input after being clamped within the upper and lower bounds.	需要被限制的输入值。
 def_gate_float_clamp_node_1_label		Number to Clamp	限制结果值
@@ -3625,7 +3625,7 @@ def_monitor_9_node_2_label		Electric	电源
 def_monitor_9_node_2_desc			
 def_monitor_9_node_3_label		Power Switch	电源开关
 def_monitor_9_node_3_desc		Controls whether or not the screen is switched on.	控制屏幕是否打开。
-def_monitor_hud_1_name		HUD Small	小HUD
+def_monitor_hud_1_name		HUD Small	HUD（小）
 def_monitor_hud_1_desc		Displays video data.	显示视频数据。
 def_monitor_hud_1_s_desc		A clear projection heads up display screen.	清晰的投影使显示屏清晰可见。
 def_monitor_hud_1_node_0_label		Video Signal	视频信号
@@ -3636,7 +3636,7 @@ def_monitor_hud_1_node_2_label		Electric	电源
 def_monitor_hud_1_node_2_desc			
 def_monitor_hud_1_node_3_label		Power Switch	电源开关
 def_monitor_hud_1_node_3_desc		Controls whether or not the screen is switched on.	控制屏幕是否打开。
-def_monitor_hud_3_name		HUD Large	大HUD
+def_monitor_hud_3_name		HUD Large	HUD（大）
 def_monitor_hud_3_desc		Displays video data.	显示视频数据。
 def_monitor_hud_3_s_desc		A clear projection heads up display screen.	清晰的投影使显示屏清晰可见。
 def_monitor_hud_3_node_0_label		Video Signal	视频信号
@@ -4864,51 +4864,51 @@ def_transponder_locator_node_2_desc		Detects any transponder signals when active
 def_trans_angle_name		Pipe Angle	L型管道
 def_trans_angle_desc			
 def_trans_angle_s_desc		An angled pipe for transferring to components from an engine.	从发动机传送到部件的有角度的管子。
-def_trans_block_angle_name		Pipe Angle (Enclosed)	L型管道(封闭)
+def_trans_block_angle_name		Pipe Angle (Enclosed)	封闭管道（L型）
 def_trans_block_angle_desc			
 def_trans_block_angle_s_desc		An angled pipe for transferring to components from an engine.	从发动机传送到部件的有角度的管子。
-def_trans_block_corner_name		Pipe Angle Corner (Enclosed)	三向转角管道(封闭)
+def_trans_block_corner_name		Pipe Angle Corner (Enclosed)	封闭管道（3向 边角）
 def_trans_block_corner_desc			
 def_trans_block_corner_s_desc		A T-shaped pipe segment that can be used to branch piping into three directions.	一种T形管段，可用于将管道分为三个方向。
-def_trans_block_cross_name		Pipe Cross (Enclosed)	十字管道(封闭式)
+def_trans_block_cross_name		Pipe Cross (Enclosed)	封闭管道（X型）
 def_trans_block_cross_desc			
 def_trans_block_cross_s_desc		An X-shaped pipe segment that can be used to branch piping into four directions.	一种X形管段，可用于将管道分为四个方向。
-def_trans_block_cross_corner_name		Pipe Cross Corner (Enclosed)	转角十字管道(封闭式)
+def_trans_block_cross_corner_name		Pipe Cross Corner (Enclosed)	封闭管道（5向 边角）
 def_trans_block_cross_corner_desc			
 def_trans_block_cross_corner_s_desc		An X-shaped pipe segment that can be used to branch piping into five directions.	一种X形管段，可用于将管道分为五个方向。
-def_trans_block_omni_name		Pipe Omni (Enclosed)	全向管道(封闭式)
+def_trans_block_omni_name		Pipe Omni (Enclosed)	封闭管道（6向 核心）
 def_trans_block_omni_desc			
 def_trans_block_omni_s_desc		An omnidirectional pipe segment.	全向管段。
-def_trans_block_straight_name		Pipe Straight (Enclosed)	直管道(封闭式)
+def_trans_block_straight_name		Pipe Straight (Enclosed)	封闭管道（I型）
 def_trans_block_straight_desc			
 def_trans_block_straight_s_desc		A straight section of pipe for transferring to components from an engine.	从发动机传送到部件的一段直管。
-def_trans_block_t_name		Pipe T-Piece (Enclosed)	T形管道(封闭式)
+def_trans_block_t_name		Pipe T-Piece (Enclosed)	封闭管道（T型）
 def_trans_block_t_desc			
-def_trans_block_t_s_desc		A T-shaped pipe segment that can be used to branch piping into three directions.	一种T形管段，可用于将管道分为两个方向。
-def_trans_block_t_corner_name		Pipe T-Piece Corner (Enclosed)	转角T形管道(封闭式)
+def_trans_block_t_s_desc		A T-shaped pipe segment that can be used to branch piping into three directions.	一种T形管段，可用于将管道分为三个方向。
+def_trans_block_t_corner_name		Pipe T-Piece Corner (Enclosed)	封闭管道（4向 边角）
 def_trans_block_t_corner_desc			
-def_trans_block_t_corner_s_desc		A T-shaped pipe segment that can be used to branch piping into four directions.	一种T形管段，可用于将管道分为三个方向。
-def_trans_corner_name		Pipe Angle Corner	三向转角管道
+def_trans_block_t_corner_s_desc		A T-shaped pipe segment that can be used to branch piping into four directions.	一种T形管段，可用于将管道分为四个方向。
+def_trans_corner_name		Pipe Angle Corner	管道（3向 边角）
 def_trans_corner_desc			
 def_trans_corner_s_desc		A T-shaped pipe segment that can be used to branch piping into three directions.	一种T形管段，可用于将管道分为三个方向。
-def_trans_cross_name		Pipe Cross	十字管道
+def_trans_cross_name		Pipe Cross	管道（X型）
 def_trans_cross_desc			
 def_trans_cross_s_desc		An X-shaped pipe segment that can be used to branch piping into four directions.	一种X形管段，可用于将管道分为四个方向。
-def_trans_cross_corner_name		Pipe Cross Corner	转角十字管道
+def_trans_cross_corner_name		Pipe Cross Corner	管道（5向 边角）
 def_trans_cross_corner_desc			
 def_trans_cross_corner_s_desc		An X-shaped pipe segment that can be used to branch piping into five directions.	一种X形管段，可用于将管道分为五个方向。
-def_trans_omni_name		Pipe Omni	全向管道
+def_trans_omni_name		Pipe Omni	管道（6向 核心）
 def_trans_omni_desc			
 def_trans_omni_s_desc		An omnidirectional pipe segment.	全向管段。
-def_trans_straight_name		Pipe Straight	直管
+def_trans_straight_name		Pipe Straight	管道（I型）
 def_trans_straight_desc			
 def_trans_straight_s_desc		A straight section of pipe for transferring to components from an engine.	从发动机传送到部件的一段直管。
-def_trans_t_name		Pipe T-Piece	T形管
+def_trans_t_name		Pipe T-Piece	管道（T型）
 def_trans_t_desc			
-def_trans_t_s_desc		A T-shaped pipe segment that can be used to branch piping into three directions.	一种T形管段，可用于将管道分为两个方向。
-def_trans_t_corner_name		Pipe T-Piece Corner	T形管角
+def_trans_t_s_desc		A T-shaped pipe segment that can be used to branch piping into three directions.	一种T形管段，可用于将管道分为三个方向。
+def_trans_t_corner_name		Pipe T-Piece Corner	管道（4向  边角）
 def_trans_t_corner_desc			
-def_trans_t_corner_s_desc		A T-shaped pipe segment that can be used to branch piping into four directions.	一种T形管段，可用于将管道分为三个方向。
+def_trans_t_corner_s_desc		A T-shaped pipe segment that can be used to branch piping into four directions.	一种T形管段，可用于将管道分为四个方向。
 def_turbine_name		Turbine Engine	涡轮发动机
 def_turbine_desc		An on/off signal controls engine startup. The throttle input takes a standard value between -1 and 1 and controls the forward and backward force of connected components. The engine's maximum power output is split between connected components.	开/关信号控制发动机是否产生动力。油门输入采用介于-1和1之间的标准值，并控制连接部件的前进和后退力。发动机的最大输出功率在连接的部件之间分配。
 def_turbine_s_desc		Turbine engine that can be connected to powered components.	可连接收到动力部件的涡轮发动机。
@@ -5256,52 +5256,52 @@ def_winch_large_b_desc
 def_winch_large_b_s_desc			
 def_winch_large_b_node_0_label		Fluid	流体
 def_winch_large_b_node_0_desc		Fluid connection for the end of the hose.	软管末端的流体连接。
-def_window_1x1_name		1x1 Window	1x1窗
-def_window_1x1_desc		This is a flat window that will sit flush with walls and ceilings. 1 block wide.	这是一扇平窗，与墙壁和天花板齐平。1个街区宽。
+def_window_1x1_name		1x1 Window	窗（1x1）
+def_window_1x1_desc		This is a flat window that will sit flush with walls and ceilings. 1 block wide.	这是一扇平窗，与墙壁和天花板齐平。1个单位宽。
 def_window_1x1_s_desc		Basic window piece.	基本窗饰。
-def_window_1x1_inv_pyramid_name		1x1 Window Inverse Pyramid	1x1窗倒楔形
-def_window_1x1_inv_pyramid_desc		This is a flat window that will sit flush with walls and ceilings. 3 blocks wide.	这是一扇平窗，与墙壁和天花板齐平。3个街区宽。
+def_window_1x1_inv_pyramid_name		1x1 Window Inverse Pyramid	窗（1x1 倒锥形）
+def_window_1x1_inv_pyramid_desc		This is a flat window that will sit flush with walls and ceilings. 3 blocks wide.	这是一扇平窗，与墙壁和天花板齐平。3个单位宽。
 def_window_1x1_inv_pyramid_s_desc		Basic window piece.	基本窗饰。
-def_window_1x1_pyramid_name		1x1 Window Pyramid	1x1窗楔形
-def_window_1x1_pyramid_desc		This is a pyramid window that takes up 1 block.	这是一个楔形窗口，占用1个街区。
+def_window_1x1_pyramid_name		1x1 Window Pyramid	窗（1x1 锥形）
+def_window_1x1_pyramid_desc		This is a pyramid window that takes up 1 block.	这是一个锥形窗，占用1个单位。
 def_window_1x1_pyramid_s_desc		Basic window piece.	基本窗饰。
-def_window_1x1_wedge_name		1x1 Window Wedge	1x1窗楔
-def_window_1x1_wedge_desc		This is a wedge window that takes up 1 block.	这是一个楔形窗口，占了一个街区。
+def_window_1x1_wedge_name		1x1 Window Wedge	窗（1x1 楔形）
+def_window_1x1_wedge_desc		This is a wedge window that takes up 1 block.	这是一个楔形窗，占用1个单位。
 def_window_1x1_wedge_s_desc		Basic window piece.	基本窗饰。
-def_window_2x1_name		2x1 Window	2x1窗
-def_window_2x1_desc		This is a flat window that will sit flush with walls and ceilings. 3 blocks wide.	这是一扇平窗，与墙壁和天花板齐平。3个街区宽。
+def_window_2x1_name		2x1 Window	窗（2x1）
+def_window_2x1_desc		This is a flat window that will sit flush with walls and ceilings. 3 blocks wide.	这是一扇平窗，与墙壁和天花板齐平。3个单位宽。
 def_window_2x1_s_desc		Basic window piece.	基本窗饰。
-def_window_2x2_name		2x2 Window	2x2窗
-def_window_2x2_desc		This is a flat window that will sit flush with walls and ceilings. 2 blocks wide.	这是一扇平窗，与墙壁和天花板齐平。两个街区宽。
+def_window_2x2_name		2x2 Window	窗（2x2）
+def_window_2x2_desc		This is a flat window that will sit flush with walls and ceilings. 2 blocks wide.	这是一扇平窗，与墙壁和天花板齐平。2个单位宽。
 def_window_2x2_s_desc		Basic window piece.	基本窗饰。
-def_window_3x2_name		3x2 Window	3x2窗
-def_window_3x2_desc		This is a flat window that will sit flush with walls and ceilings. 3 blocks wide.	这是一扇平窗，与墙壁和天花板齐平。3个街区宽。
+def_window_3x2_name		3x2 Window	窗（3x2）
+def_window_3x2_desc		This is a flat window that will sit flush with walls and ceilings. 3 blocks wide.	这是一扇平窗，与墙壁和天花板齐平。3个单位宽。
 def_window_3x2_s_desc		Basic window piece.	基本窗饰。
-def_window_corner_name		Corner Window	角窗
-def_window_corner_desc		Useful for creating corners between angled and regular windows.	用于在角度窗口和常规窗口之间创建角点。
+def_window_corner_name		Corner Window	角窗（斜面-平面）
+def_window_corner_desc		Useful for creating corners between angled and regular windows.	用于在斜窗和常规窗之间创建角点。
 def_window_corner_s_desc		Basic window piece.	基本窗饰。
-def_window_corner_2_name		Large Corner Window	大角窗
-def_window_corner_2_desc		Large corner windows are triangular in shape, making them useful for creating corners between angled windows.	大的角窗是三角形的，这使得它们在角窗之间创建角很有用。
+def_window_corner_2_name		Large Corner Window	角窗（大）
+def_window_corner_2_desc		Large corner windows are triangular in shape, making them useful for creating corners between angled windows.	大的角窗是三角形的，这使得它们可以在角窗之间创建角。
 def_window_corner_2_s_desc		Basic window piece.	基本窗饰。
-def_window_large_name		Large Window	大窗
-def_window_large_desc		This is a flat window that will sit flush with walls and ceilings. 3 blocks wide.	这是一扇平窗，与墙壁和天花板齐平。3个街区宽。
+def_window_large_name		Large Window	窗（3x3）
+def_window_large_desc		This is a flat window that will sit flush with walls and ceilings. 3 blocks wide.	这是一扇平窗，与墙壁和天花板齐平。3个单位宽。
 def_window_large_s_desc		Basic window piece.	基本窗饰。
-def_window_large_angle_name		Large Angled Window	大角度窗
-def_window_large_angle_desc		A sloped window that can be effectively combined with corner windows to create cockpits and windscreens. 3 blocks wide.	可与角窗有效结合以形成驾驶舱和挡风玻璃的斜窗。3个街区宽。
+def_window_large_angle_name		Large Angled Window	窗（3x3 斜窗）
+def_window_large_angle_desc		A sloped window that can be effectively combined with corner windows to create cockpits and windscreens. 3 blocks wide.	可与角窗有效结合以形成驾驶舱和挡风玻璃的斜窗。3个单位宽。
 def_window_large_angle_s_desc		Basic window piece.	基本窗饰。
-def_window_narrow_name		Narrow Window	窄窗
-def_window_narrow_desc		This is a flat window that will sit flush with walls and ceilings. 1 block wide.	这是一扇平窗，与墙壁和天花板齐平。1个街区宽。
+def_window_narrow_name		Narrow Window	窗（3x1）
+def_window_narrow_desc		This is a flat window that will sit flush with walls and ceilings. 1 block wide.	这是一扇平窗，与墙壁和天花板齐平。1个单位宽。
 def_window_narrow_s_desc		Basic window piece.	基本窗饰。
-def_window_narrow_angle_name		Narrow Angled Window	窄角窗
-def_window_narrow_angle_desc		A sloped window that can be effectively combined with corner windows to create cockpits and windscreens. 1 block wide.	可与角窗有效结合以形成驾驶舱和挡风玻璃的斜窗。1个街区宽。
+def_window_narrow_angle_name		Narrow Angled Window	窗（3x1 斜窗）
+def_window_narrow_angle_desc		A sloped window that can be effectively combined with corner windows to create cockpits and windscreens. 1 block wide.	可与角窗有效结合以形成驾驶舱和挡风玻璃的斜窗。1个单位宽。
 def_window_narrow_angle_s_desc		Basic window piece.	基本窗饰。
-def_window_port_name		Porthole Small	小舷窗
+def_window_port_name		Porthole Small	舷窗（小）
 def_window_port_desc		Useful for aircraft and ships that suit small structural windows.	适用于适合小型结构窗户的飞机和船舶。
 def_window_port_s_desc		3x3 window piece with a thick frame.	3x3厚框窗。
-def_window_porthole_name		Porthole	舷窗
+def_window_porthole_name		Porthole	舷窗（大）
 def_window_porthole_desc		Useful for large vehicles that require windows with a more robust appearance.	适用于需要具有更坚固外观的载具窗的大型载具。
 def_window_porthole_s_desc		Large 3x5 window piece with a thick frame.	大的3x5窗框厚。
-def_window_small_angle_name		Small Angled Window	小角度窗
+def_window_small_angle_name		Small Angled Window	窗（1x1 斜窗）
 def_window_small_angle_desc		A sloped window that can be used for creating cockpits and windscreens. Can also be used to create a corner between flat windows when oriented correctly.	可以用来制造驾驶舱和挡风玻璃的斜窗。也可用于在正确定向时在平面窗之间创建角点。
 def_window_small_angle_s_desc		Basic window piece.	基本窗饰。
 def_wind_sensor_name		Wind Sensor	风力传感器
@@ -5587,7 +5587,7 @@ def_modular_engine_starter_node_1_desc		Electrical power connection.	电源连�
 		"Merge two vehicle bodies. Different bodies are denoted by different colours. Click on a body to select it, then click an adjacent one to merge them."	合并两个载具。不同的物体用不同的颜色表示。单击一个实体将其选中，然后单击相邻的实体将其合并。
 		"Select parts of your vehicle to cut, copy, paste, rotate, flip and move them around. Export a selection as a new vehicle, or import a saved subassembly to place on your vehicle."	选择要切割、复制、粘贴、旋转、翻转和移动的载具部件。将选定内容导出为新载具，或导入保存的部件以放置在载具上。
 		"Upload a new vehicle to the steam workshop, or select one of your existing workshop vehicles to edit and overwrite it"	将新载具上传到steam创意工坊，或选择一辆现有的创意工坊载具进行编辑和覆盖
-		"Lua scripting gives you the tools to create advanced logic components using the Lua scripting language. Stormworks provides a number of functions to allow your script to interface with your vehicle's logic system, as well as drawing to in-game monitors.\n\nThis guide outlines the functions that are available for use in your scripts but it is not a comprehensive tutorial on using the Lua language."	Lua脚本提供了使用Lua脚本语言创建高级逻辑组件的工具。Stormworks提供了许多功能，允许脚本与载具的逻辑系统进行交互，并绘制到游戏中的屏幕中。\n\n本指南概述了可在脚本中使用的功能，但它不是使用Lua语言的综合系统性教程。
+		"Lua scripting gives you the tools to create advanced logic components using the Lua scripting language. Stormworks provides a number of functions to allow your script to interface with your vehicle's logic system, as well as drawing to in-game monitors.\n\nThis guide outlines the functions that are available for use in your scripts but it is not a comprehensive tutorial on using the Lua language."	Lua脚本提供了使用Lua脚本语言创建高级逻辑组件的工具。Stormworks提供了许多功能，允许脚本与载具的逻辑系统进行交互，并绘制到游戏中的屏幕中。\n\n本指南概述了可在脚本中使用的功能，但它不是使用Lua语言的综合系统性教程。\n\n显示器中的绘图均以左上角为坐标原点，向右为X轴正方向，向下为Y轴正方向。文字的坐标为其左上角像素点的坐标值。\n\n游戏中一个单位长度为32个像素，即：\n\n屏幕1x1=32x32像素；\n\n屏幕2x2=64x64像素；\n\n屏幕5x3=160x96像素；\n\n屏幕9x5=288x160像素；\n\nHUD（小）=32x32像素；\n\nHUD（大）=96x96像素。
 		"Draw line from (x1, y1) to (x2, y2)."	从(x1，y1)到(x2，y2)绘制直线。
 		"Draw circle at (x, y) with radius."	在(x，y)处画一定半径的空心圆。
 		"Draw filled circle at (x, y) with radius."	在(x，y)处画一定半径的实心圆。
