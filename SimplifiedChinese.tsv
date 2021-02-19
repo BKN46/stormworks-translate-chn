@@ -3902,7 +3902,7 @@ def_modular_engine_gearbox_1x1_node_2_desc		Toggle between the two gear ratios.	
 def_modular_engine_gearbox_1x1_node_3_label		Electric	电力
 def_modular_engine_gearbox_1x1_node_3_desc		The electric connection to power the component.	电力输入
 def_modular_engine_gearbox_3x3_name		Gearbox 3x3	变速箱 3x3
-def_modular_engine_gearbox_3x3_desc		The ratio can be toggled between two values which can be set in the properties. This gearbox operates up to a torque difference of 4000. Disengaging the clutch when changing gear and re-engaging it slowly will avoid damaging the gearbox.	齿比可以在属性中设置的两个值之间切换。这个变速箱的扭矩差可达1200。换档时松开离合器并缓慢重新接合，可避免损坏变速箱。
+def_modular_engine_gearbox_3x3_desc		The ratio can be toggled between two values which can be set in the properties. This gearbox operates up to a torque difference of 4000. Disengaging the clutch when changing gear and re-engaging it slowly will avoid damaging the gearbox.	齿比可以在属性中设置的两个值之间切换。这个变速箱的扭矩差可达4000。换档时松开离合器并缓慢重新接合，可避免损坏变速箱。
 def_modular_engine_gearbox_3x3_s_desc		Gearbox for changing the torque and speed across power connections.	变速箱，用于改变动力的扭矩和转速。
 def_modular_engine_gearbox_3x3_node_0_label		Power A	动力A
 def_modular_engine_gearbox_3x3_node_0_desc		Power connection A.	动力连接A
@@ -3913,7 +3913,7 @@ def_modular_engine_gearbox_3x3_node_2_desc		Toggle between the two gear ratios.	
 def_modular_engine_gearbox_3x3_node_3_label		Electric	电力
 def_modular_engine_gearbox_3x3_node_3_desc		The electric connection to power the component.	电力输入
 def_modular_engine_gearbox_5x5_name		Gearbox 5x5	变速箱 5x5
-def_modular_engine_gearbox_5x5_desc		The ratio can be toggled between two values which can be set in the properties. This gearbox operates up to a torque difference of 20000. Disengaging the clutch when changing gear and re-engaging it slowly will avoid damaging the gearbox.	齿比可以在属性中设置的两个值之间切换。这个变速箱的扭矩差可达1200。换档时松开离合器并缓慢重新接合，可避免损坏变速箱。
+def_modular_engine_gearbox_5x5_desc		The ratio can be toggled between two values which can be set in the properties. This gearbox operates up to a torque difference of 20000. Disengaging the clutch when changing gear and re-engaging it slowly will avoid damaging the gearbox.	齿比可以在属性中设置的两个值之间切换。这个变速箱的扭矩差可达20000。换档时松开离合器并缓慢重新接合，可避免损坏变速箱。
 def_modular_engine_gearbox_5x5_s_desc		Gearbox for changing the torque and speed across power connections.	变速箱，用于改变动力的扭矩和转速。
 def_modular_engine_gearbox_5x5_node_0_label		Power A	动力A
 def_modular_engine_gearbox_5x5_node_0_desc		Power connection A.	动力连接A
