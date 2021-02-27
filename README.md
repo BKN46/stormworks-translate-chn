@@ -4,6 +4,12 @@ Stormworks: Build and Rescue中文汉化项目
 欢迎PR，会定期审核并推到创意工坊  
 自建交流QQ群：665246787
 
+## 手动更新
+
+订阅创意工坊  
+下载`SimplifiedChinese.tsv`文件，替换掉路径  
+`steam安装目录\steamapps\workshop\content\573090\2019972792`下的`language.tsv`即可
+
 ## 翻译文件
 
  `SimplifiedChinese.tsv` 即为翻译文件，其中结构样例如下
