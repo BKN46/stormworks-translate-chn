@@ -117,9 +117,9 @@ id	description	en	local
 		Your boat was damaged in a recent storm. You will need to use a workbench to fix it.	你的船在最近的风暴中损坏了。你需要使用工作台来修复它。
 		Workbench	工作台
 		VEHICLE EDITOR	载具编辑器
-		This is the vehicle editor, where you can fix your boat.	这是载具编辑器，你可以在这里修理你的船。
+		This is the vehicle editor, where you can fix your boat.	
 		ROTATE THE CAMERA	旋转摄像机
-		You can rotate the camera around in the vehicle editor by holding the RIGHT MOUSE BUTTON while dragging, or by holding [shift] and LEFT MOUSE BUTTON.	拖动时按住鼠标右键，或按住[shift]和鼠标左键，可以在载具编辑器中旋转摄像头。
+		You can rotate the camera around in the vehicle editor by holding the RIGHT MOUSE BUTTON while dragging, or by holding [shift] and LEFT MOUSE BUTTON.	
 		MOVE THE CAMERA	移动摄像机
 		You can pan the camera around in the vehicle editor by dragging while holding \nMIDDLE MOUSE BUTTON\nor\n[alt] and LEFT MOUSE BUTTON.	您可以在按住鼠标中键或[alt]和鼠标左键的同时拖动，在载具编辑器中左右移动摄像头。
 		ZOOM THE CAMERA	放大摄像机
@@ -286,13 +286,13 @@ id	description	en	local
 		Ice Shelf 3	冰架3
 		An ice shelf with multiple large icebergs.	有多个大冰山的冰架。
 		Ice Shelf 4	冰架4
-		An ice shelf with multiple large icebergs.	有多个大冰山的冰架。
+		An ice shelf with multiple large icebergs.	
 		Ice Shelf 5	冰架5
-		An ice shelf with multiple large icebergs.	有多个大冰山的冰架。
+		An ice shelf with multiple large icebergs.	
 		Ice Shelf 6	冰架6
-		An ice shelf with multiple large icebergs.	有多个大冰山的冰架。
+		An ice shelf with multiple large icebergs.	
 		Ice Shelf 7	冰架7
-		An ice shelf with multiple large icebergs.	有多个大冰山的冰架。
+		An ice shelf with multiple large icebergs.	
 		Ice Shelf 8	冰架8
 		An ice shelf with two very large icebergs.	有两个非常大的冰山的冰架。
 		Ice Shelf 9	冰架9
@@ -349,32 +349,41 @@ id	description	en	local
 		CANNOT SPAWN MISSION	无法生成任务
 		WORKSHOP UPLOAD FAILED	创意工坊上传失败
 		COMPONENTS OVERLAPPING	零件重叠
+<<<<<<< HEAD
 		Your addon has failed to upload to the Steam workshop.	你的插件上传到创意工坊的过程中出错了
 		Your workshop addon has failed to update.	你的创意工坊插件更新失败
 		ADDON UPLOAD COMPLETE	插件上传完成
 		Your addon was successfully uploaded to the Steam workshop.\n\n We recommend heading to your addon's workshop page to add more information about the content you've included.\n\n Any vehicles used in your addon have been included as part of the upload. Players will not need to separately subscribe to any of these vehicles.	你的插件已经成功的上传到了Steam创意工坊\n\n我们建议您去该插件的创意工坊界面添加说明信息。\n\n任何插件内的载具都作为该插件的一部分被上传上去了。玩家不需要额外订阅载具。
 		ADDON UPDATE COMPLETE	插件上传完成
 		Your addon was updated successfully.\n\nYou can customise the changelog for this update by heading to your addon's workshop page to let your subscribers know what's new.	你的插件上传成功\n\n你可以去创意工坊插件页为这此更新自定义更新日志，来让你的订阅者知道更新了什么。
+=======
+		Your addon has failed to upload to the Steam workshop.	
+		Your workshop addon has failed to update.	
+		ADDON UPLOAD COMPLETE	
+		Your addon was successfully uploaded to the Steam workshop.\n\n We recommend heading to your addon's workshop page to add more information about the content you've included.\n\n Any vehicles used in your addon have been included as part of the upload. Players will not need to separately subscribe to any of these vehicles.	
+		ADDON UPDATE COMPLETE	
+		Your addon was updated successfully.\n\nYou can customise the changelog for this update by heading to your addon's workshop page to let your subscribers know what's new.	
+>>>>>>> parent of c19cbe6 (Update SimplifiedChinese.tsv)
 		missions	任务
-		mission	任务
+		mission	使命
 		objectives	目标
-		objective	目标
+		objective	客观的
 		triggers	触发器
-		trigger	触发器
+		trigger	触发
 		This component is currently required by	当前组件存在依赖关系
 		Are you sure you want to delete it?	确定要删除它吗？
 		Workshop upload must have a name	必须要有名字才能上传到创意工坊
 		Workshop upload must be renamed	必须重命名才能上传到创意工坊
-		This addon includes the following	这个组件包含以下物品
+		This addon includes the following	
 		mission(s)	任务
-		Please note that some missions in this addon will only naturally spawn if certain criteria are met(such as owning a specific type of island, or having unlocked fire equipment).	请注意该插件中的一些任务会在一些情况下自然生成(例如拥有了特定类型的岛屿，或是解锁了特定装备)
-		The author of this addon has tagged it as creative, so some or all included missions may be unsuitable for career mode.	这个插件被作者标记为创造模式插件，所以该插件的一些或所有内容也许不适合生涯模式。
-		(If you are the author of this addon, you can edit this description to add more details)	(如果你是这个插件的作者，你可以编辑这个描述增加更多信息)
+		Please note that some missions in this addon will only naturally spawn if certain criteria are met(such as owning a specific type of island, or having unlocked fire equipment).	
+		The author of this addon has tagged it as creative, so some or all included missions may be unsuitable for career mode.	
+		(If you are the author of this addon, you can edit this description to add more details)	
 		Uploaded	上传
 		to the Workshop.	去创意工坊。
 		Updated	更新
-		Addon must have a name	插件必须有一个名字
-		Addon must be renamed	插件必须重命名
+		Addon must have a name	
+		Addon must be renamed	
 		MISSION OVERVIEW	任务概述
 		No dependencies set.	未设置依赖项。
 		[no zone set]	[未设置区域]
@@ -445,7 +454,7 @@ id	description	en	local
 		Map	地图
 		Missions	任务
 		Research	研究
-		No missions available. Sleep in a bed to fast-forward, or click the (+) button to manually spawn a mission.	没有任务可用。在床上睡觉来让时间快进，或是按下(+)按钮来手动生成一个任务。
+		No missions available. Sleep in a bed to fast-forward, or click the (+) button to manually spawn a mission.	
 		show controls	显示控制说明
 		hide controls	隐藏控制说明
 		No Active Mission	没有当前激活任务
@@ -679,6 +688,7 @@ id	description	en	local
 		Are you sure you want to delete this trigger?	确实要删除此触发器吗？
 		DELETE COMPONENT	删除组件
 		Are you sure you want to delete this mission component?	是否确实要删除此任务组件？
+		NEW PLAYLIST	新游玩列表
 		Are you sure you want to create a new addon?	你确定要创建一个新插件吗？
 		Enter a save name for this addon:	输入一个插件保存名字:
 		DELETE ADDON	删除插件
@@ -686,10 +696,9 @@ id	description	en	local
 		OVERWRITE ADDON	覆盖插件
 		Are you sure you want to overwrite this addon?	你确定要覆盖这个插件吗
 		UPLOAD ADDON	上传插件
-		NEW ADDON	新插件
-		Are you sure you want to upload this addon to the workshop?\n\n This will make it available to all Stormworks players.	你确定你要将这个插件上传到创意工坊？\n\n这将让所有Stormworks玩家能够游玩该插件
+		Are you sure you want to upload this addon to the workshop?\n\n This will make it available to all Stormworks players.	
 		Are you sure you want to overwrite this workshop playlist?	是否确实要覆盖此创意工坊游玩列表？
-		Are you sure you want to test this mission in the world?\n\nYour mission will be automatically despawned when you return to the addon editor.	你确定想要在世界中测试这个任务？\n\n你的任务将在返回插件编辑器时自动销毁
+		Are you sure you want to test this mission in the world?\n\nYour mission will be automatically despawned when you return to the mission editor.	你确定要在世界中测试这个任务吗？\n\n当您返回任务编辑器时，您的任务将自动取消。
 		SET OBJECTIVE DEPENDENCIES	设置目标依赖项
 		OTHER OBJECTIVES	其他目标
 		SET COMPONENT DEPENDENCIES	设置组件依赖项
@@ -950,7 +959,7 @@ id	description	en	local
 		Infinite Stock	无限库存
 		Infinite money and components are available.	无限的钱和组件是可用的。
 		Creative Tools	创意工具
-		Enable time/weather control menu, addon editor, mission spawn menu.	开关时间/天气控制面板、插件编辑器、任务生成面板
+		Enable time/weather control menu, mission editor, mission spawn menu.	
 		Day/Night Cycle (minutes)	昼夜循环(分钟)
 		Daylight Hours	白昼长度
 		Clear	清除
@@ -976,7 +985,7 @@ id	description	en	local
 		Starter Base	新手基地
 		Features a small dock.	有一个小码头。
 		Creative Base	创造模式基地
-		Features a hangar, large dock, and runway.	设有机场、大码头、以及跑道
+		Features a hangar, large dock, and runway.	
 		Helicopter Base	直升机基地
 		Features a hangar and helipad.	设有机库和直升机停机坪。
 		O'Neill Airbase	奥尼尔空军基地
@@ -992,7 +1001,7 @@ id	description	en	local
 		Airstrip Base	简易机场基地
 		Features a hangar and runway.	设有机库和跑道。
 		Military Base	军事基地
-		A small military establishment with a hangar, barracks and runway.	有机库、兵营和跑道的小型军事设施。
+		A small military establishment with a hangar, barracks and runway.	
 		Terminal Spycakes	斯派克站
 		Large dock and small village with various access routes to the island.	大码头和小村庄，有各种进出岛屿的路线。
 		Mainland Airstrip	大陆机场
@@ -1006,15 +1015,15 @@ id	description	en	local
 		Trainline Island 3	铁路线岛屿3
 		A straight section of trainline that passes over several small islands.	穿过几个小岛屿的一段直线铁路。
 		Custom Base Submarine	定制潜艇基地
-		Features a large cave with water access, and a large area for base construction.	有一个大洞，有水道，还有一个大面积的基地建设区域。
+		Features a large cave with water access, and a large area for base construction.	
 		Custom Base Heli	定制直升机基地
-		An inaccessible plateau, perfect for landing helicopters or base construction.	一个难以到达的高原，非常适合直升机降落或基地建设。
+		An inaccessible plateau, perfect for landing helicopters or base construction.	
 		Custom Base Large Boat	定制大型舰船基地
-		A weathered bank ideal for docking large boats, with a flat area for base construction.	一个风化的堤岸，适合停靠大型船只，有一个平坦的区域用于基地建设。
+		A weathered bank ideal for docking large boats, with a flat area for base construction.	
 		Custom Base Small Boat	定制小艇基地
 		Features a small cave with water access and a flat area for base construction.	有一个小洞穴，有水通道和一个平坦的基地建设区。
 		Custom Base Oil Rig (Large)	定制石油钻机基地(大型)
-		The base of a large, disused oil rig, ready for building a new platform.	一个大型废弃石油钻井平台的底座，准备建造一个新平台。
+		The base of a large, disused oil rig, ready for building a new platform.	
 		Arctic Island Base	北极岛屿基地
 		A huge airfield and shipping dock base.	一个巨大的机场和船坞基地。
 		Sell	出售
@@ -1201,7 +1210,11 @@ id	description	en	local
 		Save	保存
 		Load	加载
 		Time of Day/Weather	时间/天气
+<<<<<<< HEAD
 		Addon Editor	插件编辑器
+=======
+		Mission Editor	任务编辑器
+>>>>>>> parent of c19cbe6 (Update SimplifiedChinese.tsv)
 		DELETE SAVE DATA	删除保存数据
 		Are you sure you want to delete this save data?	是否确实要删除此保存数据？
 		QUIT TO MENU	退出菜单
@@ -1211,8 +1224,13 @@ id	description	en	local
 		Autosaved progress may be lost if you start a new game.	如果开始新游戏，自动保存的进度可能会丢失。
 		Save and Quit	保存并退出
 		Quit Without Saving	不保存就退出
+<<<<<<< HEAD
 		RETURN TO ADDON EDITOR	返回到插件编辑器
 		You are currently testing a mission.\n\nReturning to the addon editor will despawn all vehicles and objects associated with the mission.\n\nAre you sure you want to return to the addon editor?	您当前正在测试任务。\n\n返回任务编辑器将销毁与任务相关的所有载具和对象。\n\n确实要返回任务编辑器吗？
+=======
+		RETURN TO MISSION EDITOR	返回任务编辑器
+		You are currently testing a mission.\n\nReturning to the mission editor will despawn all vehicles and objects associated with the mission.\n\nAre you sure you want to return to the mission editor?	您当前正在测试任务。\n\n返回任务编辑器将销毁与任务相关的所有载具和对象。\n\n确实要返回任务编辑器吗？
+>>>>>>> parent of c19cbe6 (Update SimplifiedChinese.tsv)
 		Are you sure you want to disconnect from this server?	确实要断开与此服务器的连接吗？
 		Are you sure you want to quit to the main menu?	你确定要退出主菜单吗？
 		Field of View	视野(FOV)
@@ -1319,7 +1337,7 @@ id	description	en	local
 		POWER	动力
 		Edit power logic nodes.	编辑电源逻辑节点。
 		Use pipes with Advanced Vehicle difficulty	在高级载具模式中请使用管道代替此功能
-		FLUID	流体
+		FLUID	液体
 		Edit fluid transfer nodes.	编辑流体传输节点。
 		ELECTRIC	电动
 		Edit electrical transfer nodes.	编辑电气传输节点。
@@ -1518,7 +1536,7 @@ id	description	en	local
 		Bank	银行
 		Total	总计
 		Police Hat	警帽
-		NEW ADDON	新插件
+		NEW ADDON	
 		Add/Remove Components	添加/删除组件
 		Mission Dependencies	任务相关性
 		Set Mission Depencies	设置任务相关性
@@ -1701,12 +1719,12 @@ id	description	en	local
 		video	视频
 		Edit audio transfer nodes.	编辑音频传输节点。
 		audio	音频
-		ROPE	绳
-		Edit rope transfer nodes.	编辑绳索传输节点
+		ROPE	
+		Edit rope transfer nodes.	
 		rope	绳
-		ROPE	绳
+		ROPE	
 		sail	帆
-		Edit rope transfer nodes.	编辑绳索传输节点
+		Edit rope transfer nodes.	
 		LUA SCRIPTING OVERVIEW	LUA脚本概述
 		Lua scripting gives you the tools to create advanced logic components using the Lua scripting language. Stormworks provides a number of functions to allow your script to interface with your vehicle's logic system, as well as drawing to in-game monitors.\n\nThis guide outlines the functions that are available for use in your scripts but it is not a comprehensive tutorial on using the Lua language.	Lua脚本提供了使用Lua脚本语言创建高级逻辑组件的工具。Stormworks提供了许多功能，允许脚本与载具的逻辑系统进行交互，并绘制到游戏中的屏幕中。\n\n本指南概述了可在脚本中使用的功能，但它不是使用Lua语言的综合系统性教程。
 		SCRIPT BASICS	脚本基础
@@ -1721,17 +1739,17 @@ id	description	en	local
 		Set the current draw colour. Values range from 0 - 255.	设置当前绘图颜色。值的范围为0-255。
 		Set the current draw colour and transparency. Values range from 0 - 255.	设置当前绘图颜色和透明度。值的范围为0-255。
 		Clear the screen with the current colour.	用当前颜色清除/覆盖屏幕。
-		Draw line from (x1, y1) to (x2, y2).	从(x1, y1)到(x2, y2)画一条直线
-		Draw circle at (x, y) with radius.	在(x, y)以指定半径画圈
-		Draw filled circle at (x, y) with radius.	在(x, y)以指定半径画实心圆
-		Draw rectangle at (x, y) with width and height.	在(x, y)以指定宽高画矩形边框
-		Draw filled rectangle at (x, y) with width and height.	在(x, y)以指定宽高画实心矩形
-		Draw triangle between (x1, y1), (x2, y2) and (x3, y3).	在(x1, y1)、(x2, y2)、(x3, y3)之间画三角形边框
-		Draw filled triangle between (x1, y1), (x2, y2) and (x3, y3).	在(x1, y1)、(x2, y2)、(x3, y3)之间画实心三角形
-		Draw text at (x, y). Each character is 4 pixels wide and 5 pixels tall.	在(x, y)处渲染文字，每个字母4像素宽、5像素高
-		Draw text within the rectangle at (x, y) with width and height. Text alignment can be specified using the last two parameters and ranges from -1 to 1 (left to right, top to bottom). If either of the alignment parameters are omitted, the text will be drawn top-left by default. Text will automatically wrap at spaces when possible, and will overflow the top/bottom of the specified rectangle if too large.	在（x，y）处的矩形内绘制宽度和高度相同的文本。可以使用最后两个参数指定文本对齐方式，范围从-1到1（从左到右，从上到下）。如果省略任何一个对齐参数，则默认情况下，文本将绘制在左上角。如果可能，文本将自动换行到空格处，如果太大，文本将溢出指定矩形的顶部/底部。
-		Draw the world map centred on map coordinate (x,y) with zoom level ranging from 0.1 to 50.	以地图坐标（x，y）为中心绘制世界地图，缩放比例从0.1到50。
-		Set the colours used for rendering the map. Values range from 0 - 255, alpha is optional.	设置用于渲染地图的颜色。值的范围从0到255，可指定alpha(透明度)。
+		Draw line from (x1, y1) to (x2, y2).	
+		Draw circle at (x, y) with radius.	
+		Draw filled circle at (x, y) with radius.	
+		Draw rectangle at (x, y) with width and height.	
+		Draw filled rectangle at (x, y) with width and height.	
+		Draw triangle between (x1, y1), (x2, y2) and (x3, y3).	
+		Draw filled triangle between (x1, y1), (x2, y2) and (x3, y3).	
+		Draw text at (x, y). Each character is 4 pixels wide and 5 pixels tall.	
+		Draw text within the rectangle at (x, y) with width and height. Text alignment can be specified using the last two parameters and ranges from -1 to 1 (left to right, top to bottom). If either of the alignment parameters are omitted, the text will be drawn top-left by default. Text will automatically wrap at spaces when possible, and will overflow the top/bottom of the specified rectangle if too large.	
+		Draw the world map centred on map coordinate (x,y) with zoom level ranging from 0.1 to 50.	
+		Set the colours used for rendering the map. Values range from 0 - 255, alpha is optional.	
 		Get the width/height of the screen currently being rendered to.	获取当前渲染到的屏幕的宽度/高度。
 		MAP	地图
 		Convert pixel coordinates into world coordinates.	将像素坐标转换为世界坐标。
@@ -1741,7 +1759,7 @@ id	description	en	local
 		TELEMETRY FUNCTIONS	遥测功能
 		The following global async functions are available:\n\n- httpGet\n\nHTTP requests are sent to the localhost on the specified port. Responses are caught with the httpReply(port, request_body, response_body) callback function.\n\nasync.httpGet(port, request_body)\n\nExample of a HTTP request sent to port 80:	可以使用以下全局异步函数：\n\n-httpGet\n\nHTTP请求被发送到指定端口上的本地主机。使用httpReply（端口，request_body，response_body）回调函数捕获响应。\n\nasync.httpGet（端口，request_body）\n\n[译者注:此函数使用可以参考本人B站视频:BV1mV411B7Bg] \n\n发送到端口80的HTTP请求示例：
 		META FROM THE DEVS	来自开发组的参考
-		This scripting API is very powerful and as such there are some important reminders to take note of:\n\n- Your script has a max execution time of 1000 milliseconds, however it is still possible to create scripts that significantly slow down the game. It is your responsibility to ensure your script runs efficiently.\n\n- Random number functions are provided by the Lua math library. Use of randomness in your scripts is likely to cause desync in multiplayer, so use these functions at your own risk.\n\n- When your vehicle despawns and respawns, your script will be executed 'fresh' and any state stored within the script will be lost. We recommend keeping your script as stateless as possible, and making use of existing logic components (e.g. memory register) to store values that you wish to persist.\n\n- Your scripts run as a 'black box' with only the logic inputs/outputs being synced in multiplayer. Keep in mind that complex logic in your script may behave differently for different players in a multiplayer session.\n\n- A number of safeguards are in place to sandbox your script, however it is still possible to write scripts that will potentially crash your game. If you crash your game with a script, it's likely that you're doing something (very) wrong. This is your own responsibility. If you suspect you have encountered a legitimate bug, please report it on the Stormworks issue tracker (accessible from the pause-menu).\n\n- Malicious and harmful scripts will not be tolerated on the Stormworks Steam Workshop.\n\nFinally, enjoy the almost limitless possibilities that these scripts provide. This short wiki aims to give a good overview of how scripting in Stormworks works, however if you have any questions that are not covered here, please feel free to join us on Discord (accessible from the pause-menu)!	这个脚本API非常强大，因此有一些重要的提示需要注意：\n\n-您的脚本的最大执行时间为1000毫秒，但是仍然可以创建显著降低游戏速度的脚本。您有责任确保脚本高效运行。\n\n-随机数函数由Lua数学库提供。在脚本中使用随机性可能会导致多人游戏中的失同步，因此使用这些函数的风险由您自己承担。\n\n-当您的车辆报废和重新启用时，您的脚本将被“刷新”执行，并且脚本中存储的任何状态都将丢失。我们建议您的脚本尽可能保持无状态，并利用现有的逻辑组件（例如内存寄存器）来存储希望持久化的值。\n\n-您的脚本作为“黑盒”运行，只有逻辑输入/输出在多人游戏中同步。请记住，脚本中的复杂逻辑对于多人游戏会话中的不同玩家可能会有不同的行为。\n\n-有许多保护措施可以对脚本进行沙盒处理，但是仍然可以编写可能会使游戏崩溃的脚本。如果你用一个脚本使游戏崩溃，很可能你做错了什么。这是你自己的责任。如果您怀疑遇到了合法的错误，请在Stormworks问题跟踪程序（可从“暂停”菜单访问）上报告。\n\n-在Stormworks Steam Workshop上不允许使用恶意和有害的脚本。\n\n最后，请享受这些脚本提供的几乎无限的可能性。这个简短的wiki旨在很好地概述Stormworks中的脚本是如何工作的，但是如果您有任何问题，请随时加入我们的Discord（可从暂停菜单访问）！
+		This scripting API is very powerful and as such there are some important reminders to take note of:\n\n- Your script has a max execution time of 1000 milliseconds, however it is still possible to create scripts that significantly slow down the game. It is your responsibility to ensure your script runs efficiently.\n\n- Random number functions are provided by the Lua math library. Use of randomness in your scripts is likely to cause desync in multiplayer, so use these functions at your own risk.\n\n- When your vehicle despawns and respawns, your script will be executed 'fresh' and any state stored within the script will be lost. We recommend keeping your script as stateless as possible, and making use of existing logic components (e.g. memory register) to store values that you wish to persist.\n\n- Your scripts run as a 'black box' with only the logic inputs/outputs being synced in multiplayer. Keep in mind that complex logic in your script may behave differently for different players in a multiplayer session.\n\n- A number of safeguards are in place to sandbox your script, however it is still possible to write scripts that will potentially crash your game. If you crash your game with a script, it's likely that you're doing something (very) wrong. This is your own responsibility. If you suspect you have encountered a legitimate bug, please report it on the Stormworks issue tracker (accessible from the pause-menu).\n\n- Malicious and harmful scripts will not be tolerated on the Stormworks Steam Workshop.\n\nFinally, enjoy the almost limitless possibilities that these scripts provide. This short wiki aims to give a good overview of how scripting in Stormworks works, however if you have any questions that are not covered here, please feel free to join us on Discord (accessible from the pause-menu)!	
 		TOUCHSCREEN DATA	触摸屏数据
 		The composite output from the monitors contains data that can be interpreted in your script to create touchscreens. The layout of the composite data is as follows:\n\nNumber Channels\n1: monitorResolutionX\n2: monitorResolutionY\n3: input1X\n4: input1Y\n5: input2X\n6: input2Y\n\nOn/Off Channels:\n1: isInput1Pressed\n2: isInput2Pressed\n\nThis is an example of a script that outputs a signal on composite channel 1 if the player is pressing the screen within a specific rectangle:	屏幕的复合输出包含可以在脚本中解释以创建触摸屏的数据。组合数据的布局如下所示：\ n\n频道数\n1:monitorResolutionX\n2:monitorresolution\n3:input1X\n4:input1Y\n5:input2X\n6:input2Y\n\n非/非频道：\ n1:isInput1Pressed\n2:isInput2Pressed\n\n这是一个脚本示例，如果玩家在一个特定矩形：
 		Check Errors	检查错误
@@ -1887,7 +1905,7 @@ id	description	en	local
 			
 		[$[action_equipment_use]] Open parachute [$[action_equipment_secondary]] Close parachute	[$[action_equipment_use]] 打开降落伞 [$[action_equipment_secondary]] 关闭降落伞
 			
-		[$[action_equipment_use]] Zoom in	[$[action_equipment_use]]放大
+		[$[action_equipment_use]] Zoom in	
 			
 			
 		[$[action_equipment_use]] Revive incapaciated player	[$[action_equipment_use]] 接受丧失行动能力玩家
@@ -1904,18 +1922,18 @@ id	description	en	local
 			
 		[$[action_equipment_use]] Toggle control [$[action_equipment_secondary]] cycle frequency	[$[action_equipment_use]] 控制开关 [$[action_equipment_secondary]] 循环切换频率
 			
-		[$[action_equipment_use]] Toggle strobe [$[action_equipment_secondary]] Toggle MOB mode	[$[action_equipment_use]] 频闪开关 [$[action_equipment_secondary]] 切换MOB模式
-		[$[action_equipment_use]] Toggle strobe [$[action_equipment_secondary]] Toggle MOB mode	[$[action_equipment_use]] 频闪开关 [$[action_equipment_secondary]] 切换MOB模式
+		[$[action_equipment_use]] Toggle strobe [$[action_equipment_secondary]] Toggle MOB mode	
+		[$[action_equipment_use]] Toggle strobe [$[action_equipment_secondary]] Toggle MOB mode	
 		[$[action_equipment_use]] Toggle transmit [$[action_equipment_secondary]] Toggle MOB mode	[$[action_equipment_use]] 通信开关 [$[action_equipment_secondary]] 切换MOB模式
-		[$[action_equipment_use]] Repair	[$[action_equipment_use]]维修
-		[$[action_equipment_use]] Repair	[$[action_equipment_use]]维修
+		[$[action_equipment_use]] Repair	
+		[$[action_equipment_use]] Repair	
 		Detailed	细致的
 		Simple	简单的
 		Incapacitated	丧失行动能力的
 		Respawn	重生
 		Respawning is Disabled	重生已被禁用
 		Spawn Vehicle	生成载具
-		There is already a vehicle in the edit zone, are you sure you would like to spawn this vehicle?	已经有一台载具在编辑区域了，你确定你要生成载具吗？
+		There is already a vehicle in the edit zone, are you sure you would like to spawn this vehicle?	
 		Unload	卸载弹药
 		Reload	重新装弹
 		Light Auto Ammo Box	轻型自动武器弹药箱
@@ -1930,6 +1948,7 @@ id	description	en	local
 		BLUEPRINT	蓝图
 		AI	AI
 		Ship Pilot	船只驾驶员
+<<<<<<< HEAD
 		Helicopter Pilot	直升机驾驶员
 		Plane Pilot	飞机驾驶员
 		Gunner	武器操作员
@@ -1965,6 +1984,8 @@ id	description	en	local
 		Pistol	手枪
 		Pistol Ammo	手枪弹药
 		Grenade	手榴弹
+=======
+>>>>>>> parent of c19cbe6 (Update SimplifiedChinese.tsv)
 def_01_block_name		Block	方块
 def_01_block_desc		The block is a quarter-metre in size. Components can be attached to all 6 faces.	这个方块有四分之一米大。组件可以连接收到所有6个面。
 def_01_block_s_desc		Basic cube-shaped building block.	基本立方形建筑块。
@@ -2415,7 +2436,7 @@ def_connector_large_node_6_label		Power	动力
 def_connector_large_node_6_desc		Power connection for transfering mechanical energy to another connector.	用于将机械能传输到另一个连接头的电源连接。
 def_connector_large_node_7_label		Electric	电源
 def_connector_large_node_7_desc		Electrical power connection.	电源连接。
-def_connector_large_node_8_label		Fluid	流体
+def_connector_large_node_8_label		Fluid	液体
 def_connector_large_node_8_desc		Fluid connection for transfering fluid to another connector.	用于将流体传输到另一个接头的流体连接。
 def_connector_large_node_9_label		Composite Data Send	复合数据发送
 def_connector_large_node_9_desc		Composite data to send to the connected connector.	要发送到连接的连接头的复合数据。
@@ -2459,7 +2480,7 @@ def_connector_water_node_0_label		Release Connector	连接头释放
 def_connector_water_node_0_desc		Release the connector when receiving an on signal.	接收到接通信号时，松开接头。
 def_connector_water_node_1_label		Connected	有联系的
 def_connector_water_node_1_desc		Outputs an on signal if the connector is attached to another connector.	如果连接头连接收到另一个连接头，则输出接通信号。
-def_connector_water_node_2_label		Fluid	流体
+def_connector_water_node_2_label		Fluid	液体
 def_connector_water_node_2_desc		Fluid connection to link to another fluid connector.	连接收到另一个流体接头的流体连接。
 def_connector_water_node_3_label		Composite Data Send	电源
 def_connector_water_node_3_desc		Composite data to send to the connected connector.	电源连接。
@@ -2721,40 +2742,40 @@ def_flare_launcher_node_0_desc
 def_fluid_exhaust_name		Fluid Exhaust	排液(气)口
 def_fluid_exhaust_desc		Fluid can flow in and out of the port as part of a fluid system.	流体可以作为流体系统的一部分进出端口。
 def_fluid_exhaust_s_desc		An exhaust port for fluid systems.	流体系统的排气口。
-def_fluid_exhaust_node_0_label		Fluid	流体
+def_fluid_exhaust_node_0_label		Fluid	液体
 def_fluid_exhaust_node_0_desc		Allows fluid to flow in and out of an enclosed volume or the ocean.	允许流体进出封闭的体积或海洋。
-def_fluid_filter_name		Fluid Filter	流体过滤器
+def_fluid_filter_name		Fluid Filter	液体过滤器
 def_fluid_filter_desc		The valve can be configured to select which fluids may pass across the two directional valve.	该阀可配置为选择哪些流体可通过双向阀。
 def_fluid_filter_s_desc		The fluid filter only allows certain types of fluid across the valve.	油液滤清器只允许特定类型的油液通过阀门。
-def_fluid_filter_node_0_label		Fluid A	流体A
+def_fluid_filter_node_0_label		Fluid A	液体A
 def_fluid_filter_node_0_desc		Fluid connection.	流体连接。
-def_fluid_filter_node_1_label		Fluid B	流体B
+def_fluid_filter_node_1_label		Fluid B	液体B
 def_fluid_filter_node_1_desc		Fluid connection.	流体连接。
 def_fluid_heat_sink_name		Fluid Heat Sink	流体散热器
-def_fluid_heat_sink_desc		Fluid inside the cooler will lose temperature.	冷却器内的流体将失去温度。
-def_fluid_heat_sink_s_desc		Heat sink type cooler for fluid.	散热器式流体冷却器。
-def_fluid_heat_sink_node_0_label		Fluid A	流体A
+def_fluid_heat_sink_desc		Fluid inside the cooler will lose temperature.	冷却器内的液体将失去温度。
+def_fluid_heat_sink_s_desc		Heat sink type cooler for fluid.	散热器式液体冷却器。
+def_fluid_heat_sink_node_0_label		Fluid A	液体A
 def_fluid_heat_sink_node_0_desc		Fluid Connection.	流体连接。
-def_fluid_heat_sink_node_1_label		Fluid B	流体B
+def_fluid_heat_sink_node_1_label		Fluid B	液体B
 def_fluid_heat_sink_node_1_desc		Fluid Connection.	流体连接。
 def_fluid_intake_name		Fluid Intake	进液口
 def_fluid_intake_desc		Place the port inside of an enclosed volume to connect to that volume, or outside of the vehicle to connect to the exterior.	将端口放在封闭卷的内部以连接收到该卷，或放在载具外部以连接收到外部。
 def_fluid_intake_s_desc		Port used to allow fluid in and out of a fluid system.	允许流体进出流体系统的端口。
-def_fluid_intake_node_0_label		Fluid	流体
+def_fluid_intake_node_0_label		Fluid	液体
 def_fluid_intake_node_0_desc		Allows fluid to flow in and out of an enclosed volume or the exterior.	允许流体进出封闭的体积或外部。
 def_fluid_pressure_name		Fluid Pressure Sensor	液压传感器
 def_fluid_pressure_desc		Measures the fluid pressure in the connected fluid network.	测量连接的流体网络中的流体压力。
 def_fluid_pressure_s_desc		A sensor for reading fluid pressure.	用于读取流体压力的传感器。
-def_fluid_pressure_node_0_label		Fluid	流体
-def_fluid_pressure_node_0_desc		Fluid to measure the pressure of.	测量流体的压力。
+def_fluid_pressure_node_0_label		Fluid	液体
+def_fluid_pressure_node_0_desc		Fluid to measure the pressure of.	测量液体的压力。
 def_fluid_pressure_node_1_label		Pressure	压力
 def_fluid_pressure_node_1_desc		The pressure reading of the fluid.	流体的压力读数。
-def_fluid_radiator_name		Fluid Heat Radiator	流体散热器
-def_fluid_radiator_desc		Fluid inside the cooler will lose temperature.	冷却器内的流体将失去温度。
-def_fluid_radiator_s_desc		Radiator type cooler for fluid.	散热器式流体冷却器。
-def_fluid_radiator_node_0_label		Fluid A	流体A
+def_fluid_radiator_name		Fluid Heat Radiator	液体散热器
+def_fluid_radiator_desc		Fluid inside the cooler will lose temperature.	冷却器内的液体将失去温度。
+def_fluid_radiator_s_desc		Radiator type cooler for fluid.	散热器式液体冷却器。
+def_fluid_radiator_node_0_label		Fluid A	液体A
 def_fluid_radiator_node_0_desc		Fluid Connection.	流体连接。
-def_fluid_radiator_node_1_label		Fluid B	流体B
+def_fluid_radiator_node_1_label		Fluid B	液体B
 def_fluid_radiator_node_1_desc		Fluid Connection.	流体连接。
 def_fluid_radiator_electric_name		Fluid Heat Radiator 3x3 (Electric)	液体风冷散热器 3x3
 def_fluid_radiator_electric_desc		Fluid inside the cooler will lose temperature, supplying electric for the fan will increase the rate of exchange.	散热器中的液体能够缓慢降低温度，给风扇供电能够加速这一过程。
@@ -2784,38 +2805,38 @@ def_fluid_radiator_electric_5_node_4_label		temperature	温度
 def_fluid_radiator_electric_5_node_4_desc			
 def_fluid_tank_large_name		Fluid Tank Large	大油箱
 def_fluid_tank_large_desc		The tank fill spawn full of the selected fluid type.	油箱充满所选流体类型。
-def_fluid_tank_large_s_desc		A tank for storing fluid.	储存流体的罐。
-def_fluid_tank_large_node_0_label		Stored Fluid	储存的流体
+def_fluid_tank_large_s_desc		A tank for storing fluid.	储存液体的罐。
+def_fluid_tank_large_node_0_label		Stored Fluid	储存的液体
 def_fluid_tank_large_node_0_desc		The fluid connection for the stored contents.	存储内容的流体连接。
 def_fluid_tank_large_node_1_label		Tank Content	油箱容量
-def_fluid_tank_large_node_1_desc		The amount of fluid in the tank in litres.	油箱中的流体量，单位为升。
+def_fluid_tank_large_node_1_desc		The amount of fluid in the tank in litres.	油箱中的液体量，单位为升。
 def_fluid_tank_medium_name		Fluid Tank Medium	中等油箱
 def_fluid_tank_medium_desc		The tank fill spawn full of the selected fluid type.	油箱充满所选流体类型。
-def_fluid_tank_medium_s_desc		A tank for storing fluid.	储存流体的罐。
-def_fluid_tank_medium_node_0_label		Stored Fluid	储存的流体
+def_fluid_tank_medium_s_desc		A tank for storing fluid.	储存液体的罐。
+def_fluid_tank_medium_node_0_label		Stored Fluid	储存的液体
 def_fluid_tank_medium_node_0_desc		The fluid connection for the stored contents.	存储内容的流体连接。
 def_fluid_tank_medium_node_1_label		Tank Content	油箱容量
-def_fluid_tank_medium_node_1_desc		The amount of fluid in the tank in litres.	油箱中的流体量，单位为升。
+def_fluid_tank_medium_node_1_desc		The amount of fluid in the tank in litres.	油箱中的液体量，单位为升。
 def_fluid_tank_small_name		Fluid Tank Small	小油箱
 def_fluid_tank_small_desc		The tank fill spawn full of the selected fluid type.	油箱充满所选流体类型。
-def_fluid_tank_small_s_desc		A tank for storing fluid.	储存流体的罐。
-def_fluid_tank_small_node_0_label		Stored Fluid	储存的流体
+def_fluid_tank_small_s_desc		A tank for storing fluid.	储存液体的罐。
+def_fluid_tank_small_node_0_label		Stored Fluid	储存的液体
 def_fluid_tank_small_node_0_desc		The fluid connection for the stored contents.	存储内容的流体连接。
 def_fluid_tank_small_node_1_label		Tank Content	油箱容量
-def_fluid_tank_small_node_1_desc		The amount of fluid in the tank in litres.	油箱中的流体量，单位为升。
+def_fluid_tank_small_node_1_desc		The amount of fluid in the tank in litres.	油箱中的液体量，单位为升。
 def_fluid_valve_flow_name		Fluid Flow Valve	流体流量阀
 def_fluid_valve_flow_desc		Allows fluid to move from the input side of the valve to the output but resists fluid flow in the other direction.	允许流体从阀门的输入侧移动到输出端，但阻止流体朝另一个方向流动。
 def_fluid_valve_flow_s_desc		A one way valve for controlling fluid flow.	控制流体流动的单向阀。
-def_fluid_valve_flow_node_0_label		Fluid In	流体进入
+def_fluid_valve_flow_node_0_label		Fluid In	液体进入
 def_fluid_valve_flow_node_0_desc		Fluid connection for the valve input.	阀门输入的流体连接。
-def_fluid_valve_flow_node_1_label		Fluid Out	流体排出
+def_fluid_valve_flow_node_1_label		Fluid Out	液体排出
 def_fluid_valve_flow_node_1_desc		Fluid connection for the valve output.	阀门输出的流体连接。
 def_fluid_valve_on_off_name		Fluid On/Off Valve	油液开关阀
 def_fluid_valve_on_off_desc		Controls flow from one side of the valve to the other. Fluid can flow in both directions.	控制从阀门一侧到另一侧的流量。流体可以双向流动。
 def_fluid_valve_on_off_s_desc		An on/off fluid valve.	开/关液阀。
-def_fluid_valve_on_off_node_0_label		Fluid In	流体进入
+def_fluid_valve_on_off_node_0_label		Fluid In	液体进入
 def_fluid_valve_on_off_node_0_desc		Fluid input connection for the valve.	阀门的流体输入连接。
-def_fluid_valve_on_off_node_1_label		Fluid Out	流体排出
+def_fluid_valve_on_off_node_1_label		Fluid Out	液体排出
 def_fluid_valve_on_off_node_1_desc		Fluid output connection for the valve.	阀门的流体输出连接。
 def_fluid_valve_on_off_node_2_label		Valve Control	阀门控制
 def_fluid_valve_on_off_node_2_desc		Valve gate control for opening and closing the valve.	用于打开和关闭阀门的闸门控制。
@@ -2824,9 +2845,9 @@ def_fluid_valve_on_off_node_3_desc		Electrical power connection.	电源连接。
 def_fluid_valve_variable_name		Fluid Variable Valve	流体变量阀
 def_fluid_valve_variable_desc		Controls flow from one side of the valve to the other. Fluid can flow in both directions.	控制从阀门一侧到另一侧的流量。流体可以双向流动。
 def_fluid_valve_variable_s_desc		A variable fluid valve.	可变流体阀。
-def_fluid_valve_variable_node_0_label		Fluid In	流体进入
+def_fluid_valve_variable_node_0_label		Fluid In	液体进入
 def_fluid_valve_variable_node_0_desc		Fluid input connection for the valve.	阀门的流体输入连接。
-def_fluid_valve_variable_node_1_label		Fluid Out	流体排出
+def_fluid_valve_variable_node_1_label		Fluid Out	液体排出
 def_fluid_valve_variable_node_1_desc		Fluid output connection for the valve.	阀门的流体输出连接。
 def_fluid_valve_variable_node_2_label		Valve Control	阀门控制
 def_fluid_valve_variable_node_2_desc		Valve gate control for opening and closing the valve.	用于打开和关闭阀门的闸门控制。
@@ -3423,8 +3444,8 @@ def_inventory_equipment_flashlight_s_desc		A small equipment storage unit contai
 def_inventory_equipment_flashlight_node_0_label		Electric	电源
 def_inventory_equipment_flashlight_node_0_desc		Electrical power connection.	电源连接
 def_inventory_equipment_hose_name		Equipment inventory (Hose)	装备架(软管)
-def_inventory_equipment_hose_desc		Pressing [$[action_interact_left]]/[$[action_interact_right]] will equip/store the selected item. Press [$[action_equipment_use]] to attach the hose to an unoccupied fluid hose anchor. Pressing [$[action_interact_left]]/[$[action_interact_right]] on an occupied fluid hose anchor will retrieve the hose if the player has inventory space to hold it. If the hose contains water, press [$[action_equipment_secondary]] to toggle open the hose valve and allow the water to flow freely. This equipment can be stored on the back when not in use.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。 按下 [$[action_equipment_use]] 来将电缆连接到未占用的软管锚点。 如果有剩余空间，在已经占用的软管锚点按下 [$[action_interact_left]]/[$[action_interact_right]] 将会把软管收回到玩家库存。如果软管中有流体，按下 [$[action_equipment_secondary]] 可以开关阀门允许流体自由流动。不使用时，这个装备能够收到背后。
-def_inventory_equipment_hose_s_desc		A large equipment storage unit containing 20m of fluid hosing.	大型装备架，存储20m长流体软管
+def_inventory_equipment_hose_desc		Pressing [$[action_interact_left]]/[$[action_interact_right]] will equip/store the selected item. Press [$[action_equipment_use]] to attach the hose to an unoccupied fluid hose anchor. Pressing [$[action_interact_left]]/[$[action_interact_right]] on an occupied fluid hose anchor will retrieve the hose if the player has inventory space to hold it. If the hose contains water, press [$[action_equipment_secondary]] to toggle open the hose valve and allow the water to flow freely. This equipment can be stored on the back when not in use.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。 按下 [$[action_equipment_use]] 来将电缆连接到未占用的软管锚点。 如果有剩余空间，在已经占用的软管锚点按下 [$[action_interact_left]]/[$[action_interact_right]] 将会把软管收回到玩家库存。如果软管中有液体，按下 [$[action_equipment_secondary]] 可以开关阀门允许液体自由流动。不使用时，这个装备能够收到背后。
+def_inventory_equipment_hose_s_desc		A large equipment storage unit containing 20m of fluid hosing.	大型装备架，存储20m长液体软管
 def_inventory_equipment_hose_node_0_label		Electric	电源
 def_inventory_equipment_hose_node_0_desc		Electrical power connection.	电源连接
 def_inventory_equipment_night_vision_binoculars_name		Equipment inventory (Night Vision Binoculars)	装备架(夜视望远镜)
@@ -3700,7 +3721,7 @@ def_linear_base_node_3_label		Electric	电源
 def_linear_base_node_3_desc		Electrical power connection.	电源连接。
 def_linear_base_node_4_label		RPS	动力
 def_linear_base_node_4_desc		Power connection for transfering mechanical energy.	用于传输机械能的连接。
-def_linear_base_node_5_label		Fluid	流体
+def_linear_base_node_5_label		Fluid	液体
 def_linear_base_node_5_desc		Fluid connection for transfering fluid.	用于输送流体的流体连接。
 def_linear_compact_base_name		Compact Linear Track Base	紧凑型直线轨道基座
 def_linear_compact_base_desc		You can build the track using the Compact Linear Track Extension component. The speed of the slider can be set using its number input.	可以使用“紧凑线性轨迹扩展”组件构建轨迹。滑块的速度可以使用其数字输入设置。
@@ -3720,7 +3741,7 @@ def_linear_head_desc
 def_linear_head_s_desc			
 def_linear_head_node_0_label		RPS	动力
 def_linear_head_node_0_desc		Power connection for transfering mechanical energy.	用于传输机械能的连接。
-def_linear_head_node_1_label		Fluid	流体
+def_linear_head_node_1_label		Fluid	液体
 def_linear_head_node_1_desc		Fluid connection for transfering fluid.	用于输送流体的流体连接。
 def_linear_matic_a_name		Pneumatic Piston	气动活塞
 def_linear_matic_a_desc		A standard value input sets the target position that the piston rod should move to. There is also an output for taking a measurement of the rod's current position. The piston can expand by a length of 1 metre, making it a total of 2.25m (9 blocks) tall when expanded and 1.25m (5 blocks) tall when contracted. The piston's speed can be configured by selecting it with the select tool.	标准值输入设置活塞杆应移动到的目标位置。还有一个输出用于测量杆的当前位置。活塞可膨胀1米，膨胀时总高度为2。25米(9块)，收缩时总高度为1。25米(5块)。活塞的速度可以通过选择工具进行配置。
@@ -3731,12 +3752,12 @@ def_linear_matic_a_node_1_label		Piston Rod Position	活塞杆位置
 def_linear_matic_a_node_1_desc		The measured position of the rod between -0.5 and 0.5 metres.	杆的测量位置在-0.5米到0.5米之间。
 def_linear_matic_a_node_2_label		Electric	电源
 def_linear_matic_a_node_2_desc		Electrical power connection.	电源连接。
-def_linear_matic_a_node_3_label		Fluid	流体
+def_linear_matic_a_node_3_label		Fluid	液体
 def_linear_matic_a_node_3_desc		Fluid connection for transfering fluid.	用于输送流体的流体连接。
 def_linear_matic_b_name		Linear Matic B	Linear Matic B
 def_linear_matic_b_desc			
 def_linear_matic_b_s_desc			
-def_linear_matic_b_node_0_label		Fluid	流体
+def_linear_matic_b_node_0_label		Fluid	液体
 def_linear_matic_b_node_0_desc			
 def_linear_module_name		Linear Track Extension	直线轨道扩展
 def_linear_module_desc		A Linear Track Base must be attached somewhere along the track for it to function.	一个线性的轨道基地必须附在轨道上的某个地方，它才能发挥作用。
@@ -4112,14 +4133,14 @@ def_multibody_robotic_hinge_01_a_node_2_label		Electric	电源
 def_multibody_robotic_hinge_01_a_node_2_desc		Electrical power connection.	电源连接。
 def_multibody_robotic_hinge_01_a_node_3_label		RPS	动力
 def_multibody_robotic_hinge_01_a_node_3_desc		Power connection for transfering mechanical energy.	用于传输机械能的连接。
-def_multibody_robotic_hinge_01_a_node_4_label		Fluid	流体
+def_multibody_robotic_hinge_01_a_node_4_label		Fluid	液体
 def_multibody_robotic_hinge_01_a_node_4_desc		Fluid connection for transfering fluid.	用于输送流体的流体连接。
 def_multibody_robotic_hinge_01_b_name		Robotic hinge child	子机器铰链
 def_multibody_robotic_hinge_01_b_desc			
 def_multibody_robotic_hinge_01_b_s_desc			
 def_multibody_robotic_hinge_01_b_node_0_label		RPS	动力
 def_multibody_robotic_hinge_01_b_node_0_desc		Power connection for transfering mechanical energy.	用于传输机械能的连接。
-def_multibody_robotic_hinge_01_b_node_1_label		Fluid	流体
+def_multibody_robotic_hinge_01_b_node_1_label		Fluid	液体
 def_multibody_robotic_hinge_01_b_node_1_desc		Fluid connection for transfering fluid.	用于输送流体的流体连接。
 def_multibody_robotic_pivot_01_a_name		Robotic Pivot (Power)	机械枢轴(动力)
 def_multibody_robotic_pivot_01_a_desc		The pivot has a range of motion of 0.25 turns in both directions. A standard input value sets the target orientation within the pivot's range of motion. The measured rotation of the pivot can be read from its output. The pivot's speed can be configured by selecting it with the select tool.	枢轴在两个方向上的运动范围为0.25圈。标准输入值设置轴运动范围内的目标方向。轴的测量旋转可以从其输出中读取。轴的速度可以通过使用选择工具选择来配置。
@@ -4141,8 +4162,8 @@ def_multibody_robotic_pivot_01_a_fluid_node_1_label		Current Rotation	电流旋�
 def_multibody_robotic_pivot_01_a_fluid_node_1_desc		The pivot's measured rotation between -0.25 and 0.25.	枢轴在-0.25和0.25之间的测量旋转。
 def_multibody_robotic_pivot_01_a_fluid_node_2_label		Electric	电源
 def_multibody_robotic_pivot_01_a_fluid_node_2_desc		Electrical power connection.	电源连接。
-def_multibody_robotic_pivot_01_a_fluid_node_3_label		Fluid	流体
-def_multibody_robotic_pivot_01_a_fluid_node_3_desc		Fluid connection for transfering fluids.	用于输送流体的流体连接。
+def_multibody_robotic_pivot_01_a_fluid_node_3_label		Fluid	液体
+def_multibody_robotic_pivot_01_a_fluid_node_3_desc		Fluid connection for transfering fluids.	用于输送液体的流体连接。
 def_multibody_robotic_pivot_01_b_name		robotic pivot b	机械枢轴b
 def_multibody_robotic_pivot_01_b_desc			
 def_multibody_robotic_pivot_01_b_s_desc			
@@ -4151,8 +4172,8 @@ def_multibody_robotic_pivot_01_b_node_0_desc		Power connection for transfering m
 def_multibody_robotic_pivot_01_b_fluid_name		robotic pivot b	机械枢轴b
 def_multibody_robotic_pivot_01_b_fluid_desc			
 def_multibody_robotic_pivot_01_b_fluid_s_desc			
-def_multibody_robotic_pivot_01_b_fluid_node_0_label		Fluid	流体
-def_multibody_robotic_pivot_01_b_fluid_node_0_desc		Fluid connection for transfering fluids.	用于输送流体的流体连接。
+def_multibody_robotic_pivot_01_b_fluid_node_0_label		Fluid	液体
+def_multibody_robotic_pivot_01_b_fluid_node_0_desc		Fluid connection for transfering fluids.	用于输送液体的流体连接。
 def_multibody_suspension_a_name		Suspension	悬挂
 def_multibody_suspension_a_desc		Power can be passed through the suspension, allowing you to attach and control a wheel at the end.	动力可以通过悬挂传递，让您在末端连接和控制载具轮。
 def_multibody_suspension_a_s_desc		A shock absorber that can be used to improve handling of land-based vehicles.	一种减震器，可用于改善陆基载具的操纵性能。
@@ -4188,9 +4209,6 @@ def_passenger_seat_desc		You can get in and out of the seat by interacting with 
 def_passenger_seat_s_desc		A basic passenger seat.	基本的乘客座位。
 def_passenger_seat_node_0_label		Occupied	占用
 def_passenger_seat_node_0_desc		Outputs an on signal if this seat is occupied by a character.	如果这个座位被一个角色占用，则输出一个接通信号。
-def_physics_flooder_name		Physics Flooder	物理体积注入器
-def_physics_flooder_desc		Floods an enclosed volume with massless physics, allowing for physics shape optimisation without comprimising vehicle integrity.	用无质量物理体积淹没封闭体积，允许物理形状优化而不影响载具完整性。
-def_physics_flooder_s_desc		A device that floods an enclosed volume with physics for optimisation.	一种在封闭的空间中注入物理效果以优化的装置。
 def_player_sensor_name		Player Sensor	玩家传感器
 def_player_sensor_desc		If the sensor is facing into a sealed room, only players inside that room will be detected. Likewise, players inside sealed rooms will not be detected if the sensor is placed on the outside. The size of the area and types of players to detect can be changed by selecting this component with the select tool.	如果传感器朝向一个密封的房间，则只会检测到该房间内的玩家。同样，如果传感器放在室外，则不会检测到密封房间内的玩家。可以通过使用选择工具选择此组件来更改要检测的区域大小和玩家类型。
 def_player_sensor_s_desc		A sensor that outputs the number of players detected within an area.	一种传感器，输出在一个区域内检测到的玩家数量。
@@ -5342,9 +5360,9 @@ def_tyre_large_s_desc		A large decorative tyre.	一个装饰性的大轮胎。
 def_tyre_small_name		Small Tyre	小轮胎
 def_tyre_small_desc		Useful for creating tyre stacks and fenders.	用于创建轮胎堆栈和挡泥板。
 def_tyre_small_s_desc		A small decorative tyre.	一种装饰性的小轮胎。
-def_watercannon_name		Fluid Cannon	流体炮
+def_watercannon_name		Fluid Cannon	液体炮
 def_watercannon_desc		The cannon is a turret and can rotate on 2 axis.	一个炮塔，可以在2轴上旋转。
-def_watercannon_s_desc		A fluid cannon that fires pressurized water for putting out fires.	一种流体大炮，用来发射加压水来灭火。
+def_watercannon_s_desc		A fluid cannon that fires pressurized water for putting out fires.	一种液体大炮，用来发射加压水来灭火。
 def_watercannon_node_0_label		Turret Swivel	转台转动
 def_watercannon_node_0_desc		Yaw axis servo control for the cannon head.	炮头偏航(Yaw)轴伺服控制。
 def_watercannon_node_1_label		Nozzle Pitch	喷嘴俯仰(Pitch)
@@ -5356,7 +5374,7 @@ def_watercannon_node_3_desc		Electrical power connection.	电源连接。
 def_water_hose_name		Hose (Deprecated)	软管
 def_water_hose_desc		This can be used to transport water between Two bodies. Two on/off signals are used to control whether the hose is moving up (towards the base) or down (away from the base). A number output allows you to measure the hose's current length if necessary. The maximum length of the hose is 16 metres (64 blocks). The speed of the hose mechanism can be configured by selecting this component with the select tool.	这可以用来在两个物体之间运输水。两个开/关信号用于控制软管是向上移动(朝向底座)还是向下移动(远离底座)。数字输出允许您在必要时测量软管的当前长度。软管的最大长度为16米(64块)。软管机构的速度可以通过使用选择工具选择此组件来配置。
 def_water_hose_s_desc		A building block attached to the end of a mechanical hose that can be raised and lowered.	连接在可伸缩的机械软管末端的方块。
-def_water_hose_node_0_label		Fluid	流体
+def_water_hose_node_0_label		Fluid	液体
 def_water_hose_node_0_desc		Fluid connection for the hose coil.	软管线圈的流体连接。
 def_water_hose_node_1_label		Hose Up	软管上升
 def_water_hose_node_1_desc		Raises the hose up when receiving an on signal.	接收到接通信号时，将软管向上提起。
@@ -5369,12 +5387,12 @@ def_water_hose_node_4_desc		Electrical power connection.	电源连接。
 def_water_hose_b_name		winch end	绞车终端
 def_water_hose_b_desc			
 def_water_hose_b_s_desc			
-def_water_hose_b_node_0_label		Fluid	流体
+def_water_hose_b_node_0_label		Fluid	液体
 def_water_hose_b_node_0_desc		Fluid connection for the end of the hose.	软管末端的流体连接。
 def_water_inlet_name		Fluid Port	流体接口
 def_water_inlet_desc		Place the port inside of an enclosed volume to connect to that volume, or outside of the vehicle to connect to the ocean.	将端口放在封闭卷的内部以连接收到该卷，或放在载具外部以连接收到海洋。
 def_water_inlet_s_desc		Port used to allow fluid in and out of a fluid system.	允许流体进出流体系统的端口。
-def_water_inlet_node_0_label		Fluid	流体
+def_water_inlet_node_0_label		Fluid	液体
 def_water_inlet_node_0_desc		Allows fluid to flow in and out of an enclosed volume or the ocean.	允许流体进出封闭的体积或海洋。
 def_water_jet_name		Fluid Jet	流体喷射器
 def_water_jet_desc		Converts mechanical power and water into a high power jet for generating thrust.	将机械功率和水转换成大功率喷射器以产生推力。
@@ -5391,16 +5409,16 @@ def_water_jet_node_4_label		Deflector B	偏转(Roll)器B
 def_water_jet_node_4_desc		Right bucket defector control input.	右铲斗偏转(Roll)器控制输入。
 def_water_jet_node_5_label		Electric	电源
 def_water_jet_node_5_desc		Electrical power connection.	电源连接。
-def_water_measure_name		Fluid Meter	流体流量计
+def_water_measure_name		Fluid Meter	液体流量计
 def_water_measure_desc		This will output a quantity in litres and the total capacity in litres. If not inside an enclosed volume, it will give the height relative to the water surface.	这将输出以升为单位的量和以升为单位的总容量。如果不在封闭体积内，它将给出相对于水面的高度。
 def_water_measure_s_desc		A device to measure how much fluid is within an enclosed volume.	一种测量一个封闭容积内流体含量的装置。
 def_water_measure_node_0_label		Fluid Level	液位
 def_water_measure_node_0_desc		Returns the number of litres in an enclosed volume, or height relative to water if not enclosed.	返回封闭体积中的升数，如果未封闭，则返回相对于水的高度。
 def_water_measure_node_1_label		Fluid Capacity	流体容量
 def_water_measure_node_1_desc		Returns the total capacity of an enclosed volume in litres, or 0 if not enclosed.	返回封闭体积的总容量(以升为单位)，如果未封闭，则返回0.
-def_water_nozzle_name		Fluid Nozzle	流体喷嘴
+def_water_nozzle_name		Fluid Nozzle	液体喷嘴
 def_water_nozzle_desc		The angle of spray can be adjusted.	喷雾角度可以调节。
-def_water_nozzle_s_desc		A fluid nozzle that fires pressurized water for putting out fires.	一种流体喷嘴，用来点燃加压水来灭火。
+def_water_nozzle_s_desc		A fluid nozzle that fires pressurized water for putting out fires.	一种液体喷嘴，用来点燃加压水来灭火。
 def_water_nozzle_node_0_label		Fluid Supply	流体供应
 def_water_nozzle_node_0_desc		The fluid input to output from the nozzle. Filters to water only.	从喷嘴输入到输出的流体。只过滤水。
 def_water_nozzle_node_1_label		Spray Angle	喷射角
@@ -5410,37 +5428,37 @@ def_water_nozzle_node_2_desc		Electrical power connection.	电源连接。
 def_water_outlet_name		Fluid Port (Deprecated)	流体端口(已弃用)
 def_water_outlet_desc		Place the port inside of an enclosed volume to connect to that volume, or outside of the vehicle to connect to the ocean.	将端口放在封闭卷的内部以连接收到该卷，或放在载具外部以连接收到海洋。
 def_water_outlet_s_desc		Port used to allow fluid in and out of a fluid system.	允许流体进出流体系统的端口。
-def_water_outlet_node_0_label		Fluid	流体
+def_water_outlet_node_0_label		Fluid	液体
 def_water_outlet_node_0_desc		Allows fluid to flow in and out of an enclosed volume or the ocean.	允许流体进出封闭的体积或海洋。
 def_water_pump_name		Fluid Pump	液压泵
-def_water_pump_desc		Connect to an inlet and outlet to create a pumping system to move fluid around a vehicle.	连接收到入口和出口，以创建一个泵送系统，在载具周围移动流体。
-def_water_pump_s_desc		A small fluid pump.	一个小型的流体泵。
+def_water_pump_desc		Connect to an inlet and outlet to create a pumping system to move fluid around a vehicle.	连接收到入口和出口，以创建一个泵送系统，在载具周围移动液体。
+def_water_pump_s_desc		A small fluid pump.	一个小型的液体泵。
 def_water_pump_node_0_label		On/Off	开/关
 def_water_pump_node_0_desc		Controls whether or not the fluid is being pumped through.	控制流体是否被泵入。
-def_water_pump_node_1_label		Fluid In	流体进入
-def_water_pump_node_1_desc		Connect to an inlet component to take fluid into the system.	连接收到入口部件以将流体带入系统。
-def_water_pump_node_2_label		Fluid Out	流体排出
-def_water_pump_node_2_desc		Connect to an outlet component to release fluid from the system.	连接收到出口部件以释放系统中的流体。
+def_water_pump_node_1_label		Fluid In	液体进入
+def_water_pump_node_1_desc		Connect to an inlet component to take fluid into the system.	连接收到入口部件以将液体带入系统。
+def_water_pump_node_2_label		Fluid Out	液体排出
+def_water_pump_node_2_desc		Connect to an outlet component to release fluid from the system.	连接收到出口部件以释放系统中的液体。
 def_water_pump_node_3_label		Electric	电源
 def_water_pump_node_3_desc		Electrical power connection.	电源连接。
 def_water_pump_large_name		Large Fluid Pump	大型液压泵
-def_water_pump_large_desc		Connect to an inlet and outlet to create a pumping system to move fluid around a vehicle.	连接收到入口和出口，以创建一个泵送系统，在载具周围移动流体。
+def_water_pump_large_desc		Connect to an inlet and outlet to create a pumping system to move fluid around a vehicle.	连接收到入口和出口，以创建一个泵送系统，在载具周围移动液体。
 def_water_pump_large_s_desc		A large fluid pump.	一个大的油泵。
-def_water_pump_large_node_0_label		Fluid In	流体进入
-def_water_pump_large_node_0_desc		Connect to an inlet component to take fluid into the system.	连接收到入口部件以将流体带入系统。
-def_water_pump_large_node_1_label		Fluid Out	流体排出
-def_water_pump_large_node_1_desc		Connect to an outlet component to release fluid from the system.	连接收到出口部件以释放系统中的流体。
+def_water_pump_large_node_0_label		Fluid In	液体进入
+def_water_pump_large_node_0_desc		Connect to an inlet component to take fluid into the system.	连接收到入口部件以将液体带入系统。
+def_water_pump_large_node_1_label		Fluid Out	液体排出
+def_water_pump_large_node_1_desc		Connect to an outlet component to release fluid from the system.	连接收到出口部件以释放系统中的液体。
 def_water_pump_large_node_2_label		On/Off	开/关
-def_water_pump_large_node_2_desc		Controls whether or not the fluid is being pumped.	控制是否泵送流体。
+def_water_pump_large_node_2_desc		Controls whether or not the fluid is being pumped.	控制是否泵送液体。
 def_water_pump_large_node_3_label		Electric	电源
 def_water_pump_large_node_3_desc		Electrical power connection.	电源连接。
-def_water_spawner_name		Fluid Spawner	流体生成器
+def_water_spawner_name		Fluid Spawner	液体生成器
 def_water_spawner_desc		The fluid spawner for helping with custom fluid tanks, so they can be spawned full, without a need to fill after spawning.	流体生成器，帮助自定义的流体坦克，所以他们可以生成充分，无需填补后生成。
 def_water_spawner_s_desc		A component to mark an enclosed area to be spawned with fluid inside.	一种组件，用于标记要在内部生成流体的封闭区域。
-def_water_suction_duct_name		Fluid Slot Port	流体进出端口
-def_water_suction_duct_desc		Place the port inside of an enclosed volume to connect to that volume, or outside of the vehicle to connect to the ocean.	将端口放在封闭空间的内部以连接收到该空间，或放在载具外部以连接到海洋。
+def_water_suction_duct_name		Fluid Slot Port	油槽端口
+def_water_suction_duct_desc		Place the port inside of an enclosed volume to connect to that volume, or outside of the vehicle to connect to the ocean.	将端口放在封闭卷的内部以连接收到该卷，或放在载具外部以连接收到海洋。
 def_water_suction_duct_s_desc		Port used to allow fluid in and out of a fluid system.	允许流体进出流体系统的端口。
-def_water_suction_duct_node_0_label		Fluid	流体
+def_water_suction_duct_node_0_label		Fluid	液体
 def_water_suction_duct_node_0_desc		Allows fluid to flow in and out of an enclosed volume or the ocean.	允许流体进出封闭的体积或海洋。
 def_wheel_advanced_3_name		Wheel 3x3	3x3轮
 def_wheel_advanced_3_desc		The wheel will rotate forwards and backwards depending on power received. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据接收到的功率前后旋转。它可以通过向转向输入发送数字信号来左右旋转。它也可以通过向制动输入发送接通信号来锁定到位。
@@ -5613,12 +5631,12 @@ def_winch_a_node_2_label		Length	电缆长度
 def_winch_a_node_2_desc		The current length of the winch cable in metres.	绞盘缆绳的当前长度(米)。
 def_winch_a_node_3_label		Electric	电源
 def_winch_a_node_3_desc		Electrical power connection.	电源连接。
-def_winch_a_node_4_label		Fluid	流体
+def_winch_a_node_4_label		Fluid	液体
 def_winch_a_node_4_desc		Fluid connection for the hose coil.	软管线圈的流体连接。
 def_winch_b_name		winch end	绞车终端
 def_winch_b_desc			
 def_winch_b_s_desc			
-def_winch_b_node_0_label		Fluid	流体
+def_winch_b_node_0_label		Fluid	液体
 def_winch_b_node_0_desc		Fluid connection for the end of the hose.	软管末端的流体连接。
 def_winch_electric_name		Small Winch (Deprecated)	小型绞车(弃用)
 def_winch_electric_desc		The winch is operated electrically, and outputs its current length.	绞车是电动操作的，输出当前长度。
@@ -5629,12 +5647,12 @@ def_winch_electric_node_1_label		Down	放下绳索
 def_winch_electric_node_1_desc			
 def_winch_electric_node_2_label		Electric	电源
 def_winch_electric_node_2_desc		Electrical power connection.	电源连接。
-def_winch_electric_node_3_label		Fluid	流体
+def_winch_electric_node_3_label		Fluid	液体
 def_winch_electric_node_3_desc		Fluid connection for the hose coil.	软管线圈的流体连接。
 def_winch_electric_b_name		winch end	绞车鼓轮
 def_winch_electric_b_desc			
 def_winch_electric_b_s_desc			
-def_winch_electric_b_node_0_label		Fluid	流体
+def_winch_electric_b_node_0_label		Fluid	液体
 def_winch_electric_b_node_0_desc		Fluid connection for the end of the hose.	软管末端的流体连接。
 def_winch_huge_a_name		Huge Winch (Deprecated)	大绞车(弃用)
 def_winch_huge_a_desc		The winch is operated electrically, and outputs its current length.	绞车是电动操作的，输出当前长度。
@@ -5647,12 +5665,12 @@ def_winch_huge_a_node_2_label		Length	电缆长度
 def_winch_huge_a_node_2_desc		The current length of the winch cable in metres.	绞盘缆绳的当前长度(米)。
 def_winch_huge_a_node_3_label		Electric	电源
 def_winch_huge_a_node_3_desc		Electrical power connection.	电源连接。
-def_winch_huge_a_node_4_label		Fluid	流体
+def_winch_huge_a_node_4_label		Fluid	液体
 def_winch_huge_a_node_4_desc		Fluid connection for the hose coil.	软管线圈的流体连接。
 def_winch_huge_b_name		winch end	绞车鼓轮
 def_winch_huge_b_desc			
 def_winch_huge_b_s_desc			
-def_winch_huge_b_node_0_label		Fluid	流体
+def_winch_huge_b_node_0_label		Fluid	液体
 def_winch_huge_b_node_0_desc		Fluid connection for the end of the hose.	软管末端的流体连接。
 def_winch_large_a_name		Large Winch (Deprecated)	大绞车(弃用)
 def_winch_large_a_desc		The winch is operated electrically, and outputs its current length.	绞车是电动操作的，输出当前长度。
@@ -5665,12 +5683,12 @@ def_winch_large_a_node_2_label		Length	电缆长度
 def_winch_large_a_node_2_desc		The current length of the winch cable in metres.	绞盘缆绳的当前长度(米)。
 def_winch_large_a_node_3_label		Electric	电源
 def_winch_large_a_node_3_desc		Electrical power connection.	电源连接。
-def_winch_large_a_node_4_label		Fluid	流体
+def_winch_large_a_node_4_label		Fluid	液体
 def_winch_large_a_node_4_desc		Fluid connection for the hose coil.	软管线圈的流体连接。
 def_winch_large_b_name		winch end	绞车鼓轮
 def_winch_large_b_desc			
 def_winch_large_b_s_desc			
-def_winch_large_b_node_0_label		Fluid	流体
+def_winch_large_b_node_0_label		Fluid	液体
 def_winch_large_b_node_0_desc		Fluid connection for the end of the hose.	软管末端的流体连接。
 def_window_1x1_name		1x1 Window	窗（1x1）
 def_window_1x1_desc		This is a flat window that will sit flush with walls and ceilings. 1 block wide.	这是一扇平窗，与墙壁和天花板齐平。1个单位宽。
@@ -5743,6 +5761,7 @@ def_wing_xl_name		Wing Section (XLarge)	机翼面(特大)
 def_wing_xl_desc		Wing surface to provide lift and cut through the air.	机翼表面提供升力并穿过气体。
 def_wing_xl_s_desc		The wing surface cuts through the air while resisting movement against the flat plane of its surface. The aerofoil section also provides lift.	机翼表面穿透气体，同时抵抗其表面平面的运动。机翼部分也提供升力。
 def_wing_xxl_name		Wing Section (XXLarge)	机翼面(超大)
+<<<<<<< HEAD
 def_wing_xxl_desc		Wing surface to provide lift and cut through the air.	机翼表面提供升力并穿过气体。
 def_wing_xxl_s_desc		The wing surface cuts through the air while resisting movement against the flat plane of its surface. The aerofoil section also provides lift.	机翼表面穿透气体，同时抵抗其表面平面的运动。机翼部分也提供升力。
 		25mm Ammo Box	25mm口径弹药箱
@@ -5788,6 +5807,10 @@ def_inventory_equipment_speargun_ammo_node_0_desc		Electrical power connection.	
 		Mission Editor	任务编辑器
 		RETURN TO MISSION EDITOR	返回任务编辑器
 		You are currently testing a mission.\n\nReturning to the mission editor will despawn all vehicles and objects associated with the mission.\n\nAre you sure you want to return to the mission editor?	您当前正在测试任务。\n\n返回任务编辑器将销毁与任务相关的所有载具和对象。\n\n确实要返回任务编辑器吗？
+=======
+def_wing_xxl_desc		Wing surface to provide lift and cut through the air.	机翼表面提供升力并穿过空气。
+def_wing_xxl_s_desc		The wing surface cuts through the air while resisting movement against the flat plane of its surface. The aerofoil section also provides lift.	机翼表面穿透空气，同时抵抗其表面平面的运动。机翼部分也提供升力。
+>>>>>>> parent of c19cbe6 (Update SimplifiedChinese.tsv)
 		Click the sleep button to fast-forward to your next mission.	单击“睡眠”按钮让时间快进到下一个任务。
 		MISSION COMPONENTS	任务组成部分
 		PLAYLIST COMPONENTS	游玩列表组件
@@ -5799,9 +5822,15 @@ def_inventory_equipment_speargun_ammo_node_0_desc		Electrical power connection.	
 		PLAYLIST UPDATE COMPLETE	游玩列表更新完成
 		Your playlist was updated successfully.\n\nYou can customise the changelog for this update by heading to your playlist's workshop page to let your subscribers know what's new.	您的游玩列表已成功更新。\n\n您可以通过进入游玩列表的创意工坊页面，让您的订阅者了解最新情况，来自定义此更新的更改日志。
 		This playlist includes the following	此游玩列表包括以下内容
+<<<<<<< HEAD
 		Please note that some missions in this playlist will only naturally spawn if certain criteria are met(such as owning a specific type of island, or having unlocked fire equipment).	请注意，此游玩列表中的某些任务只有在满足某些条件(例如拥有特定类型的岛屿或拥有未锁定的消防设备)时才会自然生成。
 		The author of this playlist has tagged it as creative, so some or all included missions may be unsuitable for career mode.	此游玩列表的作者已将其标记为创造性，因此某些或所有包含的任务可能不适合生涯模式。
 		(If you are the author of this playlist, you can edit this description to add more details)	(如果您是此游玩列表的作者，则可以编辑此描述以添加更多详细信息)
+=======
+		Please note that some missions in this playlist will only naturally spawn if certain criteria are met(such as owning a specific type of island, or having unlocked fire equipment).	
+		The author of this playlist has tagged it as creative, so some or all included missions may be unsuitable for career mode.	
+		(If you are the author of this playlist, you can edit this description to add more details)	
+>>>>>>> parent of c19cbe6 (Update SimplifiedChinese.tsv)
 		Playlist must have a name	游玩列表必须有名称
 		Playlist must be renamed	必须重命名游玩列表
 		Playlist has no missions or Environment Mods	游玩列表没有任务或环境模式
@@ -5841,6 +5870,97 @@ def_inventory_equipment_speargun_ammo_node_0_desc		Electrical power connection.	
 		NEW MISSION PLAYLIST	新任务游玩列表
 		Mission Name	任务名称
 		No mission selected. Select a mission in the playlist overview to begin editing.	未选择任务。在游玩列表概览中选择任务以开始编辑。
+<<<<<<< HEAD
+=======
+def_modular_engine_air_manifold_name		Modular Engine Air Manifold	
+def_modular_engine_air_manifold_desc		Attach a manifold to a cylinder to provide a connection for air to that cylinder. Cylinders that are chained directly adjacent to each other can share a single manifold.	
+def_modular_engine_air_manifold_s_desc		A modular engine air manifold.	
+def_modular_engine_air_manifold_node_0_label		Throttle	
+def_modular_engine_air_manifold_node_0_desc			
+def_modular_engine_air_manifold_node_1_label		Air	
+def_modular_engine_air_manifold_node_1_desc			
+def_modular_engine_alternator_name		Modular Engine Alternator	模块化发动机交流发电机
+def_modular_engine_alternator_desc		Attach a manifold to a cylinder to provide connections for air, fuel, and exhaust for that cylinder. Cylinders that are chained directly adjacent to each other can share a single manifold.	将歧管连接到气缸上，为该气缸提供空气、燃料和排气的连接。彼此直接相邻的气缸可以共用一个歧管。
+def_modular_engine_alternator_s_desc		A modular engine manifold.	一个模块化的发动机歧管。
+def_modular_engine_alternator_node_0_label		Clutch Pressure	离合器压力
+def_modular_engine_alternator_node_0_desc			
+def_modular_engine_alternator_node_1_label		Electric	电动
+def_modular_engine_alternator_node_1_desc			
+def_modular_engine_clutch_name		Modular Engine Clutch	模块化发动机离合器
+def_modular_engine_clutch_desc		Attach a flywheel to a crankshaft block to convert the power in the crankshaft to usable torque for driving other components.	将飞轮连接到曲轴缸体上，将曲轴中的动力转化为可用的扭矩，用于驱动其他部件。
+def_modular_engine_clutch_s_desc		A modular engine flywheel.	一个模块化的发动机飞轮。
+def_modular_engine_clutch_node_0_label		Clutch Pressure	离合器压力
+def_modular_engine_clutch_node_0_desc			
+def_modular_engine_clutch_node_1_label		Power	功率
+def_modular_engine_clutch_node_1_desc		The power supplied by the engine for inputting to other components.	由发动机提供的动力输入到其他部件。
+def_modular_engine_clutch_3x3_name		Modular Engine Clutch 3x3	
+def_modular_engine_clutch_3x3_desc		Attach a flywheel to a crankshaft block to convert the power in the crankshaft to usable torque for driving other components.	
+def_modular_engine_clutch_3x3_s_desc		A modular engine flywheel.	
+def_modular_engine_clutch_3x3_node_0_label		Clutch Pressure	
+def_modular_engine_clutch_3x3_node_0_desc			
+def_modular_engine_clutch_3x3_node_1_label		Power	
+def_modular_engine_clutch_3x3_node_1_desc		The power supplied by the engine for inputting to other components.	
+def_modular_engine_clutch_5x5_name		Modular Engine Clutch 5x5	
+def_modular_engine_clutch_5x5_desc		Attach a flywheel to a crankshaft block to convert the power in the crankshaft to usable torque for driving other components.	
+def_modular_engine_clutch_5x5_s_desc		A modular engine flywheel.	
+def_modular_engine_clutch_5x5_node_0_label		Clutch Pressure	
+def_modular_engine_clutch_5x5_node_0_desc			
+def_modular_engine_clutch_5x5_node_1_label		Power	
+def_modular_engine_clutch_5x5_node_1_desc		The power supplied by the engine for inputting to other components.	
+def_modular_engine_coolant_manifold_name		Modular Engine Coolant Manifold	模块化发动机冷却液歧管
+def_modular_engine_coolant_manifold_desc		Attach a manifold to a cylinder to provide connections for air, fuel, and exhaust for that cylinder. Cylinders that are chained directly adjacent to each other can share a single manifold.	将歧管连接到气缸上，为该气缸提供空气、燃料和排气的连接。彼此直接相邻的气缸可以共用一个歧管。
+def_modular_engine_coolant_manifold_s_desc		A modular engine manifold.	一个模块化的发动机歧管。
+def_modular_engine_coolant_manifold_node_0_label		Coolant A	冷却液 A
+def_modular_engine_coolant_manifold_node_0_desc			
+def_modular_engine_coolant_manifold_node_1_label		Coolant B	冷却液B
+def_modular_engine_coolant_manifold_node_1_desc			
+def_modular_engine_crankshaft_name		Modular Engine Crankshaft	模块化发动机曲轴
+def_modular_engine_crankshaft_desc		The crankshaft is the core of an engine. Attach cylinders to the outer surfaces to generate power, attach a flywheel to transmit the generated power as torque. Multiple crankshaft blocks can be placed adajcent to each other to form larger engines.	曲轴是发动机的核心。将气缸连接到外表面产生动力，连接飞轮将产生的动力作为扭矩传递。多个曲轴组可以互相对置，形成较大的发动机。
+def_modular_engine_crankshaft_s_desc		A modular engine crankshaft block.	模块化发动机曲轴缸体
+def_modular_engine_crankshaft_node_0_label		RPS	RPS
+def_modular_engine_crankshaft_node_0_desc		Output value giving data info on engine speed.	输出值提供发动机转速的数据信息。
+def_modular_engine_crankshaft_3x1_name		Modular Engine Crankshaft 3x1	
+def_modular_engine_crankshaft_3x1_desc		The crankshaft is the core of an engine. Attach cylinders to the outer surfaces to generate power, attach a flywheel to transmit the generated power as torque. Multiple crankshaft blocks can be placed adajcent to each other to form larger engines.	
+def_modular_engine_crankshaft_3x1_s_desc		A modular engine crankshaft block.	
+def_modular_engine_crankshaft_3x1_node_0_label		RPS	
+def_modular_engine_crankshaft_3x1_node_0_desc		Output value giving data info on engine speed.	
+def_modular_engine_crankshaft_3x3_name		Modular Engine Crankshaft 3x3	
+def_modular_engine_crankshaft_3x3_desc		The crankshaft is the core of an engine. Attach cylinders to the outer surfaces to generate power, attach a flywheel to transmit the generated power as torque. Multiple crankshaft blocks can be placed adajcent to each other to form larger engines.	
+def_modular_engine_crankshaft_3x3_s_desc		A modular engine crankshaft block.	
+def_modular_engine_crankshaft_3x3_node_0_label		RPS	
+def_modular_engine_crankshaft_3x3_node_0_desc		Output value giving data info on engine speed.	
+def_modular_engine_crankshaft_5x5_name		Modular Engine Crankshaft 5x5	
+def_modular_engine_crankshaft_5x5_desc		The crankshaft is the core of an engine. Attach cylinders to the outer surfaces to generate power, attach a flywheel to transmit the generated power as torque. Multiple crankshaft blocks can be placed adajcent to each other to form larger engines.	
+def_modular_engine_crankshaft_5x5_s_desc		A modular engine crankshaft block.	
+def_modular_engine_crankshaft_5x5_node_0_label		RPS	
+def_modular_engine_crankshaft_5x5_node_0_desc		Output value giving data info on engine speed.	
+def_modular_engine_crankshaft_converter_3x3_name		Modular Engine Crankshaft Converter	
+def_modular_engine_crankshaft_converter_3x3_desc		The crankshaft is the core of an engine. Attach cylinders to the outer surfaces to generate power, attach a flywheel to transmit the generated power as torque. Multiple crankshaft blocks can be placed adajcent to each other to form larger engines.	
+def_modular_engine_crankshaft_converter_3x3_s_desc		A modular engine crankshaft block.	
+def_modular_engine_crankshaft_converter_3x3_node_0_label		RPS	
+def_modular_engine_crankshaft_converter_3x3_node_0_desc		Output value giving data info on engine speed.	
+def_modular_engine_crankshaft_converter_5x5_name		Modular Engine Crankshaft Converter 5 to 3	
+def_modular_engine_crankshaft_converter_5x5_desc		The crankshaft is the core of an engine. Attach cylinders to the outer surfaces to generate power, attach a flywheel to transmit the generated power as torque. Multiple crankshaft blocks can be placed adajcent to each other to form larger engines.	
+def_modular_engine_crankshaft_converter_5x5_s_desc		A modular engine crankshaft block.	
+def_modular_engine_crankshaft_converter_5x5_node_0_label		RPS	
+def_modular_engine_crankshaft_converter_5x5_node_0_desc		Output value giving data info on engine speed.	
+def_modular_engine_cylinder_straight_name		Modular Engine Cylinder (Straight)	模块化发动机气缸（直筒
+def_modular_engine_cylinder_straight_desc		Attach a cylinder to a crankshafts outer surface to produce power for an engine. The cylinder requires a manifold to move air, fuel, and exhaust through the cylinder. Cylinders that are chained directly adjacent to each other can share a single manifold."	将气缸连接到曲轴外表面，为发动机提供动力。气缸需要一个歧管，使空气、燃料和废气通过气缸。直接相邻的汽缸可以共用一个歧管。
+def_modular_engine_cylinder_straight_s_desc		A modular engine cylinder.	一个模块化的发动机气缸。
+def_modular_engine_drive_belt_name		Modular Engine Drive Belt	模块化发动机传动皮带
+def_modular_engine_drive_belt_desc		Attach a manifold to a cylinder to provide connections for air, fuel, and exhaust for that cylinder. Cylinders that are chained directly adjacent to each other can share a single manifold.	将歧管连接到气缸上，为该气缸提供空气、燃料和排气的连接。彼此直接相邻的气缸可以共用一个歧管。
+def_modular_engine_drive_belt_s_desc		A modular engine manifold.	一个模块化的发动机歧管。
+def_modular_engine_exhaust_manifold_corner_name		Modular Engine Exhaust Manifold (Corner)	模块化发动机排气歧管（角）。
+def_modular_engine_exhaust_manifold_corner_desc		Attach a manifold to a cylinder to provide connections for air, fuel, and exhaust for that cylinder. Cylinders that are chained directly adjacent to each other can share a single manifold.	将歧管连接到气缸上，为该气缸提供空气、燃料和排气的连接。彼此直接相邻的气缸可以共用一个歧管。
+def_modular_engine_exhaust_manifold_corner_s_desc		A modular engine manifold.	一个模块化的发动机歧管。
+def_modular_engine_exhaust_manifold_corner_node_0_label		Exhaust	排气管
+def_modular_engine_exhaust_manifold_corner_node_0_desc			
+def_modular_engine_exhaust_manifold_straight_name		Modular Engine Exhaust Manifold (Straight)	模块化的发动机排气管（直管）。
+def_modular_engine_exhaust_manifold_straight_desc		Attach a manifold to a cylinder to provide connections for air, fuel, and exhaust for that cylinder. Cylinders that are chained directly adjacent to each other can share a single manifold.	将歧管连接到气缸上，为该气缸提供空气、燃料和排气的连接。彼此直接相邻的气缸可以共用一个歧管。
+def_modular_engine_exhaust_manifold_straight_s_desc		A modular engine manifold.	一个模块化的发动机歧管。
+def_modular_engine_exhaust_manifold_straight_node_0_label		Exhaust	排气管
+def_modular_engine_exhaust_manifold_straight_node_0_desc			
+>>>>>>> parent of c19cbe6 (Update SimplifiedChinese.tsv)
 def_modular_engine_exhaust_manifold_t_name		Modular Engine Exhaust Manifold (T)	模块化发动机排气管(T)
 def_modular_engine_exhaust_manifold_t_desc		Attach a manifold to a cylinder to provide connections for air, fuel, and exhaust for that cylinder. Cylinders that are chained directly adjacent to each other can share a single manifold.	将歧管连接到气缸上，为该气缸提供气体、燃料和排气的连接。彼此直接相邻的气缸可以共用一个歧管。
 def_modular_engine_exhaust_manifold_t_s_desc		A modular engine manifold.	一个模块化的发动机歧管。
@@ -5848,10 +5968,66 @@ def_modular_engine_exhaust_manifold_t_node_0_label		Exhaust	排气管
 def_modular_engine_exhaust_manifold_t_node_0_desc			
 def_modular_engine_exhaust_manifold_t_node_1_label		Exhaust	排气管
 def_modular_engine_exhaust_manifold_t_node_1_desc			
+<<<<<<< HEAD
 def_modular_engine_power_manifold_3x3_node_0_label		Exhaust	气体排出
 def_modular_engine_power_manifold_3x3_node_0_desc			
 def_modular_engine_power_manifold_5x5_node_0_label		Exhaust	气体排出
 def_modular_engine_power_manifold_5x5_node_0_desc			
+=======
+def_modular_engine_fluid_pump_name		Modular Engine Fluid Pump	模块化发动机油泵
+def_modular_engine_fluid_pump_desc		Attach a manifold to a cylinder to provide connections for air, fuel, and exhaust for that cylinder. Cylinders that are chained directly adjacent to each other can share a single manifold.	将歧管连接到气缸上，为该气缸提供空气、燃料和排气的连接。彼此直接相邻的气缸可以共用一个歧管
+def_modular_engine_fluid_pump_s_desc		A modular engine manifold.	一个模块化的发动机歧管。
+def_modular_engine_fluid_pump_node_0_label		Clutch Pressure	离合器压力
+def_modular_engine_fluid_pump_node_0_desc			
+def_modular_engine_fluid_pump_node_1_label		Fluid In	流体输入
+def_modular_engine_fluid_pump_node_1_desc			
+def_modular_engine_fluid_pump_node_2_label		Fluid Out	液体流出
+def_modular_engine_fluid_pump_node_2_desc			
+def_modular_engine_intake_manifold_name		Modular Engine Fuel Manifold	模块化发动机进气歧管
+def_modular_engine_intake_manifold_desc		Attach a manifold to a cylinder to provide a connection for fuel to that cylinder. Cylinders that are chained directly adjacent to each other can share a single manifold.	将歧管连接到气缸上，为该气缸提供空气、燃料和排气的连接。彼此直接相邻的气缸可以共用一个歧管。
+def_modular_engine_intake_manifold_s_desc		A modular engine fuel manifold.	一个模块化的发动机歧管。
+def_modular_engine_intake_manifold_node_0_label		Throttle	节流阀
+def_modular_engine_intake_manifold_node_0_desc			
+def_modular_engine_intake_manifold_node_1_label		Fuel	燃油
+def_modular_engine_intake_manifold_node_1_desc			
+def_modular_engine_manifold_corner_name		Modular Engine Manifold (Corner)	模块化发动机歧管(转角)
+def_modular_engine_manifold_corner_desc			
+def_modular_engine_manifold_corner_s_desc			
+def_modular_engine_manifold_straight_name		Modular Engine Manifold (Straight)	模块化发动机歧管(直管)
+def_modular_engine_manifold_straight_desc		Attach a manifold to a cylinder to provide connections for air, fuel, and exhaust for that cylinder. Cylinders that are chained directly adjacent to each other can share a single manifold.	将歧管连接到气缸上，为该气缸提供空气、燃料和排气的连接。彼此直接相邻的气缸可以共用一个歧管
+def_modular_engine_manifold_straight_s_desc		A modular engine manifold.	一个模块化的发动机歧管。
+def_modular_engine_manifold_t_name		Modular Engine Manifold (T)	模块化发动机歧管 (T)
+def_modular_engine_manifold_t_desc		Attach a manifold to a cylinder to provide connections for air, fuel, and exhaust for that cylinder. Cylinders that are chained directly adjacent to each other can share a single manifold.	将歧管连接到气缸上，为该气缸提供空气、燃料和排气的连接。彼此直接相邻的气缸可以共用一个歧管。
+def_modular_engine_manifold_t_s_desc		A modular engine manifold.	一个模块化的发动机歧管。
+def_modular_engine_piston_3x3_name		Modular Engine Piston 3x3	
+def_modular_engine_piston_3x3_desc		Attach a cylinder to a crankshafts outer surface to produce power for an engine. The cylinder requires a manifold to move air, fuel, and exhaust through the cylinder. Cylinders that are chained directly adjacent to each other can share a single manifold.	
+def_modular_engine_piston_3x3_s_desc		A modular engine cylinder.	
+def_modular_engine_piston_5x5_name		Modular Engine Piston 5x5	
+def_modular_engine_piston_5x5_desc		Attach a cylinder to a crankshafts outer surface to produce power for an engine. The cylinder requires a manifold to move air, fuel, and exhaust through the cylinder. Cylinders that are chained directly adjacent to each other can share a single manifold.	
+def_modular_engine_piston_5x5_s_desc		A modular engine cylinder.	
+def_modular_engine_power_manifold_3x3_name		Modular Engine Power Manifold 3x3	
+def_modular_engine_power_manifold_3x3_desc		Attach a manifold to a cylinder to provide connections for air, fuel, and exhaust for that cylinder. Cylinders that are chained directly adjacent to each other can share a single manifold.	
+def_modular_engine_power_manifold_3x3_s_desc		A modular engine manifold.	
+def_modular_engine_power_manifold_3x3_node_0_label		Exhaust	
+def_modular_engine_power_manifold_3x3_node_0_desc			
+def_modular_engine_power_manifold_5x5_name		Modular Engine Power Manifold 5x5	
+def_modular_engine_power_manifold_5x5_desc		Attach a manifold to a cylinder to provide connections for air, fuel, and exhaust for that cylinder. Cylinders that are chained directly adjacent to each other can share a single manifold.	
+def_modular_engine_power_manifold_5x5_s_desc		A modular engine manifold.	
+def_modular_engine_power_manifold_5x5_node_0_label		Exhaust	
+def_modular_engine_power_manifold_5x5_node_0_desc			
+def_modular_engine_sensor_temperature_name		Modular Engine Temperature Sensor	
+def_modular_engine_sensor_temperature_desc		Attach to a manifold to provide temperature information.	
+def_modular_engine_sensor_temperature_s_desc		A modular engine temperature sensor.	
+def_modular_engine_sensor_temperature_node_0_label		temperature	
+def_modular_engine_sensor_temperature_node_0_desc			
+def_modular_engine_starter_name		Modular Engine Starter	模块化发动机启动器
+def_modular_engine_starter_desc		Attach a manifold to a cylinder to provide connections for air, fuel, and exhaust for that cylinder. Cylinders that are chained directly adjacent to each other can share a single manifold.	将歧管连接到气缸上，为该气缸提供空气、燃料和排气的连接。彼此直接相邻的气缸可以共用一个歧管。
+def_modular_engine_starter_s_desc		A modular engine manifold.	一个模块化的发动机歧管。
+def_modular_engine_starter_node_0_label		Starter	起动器
+def_modular_engine_starter_node_0_desc			
+def_modular_engine_starter_node_1_label		Electric	电器
+def_modular_engine_starter_node_1_desc		Electrical power connection.	电源连接。
+>>>>>>> parent of c19cbe6 (Update SimplifiedChinese.tsv)
 		"Length of vector(x,y)"	"(x,y)矢量长度"
 		"len(x,y) (no sqrt)"	"(x,y)距离(无开方)"
 		TRUE	TRUE
