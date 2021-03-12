@@ -1922,7 +1922,7 @@ id	description	en	local
 		Rotary Auto Ammo Box	转轮自动武器弹药箱
 		Heavy Auto Ammo Box	重型自动武器弹药箱
 		Battle Shell	炮弹
-		Artillery Shell	火炮炮弹
+		Artillery Shell	重型炮弹
 		Temperature	温度
 		Auto Refuel	自动补充燃料
 		Third Person Vehicle	第三人称载具
@@ -1953,11 +1953,11 @@ id	description	en	local
 		Battle Shell (Fragmentation)	炮弹(破片)
 		Battle Shell (Armor Piercing)	炮弹(穿甲)
 		Battle Shell (Incendiary)	炮弹(曳光)
-		Artillery Shell (Kinetic)	火炮炮弹(动能)
-		Artillery Shell (High Explosive)	火炮炮弹(高爆)
-		Artillery Shell (Fragmentation)	火炮炮弹(破片)
-		Artillery Shell (Armor Piercing)	火炮炮弹(穿甲)
-		Artillery Shell (Incendiary)	火炮炮弹(曳光)
+		Artillery Shell (Kinetic)	重型炮弹(动能)
+		Artillery Shell (High Explosive)	重型炮弹(高爆)
+		Artillery Shell (Fragmentation)	重型炮弹(破片)
+		Artillery Shell (Armor Piercing)	重型炮弹(穿甲)
+		Artillery Shell (Incendiary)	重型炮弹(曳光)
 		C4 Explosive	C4炸药
 		C4 Detonator	C4雷管
 		Speargun	鱼叉枪
