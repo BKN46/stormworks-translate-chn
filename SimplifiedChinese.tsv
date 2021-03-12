@@ -1632,7 +1632,7 @@ id	description	en	local
 		Seatbelt	安全带
 		Volume	音量
 		Roll	侧偏
-		Pitch	俯仰(Pitch)
+		Pitch	音高(Pitch)
 		Yaw	偏航(Yaw)
 		Preview	预览
 		Blink On Duration	闪烁持续时间
@@ -1918,11 +1918,11 @@ id	description	en	local
 		There is already a vehicle in the edit zone, are you sure you would like to spawn this vehicle?	已经有一台载具在编辑区域了，你确定你要生成载具吗？
 		Unload	卸载弹药
 		Reload	重新装弹
-		25mm Ammo Box	25mm口径弹药箱
-		30mm Ammo Box	30mm口径弹药箱
-		40mm Ammo Box	40mm口径弹药箱
-		105mm Shell	105mm口径炮弹
-		203mm Shell	203mm口径炮弹
+		Light Auto Ammo Box	轻型自动武器弹药箱
+		Rotary Auto Ammo Box	转轮自动武器弹药箱
+		Heavy Auto Ammo Box	重型自动武器弹药箱
+		Battle Shell	炮弹
+		Artillery Shell	火炮炮弹
 		Temperature	温度
 		Auto Refuel	自动补充燃料
 		Third Person Vehicle	第三人称载具
@@ -1933,31 +1933,31 @@ id	description	en	local
 		Helicopter Pilot	直升机驾驶员
 		Plane Pilot	飞机驾驶员
 		Gunner	武器操作员
-		25mm Ammo Box (Kinetic)	25mm口径弹药箱(动能)
-		25mm Ammo Box (High Explosive)	25mm口径弹药箱(高爆)
-		25mm Ammo Box (Fragmentation)	25mm口径弹药箱(破片)
-		25mm Ammo Box (Armor Piercing)	25mm口径弹药箱(穿甲)
-		25mm Ammo Box (Incendiary)	25mm口径弹药箱(燃烧)
-		30mm Ammo Box (Kinetic)	30mm口径弹药箱(动能)
-		30mm Ammo Box (High Explosive)	30mm口径弹药箱(高爆)
-		30mm Ammo Box (Fragmentation)	30mm口径弹药箱(破片)
-		30mm Ammo Box (Armor Piercing)	30mm口径弹药箱(穿甲)
-		30mm Ammo Box (Incendiary)	30mm口径弹药箱(燃烧)
-		40mm Ammo Box (Kinetic)	40mm口径弹药箱(动能)
-		40mm Ammo Box (High Explosive)	40mm口径弹药箱(高爆)
-		40mm Ammo Box (Fragmentation)	40mm口径弹药箱(破片)
-		40mm Ammo Box (Armor Piercing)	40mm口径弹药箱(穿甲)
-		40mm Ammo Box (Incendiary)	40mm口径弹药箱(燃烧)
-		105mm Shell (Kinetic)	105mm口径炮弹(动能)
-		105mm Shell (High Explosive)	105mm口径炮弹(高爆)
-		105mm Shell (Fragmentation)	105mm口径炮弹(破片)
-		105mm Shell (Armor Piercing)	105mm口径炮弹(穿甲)
-		105mm Shell (Incendiary)	105mm口径炮弹(燃烧)
-		203mm Shell (Kinetic)	203mm口径炮弹(动能)
-		203mm Shell (High Explosive)	203mm口径炮弹(高爆)
-		203mm Shell (Fragmentation)	203mm口径炮弹(破片)
-		203mm Shell (Armor Piercing)	203mm口径炮弹(穿甲)
-		203mm Shell (Incendiary)	203mm口径炮弹(燃烧)
+		Light Auto Ammo Box (Kinetic)	轻型自动武器弹药箱(动能)
+		Light Auto Ammo Box (High Explosive)	轻型自动武器弹药箱(高爆)
+		Light Auto Ammo Box (Fragmentation)	轻型自动武器弹药箱(破片)
+		Light Auto Ammo Box (Armor Piercing)	轻型自动武器弹药箱(穿甲)
+		Light Auto Ammo Box (Incendiary)	轻型自动武器弹药箱(曳光)
+		Rotary Auto Ammo Box (Kinetic)	转轮自动武器弹药箱(动能)
+		Rotary Auto Ammo Box (High Explosive)	转轮自动武器弹药箱(高爆)
+		Rotary Auto Ammo Box (Fragmentation)	转轮自动武器弹药箱(破片)
+		Rotary Auto Ammo Box (Armor Piercing)	转轮自动武器弹药箱(穿甲)
+		Rotary Auto Ammo Box (Incendiary)	转轮自动武器弹药箱(曳光)
+		Heavy Auto Ammo Box (Kinetic)	重型自动武器弹药箱(动能)
+		Heavy Auto Ammo Box (High Explosive)	重型自动武器弹药箱(高爆)
+		Heavy Auto Ammo Box (Fragmentation)	重型自动武器弹药箱(破片)
+		Heavy Auto Ammo Box (Armor Piercing)	重型自动武器弹药箱(穿甲)
+		Heavy Auto Ammo Box (Incendiary)	重型自动武器弹药箱(曳光)
+		Battle Shell (Kinetic)	炮弹(动能)
+		Battle Shell (High Explosive)	炮弹(高爆)
+		Battle Shell (Fragmentation)	炮弹(破片)
+		Battle Shell (Armor Piercing)	炮弹(穿甲)
+		Battle Shell (Incendiary)	炮弹(曳光)
+		Artillery Shell (Kinetic)	火炮炮弹(动能)
+		Artillery Shell (High Explosive)	火炮炮弹(高爆)
+		Artillery Shell (Fragmentation)	火炮炮弹(破片)
+		Artillery Shell (Armor Piercing)	火炮炮弹(穿甲)
+		Artillery Shell (Incendiary)	火炮炮弹(曳光)
 		C4 Explosive	C4炸药
 		C4 Detonator	C4雷管
 		Speargun	鱼叉枪
@@ -2331,8 +2331,8 @@ def_camera_small_node_0_desc
 def_camera_small_node_1_label		Electric	电源
 def_camera_small_node_1_desc			
 def_catalytic_converter_name		Catalytic Converter	催化转换器
-def_catalytic_converter_desc			
-def_catalytic_converter_s_desc			
+def_catalytic_converter_desc		Catalytic converter that removes fumes and decreases the number of exhaust particles emitted from an exhaust.	催化转化器，用于清除废气并减少废气中排放的颗粒颗粒物数量。
+def_catalytic_converter_s_desc		Reduces particles from exhausts.	减少排放颗粒物
 def_catalytic_converter_node_0_label		Exhaust In	废气输入
 def_catalytic_converter_node_0_desc			
 def_catalytic_converter_node_1_label		Exhaust Out	废气输出
@@ -4272,7 +4272,7 @@ def_radar_large_node_7_label		Target Found	找到目标
 def_radar_large_node_7_desc		Returns if an object has been detected.	返回是否检测到对象。
 def_radar_large_node_8_label		Electric	电源
 def_radar_large_node_8_desc		Electrical power connection.	电源连接。
-def_radar_sonar_name		Sonar	声纳
+def_radar_sonar_name		Sonar (Large)	声纳
 def_radar_sonar_desc		This sensor outputs the distance and angle to a detected underwater object within its range and field of view using sound waves. (Range : 3000) (Max FOV : 0.125)	该传感器利用声波将距离和角度输出到探测到的水下物体的范围和视场内。(射程：3000)(最大视场：0.125)
 def_radar_sonar_s_desc		A short range Sonar that returns information about a detected underwater object within its view.	一种短程声纳，在其视野内返回有关探测到的水下物体的信息。
 def_radar_sonar_node_0_label		FOV	FOV
@@ -5745,6 +5745,36 @@ def_wing_xl_s_desc		The wing surface cuts through the air while resisting moveme
 def_wing_xxl_name		Wing Section (XXLarge)	机翼面(超大)
 def_wing_xxl_desc		Wing surface to provide lift and cut through the air.	机翼表面提供升力并穿过气体。
 def_wing_xxl_s_desc		The wing surface cuts through the air while resisting movement against the flat plane of its surface. The aerofoil section also provides lift.	机翼表面穿透气体，同时抵抗其表面平面的运动。机翼部分也提供升力。
+		25mm Ammo Box	25mm口径弹药箱
+		30mm Ammo Box	30mm口径弹药箱
+		40mm Ammo Box	40mm口径弹药箱
+		105mm Shell	105mm口径炮弹
+		203mm Shell	203mm口径炮弹
+		25mm Ammo Box (Kinetic)	25mm口径弹药箱(动能)
+		25mm Ammo Box (High Explosive)	25mm口径弹药箱(高爆)
+		25mm Ammo Box (Fragmentation)	25mm口径弹药箱(破片)
+		25mm Ammo Box (Armor Piercing)	25mm口径弹药箱(穿甲)
+		25mm Ammo Box (Incendiary)	25mm口径弹药箱(燃烧)
+		30mm Ammo Box (Kinetic)	30mm口径弹药箱(动能)
+		30mm Ammo Box (High Explosive)	30mm口径弹药箱(高爆)
+		30mm Ammo Box (Fragmentation)	30mm口径弹药箱(破片)
+		30mm Ammo Box (Armor Piercing)	30mm口径弹药箱(穿甲)
+		30mm Ammo Box (Incendiary)	30mm口径弹药箱(燃烧)
+		40mm Ammo Box (Kinetic)	40mm口径弹药箱(动能)
+		40mm Ammo Box (High Explosive)	40mm口径弹药箱(高爆)
+		40mm Ammo Box (Fragmentation)	40mm口径弹药箱(破片)
+		40mm Ammo Box (Armor Piercing)	40mm口径弹药箱(穿甲)
+		40mm Ammo Box (Incendiary)	40mm口径弹药箱(燃烧)
+		105mm Shell (Kinetic)	105mm口径炮弹(动能)
+		105mm Shell (High Explosive)	105mm口径炮弹(高爆)
+		105mm Shell (Fragmentation)	105mm口径炮弹(破片)
+		105mm Shell (Armor Piercing)	105mm口径炮弹(穿甲)
+		105mm Shell (Incendiary)	105mm口径炮弹(燃烧)
+		203mm Shell (Kinetic)	203mm口径炮弹(动能)
+		203mm Shell (High Explosive)	203mm口径炮弹(高爆)
+		203mm Shell (Fragmentation)	203mm口径炮弹(破片)
+		203mm Shell (Armor Piercing)	203mm口径炮弹(穿甲)
+		203mm Shell (Incendiary)	203mm口径炮弹(燃烧)
 		Water	水
 		Allow Water	允许水
 def_inventory_equipment_speargun_ammo_name		Equipment inventory (Speargun Ammo)	装备架(鱼叉枪弹药)
