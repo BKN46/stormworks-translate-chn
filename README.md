@@ -1,4 +1,5 @@
 # stormworks-translate-chn
+<<<<<<< HEAD
 Stormworks: Build and Rescue中文汉化项目  
 创意工坊地址: [简体中文翻译 Simplified Chinese](https://steamcommunity.com/sharedfiles/filedetails/?id=2019972792)  
 欢迎PR，会定期审核并推到创意工坊  
@@ -29,3 +30,6 @@ Stormworks: Build and Rescue中文汉化项目
 原生`python 3`  
 同目录下执行即可查看缺翻项与缺翻个数  
 ~~本来有个机翻脚本被我给整丢了也懒得再写了,shit~~
+=======
+ Stormworks: Build and Rescue中文汉化项目
+>>>>>>> parent of e40d570 (init)
