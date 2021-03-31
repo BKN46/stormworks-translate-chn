@@ -10,8 +10,8 @@ id	description	en	local
 		SET ROGUE MODE SAVE	设置铁人模式存档
 		SERVER SLOWDOWN	服务器速度减慢
 		### is slowing the game.	### 正在减慢游戏速度
-		Error connecting to server:	连接收到服务器时出错：
-		Connecting to server...	正在连接收到服务器...
+		Error connecting to server:	连接服务器时出错：
+		Connecting to server...	正在连接服务器...
 		Joining game...	正在加入游戏...
 		NEW GAME	新游戏
 		LOAD GAME	加载游戏
