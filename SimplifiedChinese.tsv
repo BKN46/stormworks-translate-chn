@@ -10,8 +10,8 @@ id	description	en	local
 		SET ROGUE MODE SAVE	设置铁人模式存档
 		SERVER SLOWDOWN	服务器速度减慢
 		### is slowing the game.	### 正在减慢游戏速度
-		Error connecting to server:	连接服务器时出错：
-		Connecting to server...	正在连接服务器...
+		Error connecting to server:	连接收到服务器时出错：
+		Connecting to server...	正在连接收到服务器...
 		Joining game...	正在加入游戏...
 		NEW GAME	新游戏
 		LOAD GAME	加载游戏
@@ -3318,6 +3318,11 @@ def_humidity_sensor_desc		The reading can be read from the sensor's number outpu
 def_humidity_sensor_s_desc		A humidity sensor for measuring the current fog and visibility meteorological conditions.	用于测量当前雾和能见度气象条件的湿度传感器。
 def_humidity_sensor_node_0_label		Humidity Factor	湿度系数
 def_humidity_sensor_node_0_desc		The level of humidity in the air, relating to the fog visibility.	气体中的湿度水平，与雾的可见度有关。
+def_impact_sensor_name		Impact Sensor	冲击传感器
+def_impact_sensor_desc		Setting the impact threshold property will tune the sensitivity for impacts. When the instant change in velocity from an impact exceeds the threshold, and on signal is produced.	设置冲击阈值能够调整敏感度。 当来自撞击的瞬时速度变化超过阈值时，将产生一个信号。
+def_impact_sensor_s_desc		A sensor activated by a sudden change in velocity.	传感器能够检测瞬间的速度变化
+def_impact_sensor_node_0_label		Output	输出
+def_impact_sensor_node_0_desc		Outputs an on signal when instant change in velocity exceeds the impact threshold.	当瞬间速度变化超过阈值时，输出一个on信号。
 def_indicator_name		Indicator Light	指示灯
 def_indicator_desc			
 def_indicator_s_desc		A simple light that can be used as an indicator in logic systems.	一种简单的灯，可在逻辑系统中用作指示器。
@@ -4199,6 +4204,11 @@ def_player_sensor_node_0_label		Number Detected	检测到个数
 def_player_sensor_node_0_desc		The number of players detected by the sensor.	传感器检测到的玩家数量。
 def_player_sensor_node_1_label		Detected	检测
 def_player_sensor_node_1_desc		Outputs an on signal if any players are detected.	如果检测到任何玩家，则输出打开信号。
+def_pressure_sensor_name		Contact Sensor	接触传感器
+def_pressure_sensor_desc		Setting the resistance property will tune the amount of contact required to depress the sensor. When depressed, an on signal will be produced.	设置调整按下传感器所需的接触压力。 当按下时，将产生一个开信号。
+def_pressure_sensor_s_desc		A sensor activated by contact pressure.	由接触压力触发的传感器
+def_pressure_sensor_node_0_label		Output	输出
+def_pressure_sensor_node_0_desc		Outputs an on signal when the contact sensor is depressed.	当传感器被按下时输出一个on信号
 def_propeller_name		Small Propeller	小螺旋桨
 def_propeller_desc		Power received from an engine affects the forward and backward force generated. This propeller will only operate underwater.	从发动机接收到的功率影响所产生的前进和后退力。这个螺旋桨只能在水下工作。
 def_propeller_s_desc		A small boat propeller.	小船的螺旋桨。
@@ -4274,7 +4284,7 @@ def_radar_large_node_7_desc		Returns if an object has been detected.	返回是�
 def_radar_large_node_8_label		Electric	电源
 def_radar_large_node_8_desc		Electrical power connection.	电源连接。
 def_radar_sonar_name		Sonar (Large)	声纳
-def_radar_sonar_desc		This sensor outputs the distance and angle to a detected underwater object within its range and field of view using sound waves. (Range : 3000) (Max FOV : 0.125)	该传感器利用声波将距离和角度输出到探测到的水下物体的范围和视场内。(射程：3000)(最大视场：0.125)
+def_radar_sonar_desc		This sensor outputs the distance and angle to a detected underwater object within its range and field of view using sound waves. (Range : 3000) (Max FOV : 0.125)	利用声波在选定角度和FOV内检测目标仰角和距离。(射程：3000)(最大视场：0.125)
 def_radar_sonar_s_desc		A short range Sonar that returns information about a detected underwater object within its view.	一种短程声纳，在其视野内返回有关探测到的水下物体的信息。
 def_radar_sonar_node_0_label		FOV	FOV
 def_radar_sonar_node_0_desc		The sensor's yaw field of view in turns from 0.01 to 0.125.	传感器的FOV从0.01到0.125。
@@ -4290,6 +4300,23 @@ def_radar_sonar_node_5_label		Target Found	找到目标
 def_radar_sonar_node_5_desc		Returns if an object has been detected.	返回是否检测到对象。
 def_radar_sonar_node_6_label		Electric	电源
 def_radar_sonar_node_6_desc		Electrical power connection.	电源连接。
+def_radar_sonar_small_name		Sonar (Small)	声纳(小)
+def_radar_sonar_small_desc		This sensor outputs the distance and angle to a detected underwater object within its range and field of view using sound waves. (Range : 3000) (Max FOV : 0.125)	利用声波在选定角度和FOV内检测目标仰角和距离。(射程：3000)(最大视场：0.125)
+def_radar_sonar_small_s_desc		A short range Sonar that returns information about a detected underwater object within its view.	一种短程声纳，在其视野内返回有关探测到的水下物体的信息。
+def_radar_sonar_small_node_0_label		FOV	FOV
+def_radar_sonar_small_node_0_desc		The sensor's yaw field of view in turns from 0.01 to 0.125.	传感器的FOV从0.01到0.125。
+def_radar_sonar_small_node_1_label		Facing Yaw	朝向偏角
+def_radar_sonar_small_node_1_desc		The sensor's yaw direction in turns from -0.5 to 0.5.	传感器的偏角方向从-0.5到为0.5。
+def_radar_sonar_small_node_2_label		Target Distance	目标距离
+def_radar_sonar_small_node_2_desc		The distance to the target in meters.	到目标的距离，单位为米。
+def_radar_sonar_small_node_3_label		Signal Strength	信号强度
+def_radar_sonar_small_node_3_desc		The strength of the returned signal.	返回信号的强度。
+def_radar_sonar_small_node_4_label		Elevation Angle	仰角
+def_radar_sonar_small_node_4_desc		The pitch angle between the sensor and the target in turns.	传感器和目标之间的俯仰(Pitch)角。
+def_radar_sonar_small_node_5_label		Target Found	找到目标
+def_radar_sonar_small_node_5_desc		Returns if an object has been detected.	返回是否检测到对象。
+def_radar_sonar_small_node_6_label		Electric	电源
+def_radar_sonar_small_node_6_desc		Electrical power connection.	电源连接。
 def_railing_extension_angle_name		Railing Segment Extension Incline	栏杆段延伸斜面
 def_railing_extension_angle_desc			
 def_railing_extension_angle_s_desc		Inclined railing extension segment.	斜栏杆延长段。
