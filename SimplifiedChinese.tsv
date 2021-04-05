@@ -1632,7 +1632,7 @@ id	description	en	local
 		Seatbelt	安全带
 		Volume	音量
 		Roll	侧偏
-		Pitch	音高(Pitch)
+		Pitch	俯仰(Pitch)
 		Yaw	偏航(Yaw)
 		Preview	预览
 		Blink On Duration	闪烁持续时间
@@ -1965,6 +1965,7 @@ id	description	en	local
 		Pistol	手枪
 		Pistol Ammo	手枪弹药
 		Grenade	手榴弹
+		Enable weapons DLC	开启武器DLC
 def_01_block_name		Block	方块
 def_01_block_desc		The block is a quarter-metre in size. Components can be attached to all 6 faces.	这个方块有四分之一米大。组件可以连接收到所有6个面。
 def_01_block_s_desc		Basic cube-shaped building block.	基本立方形建筑块。
