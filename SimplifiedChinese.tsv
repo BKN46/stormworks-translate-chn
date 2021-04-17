@@ -1673,8 +1673,8 @@ id	description	en	local
 		Trim Axis 3	配平轴3
 		Trim Axis 4	配平轴4
 		Spring Strength	弹簧强度
-		Ratio 1	比率1
-		Ratio 2	比率2
+		Ratio Off	关闭时比例
+		Ratio On	开启时比例
 		Fluid Type	流体类型
 		Fresh Water	净水
 		Sea Water	海水
@@ -1966,6 +1966,9 @@ id	description	en	local
 		Pistol Ammo	手枪弹药
 		Grenade	手榴弹
 		Enable weapons DLC	开启武器DLC
+		Modular Engines	模块化引擎
+		Medium Modular Engines	中型模块化引擎
+		Heavy Modular Engines	重型模块化引擎
 def_01_block_name		Block	方块
 def_01_block_desc		The block is a quarter-metre in size. Components can be attached to all 6 faces.	这个方块有四分之一米大。组件可以连接收到所有6个面。
 def_01_block_s_desc		Basic cube-shaped building block.	基本立方形建筑块。
@@ -2760,10 +2763,10 @@ def_fluid_radiator_node_1_desc		Fluid Connection.	流体连接。
 def_fluid_radiator_electric_name		Fluid Heat Radiator 3x3 (Electric)	液体风冷散热器 3x3
 def_fluid_radiator_electric_desc		Fluid inside the cooler will lose temperature, supplying electric for the fan will increase the rate of exchange.	散热器中的液体能够缓慢降低温度，给风扇供电能够加速这一过程。
 def_fluid_radiator_electric_s_desc		Radiator type cooler for fluid.	风冷液体散热器
-def_fluid_radiator_electric_node_0_label		fluid a	流体接口a
-def_fluid_radiator_electric_node_0_desc			
-def_fluid_radiator_electric_node_1_label		fluid b	流体接口b
-def_fluid_radiator_electric_node_1_desc			
+def_fluid_radiator_electric_node_0_label		Fluid A	流体接口a
+def_fluid_radiator_electric_node_0_desc		Fluid Connection.	流体连接
+def_fluid_radiator_electric_node_1_label		Fluid B	流体接口b
+def_fluid_radiator_electric_node_1_desc		Fluid Connection.	流体连接
 def_fluid_radiator_electric_node_2_label		Electric	电力
 def_fluid_radiator_electric_node_2_desc			
 def_fluid_radiator_electric_node_3_label		Fan On/Off	风扇开关
@@ -2773,15 +2776,15 @@ def_fluid_radiator_electric_node_4_desc
 def_fluid_radiator_electric_5_name		Fluid Heat Radiator 5x5 (Electric)	液体风冷散热器 5x5
 def_fluid_radiator_electric_5_desc		Fluid inside the cooler will lose temperature, supplying electric for the fan will increase the rate of exchange.	散热器中的液体能够缓慢降低温度，给风扇供电能够加速这一过程。
 def_fluid_radiator_electric_5_s_desc		Radiator type cooler for fluid.	风冷液体散热器
-def_fluid_radiator_electric_5_node_0_label		fluid a	流体接口a
-def_fluid_radiator_electric_5_node_0_desc			
-def_fluid_radiator_electric_5_node_1_label		fluid b	流体接口b
-def_fluid_radiator_electric_5_node_1_desc			
+def_fluid_radiator_electric_5_node_0_label		Fluid A	流体接口a
+def_fluid_radiator_electric_5_node_0_desc		Fluid Connection.	流体连接
+def_fluid_radiator_electric_5_node_1_label		Fluid B	流体接口b
+def_fluid_radiator_electric_5_node_1_desc		Fluid Connection.	流体连接
 def_fluid_radiator_electric_5_node_2_label		Electric	电力
 def_fluid_radiator_electric_5_node_2_desc			
-def_fluid_radiator_electric_5_node_3_label		fan on/off	风扇开关
+def_fluid_radiator_electric_5_node_3_label		Fan on/off	风扇开关
 def_fluid_radiator_electric_5_node_3_desc			
-def_fluid_radiator_electric_5_node_4_label		temperature	温度
+def_fluid_radiator_electric_5_node_4_label		Temperature	温度
 def_fluid_radiator_electric_5_node_4_desc			
 def_fluid_tank_large_name		Fluid Tank Large	大油箱
 def_fluid_tank_large_desc		The tank fill spawn full of the selected fluid type.	油箱充满所选流体类型。
@@ -3897,7 +3900,7 @@ def_modular_engine_flywheel_5x5_s_desc		A modular engine crankshaft flywheel.	�
 def_modular_engine_flywheel_5x5_node_0_label		RPS	RPS
 def_modular_engine_flywheel_5x5_node_0_desc		Output value giving data info on engine speed.	转速数据
 def_modular_engine_gearbox_1x1_name		Gearbox 1x1	变速箱1x1
-def_modular_engine_gearbox_1x1_desc		The ratio can be toggled between two values which can be set in the properties. This gearbox operates up to a torque difference of 1200. Disengaging the clutch when changing gear and re-engaging it slowly will avoid damaging the gearbox.	齿比可以在属性中设置的两个值之间切换。这个变速箱的扭矩差可达1200。换档时松开离合器并缓慢重新接合，可避免损坏变速箱。
+def_modular_engine_gearbox_1x1_desc		The ratio can be toggled between two values which can be set in the properties.	齿比可以在属性中设置的两个值之间切换。这个变速箱的扭矩差可达1200。换档时松开离合器并缓慢重新接合，可避免损坏变速箱。
 def_modular_engine_gearbox_1x1_s_desc		Gearbox for changing the torque and speed across power connections.	变速箱，用于改变动力的扭矩和转速。
 def_modular_engine_gearbox_1x1_node_0_label		Power A	动力A
 def_modular_engine_gearbox_1x1_node_0_desc		Power connection A.	动力连接A
@@ -3908,7 +3911,7 @@ def_modular_engine_gearbox_1x1_node_2_desc		Toggle between the two gear ratios.	
 def_modular_engine_gearbox_1x1_node_3_label		Electric	电力
 def_modular_engine_gearbox_1x1_node_3_desc		The electric connection to power the component.	电力输入
 def_modular_engine_gearbox_3x3_name		Gearbox 3x3	变速箱 3x3
-def_modular_engine_gearbox_3x3_desc		The ratio can be toggled between two values which can be set in the properties. This gearbox operates up to a torque difference of 4000. Disengaging the clutch when changing gear and re-engaging it slowly will avoid damaging the gearbox.	齿比可以在属性中设置的两个值之间切换。这个变速箱的扭矩差可达4000。换档时松开离合器并缓慢重新接合，可避免损坏变速箱。
+def_modular_engine_gearbox_3x3_desc		The ratio can be toggled between two values which can be set in the properties.	齿比可以在属性中设置的两个值之间切换。这个变速箱的扭矩差可达4000。换档时松开离合器并缓慢重新接合，可避免损坏变速箱。
 def_modular_engine_gearbox_3x3_s_desc		Gearbox for changing the torque and speed across power connections.	变速箱，用于改变动力的扭矩和转速。
 def_modular_engine_gearbox_3x3_node_0_label		Power A	动力A
 def_modular_engine_gearbox_3x3_node_0_desc		Power connection A.	动力连接A
@@ -3919,7 +3922,7 @@ def_modular_engine_gearbox_3x3_node_2_desc		Toggle between the two gear ratios.	
 def_modular_engine_gearbox_3x3_node_3_label		Electric	电力
 def_modular_engine_gearbox_3x3_node_3_desc		The electric connection to power the component.	电力输入
 def_modular_engine_gearbox_5x5_name		Gearbox 5x5	变速箱 5x5
-def_modular_engine_gearbox_5x5_desc		The ratio can be toggled between two values which can be set in the properties. This gearbox operates up to a torque difference of 20000. Disengaging the clutch when changing gear and re-engaging it slowly will avoid damaging the gearbox.	齿比可以在属性中设置的两个值之间切换。这个变速箱的扭矩差可达20000。换档时松开离合器并缓慢重新接合，可避免损坏变速箱。
+def_modular_engine_gearbox_5x5_desc		The ratio can be toggled between two values which can be set in the properties.	齿比可以在属性中设置的两个值之间切换。这个变速箱的扭矩差可达20000。换档时松开离合器并缓慢重新接合，可避免损坏变速箱。
 def_modular_engine_gearbox_5x5_s_desc		Gearbox for changing the torque and speed across power connections.	变速箱，用于改变动力的扭矩和转速。
 def_modular_engine_gearbox_5x5_node_0_label		Power A	动力A
 def_modular_engine_gearbox_5x5_node_0_desc		Power connection A.	动力连接A
@@ -3974,8 +3977,8 @@ def_modular_engine_starter_node_0_desc
 def_modular_engine_starter_node_1_label		Electric	电器
 def_modular_engine_starter_node_1_desc		Electrical power connection.	电源连接。
 def_monitor_1_name		Monitor 1x1	屏幕1x1
-def_monitor_1_desc		Displays video data.	显示视频数据。
-def_monitor_1_s_desc		A video screen.	一个视频屏幕。
+def_monitor_1_desc		Displays video data.	显示视频数据
+def_monitor_1_s_desc		A video screen.	一个显示屏
 def_monitor_1_node_0_label		Video Signal	视频信号
 def_monitor_1_node_0_desc			
 def_monitor_1_node_1_label		Touch Output	触摸输出
@@ -3984,9 +3987,31 @@ def_monitor_1_node_2_label		Electric	电源
 def_monitor_1_node_2_desc			
 def_monitor_1_node_3_label		Power Switch	电源开关
 def_monitor_1_node_3_desc		Controls whether or not the screen is switched on.	控制屏幕是否打开。
+def_monitor_1x2_name		Monitor 1x2	屏幕1x2
+def_monitor_1x2_desc		Displays video data.	显示视频数据
+def_monitor_1x2_s_desc		A video screen.	一个显示屏
+def_monitor_1x2_node_0_label		Video Signal	视频信号
+def_monitor_1x2_node_0_desc			
+def_monitor_1x2_node_1_label		Touch Output	触摸输出
+def_monitor_1x2_node_1_desc			
+def_monitor_1x2_node_2_label		Electric	电源
+def_monitor_1x2_node_2_desc			
+def_monitor_1x2_node_3_label		Power Switch	电源开关
+def_monitor_1x2_node_3_desc		Controls whether or not the screen is switched on.	控制屏幕是否打开。
+def_monitor_1x3_name		Monitor 1x3	屏幕1x3
+def_monitor_1x3_desc		Displays video data.	显示视频数据
+def_monitor_1x3_s_desc		A video screen.	一个显示屏
+def_monitor_1x3_node_0_label		Video Signal	视频信号
+def_monitor_1x3_node_0_desc			
+def_monitor_1x3_node_1_label		Touch Output	触摸输出
+def_monitor_1x3_node_1_desc			
+def_monitor_1x3_node_2_label		Electric	电源
+def_monitor_1x3_node_2_desc			
+def_monitor_1x3_node_3_label		Power Switch	电源开关
+def_monitor_1x3_node_3_desc		Controls whether or not the screen is switched on.	控制屏幕是否打开。
 def_monitor_2_name		Monitor 2x2	屏幕2x2
-def_monitor_2_desc		Displays video data.	显示视频数据。
-def_monitor_2_s_desc		A video screen.	一个视频屏幕。
+def_monitor_2_desc		Displays video data.	显示视频数据
+def_monitor_2_s_desc		A video screen.	一个显示屏
 def_monitor_2_node_0_label		Video Signal	视频信号
 def_monitor_2_node_0_desc			
 def_monitor_2_node_1_label		Touch Output	触摸输出
@@ -3995,9 +4020,31 @@ def_monitor_2_node_2_label		Electric	电源
 def_monitor_2_node_2_desc			
 def_monitor_2_node_3_label		Power Switch	电源开关
 def_monitor_2_node_3_desc		Controls whether or not the screen is switched on.	控制屏幕是否打开。
+def_monitor_2x3_name		Monitor 2x3	屏幕2x3
+def_monitor_2x3_desc		Displays video data.	显示视频数据
+def_monitor_2x3_s_desc		A video screen.	一个显示屏
+def_monitor_2x3_node_0_label		Video Signal	视频信号
+def_monitor_2x3_node_0_desc			
+def_monitor_2x3_node_1_label		Touch Output	触摸输出
+def_monitor_2x3_node_1_desc			
+def_monitor_2x3_node_2_label		Electric	电源
+def_monitor_2x3_node_2_desc			
+def_monitor_2x3_node_3_label		Power Switch	电源开关
+def_monitor_2x3_node_3_desc		Controls whether or not the screen is switched on.	控制屏幕是否打开。
+def_monitor_3_name		Monitor 3x3	屏幕3x3
+def_monitor_3_desc		Displays video data.	显示视频数据
+def_monitor_3_s_desc		A video screen.	一个显示屏
+def_monitor_3_node_0_label		Video Signal	视频信号
+def_monitor_3_node_0_desc			
+def_monitor_3_node_1_label		Touch Output	触摸输出
+def_monitor_3_node_1_desc			
+def_monitor_3_node_2_label		Electric	电源
+def_monitor_3_node_2_desc			
+def_monitor_3_node_3_label		Power Switch	电源开关
+def_monitor_3_node_3_desc		Controls whether or not the screen is switched on.	控制屏幕是否打开。
 def_monitor_5_name		Monitor 5x3	屏幕5x3
-def_monitor_5_desc		Displays video data.	显示视频数据。
-def_monitor_5_s_desc		A video screen.	一个视频屏幕。
+def_monitor_5_desc		Displays video data.	显示视频数据
+def_monitor_5_s_desc		A video screen.	一个显示屏
 def_monitor_5_node_0_label		Video Signal	视频信号
 def_monitor_5_node_0_desc			
 def_monitor_5_node_1_label		Touch Output	触摸输出
@@ -4007,8 +4054,8 @@ def_monitor_5_node_2_desc
 def_monitor_5_node_3_label		Power Switch	电源开关
 def_monitor_5_node_3_desc		Controls whether or not the screen is switched on.	控制屏幕是否打开。
 def_monitor_9_name		Monitor 9x5	屏幕9x5
-def_monitor_9_desc		Displays video data.	显示视频数据。
-def_monitor_9_s_desc		A video screen.	一个视频屏幕。
+def_monitor_9_desc		Displays video data.	显示视频数据
+def_monitor_9_s_desc		A video screen.	一个显示屏
 def_monitor_9_node_0_label		Video Signal	视频信号
 def_monitor_9_node_0_desc			
 def_monitor_9_node_1_label		Touch Output	触摸输出
@@ -4018,7 +4065,7 @@ def_monitor_9_node_2_desc
 def_monitor_9_node_3_label		Power Switch	电源开关
 def_monitor_9_node_3_desc		Controls whether or not the screen is switched on.	控制屏幕是否打开。
 def_monitor_hud_1_name		HUD Small	HUD（小）
-def_monitor_hud_1_desc		Displays video data.	显示视频数据。
+def_monitor_hud_1_desc		Displays video data.	显示视频数据
 def_monitor_hud_1_s_desc		A clear projection heads up display screen.	清晰的投影使显示屏清晰可见。
 def_monitor_hud_1_node_0_label		Video Signal	视频信号
 def_monitor_hud_1_node_0_desc			
@@ -4029,7 +4076,7 @@ def_monitor_hud_1_node_2_desc
 def_monitor_hud_1_node_3_label		Power Switch	电源开关
 def_monitor_hud_1_node_3_desc		Controls whether or not the screen is switched on.	控制屏幕是否打开。
 def_monitor_hud_3_name		HUD Large	HUD（大）
-def_monitor_hud_3_desc		Displays video data.	显示视频数据。
+def_monitor_hud_3_desc		Displays video data.	显示视频数据
 def_monitor_hud_3_s_desc		A clear projection heads up display screen.	清晰的投影使显示屏清晰可见。
 def_monitor_hud_3_node_0_label		Video Signal	视频信号
 def_monitor_hud_3_node_0_desc			
@@ -4773,13 +4820,6 @@ def_scoop_intake_2_desc		An air intake component that performs better at higher 
 def_scoop_intake_2_s_desc		An air intake component.	进气口
 def_scoop_intake_2_node_0_label		Fluid	气体
 def_scoop_intake_2_node_0_desc		Air output port.	气体输出端口
-def_scoop_intake_3_name		Air Scoop Intake 2x1	进气口 2x1
-def_scoop_intake_3_desc		An air intake component that performs better at higher velocity.	在高速下表现更好的进气口组件
-def_scoop_intake_3_s_desc		An air intake component.	进气口
-def_scoop_intake_3_node_0_label		Fluid a	气体A
-def_scoop_intake_3_node_0_desc		Air output port.	气体输出端口
-def_scoop_intake_3_node_1_label		Fluid b	气体B
-def_scoop_intake_3_node_1_desc		Air output port.	气体输出端口
 def_searchlight_name		Search Light	探照灯
 def_searchlight_desc		The light has a standard value input that sets the target orientation within the its range of motion. It can rotate a quarter turn in both directions. An on/off signal is used to switch the light on and off. It has a range of 120m.	灯光有一个标准值输入，用于在其运动范围内设置目标方向。它可以在两个方向旋转四分之一圈。开关信号用于打开和关闭灯。它的射程是120米。
 def_searchlight_s_desc		A spotlight that can be rotated up and down.	可以上下旋转的聚光灯。
@@ -5773,6 +5813,15 @@ def_wing_xl_s_desc		The wing surface cuts through the air while resisting moveme
 def_wing_xxl_name		Wing Section (XXLarge)	机翼面(超大)
 def_wing_xxl_desc		Wing surface to provide lift and cut through the air.	机翼表面提供升力并穿过气体。
 def_wing_xxl_s_desc		The wing surface cuts through the air while resisting movement against the flat plane of its surface. The aerofoil section also provides lift.	机翼表面穿透气体，同时抵抗其表面平面的运动。机翼部分也提供升力。
+def_scoop_intake_3_name		Air Scoop Intake 2x1	进气口 2x1
+def_scoop_intake_3_desc		An air intake component that performs better at higher velocity.	在高速下表现更好的进气口组件
+def_scoop_intake_3_s_desc		An air intake component.	进气口
+def_scoop_intake_3_node_0_label		Fluid a	气体A
+def_scoop_intake_3_node_0_desc		Air output port.	气体输出端口
+def_scoop_intake_3_node_1_label		Fluid b	气体B
+def_scoop_intake_3_node_1_desc		Air output port.	气体输出端口
+		Ratio 1	比率1
+		Ratio 2	比率2
 		25mm Ammo Box	25mm口径弹药箱
 		30mm Ammo Box	30mm口径弹药箱
 		40mm Ammo Box	40mm口径弹药箱
