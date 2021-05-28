@@ -643,8 +643,8 @@ id	description	en	local
 		ADD OBJECT	添加对象
 		Objects can be picked up, thrown and moved around by the player. They can be used for delivery missions or just as decoration. You can customise the object type in the properties window.	玩家可以捡起、投掷和移动物体。它们可以用于运输任务或仅仅作为装饰。可以在“属性”窗口中自定义对象类型。
 		ADD ZONE	添加区域
-		ADD ENV MOD ZONE	添加环境MOD区域
-		Env Mod Zones are persistent zones, they can be used to set up advanced mission behaviour at specific world locations and can be manipulated from addon Lua. These zones can be accessed globally by any addon script with functions getZones() and isInZone().	环境MOD区域是永久性区域，它们可以用来在特定的世界位置设置高级任务行为，并且可以通过Playlist Lua进行操作。这些区域可以通过任何Playlist脚本使用函数getZones()和isInZone()进行全局访问。
+		ADD ZONE	增加区域
+		Zones can be used to set up advanced mission behaviour at specific world locations with addon Lua. These zones can be accessed globally by any addon script with functions getZones() and isInZone().	可以在世界中设置一个带有lua插件的区域，来实现更高级的任务功能。创建出的区域可以被任何插件全局访问，访问函数为getZones()以及isInZone()。
 		Zones are used to specify a location, these zones are local to a addon and can be accessed like any other local component through getLocationObjectData(). Mission Zones are generally more appropriate for constructing procedural style missions.	区域用于指定一个位置，这些区域是playlist的地点，可以像其他本地组件一样通过getLocationObjectData()来访问。任务区一般更适合构建流程式的任务。
 		ADD VEHICLE	添加载具
 		You can set a vehicle to be static in the properties window. Static vehicles are fixed in place, making them useful for adding buildings or cranes to missions.	可以在“属性”窗口中将载具设置为静态。静态载具被固定在一个位置，这使得它们有助于在任务中增加建筑或机械臂。
@@ -1683,8 +1683,8 @@ id	description	en	local
 		Allow Sea Water	允许海水
 		Allow Diesel	允许柴油
 		Allow Jet Fuel	允许航空燃油
-		Allow Air	允许空气
-		Allow Exhaust	允许废气
+		Allow Air	允许进入
+		Allow Exhaust	允许排气
 		Allow Crude Oil	允许原油
 		Grip	抓地力
 		Tyre Tread	轮胎胎面
@@ -1822,7 +1822,7 @@ id	description	en	local
 		An uncontrolled blaze has sprung up, decimating the natural scenery.	一场无法控制的大火突然爆发，破坏了自然环境。
 		Extinguish the wildfire before it gets out of control.	在野火失去控制之前把它扑灭。
 		A forest fire needs to be extinguished.	森林大火需要扑灭。
-		Cargo Zone	卸货区
+		Zone	区域
 		Pickup	装货
 		Dropoff	卸货
 		Cargo Dropoff Point	卸货点
@@ -1908,7 +1908,7 @@ id	description	en	local
 		[$[action_equipment_use]] Toggle strobe [$[action_equipment_secondary]] Toggle MOB mode	[$[action_equipment_use]] 频闪开关 [$[action_equipment_secondary]] 切换MOB模式
 		[$[action_equipment_use]] Toggle transmit [$[action_equipment_secondary]] Toggle MOB mode	[$[action_equipment_use]] 通信开关 [$[action_equipment_secondary]] 切换MOB模式
 		[$[action_equipment_use]] Repair	[$[action_equipment_use]]维修
-		[$[action_equipment_use]] Repair	[$[action_equipment_use]]维修
+		[$[action_equipment_use]] Repair	[$[action_equipment_use]] 维修
 		Detailed	细致的
 		Simple	简单的
 		Incapacitated	丧失行动能力的
@@ -1969,6 +1969,18 @@ id	description	en	local
 		Modular Engines	模块化引擎
 		Medium Modular Engines	中型模块化引擎
 		Heavy Modular Engines	重型模块化引擎
+		Hazmat Outfit	防化服
+		Radiation Detector	辐射探测器
+			
+			
+		[$[action_equipment_use]] Toggle detector	[$[action_equipment_use]] 开启探测器
+		Hazmat	危险品
+		Coal	煤炭
+		Steam Power	蒸汽动力
+		Nuclear Power	核动力
+		Load Coal	装载煤炭
+		Unload Coal	卸载煤炭
+		Clean Radiation	清除辐射
 def_01_block_name		Block	方块
 def_01_block_desc		The block is a quarter-metre in size. Components can be attached to all 6 faces.	这个方块有四分之一米大。组件可以连接收到所有6个面。
 def_01_block_s_desc		Basic cube-shaped building block.	基本立方形建筑块。
@@ -2787,26 +2799,32 @@ def_fluid_radiator_electric_5_node_3_desc
 def_fluid_radiator_electric_5_node_4_label		Temperature	温度
 def_fluid_radiator_electric_5_node_4_desc			
 def_fluid_tank_large_name		Fluid Tank Large	大油箱
-def_fluid_tank_large_desc		The tank fill spawn full of the selected fluid type.	油箱充满所选流体类型。
+def_fluid_tank_large_desc		The tank will spawn full of the selected fluid type.	油箱充满所选流体类型。
 def_fluid_tank_large_s_desc		A tank for storing fluid.	储存流体的罐。
 def_fluid_tank_large_node_0_label		Stored Fluid	储存的流体
 def_fluid_tank_large_node_0_desc		The fluid connection for the stored contents.	存储内容的流体连接。
 def_fluid_tank_large_node_1_label		Tank Content	油箱容量
 def_fluid_tank_large_node_1_desc		The amount of fluid in the tank in litres.	油箱中的流体量，单位为升。
+def_fluid_tank_large_node_2_label		Stored Fluid	内容物体积
+def_fluid_tank_large_node_2_desc		The fluid connection for the stored contents.	连通内容物的接口
 def_fluid_tank_medium_name		Fluid Tank Medium	中等油箱
-def_fluid_tank_medium_desc		The tank fill spawn full of the selected fluid type.	油箱充满所选流体类型。
+def_fluid_tank_medium_desc		The tank will spawn full of the selected fluid type.	油箱充满所选流体类型。
 def_fluid_tank_medium_s_desc		A tank for storing fluid.	储存流体的罐。
 def_fluid_tank_medium_node_0_label		Stored Fluid	储存的流体
 def_fluid_tank_medium_node_0_desc		The fluid connection for the stored contents.	存储内容的流体连接。
 def_fluid_tank_medium_node_1_label		Tank Content	油箱容量
 def_fluid_tank_medium_node_1_desc		The amount of fluid in the tank in litres.	油箱中的流体量，单位为升。
+def_fluid_tank_medium_node_2_label		Stored Fluid	内容物体积
+def_fluid_tank_medium_node_2_desc		The fluid connection for the stored contents.	连通内容物的接口
 def_fluid_tank_small_name		Fluid Tank Small	小油箱
-def_fluid_tank_small_desc		The tank fill spawn full of the selected fluid type.	油箱充满所选流体类型。
+def_fluid_tank_small_desc		The tank will spawn full of the selected fluid type.	油箱充满所选流体类型。
 def_fluid_tank_small_s_desc		A tank for storing fluid.	储存流体的罐。
 def_fluid_tank_small_node_0_label		Stored Fluid	储存的流体
 def_fluid_tank_small_node_0_desc		The fluid connection for the stored contents.	存储内容的流体连接。
 def_fluid_tank_small_node_1_label		Tank Content	油箱容量
 def_fluid_tank_small_node_1_desc		The amount of fluid in the tank in litres.	油箱中的流体量，单位为升。
+def_fluid_tank_small_node_2_label		Stored Fluid	内容物体积
+def_fluid_tank_small_node_2_desc		The fluid connection for the stored contents.	连通内容物的接口
 def_fluid_valve_flow_name		Fluid Flow Valve	流体流量阀
 def_fluid_valve_flow_desc		Allows fluid to move from the input side of the valve to the output but resists fluid flow in the other direction.	允许流体从阀门的输入侧移动到输出端，但阻止流体朝另一个方向流动。
 def_fluid_valve_flow_s_desc		A one way valve for controlling fluid flow.	控制流体流动的单向阀。
@@ -2843,6 +2861,9 @@ def_foghorn_node_0_label		Horn	喇叭
 def_foghorn_node_0_desc		Sounds the horn when recieving an on signal.	收到接通信号时按喇叭。
 def_foghorn_node_1_label		Electric	电源
 def_foghorn_node_1_desc		Electrical power connection.	电源连接。
+def_friction_block_name		Friction Pad	摩擦块
+def_friction_block_desc		High friction pad that grips any surface it touches.	向接触的任何表面提供摩擦力
+def_friction_block_s_desc		Friction pad that grips to surfaces.	接触表面的摩擦块
 def_gate_bool_and_name		And	与(And)
 def_gate_bool_and_desc		The output will only be switched on if both inputs are on.	只有当两个输入都打开时，输出才会打开。
 def_gate_bool_and_s_desc		A logic gate that outputs the logical AND of two input signals.	一种逻辑门，输出两个输入信号的逻辑和。
@@ -3431,6 +3452,11 @@ def_inventory_equipment_flashlight_desc		Pressing [$[action_interact_left]]/[$[a
 def_inventory_equipment_flashlight_s_desc		A small equipment storage unit containing a flashlight.	小型装备架，存储一个手电筒
 def_inventory_equipment_flashlight_node_0_label		Electric	电源
 def_inventory_equipment_flashlight_node_0_desc		Electrical power connection.	电源连接
+def_inventory_equipment_geiger_counter_name		Equipment inventory (Radiation Detector)	装备架(辐射指示器)
+def_inventory_equipment_geiger_counter_desc		Pressing [$[action_interact_left]]/[$[action_interact_right]] will equip/store the selected item. Press [$[action_equipment_use]] to toggle radiation detection on or off. This equipment requires electric charge to function, and will recharge when placed into a powered small equipment storage unit. This equipment can be stored on the belt.	按[$[action_interact_left]]/[$[action_interact_right]]能装备/收起选中物品。按[$[action_equipment_use]]打开或关闭辐射指示器。该设备需要充电才能发挥作用，放入已供电的小型装备架时充电。不使用时，这个装备能挂腰带上。
+def_inventory_equipment_geiger_counter_s_desc		A small equipment storage unit containing a radiation detector.	小型装备架，储存一个辐射指示器
+def_inventory_equipment_geiger_counter_node_0_label		Electric	电源
+def_inventory_equipment_geiger_counter_node_0_desc		Electrical power connection.	电源连接
 def_inventory_equipment_hose_name		Equipment inventory (Hose)	装备架(软管)
 def_inventory_equipment_hose_desc		Pressing [$[action_interact_left]]/[$[action_interact_right]] will equip/store the selected item. Press [$[action_equipment_use]] to attach the hose to an unoccupied fluid hose anchor. Pressing [$[action_interact_left]]/[$[action_interact_right]] on an occupied fluid hose anchor will retrieve the hose if the player has inventory space to hold it. If the hose contains water, press [$[action_equipment_secondary]] to toggle open the hose valve and allow the water to flow freely. This equipment can be stored on the back when not in use.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。 按下 [$[action_equipment_use]] 来将电缆连接到未占用的软管锚点。 如果有剩余空间，在已经占用的软管锚点按下 [$[action_interact_left]]/[$[action_interact_right]] 将会把软管收回到玩家库存。如果软管中有流体，按下 [$[action_equipment_secondary]] 可以开关阀门允许流体自由流动。不使用时，这个装备能够收到背后。
 def_inventory_equipment_hose_s_desc		A large equipment storage unit containing 20m of fluid hosing.	大型装备架，存储20m长流体软管
@@ -3516,6 +3542,11 @@ def_inventory_outfit_firefighter_desc		Pressing [$[action_interact_left]]/[$[act
 def_inventory_outfit_firefighter_s_desc		An outfit inventory unit containing specialist firefighting gear.	包含专业消防装备的装备架。
 def_inventory_outfit_firefighter_node_0_label		Electric	电源
 def_inventory_outfit_firefighter_node_0_desc		Electrical power connection.	电源连接
+def_inventory_outfit_hazmat_name		Outfit Inventory (Hazmat)	装备架(化学防护服)
+def_inventory_outfit_hazmat_desc		Pressing [$[action_interact_left]]/[$[action_interact_right]] will equip/store outfit. When equipped, it will absorb 95% of incoming radiation.	按 [$[action_interact_left]]/[$[action_interact_right]]将装备/储存装备。装备后，将吸收95%的辐射伤害。
+def_inventory_outfit_hazmat_s_desc		An outfit inventory unit containing specialist hazmat gear.	一个装备架，包含专业化学防护服。
+def_inventory_outfit_hazmat_node_0_label		Electric	电源
+def_inventory_outfit_hazmat_node_0_desc		Electrical power connection.	电源连接
 def_inventory_outfit_parachute_name		Outfit Inventory (Parachute)	装备架(降落伞)
 def_inventory_outfit_parachute_desc		Pressing [$[action_interact_left]]/[$[action_interact_right]] will equip/store the outfit. When selected, press [$[action_equipment_use]] while falling to deploy the parachute. It will then open when you are falling fast enough. Press [$[action_equipment_secondary]] to close the parachute. This parachute is single-use once equipped but can be refolded by storing it in an outfit inventory unit.	按 [$[action_interact_left]]/[$[action_interact_right]]将装备/储存装备。装备后，在降落时按 [$[action_use_seat]] 将展开降落伞。当你下降得够快的时候它就会打开。再次按 [$[action_use_seat]] 将关闭它。这种降落伞一经装备就可以一次性使用，但可以通过储存在装备架单元中重新折叠。
 def_inventory_outfit_parachute_s_desc		An outfit inventory unit containing a single-use parachute.	装有一次性降落伞的装备架。
@@ -4348,7 +4379,7 @@ def_radar_sonar_node_5_desc		Returns if an object has been detected.	返回是�
 def_radar_sonar_node_6_label		Electric	电源
 def_radar_sonar_node_6_desc		Electrical power connection.	电源连接。
 def_radar_sonar_small_name		Sonar (Small)	声纳(小)
-def_radar_sonar_small_desc		This sensor outputs the distance and angle to a detected underwater object within its range and field of view using sound waves. (Range : 3000) (Max FOV : 0.125)	利用声波在选定角度和FOV内检测目标仰角和距离。(射程：3000)(最大视场：0.125)
+def_radar_sonar_small_desc		This sensor outputs the distance and angle to a detected underwater object within its range and field of view using sound waves. (Range : 1000) (Max FOV : 0.125)	利用声波在选定角度和FOV内检测目标仰角和距离。(射程：3000)(最大视场：0.125)
 def_radar_sonar_small_s_desc		A short range Sonar that returns information about a detected underwater object within its view.	一种短程声纳，在其视野内返回有关探测到的水下物体的信息。
 def_radar_sonar_small_node_0_label		FOV	FOV
 def_radar_sonar_small_node_0_desc		The sensor's yaw field of view in turns from 0.01 to 0.125.	传感器的FOV从0.01到0.125。
@@ -4364,6 +4395,11 @@ def_radar_sonar_small_node_5_label		Target Found	找到目标
 def_radar_sonar_small_node_5_desc		Returns if an object has been detected.	返回是否检测到对象。
 def_radar_sonar_small_node_6_label		Electric	电源
 def_radar_sonar_small_node_6_desc		Electrical power connection.	电源连接。
+def_radiation_detector_name		Radiation Detector	辐射探测器
+def_radiation_detector_desc		Outputs radiation dose rate per second at its location.	输出其所在位置的每秒辐射剂量率
+def_radiation_detector_s_desc		A sensor to detect radiation.	一个检测辐射的传感器
+def_radiation_detector_node_0_label		Radiation	辐射
+def_radiation_detector_node_0_desc		The detected radiation dose rate.	检测到的辐射剂量率
 def_railing_extension_angle_name		Railing Segment Extension Incline	栏杆段延伸斜面
 def_railing_extension_angle_desc			
 def_railing_extension_angle_s_desc		Inclined railing extension segment.	斜栏杆延长段。
@@ -5248,6 +5284,135 @@ def_stair_segment_s_desc		A single step that can be stacked to create a staircas
 def_stair_top_name		Stair Top	楼梯顶部
 def_stair_top_desc			
 def_stair_top_s_desc		A single step that can be used at the top of a staircase to make it flush with a platform.	一种台阶，可用于楼梯顶部，使其与平台平齐。
+def_steam_boiler_name		Steam Boiler	蒸汽锅炉
+def_steam_boiler_desc		The boiler should be connected to a firebox to supply heat for evaporation. Allowing too much pressure to build up in the boiler may cause an explosion; control your boiler's heat to restrict steam generation and keep the pressure below the threshold (10).	锅炉应连接至提供蒸发水所需热量的燃烧室。当压力过高时可能会爆炸。请控制燃烧以将蒸汽压力保持在安全压力(10)以下。
+def_steam_boiler_s_desc		A boiler for evaporating water into steam.	把水蒸发成蒸汽的锅炉
+def_steam_boiler_node_0_label		Coolant A	冷却液 A
+def_steam_boiler_node_0_desc			
+def_steam_boiler_node_1_label		Coolant B	冷却液 B
+def_steam_boiler_node_1_desc			
+def_steam_boiler_node_2_label		Water In	水进入
+def_steam_boiler_node_2_desc			
+def_steam_boiler_node_3_label		Steam Out	蒸汽排出
+def_steam_boiler_node_3_desc			
+def_steam_boiler_node_4_label		Fluid Volume	流体体积
+def_steam_boiler_node_4_desc			
+def_steam_boiler_node_5_label		Temperature	温度
+def_steam_boiler_node_5_desc			
+def_steam_boiler_node_6_label		Pressure	压力
+def_steam_boiler_node_6_desc			
+def_steam_coal_duct_name		Steam Coal Duct	蒸汽煤输送管
+def_steam_coal_duct_desc		Transports coal through the connected system.	通过连接的系统输送煤炭
+def_steam_coal_duct_s_desc		A basic coal duct.	一个基本的煤炭输送管
+def_steam_coal_duct_node_0_label		Coal Level	储煤量
+def_steam_coal_duct_node_0_desc			
+def_steam_coal_duct_l_name		Steam Coal Duct Large	大型蒸汽煤输送管
+def_steam_coal_duct_l_desc		Transports coal through the connected system.	通过连接的系统输送煤炭
+def_steam_coal_duct_l_s_desc		A basic coal duct.	一个基本的煤炭输送管
+def_steam_coal_duct_l_node_0_label		Coal Level	储煤量
+def_steam_coal_duct_l_node_0_desc			
+def_steam_coal_duct_m_name		Steam Coal Duct Medium	中型蒸汽煤输送管
+def_steam_coal_duct_m_desc		Transports coal through the connected system.	通过连接的系统输送煤炭
+def_steam_coal_duct_m_s_desc		A basic coal duct.	一个基本的煤炭输送管
+def_steam_coal_duct_m_node_0_label		Coal Level	储煤量
+def_steam_coal_duct_m_node_0_desc			
+def_steam_coal_firebox_name		Steam Coal Firebox	蒸汽煤燃烧室
+def_steam_coal_firebox_desc		Produces large amounts of heat. Can be supplied with a coal duct. Consumes 1 coal to ignite the fire.	产生大量的热量。可以连接一个煤输送管。消耗1单位煤来点火。
+def_steam_coal_firebox_s_desc		A coal powered firebox.	一个以煤为燃料的燃烧室
+def_steam_coal_firebox_node_0_label		Coal Level	储煤量
+def_steam_coal_firebox_node_0_desc			
+def_steam_coal_firebox_node_1_label		Temperature	温度
+def_steam_coal_firebox_node_1_desc			
+def_steam_coal_firebox_node_2_label		Ignition	点火
+def_steam_coal_firebox_node_2_desc			
+def_steam_coal_firebox_node_3_label		Coolant In	冷却液进入
+def_steam_coal_firebox_node_3_desc			
+def_steam_coal_firebox_node_4_label		Coolant Out	冷却液排出
+def_steam_coal_firebox_node_4_desc			
+def_steam_coal_firebox_node_5_label		Air	空气
+def_steam_coal_firebox_node_5_desc			
+def_steam_coal_firebox_node_6_label		Exhaust	排气
+def_steam_coal_firebox_node_6_desc			
+def_steam_coal_firebox_l_name		Steam Coal Firebox Large	大型蒸汽煤燃烧室
+def_steam_coal_firebox_l_desc		Produces large amounts of heat. Can be supplied with a coal duct. Consumes 1 coal to ignite the fire.	产生大量的热量。可以连接一个煤输送管。消耗1单位煤来点火。
+def_steam_coal_firebox_l_s_desc		A coal powered firebox.	一个以煤为燃料的燃烧室
+def_steam_coal_firebox_l_node_0_label		Coal Level	储煤量
+def_steam_coal_firebox_l_node_0_desc			
+def_steam_coal_firebox_l_node_1_label		Temperature	温度
+def_steam_coal_firebox_l_node_1_desc			
+def_steam_coal_firebox_l_node_2_label		Ignition	点火
+def_steam_coal_firebox_l_node_2_desc			
+def_steam_coal_firebox_l_node_3_label		Coolant In	冷却液进入
+def_steam_coal_firebox_l_node_3_desc			
+def_steam_coal_firebox_l_node_4_label		Coolant Out	冷却液排出
+def_steam_coal_firebox_l_node_4_desc			
+def_steam_coal_firebox_l_node_5_label		Air	空气
+def_steam_coal_firebox_l_node_5_desc			
+def_steam_coal_firebox_l_node_6_label		Exhaust	排气
+def_steam_coal_firebox_l_node_6_desc			
+def_steam_coal_funnel_name		Steam Coal Funnel	蒸汽煤漏斗
+def_steam_coal_funnel_desc		Can be toggled to slowly move coal out of the connected system.	可以通过开关信号将煤炭缓慢的排出相连接的系统。
+def_steam_coal_funnel_s_desc		A funnel movign coal.	一个排出煤的漏斗
+def_steam_coal_funnel_node_0_label		Open	打开
+def_steam_coal_funnel_node_0_desc			
+def_steam_coal_hopper_name		Steam Coal Hopper	蒸汽煤料斗
+def_steam_coal_hopper_desc		Pouring coal into the receptacle will add it to the connected system.	将煤倒入容器存储到相连接的系统中。
+def_steam_coal_hopper_s_desc		A hopper that can accept coal.	一个能存储煤的料斗。
+def_steam_coal_hopper_node_0_label		Coal Level	储煤量
+def_steam_coal_hopper_node_0_desc			
+def_steam_coal_hopper_l_name		Steam Coal Hopper Large	大型蒸汽煤料斗
+def_steam_coal_hopper_l_desc		Pouring coal into the receptacle will add it to the connected system.	将煤倒入容器存储到相连接的系统中。
+def_steam_coal_hopper_l_s_desc		A hopper that can accept coal.	一个能存储煤的料斗。
+def_steam_coal_hopper_l_node_0_label		Coal Level	储煤量
+def_steam_coal_hopper_l_node_0_desc			
+def_steam_coal_hopper_m_name		Steam Coal Hopper Medium	中型蒸汽煤料斗
+def_steam_coal_hopper_m_desc		Pouring coal into the receptacle will add it to the connected system.	将煤倒入容器存储到相连接的系统中。
+def_steam_coal_hopper_m_s_desc		A hopper that can accept coal.	一个能存储煤的料斗。
+def_steam_coal_hopper_m_node_0_label		Coal Level	储煤量
+def_steam_coal_hopper_m_node_0_desc			
+def_steam_condenser_name		Steam Condenser	蒸汽冷凝器
+def_steam_condenser_desc		The condenser should be continously cooled to function efficiently.	冷凝器在持续冷却下才能够有效工作
+def_steam_condenser_s_desc		A condenser for converting steam back to water.	将蒸汽冷凝回水的机器
+def_steam_condenser_node_0_label		Coolant A	冷却液 A
+def_steam_condenser_node_0_desc			
+def_steam_condenser_node_1_label		Coolant B	冷却液 B
+def_steam_condenser_node_1_desc			
+def_steam_condenser_node_2_label		Steam In	蒸汽输入
+def_steam_condenser_node_2_desc			
+def_steam_condenser_node_3_label		Water Out	冷凝水输出
+def_steam_condenser_node_3_desc			
+def_steam_condenser_node_4_label		Fluid Volume	液体容量
+def_steam_condenser_node_4_desc			
+def_steam_condenser_node_5_label		Temperature	温度
+def_steam_condenser_node_5_desc			
+def_steam_nuclear_control_rod_name		Nuclear Control Rod	核控制棒
+def_steam_nuclear_control_rod_desc		Can be inserted into a fuel assembly to decrease the rate of reaction of adjacent rods.	可以插入核燃料总成中来控制燃料棒反应速度
+def_steam_nuclear_control_rod_s_desc		A Control Rod.	一根控制棒
+def_steam_nuclear_control_rod_node_0_label		Insertion Target	控制棒插入目标深度
+def_steam_nuclear_control_rod_node_0_desc			
+def_steam_nuclear_control_rod_node_1_label		Insertion	控制棒插入
+def_steam_nuclear_control_rod_node_1_desc			
+def_steam_nuclear_fuel_assembly_name		Nuclear Fuel Assembly	核燃料总成
+def_steam_nuclear_fuel_assembly_desc		A fuel rod can be inserted into the assembly to facilitate a fission reaction.	可以将核燃料棒插入其中以促进裂变反应。
+def_steam_nuclear_fuel_assembly_s_desc		A Fuel assembly.	一个核燃料总成
+def_steam_nuclear_fuel_assembly_node_0_label		Release Fuel Rod	释放核燃料棒
+def_steam_nuclear_fuel_assembly_node_0_desc			
+def_steam_nuclear_fuel_assembly_node_1_label		Fuel Rod Temperature	核燃料棒温度
+def_steam_nuclear_fuel_assembly_node_1_desc			
+def_steam_nuclear_fuel_rod_name		Nuclear Fuel Rod	核燃料棒
+def_steam_nuclear_fuel_rod_desc		Can be inserted into a fuel assembly to start the nuclear fission process.	可以插入核燃料总成来开始核裂变反应。
+def_steam_nuclear_fuel_rod_s_desc		A Radioactive Fuel Rod.	一个放射性燃料棒
+def_steam_turbine_name		Steam Turbine	蒸汽涡轮
+def_steam_turbine_desc		Produces torque based on the force generated by steam passing through the turbine.	利用通过涡轮的蒸汽来产生扭矩
+def_steam_turbine_s_desc		A steam powered turbine.	一个蒸汽动力涡轮
+def_steam_turbine_node_0_label		Steam in	蒸汽输入
+def_steam_turbine_node_0_desc			
+def_steam_turbine_node_1_label		Steam Out	蒸汽输出
+def_steam_turbine_node_1_desc			
+def_steam_turbine_node_2_label		Torque	扭矩
+def_steam_turbine_node_2_desc			
+def_steam_turbine_node_3_label		Torque	扭矩
+def_steam_turbine_node_3_desc			
 def_tail_rotor_name		Rotor (Tail)	尾桨
 def_tail_rotor_desc		A standard number input allows you to control how much force the rotor generates.	标准数字输入允许您控制螺旋桨产生的力。
 def_tail_rotor_s_desc		A basic helicopter tail rotor.	一种基本的直升机尾桨。
@@ -5311,14 +5476,14 @@ def_train_wheels_node_1_label		RPS	动力
 def_train_wheels_node_1_desc		Receives power generated by an engine to control forward and backward rotation.	接收发动机产生的控制前后旋转的动力。
 def_train_wheels_node_2_label		Wheel Slip	载具轮打滑
 def_train_wheels_node_2_desc		Detects if wheels are slipping resulting in reduced torque.	检测载具轮是否打滑导致扭矩减小。
-def_transponder_name		Emergency Beacon	应急信标
+def_transponder_name		Transponder	应急信标
 def_transponder_desc		When activated, emits a continuous transponder signal that can be detected over great distances by any transponder locator.	当激活时，发射连续的应答信号，任何定位器都能够在长距离内检测到此信号。
 def_transponder_s_desc		An emergency search and rescue transponder.	一个应急用搜救应答器
 def_transponder_node_0_label		Electric	电力
 def_transponder_node_0_desc		Electrical power connection.	电源输入
 def_transponder_node_1_label		Active	激活
 def_transponder_node_1_desc		Emit a continuous transponder signal when active.	当激活时发射连续应答信号
-def_transponder_locator_name		Emergency Beacon Locator	应急信标定位器
+def_transponder_locator_name		Transponder Locator	应急信标定位器
 def_transponder_locator_desc		Detects all transponder signals over great distances. Outputs the strongest signal strength detected, transponder signal strengths will decrease with distance.	在长距离内检测所有的应急信号，信号会随距离衰减，输出检测到最强的信号。
 def_transponder_locator_s_desc		An emergency search and rescue transponder locator.	一个应急信标定位器
 def_transponder_locator_node_0_label		Transponder pulse	应答脉冲
@@ -5813,6 +5978,9 @@ def_wing_xl_s_desc		The wing surface cuts through the air while resisting moveme
 def_wing_xxl_name		Wing Section (XXLarge)	机翼面(超大)
 def_wing_xxl_desc		Wing surface to provide lift and cut through the air.	机翼表面提供升力并穿过气体。
 def_wing_xxl_s_desc		The wing surface cuts through the air while resisting movement against the flat plane of its surface. The aerofoil section also provides lift.	机翼表面穿透气体，同时抵抗其表面平面的运动。机翼部分也提供升力。
+		ADD ENV MOD ZONE	添加环境MOD区域
+		Env Mod Zones are persistent zones, they can be used to set up advanced mission behaviour at specific world locations and can be manipulated from addon Lua. These zones can be accessed globally by any addon script with functions getZones() and isInZone().	环境MOD区域是永久性区域，它们可以用来在特定的世界位置设置高级任务行为，并且可以通过Playlist Lua进行操作。这些区域可以通过任何Playlist脚本使用函数getZones()和isInZone()进行全局访问。
+		Cargo Zone	卸货区
 def_scoop_intake_3_name		Air Scoop Intake 2x1	进气口 2x1
 def_scoop_intake_3_desc		An air intake component that performs better at higher velocity.	在高速下表现更好的进气口组件
 def_scoop_intake_3_s_desc		An air intake component.	进气口
