@@ -5950,7 +5950,7 @@ def_window_port_s_desc		3x3 window piece with a thick frame.	3x3厚框窗。
 def_window_porthole_name		Porthole	舷窗（大）
 def_window_porthole_desc		Useful for large vehicles that require windows with a more robust appearance.	适用于需要具有更坚固外观的载具窗的大型载具。
 def_window_porthole_s_desc		Large 3x5 window piece with a thick frame.	大的3x5窗框厚。
-def_window_small_angle_name		Small Angled Window	窗（1x1 斜窗）
+def_window_small_angle_name		Small Angled Window	窗（1x3 斜窗）
 def_window_small_angle_desc		A sloped window that can be used for creating cockpits and windscreens. Can also be used to create a corner between flat windows when oriented correctly.	可以用来制造驾驶舱和挡风玻璃的斜窗。也可用于在正确定向时在平面窗之间创建角点。
 def_window_small_angle_s_desc		Basic window piece.	基本窗饰。
 def_wind_sensor_name		Wind Sensor	风力传感器
