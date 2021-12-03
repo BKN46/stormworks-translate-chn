@@ -1,3 +1,3 @@
 # lua中文打印服务后端
 
-暂时没心情写README
+`python3 flask_main.py`
