@@ -2024,7 +2024,7 @@ id	description	en	local
 		[$[action_equipment_use]] Reload	[$[action_equipment_use]]重新装填
 		[$[action_equipment_use]] Throw	[$[action_equipment_use]]投掷
 		Camera Shake	镜头抖动
-		Trigger	扳机
+		Trigger	触发
 		GRAPH NODE	图形节点
 		ADD GRAPH NODE	添加图形节点
 		Add a linkable node to provide data for advanced AI pathing or use as a generic marker.	添加可链接节点，为高级AI路径提供数据，或用作通用标记。
@@ -3242,7 +3242,7 @@ def_gate_float_switch_input_node_0_label		Switch Signal	开关信号
 def_gate_float_switch_input_node_0_desc		Controls which of the two input values will be sent to the output.	控制将两个输入值中的哪一个发送到输出。
 def_gate_float_switch_input_node_1_label		First Value (On)	第一个值(开)
 def_gate_float_switch_input_node_1_desc		The value to output when the switch signal is on.	开关信号打开时要输出的值。
-def_gate_float_switch_input_node_2_label		Switched Value	开关量
+def_gate_float_switch_input_node_2_label		Switched Value	输出值
 def_gate_float_switch_input_node_2_desc		Outputs the first value when the switch signal is on, and the second value when it is off.	当开关信号打开时输出第一个值，当开关信号关闭时输出第二个值。
 def_gate_float_switch_input_node_3_label		Second Value (Off)	第二个值(关)
 def_gate_float_switch_input_node_3_desc		The value to output when the switch signal is off.	开关信号关闭时要输出的值。
@@ -3392,169 +3392,169 @@ def_gps_sensor_node_2_desc		Electrical power connection.	电源连接。
 def_gun_belt_corner_name		Autocannon Ammo (Corner)	机炮弹药（拐角）
 def_gun_belt_corner_desc		Autocannon belts can transfer all calibers of autocannon ammo.	机炮弹药带可以传送所有口径的机炮弹药。
 def_gun_belt_corner_s_desc		An autocannon ammo belt.	机炮弹药带。
-def_gun_belt_corner_node_0_label		Contains Ammo	包含弹药
+def_gun_belt_corner_node_0_label		Contains Ammo	是否有弹药
 def_gun_belt_corner_node_0_desc		Returns true if the belt contains a shell.	如果弹药带中有弹药，则返回true。
 def_gun_belt_corner_flat_name		Autocannon Belt (Corner Flat)	机炮弹药带（平角）
 def_gun_belt_corner_flat_desc		Autocannon belts can transfer all calibers of autocannon ammo.	机炮弹药带可以传送所有口径的机炮弹药。
 def_gun_belt_corner_flat_s_desc		An autocannon ammo belt.	机炮弹药带。
-def_gun_belt_corner_flat_node_0_label		Contains Ammo	包含弹药
+def_gun_belt_corner_flat_node_0_label		Contains Ammo	是否有弹药
 def_gun_belt_corner_flat_node_0_desc		Returns true if the belt contains a shell.	如果弹药带中有弹药，则返回true。
 def_gun_belt_corner_flat_l_name		Battle Cannon Belt (Corner Inner)	坦克主炮弹药带（内角）
 def_gun_belt_corner_flat_l_desc		Cannon ammo belts can store and transfer ammo shells. Spawned ammo type can be set in component properties window.	坦克主炮弹药带可以储存和转移弹药。生成的弹药类型可以在组件属性窗口中设置。
 def_gun_belt_corner_flat_l_s_desc		A battle cannon ammo belt.	坦克主炮弹药带。
-def_gun_belt_corner_flat_l_node_0_label		Contains Ammo	包含弹药
+def_gun_belt_corner_flat_l_node_0_label		Contains Ammo	是否有弹药
 def_gun_belt_corner_flat_l_node_0_desc		Returns true if the belt contains a shell.	如果弹药带包含弹药，则返回true。
 def_gun_belt_corner_flat_reverse_l_name		Battle Cannon Belt (Corner Outer)	坦克主炮弹药带（外角）
 def_gun_belt_corner_flat_reverse_l_desc		Cannon ammo belts can store and transfer ammo shells. Spawned ammo type can be set in component properties window.	弹药带可以储存和转移弹药弹。生成的弹药类型可以在组件属性窗口中设置。
 def_gun_belt_corner_flat_reverse_l_s_desc		A battle cannon ammo belt.	一个坦克主炮弹药带。
-def_gun_belt_corner_flat_reverse_l_node_0_label		Contains Ammo	包含弹药
+def_gun_belt_corner_flat_reverse_l_node_0_label		Contains Ammo	是否有弹药
 def_gun_belt_corner_flat_reverse_l_node_0_desc		Returns true if the belt contains a shell.	如果弹药带中有弹药，则返回true。
 def_gun_belt_corner_flat_reverse_xl_name		Artillery Cannon Belt (Corner Outer)	大型榴弹炮（外角）
 def_gun_belt_corner_flat_reverse_xl_desc		Cannon ammo belts can store and transfer ammo shells. Spawned ammo type can be set in component properties window.	大型榴弹炮弹药带可以储存和转移弹药。生成的弹药类型可以在组件属性窗口中设置。
 def_gun_belt_corner_flat_reverse_xl_s_desc		An artillery cannon ammo belt.	大型榴弹炮弹药带。
-def_gun_belt_corner_flat_reverse_xl_node_0_label		Contains Ammo	包含弹药
+def_gun_belt_corner_flat_reverse_xl_node_0_label		Contains Ammo	是否有弹药
 def_gun_belt_corner_flat_reverse_xl_node_0_desc		Returns true if the belt contains a shell.	如果弹药带中有弹药，则返回true。
 def_gun_belt_corner_flat_reverse_xxl_name		Bertha Cannon Belt (Corner Outer)	贝莎巨炮弹药带（外角）
 def_gun_belt_corner_flat_reverse_xxl_desc		Cannon ammo belts can store and transfer ammo shells. Spawned ammo type can be set in component properties window. Bertha shells are too large to be moved by hand.	贝莎巨炮弹药带可以储存和转移弹药弹。生成的弹药类型可以在组件属性窗口中设置。贝莎巨炮的弹药太大了，不能用手移动。
 def_gun_belt_corner_flat_reverse_xxl_s_desc		A bertha cannon ammo belt.	贝莎巨炮炮弹药带。
-def_gun_belt_corner_flat_reverse_xxl_node_0_label		Contains Ammo	包含弹药
+def_gun_belt_corner_flat_reverse_xxl_node_0_label		Contains Ammo	是否有弹药
 def_gun_belt_corner_flat_reverse_xxl_node_0_desc		Returns true if the belt contains a shell.	如果弹药带中有弹药，则返回true。
 def_gun_belt_corner_flat_xl_name		Artillery Cannon Belt (Corner Inner)	大型榴弹炮弹药带（内角）
 def_gun_belt_corner_flat_xl_desc		Cannon ammo belts can store and transfer ammo shells. Spawned ammo type can be set in component properties window.	大型榴弹炮弹药带可以储存和转移弹药弹。生成的弹药类型可以在组件属性窗口中设置。
 def_gun_belt_corner_flat_xl_s_desc		An artillery cannon ammo belt.	大型榴弹炮弹药带。
-def_gun_belt_corner_flat_xl_node_0_label		Contains Ammo	包含弹药
+def_gun_belt_corner_flat_xl_node_0_label		Contains Ammo	是否有弹药
 def_gun_belt_corner_flat_xl_node_0_desc		Returns true if the belt contains a shell.	如果弹药带中有弹药，则返回true。
 def_gun_belt_corner_flat_xxl_name		Bertha Cannon Belt (Corner Inner)	贝莎巨炮弹药带（内角）
 def_gun_belt_corner_flat_xxl_desc		Cannon ammo belts can store and transfer ammo shells. Spawned ammo type can be set in component properties window. Bertha shells are too large to be moved by hand.	贝莎巨炮弹药带可以储存和转移弹药弹。生成的弹药类型可以在组件属性窗口中设置。贝莎巨炮的弹药太大了，不能用手移动。
 def_gun_belt_corner_flat_xxl_s_desc		A bertha cannon ammo belt.	贝莎巨炮弹药带。
-def_gun_belt_corner_flat_xxl_node_0_label		Contains Ammo	包含弹药
+def_gun_belt_corner_flat_xxl_node_0_label		Contains Ammo	是否有弹药
 def_gun_belt_corner_flat_xxl_node_0_desc		Returns true if the belt contains a shell.	如果弹药带中有弹药，则返回true。
 def_gun_belt_corner_l_name		Battle Cannon Belt (Corner)	坦克主炮弹药带（拐角）
 def_gun_belt_corner_l_desc		Cannon ammo belts can store and transfer ammo shells. Spawned ammo type can be set in component properties window.	坦克主炮弹药带可以储存和转移弹药弹。生成的弹药类型可以在组件属性窗口中设置。
 def_gun_belt_corner_l_s_desc		A battle cannon ammo belt.	坦克主炮弹药带。
-def_gun_belt_corner_l_node_0_label		Contains Ammo	包含弹药
+def_gun_belt_corner_l_node_0_label		Contains Ammo	是否有弹药
 def_gun_belt_corner_l_node_0_desc		Returns true if the belt contains a shell.	如果弹药带中有弹药，则返回true。
 def_gun_belt_corner_xl_name		Artillery Cannon Belt (Corner)	大型榴弹炮弹药带（拐角）
 def_gun_belt_corner_xl_desc		Cannon ammo belts can store and transfer ammo shells. Spawned ammo type can be set in component properties window.	大型榴弹炮弹药带可以储存和转移弹药弹。生成的弹药类型可以在组件属性窗口中设置。
 def_gun_belt_corner_xl_s_desc		An artillery cannon ammo belt.	大型榴弹炮弹药带。
-def_gun_belt_corner_xl_node_0_label		Contains Ammo	包含弹药
+def_gun_belt_corner_xl_node_0_label		Contains Ammo	是否有弹药
 def_gun_belt_corner_xl_node_0_desc		Returns true if the belt contains a shell.	如果弹药带中有弹药，则返回true。
 def_gun_belt_corner_xxl_name		Bertha Cannon Belt (Corner)	贝莎巨炮弹药带（拐角）
 def_gun_belt_corner_xxl_desc		Cannon ammo belts can store and transfer ammo shells. Spawned ammo type can be set in component properties window. Bertha shells are too large to be moved by hand.	贝莎巨炮弹药带可以储存和转移弹药弹。生成的弹药类型可以在组件属性窗口中设置。贝莎巨炮的弹药太大了，不能用手移动。
 def_gun_belt_corner_xxl_s_desc		A bertha cannon ammo belt.	贝莎巨炮弹药带。
-def_gun_belt_corner_xxl_node_0_label		Contains Ammo	包含弹药
+def_gun_belt_corner_xxl_node_0_label		Contains Ammo	是否有弹药
 def_gun_belt_corner_xxl_node_0_desc		Returns true if the belt contains a shell.	如果弹药带中有弹药，则返回true。
 def_gun_belt_junction_name		Autocannon Ammo Belt (Junction)	机炮弹药带（交叉）
 def_gun_belt_junction_desc		Autocannon belts can transfer all calibers of autocannon ammo. Junction belts redirect the path of ammo transfer.	机炮弹药带可以传送所有口径的机炮弹药。连接带改变了弹药转移的路径。
 def_gun_belt_junction_s_desc		An autocannon ammo belt.	机炮弹药带。
-def_gun_belt_junction_node_0_label		Contains Ammo	包含弹药
+def_gun_belt_junction_node_0_label		Contains Ammo	是否有弹药
 def_gun_belt_junction_node_0_desc		Returns true if the belt contains a shell.	如果弹药带中有弹药，则返回true。
 def_gun_belt_junction_node_1_label		Junction Switch	切换
 def_gun_belt_junction_node_1_desc		Switches the ammo transfer T-junction between the left and right sides.	在左右两侧切换弹药转移T形接头。
 def_gun_belt_junction_l_name		Battle Cannon Belt (Junction)	坦克主炮弹药带（交叉）
 def_gun_belt_junction_l_desc		Cannon ammo belts can store and transfer ammo shells. Junction belts redirect the path of ammo transfer. Spawned ammo type can be set in component properties window.	坦克主炮弹药带可以储存和转移弹药。连接带改变了弹药转移的路径。生成的弹药类型可以在组件属性窗口中设置。
 def_gun_belt_junction_l_s_desc		A battle cannon ammo belt.	坦克主炮弹药带。
-def_gun_belt_junction_l_node_0_label		Contains Ammo	包含弹药
+def_gun_belt_junction_l_node_0_label		Contains Ammo	是否有弹药
 def_gun_belt_junction_l_node_0_desc		Returns true if the belt contains a shell.	如果弹药带中有弹药，则返回true。
 def_gun_belt_junction_l_node_1_label		Junction Switch	切换
 def_gun_belt_junction_l_node_1_desc		Switches the ammo transfer T-junction between the left and right sides.	在T型弹药分配器左右两侧做切换
 def_gun_belt_junction_xl_name		Artillery Cannon Belt (Junction)	大型榴弹炮弹药带（交叉）
 def_gun_belt_junction_xl_desc		Cannon ammo belts can store and transfer ammo shells. Junction belts redirect the path of ammo transfer. Spawned ammo type can be set in component properties window.	大型榴弹炮弹药带可以储存和转移弹药弹。连接带改变了弹药转移的路径。生成的弹药类型可以在组件属性窗口中设置。
 def_gun_belt_junction_xl_s_desc		An artillery cannon ammo belt.	大型榴弹炮弹药带。
-def_gun_belt_junction_xl_node_0_label		Contains Ammo	包含弹药
+def_gun_belt_junction_xl_node_0_label		Contains Ammo	是否有弹药
 def_gun_belt_junction_xl_node_0_desc		Returns true if the belt contains a shell.	如果弹药带中有弹药，则返回true。
 def_gun_belt_junction_xl_node_1_label		Junction Switch	切换
 def_gun_belt_junction_xl_node_1_desc		Switches the ammo transfer T-junction between the left and right sides.	在T型弹药分配器左右两侧做切换
 def_gun_belt_junction_xxl_name		Bertha Cannon Belt (Junction)	贝莎巨炮弹药带（交叉）
 def_gun_belt_junction_xxl_desc		Cannon ammo belts can store and transfer ammo shells. Junction belts redirect the path of ammo transfer. Spawned ammo type can be set in component properties window. Bertha shells are too large to be moved by hand.	贝莎巨炮弹药带可以储存和转移弹药弹。连接带改变了弹药转移的路径。生成的弹药类型可以在组件属性窗口中设置。贝莎巨炮的弹药太大了，不能用手移动。
 def_gun_belt_junction_xxl_s_desc		A bertha cannon ammo belt.	贝莎巨炮弹药带。
-def_gun_belt_junction_xxl_node_0_label		Contains Ammo	包含弹药
+def_gun_belt_junction_xxl_node_0_label		Contains Ammo	是否有弹药
 def_gun_belt_junction_xxl_node_0_desc		Returns true if the belt contains a shell.	如果弹药带中有弹药，则返回true。
 def_gun_belt_junction_xxl_node_1_label		Junction Switch	切换
 def_gun_belt_junction_xxl_node_1_desc		Switches the ammo transfer T-junction between the left and right sides.	在T型弹药分配器左右两侧做切换
 def_gun_belt_loader_name		Autocannon Belt (Feeder)	机炮弹药带（进料器）
 def_gun_belt_loader_desc		Autocannon belts can transfer all calibers of autocannon ammo. Feeder belts transfer ammo forwards using electric power.	机炮弹药带可以传送所有口径的机炮弹药。输送带利用电力向前输送弹药。
 def_gun_belt_loader_s_desc		An autocannon ammo belt.	机炮弹药带。
-def_gun_belt_loader_node_0_label		Feed	供料
+def_gun_belt_loader_node_0_label		Feed	供弹
 def_gun_belt_loader_node_0_desc		Transfer cartridges in the direction of the arrow.	按箭头方向转移子弹。
-def_gun_belt_loader_node_1_label		Contains Ammo	包含弹药
+def_gun_belt_loader_node_1_label		Contains Ammo	是否有弹药
 def_gun_belt_loader_node_1_desc		Returns true if the belt contains a shell.	如果弹药带中有弹药，则返回true。
 def_gun_belt_loader_node_2_label		Electric	电
 def_gun_belt_loader_node_2_desc		Electrical power connection.	电源连接。
 def_gun_belt_loader_l_name		Battle Cannon Belt (Feeder)	坦克主炮弹药带（供弹机）
 def_gun_belt_loader_l_desc		Cannon ammo belts can store and transfer ammo shells. Feeder belts transfer ammo forwards using electric power. Spawned ammo type can be set in component properties window.	大型榴弹炮弹药带可以储存和转移弹药弹。输送带利用电力向前输送弹药。生成的弹药类型可以在组件属性窗口中设置。
 def_gun_belt_loader_l_s_desc		A battle cannon ammo belt.	坦克主炮弹药带。
-def_gun_belt_loader_l_node_0_label		Feed	供料
+def_gun_belt_loader_l_node_0_label		Feed	供弹
 def_gun_belt_loader_l_node_0_desc		Transfer shells in the direction of the arrow.	按箭头方向转移弹药
-def_gun_belt_loader_l_node_1_label		Contains Ammo	包含弹药
+def_gun_belt_loader_l_node_1_label		Contains Ammo	是否有弹药
 def_gun_belt_loader_l_node_1_desc		Returns true if the belt contains a shell.	如果弹药带中有弹药，则返回true。
 def_gun_belt_loader_l_node_2_label		Electric	电
 def_gun_belt_loader_l_node_2_desc		Electrical power connection.	电源连接。
 def_gun_belt_loader_xl_name		Artillery Cannon Belt (Feeder)	大型榴弹炮弹药带（供弹机）
 def_gun_belt_loader_xl_desc		Cannon ammo belts can store and transfer ammo shells. Feeder belts transfer ammo forwards using electric power. Spawned ammo type can be set in component properties window.	大型榴弹炮弹药带可以储存和转移弹药弹。输送带利用电力向前输送弹药。生成的弹药类型可以在组件属性窗口中设置。
 def_gun_belt_loader_xl_s_desc		An artillery cannon ammo belt.	大型榴弹炮弹药带。
-def_gun_belt_loader_xl_node_0_label		Feed	供料
+def_gun_belt_loader_xl_node_0_label		Feed	供弹
 def_gun_belt_loader_xl_node_0_desc		Transfer shells in the direction of the arrow.	按箭头方向转移弹药
-def_gun_belt_loader_xl_node_1_label		Contains Ammo	包含弹药
+def_gun_belt_loader_xl_node_1_label		Contains Ammo	是否有弹药
 def_gun_belt_loader_xl_node_1_desc		Returns true if the belt contains a shell.	如果弹药带中有弹药，则返回true。
 def_gun_belt_loader_xl_node_2_label		Electric	电
 def_gun_belt_loader_xl_node_2_desc		Electrical power connection.	电源连接。
 def_gun_belt_loader_xxl_name		Bertha Cannon Belt (Feeder)	贝莎巨炮弹药带（供弹机）
 def_gun_belt_loader_xxl_desc		Cannon ammo belts can store and transfer ammo shells. Feedeer belts transfer ammo forwards using electric power. Spawned ammo type can be set in component properties window. Bertha shells are too large to be moved by hand.	贝沙巨炮弹药带可以储存和转移弹药弹。馈线传送带使用电力向前传送弹药。生成的弹药类型可以在组件属性窗口中设置。贝莎巨炮的弹药太大了，不能用手移动。
 def_gun_belt_loader_xxl_s_desc		A bertha cannon ammo belt.	贝莎巨炮弹药带。
-def_gun_belt_loader_xxl_node_0_label		Feed	供料
+def_gun_belt_loader_xxl_node_0_label		Feed	供弹
 def_gun_belt_loader_xxl_node_0_desc		Transfer shells in the direction of the arrow.	按箭头方向转移弹药
-def_gun_belt_loader_xxl_node_1_label		Contains Ammo	包含弹药
+def_gun_belt_loader_xxl_node_1_label		Contains Ammo	是否有弹药
 def_gun_belt_loader_xxl_node_1_desc		Returns true if the belt contains a shell.	如果弹药带中有弹药，则返回true。
 def_gun_belt_loader_xxl_node_2_label		Electric	电
 def_gun_belt_loader_xxl_node_2_desc		Electrical power connection.	电源连接。
 def_gun_belt_receiver_name		Autocannon Belt (Connector)	机炮弹药带（连接器）
 def_gun_belt_receiver_desc		Autocannon belts can transfer all calibers of autocannon ammo. Connector belts allow ammo transfers between vehicles.	机炮弹药带可以传送所有口径的机炮弹药。连接带允许弹药在载具之间转移。
 def_gun_belt_receiver_s_desc		An autocannon ammo belt.	机炮弹药带。
-def_gun_belt_receiver_node_0_label		Contains Ammo	包含弹药
+def_gun_belt_receiver_node_0_label		Contains Ammo	是否有弹药
 def_gun_belt_receiver_node_0_desc		Returns true if the belt contains a shell.	如果弹药带中有弹药，则返回true。
 def_gun_belt_receiver_node_1_label		Connected	已连接
 def_gun_belt_receiver_node_1_desc			
 def_gun_belt_receiver_l_name		Battle Cannon Belt (Connector)	坦克主炮弹药带（连接器）
 def_gun_belt_receiver_l_desc		Cannon ammo belts can store and transfer ammo shells. Connector belts allow ammo transfers between vehicles. Spawned ammo type can be set in component properties window.	坦克主炮弹药带可以储存和转移弹药。连接带允许弹药在车辆之间转移。生成的弹药类型可以在组件属性窗口中设置。
 def_gun_belt_receiver_l_s_desc		A battle cannon ammo belt.	坦克主炮弹药带。
-def_gun_belt_receiver_l_node_0_label		Contains Ammo	包含弹药
+def_gun_belt_receiver_l_node_0_label		Contains Ammo	是否有弹药
 def_gun_belt_receiver_l_node_0_desc		Returns true if the belt contains a shell.	如果弹药带中有弹药，则返回true。
 def_gun_belt_receiver_l_node_1_label		Connected	已连接
 def_gun_belt_receiver_l_node_1_desc		Returns true when two nearby receivers are aligned, and can transfer ammo between them.	当附近的两个接收器对齐，并且可以在它们之间转移弹药时，返回true。
 def_gun_belt_receiver_xl_name		Artillery Cannon Belt (Connector)	大型榴弹炮弹药带（连接器）
 def_gun_belt_receiver_xl_desc		Cannon ammo belts can store and transfer ammo shells. Connector belts allow ammo transfers between vehicles.Spawned ammo type can be set in component properties window.	大型榴弹炮弹药带可以储存和转移弹药弹。连接带允许弹药在车辆之间转移。生成的弹药类型可以在组件属性窗口中设置。
 def_gun_belt_receiver_xl_s_desc		An artillery cannon ammo belt.	大型榴弹炮弹药带
-def_gun_belt_receiver_xl_node_0_label		Contains Ammo	包含弹药
+def_gun_belt_receiver_xl_node_0_label		Contains Ammo	是否有弹药
 def_gun_belt_receiver_xl_node_0_desc		Returns true if the belt contains a shell.	如果弹药带中有弹药，则返回true。
 def_gun_belt_receiver_xl_node_1_label		Connected	已连接
 def_gun_belt_receiver_xl_node_1_desc		Returns true when two nearby receivers are aligned, and can transfer ammo between them.	当附近的两个接收器对齐，并且可以在它们之间转移弹药时，返回true。
 def_gun_belt_receiver_xxl_name		Bertha Cannon Belt (Connector)	贝莎巨炮弹药带（连接器）
 def_gun_belt_receiver_xxl_desc		Cannon ammo belts can store and transfer ammo shells. Connector belts allow ammo transfers between vehicles. Spawned ammo type can be set in component properties window. Bertha shells are too large to be moved by hand.	贝莎巨炮弹药带可以储存和转移弹药弹。连接带允许弹药在车辆之间转移。生成的弹药类型可以在组件属性窗口中设置。贝莎巨炮的弹药太大了，不能用手移动。
 def_gun_belt_receiver_xxl_s_desc		A bertha cannon ammo belt.	贝莎巨炮弹药带。
-def_gun_belt_receiver_xxl_node_0_label		Contains Ammo	包含弹药
+def_gun_belt_receiver_xxl_node_0_label		Contains Ammo	是否有弹药
 def_gun_belt_receiver_xxl_node_0_desc		Returns true if the belt contains a shell.	如果弹药带中有弹药，则返回true。
 def_gun_belt_receiver_xxl_node_1_label		Connected	已连接
 def_gun_belt_receiver_xxl_node_1_desc		Returns true when two nearby receivers are aligned, and can transfer ammo between them.	当附近的两个接收器对齐，并且可以在它们之间转移弹药时，返回true。
 def_gun_belt_straight_name		Autocannon Belt (Straight)	机炮弹药带（直）
 def_gun_belt_straight_desc		Autocannon belts can transfer all calibers of autocannon ammo.	机炮弹药带可以传送所有口径的机炮弹药。
 def_gun_belt_straight_s_desc		An autocannon ammo belt.	机炮弹药带。
-def_gun_belt_straight_node_0_label		Contains Ammo	包含弹药
+def_gun_belt_straight_node_0_label		Contains Ammo	是否有弹药
 def_gun_belt_straight_node_0_desc		Returns true if the belt contains a shell.	如果弹药带中有弹药，则返回true。
 def_gun_belt_straight_l_name		Battle Cannon Belt (Straight)	坦克主炮弹药带（直）
 def_gun_belt_straight_l_desc		Cannon ammo belts can store and transfer ammo shells. Spawned ammo type can be set in component properties window.	坦克主炮弹药带可以储存和转移弹药弹。生成的弹药类型可以在组件属性窗口中设置。
 def_gun_belt_straight_l_s_desc		A battle cannon ammo belt.	坦克主炮弹药带。
-def_gun_belt_straight_l_node_0_label		Contains Ammo	包含弹药
+def_gun_belt_straight_l_node_0_label		Contains Ammo	是否有弹药
 def_gun_belt_straight_l_node_0_desc		Returns true if the belt contains a shell.	如果弹药带中有弹药，则返回true。
 def_gun_belt_straight_xl_name		Artillery Cannon Belt (Straight)	大型榴弹炮弹药带（直）
 def_gun_belt_straight_xl_desc		Cannon ammo belts can store and transfer ammo shells. Spawned ammo type can be set in component properties window.	大型榴弹炮弹药带可以储存和转移弹药弹。生成的弹药类型可以在组件属性窗口中设置。
 def_gun_belt_straight_xl_s_desc		An artillery cannon ammo belt.	大型榴弹炮弹药带。
-def_gun_belt_straight_xl_node_0_label		Contains Ammo	包含弹药
+def_gun_belt_straight_xl_node_0_label		Contains Ammo	是否有弹药
 def_gun_belt_straight_xl_node_0_desc		Returns true if the belt contains a shell.	如果弹药带中有弹药，则返回true。
 def_gun_belt_straight_xxl_name		Bertha Cannon Belt (Straight)	贝莎巨炮弹药带（直）
 def_gun_belt_straight_xxl_desc		Cannon ammo belts can store and transfer ammo shells. Spawned ammo type can be set in component properties window. Bertha shells are too large to be moved by hand.	贝沙巨炮弹药带可以储存和转移弹药弹。生成的弹药类型可以在组件属性窗口中设置。贝莎巨炮的弹药太大了，不能用手移动。
 def_gun_belt_straight_xxl_s_desc		A bertha cannon ammo belt.	贝莎巨炮弹药带。
-def_gun_belt_straight_xxl_node_0_label		Contains Ammo	包含弹药
+def_gun_belt_straight_xxl_node_0_label		Contains Ammo	是否有弹药
 def_gun_belt_straight_xxl_node_0_desc		Returns true if the belt contains a shell.	如果弹药带中有弹药，则返回true。
 def_gun_drum_large_name		Autocannon Ammo Drum (Large)	机炮弹鼓（大）
 def_gun_drum_large_desc		Ammo drums store autocannon cartridges of the caliber specified in the component properties window. Differing calibers cannot be mixed within a single ammo drum.	弹鼓存储的机炮弹药口径在“组件属性”窗口中指定。不同口径的弹药不能在一个弹鼓内混合。
@@ -3579,11 +3579,11 @@ def_gun_drum_xsmall_node_0_desc		Outputs the total ammo count stored in the box.
 def_gun_l_name		Battle Cannon	坦克主炮
 def_gun_l_desc		Battle cannons provide powerful, consistent firepower in a compact form.	坦克主炮以紧凑的形式提供强大、稳定的火力。
 def_gun_l_s_desc		A battle cannon.	一门坦克主炮。
-def_gun_l_node_0_label		Trigger	扳机
+def_gun_l_node_0_label		Trigger	开火
 def_gun_l_node_0_desc		When true: fires a loaded shell.	如果为true：发射一个已装载的炮弹
-def_gun_l_node_1_label		Loaded	装填
+def_gun_l_node_1_label		Loaded	是否已装填
 def_gun_l_node_1_desc		Returns true when a shell is loaded and ready to fire.	当弹药装载完毕并准备发射时，返回true。
-def_gun_l_node_2_label		Open Breech	打开炮尾
+def_gun_l_node_2_label		Open Breech	打开炮闩
 def_gun_l_node_2_desc		When true: opens the breech to allow shells to be loaded.	当为true时：打开炮尾以装填炮弹
 def_gun_l_barrel_name		Battle Cannon Barrel Extension	坦克主炮炮管加长件
 def_gun_l_barrel_desc		Barrel extensions increase weapon accuracy, but also produce more recoil force.	炮管加长件增加了武器的精度，但也产生了更多的后坐力。
@@ -3597,21 +3597,21 @@ def_gun_l_barrel_2_s_desc		A battle cannon barrel extension.	一根坦克主炮�
 def_gun_l_barrel_3_name		Battle Cannon Barrel Extension	坦克主炮炮管加长件
 def_gun_l_barrel_3_desc		Barrel extensions increase weapon accuracy, but also produce more recoil force.	炮管加长件增加了武器的精度，但也产生了更多的后坐力。
 def_gun_l_barrel_3_s_desc		A battle cannon barrel extension.	一根坦克主炮炮管加长件
-def_gun_l_muzzle_name		Battle Cannon Muzzle Break	坦克主炮消焰器
+def_gun_l_muzzle_name		Battle Cannon Muzzle Break	坦克主炮制退器
 def_gun_l_muzzle_desc		A muzzle break will reduce weapon recoil force when added to the end of a weapon barrel.	炮管加长件增加了武器的精度，但也产生了更多的后坐力。
-def_gun_l_muzzle_s_desc		A battle cannon muzzle break.	一个坦克主炮消焰器
-def_gun_l_muzzle_1_name		Battle Cannon Muzzle Break	坦克主炮消焰器
-def_gun_l_muzzle_1_desc		A muzzle break will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，消焰器将减少武器的后坐力。
-def_gun_l_muzzle_1_s_desc		A battle cannon muzzle break.	一个坦克主炮消焰器
-def_gun_l_muzzle_2_name		Battle Cannon Muzzle Break	坦克主炮消焰器
-def_gun_l_muzzle_2_desc		A muzzle break will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，消焰器将减少武器的后坐力。
-def_gun_l_muzzle_2_s_desc		A battle cannon muzzle break.	一个坦克主炮消焰器
+def_gun_l_muzzle_s_desc		A battle cannon muzzle break.	一个坦克主炮制退器
+def_gun_l_muzzle_1_name		Battle Cannon Muzzle Break	坦克主炮制退器
+def_gun_l_muzzle_1_desc		A muzzle break will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，制退器将减少武器的后坐力。
+def_gun_l_muzzle_1_s_desc		A battle cannon muzzle break.	一个坦克主炮制退器
+def_gun_l_muzzle_2_name		Battle Cannon Muzzle Break	坦克主炮制退器
+def_gun_l_muzzle_2_desc		A muzzle break will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，制退器将减少武器的后坐力。
+def_gun_l_muzzle_2_s_desc		A battle cannon muzzle break.	一个坦克主炮制退器
 def_gun_m_name		Heavy Autocannon	重型机炮
 def_gun_m_desc		Heavy autocannons bridge the gap between fast-firing autocannons and high-caliber cannons. Autocannons require electric power to load ammo from connected belts or drums.	重型机炮填补了快速射击自动加火炮和大口径榴弹炮之间的空白。机炮需要电力从弹带或弹鼓装弹。
 def_gun_m_s_desc		A heavy autocannon.	一个重型机炮
-def_gun_m_node_0_label		Trigger	扳机
+def_gun_m_node_0_label		Trigger	开火
 def_gun_m_node_0_desc		When true: feeds, loads, and fires cartridges from a connected belt or drum.	如果为true：从连接的弹药带或弹鼓上送入、装载和发射子弹。
-def_gun_m_node_1_label		Loaded	装填
+def_gun_m_node_1_label		Loaded	是否已装填
 def_gun_m_node_1_desc		Returns true when a cartridge is loaded and ready to fire.	当弹药装载完毕并准备发射时，返回true。
 def_gun_m_node_2_label		Electric	电
 def_gun_m_node_2_desc		Electrical power connection.	电源连接。
@@ -3627,54 +3627,54 @@ def_gun_m_barrel_2_s_desc		A heavy autocannon barrel extension.	一个重型机�
 def_gun_m_barrel_3_name		Heavy Autocannon Barrel Extension	重型机炮炮管加长件
 def_gun_m_barrel_3_desc		Barrel extensions increase weapon accuracy, but also produce more recoil force.	炮管加长件增加了武器的精度，但也产生了更多的后坐力。
 def_gun_m_barrel_3_s_desc		A heavy autocannon barrel extension.	一个重型机炮炮管加长件
-def_gun_m_muzzle_name		Heavy Autocannon Muzzle Break	重型机炮消焰器
-def_gun_m_muzzle_desc		A muzzle break will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，消焰器将减少武器的后坐力。
-def_gun_m_muzzle_s_desc		A heavy autocannon muzzle break.	一个重型机炮消焰器
-def_gun_m_muzzle_1_name		Heavy Autocannon Muzzle Break	重型机炮消焰器
-def_gun_m_muzzle_1_desc		A muzzle break will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，消焰器将减少武器的后坐力。
-def_gun_m_muzzle_1_s_desc		A heavy autocannon muzzle break.	一个重型机炮消焰器
-def_gun_m_muzzle_2_name		Heavy Autocannon Muzzle Break	重型机炮消焰器
-def_gun_m_muzzle_2_desc		A muzzle break will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，消焰器将减少武器的后坐力。
-def_gun_m_muzzle_2_s_desc		A heavy autocannon muzzle break.	一个重型机炮消焰器
+def_gun_m_muzzle_name		Heavy Autocannon Muzzle Break	重型机炮制退器
+def_gun_m_muzzle_desc		A muzzle break will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，制退器将减少武器的后坐力。
+def_gun_m_muzzle_s_desc		A heavy autocannon muzzle break.	一个重型机炮制退器
+def_gun_m_muzzle_1_name		Heavy Autocannon Muzzle Break	重型机炮制退器
+def_gun_m_muzzle_1_desc		A muzzle break will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，制退器将减少武器的后坐力。
+def_gun_m_muzzle_1_s_desc		A heavy autocannon muzzle break.	一个重型机炮制退器
+def_gun_m_muzzle_2_name		Heavy Autocannon Muzzle Break	重型机炮制退器
+def_gun_m_muzzle_2_desc		A muzzle break will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，制退器将减少武器的后坐力。
+def_gun_m_muzzle_2_s_desc		A heavy autocannon muzzle break.	一个重型机炮制退器
 def_gun_rocket_launcher_name		Rocket Launcher	火箭发射器
 def_gun_rocket_launcher_desc		Rocket launchers fire powerful high explosive rockets, but cannot be reloaded once empty. Rockets are vulnerable to bullets while in flight.	火箭发射器发射大威力火箭弹，一旦空了就不能重新装填。火箭在飞行中很容易被子弹击中。
 def_gun_rocket_launcher_s_desc		A 4-shot rocket launcher.	四联装火箭发射器。
-def_gun_rocket_launcher_node_0_label		Trigger	扳机
+def_gun_rocket_launcher_node_0_label		Trigger	开火
 def_gun_rocket_launcher_node_0_desc		When true: fires a loaded rocket.	如果为true：发射一枚已装填的火箭弹。
-def_gun_rocket_launcher_node_1_label		Loaded	装填
+def_gun_rocket_launcher_node_1_label		Loaded	是否已装填
 def_gun_rocket_launcher_node_1_desc		Returns true when a rocket is loaded and ready to fire.	当火箭弹已装填并准备发射时返回true。
 def_gun_rocket_launcher_node_2_label		Trigger Passthrough	连发扳机
 def_gun_rocket_launcher_node_2_desc		Outputs the trigger value once all rockets have been expended.	当所有火箭弹消耗完毕时，输出触发值。
 def_gun_s_name		Light Autocannon	轻型机炮
 def_gun_s_desc		Light autocannons provide rapid fire and high ammo capacity. Autocannons require electric power to load ammo from connected belts or drums.	轻型机炮提供快速射击和高弹药容量。机炮需要电力从弹带或弹鼓装弹。
 def_gun_s_s_desc		A light autocannon.	一个轻型机炮
-def_gun_s_node_0_label		Trigger	扳机
+def_gun_s_node_0_label		Trigger	开火
 def_gun_s_node_0_desc		When true: feeds, loads, and fires cartridges from a connected belt or drum.	如果为true：从连接的弹药带或弹鼓上送入、装载和发射子弹。
-def_gun_s_node_1_label		Loaded	装填
+def_gun_s_node_1_label		Loaded	是否已装填
 def_gun_s_node_1_desc		Returns true when a cartridge is loaded and ready to fire.	当弹药装载完毕并准备发射时，返回true。
 def_gun_s_node_2_label		Electric	电
 def_gun_s_node_2_desc		Electrical power connection.	电源连接。
 def_gun_s_barrel_name		Light Autocannon Barrel Extension	轻型机炮炮管加长件
 def_gun_s_barrel_desc		Barrel extensions increase weapon accuracy, but also produce more recoil force.	炮管加长增加了武器的精度，但也产生了更多的后坐力。
 def_gun_s_barrel_s_desc		A light autocannon barrel extension.	一个轻型机炮炮管加长件
-def_gun_s_muzzle_name		Light Autocannon Muzzle Break	轻型机炮消焰器
-def_gun_s_muzzle_desc		A muzzle break will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，消焰器将减少武器的后坐力。
-def_gun_s_muzzle_s_desc		A light autocannon muzzle break.	一个轻型机炮消焰器
-def_gun_s_muzzle_1_name		Light Autocannon Muzzle Break	轻型机炮消焰器
-def_gun_s_muzzle_1_desc		A muzzle break will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，消焰器将减少武器的后坐力。
-def_gun_s_muzzle_1_s_desc		A light autocannon muzzle break.	一个轻型机炮消焰器
-def_gun_s_muzzle_2_name		Light Autocannon Muzzle Break	轻型机炮消焰器
-def_gun_s_muzzle_2_desc		A muzzle break will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，消焰器将减少武器的后坐力。
-def_gun_s_muzzle_2_s_desc		A light autocannon muzzle break.	一个轻型机炮消焰器
-def_gun_s_muzzle_3_name		Light Autocannon Muzzle Break	轻型机炮消焰器
-def_gun_s_muzzle_3_desc		A muzzle break will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，消焰器将减少武器的后坐力。
-def_gun_s_muzzle_3_s_desc		A light autocannon muzzle break.	一个轻型机炮消焰器
+def_gun_s_muzzle_name		Light Autocannon Muzzle Break	轻型机炮制退器
+def_gun_s_muzzle_desc		A muzzle break will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，制退器将减少武器的后坐力。
+def_gun_s_muzzle_s_desc		A light autocannon muzzle break.	一个轻型机炮制退器
+def_gun_s_muzzle_1_name		Light Autocannon Muzzle Break	轻型机炮制退器
+def_gun_s_muzzle_1_desc		A muzzle break will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，制退器将减少武器的后坐力。
+def_gun_s_muzzle_1_s_desc		A light autocannon muzzle break.	一个轻型机炮制退器
+def_gun_s_muzzle_2_name		Light Autocannon Muzzle Break	轻型机炮制退器
+def_gun_s_muzzle_2_desc		A muzzle break will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，制退器将减少武器的后坐力。
+def_gun_s_muzzle_2_s_desc		A light autocannon muzzle break.	一个轻型机炮制退器
+def_gun_s_muzzle_3_name		Light Autocannon Muzzle Break	轻型机炮制退器
+def_gun_s_muzzle_3_desc		A muzzle break will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，制退器将减少武器的后坐力。
+def_gun_s_muzzle_3_s_desc		A light autocannon muzzle break.	一个轻型机炮制退器
 def_gun_v_name		Rotary Autocannon	转管机炮
 def_gun_v_desc		Rotary autocannons have a tremendous rate of fire, but can overheat quickly. Autocannons require electric power to load ammo from connected belts or drums.	转管机炮的射速很快，但会很快过热。机炮需要电力从弹带或弹鼓装弹。
 def_gun_v_s_desc		A rotary autocannon.	一个转管机炮
-def_gun_v_node_0_label		Trigger	扳机
+def_gun_v_node_0_label		Trigger	开火
 def_gun_v_node_0_desc		When true: feeds, loads, and fires cartridges from a connected belt or drum.	如果为true：从连接的弹药带或弹鼓上送入、装载和发射子弹。
-def_gun_v_node_1_label		Loaded	装填
+def_gun_v_node_1_label		Loaded	是否已装填
 def_gun_v_node_1_desc		Returns true when a cartridge is loaded and ready to fire.	当弹药装载完毕并准备发射时，返回true。
 def_gun_v_node_2_label		Electric	电
 def_gun_v_node_2_desc		Electrical power connection.	电源连接。
@@ -3686,9 +3686,9 @@ def_gun_xl_desc		Artillery cannons fire high caliber explosive and armor-piercin
 def_gun_xl_s_desc		An artillery cannon.	大型榴弹炮
 def_gun_xl_node_0_label		Trigger	装填
 def_gun_xl_node_0_desc		When true: fires a loaded shell.	如果为true：发射一枚已装填的炮弹。
-def_gun_xl_node_1_label		Loaded	装填
+def_gun_xl_node_1_label		Loaded	是否已装填
 def_gun_xl_node_1_desc		Returns true when a shell is loaded and ready to fire.	当弹药装载完毕并准备发射时，返回true。
-def_gun_xl_node_2_label		Open Breech	打开炮尾
+def_gun_xl_node_2_label		Open Breech	打开炮闩
 def_gun_xl_node_2_desc		When true: opens the breech to allow shells to be loaded.	当为true时：打开炮尾以装载炮弹。
 def_gun_xl_barrel_name		Artillery Cannon Barrel Extension	大型榴弹炮炮管加长件
 def_gun_xl_barrel_desc		Barrel extensions increase weapon accuracy, but also produce more recoil force.	炮管加长件增加了武器的精度，但也产生了更多的后坐力。
@@ -3702,30 +3702,30 @@ def_gun_xl_barrel_2_s_desc		An artillery cannon barrel extension.	大型榴弹�
 def_gun_xl_barrel_3_name		Artillery Cannon Barrel Extension	大型榴弹炮炮管加长件
 def_gun_xl_barrel_3_desc		Barrel extensions increase weapon accuracy, but also produce more recoil force.	炮管加长件增加了武器的精度，但也产生了更多的后坐力。
 def_gun_xl_barrel_3_s_desc		An artillery cannon barrel extension.	大型榴弹炮炮管加长件
-def_gun_xl_muzzle_name		Artillery Cannon Muzzle Break	大型榴弹炮消焰器
-def_gun_xl_muzzle_desc		A muzzle break will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，消焰器将减少武器的后坐力。
-def_gun_xl_muzzle_s_desc		A artillery cannon muzzle break.	大型榴弹炮消焰器
-def_gun_xl_muzzle_1_name		Artillery Cannon Muzzle Break	大型榴弹炮消焰器
-def_gun_xl_muzzle_1_desc		A muzzle break will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，消焰器将减少武器的后坐力。
-def_gun_xl_muzzle_1_s_desc		A artillery cannon muzzle break.	大型榴弹炮消焰器
-def_gun_xl_muzzle_2_name		Artillery Cannon Muzzle Break	大型榴弹炮消焰器
-def_gun_xl_muzzle_2_desc		A muzzle break will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，消焰器将减少武器的后坐力。
-def_gun_xl_muzzle_2_s_desc		A artillery cannon muzzle break.	大型榴弹炮消焰器
+def_gun_xl_muzzle_name		Artillery Cannon Muzzle Break	大型榴弹炮制退器
+def_gun_xl_muzzle_desc		A muzzle break will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，制退器将减少武器的后坐力。
+def_gun_xl_muzzle_s_desc		A artillery cannon muzzle break.	大型榴弹炮制退器
+def_gun_xl_muzzle_1_name		Artillery Cannon Muzzle Break	大型榴弹炮制退器
+def_gun_xl_muzzle_1_desc		A muzzle break will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，制退器将减少武器的后坐力。
+def_gun_xl_muzzle_1_s_desc		A artillery cannon muzzle break.	大型榴弹炮制退器
+def_gun_xl_muzzle_2_name		Artillery Cannon Muzzle Break	大型榴弹炮制退器
+def_gun_xl_muzzle_2_desc		A muzzle break will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，制退器将减少武器的后坐力。
+def_gun_xl_muzzle_2_s_desc		A artillery cannon muzzle break.	大型榴弹炮制退器
 def_gun_xs_name		Machine Gun	机枪
 def_gun_xs_desc		Machine guns are lightweight and compact, but require ammo boxes to be reloaded by hand.	机枪重量轻、结构紧凑，但需要手动重新装填弹药箱。
 def_gun_xs_s_desc		A machine gun.	机枪。
-def_gun_xs_node_0_label		Trigger	扳机
+def_gun_xs_node_0_label		Trigger	开火
 def_gun_xs_node_0_desc		When true: feeds, loads, and fires cartridges from a connected ammo box.	如果为true：从连接的弹药箱上送入、装载和发射子弹。
-def_gun_xs_node_1_label		Loaded	装填
+def_gun_xs_node_1_label		Loaded	是否已装填
 def_gun_xs_node_1_desc		Returns true when a cartridge is loaded and ready to fire.	弹药上膛并准备发射时，返回true。
 def_gun_xxl_name		Bertha Cannon	贝莎巨炮
 def_gun_xxl_desc		The Bertha cannon fires devastating high explosive mortar shells, with a wide radius of destruction.	贝莎巨炮发射毁灭性的高爆迫击炮弹，毁伤半径很大。
 def_gun_xxl_s_desc		A Bertha cannon.	贝莎巨炮
-def_gun_xxl_node_0_label		Trigger	扳机
+def_gun_xxl_node_0_label		Trigger	开火
 def_gun_xxl_node_0_desc		When true: fires a loaded shell.	如果为true：发射一枚已经装填的炮弹。
-def_gun_xxl_node_1_label		Loaded	装填
+def_gun_xxl_node_1_label		Loaded	是否已装填
 def_gun_xxl_node_1_desc		Returns true when a shell is loaded and ready to fire.	当弹药装载完毕并准备发射时，返回true。
-def_gun_xxl_node_2_label		Open Breech	打开炮尾
+def_gun_xxl_node_2_label		Open Breech	打开炮闩
 def_gun_xxl_node_2_desc		When true: opens the breech to allow shells to be loaded.	当为true时：打开炮尾以装填炮弹。
 def_gun_xxl_barrel_name		Bertha Cannon Barrel Extension	贝莎巨炮炮管加长件
 def_gun_xxl_barrel_desc		Barrel extensions increase weapon accuracy, but also produce more recoil force.	炮管加长件增加了武器的精度，但也产生了更多的后坐力。
@@ -5977,28 +5977,28 @@ def_solid_rocket_medium_fins_node_1_desc		Electrical power connection.	电源连
 def_solid_rocket_nozzle_huge_name		Solid Rocket Booster (Huge)	固体火箭助推器(巨大)
 def_solid_rocket_nozzle_huge_desc		Additional fuel can be stacked on top of the booster to increase its burn duration. The burn rate can be set in the component's properties, with slower burn rates producing less thrust.	额外的燃料可以堆放在助推器的顶部，以增加其燃烧持续时间。燃烧速度可以在组件的属性中设置，燃烧速度越慢，产生的推力越小。
 def_solid_rocket_nozzle_huge_s_desc		A huge single-use solid rocket booster.	一个巨大的一次性固体火箭助推器。
-def_solid_rocket_nozzle_huge_node_0_label		Trigger	扳机
+def_solid_rocket_nozzle_huge_node_0_label		Trigger	触发
 def_solid_rocket_nozzle_huge_node_0_desc		Triggers the booster's combustion.	引发助推器燃烧。
 def_solid_rocket_nozzle_huge_node_1_label		Fuel Remaining	剩余燃料
 def_solid_rocket_nozzle_huge_node_1_desc		The booster's remaining fuel level.	助推器的剩余燃油量。
 def_solid_rocket_nozzle_large_name		Solid Rocket Booster (Large)	固体火箭助推器(大)
 def_solid_rocket_nozzle_large_desc		Additional fuel can be stacked on top of the booster to increase its burn duration. The burn rate can be set in the component's properties, with slower burn rates producing less thrust.	额外的燃料可以堆放在助推器的顶部，以增加其燃烧持续时间。燃烧速度可以在组件的属性中设置，燃烧速度越慢，产生的推力越小。
 def_solid_rocket_nozzle_large_s_desc		A large single-use solid rocket booster.	一次性使用的大型固体火箭助推器。
-def_solid_rocket_nozzle_large_node_0_label		Trigger	扳机
+def_solid_rocket_nozzle_large_node_0_label		Trigger	触发
 def_solid_rocket_nozzle_large_node_0_desc		Triggers the booster's combustion.	引发助推器燃烧。
 def_solid_rocket_nozzle_large_node_1_label		Fuel Remaining	剩余燃料
 def_solid_rocket_nozzle_large_node_1_desc		The booster's remaining fuel level.	助推器的剩余燃油量。
 def_solid_rocket_nozzle_medium_name		Solid Rocket Booster (Medium)	固体火箭助推器(中型)
 def_solid_rocket_nozzle_medium_desc		Additional fuel can be stacked on top of the booster to increase its burn duration. The burn rate can be set in the component's properties, with slower burn rates producing less thrust.	额外的燃料可以堆放在助推器的顶部，以增加其燃烧持续时间。燃烧速度可以在组件的属性中设置，燃烧速度越慢，产生的推力越小。
 def_solid_rocket_nozzle_medium_s_desc		A medium single-use solid rocket booster.	中型一次性固体火箭助推器。
-def_solid_rocket_nozzle_medium_node_0_label		Trigger	扳机
+def_solid_rocket_nozzle_medium_node_0_label		Trigger	触发
 def_solid_rocket_nozzle_medium_node_0_desc		Triggers the booster's combustion.	引发助推器燃烧。
 def_solid_rocket_nozzle_medium_node_1_label		Fuel Remaining	剩余燃料
 def_solid_rocket_nozzle_medium_node_1_desc		The booster's remaining fuel level.	助推器的剩余燃油量。
 def_solid_rocket_nozzle_small_name		Solid Rocket Booster (Small)	固体火箭助推器(小型)
 def_solid_rocket_nozzle_small_desc		Additional fuel can be stacked on top of the booster to increase its burn duration. The burn rate can be set in the component's properties, with slower burn rates producing less thrust.	额外的燃料可以堆放在助推器的顶部，以增加其燃烧持续时间。燃烧速度可以在组件的属性中设置，燃烧速度越慢，产生的推力越小。
 def_solid_rocket_nozzle_small_s_desc		A small single-use solid rocket booster.	小型一次性固体火箭助推器。
-def_solid_rocket_nozzle_small_node_0_label		Trigger	扳机
+def_solid_rocket_nozzle_small_node_0_label		Trigger	触发
 def_solid_rocket_nozzle_small_node_0_desc		Triggers the booster's combustion.	引发助推器燃烧。
 def_solid_rocket_small_name		Solid Rocket Fuel (Small)	固体火箭燃料(小型)
 def_solid_rocket_small_desc		Fuel can be stacked to increase the burn duration of a rocket booster.	燃料可以堆积起来以增加火箭助推器的燃烧时间。
