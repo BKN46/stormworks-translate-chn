@@ -1,5 +1,6 @@
 # stormworks-translate-chn
-**2021.9.18 1.2.27-28更新导致座椅文本几乎全部错位，修改量较大，此项目随缘更新，有意帮助的可以提PR**
+
+**翻译维护较为随缘，欢迎提交pr**
 
 Stormworks: Build and Rescue中文汉化项目  
 创意工坊地址: [简体中文翻译 Simplified Chinese](https://steamcommunity.com/sharedfiles/filedetails/?id=2019972792)  

@@ -245,7 +245,7 @@ id	description	en	local
 		Ice	冰
 		Ice Variant	冰块变量
 		Ice Scale	冰块尺寸
-		Add Ice	添加冰块
+		ADD ICE	增加冰块
 		Ice cannot be picked up but can be moved using vehicles. Its size and type can be set in the properties window.	冰不能被捡起，但可以用载具移动。其大小和类型可以在“属性”窗口中设置。
 		Arctic Ocean	北冰洋
 		1km x 1km of empty Arctic ocean.	1 x 1km 的空北冰洋。
@@ -455,7 +455,7 @@ id	description	en	local
 		Hardcore mode with permadeath (save file will be deleted upon death).	带有永久死亡的硬核模式(保存文件将在死亡时被删除)。
 		Custom difficulty settings.	自定义难度设置。
 		Custom mode. A sandbox environment with an array of settings to customise your session. Career or Creative.	自定义模式，随意设定你的游戏，无论是生涯还是创造。
-		Classic career mode. Expand your coastguard empire. Complete missions to earn money and unlock components.	经典生涯模式。扩张你的海岸警卫队帝国，通过完成任务来获得金钱、解锁组件。
+		Classic mode. Career mode with research tree, third person, and teleport.	
 		Career mode. Expand your coastguard empire. Complete missions with survival style settings.	生涯模式。扩张你的海岸警卫队帝国，在更加生存风格的设置下完成任务。
 		Custom game mode settings.	自定义游戏模式设置。
 		PLEASE CHOOSE ANOTHER KEY	请选择其他按键
@@ -642,7 +642,7 @@ id	description	en	local
 		You can customise outfits and whether this character is a survivor or NPC in the properties window. Survivors will follow you and can be picked up, but NPCs can not be interacted with.	你可以在属性窗口中定制装备以及这个角色是幸存者还是NPC。幸存者将跟随你并且可以被捡起，但是NPC不能被交互。
 		ADD OBJECT	添加对象
 		Objects can be picked up, thrown and moved around by the player. They can be used for delivery missions or just as decoration. You can customise the object type in the properties window.	玩家可以捡起、投掷和移动物体。它们可以用于运输任务或仅仅作为装饰。可以在“属性”窗口中自定义对象类型。
-		ADD ZONE	增加区域
+		ADD ZONE	
 		ADD ZONE	
 		Zones can be used to set up advanced mission behaviour at specific world locations with addon Lua. These zones can be accessed globally by any addon script with functions getZones() and isInZone().	可以在世界中设置一个带有lua插件的区域，来实现更高级的任务功能。创建出的区域可以被任何插件全局访问，访问函数为getZones()以及isInZone()。
 		Zones are used to specify a location, these zones are local to a addon and can be accessed like any other local component through getLocationObjectData(). Mission Zones are generally more appropriate for constructing procedural style missions.	区域用于指定一个位置，这些区域是playlist的地点，可以像其他本地组件一样通过getLocationObjectData()来访问。任务区一般更适合构建流程式的任务。
@@ -879,7 +879,6 @@ id	description	en	local
 		Zoom	缩放
 		Camera Mode	摄像头模式
 		Toggle Controls UI	切换控件用户界面
-		Toggle Controller Input	切换控制器输入
 		Emote Wheel	电动轮
 		Player List	玩家列表
 		Quick Chat	快速聊天
@@ -910,11 +909,11 @@ id	description	en	local
 		Survival	生存
 		Hardcore	硬核
 		Rogue	铁人
-		Custom	自定义模式
+		Custom	自定义
 		Game Mode	游戏模式
 		Career	生涯模式
-		Classic Career	经典生存模式
-		Custom	自定义
+		Classic	
+		Custom	自定义模式
 		CUSTOMISE DIFFICULTY	自定义难度
 		First Person Only	锁定第一人称
 		Camera is locked to first person when on foot.	当步行时，摄像机被锁定。
@@ -1035,26 +1034,26 @@ id	description	en	local
 		Randomise	随机
 		Complete	完成
 		Gender	性别
-		Skin Colour	肤色
+		Skin Color	
 		Hair Style	发型
-		Hair Colour	发色
+		Hair Color	
 		Eyebrows	眉毛
 		Moustache	小胡子
 		Beard	胡子
 		Shirt	衬衫
-		Shirt Colour	衬衫颜色
+		Shirt Color	
 		Trousers	裤子
-		Trouser Colour	裤子颜色
+		Trouser Color	
 		Shoes	鞋
-		Shoe Colour	鞋子颜色
+		Shoe Color	
 		Hat	帽子
-		Hat Colour	帽子颜色
+		Hat Color	
 		Glasses	眼镜
-		Glasses Colour	眼镜颜色
-		Mask	面具
-		Mask Colour	面罩颜色
+		Glasses Color	
+		Mask	
+		Mask Color	
 		Clothes	服装
-		Clothing Colour	服装颜色
+		Clothing Color	
 		Character	人物
 		Hair	头发
 		Base Clothes	基本服装
@@ -1100,7 +1099,7 @@ id	description	en	local
 		Captain	船长
 		Fisherman	渔夫
 		Hard hat	安全帽
-		Headset	头戴式耳机
+		Headset	
 		Aviator	飞行员
 		Pirate	海盗
 		Shark	鲨鱼
@@ -1220,17 +1219,17 @@ id	description	en	local
 		Camera Roll	摄影机滚轮
 		Hide Player	隐藏玩家
 		Contrast	对比度
-		Colour Mode	色彩模式
+		Color Mode	颜色模式
 		Time of Day	时间
 		Border	边界
 		Logo	Logo
-		Logo Colour	Logo颜色
+		Logo Color	
 		Vignette	边框
 		Vignette Distance	边框距离
 		Vignette Strength	边框强度
 		Film Grain	画面颗粒
 		Film Grain Strength	画面颗粒强度
-		Colourise	着色
+		Colorise	
 		Top Left	左上
 		Top Middle	上方中间
 		Top Right	右上
@@ -1251,11 +1250,11 @@ id	description	en	local
 		Cross Process 2	交叉过程2
 		Cross Process 3	交叉过程3
 		Grey/Green	灰色/绿色
-		Original Colour	原色
+		Original Color	
 		rotate camera	旋转摄影机
 		move camera	移动摄像机
-		crane up	起重机升起
-		crane down	起重机放下
+		Crane up	
+		Crane down	
 		reset	重置
 		hide ui	隐藏用户界面
 		pause/unpause	暂停/取消暂停
@@ -1281,7 +1280,7 @@ id	description	en	local
 		Free Mode	自由模式
 		Brush	刷子
 		Additive	增加
-		Replace Colour	替换颜色
+		Replace Color	
 		Plane Fill	平面填充
 		Custom Colors	自定义颜色
 		Add To Custom Color	添加到自定义颜色
@@ -1362,12 +1361,12 @@ id	description	en	local
 		ERASE	擦除
 		Erase components from your vehicle.	清除载具上的部件。
 		PAINT	喷涂
-		Change the colours of placed components.	更改已放置组件的颜色。
+		Change the colors of placed components.	
 		MOVE	移动
 		Move your vehicle within the bounds of the edit grid.	在编辑网格的范围内移动载具。
 		Hook up logic connections between components.	连接组件之间的逻辑连接。
 		MERGE	合并
-		Merge two vehicle bodies. Different bodies are denoted by different colours. Click on a body to select it, then click an adjacent one to merge them.	合并两个载具。不同的物体用不同的颜色表示。单击一个实体将其选中，然后单击相邻的实体将其合并。
+		Merge two vehicle bodies. Different bodies are denoted by different colors. Click on a body to select it, then click an adjacent one to merge them.	
 		SELECTION GRID	选择网格
 		Select parts of your vehicle to cut, copy, paste, rotate, flip and move them around. Export a selection as a new vehicle, or import a saved subassembly to place on your vehicle.	选择要切割、复制、粘贴、旋转、翻转和移动的载具部件。将选定内容导出为新载具，或导入保存的部件以放置在载具上。
 		MICROCONTROLLER EDITOR	微控制器编辑器
@@ -1387,15 +1386,15 @@ id	description	en	local
 		Misc.	杂项。
 		tags	标签
 		Vehicle (Made by ###)	载具(由####制造)
-		SERVER: ### FPS	服务器：###FPS
+		SERVER: ### TPS	
 		### Degrees	###度
 		Last updated ###	上次更新时间###
-		Functions	功能
+		Addon	
 		Matrices	矩阵
 		Callbacks	回调
 		Examples	示例
 		Television	电视机
-		Crate	机箱
+		Crate	板条箱
 		Basketball	篮球
 		Collectable	收藏品
 		Chair	椅子
@@ -1416,7 +1415,7 @@ id	description	en	local
 		Barrel	木桶
 		Blue Barrel	蓝桶
 		Buoyancy Ring	救生圈
-		Container	集装箱
+		Container	容器
 		Gas Canister	煤气罐
 		Pallet	托盘
 		Storage Bin	储物箱
@@ -1494,7 +1493,7 @@ id	description	en	local
 		MISSION LOCATIONS	任务地点
 		Edit Mission	编辑任务
 		Add Mission	添加任务
-		Colour	颜色
+		Color	
 		PROPERTIES	属性
 		on/off	开/关
 		number	数字
@@ -1518,7 +1517,7 @@ id	description	en	local
 		Bank	银行
 		Total	总计
 		Police Hat	警帽
-		NEW ADDON	新插件
+		NEW ADDON	
 		Add/Remove Components	添加/删除组件
 		Mission Dependencies	任务相关性
 		Set Mission Depencies	设置任务相关性
@@ -1586,7 +1585,7 @@ id	description	en	local
 		Output Label	输出标签
 		Output A Label	输出A标签
 		Output B Label	输出B标签
-		Color Mode	颜色模式
+		Color Mode	
 		RGB	RGB
 		HSV	HSV
 		Composite Channels	复合通道
@@ -1704,9 +1703,9 @@ id	description	en	local
 		ROPE	绳
 		Edit rope transfer nodes.	编辑绳索传输节点
 		rope	绳
-		ROPE	绳
+		ROPE	
 		sail	帆
-		Edit rope transfer nodes.	编辑绳索传输节点
+		Edit rope transfer nodes.	
 		LUA SCRIPTING OVERVIEW	LUA脚本概述
 		Lua scripting gives you the tools to create advanced logic components using the Lua scripting language. Stormworks provides a number of functions to allow your script to interface with your vehicle's logic system, as well as drawing to in-game monitors.\n\nThis guide outlines the functions that are available for use in your scripts but it is not a comprehensive tutorial on using the Lua language.	Lua脚本提供了使用Lua脚本语言创建高级逻辑组件的工具。Stormworks提供了许多功能，允许脚本与载具的逻辑系统进行交互，并绘制到游戏中的屏幕中。\n\n本指南概述了可在脚本中使用的功能，但它不是使用Lua语言的综合系统性教程。
 		SCRIPT BASICS	脚本基础
@@ -1718,8 +1717,8 @@ id	description	en	local
 		Read values from the composite input. Index ranges from 1 - 32.	从复合输入读取值。索引范围从1到32。
 		Set values on the composite output. Index ranges from 1 - 32.	在复合输出上设置值。索引范围从1到32。
 		DRAWING	绘图
-		Set the current draw colour. Values range from 0 - 255.	设置当前绘图颜色。值的范围为0-255。
-		Set the current draw colour and transparency. Values range from 0 - 255.	设置当前绘图颜色和透明度。值的范围为0-255。
+		Set the current draw color. Values range from 0 - 255.	
+		Set the current draw color and transparency. Values range from 0 - 255.	
 		Clear the screen with the current colour.	用当前颜色清除/覆盖屏幕。
 		Draw line from (x1, y1) to (x2, y2).	从(x1, y1)到(x2, y2)画一条直线
 		Draw circle at (x, y) with radius.	在(x, y)以指定半径画圈
@@ -1731,7 +1730,7 @@ id	description	en	local
 		Draw text at (x, y). Each character is 4 pixels wide and 5 pixels tall.	在(x, y)处渲染文字，每个字母4像素宽、5像素高
 		Draw text within the rectangle at (x, y) with width and height. Text alignment can be specified using the last two parameters and ranges from -1 to 1 (left to right, top to bottom). If either of the alignment parameters are omitted, the text will be drawn top-left by default. Text will automatically wrap at spaces when possible, and will overflow the top/bottom of the specified rectangle if too large.	在（x，y）处的矩形内绘制宽度和高度相同的文本。可以使用最后两个参数指定文本对齐方式，范围从-1到1（从左到右，从上到下）。如果省略任何一个对齐参数，则默认情况下，文本将绘制在左上角。如果可能，文本将自动换行到空格处，如果太大，文本将溢出指定矩形的顶部/底部。
 		Draw the world map centred on map coordinate (x,y) with zoom level ranging from 0.1 to 50.	以地图坐标（x，y）为中心绘制世界地图，缩放比例从0.1到50。
-		Set the colours used for rendering the map. Values range from 0 - 255, alpha is optional.	设置用于渲染地图的颜色。值的范围从0到255，可指定alpha(透明度)。
+		Set the colors used for rendering the map. Values range from 0 - 255, alpha is optional.	
 		Get the width/height of the screen currently being rendered to.	获取当前渲染到的屏幕的宽度/高度。
 		MAP	地图
 		Convert pixel coordinates into world coordinates.	将像素坐标转换为世界坐标。
@@ -1770,7 +1769,7 @@ id	description	en	local
 		Navigation	导航
 		Radar and Sonar	雷达和声纳
 		Rescue Equipment	救援装备
-		Diving Equipment	潜水装备
+		Diving Equipment	潜水设备
 		Deep Sea Diving	深潜装备
 		Firefighting Equipment	消防装备
 		Advanced Rescue Equipment	高级救援装备
@@ -1830,9 +1829,9 @@ id	description	en	local
 		Imported Cargo	进口货物
 		Exported Cargo	出口货物
 		Nearby Cargo	旁边的货物
-		Crate	板条箱
+		Crate	机箱
 		Passenger	乘客
-		Container	容器
+		Container	集装箱
 		Vehicle editing is disabled.	载具编辑已禁用。
 		You must be authorised to use workbench.	你必须得到授权才能使用工具台
 		Explosion ignition point	爆炸着火点
@@ -1857,10 +1856,10 @@ id	description	en	local
 		CPU Active Time (ms)	CPU活动时间(ms)
 		CPU Utilization	CPU利用率
 		FPS	FPS
-		Diving Equipment	潜水设备
+		Diving Equipment	潜水装备
 		Firefighting Outfit	救火外套
 		Scuba Gear	水肺装备
-		Parachute	降落伞
+		Parachute	
 		Thermal Clothing	隔热服
 		Binoculars	望远镜
 		Cable	线
@@ -1894,20 +1893,20 @@ id	description	en	local
 		[$[action_equipment_use]] Spray water	[$[action_equipment_use]] 洒水
 		[$[action_equipment_use]] Heal self / target	[$[action_equipment_use]] 治疗自己/目标
 		[$[action_equipment_use]] Throw flare	[$[action_equipment_use]] 扔出信号弹
-		[$[action_equipment_use]] Fire flare [$[action_equipment_secondary]] Unload	[$[action_equipment_use]] 射击信号弹 [$[action_equipment_secondary]] 卸载弹药
+		[$[action_equipment_use]] Fire flare [$[action_equipment_secondary]] Reload	
 		[$[action_equipment_use]] Reload flaregun	[$[action_equipment_use]] 重新装填信号弹枪
 		[$[action_equipment_use]] Toggle flashlight	[$[action_equipment_use]] 开关手电筒
 		[$[action_equipment_secondary]] Toggle hose nozzle	[$[action_equipment_secondary]] 开关软管喷嘴
-		[$[action_equipment_use]] Zoom in	[$[action_equipment_use]] 放大
+		[$[action_equipment_use]] Zoom in	
 		[$[action_equipment_use]] Recover oxygen	[$[action_equipment_use]] 回复氧气
 		[$[action_equipment_use]] Transmit [$[action_equipment_secondary]] Cycle frequency	[$[action_equipment_use]] 通信 [$[action_equipment_secondary]] 循环切换频率
 			
 		[$[action_equipment_use]] Toggle control [$[action_equipment_secondary]] cycle frequency	[$[action_equipment_use]] 控制开关 [$[action_equipment_secondary]] 循环切换频率
 			
-		[$[action_equipment_use]] Toggle strobe [$[action_equipment_secondary]] Toggle MOB mode	[$[action_equipment_use]] 频闪开关 [$[action_equipment_secondary]] 切换MOB模式
 		[$[action_equipment_use]] Toggle strobe [$[action_equipment_secondary]] Toggle MOB mode	
+		[$[action_equipment_use]] Toggle infrared strobe [$[action_equipment_secondary]] Toggle MOB mode	
 		[$[action_equipment_use]] Toggle transmit [$[action_equipment_secondary]] Toggle MOB mode	[$[action_equipment_use]] 通信开关 [$[action_equipment_secondary]] 切换MOB模式
-		[$[action_equipment_use]] Repair	[$[action_equipment_use]] 维修
+			
 		[$[action_equipment_use]] Repair	
 		Detailed	细致的
 		Simple	简单的
@@ -1933,33 +1932,33 @@ id	description	en	local
 		Helicopter Pilot	直升机驾驶员
 		Plane Pilot	飞机驾驶员
 		Gunner	武器操作员
-		Light Auto Ammo Box (Kinetic)	轻型自动武器弹药箱(动能)
-		Light Auto Ammo Box (High Explosive)	轻型自动武器弹药箱(高爆)
-		Light Auto Ammo Box (Fragmentation)	轻型自动武器弹药箱(破片)
-		Light Auto Ammo Box (Armor Piercing)	轻型自动武器弹药箱(穿甲)
-		Light Auto Ammo Box (Incendiary)	轻型自动武器弹药箱(曳光)
-		Rotary Auto Ammo Box (Kinetic)	转轮自动武器弹药箱(动能)
-		Rotary Auto Ammo Box (High Explosive)	转轮自动武器弹药箱(高爆)
-		Rotary Auto Ammo Box (Fragmentation)	转轮自动武器弹药箱(破片)
-		Rotary Auto Ammo Box (Armor Piercing)	转轮自动武器弹药箱(穿甲)
-		Rotary Auto Ammo Box (Incendiary)	转轮自动武器弹药箱(曳光)
-		Heavy Auto Ammo Box (Kinetic)	重型自动武器弹药箱(动能)
-		Heavy Auto Ammo Box (High Explosive)	重型自动武器弹药箱(高爆)
-		Heavy Auto Ammo Box (Fragmentation)	重型自动武器弹药箱(破片)
-		Heavy Auto Ammo Box (Armor Piercing)	重型自动武器弹药箱(穿甲)
-		Heavy Auto Ammo Box (Incendiary)	重型自动武器弹药箱(曳光)
-		Battle Shell (Kinetic)	炮弹(动能)
-		Battle Shell (High Explosive)	炮弹(高爆)
-		Battle Shell (Fragmentation)	炮弹(破片)
-		Battle Shell (Armor Piercing)	炮弹(穿甲)
-		Battle Shell (Incendiary)	炮弹(曳光)
-		Artillery Shell (Kinetic)	重型炮弹(动能)
-		Artillery Shell (High Explosive)	重型炮弹(高爆)
-		Artillery Shell (Fragmentation)	重型炮弹(破片)
-		Artillery Shell (Armor Piercing)	重型炮弹(穿甲)
-		Artillery Shell (Incendiary)	重型炮弹(曳光)
-		C4 Explosive	C4炸药
-		C4 Detonator	C4雷管
+		Light Autocannon Ammo (Kinetic)	
+		Light Autocannon Ammo (High Explosive)	
+		Light Autocannon Ammo (Fragmentation)	
+		Light Autocannon Ammo (Armor Piercing)	
+		Light Autocannon Ammo (Incendiary)	
+		Rotary Autocannon Ammo (Kinetic)	
+		Rotary Autocannon Ammo (High Explosive)	
+		Rotary Autocannon Ammo (Fragmentation)	
+		Rotary Autocannon Ammo (Armor Piercing)	
+		Rotary Autocannon Ammo (Incendiary)	
+		Heavy Autocannon Ammo (Kinetic)	
+		Heavy Autocannon Ammo (High Explosive)	
+		Heavy Autocannon Ammo (Fragmentation)	
+		Heavy Autocannon Ammo (Armor Piercing)	
+		Heavy Autocannon Ammo (Incendiary)	
+		Battle Cannon Shell (Kinetic)	
+		Battle Cannon Shell (High Explosive)	
+		Battle Cannon Shell (Fragmentation)	
+		Battle Cannon Shell (Armor Piercing)	
+		Battle Cannon Shell (Incendiary)	
+		Artillery Cannon Shell (Kinetic)	
+		Artillery Cannon Shell (High Explosive)	
+		Artillery Cannon Shell (Fragmentation)	
+		Artillery Cannon Shell (Armor Piercing)	
+		Artillery Cannon Shell (Incendiary)	
+		C-4 Explosive	
+		C-4 Detonator	
 		Speargun	鱼叉枪
 		Speargun Ammo	鱼叉枪弹药
 		Pistol	手枪
@@ -1981,7 +1980,142 @@ id	description	en	local
 		Load Coal	装载煤炭
 		Unload Coal	卸载煤炭
 		Clean Radiation	清除辐射
+		Weapons	
+		Machine Gun Ammo Box (Kinetic)	
+		Machine Gun Ammo Box (High Explosive)	
+		Machine Gun Ammo Box (Fragmentation)	
+		Machine Gun Ammo Box (Armor Piercing)	
+		Machine Gun Ammo Box (Incendiary)	
+		Ammo Caliber	
+		Machine Gun	
+		Light Autocannon	
+		Rotary Autocannon	
+		Heavy Autocannon	
+		Battle Cannon	
+		Artillery Cannon	
+		Bertha Cannon	
+		Ammo Type	
+		Unloaded	
+		Kinetic	
+		High Explosive	
+		Fragmentation	
+		Armor Piercing	
+		Incendiary	
+		K	
+		HE	
+		FRAG	
+		AP	
+		I	
+		SMG	
+		SMG Ammo	
+		Rifle	
+		Rifle Ammo	
+		[$[action_equipment_use]] Place	
+		[$[action_equipment_use]] Detonate	
+		[$[action_equipment_use]] Fire [$[action_equipment_secondary]] Reload	
+		[$[action_equipment_use]] Reload	
+			
+			
+			
+			
+			
+			
+		[$[action_equipment_use]] Throw	
+		Camera Shake	
 		Trigger	
+		GRAPH NODE	
+		ADD GRAPH NODE	
+		Add a linkable node to provide data for advanced AI pathing or use as a generic marker.	
+		Link node.	
+		UI	
+		Objects	
+		Vehicles	
+		Game	
+		Designator	
+		Fin Influence	
+		Closed	
+		Group: Active	
+		Group: Date	
+		Spawn Whirlpool	
+		Cancel Whirlpool	
+		Spawn Tornado	
+		Cancel Tornado	
+		Spawn Meteor	
+		Spawn Meteor Shower	
+		Spawn Volcanic Eruption	
+		Xmas Tree	
+		Xmas Stormworks	
+		Xmas Stormworks 2	
+		Xmas Reindeer	
+		Xmas Elf	
+		Xmas Nutcracker	
+		Xmas Elf Hat	
+		Xmas Winter Hat	
+		Xmas Tree Hat	
+		Xmas Tophat/Scarf	
+		Xmas Pudding	
+		Xmas Party Hat	
+		Xmas Elf Costume	
+		Ushanka	
+		Sheriff Hat	
+		Raf Sidecap	
+		Raf Officer Hat	
+		Navy Sidecap	
+		Navy Officer Hat	
+		Mask	面具
+		k6 3 Helmet	
+		WZ 063 Helmet	
+		Helmet Visor	
+		Heli Helmet	
+		Headset	头戴式耳机
+		Cap	
+		Boonie Hat	
+		Bomb Disposal Helmet	
+		Beret	
+		Balaclava	
+		Army Sidecap	
+		Army Officer	
+		Suit Bowtie	
+		Suit	
+		Safety Vest	
+		Raf Suit	
+		Plate Vest	
+		Navy Uniform	
+		Navy Suit	
+		Messenger Bag	
+		Chest rig	
+		Bomb Disposal Outfit	
+		Black Hawk Vest	
+		Backpack	
+		Assault Pack	
+		Army Uniform	
+		Army Suit	
+		Armour Vest	
+		Use	
+		Keyboard	
+		Gamepad	
+		Move X	
+		Move Y	
+		View X	
+		View Y	
+		HOTAS	
+		Pause	
+		Slow	
+		Fast	
+		Very Fast	
+		Navigate X	
+		Navigate Y	
+		Navigate Up	
+		Navigate Down	
+		Navigate Left	
+		Navigate Right	
+		Select/Confirm	
+		Context	
+		Tab Left	
+		Tab Right	
+		Free View	
+		Hotkey	
+		You were disconnected due to adverse network conditions.	
 def_01_block_name		Block	方块
 def_01_block_desc		The block is a quarter-metre in size. Components can be attached to all 6 faces.	这个方块有四分之一米大。组件可以连接收到所有6个面。
 def_01_block_s_desc		Basic cube-shaped building block.	基本立方形建筑块。
@@ -2434,6 +2568,23 @@ def_connector_hardpoint_b_node_5_label		Video Data Receive
 def_connector_hardpoint_b_node_5_desc		Video data to receive from the connected connector.	
 def_connector_hardpoint_b_node_6_label		Electric	
 def_connector_hardpoint_b_node_6_desc		Electrical power connection.	
+def_connector_hardpoint_b_round_name		Hardpoint Connector Attachment (Round)	
+def_connector_hardpoint_b_round_desc		A hardpoint body will connect to a hardpoint attachment when correctly aligned, fixing the two components in place while transferring logic and fluid.	
+def_connector_hardpoint_b_round_s_desc		A hardpoint connector for building detachable vehicle sections.	
+def_connector_hardpoint_b_round_node_0_label		Launched	
+def_connector_hardpoint_b_round_node_0_desc		Outputs an on signal if the connector is sent a launch signal by the parent.	
+def_connector_hardpoint_b_round_node_1_label		Fluid	
+def_connector_hardpoint_b_round_node_1_desc		Fluid connection to link to another fluid connector.	
+def_connector_hardpoint_b_round_node_2_label		Composite Data Send	
+def_connector_hardpoint_b_round_node_2_desc		Composite data to send to the connected connector.	
+def_connector_hardpoint_b_round_node_3_label		Composite Data Receive	
+def_connector_hardpoint_b_round_node_3_desc		Composite data to receive from the connected connector.	
+def_connector_hardpoint_b_round_node_4_label		Video Data Send	
+def_connector_hardpoint_b_round_node_4_desc		Video data to send to the connected connector.	
+def_connector_hardpoint_b_round_node_5_label		Video Data Receive	
+def_connector_hardpoint_b_round_node_5_desc		Video data to receive from the connected connector.	
+def_connector_hardpoint_b_round_node_6_label		Electric	
+def_connector_hardpoint_b_round_node_6_desc		Electrical power connection.	
 def_connector_hinge_name		Hinge Connector	铰链连接头
 def_connector_hinge_desc		Two connectors will attach when they are within close proximity and both are switched on. They will connect along their long edge and hinge along this axis. An on/off output allows you to check whether or not this connector is currently attached to anything.	当两个连接头接近并且都打开时，它们将连接在一起。它们将沿着长边连接，并沿着这条轴转动。开/关输出允许您检查此连接头当前是否连接收到任何对象。
 def_connector_hinge_s_desc		A small magnetic connector that can be used to attach two or more vehicles together.	一种小型磁性连接头，可用于将两辆或多辆载具连接在一起。
@@ -2773,6 +2924,8 @@ def_flare_launcher_desc		Set the flare canister type and launch velocity in the 
 def_flare_launcher_s_desc		Single-use flare launcher for signalling and illumination.	信号和照明用一次性信号弹发射器。
 def_flare_launcher_node_0_label		Launch	发射
 def_flare_launcher_node_0_desc			
+def_flare_launcher_node_1_label		Launch Passthrough	
+def_flare_launcher_node_1_desc			
 def_fluid_exhaust_name		Fluid Exhaust	排液(气)口
 def_fluid_exhaust_desc		Fluid can flow in and out of the port as part of a fluid system.	流体可以作为流体系统的一部分进出端口。
 def_fluid_exhaust_s_desc		An exhaust port for fluid systems.	流体系统的排气口。
@@ -2894,7 +3047,7 @@ def_fluid_valve_variable_node_2_desc		Valve gate control for opening and closing
 def_fluid_valve_variable_node_3_label		Electric	电源
 def_fluid_valve_variable_node_3_desc		Electrical power connection.	电源连接。
 def_foghorn_name		Foghorn	雾号
-def_foghorn_desc		It has an audible range of 500m.	它的可听范围是500米。
+def_foghorn_desc		It has an audible range of 1500m.	它的可听范围是500米。
 def_foghorn_s_desc		A ship's foghorn that will sound when receiving an on signal.	船上的雾号，当收到接通信号时会响。
 def_foghorn_node_0_label		Horn	喇叭
 def_foghorn_node_0_desc		Sounds the horn when recieving an on signal.	收到接通信号时按喇叭。
@@ -3258,6 +3411,347 @@ def_gps_sensor_node_1_label		Y Coordinate	Y坐标
 def_gps_sensor_node_1_desc		The y coordinate of this component on the world map.	世界地图上此组件的y坐标。
 def_gps_sensor_node_2_label		Electric	电源
 def_gps_sensor_node_2_desc		Electrical power connection.	电源连接。
+def_gun_belt_corner_name		Autocannon Ammo (Corner)	
+def_gun_belt_corner_desc		Autocannon belts can transfer all calibers of autocannon ammo.	
+def_gun_belt_corner_s_desc		An autocannon ammo belt.	
+def_gun_belt_corner_node_0_label		Contains Ammo	
+def_gun_belt_corner_node_0_desc		Returns true if the belt contains a shell.	
+def_gun_belt_corner_flat_name		Autocannon Belt (Corner Flat)	
+def_gun_belt_corner_flat_desc		Autocannon belts can transfer all calibers of autocannon ammo.	
+def_gun_belt_corner_flat_s_desc		An autocannon ammo belt.	
+def_gun_belt_corner_flat_node_0_label		Contains Ammo	
+def_gun_belt_corner_flat_node_0_desc		Returns true if the belt contains a shell.	
+def_gun_belt_corner_flat_l_name		Battle Cannon Belt (Corner Inner)	
+def_gun_belt_corner_flat_l_desc		Cannon ammo belts can store and transfer ammo shells. Spawned ammo type can be set in component properties window.	
+def_gun_belt_corner_flat_l_s_desc		A battle cannon ammo belt.	
+def_gun_belt_corner_flat_l_node_0_label		Contains Ammo	
+def_gun_belt_corner_flat_l_node_0_desc		Returns true if the belt contains a shell.	
+def_gun_belt_corner_flat_reverse_l_name		Battle Cannon Belt (Corner Outer)	
+def_gun_belt_corner_flat_reverse_l_desc		Cannon ammo belts can store and transfer ammo shells. Spawned ammo type can be set in component properties window.	
+def_gun_belt_corner_flat_reverse_l_s_desc		A battle cannon ammo belt.	
+def_gun_belt_corner_flat_reverse_l_node_0_label		Contains Ammo	
+def_gun_belt_corner_flat_reverse_l_node_0_desc		Returns true if the belt contains a shell.	
+def_gun_belt_corner_flat_reverse_xl_name		Artillery Cannon Belt (Corner Outer)	
+def_gun_belt_corner_flat_reverse_xl_desc		Cannon ammo belts can store and transfer ammo shells. Spawned ammo type can be set in component properties window.	
+def_gun_belt_corner_flat_reverse_xl_s_desc		An artillery cannon ammo belt.	
+def_gun_belt_corner_flat_reverse_xl_node_0_label		Contains Ammo	
+def_gun_belt_corner_flat_reverse_xl_node_0_desc		Returns true if the belt contains a shell.	
+def_gun_belt_corner_flat_reverse_xxl_name		Bertha Cannon Belt (Corner Outer)	
+def_gun_belt_corner_flat_reverse_xxl_desc		Cannon ammo belts can store and transfer ammo shells. Spawned ammo type can be set in component properties window. Bertha shells are too large to be moved by hand.	
+def_gun_belt_corner_flat_reverse_xxl_s_desc		A bertha cannon ammo belt.	
+def_gun_belt_corner_flat_reverse_xxl_node_0_label		Contains Ammo	
+def_gun_belt_corner_flat_reverse_xxl_node_0_desc		Returns true if the belt contains a shell.	
+def_gun_belt_corner_flat_xl_name		Artillery Cannon Belt (Corner Inner)	
+def_gun_belt_corner_flat_xl_desc		Cannon ammo belts can store and transfer ammo shells. Spawned ammo type can be set in component properties window.	
+def_gun_belt_corner_flat_xl_s_desc		An artillery cannon ammo belt.	
+def_gun_belt_corner_flat_xl_node_0_label		Contains Ammo	
+def_gun_belt_corner_flat_xl_node_0_desc		Returns true if the belt contains a shell.	
+def_gun_belt_corner_flat_xxl_name		Bertha Cannon Belt (Corner Inner)	
+def_gun_belt_corner_flat_xxl_desc		Cannon ammo belts can store and transfer ammo shells. Spawned ammo type can be set in component properties window. Bertha shells are too large to be moved by hand.	
+def_gun_belt_corner_flat_xxl_s_desc		A bertha cannon ammo belt.	
+def_gun_belt_corner_flat_xxl_node_0_label		Contains Ammo	
+def_gun_belt_corner_flat_xxl_node_0_desc		Returns true if the belt contains a shell.	
+def_gun_belt_corner_l_name		Battle Cannon Belt (Corner)	
+def_gun_belt_corner_l_desc		Cannon ammo belts can store and transfer ammo shells. Spawned ammo type can be set in component properties window.	
+def_gun_belt_corner_l_s_desc		A battle cannon ammo belt.	
+def_gun_belt_corner_l_node_0_label		Contains Ammo	
+def_gun_belt_corner_l_node_0_desc		Returns true if the belt contains a shell.	
+def_gun_belt_corner_xl_name		Artillery Cannon Belt (Corner)	
+def_gun_belt_corner_xl_desc		Cannon ammo belts can store and transfer ammo shells. Spawned ammo type can be set in component properties window.	
+def_gun_belt_corner_xl_s_desc		An artillery cannon ammo belt.	
+def_gun_belt_corner_xl_node_0_label		Contains Ammo	
+def_gun_belt_corner_xl_node_0_desc		Returns true if the belt contains a shell.	
+def_gun_belt_corner_xxl_name		Bertha Cannon Belt (Corner)	
+def_gun_belt_corner_xxl_desc		Cannon ammo belts can store and transfer ammo shells. Spawned ammo type can be set in component properties window. Bertha shells are too large to be moved by hand.	
+def_gun_belt_corner_xxl_s_desc		A bertha cannon ammo belt.	
+def_gun_belt_corner_xxl_node_0_label		Contains Ammo	
+def_gun_belt_corner_xxl_node_0_desc		Returns true if the belt contains a shell.	
+def_gun_belt_junction_name		Autocannon Ammo Belt (Junction)	
+def_gun_belt_junction_desc		Autocannon belts can transfer all calibers of autocannon ammo. Junction belts redirect the path of ammo transfer.	
+def_gun_belt_junction_s_desc		An autocannon ammo belt.	
+def_gun_belt_junction_node_0_label		Contains Ammo	
+def_gun_belt_junction_node_0_desc		Returns true if the belt contains a shell.	
+def_gun_belt_junction_node_1_label		Junction Switch	
+def_gun_belt_junction_node_1_desc		Switches the ammo transfer T-junction between the left and right sides.	
+def_gun_belt_junction_l_name		Battle Cannon Belt (Junction)	
+def_gun_belt_junction_l_desc		Cannon ammo belts can store and transfer ammo shells. Junction belts redirect the path of ammo transfer. Spawned ammo type can be set in component properties window.	
+def_gun_belt_junction_l_s_desc		A battle cannon ammo belt.	
+def_gun_belt_junction_l_node_0_label		Contains Ammo	
+def_gun_belt_junction_l_node_0_desc		Returns true if the belt contains a shell.	
+def_gun_belt_junction_l_node_1_label		Junction Switch	
+def_gun_belt_junction_l_node_1_desc		Switches the ammo transfer T-junction between the left and right sides.	
+def_gun_belt_junction_xl_name		Artillery Cannon Belt (Junction)	
+def_gun_belt_junction_xl_desc		Cannon ammo belts can store and transfer ammo shells. Junction belts redirect the path of ammo transfer. Spawned ammo type can be set in component properties window.	
+def_gun_belt_junction_xl_s_desc		An artillery cannon ammo belt.	
+def_gun_belt_junction_xl_node_0_label		Contains Ammo	
+def_gun_belt_junction_xl_node_0_desc		Returns true if the belt contains a shell.	
+def_gun_belt_junction_xl_node_1_label		Junction Switch	
+def_gun_belt_junction_xl_node_1_desc		Switches the ammo transfer T-junction between the left and right sides.	
+def_gun_belt_junction_xxl_name		Bertha Cannon Belt (Junction)	
+def_gun_belt_junction_xxl_desc		Cannon ammo belts can store and transfer ammo shells. Junction belts redirect the path of ammo transfer. Spawned ammo type can be set in component properties window. Bertha shells are too large to be moved by hand.	
+def_gun_belt_junction_xxl_s_desc		A bertha cannon ammo belt.	
+def_gun_belt_junction_xxl_node_0_label		Contains Ammo	
+def_gun_belt_junction_xxl_node_0_desc		Returns true if the belt contains a shell.	
+def_gun_belt_junction_xxl_node_1_label		Junction Switch	
+def_gun_belt_junction_xxl_node_1_desc		Switches the ammo transfer T-junction between the left and right sides.	
+def_gun_belt_loader_name		Autocannon Belt (Feeder)	
+def_gun_belt_loader_desc		Autocannon belts can transfer all calibers of autocannon ammo. Feeder belts transfer ammo forwards using electric power.	
+def_gun_belt_loader_s_desc		An autocannon ammo belt.	
+def_gun_belt_loader_node_0_label		Feed	
+def_gun_belt_loader_node_0_desc		Transfer cartridges in the direction of the arrow.	
+def_gun_belt_loader_node_1_label		Contains Ammo	
+def_gun_belt_loader_node_1_desc		Returns true if the belt contains a shell.	
+def_gun_belt_loader_node_2_label		Electric	
+def_gun_belt_loader_node_2_desc		Electrical power connection.	
+def_gun_belt_loader_l_name		Battle Cannon Belt (Feeder)	
+def_gun_belt_loader_l_desc		Cannon ammo belts can store and transfer ammo shells. Feeder belts transfer ammo forwards using electric power. Spawned ammo type can be set in component properties window.	
+def_gun_belt_loader_l_s_desc		A battle cannon ammo belt.	
+def_gun_belt_loader_l_node_0_label		Feed	
+def_gun_belt_loader_l_node_0_desc		Transfer shells in the direction of the arrow.	
+def_gun_belt_loader_l_node_1_label		Contains Ammo	
+def_gun_belt_loader_l_node_1_desc		Returns true if the belt contains a shell.	
+def_gun_belt_loader_l_node_2_label		Electric	
+def_gun_belt_loader_l_node_2_desc		Electrical power connection.	
+def_gun_belt_loader_xl_name		Artillery Cannon Belt (Feeder)	
+def_gun_belt_loader_xl_desc		Cannon ammo belts can store and transfer ammo shells. Feeder belts transfer ammo forwards using electric power. Spawned ammo type can be set in component properties window.	
+def_gun_belt_loader_xl_s_desc		An artillery cannon ammo belt.	
+def_gun_belt_loader_xl_node_0_label		Feed	
+def_gun_belt_loader_xl_node_0_desc		Transfer shells in the direction of the arrow.	
+def_gun_belt_loader_xl_node_1_label		Contains Ammo	
+def_gun_belt_loader_xl_node_1_desc		Returns true if the belt contains a shell.	
+def_gun_belt_loader_xl_node_2_label		Electric	
+def_gun_belt_loader_xl_node_2_desc		Electrical power connection.	
+def_gun_belt_loader_xxl_name		Bertha Cannon Belt (Feeder)	
+def_gun_belt_loader_xxl_desc		Cannon ammo belts can store and transfer ammo shells. Feedeer belts transfer ammo forwards using electric power. Spawned ammo type can be set in component properties window. Bertha shells are too large to be moved by hand.	
+def_gun_belt_loader_xxl_s_desc		A bertha cannon ammo belt.	
+def_gun_belt_loader_xxl_node_0_label		Feed	
+def_gun_belt_loader_xxl_node_0_desc		Transfer shells in the direction of the arrow.	
+def_gun_belt_loader_xxl_node_1_label		Contains Ammo	
+def_gun_belt_loader_xxl_node_1_desc		Returns true if the belt contains a shell.	
+def_gun_belt_loader_xxl_node_2_label		Electric	
+def_gun_belt_loader_xxl_node_2_desc		Electrical power connection.	
+def_gun_belt_receiver_name		Autocannon Belt (Connector)	
+def_gun_belt_receiver_desc		Autocannon belts can transfer all calibers of autocannon ammo. Connector belts allow ammo transfers between vehicles.	
+def_gun_belt_receiver_s_desc		An autocannon ammo belt.	
+def_gun_belt_receiver_node_0_label		Contains Ammo	
+def_gun_belt_receiver_node_0_desc		Returns true if the belt contains a shell.	
+def_gun_belt_receiver_node_1_label		Connected	
+def_gun_belt_receiver_node_1_desc			
+def_gun_belt_receiver_l_name		Battle Cannon Belt (Connector)	
+def_gun_belt_receiver_l_desc		Cannon ammo belts can store and transfer ammo shells. Connector belts allow ammo transfers between vehicles. Spawned ammo type can be set in component properties window.	
+def_gun_belt_receiver_l_s_desc		A battle cannon ammo belt.	
+def_gun_belt_receiver_l_node_0_label		Contains Ammo	
+def_gun_belt_receiver_l_node_0_desc		Returns true if the belt contains a shell.	
+def_gun_belt_receiver_l_node_1_label		Connected	
+def_gun_belt_receiver_l_node_1_desc		Returns true when two nearby receivers are aligned, and can transfer ammo between them.	
+def_gun_belt_receiver_xl_name		Artillery Cannon Belt (Connector)	
+def_gun_belt_receiver_xl_desc		Cannon ammo belts can store and transfer ammo shells. Connector belts allow ammo transfers between vehicles.Spawned ammo type can be set in component properties window.	
+def_gun_belt_receiver_xl_s_desc		An artillery cannon ammo belt.	
+def_gun_belt_receiver_xl_node_0_label		Contains Ammo	
+def_gun_belt_receiver_xl_node_0_desc		Returns true if the belt contains a shell.	
+def_gun_belt_receiver_xl_node_1_label		Connected	
+def_gun_belt_receiver_xl_node_1_desc		Returns true when two nearby receivers are aligned, and can transfer ammo between them.	
+def_gun_belt_receiver_xxl_name		Bertha Cannon Belt (Connector)	
+def_gun_belt_receiver_xxl_desc		Cannon ammo belts can store and transfer ammo shells. Connector belts allow ammo transfers between vehicles. Spawned ammo type can be set in component properties window. Bertha shells are too large to be moved by hand.	
+def_gun_belt_receiver_xxl_s_desc		A bertha cannon ammo belt.	
+def_gun_belt_receiver_xxl_node_0_label		Contains Ammo	
+def_gun_belt_receiver_xxl_node_0_desc		Returns true if the belt contains a shell.	
+def_gun_belt_receiver_xxl_node_1_label		Connected	
+def_gun_belt_receiver_xxl_node_1_desc		Returns true when two nearby receivers are aligned, and can transfer ammo between them.	
+def_gun_belt_straight_name		Autocannon Belt (Straight)	
+def_gun_belt_straight_desc		Autocannon belts can transfer all calibers of autocannon ammo.	
+def_gun_belt_straight_s_desc		An autocannon ammo belt.	
+def_gun_belt_straight_node_0_label		Contains Ammo	
+def_gun_belt_straight_node_0_desc		Returns true if the belt contains a shell.	
+def_gun_belt_straight_l_name		Battle Cannon Belt (Straight)	
+def_gun_belt_straight_l_desc		Cannon ammo belts can store and transfer ammo shells. Spawned ammo type can be set in component properties window.	
+def_gun_belt_straight_l_s_desc		A battle cannon ammo belt.	
+def_gun_belt_straight_l_node_0_label		Contains Ammo	
+def_gun_belt_straight_l_node_0_desc		Returns true if the belt contains a shell.	
+def_gun_belt_straight_xl_name		Artillery Cannon Belt (Straight)	
+def_gun_belt_straight_xl_desc		Cannon ammo belts can store and transfer ammo shells. Spawned ammo type can be set in component properties window.	
+def_gun_belt_straight_xl_s_desc		An artillery cannon ammo belt.	
+def_gun_belt_straight_xl_node_0_label		Contains Ammo	
+def_gun_belt_straight_xl_node_0_desc		Returns true if the belt contains a shell.	
+def_gun_belt_straight_xxl_name		Bertha Cannon Belt (Straight)	
+def_gun_belt_straight_xxl_desc		Cannon ammo belts can store and transfer ammo shells. Spawned ammo type can be set in component properties window. Bertha shells are too large to be moved by hand.	
+def_gun_belt_straight_xxl_s_desc		A bertha cannon ammo belt.	
+def_gun_belt_straight_xxl_node_0_label		Contains Ammo	
+def_gun_belt_straight_xxl_node_0_desc		Returns true if the belt contains a shell.	
+def_gun_drum_large_name		Autocannon Ammo Drum (Large)	
+def_gun_drum_large_desc		Ammo drums store autocannon cartridges of the caliber specified in the component properties window. Differing calibers cannot be mixed within a single ammo drum.	
+def_gun_drum_large_s_desc		A large capacity autocannon ammo drum.	
+def_gun_drum_large_node_0_label		Ammo Count	
+def_gun_drum_large_node_0_desc		Outputs the total ammo count stored in the drum.	
+def_gun_drum_medium_name		Autocannon Ammo Drum (Medium)	
+def_gun_drum_medium_desc		Ammo drums store autocannon cartridges of the caliber specified in the component properties window. Differing calibers cannot be mixed within a single ammo drum.	
+def_gun_drum_medium_s_desc		A medium capacity autocannon ammo drum.	
+def_gun_drum_medium_node_0_label		Ammo Count	
+def_gun_drum_medium_node_0_desc		Outputs the total ammo count stored in the drum.	
+def_gun_drum_small_name		Autocannon Ammo Drum (Small)	
+def_gun_drum_small_desc		Ammo drums store autocannon cartridges of the caliber specified in the component properties window. Differing calibers cannot be mixed within a single ammo drum.	
+def_gun_drum_small_s_desc		A small capacity autocannon ammo drum.	
+def_gun_drum_small_node_0_label		Ammo Count	
+def_gun_drum_small_node_0_desc		Outputs the total ammo count stored in the drum.	
+def_gun_drum_xsmall_name		Machine Gun Ammo Box	
+def_gun_drum_xsmall_desc		Stores machine gun ammo, but can only be reloaded by hand. Machine guns are restricted to Kinetic, Armor-Piercing, and Incendiary ammo only.	
+def_gun_drum_xsmall_s_desc		A machine gun ammo box.	
+def_gun_drum_xsmall_node_0_label		Ammo count	
+def_gun_drum_xsmall_node_0_desc		Outputs the total ammo count stored in the box.	
+def_gun_l_name		Battle Cannon	
+def_gun_l_desc		Battle cannons provide powerful, consistent firepower in a compact form.	
+def_gun_l_s_desc		A battle cannon.	
+def_gun_l_node_0_label		Trigger	
+def_gun_l_node_0_desc		When true: fires a loaded shell.	
+def_gun_l_node_1_label		Loaded	
+def_gun_l_node_1_desc		Returns true when a shell is loaded and ready to fire.	
+def_gun_l_node_2_label		Open Breech	
+def_gun_l_node_2_desc		When true: opens the breech to allow shells to be loaded.	
+def_gun_l_barrel_name		Battle Cannon Barrel Extension	
+def_gun_l_barrel_desc		Barrel extensions increase weapon accuracy, but also produce more recoil force.	
+def_gun_l_barrel_s_desc		A battle cannon barrel extension.	
+def_gun_l_barrel_1_name		Battle Cannon Barrel Extension	
+def_gun_l_barrel_1_desc		Barrel extensions increase weapon accuracy, but also produce more recoil force.	
+def_gun_l_barrel_1_s_desc		A battle cannon barrel extension.	
+def_gun_l_barrel_2_name		Battle Cannon Barrel Extension	
+def_gun_l_barrel_2_desc		Barrel extensions increase weapon accuracy, but also produce more recoil force.	
+def_gun_l_barrel_2_s_desc		A battle cannon barrel extension.	
+def_gun_l_barrel_3_name		Battle Cannon Barrel Extension	
+def_gun_l_barrel_3_desc		Barrel extensions increase weapon accuracy, but also produce more recoil force.	
+def_gun_l_barrel_3_s_desc		A battle cannon barrel extension.	
+def_gun_l_muzzle_name		Battle Cannon Muzzle Brake	
+def_gun_l_muzzle_desc		A muzzle brake will reduce weapon recoil force when added to the end of a weapon barrel.	
+def_gun_l_muzzle_s_desc		A battle cannon muzzle brake.	
+def_gun_l_muzzle_1_name		Battle Cannon Muzzle Brake	
+def_gun_l_muzzle_1_desc		A muzzle brake will reduce weapon recoil force when added to the end of a weapon barrel.	
+def_gun_l_muzzle_1_s_desc		A battle cannon muzzle brake.	
+def_gun_l_muzzle_2_name		Battle Cannon Muzzle Brake	
+def_gun_l_muzzle_2_desc		A muzzle brake will reduce weapon recoil force when added to the end of a weapon barrel.	
+def_gun_l_muzzle_2_s_desc		A battle cannon muzzle brake.	
+def_gun_m_name		Heavy Autocannon	
+def_gun_m_desc		Heavy autocannons bridge the gap between fast-firing autocannons and high-caliber cannons. Autocannons require electric power to load ammo from connected belts or drums.	
+def_gun_m_s_desc		A heavy autocannon.	
+def_gun_m_node_0_label		Trigger	
+def_gun_m_node_0_desc		When true: feeds, loads, and fires cartridges from a connected belt or drum.	
+def_gun_m_node_1_label		Loaded	
+def_gun_m_node_1_desc		Returns true when a cartridge is loaded and ready to fire.	
+def_gun_m_node_2_label		Electric	
+def_gun_m_node_2_desc		Electrical power connection.	
+def_gun_m_barrel_name		Heavy Autocannon Barrel Extension	
+def_gun_m_barrel_desc		Barrel extensions increase weapon accuracy, but add additional weight.	
+def_gun_m_barrel_s_desc		A heavy autocannon barrel extension.	
+def_gun_m_barrel_1_name		Heavy Autocannon Barrel Extension	
+def_gun_m_barrel_1_desc		Barrel extensions increase weapon accuracy, but also produce more recoil force.	
+def_gun_m_barrel_1_s_desc		A heavy autocannon barrel extension.	
+def_gun_m_barrel_2_name		Heavy Autocannon Barrel Extension	
+def_gun_m_barrel_2_desc		Barrel extensions increase weapon accuracy, but also produce more recoil force.	
+def_gun_m_barrel_2_s_desc		A heavy autocannon barrel extension.	
+def_gun_m_barrel_3_name		Heavy Autocannon Barrel Extension	
+def_gun_m_barrel_3_desc		Barrel extensions increase weapon accuracy, but also produce more recoil force.	
+def_gun_m_barrel_3_s_desc		A heavy autocannon barrel extension.	
+def_gun_m_muzzle_name		Heavy Autocannon Muzzle Brake	
+def_gun_m_muzzle_desc		A muzzle brake will reduce weapon recoil force when added to the end of a weapon barrel.	
+def_gun_m_muzzle_s_desc		A heavy autocannon muzzle brake.	
+def_gun_m_muzzle_1_name		Heavy Autocannon Muzzle Brake	
+def_gun_m_muzzle_1_desc		A muzzle brake will reduce weapon recoil force when added to the end of a weapon barrel.	
+def_gun_m_muzzle_1_s_desc		A heavy autocannon muzzle brake.	
+def_gun_m_muzzle_2_name		Heavy Autocannon Muzzle Brake	
+def_gun_m_muzzle_2_desc		A muzzle brake will reduce weapon recoil force when added to the end of a weapon barrel.	
+def_gun_m_muzzle_2_s_desc		A heavy autocannon muzzle brake.	
+def_gun_rocket_launcher_name		Rocket Launcher	
+def_gun_rocket_launcher_desc		Rocket launchers fire powerful high explosive rockets, but cannot be reloaded once empty. Rockets are vulnerable to bullets while in flight.	
+def_gun_rocket_launcher_s_desc		A 4-shot rocket launcher.	
+def_gun_rocket_launcher_node_0_label		Trigger	
+def_gun_rocket_launcher_node_0_desc		When true: fires a loaded rocket.	
+def_gun_rocket_launcher_node_1_label		Loaded	
+def_gun_rocket_launcher_node_1_desc		Returns true when a rocket is loaded and ready to fire.	
+def_gun_rocket_launcher_node_2_label		Trigger Passthrough	
+def_gun_rocket_launcher_node_2_desc		Outputs the trigger value once all rockets have been expended.	
+def_gun_s_name		Light Autocannon	
+def_gun_s_desc		Light autocannons provide rapid fire and high ammo capacity. Autocannons require electric power to load ammo from connected belts or drums.	
+def_gun_s_s_desc		A light autocannon.	
+def_gun_s_node_0_label		Trigger	
+def_gun_s_node_0_desc		When true: feeds, loads, and fires cartridges from a connected belt or drum.	
+def_gun_s_node_1_label		Loaded	
+def_gun_s_node_1_desc		Returns true when a cartridge is loaded and ready to fire.	
+def_gun_s_node_2_label		Electric	
+def_gun_s_node_2_desc		Electrical power connection.	
+def_gun_s_barrel_name		Light Autocannon Barrel Extension	
+def_gun_s_barrel_desc		Barrel extensions increase weapon accuracy, but also produce more recoil force.	
+def_gun_s_barrel_s_desc		A light autocannon barrel extension.	
+def_gun_s_muzzle_name		Light Autocannon Muzzle Brake	
+def_gun_s_muzzle_desc		A muzzle brake will reduce weapon recoil force when added to the end of a weapon barrel.	
+def_gun_s_muzzle_s_desc		A light autocannon muzzle brake.	
+def_gun_s_muzzle_1_name		Light Autocannon Muzzle Brake	
+def_gun_s_muzzle_1_desc		A muzzle brake will reduce weapon recoil force when added to the end of a weapon barrel.	
+def_gun_s_muzzle_1_s_desc		A light autocannon muzzle brake.	
+def_gun_s_muzzle_2_name		Light Autocannon Muzzle Brake	
+def_gun_s_muzzle_2_desc		A muzzle brake will reduce weapon recoil force when added to the end of a weapon barrel.	
+def_gun_s_muzzle_2_s_desc		A light autocannon muzzle brake.	
+def_gun_s_muzzle_3_name		Light Autocannon Muzzle Brake	
+def_gun_s_muzzle_3_desc		A muzzle brake will reduce weapon recoil force when added to the end of a weapon barrel.	
+def_gun_s_muzzle_3_s_desc		A light autocannon muzzle brake.	
+def_gun_v_name		Rotary Autocannon	
+def_gun_v_desc		Rotary autocannons have a tremendous rate of fire, but can overheat quickly. Autocannons require electric power to load ammo from connected belts or drums.	
+def_gun_v_s_desc		A rotary autocannon.	
+def_gun_v_node_0_label		Trigger	
+def_gun_v_node_0_desc		When true: feeds, loads, and fires cartridges from a connected belt or drum.	
+def_gun_v_node_1_label		Loaded	
+def_gun_v_node_1_desc		Returns true when a cartridge is loaded and ready to fire.	
+def_gun_v_node_2_label		Electric	
+def_gun_v_node_2_desc		Electrical power connection.	
+def_gun_v_barrel_name		Rotary Autocannon Barrel Extension	
+def_gun_v_barrel_desc		Barrel extensions increase weapon accuracy, but add additional weight.	
+def_gun_v_barrel_s_desc		A rotary autocannon barrel extension.	
+def_gun_xl_name		Artillery Cannon	
+def_gun_xl_desc		Artillery cannons fire high caliber explosive and armor-piercing shells over great distances.	
+def_gun_xl_s_desc		An artillery cannon.	
+def_gun_xl_node_0_label		Trigger	
+def_gun_xl_node_0_desc		When true: fires a loaded shell.	
+def_gun_xl_node_1_label		Loaded	
+def_gun_xl_node_1_desc		Returns true when a shell is loaded and ready to fire.	
+def_gun_xl_node_2_label		Open Breech	
+def_gun_xl_node_2_desc		When true: opens the breech to allow shells to be loaded.	
+def_gun_xl_barrel_name		Artillery Cannon Barrel Extension	
+def_gun_xl_barrel_desc		Barrel extensions increase weapon accuracy, but also produce more recoil force.	
+def_gun_xl_barrel_s_desc		An artillery cannon barrel extension.	
+def_gun_xl_barrel_1_name		Artillery Cannon Barrel Extension	
+def_gun_xl_barrel_1_desc		Barrel extensions increase weapon accuracy, but also produce more recoil force.	
+def_gun_xl_barrel_1_s_desc		An artillery cannon barrel extension.	
+def_gun_xl_barrel_2_name		Artillery Cannon Barrel Extension	
+def_gun_xl_barrel_2_desc		Barrel extensions increase weapon accuracy, but also produce more recoil force.	
+def_gun_xl_barrel_2_s_desc		An artillery cannon barrel extension.	
+def_gun_xl_barrel_3_name		Artillery Cannon Barrel Extension	
+def_gun_xl_barrel_3_desc		Barrel extensions increase weapon accuracy, but also produce more recoil force.	
+def_gun_xl_barrel_3_s_desc		An artillery cannon barrel extension.	
+def_gun_xl_muzzle_name		Artillery Cannon Muzzle Brake	
+def_gun_xl_muzzle_desc		A muzzle brake will reduce weapon recoil force when added to the end of a weapon barrel.	
+def_gun_xl_muzzle_s_desc		A artillery cannon muzzle brake.	
+def_gun_xl_muzzle_1_name		Artillery Cannon Muzzle Brake	
+def_gun_xl_muzzle_1_desc		A muzzle brake will reduce weapon recoil force when added to the end of a weapon barrel.	
+def_gun_xl_muzzle_1_s_desc		A artillery cannon muzzle brake.	
+def_gun_xl_muzzle_2_name		Artillery Cannon Muzzle Brake	
+def_gun_xl_muzzle_2_desc		A muzzle brake will reduce weapon recoil force when added to the end of a weapon barrel.	
+def_gun_xl_muzzle_2_s_desc		A artillery cannon muzzle brake.	
+def_gun_xs_name		Machine Gun	
+def_gun_xs_desc		Machine guns are lightweight and compact, but require ammo boxes to be reloaded by hand.	
+def_gun_xs_s_desc		A machine gun.	
+def_gun_xs_node_0_label		Trigger	
+def_gun_xs_node_0_desc		When true: feeds, loads, and fires cartridges from a connected ammo box.	
+def_gun_xs_node_1_label		Loaded	
+def_gun_xs_node_1_desc		Returns true when a cartridge is loaded and ready to fire.	
+def_gun_xxl_name		Bertha Cannon	
+def_gun_xxl_desc		The Bertha cannon fires devastating high explosive mortar shells, with a wide radius of destruction.	
+def_gun_xxl_s_desc		A Bertha cannon.	
+def_gun_xxl_node_0_label		Trigger	
+def_gun_xxl_node_0_desc		When true: fires a loaded shell.	
+def_gun_xxl_node_1_label		Loaded	
+def_gun_xxl_node_1_desc		Returns true when a shell is loaded and ready to fire.	
+def_gun_xxl_node_2_label		Open Breech	
+def_gun_xxl_node_2_desc		When true: opens the breech to allow shells to be loaded.	
+def_gun_xxl_barrel_name		Bertha Cannon Barrel Extension	
+def_gun_xxl_barrel_desc		Barrel extensions increase weapon accuracy, but also produce more recoil force.	
+def_gun_xxl_barrel_s_desc		A Bertha cannon barrel extension.	
 def_gyro_name		Gyro	陀螺仪
 def_gyro_desc		It outputs stabilised values that can be sent to rotors and engines to make them much easier to control. An on/off input allows you to activate and deactivate the internal auto-hover circuit. When auto-hover is enabled, the gyroscope will attempt to keep your helicopter steady.	它输出稳定值，可以发送到螺旋桨和发动机，使它们更容易控制。开/关输入允许您激活和停用内部自动悬停电路。启用自动悬停后，陀螺仪将尝试保持直升机稳定。
 def_gyro_s_desc		The gyroscope takes 4 standard value signals representing the desired yaw, pitch, roll and vertical motion of a helicopter.	陀螺仪接收4个标准值信号，表示直升机所需的偏航(Yaw)、俯仰(Pitch)、偏转(Roll)和垂直运动。
@@ -3442,122 +3936,177 @@ def_intercooler_large_node_4_desc		Compartment temperature.	液体A温度
 def_intercooler_large_node_5_label		Temp B	温度B
 def_intercooler_large_node_5_desc		Compartment temperature.	液体B温度
 def_inventory_equipment_binoculars_name		Equipment inventory (Binoculars)	装备架(望远镜)
-def_inventory_equipment_binoculars_desc		Pressing [$[action_interact_left]]/[$[action_interact_right]] will equip/store the selected item. Hold [$[action_equipment_use]] to zoom in on faraway objects. This equipment can be stored on the belt when not in use.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。 按住 [$[action_equipment_use]] 来放大观看远处目标。 不使用时，这个装备能挂腰带上。
+def_inventory_equipment_binoculars_desc		Hold [$[action_equipment_use]] to zoom in on faraway objects.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。 按住 [$[action_equipment_use]] 来放大观看远处目标。 不使用时，这个装备能挂腰带上。
 def_inventory_equipment_binoculars_s_desc		A small equipment storage unit containing a pair of binoculars.	小型装备架，存储一个望远镜
 def_inventory_equipment_binoculars_node_0_label		Electric	电源
 def_inventory_equipment_binoculars_node_0_desc		Electrical power connection.	电源连接
+def_inventory_equipment_c4_name		Equipment inventory (C4 Explosive)	
+def_inventory_equipment_c4_desc		Press [$[action_equipment_use]] to arm and plant the C-4 explosive on a nearby surface.	
+def_inventory_equipment_c4_s_desc		A small equipment storage unit containing C-4 plastic explosive.	
+def_inventory_equipment_c4_node_0_label		Electric	
+def_inventory_equipment_c4_node_0_desc		Electrical power connection.	
+def_inventory_equipment_c4_detonator_name		Equipment inventory (C4 Detonator)	
+def_inventory_equipment_c4_detonator_desc		Press [$[action_equipment_use]] to detonate armed C-4 explosives.	
+def_inventory_equipment_c4_detonator_s_desc		A small equipment storage unit containing a C-4 remote detonator.	
+def_inventory_equipment_c4_detonator_node_0_label		Electric	
+def_inventory_equipment_c4_detonator_node_0_desc		Electrical power connection.	
 def_inventory_equipment_cable_name		Equipment inventory (Cable)	装备架(电缆)
-def_inventory_equipment_cable_desc		Pressing [$[action_interact_left]]/[$[action_interact_right]] will equip/store the selected item. Press [$[action_equipment_use]] to attach the cable to an unoccupied electrical cable anchor. Pressing [$[action_interact_left]]/[$[action_interact_right]] on an occupied electical cable anchor will retrieve the cable if the player has inventory space to hold it. This equipment can be stored on the back when not in use.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。 按下 [$[action_equipment_use]] 来将电缆连接到未占用的电缆锚点。 如果有剩余空间，在已经占用的电缆锚点按下 [$[action_interact_left]]/[$[action_interact_right]] 将会把电缆收回到玩家库存。 不使用时，这个装备能够收到背后。
+def_inventory_equipment_cable_desc		Press [$[action_equipment_use]] to attach the cable to an unoccupied electrical cable anchor. Pressing [$[action_interact_left]]/[$[action_interact_right]] on an occupied electical cable anchor will retrieve the cable if the player has inventory space to hold it.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。 按下 [$[action_equipment_use]] 来将电缆连接到未占用的电缆锚点。 如果有剩余空间，在已经占用的电缆锚点按下 [$[action_interact_left]]/[$[action_interact_right]] 将会把电缆收回到玩家库存。 不使用时，这个装备能够收到背后。
 def_inventory_equipment_cable_s_desc		A large equipment storage unit containing 20m of electrical cable.	大型装备架，存储共计20m长的电缆
 def_inventory_equipment_cable_node_0_label		Electric	电源
 def_inventory_equipment_cable_node_0_desc		Electrical power connection.	电源连接
 def_inventory_equipment_compass_name		Equipment inventory (Compass)	装备架(指南针)
-def_inventory_equipment_compass_desc		Pressing [$[action_interact_left]]/[$[action_interact_right]] will equip/store the selected item. When held, the red needle of the compass will point northwards. This equipment can be stored on the belt when not in use.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。拿在手上时，红色指针会指向北方。不使用时，这个装备能挂腰带上。
+def_inventory_equipment_compass_desc		When held, the red needle of the compass will point northwards. The compass also displays a bearing on the equipment hotbar UI.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。拿在手上时，红色指针会指向北方。不使用时，这个装备能挂腰带上。
 def_inventory_equipment_compass_s_desc		A small equipment storage unit containing a compass.	小型装备架，存储一个指南针
 def_inventory_equipment_compass_node_0_label		Electric	电源
 def_inventory_equipment_compass_node_0_desc		Electrical power connection.	电源连接
 def_inventory_equipment_defibrillator_name		Equipment inventory (Defibrillator)	装备架(除颤器)
-def_inventory_equipment_defibrillator_desc		Pressing [$[action_interact_left]]/[$[action_interact_right]] will equip/store the selected item. Press [$[action_equipment_use]] on an incapacitated survivor to revive them. Survivors who have been left incapacitated for too long will expire and not be revivable. This equipment requires electric charge to function, and will recharge when placed into a powered large equipment storage unit. This equipment can be stored on the back when not in use.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。对着丧失行动能力的角色按下 [$[action_equipment_use]] 可以使其复苏。丧失行动能力过长时间的幸存者会无法被救活，该设备需要充电才能发挥作用，放入已供电的大型装备架时充电。不使用时可以放在背后。
+def_inventory_equipment_defibrillator_desc		Press [$[action_equipment_use]] on an incapacitated survivor to revive them. Requires electric charge to function, and will recharge when placed into a powered large equipment storage unit.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。对着丧失行动能力的角色按下 [$[action_equipment_use]] 可以使其复苏。丧失行动能力过长时间的幸存者会无法被救活，该设备需要充电才能发挥作用，放入已供电的大型装备架时充电。不使用时可以放在背后。
 def_inventory_equipment_defibrillator_s_desc		A large equipment storage unit containing a defibrillator.	大型装备架，存储一个除颤器
 def_inventory_equipment_defibrillator_node_0_label		Electric	电源
 def_inventory_equipment_defibrillator_node_0_desc		Electrical power connection.	电源连接
 def_inventory_equipment_fire_extinguisher_name		Equipment inventory (Fire Extinguisher)	装备架(灭火器)
-def_inventory_equipment_fire_extinguisher_desc		Pressing [$[action_interact_left]]/[$[action_interact_right]] will equip/store the selected item. Hold [$[action_equipment_use]] to spray a stream of water capable of extinguishing fires. This equipment has a limited water capacity and cannot be refilled. This equipment can be stored on the back when not in use.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。对准火焰按住 [$[action_equipment_use]] 喷出一柱水来灭火。这个装备有着有限的水容量而且不能装填。不使用时可以放在背后。
+def_inventory_equipment_fire_extinguisher_desc		Hold [$[action_equipment_use]] to spray a stream of water capable of extinguishing fires. This equipment has a limited water capacity and cannot be refilled.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。对准火焰按住 [$[action_equipment_use]] 喷出一柱水来灭火。这个装备有着有限的水容量而且不能装填。不使用时可以放在背后。
 def_inventory_equipment_fire_extinguisher_s_desc		A large equipment storage unit containing a fire extinguisher.	大型装备架，存储一个灭火器
 def_inventory_equipment_fire_extinguisher_node_0_label		Electric	电源
 def_inventory_equipment_fire_extinguisher_node_0_desc		Electrical power connection.	电源连接
 def_inventory_equipment_first_aid_name		Equipment inventory (First Aid Kit)	装备架(急救包)
-def_inventory_equipment_first_aid_desc		Pressing [$[action_interact_left]]/[$[action_interact_right]] will equip/store the selected item. Press [$[action_equipment_use]] to heal yourself, or heal a survivor highlighted by your crosshair. This equipment has limited uses, picking up additional first aid kits will replenish these uses. This equipment can be stored on the belt when not in use.	"按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按下 [$[action_equipment_use]] 来治疗你自己, 或者准星指向的高亮幸存者。这个装备有使用次数限制，拿起其他急救包能够补充使用次数。不使用时可以挂在腰带上。"
+def_inventory_equipment_first_aid_desc		Press [$[action_equipment_use]] to heal yourself, or heal a survivor highlighted by your crosshair.	"按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按下 [$[action_equipment_use]] 来治疗你自己, 或者准星指向的高亮幸存者。这个装备有使用次数限制，拿起其他急救包能够补充使用次数。不使用时可以挂在腰带上。"
 def_inventory_equipment_first_aid_s_desc		A small equipment storage unit containing a first aid kit.	小型装备架，存储一个急救包
 def_inventory_equipment_first_aid_node_0_label		Electric	电源
 def_inventory_equipment_first_aid_node_0_desc		Electrical power connection.	电源连接
 def_inventory_equipment_flare_name		Equipment inventory (Flare)	装备架(投掷信号弹)
-def_inventory_equipment_flare_desc		Pressing [$[action_interact_left]]/[$[action_interact_right]] will equip/store the selected item. Press [$[action_equipment_use]] to throw a red smoke flare which burns for a long time. This equipment has a limited uses, picking up additional flares will replenish these uses. This equipment can be stored on the belt when not in use.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按下 [$[action_equipment_use]] 来扔出一个持续时间内释放红烟并发光的信号弹。这个装备有使用次数限制，拿起其他投掷信号弹能够补充使用次数。不使用时可以挂在腰带上。
+def_inventory_equipment_flare_desc		Press [$[action_equipment_use]] to throw a red smoke flare which burns for a long time.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按下 [$[action_equipment_use]] 来扔出一个持续时间内释放红烟并发光的信号弹。这个装备有使用次数限制，拿起其他投掷信号弹能够补充使用次数。不使用时可以挂在腰带上。
 def_inventory_equipment_flare_s_desc		A small equipment storage unit containing flares.	小型装备架，存储投掷信号弹
 def_inventory_equipment_flare_node_0_label		Electric	电源
 def_inventory_equipment_flare_node_0_desc		Electrical power connection.	电源连接
 def_inventory_equipment_flaregun_name		Equipment inventory (Flaregun)	装备架(信号弹枪)
-def_inventory_equipment_flaregun_desc		Pressing [$[action_interact_left]]/[$[action_interact_right]] will equip/store the selected item. Press [$[action_equipment_use]] to fire a red illumination flare that burns for a short time. Press [$[action_equipment_secondary]] to unload any flaregun round in the gun. Using a box of flaregun ammo will allow the gun to be reloaded with additional flaregun rounds. This equipment can be stored on the belt when not in use.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按下 [$[action_equipment_use]] 来发射一个持续较短时间的发光信号弹，按下 [$[action_equipment_secondary]] 来卸载枪中弹药，使用一盒信号枪弹药后可以让枪重新装填。不使用时可以挂在腰上。
+def_inventory_equipment_flaregun_desc		Press [$[action_equipment_use]] to fire a red illumination flare that burns for a short time, and [$[action_equipment_secondary]] to reload.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按下 [$[action_equipment_use]] 来发射一个持续较短时间的发光信号弹，按下 [$[action_equipment_secondary]] 来卸载枪中弹药，使用一盒信号枪弹药后可以让枪重新装填。不使用时可以挂在腰上。
 def_inventory_equipment_flaregun_s_desc		A small equipment storage unit containing a flaregun preloaded with 1 flaregun round.	小型装备架，存储一个带一发弹药的信号弹枪
 def_inventory_equipment_flaregun_node_0_label		Electric	电源
 def_inventory_equipment_flaregun_node_0_desc		Electrical power connection.	电源连接
 def_inventory_equipment_flaregun_ammo_name		Equipment inventory (Flaregun Ammo)	装备架(信号弹枪弹药)
-def_inventory_equipment_flaregun_ammo_desc		Pressing [$[action_interact_left]]/[$[action_interact_right]] will equip/store the selected item. Press [$[action_equipment_use]] to reload any unloaded flaregun in the players inventory. This equipment has a limited uses, picking up additional boxes of flaregun ammo will replenish these uses. This equipment can be stored on the belt when not in use.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按下 [$[action_equipment_use]] 来给在库存中没有装弹的任何信号枪装上信号弹。有着有限使用次数，拿起其他信号枪弹药能够补充使用次数。不使用时可以挂在腰上。
+def_inventory_equipment_flaregun_ammo_desc		Press [$[action_equipment_use]] to reload an equipped flaregun.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按下 [$[action_equipment_use]] 来给在库存中没有装弹的任何信号枪装上信号弹。有着有限使用次数，拿起其他信号枪弹药能够补充使用次数。不使用时可以挂在腰上。
 def_inventory_equipment_flaregun_ammo_s_desc		A small equipment storage unit containing a box flaregun ammo.	小装备架，存储一盒信号枪弹药
 def_inventory_equipment_flaregun_ammo_node_0_label		Electric	电源
 def_inventory_equipment_flaregun_ammo_node_0_desc		Electrical power connection.	电源连接
 def_inventory_equipment_flashlight_name		Equipment inventory (Flashlight)	装备架(手电筒)
-def_inventory_equipment_flashlight_desc		Pressing [$[action_interact_left]]/[$[action_interact_right]] will equip/store the selected item. Press [$[action_equipment_use]] to toggle the flashlight on or off. This equipment requires electric charge to function, and will recharge when placed into a powered small equipment storage unit. This equipment can be stored on the belt when not in use.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按下 [$[action_equipment_use]] 来开关手电筒。该设备需要充电才能发挥作用，放入已供电的小型装备架时充电。不使用时可以挂在腰上。
+def_inventory_equipment_flashlight_desc		Press [$[action_equipment_use]] to toggle the flashlight on or off. Requires electric charge to function, and will recharge when placed into a powered small equipment storage unit.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按下 [$[action_equipment_use]] 来开关手电筒。该设备需要充电才能发挥作用，放入已供电的小型装备架时充电。不使用时可以挂在腰上。
 def_inventory_equipment_flashlight_s_desc		A small equipment storage unit containing a flashlight.	小型装备架，存储一个手电筒
 def_inventory_equipment_flashlight_node_0_label		Electric	电源
 def_inventory_equipment_flashlight_node_0_desc		Electrical power connection.	电源连接
 def_inventory_equipment_geiger_counter_name		Equipment inventory (Radiation Detector)	装备架(辐射指示器)
-def_inventory_equipment_geiger_counter_desc		Pressing [$[action_interact_left]]/[$[action_interact_right]] will equip/store the selected item. Press [$[action_equipment_use]] to toggle radiation detection on or off. This equipment requires electric charge to function, and will recharge when placed into a powered small equipment storage unit. This equipment can be stored on the belt.	按[$[action_interact_left]]/[$[action_interact_right]]能装备/收起选中物品。按[$[action_equipment_use]]打开或关闭辐射指示器。该设备需要充电才能发挥作用，放入已供电的小型装备架时充电。不使用时，这个装备能挂腰带上。
+def_inventory_equipment_geiger_counter_desc		Press [$[action_equipment_use]] to toggle radiation detection on or off. Requires electric charge to function, and will recharge when placed into a powered small equipment storage unit.	按[$[action_interact_left]]/[$[action_interact_right]]能装备/收起选中物品。按[$[action_equipment_use]]打开或关闭辐射指示器。该设备需要充电才能发挥作用，放入已供电的小型装备架时充电。不使用时，这个装备能挂腰带上。
 def_inventory_equipment_geiger_counter_s_desc		A small equipment storage unit containing a radiation detector.	小型装备架，储存一个辐射指示器
 def_inventory_equipment_geiger_counter_node_0_label		Electric	电源
 def_inventory_equipment_geiger_counter_node_0_desc		Electrical power connection.	电源连接
+def_inventory_equipment_grenade_name		Equipment Inventory (Hand Grenade)	
+def_inventory_equipment_grenade_desc		Press [$[action_equipment_use]] to throw a hand grenade, which will detonate after a short delay.	
+def_inventory_equipment_grenade_s_desc		A small equipment storage unit containing a hand grenade.	
+def_inventory_equipment_grenade_node_0_label		Electric	
+def_inventory_equipment_grenade_node_0_desc		Electrical power connection.	
 def_inventory_equipment_hose_name		Equipment inventory (Hose)	装备架(软管)
-def_inventory_equipment_hose_desc		Pressing [$[action_interact_left]]/[$[action_interact_right]] will equip/store the selected item. Press [$[action_equipment_use]] to attach the hose to an unoccupied fluid hose anchor. Pressing [$[action_interact_left]]/[$[action_interact_right]] on an occupied fluid hose anchor will retrieve the hose if the player has inventory space to hold it. If the hose contains water, press [$[action_equipment_secondary]] to toggle open the hose valve and allow the water to flow freely. This equipment can be stored on the back when not in use.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。 按下 [$[action_equipment_use]] 来将电缆连接到未占用的软管锚点。 如果有剩余空间，在已经占用的软管锚点按下 [$[action_interact_left]]/[$[action_interact_right]] 将会把软管收回到玩家库存。如果软管中有流体，按下 [$[action_equipment_secondary]] 可以开关阀门允许流体自由流动。不使用时，这个装备能够收到背后。
+def_inventory_equipment_hose_desc		Press [$[action_equipment_use]] to attach the hose to an unoccupied fluid hose anchor. Pressing [$[action_interact_left]]/[$[action_interact_right]] on an occupied fluid hose anchor will retrieve the hose if the player has inventory space to hold it. If the hose contains water, press [$[action_equipment_secondary]] to toggle open the hose valve and allow the water to flow freely.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。 按下 [$[action_equipment_use]] 来将电缆连接到未占用的软管锚点。 如果有剩余空间，在已经占用的软管锚点按下 [$[action_interact_left]]/[$[action_interact_right]] 将会把软管收回到玩家库存。如果软管中有流体，按下 [$[action_equipment_secondary]] 可以开关阀门允许流体自由流动。不使用时，这个装备能够收到背后。
 def_inventory_equipment_hose_s_desc		A large equipment storage unit containing 20m of fluid hosing.	大型装备架，存储20m长流体软管
 def_inventory_equipment_hose_node_0_label		Electric	电源
 def_inventory_equipment_hose_node_0_desc		Electrical power connection.	电源连接
 def_inventory_equipment_night_vision_binoculars_name		Equipment inventory (Night Vision Binoculars)	装备架(夜视望远镜)
-def_inventory_equipment_night_vision_binoculars_desc		Pressing [$[action_interact_left]]/[$[action_interact_right]] will equip/store the selected item. Hold [$[action_equipment_use]] to zoom in on faraway objects. The night vision effect provides improved visibility in low light conditions, but greatly hinders visibility in daylight. This equipment requires electric charge to function, and will recharge when placed into a powered small equipment storage unit. This equipment can be stored on the belt when not in use.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按住 [$[action_equipment_use]] 来放大远处目标。夜视效果提供了在微光环境下更好的能见度，但在白天会受到极大影响。该设备需要充电才能发挥作用，放入已供电的小型装备架时充电。不使用时可以挂在腰上。
+def_inventory_equipment_night_vision_binoculars_desc		Hold [$[action_equipment_use]] to zoom in on faraway objects. The night vision effect provides improved visibility in low light conditions, but hinders visibility in daylight. Requires electric charge to function, and will recharge when placed into a powered small equipment storage unit.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按住 [$[action_equipment_use]] 来放大远处目标。夜视效果提供了在微光环境下更好的能见度，但在白天会受到极大影响。该设备需要充电才能发挥作用，放入已供电的小型装备架时充电。不使用时可以挂在腰上。
 def_inventory_equipment_night_vision_binoculars_s_desc		A small equipment storage unit containing a pair of night vision binoculars.	小型装备架，存储一个夜视望远镜
 def_inventory_equipment_night_vision_binoculars_node_0_label		Electric	电源
 def_inventory_equipment_night_vision_binoculars_node_0_desc		Electrical power connection.	电源连接
 def_inventory_equipment_oxygen_mask_name		Equipment inventory (Oxygen Mask)	装备架(氧气面罩)
-def_inventory_equipment_oxygen_mask_desc		Pressing [$[action_interact_left]]/[$[action_interact_right]] will equip/store the selected item. Press [$[action_equipment_use]] to recover your breath while underwater. This equipment has a limited air capacity, and will refill when placed into a powered small equipment storage unit. This equipment can be stored on the belt when not in use.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按下[$[action_equipment_use]]来在水底恢复呼吸，这个装备有有限的气体容量，只有放在已供电的小型装备架时才会回复。不使用时可以挂在腰上。
+def_inventory_equipment_oxygen_mask_desc		Press [$[action_equipment_use]] to recover your breath while underwater. This equipment has a limited air capacity, and will refill when placed into a powered small equipment storage unit.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按下[$[action_equipment_use]]来在水底恢复呼吸，这个装备有有限的气体容量，只有放在已供电的小型装备架时才会回复。不使用时可以挂在腰上。
 def_inventory_equipment_oxygen_mask_s_desc		A small equipment storage unit containing an oxygen mask.	小型装备架，存储一个氧气面罩
 def_inventory_equipment_oxygen_mask_node_0_label		Electric	电源
 def_inventory_equipment_oxygen_mask_node_0_desc		Electrical power connection.	电源连接
+def_inventory_equipment_pistol_name		Equipment inventory (Pistol)	
+def_inventory_equipment_pistol_desc		Press [$[action_equipment_use]] to fire, and [$[action_equipment_secondary]] to reload. The pistol is compact enough for a belt holster, and can be accurate when recoil is carefully managed.	
+def_inventory_equipment_pistol_s_desc		A small equipment storage unit containing a pistol.	
+def_inventory_equipment_pistol_node_0_label		Electric	
+def_inventory_equipment_pistol_node_0_desc		Electrical power connection.	
+def_inventory_equipment_pistol_ammo_name		Equipment Inventory (Pistol Ammo)	
+def_inventory_equipment_pistol_ammo_desc		Press [$[action_equipment_use]] to reload an equipped pistol.	
+def_inventory_equipment_pistol_ammo_s_desc		A small equipment storage unit containing a pistol ammo magazine.	
+def_inventory_equipment_pistol_ammo_node_0_label		Electric	
+def_inventory_equipment_pistol_ammo_node_0_desc		Electrical power connection.	
 def_inventory_equipment_radio_name		Equipment inventory (Radio)	装备架(无线电)
-def_inventory_equipment_radio_desc		Pressing [$[action_interact_left]]/[$[action_interact_right]] will equip/store the selected item. Hold [$[action_equipment_use]] transmit voice audio. Press [$[action_equipment_secondary]] to cycle between frequencies 0~8, or turn the radio off. When a frequncy is selected, the radio will transmit and receive voice audio on that frequency only. This equipment requires electric charge to function, and will recharge when placed into a powered small equipment storage unit. This equipment can be stored on the belt when not in use.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按住 [$[action_equipment_use]] 来发送语音，按下 [$[action_equipment_secondary]] 来在频道0~8之间切换或关掉无线电。当选中一个特定频率后，无线电只会在该频率上收发音频信号。该设备需要充电才能发挥作用，放入已供电的小型装备架时充电。不使用时可以挂在腰上。
+def_inventory_equipment_radio_desc		Hold [$[action_equipment_use]] transmit voice audio. Press [$[action_equipment_secondary]] to cycle between frequencies 0~8, or turn the radio off. When a frequncy is selected, the radio will transmit and receive voice audio on that frequency only. Requires electric charge to function, and will recharge when placed into a powered small equipment storage unit. (Max Effective Range : 500m)	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按住 [$[action_equipment_use]] 来发送语音，按下 [$[action_equipment_secondary]] 来在频道0~8之间切换或关掉无线电。当选中一个特定频率后，无线电只会在该频率上收发音频信号。该设备需要充电才能发挥作用，放入已供电的小型装备架时充电。不使用时可以挂在腰上。
 def_inventory_equipment_radio_s_desc		A small equipment storage unit containing a handheld radio.	小型装备架，存储一个手持无线电
 def_inventory_equipment_radio_node_0_label		Electric	电源
 def_inventory_equipment_radio_node_0_desc		Electrical power connection.	电源连接
 def_inventory_equipment_radio_signal_locator_name		Equipment inventory (Radio Signal Locator)	装备架(无线电信号定位器)
-def_inventory_equipment_radio_signal_locator_desc		Pressing [$[action_interact_left]]/[$[action_interact_right]] will equip/store the selected item. Press [$[action_equipment_use]] to toggle the locator on or off. When active, the locator produces audible beeps that increase in frequency as the player nears an active transponder. The handheld locator has a shorter detection range than the vehicle mounted locator, but can narrow down the target location to a smaller area. This equipment requires electric charge to function, and will recharge when placed into a powered large equipment storage unit. This equipment can be stored on the back when not in use.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按下[$[action_equipment_use]]来开关定位器。当打开时，定位器会持续发出滴滴声，并且越接近信号源滴滴声频率越高。手持无线电定位器的有效范围比载具定位器小，但能够在小范围内更加精确定位。该设备需要充电才能发挥作用，放入已供电的大型装备架时充电。不使用时可以放在背后。
+def_inventory_equipment_radio_signal_locator_desc		Press [$[action_equipment_use]] to toggle the locator on or off. When active, the locator produces audible beeps that increase in frequency as the player nears an active transponder. The handheld locator has a shorter detection range than the vehicle mounted locator, but can narrow down the target location to a smaller area. Requires electric charge to function, and will recharge when placed into a powered large equipment storage unit.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按下[$[action_equipment_use]]来开关定位器。当打开时，定位器会持续发出滴滴声，并且越接近信号源滴滴声频率越高。手持无线电定位器的有效范围比载具定位器小，但能够在小范围内更加精确定位。该设备需要充电才能发挥作用，放入已供电的大型装备架时充电。不使用时可以放在背后。
 def_inventory_equipment_radio_signal_locator_s_desc		A large equipment storage unit containing a handheld transponder locator.	小型装备架，存储一个手持无线电信号定位器
 def_inventory_equipment_radio_signal_locator_node_0_label		Electric	电源
 def_inventory_equipment_radio_signal_locator_node_0_desc		Electrical power connection.	电源连接
 def_inventory_equipment_remote_control_name		Equipment inventory (Remote Control Unit)	装备架(远程控制单元)
-def_inventory_equipment_remote_control_desc		Pressing [$[action_interact_left]]/[$[action_interact_right]] will equip/store the selected item. Press [$[action_equipment_use]] to toggle the remote control on or off. Press [$[action_equipment_secondary]] to cycle between frequencies 0~8. When active, the remote control uses the basic vehicle pilot seat input bindings and transmits them as composite radio data on the selected frequency. This equipment requires electric charge to function, and will recharge when placed into a powered small equipment storage unit. This equipment can be stored on the belt when not in use.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按下 [$[action_equipment_use]] 来切换远程控制开关，按下 [$[action_equipment_secondary]] 来循环0~8的频率。当开启时，远程控制将玩家操作输出为混合信号(参照基础载具控制)发送到指定频率。该设备需要充电才能发挥作用，放入已供电的小型装备架时充电。不使用时可以挂在腰上。
+def_inventory_equipment_remote_control_desc		Press [$[action_equipment_use]] to toggle the remote control on or off. Press [$[action_equipment_secondary]] to cycle between frequencies 0~8. When active, the remote control uses the basic vehicle pilot seat input bindings and transmits them as composite radio data on the selected frequency. Requires electric charge to function, and will recharge when placed into a powered small equipment storage unit. (Max Effective Range : 500m)	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按下 [$[action_equipment_use]] 来切换远程控制开关，按下 [$[action_equipment_secondary]] 来循环0~8的频率。当开启时，远程控制将玩家操作输出为混合信号(参照基础载具控制)发送到指定频率。该设备需要充电才能发挥作用，放入已供电的小型装备架时充电。不使用时可以挂在腰上。
 def_inventory_equipment_remote_control_s_desc		A small equipment storage unit containing a remote control unit.	小型装备架，存储一个远程控制单元
 def_inventory_equipment_remote_control_node_0_label		Electric	电源
 def_inventory_equipment_remote_control_node_0_desc		Electrical power connection.	电源连接
+def_inventory_equipment_rifle_name		Equipment inventory (Rifle)	
+def_inventory_equipment_rifle_desc		Press [$[action_equipment_use]] to fire, and [$[action_equipment_secondary]] to reload. The rifle fires accurate and powerful shots for long-range engagements.	
+def_inventory_equipment_rifle_s_desc		A large equipment storage unit containing a rifle.	
+def_inventory_equipment_rifle_node_0_label		Electric	
+def_inventory_equipment_rifle_node_0_desc		Electrical power connection.	
+def_inventory_equipment_rifle_ammo_name		Equipment inventory (Rifle Ammo)	
+def_inventory_equipment_rifle_ammo_desc		Press [$[action_equipment_use]] to reload an equipped rifle.	
+def_inventory_equipment_rifle_ammo_s_desc		A small equipment storage unit containing a rifle ammo magazine.	
+def_inventory_equipment_rifle_ammo_node_0_label		Electric	
+def_inventory_equipment_rifle_ammo_node_0_desc		Electrical power connection.	
 def_inventory_equipment_rope_name		Equipment inventory (Rope)	装备架(绳索)
-def_inventory_equipment_rope_desc		Pressing [$[action_interact_left]]/[$[action_interact_right]] will equip/store the selected item. Press [$[action_equipment_use]] to attach the rope to any rope anchor. Pressing [$[action_interact_left]]/[$[action_interact_right]] on an occupied rope anchor will retrieve the rope if the player has inventory space to hold it. This equipment can be stored on the back when not in use.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。 按下 [$[action_equipment_use]] 来将绳索连接到未占用的绳索锚点。 如果有剩余空间，在已经占用的绳索锚点按下 [$[action_interact_left]]/[$[action_interact_right]] 将会把绳索收回到玩家库存。 不使用时，这个装备能够收到背后。
+def_inventory_equipment_rope_desc		Press [$[action_equipment_use]] to attach the rope to any rope anchor. Pressing [$[action_interact_left]]/[$[action_interact_right]] on an occupied rope anchor will retrieve the rope if the player has inventory space to hold it.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。 按下 [$[action_equipment_use]] 来将绳索连接到未占用的绳索锚点。 如果有剩余空间，在已经占用的绳索锚点按下 [$[action_interact_left]]/[$[action_interact_right]] 将会把绳索收回到玩家库存。 不使用时，这个装备能够收到背后。
 def_inventory_equipment_rope_s_desc		A large equipment storage unit containing 20m of rope.	大型装备架，存储20m长绳索
 def_inventory_equipment_rope_node_0_label		Electric	电源
 def_inventory_equipment_rope_node_0_desc		Electrical power connection.	电源连接
+def_inventory_equipment_smg_name		Equipment inventory (SMG)	
+def_inventory_equipment_smg_desc		Press [$[action_equipment_use]] to fire, and [$[action_equipment_secondary]] to reload. The SMG has a high rate of fire and magazine capacity.	
+def_inventory_equipment_smg_s_desc		A large equipment storage unit containing a submachine gun.	
+def_inventory_equipment_smg_node_0_label		Electric	
+def_inventory_equipment_smg_node_0_desc		Electrical power connection.	
+def_inventory_equipment_smg_ammo_name		Equipment inventory (SMG Ammo)	
+def_inventory_equipment_smg_ammo_desc		Press [$[action_equipment_use]] to reload an equipped submachine gun.	
+def_inventory_equipment_smg_ammo_s_desc		A small equipment storage unit containing a submachine gun ammo magazine.	
+def_inventory_equipment_smg_ammo_node_0_label		Electric	
+def_inventory_equipment_smg_ammo_node_0_desc		Electrical power connection.	
+def_inventory_equipment_speargun_name		Equipment inventory (Speargun)	
+def_inventory_equipment_speargun_desc		Press [$[action_equipment_use]] to fire, and [$[action_equipment_secondary]] to reload. The speargun can be fired underwater, the heavier spears travelling through the water more effectively than bullets.	
+def_inventory_equipment_speargun_s_desc		A large equipment storage unit containing a speargun.	
+def_inventory_equipment_speargun_node_0_label		Electric	
+def_inventory_equipment_speargun_node_0_desc		Electrical power connection.	
+def_inventory_equipment_speargun_ammo_name		Equipment inventory (Speargun Ammo)	装备架(鱼叉枪弹药)
+def_inventory_equipment_speargun_ammo_desc		Press [$[action_equipment_use]] to reload an equipped speargun.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按下 [$[action_equipment_use]] 来给在库存中没有装弹的鱼叉枪装上弹药。有着有限使用次数，拿起其他鱼叉枪弹药能够补充使用次数。不使用时可以挂在腰上。
+def_inventory_equipment_speargun_ammo_s_desc		A small equipment storage unit containing a box of speargun ammo.	小型装备架，存储一盒鱼叉枪弹药
+def_inventory_equipment_speargun_ammo_node_0_label		Electric	电力
+def_inventory_equipment_speargun_ammo_node_0_desc		Electrical power connection.	电力接口
 def_inventory_equipment_strobe_light_name		Equipment inventory (Strobe Light)	装备架(频闪灯)
-def_inventory_equipment_strobe_light_desc		Pressing [$[action_interact_left]]/[$[action_interact_right]] will equip/store the selected item. Press [$[action_equipment_use]] to toggle the strobe light on or off. Press [$[action_equipment_secondary]] to toggle MOB (man overboard) mode, which will automatically turn the strobe light on if the player is submerged in water. The strobe light will continue to function when unequipped or discarded. This equipment requires electric charge to function, and will recharge when placed into a powered small equipment storage unit. This equipment can be stored on the belt.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按下 [$[action_equipment_use]] 来开关频闪灯。按下 [$[action_equipment_secondary]] 开关MOB(落水)模式，MOB模式下会在玩家落入水中时自动打开频闪。频闪灯在不被装备时依然会继续作用。该设备需要充电才能发挥作用，放入已供电的小型装备架时充电。不使用时可以挂在腰上。
+def_inventory_equipment_strobe_light_desc		Press [$[action_equipment_use]] to toggle the strobe light on or off. Press [$[action_equipment_secondary]] to toggle MOB (man overboard) mode, which will automatically turn the strobe light on if the player is submerged in water. The strobe light will continue to function when unequipped or discarded. Requires electric charge to function, and will recharge when placed into a powered small equipment storage unit.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按下 [$[action_equipment_use]] 来开关频闪灯。按下 [$[action_equipment_secondary]] 开关MOB(落水)模式，MOB模式下会在玩家落入水中时自动打开频闪。频闪灯在不被装备时依然会继续作用。该设备需要充电才能发挥作用，放入已供电的小型装备架时充电。不使用时可以挂在腰上。
 def_inventory_equipment_strobe_light_s_desc		A small equipment storage unit containing a strobe light.	小型装备架，存储一个频闪灯
 def_inventory_equipment_strobe_light_node_0_label		Electric	电源
 def_inventory_equipment_strobe_light_node_0_desc		Electrical power connection.	电源连接
 def_inventory_equipment_strobe_light_infrared_name		Equipment inventory (Strobe Light, Infrared)	装备架(红外频闪灯)
-def_inventory_equipment_strobe_light_infrared_desc		Pressing [$[action_interact_left]]/[$[action_interact_right]] will equip/store the selected item. Press [$[action_equipment_use]] to toggle the strobe light on or off. Press [$[action_equipment_secondary]] to toggle MOB (man overboard) mode, which will automatically turn the strobe light on if the player is submerged in water. The strobe light will continue to function when unequipped or discarded. The infrared strobe light flashes are only visible to infrared cameras. This equipment requires electric charge to function, and will recharge when placed into a powered small equipment storage unit. This equipment can be stored on the belt.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按下 [$[action_equipment_use]] 来开关频闪灯。按下 [$[action_equipment_secondary]] 开关MOB(落水)模式，MOB模式下会在玩家落入水中时自动打开频闪。频闪灯在不被装备时依然会继续作用。红外频闪灯只能被红外模式下的摄像头观察到。该设备需要充电才能发挥作用，放入已供电的小型装备架时充电。不使用时可以挂在腰上。
+def_inventory_equipment_strobe_light_infrared_desc		Press [$[action_equipment_use]] to toggle the strobe light on or off. Press [$[action_equipment_secondary]] to toggle MOB (man overboard) mode, which will automatically turn the strobe light on if the player is submerged in water. The strobe light will continue to function when unequipped or discarded. The infrared strobe light flashes are only visible to infrared cameras. Requires electric charge to function, and will recharge when placed into a powered small equipment storage unit.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按下 [$[action_equipment_use]] 来开关频闪灯。按下 [$[action_equipment_secondary]] 开关MOB(落水)模式，MOB模式下会在玩家落入水中时自动打开频闪。频闪灯在不被装备时依然会继续作用。红外频闪灯只能被红外模式下的摄像头观察到。该设备需要充电才能发挥作用，放入已供电的小型装备架时充电。不使用时可以挂在腰上。
 def_inventory_equipment_strobe_light_infrared_s_desc		A small equipment storage unit containing an infrared strobe light.	小型装备架，存储一个红外频闪灯
 def_inventory_equipment_strobe_light_infrared_node_0_label		Electric	电源
 def_inventory_equipment_strobe_light_infrared_node_0_desc		Electrical power connection.	电源连接
 def_inventory_equipment_transponder_name		Equipment inventory (Transponder)	装备架(应答器)
-def_inventory_equipment_transponder_desc		Pressing [$[action_interact_left]]/[$[action_interact_right]] will equip/store the selected item. Press [$[action_equipment_use]] to toggle the transponder on or off. Press [$[action_equipment_secondary]] to toggle MOB (man overboard) mode, which will automatically turn the transponder on if the player is submerged in water. The transponder will continue to function when unequipped or discarded. This equipment requires electric charge to function, and will recharge when placed into a powered small equipment storage unit. This equipment can be stored on the belt.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按下 [$[action_equipment_use]] 来开关应答器。按下 [$[action_equipment_secondary]] 开关MOB(落水)模式，MOB模式下会在玩家落入水中时自动打开应答器。应答器在不被装备时依然会继续作用。该设备需要充电才能发挥作用，放入已供电的小型装备架时充电。不使用时可以挂在腰上。
+def_inventory_equipment_transponder_desc		Press [$[action_equipment_use]] to toggle the transponder on or off. Press [$[action_equipment_secondary]] to toggle MOB (man overboard) mode, which will automatically turn the transponder on if the player is submerged in water. The transponder will continue to function when unequipped or discarded. Requires electric charge to function, and will recharge when placed into a powered small equipment storage unit.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按下 [$[action_equipment_use]] 来开关应答器。按下 [$[action_equipment_secondary]] 开关MOB(落水)模式，MOB模式下会在玩家落入水中时自动打开应答器。应答器在不被装备时依然会继续作用。该设备需要充电才能发挥作用，放入已供电的小型装备架时充电。不使用时可以挂在腰上。
 def_inventory_equipment_transponder_s_desc		A small equipment storage unit containing a handheld transponder.	小型装备架，存储一个手持应答器
 def_inventory_equipment_transponder_node_0_label		Electric	电源
 def_inventory_equipment_transponder_node_0_desc		Electrical power connection.	电源连接
 def_inventory_equipment_underwater_welding_torch_name		Equipment inventory (Underwater Welding Torch)	装备架(水下火旱枪)
-def_inventory_equipment_underwater_welding_torch_desc		Pressing [$[action_interact_left]]/[$[action_interact_right]] will equip/store the selected item. Hold [$[action_equipment_use]] to repair damaged vehicle components highlighted by the players crosshair. The underwater welding torch holds less fuel than the standard welding torch, but can be operated while submerged in water. This equipment has a limited fuel capacity and cannot be refilled. This equipment can be stored on the back when not in use.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按住 [$[action_equipment_use]] 来维修准星指向的载具部件。水下火旱枪比标准火旱枪携带更少的燃料，但是能够在水下工作。这个装备燃料有限而且不能补充。不使用时可以放在背后。
+def_inventory_equipment_underwater_welding_torch_desc		Hold [$[action_equipment_use]] to repair damaged vehicle components highlighted by the players crosshair. The underwater welding torch holds less fuel than the standard welding torch, but can be operated while submerged in water. This equipment has a limited fuel capacity and cannot be refilled.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按住 [$[action_equipment_use]] 来维修准星指向的载具部件。水下火旱枪比标准火旱枪携带更少的燃料，但是能够在水下工作。这个装备燃料有限而且不能补充。不使用时可以放在背后。
 def_inventory_equipment_underwater_welding_torch_s_desc		A large equipment storage unit containing an underwater welding torch.	大型装备架，存储一个水下火旱枪 [译注:这游戏不支持han字...]
 def_inventory_equipment_underwater_welding_torch_node_0_label		Electric	电源
 def_inventory_equipment_underwater_welding_torch_node_0_desc		Electrical power connection.	电源连接
 def_inventory_equipment_welding_torch_name		Equipment inventory (Welding Torch)	装备架(火旱枪)
-def_inventory_equipment_welding_torch_desc		Pressing [$[action_interact_left]]/[$[action_interact_right]] will equip/store the selected item. Hold [$[action_equipment_use]] to repair damaged vehicle components highlighted by the players crosshair. This equipment has a limited fuel capacity and cannot be refilled. This equipment can be stored on the back when not in use.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按住 [$[action_equipment_use]] 来维修准星指向的载具部件。这个装备燃料有限而且不能补充。不使用时可以放在背后。
+def_inventory_equipment_welding_torch_desc		Hold [$[action_equipment_use]] to repair damaged vehicle components highlighted by the players crosshair. This equipment has a limited fuel capacity and cannot be refilled.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按住 [$[action_equipment_use]] 来维修准星指向的载具部件。这个装备燃料有限而且不能补充。不使用时可以放在背后。
 def_inventory_equipment_welding_torch_s_desc		A large equipment storage unit containing a welding torch.	大型装备架，存储一个火旱枪 [译注:这游戏不支持han字...]
 def_inventory_equipment_welding_torch_node_0_label		Electric	电源
 def_inventory_equipment_welding_torch_node_0_desc		Electrical power connection.	电源连接
 def_inventory_medium_name		Large equipment inventory	大装备架
-def_inventory_medium_desc		Pressing [$[action_interact_left]]/[$[action_interact_right]] will equip/store the selected item. Only large handheld equipment can be stored in this unit. When connected to an electric power source, any rechargable equipment stored in the unit will drain a small amount of electricity until recharged to 100% capacity.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。只有大型手持装备能够放在这个架子中。当连接到电源时，其内的装备可以得到充电。
+def_inventory_medium_desc		Only large handheld equipment can be stored in this unit. When connected to an electric power source, any rechargable equipment stored in the unit will drain a small amount of electricity until recharged to 100% capacity.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。只有大型手持装备能够放在这个架子中。当连接到电源时，其内的装备可以得到充电。
 def_inventory_medium_s_desc		An empty large equipment storage unit.	一个空的大型装备架
 def_inventory_medium_node_0_label		Electric	电源
 def_inventory_medium_node_0_desc		Electrical power connection.	电源连接
@@ -3567,37 +4116,37 @@ def_inventory_outfit_s_desc		An empty outfit storage unit.	一个空的装备储
 def_inventory_outfit_node_0_label		Electric	电源
 def_inventory_outfit_node_0_desc		Electrical power connection.	电源连接
 def_inventory_outfit_arctic_name		Outfit Inventory (Arctic)	装备架(极地)
-def_inventory_outfit_arctic_desc		Pressing [$[action_interact_left]]/[$[action_interact_right]] will equip/store the outfit. When equipped, it will increase your temperature enough to survive in colder weather conditions. Its thermal effectiveness is reduced when wet.	按 [$[action_interact_left]]/[$[action_interact_right]]将装备/储存装备。装备后，它会使你的体温升高，足以在更冷的天气条件下生存。湿的时候它的热效率会降低。
+def_inventory_outfit_arctic_desc		When equipped, it will increase your temperature enough to survive in colder weather conditions. Its thermal effectiveness is reduced when wet.	按 [$[action_interact_left]]/[$[action_interact_right]]将装备/储存装备。装备后，它会使你的体温升高，足以在更冷的天气条件下生存。湿的时候它的热效率会降低。
 def_inventory_outfit_arctic_s_desc		An outfit inventory unit containing specialist thermal clothing for surviving Arctic temperatures.	一种装备架，装有专门的保暖服，用于抵御北极的温度。
 def_inventory_outfit_arctic_node_0_label		Electric	电源
 def_inventory_outfit_arctic_node_0_desc		Electrical power connection.	电源连接
 def_inventory_outfit_diving_name		Outfit Inventory (Diving)	装备架(潜水)
-def_inventory_outfit_diving_desc		Pressing [$[action_interact_left]]/[$[action_interact_right]] will equip/store the outfit. When equipped, it will allow deep sea diving to a depth of 250m, and provides air for 10 minutes. The air tank can be refilled by storing the equipment in an outfit inventory unit.	按 [$[action_interact_left]]/[$[action_interact_right]]将装备/储存装备。如果装备，它将允许深海潜水到250米的深度，并提供10分钟的气体。可通过将设备存储在装备架单元中来重新填充气罐。
+def_inventory_outfit_diving_desc		When equipped, it will allow deep sea diving to a depth of 250m, and provides air for 10 minutes. The air tank can be refilled by storing the equipment in an outfit inventory unit.	按 [$[action_interact_left]]/[$[action_interact_right]]将装备/储存装备。如果装备，它将允许深海潜水到250米的深度，并提供10分钟的气体。可通过将设备存储在装备架单元中来重新填充气罐。
 def_inventory_outfit_diving_s_desc		An outfit inventory unit containing specialist diving equipment.	一个装备架，包含专业潜水设备。
 def_inventory_outfit_diving_node_0_label		Electric	电源
 def_inventory_outfit_diving_node_0_desc		Electrical power connection.	电源连接
 def_inventory_outfit_firefighter_name		Outfit Inventory (Firefighter)	装备架(消防员)
-def_inventory_outfit_firefighter_desc		Pressing [$[action_interact_left]]/[$[action_interact_right]] will equip/store outfit. When equipped, it will absorb 95% of damage dealt by fires.	按 [$[action_interact_left]]/[$[action_interact_right]]将装备/储存装备。装备后，它将吸收95%的火灾伤害。
+def_inventory_outfit_firefighter_desc		When equipped, it will absorb 95% of damage dealt by fires.	按 [$[action_interact_left]]/[$[action_interact_right]]将装备/储存装备。装备后，它将吸收95%的火灾伤害。
 def_inventory_outfit_firefighter_s_desc		An outfit inventory unit containing specialist firefighting gear.	包含专业消防装备的装备架。
 def_inventory_outfit_firefighter_node_0_label		Electric	电源
 def_inventory_outfit_firefighter_node_0_desc		Electrical power connection.	电源连接
 def_inventory_outfit_hazmat_name		Outfit Inventory (Hazmat)	装备架(化学防护服)
-def_inventory_outfit_hazmat_desc		Pressing [$[action_interact_left]]/[$[action_interact_right]] will equip/store outfit. When equipped, it will absorb 95% of incoming radiation.	按 [$[action_interact_left]]/[$[action_interact_right]]将装备/储存装备。装备后，将吸收95%的辐射伤害。
+def_inventory_outfit_hazmat_desc		When equipped, it will absorb 95% of incoming radiation.	按 [$[action_interact_left]]/[$[action_interact_right]]将装备/储存装备。装备后，将吸收95%的辐射伤害。
 def_inventory_outfit_hazmat_s_desc		An outfit inventory unit containing specialist hazmat gear.	一个装备架，包含专业化学防护服。
 def_inventory_outfit_hazmat_node_0_label		Electric	电源
 def_inventory_outfit_hazmat_node_0_desc		Electrical power connection.	电源连接
 def_inventory_outfit_parachute_name		Outfit Inventory (Parachute)	装备架(降落伞)
-def_inventory_outfit_parachute_desc		Pressing [$[action_interact_left]]/[$[action_interact_right]] will equip/store the outfit. When selected, press [$[action_equipment_use]] while falling to deploy the parachute. It will then open when you are falling fast enough. Press [$[action_equipment_secondary]] to close the parachute. This parachute is single-use once equipped but can be refolded by storing it in an outfit inventory unit.	按 [$[action_interact_left]]/[$[action_interact_right]]将装备/储存装备。装备后，在降落时按 [$[action_use_seat]] 将展开降落伞。当你下降得够快的时候它就会打开。再次按 [$[action_use_seat]] 将关闭它。这种降落伞一经装备就可以一次性使用，但可以通过储存在装备架单元中重新折叠。
+def_inventory_outfit_parachute_desc		When selected, press [$[action_equipment_use]] while falling to deploy the parachute. It will then open when you are falling fast enough. Press [$[action_equipment_secondary]] to close the parachute. This parachute is single-use once equipped but can be refolded by storing it in an outfit inventory unit.	按 [$[action_interact_left]]/[$[action_interact_right]]将装备/储存装备。装备后，在降落时按 [$[action_use_seat]] 将展开降落伞。当你下降得够快的时候它就会打开。再次按 [$[action_use_seat]] 将关闭它。这种降落伞一经装备就可以一次性使用，但可以通过储存在装备架单元中重新折叠。
 def_inventory_outfit_parachute_s_desc		An outfit inventory unit containing a single-use parachute.	装有一次性降落伞的装备架。
 def_inventory_outfit_parachute_node_0_label		Electric	电源
 def_inventory_outfit_parachute_node_0_desc		Electrical power connection.	电源连接
 def_inventory_outfit_scuba_name		Outfit Inventory (Scuba)	装备架(水肺)
-def_inventory_outfit_scuba_desc		Pressing [$[action_interact_left]]/[$[action_interact_right]] will equip/store the outfit. When equipped, it will allow diving to a depth of 50m, and provides air for 2 minutes. The air tank can be refilled by storing the gear in an outfit inventory unit.	按[$[action_interact_left]]/[$[action_interact_right]]将装备/储存装备。如果装备，它将允许潜水到50米的深度，并提供2分钟的气体。储气罐可以通过将装备储存在装备架单元中来补充。
+def_inventory_outfit_scuba_desc		When equipped, it will allow diving to a depth of 50m, and provides air for 2 minutes. The air tank can be refilled by storing the gear in an outfit inventory unit.	按[$[action_interact_left]]/[$[action_interact_right]]将装备/储存装备。如果装备，它将允许潜水到50米的深度，并提供2分钟的气体。储气罐可以通过将装备储存在装备架单元中来补充。
 def_inventory_outfit_scuba_s_desc		An outfit inventory unit containing specialist scuba gear.	一个装备架，包含专业的潜水装备。
 def_inventory_outfit_scuba_node_0_label		Electric	电源
 def_inventory_outfit_scuba_node_0_desc		Electrical power connection.	电源连接
 def_inventory_small_name		Small equipment inventory	小装备架
-def_inventory_small_desc		Pressing [$[action_interact_left]]/[$[action_interact_right]] will equip/store the selected item. Only small handheld equipment can be stored in this unit. When connected to an electric power source, any rechargable equipment stored in the unit will drain a small amount of electricity until recharged to 100% capacity.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。只有小型手持装备能够放在这个架子中。当连接到电源时，其内的装备可以得到充电。
+def_inventory_small_desc		Only small handheld equipment can be stored in this unit. When connected to an electric power source, any rechargable equipment stored in the unit will drain a small amount of electricity until recharged to 100% capacity.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。只有小型手持装备能够放在这个架子中。当连接到电源时，其内的装备可以得到充电。
 def_inventory_small_s_desc		An empty small equipment storage unit.	一个空的小型装备架
 def_inventory_small_node_0_label		Electric	电源
 def_inventory_small_node_0_desc		Electrical power connection.	电源连接
@@ -3750,7 +4299,7 @@ def_laser_distance_sensor_name		Laser Distance Sensor	激光距离传感器
 def_laser_distance_sensor_desc		The reading can be read from the sensor's number output and is measured in metres (1 metre = 4 blocks).	可以从传感器的数字输出中读取读数，并以米(1米=4块)为单位进行测量。
 def_laser_distance_sensor_s_desc		A laser distance sensor with a maximum measurement range of 4000m.	最大测量范围为2000米的激光距离传感器。
 def_laser_distance_sensor_node_0_label		Distance	距离
-def_laser_distance_sensor_node_0_desc		The measured distance in metres, up to 2000m.	以米为单位测量的距离，可达2000米。
+def_laser_distance_sensor_node_0_desc		The measured distance in metres.	以米为单位测量的距离，可达2000米。
 def_laser_distance_sensor_node_1_label		Electric	电源
 def_laser_distance_sensor_node_1_desc		Electrical power connection.	电源连接。
 def_laser_distance_sensor_node_2_label		Active	打开
@@ -4286,6 +4835,42 @@ def_multibody_suspension_b_desc
 def_multibody_suspension_b_s_desc			
 def_multibody_suspension_b_node_0_label		RPS	动力
 def_multibody_suspension_b_node_0_desc		Power connection for transfering mechanical energy.	用于传输机械能的连接。
+def_multibody_turret_large_a_name		Turret Ring (Large)	
+def_multibody_turret_large_a_desc		A turret ring rotates in the same way as a velocity pivot. The gap inside the turret ring creates a door seal, and can be used to extend a sealed volume through the turret ring.	
+def_multibody_turret_large_a_s_desc		A large turret ring that can rotate continuously.	
+def_multibody_turret_large_a_node_0_label		Rotational Speed	
+def_multibody_turret_large_a_node_0_desc		The speed at which the turret should rotate.	
+def_multibody_turret_large_a_node_1_label		Current Rotation	
+def_multibody_turret_large_a_node_1_desc		The turrets measured rotation expressed in fractions of full turns.	
+def_multibody_turret_large_a_node_2_label		Electric	
+def_multibody_turret_large_a_node_2_desc		Electrical power connection.	
+def_multibody_turret_large_b_name		Turret Ring (Large) b	
+def_multibody_turret_large_b_desc			
+def_multibody_turret_large_b_s_desc			
+def_multibody_turret_medium_a_name		Turret Ring (Medium)	
+def_multibody_turret_medium_a_desc		A turret ring rotates in the same way as a velocity pivot. The gap inside the turret ring creates a door seal, and can be used to extend a sealed volume through the turret ring.	
+def_multibody_turret_medium_a_s_desc		A medium turret ring that can rotate continuously.	
+def_multibody_turret_medium_a_node_0_label		Rotational Speed	
+def_multibody_turret_medium_a_node_0_desc		The speed at which the turret should rotate.	
+def_multibody_turret_medium_a_node_1_label		Current Rotation	
+def_multibody_turret_medium_a_node_1_desc		The turrets measured rotation expressed in fractions of full turns.	
+def_multibody_turret_medium_a_node_2_label		Electric	
+def_multibody_turret_medium_a_node_2_desc		Electrical power connection.	
+def_multibody_turret_medium_b_name		Turret Ring (Medium) b	
+def_multibody_turret_medium_b_desc			
+def_multibody_turret_medium_b_s_desc			
+def_multibody_turret_small_a_name		Turret Ring (Small)	
+def_multibody_turret_small_a_desc		A turret ring rotates in the same way as a velocity pivot. The gap inside the turret ring creates a door seal, and can be used to extend a sealed volume through the turret ring.	
+def_multibody_turret_small_a_s_desc		A small turret ring that can rotate continuously.	
+def_multibody_turret_small_a_node_0_label		Rotational Speed	
+def_multibody_turret_small_a_node_0_desc		The speed at which the turret should rotate.	
+def_multibody_turret_small_a_node_1_label		Current Rotation	
+def_multibody_turret_small_a_node_1_desc		The turrets measured rotation expressed in fractions of full turns.	
+def_multibody_turret_small_a_node_2_label		Electric	
+def_multibody_turret_small_a_node_2_desc		Electrical power connection.	
+def_multibody_turret_small_b_name		Turret Ring (Small) b	
+def_multibody_turret_small_b_desc			
+def_multibody_turret_small_b_s_desc			
 def_multibody_velocity_pivot_a_name		Velocity Pivot	速度轴
 def_multibody_velocity_pivot_a_desc		Inputting a value of 0 will cause it to stop. The pivot's current rotation can be read from its output. An output of 1 corresponds to one full turn, and -1 to a full turn in the opposite direction.	输入值0将导致它停止。可以从输出中读取轴的当前旋转。1的输出对应于一整圈，而-1对应于相反方向的整圈。
 def_multibody_velocity_pivot_a_s_desc		A pivot that will continuously rotate at a set input speed.	以设定的输入速度连续旋转的轴。
@@ -4331,7 +4916,7 @@ def_propeller_desc		Power received from an engine affects the forward and backwa
 def_propeller_s_desc		A small boat propeller.	小船的螺旋桨。
 def_propeller_node_0_label		RPS	动力
 def_propeller_node_0_desc		Receives power generated by an engine.	接收发动机产生的能量。
-def_radar_name		Radar	雷达
+def_radar_name		Radar (Deprecated)	雷达
 def_radar_desc		This sensor outputs the distance and angle to a detected object within its range and field of view using radio waves. (Range : 5000) (Max FOV : 0.125)	此传感器使用无线电波将距离和角度输出到其范围和视场内的被检测对象。(射程：5000)(最大视场：0.125)
 def_radar_s_desc		A short range Radar that returns information about a detected object within its view.	一种短程雷达，能在其视野内返回有关被探测物体的信息。
 def_radar_node_0_label		FOV	FOV
@@ -4348,12 +4933,69 @@ def_radar_node_5_label		Target Found	找到目标
 def_radar_node_5_desc		Returns if an object has been detected.	返回是否检测到对象。
 def_radar_node_6_label		Electric	电源
 def_radar_node_6_desc		Electrical power connection.	电源连接。
+def_radar_advanced_name		Radar (Basic)	
+def_radar_advanced_desc		This sensor outputs the distance and relative angle to a detected object within its range and field of view using radio waves. Sensitivity is based on FOV, target size, and distance.	
+def_radar_advanced_s_desc		A radar that returns information about a detected object within its view.	
+def_radar_advanced_node_0_label		Electric	
+def_radar_advanced_node_0_desc		Electrical power connection.	
+def_radar_advanced_node_1_label		Activate	
+def_radar_advanced_node_1_desc		Enable the Radar.	
+def_radar_advanced_node_2_label		Radar Data	
+def_radar_advanced_node_2_desc		Outputs data for up to 8 targets. (On/Off 1-8 : Target Found) (Values 1-4 : Target 1 (Distance, Azimuth Angle, Elevation Angle, Time Since Detection)) (Values 5-8 : Target 2) Ect... 	
+def_radar_advanced_node_3_label		Radar Rotation	
+def_radar_advanced_node_3_desc		Current radar rotation from forward in turns.	
+def_radar_advanced_awacs_name		Radar (AWACS)	
+def_radar_advanced_awacs_desc		This sensor outputs the distance and relative angle to a detected object within its range and field of view using radio waves. Sensitivity is based on FOV, target size, and distance.	
+def_radar_advanced_awacs_s_desc		A long range radar that returns information about a detected object within its view.	
+def_radar_advanced_awacs_node_0_label		Electric	
+def_radar_advanced_awacs_node_0_desc		Electrical power connection.	
+def_radar_advanced_awacs_node_1_label		Activate	
+def_radar_advanced_awacs_node_1_desc		Enable the Radar.	
+def_radar_advanced_awacs_node_2_label		Radar Data	
+def_radar_advanced_awacs_node_2_desc		Outputs data for up to 8 targets. (On/Off 1-8 : Target Found) (Values 1-4 : Target 1 (Distance, Azimuth Angle, Elevation Angle, Time Since Detection)) (Values 5-8 : Target 2) Ect... 	
+def_radar_advanced_awacs_node_3_label		Radar Rotation	
+def_radar_advanced_awacs_node_3_desc		Current radar rotation from forward in turns.	
+def_radar_advanced_dish_name		Radar (Dish)	
+def_radar_advanced_dish_desc		This sensor outputs the distance and relative angle to a detected object within its range and field of view using radio waves. Sensitivity is based on FOV, target size, and distance.	
+def_radar_advanced_dish_s_desc		A radar that returns information about a detected object within its view.	
+def_radar_advanced_dish_node_0_label		Electric	
+def_radar_advanced_dish_node_0_desc		Electrical power connection.	
+def_radar_advanced_dish_node_1_label		Activate	
+def_radar_advanced_dish_node_1_desc		Enable the Radar.	
+def_radar_advanced_dish_node_2_label		Radar Data	
+def_radar_advanced_dish_node_2_desc		Outputs data for up to 8 targets. (On/Off 1-8 : Target Found) (Values 1-4 : Target 1 (Distance, Azimuth Angle, Elevation Angle, Time Since Detection)) (Values 5-8 : Target 2) Ect... 	
+def_radar_advanced_dish_node_3_label		Radar Rotation	
+def_radar_advanced_dish_node_3_desc		Current radar rotation from forward in turns.	
+def_radar_advanced_missile_name		Radar (Missile)	
+def_radar_advanced_missile_desc		This sensor outputs the distance and relative angle to a detected object within its range and field of view using radio waves. This sensor is designed for missiles and its radar acts along the Z axis. Sensitivity is based on FOV, target size, and distance.	
+def_radar_advanced_missile_s_desc		A short range radar that returns information about a detected object within its view.	
+def_radar_advanced_missile_node_0_label		Electric	
+def_radar_advanced_missile_node_0_desc		Electrical power connection.	
+def_radar_advanced_missile_node_1_label		Activate	
+def_radar_advanced_missile_node_1_desc		Enable the Radar.	
+def_radar_advanced_missile_node_2_label		Radar Data	
+def_radar_advanced_missile_node_2_desc		Outputs data for up to 8 targets. (On/Off 1-8 : Target Found) (Values 1-4 : Target 1 (Distance, Azimuth Angle, Elevation Angle, Time Since Detection)) (Values 5-8 : Target 2) Ect... 	
+def_radar_advanced_missile_node_3_label		Missile Output	
+def_radar_advanced_missile_node_3_desc		Outputs x and y data for the most immediate target. Link this directly into a rocket fins component.	
+def_radar_advanced_missile_node_4_label		Radar Rotation	
+def_radar_advanced_missile_node_4_desc		Current radar rotation from forward in turns.	
+def_radar_advanced_phalanx_name		Radar (Phalanx)	
+def_radar_advanced_phalanx_desc		This sensor outputs the distance and relative angle to a detected object within its range and field of view using radio waves. Sensitivity is based on FOV, target size, and distance.	
+def_radar_advanced_phalanx_s_desc		A radar that returns information about a detected object within its view.	
+def_radar_advanced_phalanx_node_0_label		Electric	
+def_radar_advanced_phalanx_node_0_desc		Electrical power connection.	
+def_radar_advanced_phalanx_node_1_label		Activate	
+def_radar_advanced_phalanx_node_1_desc		Enable the Radar.	
+def_radar_advanced_phalanx_node_2_label		Radar Data	
+def_radar_advanced_phalanx_node_2_desc		Outputs data for up to 8 targets. (On/Off 1-8 : Target Found) (Values 1-4 : Target 1 (Distance, Azimuth Angle, Elevation Angle, Time Since Detection)) (Values 5-8 : Target 2) Ect... 	
+def_radar_advanced_phalanx_node_3_label		Radar Rotation	
+def_radar_advanced_phalanx_node_3_desc		Current radar rotation from forward in turns.	
 def_radar_detector_name		Radar Detector	雷达探测器
 def_radar_detector_desc		This sensor outputs an On signal when it detects a radio wave.	"当侦测到一个反射雷达波(原文radio wave,上下文联想)时输出一个on信号"
 def_radar_detector_s_desc		A sensor that can detect radar waves.	侦测雷达波的传感器
 def_radar_detector_node_0_label		Detected	是否检测到
 def_radar_detector_node_0_desc		Returns an On signal when it detects a radio wave.	当检测到反射雷达波时输出on信号
-def_radar_dish_name		Radar (Dish)	雷达(盘)
+def_radar_dish_name		Radar (Dish) (Deprecated)	雷达(盘)
 def_radar_dish_desc		This fixed sensor outputs the distance and angle to a detected object within its range and field of view using radio waves. (Range : 20000) (Max FOV : 0.125)	这个固定传感器使用无线电波将距离和角度输出到被探测物体的范围和视场内。(射程：20000)(最大视场：0.125)
 def_radar_dish_s_desc		A medium range, fixed rotation Radar that returns information about a detected object within its view.	一种中程固定雷达，返回在其视野内探测到的物体的信息。
 def_radar_dish_node_0_label		FOV	FOV
@@ -4368,7 +5010,7 @@ def_radar_dish_node_4_label		Target Found	找到目标
 def_radar_dish_node_4_desc		Returns if an object has been detected.	返回是否检测到对象。
 def_radar_dish_node_5_label		Electric	电源
 def_radar_dish_node_5_desc		Electrical power connection.	电源连接。
-def_radar_huge_name		Radar (Huge)	雷达(巨大)
+def_radar_huge_name		Radar (Huge) (Deprecated)	雷达(巨大)
 def_radar_huge_desc		This sensor outputs the distance and relative angles to up to 8 detected objects within its range and field of view using radio waves and outputs all detected targets through composite channels. (Range : 50000) (Max FOV : 0.125)	该传感器使用无线电波输出其范围和视场内最多8个被检测对象的距离和相对角度，并通过复合信道输出所有被检测目标。(射程：50000)(最大视场：0.125)
 def_radar_huge_s_desc		A long range, multi-target Radar that returns detailed information through composite channels about detected objects within its view.	多目标雷达一种远程多目标雷达，通过合成通道返回其视野内探测到的物体的详细信息。
 def_radar_huge_node_0_label		FOV	FOV
@@ -4379,7 +5021,7 @@ def_radar_huge_node_2_label		Electric	电源
 def_radar_huge_node_2_desc		Electrical power connection.	电源连接。
 def_radar_huge_node_3_label		Radar Data	雷达数据
 def_radar_huge_node_3_desc		Outputs data for up to 8 targets. (On/Off 1-8 : Target Found) (Values 1-4 : Target 1 (Relative Distance, Signal Strength, Elevation Angle, Azimuth Angle)) (Values 5-8 : Target 2) Ect... 	输出多达8个目标的数据。(开/关1-8：找到目标)(值1-4：目标1(相对距离、信号强度、仰角、方位角))(值5-8：目标2)等...
-def_radar_large_name		Radar (Large)	雷达(大)
+def_radar_large_name		Radar (Large) (Deprecated)	雷达(大)
 def_radar_large_desc		This sensor outputs the distance and relative angles to a detected object within its range and field of view using radio waves. This sensor uniquely allows the changing of it's pitch direction. (Range : 20000) (Max FOV : 0.250)	该传感器使用无线电波将距离和相对角度输出到被探测物体的范围和视场内。这个传感器唯一允许改变它的俯仰(Pitch)方向。(射程：20000)(最大视场：0.250)
 def_radar_large_s_desc		A medium range, highly configurable Radar that returns detailed information about a detected object within its view.	一种中程、高度可配置的雷达，能返回在其视野内探测到的物体的详细信息。
 def_radar_large_node_0_label		FOV	FOV
@@ -4754,7 +5396,7 @@ def_rx_huge_node_4_desc
 def_rx_huge_node_5_label		Signal Strength	信号强度
 def_rx_huge_node_5_desc			
 def_rx_huge_v2_name		Radio RX Huge	巨型无线电接收
-def_rx_huge_v2_desc		Sends and receives data on the specified frequency. Transmit Mode defaults to receive.	以指定的发送频率和接收数据。传输模式默认为接收。
+def_rx_huge_v2_desc		Sends and receives data on the specified frequency. Transmit Mode defaults to receive. (Max Effective Range : 20000m)	以指定的发送频率和接收数据。传输模式默认为接收。
 def_rx_huge_v2_s_desc		A radio data transmitter and receiver.	无线电数据发射器和接收器。
 def_rx_huge_v2_node_0_label		Audio Recv	音频接收
 def_rx_huge_v2_node_0_desc		Output for received audio data.	接收音频数据的输出。
@@ -4788,7 +5430,7 @@ def_rx_large_node_4_desc
 def_rx_large_node_5_label		Signal Strength	信号强度
 def_rx_large_node_5_desc			
 def_rx_large_v2_name		Radio RX Large	大型无线电接收
-def_rx_large_v2_desc		Sends and receives data on the specified frequency. Transmit Mode defaults to receive.	以指定的发送频率和接收数据。传输模式默认为接收。
+def_rx_large_v2_desc		Sends and receives data on the specified frequency. Transmit Mode defaults to receive. (Max Effective Range : 4000m)	以指定的发送频率和接收数据。传输模式默认为接收。
 def_rx_large_v2_s_desc		A radio data transmitter and receiver.	无线电数据发射器和接收器。
 def_rx_large_v2_node_0_label		Audio Recv	音频接收
 def_rx_large_v2_node_0_desc		Output for received audio data.	接收音频数据的输出。
@@ -4822,7 +5464,7 @@ def_rx_med_node_4_desc
 def_rx_med_node_5_label		Signal Strength	信号强度
 def_rx_med_node_5_desc			
 def_rx_med_v2_name		Radio RX Medium	中型无线电接收
-def_rx_med_v2_desc		Sends and receives data on the specified frequency. Transmit Mode defaults to receive.	以指定的发送频率和接收数据。传输模式默认为接收。
+def_rx_med_v2_desc		Sends and receives data on the specified frequency. Transmit Mode defaults to receive. (Max Effective Range : 1000m)	以指定的发送频率和接收数据。传输模式默认为接收。
 def_rx_med_v2_s_desc		A radio data transmitter and receiver.	无线电数据发射器和接收器。
 def_rx_med_v2_node_0_label		Audio Recv	音频接收
 def_rx_med_v2_node_0_desc		Output for received audio data.	接收音频数据的输出。
@@ -4854,7 +5496,7 @@ def_rx_small_node_3_desc
 def_rx_small_node_4_label		Frequency Recv	频率接收
 def_rx_small_node_4_desc			
 def_rx_small_v2_name		Radio RX Small	小型无线电接收
-def_rx_small_v2_desc		Sends and receives data on the specified frequency. Transmit Mode defaults to receive.	以指定的发送频率和接收数据。传输模式默认为接收。
+def_rx_small_v2_desc		Sends and receives data on the specified frequency. Transmit Mode defaults to receive. (Max Effective Range : 100m)	以指定的发送频率和接收数据。传输模式默认为接收。
 def_rx_small_v2_s_desc		A radio data transmitter and receiver.	无线电数据发射器和接收器。
 def_rx_small_v2_node_0_label		Audio Recv	音频接收
 def_rx_small_v2_node_0_desc		Output for received audio data.	接收音频数据的输出。
@@ -4882,7 +5524,7 @@ def_rx_video_r_node_2_desc
 def_rx_video_r_node_3_label		Signal Strength	信号强度
 def_rx_video_r_node_3_desc			
 def_rx_video_x_name		Radio Video Xmit	无线视频Xmit
-def_rx_video_x_desc		Sends a video signal on the frequency specified.	按指定的发送频率视频信号。
+def_rx_video_x_desc		Sends a video signal on the frequency specified. (Max Effective Range : 10000m)	按指定的发送频率视频信号。
 def_rx_video_x_s_desc		A radio transmitter for sending video signals.	发送视频信号的无线电发射器。
 def_rx_video_x_node_0_label		Video Send	视频发送
 def_rx_video_x_node_0_desc			
@@ -4923,20 +5565,20 @@ def_seat_desc		It provides 4 number outputs that produce a standard value rangin
 def_seat_s_desc		The pilot seat lets you translate keyboard presses into output signals that can control logic components.	飞行员座椅可以将键盘按键转换成可以控制逻辑元件的输出信号。
 def_seat_node_0_label		Occupied	占用
 def_seat_node_0_desc		Outputs an on signal if this seat is occupied by a character.	如果这个座位被一个角色占用，则输出一个接通信号。
-def_seat_node_1_label		Trigger	触发
-def_seat_node_1_desc		Outputs an on signal when [$[action_equipment_use]] is held, while character is not holding any equipment.	当坐在座位上并没有装备物品时，按下[$[action_equipment_use]]，输出开信号
-def_seat_node_2_label		Axis 1 [$[action_left]]/[$[action_right]]	轴1[$[action_left]]/[$[action_right]]
-def_seat_node_2_desc		Outputs a standard value between -1 and 1, controlled using [$[action_left]] and [$[action_right]]. [$[action_left]] causes the output value to move towards -1, and [$[action_right]] moves it towards 1.	输出一个介于-1和1之间的标准值，使用[$[action_left]]和[$[action_right]]进行控制。[$[action_left]]使输出值向-1移动，[$[action_right]]将其向1移动。
-def_seat_node_3_label		Axis 2 [$[action_up]]/[$[action_down]]	轴2[$[action_up]/[$[action_down]]
-def_seat_node_3_desc		Outputs a standard value between -1 and 1, controlled using [$[action_up]] and [$[action_down]]. [$[action_down]] causes the output value to move towards -1, and [$[action_up]] moves it towards 1.	输出一个介于-1和1之间的标准值，使用[$[action_up]]和[$[action_down]]进行控制。[$[action_down]]使输出值向-1移动，[$[action_up]]将其向1移动。
-def_seat_node_4_label		Axis 3 [$[action_pedal_left]]/[$[action_pedal_right]]	轴3 [$[action_pedal_left]] and [$[action_pedal_right]]
-def_seat_node_4_desc		Outputs a standard value between -1 and 1, controlled using [$[action_pedal_left]] and [$[action_pedal_right]]. [$[action_pedal_left]] causes the output value to move towards -1, and [$[action_pedal_right]] moves it towards 1.	输出一个介于-1和1之间的标准值，使用 [$[action_pedal_left]] and [$[action_pedal_right]]进行控制。[$[action_pedal_left]]使输出值向-1移动，[$[action_pedal_right]]将其向1移动。
-def_seat_node_5_label		Axis 4 [$[action_throttle_up]]/[$[action_throttle_down]]	轴4[$[action_throttle_up]]/[$[action_throttle_down]]
-def_seat_node_5_desc		Outputs a standard value between -1 and 1, controlled using [$[action_throttle_up]] and [$[action_throttle_down]]. [$[action_throttle_down]] causes the output value to move towards -1, and [$[action_throttle_up]] moves it towards 1.	输出一个介于-1和1之间的标准值，使用[$[action_throttle_up]]和[$[action_throttle_down]]进行控制。[$[action_throttle_down]]使输出值向-1移动，[$[action_throttle_up]]将其向1移动。
-def_seat_node_6_label		Look X	视角X轴
-def_seat_node_6_desc		Outputs the character look direction in turns along the X-axis.	输出座位上角色观察方向的X轴值
-def_seat_node_7_label		Look Y	视角Y轴
-def_seat_node_7_desc		Outputs the character look direction in turns along the Y-axis.	输出座位上角色观察方向的Y轴值
+def_seat_node_1_label		Trigger [$[action_trigger]]	触发
+def_seat_node_1_desc		Outputs an on signal when [$[action_trigger]] is held, and off when it is not.	当坐在座位上并没有装备物品时，按下[$[action_equipment_use]]，输出开信号
+def_seat_node_2_label		Look X	轴1[$[action_left]]/[$[action_right]]
+def_seat_node_2_desc		Outputs the character look direction in turns along the X-axis.	输出一个介于-1和1之间的标准值，使用[$[action_left]]和[$[action_right]]进行控制。[$[action_left]]使输出值向-1移动，[$[action_right]]将其向1移动。
+def_seat_node_3_label		Look Y	轴2[$[action_up]/[$[action_down]]
+def_seat_node_3_desc		Outputs the character look direction in turns along the Y-axis.	输出一个介于-1和1之间的标准值，使用[$[action_up]]和[$[action_down]]进行控制。[$[action_down]]使输出值向-1移动，[$[action_up]]将其向1移动。
+def_seat_node_4_label		Axis 1 [$[action_left]]/[$[action_right]]	轴3 [$[action_pedal_left]] and [$[action_pedal_right]]
+def_seat_node_4_desc		Outputs a standard value between -1 and 1, controlled using [$[action_left]] and [$[action_right]]. [$[action_left]] causes the output value to move towards -1, and [$[action_right]] moves it towards 1.	输出一个介于-1和1之间的标准值，使用 [$[action_pedal_left]] and [$[action_pedal_right]]进行控制。[$[action_pedal_left]]使输出值向-1移动，[$[action_pedal_right]]将其向1移动。
+def_seat_node_5_label		Axis 2 [$[action_up]]/[$[action_down]]	轴4[$[action_throttle_up]]/[$[action_throttle_down]]
+def_seat_node_5_desc		Outputs a standard value between -1 and 1, controlled using [$[action_up]] and [$[action_down]]. [$[action_down]] causes the output value to move towards -1, and [$[action_up]] moves it towards 1.	输出一个介于-1和1之间的标准值，使用[$[action_throttle_up]]和[$[action_throttle_down]]进行控制。[$[action_throttle_down]]使输出值向-1移动，[$[action_throttle_up]]将其向1移动。
+def_seat_node_6_label		Axis 3 [$[action_pedal_left]]/[$[action_pedal_right]]	视角X轴
+def_seat_node_6_desc		Outputs a standard value between -1 and 1, controlled using [$[action_pedal_left]] and [$[action_pedal_right]]. [$[action_pedal_left]] causes the output value to move towards -1, and [$[action_pedal_right]] moves it towards 1.	输出座位上角色观察方向的X轴值
+def_seat_node_7_label		Axis 4 [$[action_throttle_up]]/[$[action_throttle_down]]	视角Y轴
+def_seat_node_7_desc		Outputs a standard value between -1 and 1, controlled using [$[action_throttle_up]] and [$[action_throttle_down]]. [$[action_throttle_down]] causes the output value to move towards -1, and [$[action_throttle_up]] moves it towards 1.	输出座位上角色观察方向的Y轴值
 def_seat_node_8_label		Hotkey 1 [$[action_hotkey_1]]	热键1[$[action_hotkey_1]]
 def_seat_node_8_desc		Outputs an on signal when [$[action_hotkey_1]] is held, and off when it is not.	按住[$[action_hotkey_1]]时输出打开信号，不按住时输出关闭信号。
 def_seat_node_9_label		Hotkey 2 [$[action_hotkey_2]]	热键2[$[action_hotkey_2]]
@@ -4950,7 +5592,7 @@ def_seat_node_12_desc		Outputs an on signal when [$[action_hotkey_5]] is held, a
 def_seat_node_13_label		Hotkey 6 [$[action_hotkey_6]]	热键6[$[action_hotkey_6]]
 def_seat_node_13_desc		Outputs an on signal when [$[action_hotkey_6]] is held, and off when it is not.	按住[$[action_hotkey_6]]时输出打开信号，不按住时输出关闭信号。
 def_seat_node_14_label		Seat data	座椅数据
-def_seat_node_14_desc		Outputs the axis, hotkey and occupied data from the seat. (On/Off 1+ : Hotkeys) (On/Off 31 : Trigger) (On/Off 32 : Occupied) (Value 1 : [$[action_left]]/[$[action_right]]) (Value 2 : [$[action_up]]/[$[action_down]]) (Value 3 : [$[action_pedal_left]]/[$[action_pedal_right]]) (Value 4 : [$[action_throttle_up]]/[$[action_throttle_down]])	从座椅输出轴、热键和占用数据。(开/关1+：热键)(开/关32：已占用)(值1:[$[action_left]/[$[action_right]](值2:[$[action_up]/[$[action_down]])(值3:[$[action_pedal_left]/[$[action_pedal_right]])(值4:[$[action_throttle_up]/[$[action_throttle_down]])
+def_seat_node_14_desc		Outputs the axis, hotkey and occupied data from the seat. (On/Off 1+ : Hotkeys) (On/Off 31 : Trigger) (On/Off 32 : Occupied) (Value 1 : [$[action_left]]/[$[action_right]]) (Value 2 : [$[action_up]]/[$[action_down]]) (Value 3 : [$[action_pedal_left]]/[$[action_pedal_right]]) (Value 4 : [$[action_throttle_up]]/[$[action_throttle_down]]) (Value 9 : Look X)  (Value 10 : Look Y)	从座椅输出轴、热键和占用数据。(开/关1+：热键)(开/关32：已占用)(值1:[$[action_left]/[$[action_right]](值2:[$[action_up]/[$[action_down]])(值3:[$[action_pedal_left]/[$[action_pedal_right]])(值4:[$[action_throttle_up]/[$[action_throttle_down]])
 def_seat_node_15_label		Headset Audio	耳机音频
 def_seat_node_15_desc			
 def_seat_node_16_label		Headset Audio	耳机音频
@@ -4965,20 +5607,20 @@ def_seat_compact_desc		It provides 4 number outputs that produce a standard valu
 def_seat_compact_s_desc		The compact pilot seat lets you translate keyboard presses into output signals that can control logic components.	小巧的飞行员座椅可以将键盘按键转换成可以控制逻辑元件的输出信号。
 def_seat_compact_node_0_label		Occupied	占用
 def_seat_compact_node_0_desc		Outputs an on signal if this seat is occupied by a character.	如果这个座位被一个角色占用，则输出一个接通信号。
-def_seat_compact_node_1_label		Trigger	轴1[$[action_left]]/[$[action_right]]
-def_seat_compact_node_1_desc		Outputs an on signal when [$[action_equipment_use]] is held, while character is not holding any equipment.	输出一个介于-1和1之间的标准值，使用[$[action_left]]和[$[action_right]]进行控制。[$[action_left]]使输出值向-1移动，[$[action_right]]将其向1移动。
-def_seat_compact_node_2_label		Axis 1 [$[action_left]]/[$[action_right]]	轴2[$[action_up]/[$[action_down]]
-def_seat_compact_node_2_desc		Outputs a standard value between -1 and 1, controlled using [$[action_left]] and [$[action_right]]. [$[action_left]] causes the output value to move towards -1, and [$[action_right]] moves it towards 1.	输出一个介于-1和1之间的标准值，使用[$[action_up]]和[$[action_down]]进行控制。[$[action_down]]使输出值向-1移动，[$[action_up]]将其向1移动。
-def_seat_compact_node_3_label		Axis 2 [$[action_up]]/[$[action_down]]	轴3 [$[action_pedal_left]] and [$[action_pedal_right]]
-def_seat_compact_node_3_desc		Outputs a standard value between -1 and 1, controlled using [$[action_up]] and [$[action_down]]. [$[action_down]] causes the output value to move towards -1, and [$[action_up]] moves it towards 1.	输出一个介于-1和1之间的标准值，使用 [$[action_pedal_left]] and [$[action_pedal_right]]进行控制。[$[action_pedal_left]]使输出值向-1移动，[$[action_pedal_right]]将其向1移动。
-def_seat_compact_node_4_label		Axis 3 [$[action_pedal_left]]/[$[action_pedal_right]]	轴4[$[action_throttle_up]]/[$[action_throttle_down]]
-def_seat_compact_node_4_desc		Outputs a standard value between -1 and 1, controlled using [$[action_pedal_left]] and [$[action_pedal_right]]. [$[action_pedal_left]] causes the output value to move towards -1, and [$[action_pedal_right]] moves it towards 1.	输出一个介于-1和1之间的标准值，使用[$[action_throttle_up]]和[$[action_throttle_down]]进行控制。[$[action_throttle_down]]使输出值向-1移动，[$[action_throttle_up]]将其向1移动。
-def_seat_compact_node_5_label		Axis 4 [$[action_throttle_up]]/[$[action_throttle_down]]	热键1[$[action_hotkey_1]]
-def_seat_compact_node_5_desc		Outputs a standard value between -1 and 1, controlled using [$[action_throttle_up]] and [$[action_throttle_down]]. [$[action_throttle_down]] causes the output value to move towards -1, and [$[action_throttle_up]] moves it towards 1.	按住[$[action_hotkey_1]]时输出打开信号，不按住时输出关闭信号。
-def_seat_compact_node_6_label		Look X	热键2[$[action_hotkey_2]]
-def_seat_compact_node_6_desc		Outputs the character look direction in turns along the X-axis.	按住[$[action_hotkey_2]]时输出打开信号，不按住时输出关闭信号。
-def_seat_compact_node_7_label		Look Y	热键3[$[action_hotkey_3]]
-def_seat_compact_node_7_desc		Outputs the character look direction in turns along the Y-axis.	按住[$[action_hotkey_3]时输出打开信号，不按住时输出关闭信号。
+def_seat_compact_node_1_label		Trigger [$[action_trigger]]	轴1[$[action_left]]/[$[action_right]]
+def_seat_compact_node_1_desc		Outputs an on signal when [$[action_trigger]] is held, and off when it is not.	输出一个介于-1和1之间的标准值，使用[$[action_left]]和[$[action_right]]进行控制。[$[action_left]]使输出值向-1移动，[$[action_right]]将其向1移动。
+def_seat_compact_node_2_label		Look X	轴2[$[action_up]/[$[action_down]]
+def_seat_compact_node_2_desc		Outputs the character look direction in turns along the X-axis.	输出一个介于-1和1之间的标准值，使用[$[action_up]]和[$[action_down]]进行控制。[$[action_down]]使输出值向-1移动，[$[action_up]]将其向1移动。
+def_seat_compact_node_3_label		Look Y	轴3 [$[action_pedal_left]] and [$[action_pedal_right]]
+def_seat_compact_node_3_desc		Outputs the character look direction in turns along the Y-axis.	输出一个介于-1和1之间的标准值，使用 [$[action_pedal_left]] and [$[action_pedal_right]]进行控制。[$[action_pedal_left]]使输出值向-1移动，[$[action_pedal_right]]将其向1移动。
+def_seat_compact_node_4_label		Axis 1 [$[action_left]]/[$[action_right]]	轴4[$[action_throttle_up]]/[$[action_throttle_down]]
+def_seat_compact_node_4_desc		Outputs a standard value between -1 and 1, controlled using [$[action_left]] and [$[action_right]]. [$[action_left]] causes the output value to move towards -1, and [$[action_right]] moves it towards 1.	输出一个介于-1和1之间的标准值，使用[$[action_throttle_up]]和[$[action_throttle_down]]进行控制。[$[action_throttle_down]]使输出值向-1移动，[$[action_throttle_up]]将其向1移动。
+def_seat_compact_node_5_label		Axis 2 [$[action_up]]/[$[action_down]]	热键1[$[action_hotkey_1]]
+def_seat_compact_node_5_desc		Outputs a standard value between -1 and 1, controlled using [$[action_up]] and [$[action_down]]. [$[action_down]] causes the output value to move towards -1, and [$[action_up]] moves it towards 1.	按住[$[action_hotkey_1]]时输出打开信号，不按住时输出关闭信号。
+def_seat_compact_node_6_label		Axis 3 [$[action_pedal_left]]/[$[action_pedal_right]]	热键2[$[action_hotkey_2]]
+def_seat_compact_node_6_desc		Outputs a standard value between -1 and 1, controlled using [$[action_pedal_left]] and [$[action_pedal_right]]. [$[action_pedal_left]] causes the output value to move towards -1, and [$[action_pedal_right]] moves it towards 1.	按住[$[action_hotkey_2]]时输出打开信号，不按住时输出关闭信号。
+def_seat_compact_node_7_label		Axis 4 [$[action_throttle_up]]/[$[action_throttle_down]]	热键3[$[action_hotkey_3]]
+def_seat_compact_node_7_desc		Outputs a standard value between -1 and 1, controlled using [$[action_throttle_up]] and [$[action_throttle_down]]. [$[action_throttle_down]] causes the output value to move towards -1, and [$[action_throttle_up]] moves it towards 1.	按住[$[action_hotkey_3]时输出打开信号，不按住时输出关闭信号。
 def_seat_compact_node_8_label		Hotkey 1 [$[action_hotkey_1]]	热键4[$[action_hotkey_4]]
 def_seat_compact_node_8_desc		Outputs an on signal when [$[action_hotkey_1]] is held, and off when it is not.	按住[$[action_hotkey_4]]时输出打开信号，不按住时输出关闭信号。
 def_seat_compact_node_9_label		Hotkey 2 [$[action_hotkey_2]]	热键5[$[action_hotkey_5]]
@@ -4992,49 +5634,88 @@ def_seat_compact_node_12_desc		Outputs an on signal when [$[action_hotkey_5]] is
 def_seat_compact_node_13_label		Hotkey 6 [$[action_hotkey_6]]	耳机音频
 def_seat_compact_node_13_desc		Outputs an on signal when [$[action_hotkey_6]] is held, and off when it is not.	
 def_seat_compact_node_14_label		Seat data	
-def_seat_compact_node_14_desc		Outputs the axis, hotkey and occupied data from the seat. (On/Off 1+ : Hotkeys) (On/Off 31 : Trigger) (On/Off 32 : Occupied) (Value 1 : [$[action_left]]/[$[action_right]]) (Value 2 : [$[action_up]]/[$[action_down]]) (Value 3 : [$[action_pedal_left]]/[$[action_pedal_right]]) (Value 4 : [$[action_throttle_up]]/[$[action_throttle_down]])	
+def_seat_compact_node_14_desc		Outputs the axis, hotkey and occupied data from the seat. (On/Off 1+ : Hotkeys) (On/Off 31 : Trigger) (On/Off 32 : Occupied) (Value 1 : [$[action_left]]/[$[action_right]]) (Value 2 : [$[action_up]]/[$[action_down]]) (Value 3 : [$[action_pedal_left]]/[$[action_pedal_right]]) (Value 4 : [$[action_throttle_up]]/[$[action_throttle_down]]) (Value 9 : Look X)  (Value 10 : Look Y)	
 def_seat_compact_node_15_label		Headset Audio	
 def_seat_compact_node_15_desc			
 def_seat_compact_node_16_label		Headset Audio	
 def_seat_compact_node_16_desc			
+def_seat_handle_name		Control Handle	
+def_seat_handle_desc		You can get in and out of the position by interacting with it using [$[action_use_seat]].	
+def_seat_handle_s_desc		A compact control handle.	
+def_seat_handle_node_0_label		Occupied	
+def_seat_handle_node_0_desc		Outputs an on signal if the handle is occupied by a character.	
+def_seat_handle_node_1_label		Trigger [$[action_trigger]]	
+def_seat_handle_node_1_desc		Outputs an on signal when [$[action_trigger]] is held, and off when it is not.	
+def_seat_handle_node_2_label		Look X	
+def_seat_handle_node_2_desc		Outputs the character look direction in turns along the X-axis.	
+def_seat_handle_node_3_label		Look Y	
+def_seat_handle_node_3_desc		Outputs the character look direction in turns along the Y-axis.	
+def_seat_handle_node_4_label		Axis 1 [$[action_left]]/[$[action_right]]	
+def_seat_handle_node_4_desc		Outputs a standard value between -1 and 1, controlled using [$[action_left]] and [$[action_right]]. [$[action_left]] causes the output value to move towards -1, and [$[action_right]] moves it towards 1.	
+def_seat_handle_node_5_label		Axis 2 [$[action_up]]/[$[action_down]]	
+def_seat_handle_node_5_desc		Outputs a standard value between -1 and 1, controlled using [$[action_up]] and [$[action_down]]. [$[action_down]] causes the output value to move towards -1, and [$[action_up]] moves it towards 1.	
+def_seat_handle_node_6_label		Axis 3 [$[action_pedal_left]]/[$[action_pedal_right]]	
+def_seat_handle_node_6_desc		Outputs a standard value between -1 and 1, controlled using [$[action_pedal_left]] and [$[action_pedal_right]]. [$[action_pedal_left]] causes the output value to move towards -1, and [$[action_pedal_right]] moves it towards 1.	
+def_seat_handle_node_7_label		Axis 4 [$[action_throttle_up]]/[$[action_throttle_down]]	
+def_seat_handle_node_7_desc		Outputs a standard value between -1 and 1, controlled using [$[action_throttle_up]] and [$[action_throttle_down]]. [$[action_throttle_down]] causes the output value to move towards -1, and [$[action_throttle_up]] moves it towards 1.	
+def_seat_handle_node_8_label		Hotkey 1 [$[action_hotkey_1]]	
+def_seat_handle_node_8_desc		Outputs an on signal when [$[action_hotkey_1]] is held, and off when it is not.	
+def_seat_handle_node_9_label		Hotkey 2 [$[action_hotkey_2]]	
+def_seat_handle_node_9_desc		Outputs an on signal when [$[action_hotkey_2]] is held, and off when it is not.	
+def_seat_handle_node_10_label		Hotkey 3 [$[action_hotkey_3]]	
+def_seat_handle_node_10_desc		Outputs an on signal when [$[action_hotkey_3]] is held, and off when it is not.	
+def_seat_handle_node_11_label		Hotkey 4 [$[action_hotkey_4]]	
+def_seat_handle_node_11_desc		Outputs an on signal when [$[action_hotkey_4]] is held, and off when it is not.	
+def_seat_handle_node_12_label		Hotkey 5 [$[action_hotkey_5]]	
+def_seat_handle_node_12_desc		Outputs an on signal when [$[action_hotkey_5]] is held, and off when it is not.	
+def_seat_handle_node_13_label		Hotkey 6 [$[action_hotkey_6]]	
+def_seat_handle_node_13_desc		Outputs an on signal when [$[action_hotkey_6]] is held, and off when it is not.	
+def_seat_handle_node_14_label		Seat data	
+def_seat_handle_node_14_desc		Outputs the axis, hotkey and occupied data from the helm. (On/Off 1+ : Hotkeys) (On/Off 31 : Trigger) (On/Off 32 : Occupied) (Value 1 : [$[action_left]]/[$[action_right]]) (Value 2 : [$[action_up]]/[$[action_down]]) (Value 3 : [$[action_pedal_left]]/[$[action_pedal_right]]) (Value 4 : [$[action_throttle_up]]/[$[action_throttle_down]]) (Value 9 : Look X)  (Value 10 : Look Y)	
+def_seat_handle_node_15_label		Headset Audio	
+def_seat_handle_node_15_desc			
+def_seat_handle_node_16_label		Headset Audio	
+def_seat_handle_node_16_desc			
 def_seat_harness_name		Harness	安全带
 def_seat_harness_desc		You can get in and out of the harness by interacting with it using [$[action_use_seat]]. You can place a rescued survivor in any harness by using [$[action_use_seat]] while carrying them.	您可以通过使用[$[action_use_seat]]与它交互来进出安全带。您可以在携带获救幸存者时使用 [$[action_use_seat]]将其放置在任何安全带中。
 def_seat_harness_s_desc		A rescue harness.	救生带。
 def_seat_harness_node_0_label		Occupied	占用
 def_seat_harness_node_0_desc		Outputs an on signal if this harness is occupied by a character.	如果此座位被角色占用，则输出打开信号。
-def_seat_harness_node_1_label		Hotkey 1 [$[action_hotkey_1]]	热键1[$[action_hotkey_1]]
-def_seat_harness_node_1_desc		Outputs an on signal when [$[action_hotkey_1]] is held, and off when it is not.	按住[$[action_hotkey_1]]时输出打开信号，不按住时输出关闭信号。
-def_seat_harness_node_2_label		Hotkey 2 [$[action_hotkey_2]]	热键2[$[action_hotkey_2]]
-def_seat_harness_node_2_desc		Outputs an on signal when [$[action_hotkey_2]] is held, and off when it is not.	按住[$[action_hotkey_2]]时输出打开信号，不按住时输出关闭信号。
-def_seat_harness_node_3_label		Hotkey 3 [$[action_hotkey_3]]	热键3[$[action_hotkey_3]]
-def_seat_harness_node_3_desc		Outputs an on signal when [$[action_hotkey_3]] is held, and off when it is not.	按住[$[action_hotkey_3]时输出打开信号，不按住时输出关闭信号。
-def_seat_harness_node_4_label		Hotkey 4 [$[action_hotkey_4]]	热键4[$[action_hotkey_4]]
-def_seat_harness_node_4_desc		Outputs an on signal when [$[action_hotkey_4]] is held, and off when it is not.	按住[$[action_hotkey_4]]时输出打开信号，不按住时输出关闭信号。
-def_seat_harness_node_5_label		Hotkey 5 [$[action_hotkey_5]]	热键5[$[action_hotkey_5]]
-def_seat_harness_node_5_desc		Outputs an on signal when [$[action_hotkey_5]] is held, and off when it is not.	在按住[$[action_hotkey_5]]时输出打开信号，在不按住时输出关闭信号。
-def_seat_harness_node_6_label		Hotkey 6 [$[action_hotkey_6]]	热键6[$[action_hotkey_6]]
-def_seat_harness_node_6_desc		Outputs an on signal when [$[action_hotkey_6]] is held, and off when it is not.	在按住[$[action_hotkey_6]]时输出打开信号，在不按住时输出关闭信号。
-def_seat_harness_node_7_label		Seat Data	座椅数据
-def_seat_harness_node_7_desc		Outputs the axis, hotkey and occupied data from the seat. (On/Off 1+ : Hotkeys) (On/Off 32 : Occupied) (Value 1 : [$[action_left]]/[$[action_right]]) (Value 2 : [$[action_up]]/[$[action_down]]) (Value 3 : [$[action_pedal_left]]/[$[action_pedal_right]]) (Value 4 : [$[action_throttle_up]]/[$[action_throttle_down]])	从座椅输出轴、热键和占用数据。（开/关1+：热键）（开/关32：已占用）（值1:[$[action_left]]/[$[action_right]]）（值2:[$[action_up]]/[$[action_down]]）（值3:[$[action_pedal_left]]/[$[action_pedal_right]]）（值4:[$[action_throttle_up]]/[$[action_throttle_down]]）
+def_seat_harness_node_1_label		Trigger [$[action_trigger]]	热键1[$[action_hotkey_1]]
+def_seat_harness_node_1_desc		Outputs an on signal when [$[action_trigger]] is held, and off when it is not.	按住[$[action_hotkey_1]]时输出打开信号，不按住时输出关闭信号。
+def_seat_harness_node_2_label		Hotkey 1 [$[action_hotkey_1]]	热键2[$[action_hotkey_2]]
+def_seat_harness_node_2_desc		Outputs an on signal when [$[action_hotkey_1]] is held, and off when it is not.	按住[$[action_hotkey_2]]时输出打开信号，不按住时输出关闭信号。
+def_seat_harness_node_3_label		Hotkey 2 [$[action_hotkey_2]]	热键3[$[action_hotkey_3]]
+def_seat_harness_node_3_desc		Outputs an on signal when [$[action_hotkey_2]] is held, and off when it is not.	按住[$[action_hotkey_3]时输出打开信号，不按住时输出关闭信号。
+def_seat_harness_node_4_label		Hotkey 3 [$[action_hotkey_3]]	热键4[$[action_hotkey_4]]
+def_seat_harness_node_4_desc		Outputs an on signal when [$[action_hotkey_3]] is held, and off when it is not.	按住[$[action_hotkey_4]]时输出打开信号，不按住时输出关闭信号。
+def_seat_harness_node_5_label		Hotkey 4 [$[action_hotkey_4]]	热键5[$[action_hotkey_5]]
+def_seat_harness_node_5_desc		Outputs an on signal when [$[action_hotkey_4]] is held, and off when it is not.	在按住[$[action_hotkey_5]]时输出打开信号，在不按住时输出关闭信号。
+def_seat_harness_node_6_label		Hotkey 5 [$[action_hotkey_5]]	热键6[$[action_hotkey_6]]
+def_seat_harness_node_6_desc		Outputs an on signal when [$[action_hotkey_5]] is held, and off when it is not.	在按住[$[action_hotkey_6]]时输出打开信号，在不按住时输出关闭信号。
+def_seat_harness_node_7_label		Hotkey 6 [$[action_hotkey_6]]	座椅数据
+def_seat_harness_node_7_desc		Outputs an on signal when [$[action_hotkey_6]] is held, and off when it is not.	从座椅输出轴、热键和占用数据。（开/关1+：热键）（开/关32：已占用）（值1:[$[action_left]]/[$[action_right]]）（值2:[$[action_up]]/[$[action_down]]）（值3:[$[action_pedal_left]]/[$[action_pedal_right]]）（值4:[$[action_throttle_up]]/[$[action_throttle_down]]）
+def_seat_harness_node_8_label		Seat Data	
+def_seat_harness_node_8_desc		Outputs the axis, hotkey and occupied data from the seat. (On/Off 1+ : Hotkeys) (On/Off 31 : Trigger) (On/Off 32 : Occupied) (Value 1 : [$[action_left]]/[$[action_right]]) (Value 2 : [$[action_up]]/[$[action_down]]) (Value 3 : [$[action_pedal_left]]/[$[action_pedal_right]]) (Value 4 : [$[action_throttle_up]]/[$[action_throttle_down]])	
 def_seat_helm_name		Helm	轮舵
 def_seat_helm_desc		You can get in and out of the position by interacting with it using [$[action_use_seat]]. You can place a rescued survivor in any position by using [$[action_use_seat]] while carrying them.	您可以通过使用 [$[action_use_seat]]与之交互来进出该位置。你可以在携带幸存者时使用 [$[action_use_seat]]将获救的幸存者放置在任何位置。
 def_seat_helm_s_desc		A steering helm with steering wheel.	带方向盘的轮舵。
 def_seat_helm_node_0_label		Occupied	占用
 def_seat_helm_node_0_desc		Outputs an on signal if the helm is occupied by a character.	如果轮舵被一个角色占用，则输出一个打开信号。
-def_seat_helm_node_1_label		Trigger	轴1[$[action_left]]/[$[action_right]]
-def_seat_helm_node_1_desc		Outputs an on signal when [$[action_equipment_use]] is held, while character is not holding any equipment.	输出一个介于-1和1之间的标准值，使用[$[action_left]]和[$[action_right]]进行控制。[$[action_left]]使输出值向-1移动，[$[action_right]]将其向1移动。
-def_seat_helm_node_2_label		Axis 1 [$[action_left]]/[$[action_right]]	轴2[$[action_up]/[$[action_down]]
-def_seat_helm_node_2_desc		Outputs a standard value between -1 and 1, controlled using [$[action_left]] and [$[action_right]]. [$[action_left]] causes the output value to move towards -1, and [$[action_right]] moves it towards 1.	输出一个介于-1和1之间的标准值，使用[$[action_up]]和[$[action_down]]进行控制。[$[action_down]]使输出值向-1移动，[$[action_up]]将其向1移动。
-def_seat_helm_node_3_label		Axis 2 [$[action_up]]/[$[action_down]]	轴3 [$[action_pedal_left]] and [$[action_pedal_right]]
-def_seat_helm_node_3_desc		Outputs a standard value between -1 and 1, controlled using [$[action_up]] and [$[action_down]]. [$[action_down]] causes the output value to move towards -1, and [$[action_up]] moves it towards 1.	输出一个介于-1和1之间的标准值，使用 [$[action_pedal_left]] and [$[action_pedal_right]]进行控制。[$[action_pedal_left]]使输出值向-1移动，[$[action_pedal_right]]将其向1移动。
-def_seat_helm_node_4_label		Axis 3 [$[action_pedal_left]]/[$[action_pedal_right]]	轴4[$[action_throttle_up]]/[$[action_throttle_down]]
-def_seat_helm_node_4_desc		Outputs a standard value between -1 and 1, controlled using [$[action_pedal_left]] and [$[action_pedal_right]]. [$[action_pedal_left]] causes the output value to move towards -1, and [$[action_pedal_right]] moves it towards 1.	输出一个介于-1和1之间的标准值，使用[$[action_throttle_up]]和[$[action_throttle_down]]进行控制。[$[action_throttle_down]]使输出值向-1移动，[$[action_throttle_up]]将其向1移动。
-def_seat_helm_node_5_label		Axis 4 [$[action_throttle_up]]/[$[action_throttle_down]]	热键1[$[action_hotkey_1]]
-def_seat_helm_node_5_desc		Outputs a standard value between -1 and 1, controlled using [$[action_throttle_up]] and [$[action_throttle_down]]. [$[action_throttle_down]] causes the output value to move towards -1, and [$[action_throttle_up]] moves it towards 1.	按住[$[action_hotkey_1]]时输出打开信号，不按住时输出关闭信号。
-def_seat_helm_node_6_label		Look X	热键2[$[action_hotkey_2]]
-def_seat_helm_node_6_desc		Outputs the character look direction in turns along the X-axis.	按住[$[action_hotkey_2]]时输出打开信号，不按住时输出关闭信号。
-def_seat_helm_node_7_label		Look Y	热键3[$[action_hotkey_3]]
-def_seat_helm_node_7_desc		Outputs the character look direction in turns along the Y-axis.	按住[$[action_hotkey_3]时输出打开信号，不按住时输出关闭信号。
+def_seat_helm_node_1_label		Trigger [$[action_trigger]]	轴1[$[action_left]]/[$[action_right]]
+def_seat_helm_node_1_desc		Outputs an on signal when [$[action_trigger]] is held, and off when it is not.	输出一个介于-1和1之间的标准值，使用[$[action_left]]和[$[action_right]]进行控制。[$[action_left]]使输出值向-1移动，[$[action_right]]将其向1移动。
+def_seat_helm_node_2_label		Look X	轴2[$[action_up]/[$[action_down]]
+def_seat_helm_node_2_desc		Outputs the character look direction in turns along the X-axis.	输出一个介于-1和1之间的标准值，使用[$[action_up]]和[$[action_down]]进行控制。[$[action_down]]使输出值向-1移动，[$[action_up]]将其向1移动。
+def_seat_helm_node_3_label		Look Y	轴3 [$[action_pedal_left]] and [$[action_pedal_right]]
+def_seat_helm_node_3_desc		Outputs the character look direction in turns along the Y-axis.	输出一个介于-1和1之间的标准值，使用 [$[action_pedal_left]] and [$[action_pedal_right]]进行控制。[$[action_pedal_left]]使输出值向-1移动，[$[action_pedal_right]]将其向1移动。
+def_seat_helm_node_4_label		Axis 1 [$[action_left]]/[$[action_right]]	轴4[$[action_throttle_up]]/[$[action_throttle_down]]
+def_seat_helm_node_4_desc		Outputs a standard value between -1 and 1, controlled using [$[action_left]] and [$[action_right]]. [$[action_left]] causes the output value to move towards -1, and [$[action_right]] moves it towards 1.	输出一个介于-1和1之间的标准值，使用[$[action_throttle_up]]和[$[action_throttle_down]]进行控制。[$[action_throttle_down]]使输出值向-1移动，[$[action_throttle_up]]将其向1移动。
+def_seat_helm_node_5_label		Axis 2 [$[action_up]]/[$[action_down]]	热键1[$[action_hotkey_1]]
+def_seat_helm_node_5_desc		Outputs a standard value between -1 and 1, controlled using [$[action_up]] and [$[action_down]]. [$[action_down]] causes the output value to move towards -1, and [$[action_up]] moves it towards 1.	按住[$[action_hotkey_1]]时输出打开信号，不按住时输出关闭信号。
+def_seat_helm_node_6_label		Axis 3 [$[action_pedal_left]]/[$[action_pedal_right]]	热键2[$[action_hotkey_2]]
+def_seat_helm_node_6_desc		Outputs a standard value between -1 and 1, controlled using [$[action_pedal_left]] and [$[action_pedal_right]]. [$[action_pedal_left]] causes the output value to move towards -1, and [$[action_pedal_right]] moves it towards 1.	按住[$[action_hotkey_2]]时输出打开信号，不按住时输出关闭信号。
+def_seat_helm_node_7_label		Axis 4 [$[action_throttle_up]]/[$[action_throttle_down]]	热键3[$[action_hotkey_3]]
+def_seat_helm_node_7_desc		Outputs a standard value between -1 and 1, controlled using [$[action_throttle_up]] and [$[action_throttle_down]]. [$[action_throttle_down]] causes the output value to move towards -1, and [$[action_throttle_up]] moves it towards 1.	按住[$[action_hotkey_3]时输出打开信号，不按住时输出关闭信号。
 def_seat_helm_node_8_label		Hotkey 1 [$[action_hotkey_1]]	热键4[$[action_hotkey_4]]
 def_seat_helm_node_8_desc		Outputs an on signal when [$[action_hotkey_1]] is held, and off when it is not.	按住[$[action_hotkey_4]]时输出打开信号，不按住时输出关闭信号。
 def_seat_helm_node_9_label		Hotkey 2 [$[action_hotkey_2]]	热键5[$[action_hotkey_5]]
@@ -5048,38 +5729,38 @@ def_seat_helm_node_12_desc		Outputs an on signal when [$[action_hotkey_5]] is he
 def_seat_helm_node_13_label		Hotkey 6 [$[action_hotkey_6]]	耳机音频
 def_seat_helm_node_13_desc		Outputs an on signal when [$[action_hotkey_6]] is held, and off when it is not.	
 def_seat_helm_node_14_label		Seat data	
-def_seat_helm_node_14_desc		Outputs the axis, hotkey and occupied data from the helm. (On/Off 1+ : Hotkeys) (On/Off 31 : Trigger) (On/Off 32 : Occupied) (Value 1 : [$[action_left]]/[$[action_right]]) (Value 2 : [$[action_up]]/[$[action_down]]) (Value 3 : [$[action_pedal_left]]/[$[action_pedal_right]]) (Value 4 : [$[action_throttle_up]]/[$[action_throttle_down]])	
+def_seat_helm_node_14_desc		Outputs the axis, hotkey and occupied data from the helm. (On/Off 1+ : Hotkeys) (On/Off 31 : Trigger) (On/Off 32 : Occupied) (Value 1 : [$[action_left]]/[$[action_right]]) (Value 2 : [$[action_up]]/[$[action_down]]) (Value 3 : [$[action_pedal_left]]/[$[action_pedal_right]]) (Value 4 : [$[action_throttle_up]]/[$[action_throttle_down]]) (Value 9 : Look X)  (Value 10 : Look Y)	
 def_seat_helm_node_15_label		Headset Audio	
 def_seat_helm_node_15_desc			
 def_seat_helm_node_16_label		Headset Audio	
 def_seat_helm_node_16_desc			
 def_seat_hotas_name		Pilot Seat (HOTAS)	驾驶员座椅(HOTAS)
-def_seat_hotas_desc		It provides 8 number outputs that produce a standard value ranging from -1 to 1, and 48 on/off outputs. You can get in and out of the pilot seat by interacting with it using [$[action_use_seat]]. Designed for use with HOTAS controllers.	它提供8个输出，产生从-1到1的标准值，以及48个开/关输出。您可以通过使用 [$[action_use_seat]]与飞行员座椅交互来进出。设计用于HOTAS控制器。
+def_seat_hotas_desc		It provides 10 number outputs that produce a standard value ranging from -1 to 1, and 48 on/off outputs. You can get in and out of the pilot seat by interacting with it using [$[action_use_seat]]. Designed for use with HOTAS controllers.	它提供8个输出，产生从-1到1的标准值，以及48个开/关输出。您可以通过使用 [$[action_use_seat]]与飞行员座椅交互来进出。设计用于HOTAS控制器。
 def_seat_hotas_s_desc		The pilot seat lets you translate controller presses into output signals that can control logic components.	飞行员座椅可以将控制器压力转换成可以控制逻辑元件的输出信号。
 def_seat_hotas_node_0_label		Occupied	占用
 def_seat_hotas_node_0_desc		Outputs an on signal if this seat is occupied by a character.	如果这个座位被一个角色占用，则输出一个接通信号。
-def_seat_hotas_node_1_label		Trigger	轴1[$[action_left]]/[$[action_right]]
-def_seat_hotas_node_1_desc		Outputs an on signal when [$[action_equipment_use]] is held, while character is not holding any equipment.	输出一个介于-1和1之间的标准值，使用[$[action_left]]和[$[action_right]]进行控制。[$[action_left]]使输出值向-1移动，[$[action_right]]将其向1移动。
-def_seat_hotas_node_2_label		Axis 1 [$[action_left]]/[$[action_right]]	轴2[$[action_up]/[$[action_down]]
-def_seat_hotas_node_2_desc		Outputs a standard value between -1 and 1, controlled using [$[action_left]] and [$[action_right]]. [$[action_left]] causes the output value to move towards -1, and [$[action_right]] moves it towards 1.	输出一个介于-1和1之间的标准值，使用[$[action_up]]和[$[action_down]]进行控制。[$[action_down]]使输出值向-1移动，[$[action_up]]将其向1移动。
-def_seat_hotas_node_3_label		Axis 2 [$[action_up]]/[$[action_down]]	轴3 [$[action_pedal_left]] and [$[action_pedal_right]]
-def_seat_hotas_node_3_desc		Outputs a standard value between -1 and 1, controlled using [$[action_up]] and [$[action_down]]. [$[action_down]] causes the output value to move towards -1, and [$[action_up]] moves it towards 1.	输出一个介于-1和1之间的标准值，使用 [$[action_pedal_left]] and [$[action_pedal_right]]进行控制。[$[action_pedal_left]]使输出值向-1移动，[$[action_pedal_right]]将其向1移动。
-def_seat_hotas_node_4_label		Axis 3 [$[action_pedal_left]]/[$[action_pedal_right]]	轴4[$[action_throttle_up]]/[$[action_throttle_down]]
-def_seat_hotas_node_4_desc		Outputs a standard value between -1 and 1, controlled using [$[action_pedal_left]] and [$[action_pedal_right]]. [$[action_pedal_left]] causes the output value to move towards -1, and [$[action_pedal_right]] moves it towards 1.	输出一个介于-1和1之间的标准值，使用[$[action_throttle_up]]和[$[action_throttle_down]]进行控制。[$[action_throttle_down]]使输出值向-1移动，[$[action_throttle_up]]将其向1移动。
-def_seat_hotas_node_5_label		Axis 4 [$[action_throttle_up]]/[$[action_throttle_down]]	轴5
-def_seat_hotas_node_5_desc		Outputs a standard value between -1 and 1, controlled using [$[action_throttle_up]] and [$[action_throttle_down]]. [$[action_throttle_down]] causes the output value to move towards -1, and [$[action_throttle_up]] moves it towards 1.	输出一个介于-1和1之间的标准值，由控制器轴控制。
-def_seat_hotas_node_6_label		Axis 5	轴6
-def_seat_hotas_node_6_desc		Outputs a standard value between -1 and 1, controlled using the controller axis.	输出一个介于-1和1之间的标准值，由控制器轴控制。
-def_seat_hotas_node_7_label		Axis 6	轴7
-def_seat_hotas_node_7_desc		Outputs a standard value between -1 and 1, controlled using the controller axis.	输出一个介于-1和1之间的标准值，由控制器轴控制。
-def_seat_hotas_node_8_label		Axis 7	轴8
+def_seat_hotas_node_1_label		Trigger [$[action_trigger]]	轴1[$[action_left]]/[$[action_right]]
+def_seat_hotas_node_1_desc		Outputs an on signal when [$[action_trigger]] is held, and off when it is not.	输出一个介于-1和1之间的标准值，使用[$[action_left]]和[$[action_right]]进行控制。[$[action_left]]使输出值向-1移动，[$[action_right]]将其向1移动。
+def_seat_hotas_node_2_label		Look X	轴2[$[action_up]/[$[action_down]]
+def_seat_hotas_node_2_desc		Outputs the character look direction in turns along the X-axis.	输出一个介于-1和1之间的标准值，使用[$[action_up]]和[$[action_down]]进行控制。[$[action_down]]使输出值向-1移动，[$[action_up]]将其向1移动。
+def_seat_hotas_node_3_label		Look Y	轴3 [$[action_pedal_left]] and [$[action_pedal_right]]
+def_seat_hotas_node_3_desc		Outputs the character look direction in turns along the Y-axis.	输出一个介于-1和1之间的标准值，使用 [$[action_pedal_left]] and [$[action_pedal_right]]进行控制。[$[action_pedal_left]]使输出值向-1移动，[$[action_pedal_right]]将其向1移动。
+def_seat_hotas_node_4_label		Axis 1 [$[action_left]]/[$[action_right]]	轴4[$[action_throttle_up]]/[$[action_throttle_down]]
+def_seat_hotas_node_4_desc		Outputs a standard value between -1 and 1, controlled using [$[action_left]] and [$[action_right]]. [$[action_left]] causes the output value to move towards -1, and [$[action_right]] moves it towards 1.	输出一个介于-1和1之间的标准值，使用[$[action_throttle_up]]和[$[action_throttle_down]]进行控制。[$[action_throttle_down]]使输出值向-1移动，[$[action_throttle_up]]将其向1移动。
+def_seat_hotas_node_5_label		Axis 2 [$[action_up]]/[$[action_down]]	轴5
+def_seat_hotas_node_5_desc		Outputs a standard value between -1 and 1, controlled using [$[action_up]] and [$[action_down]]. [$[action_down]] causes the output value to move towards -1, and [$[action_up]] moves it towards 1.	输出一个介于-1和1之间的标准值，由控制器轴控制。
+def_seat_hotas_node_6_label		Axis 3 [$[action_pedal_left]]/[$[action_pedal_right]]	轴6
+def_seat_hotas_node_6_desc		Outputs a standard value between -1 and 1, controlled using [$[action_pedal_left]] and [$[action_pedal_right]]. [$[action_pedal_left]] causes the output value to move towards -1, and [$[action_pedal_right]] moves it towards 1.	输出一个介于-1和1之间的标准值，由控制器轴控制。
+def_seat_hotas_node_7_label		Axis 4 [$[action_throttle_up]]/[$[action_throttle_down]]	轴7
+def_seat_hotas_node_7_desc		Outputs a standard value between -1 and 1, controlled using [$[action_throttle_up]] and [$[action_throttle_down]]. [$[action_throttle_down]] causes the output value to move towards -1, and [$[action_throttle_up]] moves it towards 1.	输出一个介于-1和1之间的标准值，由控制器轴控制。
+def_seat_hotas_node_8_label		Axis 5	轴8
 def_seat_hotas_node_8_desc		Outputs a standard value between -1 and 1, controlled using the controller axis.	输出一个介于-1和1之间的标准值，由控制器轴控制。
-def_seat_hotas_node_9_label		Axis 8	热键1[$[action_hotkey_1]]
+def_seat_hotas_node_9_label		Axis 6	热键1[$[action_hotkey_1]]
 def_seat_hotas_node_9_desc		Outputs a standard value between -1 and 1, controlled using the controller axis.	按住[$[action_hotkey_1]]时输出打开信号，不按住时输出关闭信号。
-def_seat_hotas_node_10_label		Look X	热键2[$[action_hotkey_2]]
-def_seat_hotas_node_10_desc		Outputs the character look direction in turns along the X-axis.	按住[$[action_hotkey_2]]时输出打开信号，不按住时输出关闭信号。
-def_seat_hotas_node_11_label		Look Y	热键3[$[action_hotkey_3]]
-def_seat_hotas_node_11_desc		Outputs the character look direction in turns along the Y-axis.	按住[$[action_hotkey_3]时输出打开信号，不按住时输出关闭信号。
+def_seat_hotas_node_10_label		Axis 7	热键2[$[action_hotkey_2]]
+def_seat_hotas_node_10_desc		Outputs a standard value between -1 and 1, controlled using the controller axis.	按住[$[action_hotkey_2]]时输出打开信号，不按住时输出关闭信号。
+def_seat_hotas_node_11_label		Axis 8	热键3[$[action_hotkey_3]]
+def_seat_hotas_node_11_desc		Outputs a standard value between -1 and 1, controlled using the controller axis.	按住[$[action_hotkey_3]时输出打开信号，不按住时输出关闭信号。
 def_seat_hotas_node_12_label		Hotkey 1 [$[action_hotkey_1]]	热键4[$[action_hotkey_4]]
 def_seat_hotas_node_12_desc		Outputs an on signal when [$[action_hotkey_1]] is held, and off when it is not.	按住[$[action_hotkey_4]]时输出打开信号，不按住时输出关闭信号。
 def_seat_hotas_node_13_label		Hotkey 2 [$[action_hotkey_2]]	热键5[$[action_hotkey_5]]
@@ -5177,14 +5858,14 @@ def_seat_hotas_node_58_desc		Outputs an on signal when the controller button is 
 def_seat_hotas_node_59_label		Hotkey 48	耳机音频
 def_seat_hotas_node_59_desc		Outputs an on signal when the controller button is held, and off when it is not.	
 def_seat_hotas_node_60_label		Seat data	
-def_seat_hotas_node_60_desc		Outputs the axis, hotkey and occupied data from the seat. (On/Off 1+ : Hotkeys) (On/Off 31 : Trigger) (On/Off 32 : Occupied) (Value 1 : [$[action_left]]/[$[action_right]]) (Value 2 : [$[action_up]]/[$[action_down]]) (Value 3 : [$[action_pedal_left]]/[$[action_pedal_right]]) (Value 4 : [$[action_throttle_up]]/[$[action_throttle_down]])	
+def_seat_hotas_node_60_desc		Outputs the axis, hotkey and occupied data from the seat. (On/Off 1+ : Hotkeys) (On/Off 31 : Trigger) (On/Off 32 : Occupied) (Value 1 : [$[action_left]]/[$[action_right]]) (Value 2 : [$[action_up]]/[$[action_down]]) (Value 3 : [$[action_pedal_left]]/[$[action_pedal_right]]) (Value 4 : [$[action_throttle_up]]/[$[action_throttle_down]]) (Values 5/6/7/8 : Controller Axes) (Value 9 : Look X)  (Value 10 : Look Y)	
 def_seat_hotas_node_61_label		Headset Audio	
 def_seat_hotas_node_61_desc			
 def_seat_hotas_node_62_label		Headset Audio	
 def_seat_hotas_node_62_desc			
 def_seat_medical_name		Medical Bed	病床
 def_seat_medical_desc		You can get in and out of the medical bed by interacting with it using [$[action_use_seat]]. You can place a rescued survivor in any medical bed by using [$[action_use_seat]] while carrying them.	你可以通过使用[$[action_use_seat]]与病床互动来进出病床。您可以在携带获救幸存者时使用 [$[action_use_seat]]将其放置在任何医疗床上。
-def_seat_medical_s_desc		A bed equiped with medical monitoring equipment.	装有医疗监护设备的床。
+def_seat_medical_s_desc		A bed equiped with medical monitoring equipment, slowly heals injured characters.	装有医疗监护设备的床。
 def_seat_medical_node_0_label		Occupied	占用
 def_seat_medical_node_0_desc		Outputs an on signal if this bed is occupied by a character.	如果这个床被一个角色占用，则输出一个打开信号。
 def_seat_padded_name		Padded Seat	软垫座椅
@@ -5202,20 +5883,20 @@ def_seat_racing_desc		It provides 4 number outputs that produce a standard value
 def_seat_racing_s_desc		The driver seat lets you translate keyboard presses into output signals that can control logic components.	驾驶员座椅允许您将键盘按键转换为可以控制逻辑组件的输出信号。
 def_seat_racing_node_0_label		Occupied	占用
 def_seat_racing_node_0_desc		Outputs an on signal if this seat is occupied by a character.	如果这个座位被一个角色占用，则输出一个接通信号。
-def_seat_racing_node_1_label		Trigger	轴1[$[action_left]]/[$[action_right]]
-def_seat_racing_node_1_desc		Outputs an on signal when [$[action_equipment_use]] is held, while character is not holding any equipment.	输出一个介于-1和1之间的标准值，使用[$[action_left]]和[$[action_right]]进行控制。[$[action_left]]使输出值向-1移动，[$[action_right]]将其向1移动。
-def_seat_racing_node_2_label		Axis 1 [$[action_left]]/[$[action_right]]	轴2[$[action_up]/[$[action_down]]
-def_seat_racing_node_2_desc		Outputs a standard value between -1 and 1, controlled using [$[action_left]] and [$[action_right]]. [$[action_left]] causes the output value to move towards -1, and [$[action_right]] moves it towards 1.	输出一个介于-1和1之间的标准值，使用[$[action_up]]和[$[action_down]]进行控制。[$[action_down]]使输出值向-1移动，[$[action_up]]将其向1移动。
-def_seat_racing_node_3_label		Axis 2 [$[action_up]]/[$[action_down]]	轴3 [$[action_pedal_left]] and [$[action_pedal_right]]
-def_seat_racing_node_3_desc		Outputs a standard value between -1 and 1, controlled using [$[action_up]] and [$[action_down]]. [$[action_down]] causes the output value to move towards -1, and [$[action_up]] moves it towards 1.	输出一个介于-1和1之间的标准值，使用 [$[action_pedal_left]] and [$[action_pedal_right]]进行控制。[$[action_pedal_left]]使输出值向-1移动，[$[action_pedal_right]]将其向1移动。
-def_seat_racing_node_4_label		Axis 3 [$[action_pedal_left]]/[$[action_pedal_right]]	轴4[$[action_throttle_up]]/[$[action_throttle_down]]
-def_seat_racing_node_4_desc		Outputs a standard value between -1 and 1, controlled using [$[action_pedal_left]] and [$[action_pedal_right]]. [$[action_pedal_left]] causes the output value to move towards -1, and [$[action_pedal_right]] moves it towards 1.	输出一个介于-1和1之间的标准值，使用[$[action_throttle_up]]和[$[action_throttle_down]]进行控制。[$[action_throttle_down]]使输出值向-1移动，[$[action_throttle_up]]将其向1移动。
-def_seat_racing_node_5_label		Axis 4 [$[action_throttle_up]]/[$[action_throttle_down]]	热键1[$[action_hotkey_1]]
-def_seat_racing_node_5_desc		Outputs a standard value between -1 and 1, controlled using [$[action_throttle_up]] and [$[action_throttle_down]]. [$[action_throttle_down]] causes the output value to move towards -1, and [$[action_throttle_up]] moves it towards 1.	按住[$[action_hotkey_1]]时输出打开信号，不按住时输出关闭信号。
-def_seat_racing_node_6_label		Look X	热键2[$[action_hotkey_2]]
-def_seat_racing_node_6_desc		Outputs the character look direction in turns along the X-axis.	按住[$[action_hotkey_2]]时输出打开信号，不按住时输出关闭信号。
-def_seat_racing_node_7_label		Look Y	热键3[$[action_hotkey_3]]
-def_seat_racing_node_7_desc		Outputs the character look direction in turns along the Y-axis.	按住[$[action_hotkey_3]时输出打开信号，不按住时输出关闭信号。
+def_seat_racing_node_1_label		Trigger [$[action_trigger]]	轴1[$[action_left]]/[$[action_right]]
+def_seat_racing_node_1_desc		Outputs an on signal when [$[action_trigger]] is held, and off when it is not.	输出一个介于-1和1之间的标准值，使用[$[action_left]]和[$[action_right]]进行控制。[$[action_left]]使输出值向-1移动，[$[action_right]]将其向1移动。
+def_seat_racing_node_2_label		Look X	轴2[$[action_up]/[$[action_down]]
+def_seat_racing_node_2_desc		Outputs the character look direction in turns along the X-axis.	输出一个介于-1和1之间的标准值，使用[$[action_up]]和[$[action_down]]进行控制。[$[action_down]]使输出值向-1移动，[$[action_up]]将其向1移动。
+def_seat_racing_node_3_label		Look Y	轴3 [$[action_pedal_left]] and [$[action_pedal_right]]
+def_seat_racing_node_3_desc		Outputs the character look direction in turns along the Y-axis.	输出一个介于-1和1之间的标准值，使用 [$[action_pedal_left]] and [$[action_pedal_right]]进行控制。[$[action_pedal_left]]使输出值向-1移动，[$[action_pedal_right]]将其向1移动。
+def_seat_racing_node_4_label		Axis 1 [$[action_left]]/[$[action_right]]	轴4[$[action_throttle_up]]/[$[action_throttle_down]]
+def_seat_racing_node_4_desc		Outputs a standard value between -1 and 1, controlled using [$[action_left]] and [$[action_right]]. [$[action_left]] causes the output value to move towards -1, and [$[action_right]] moves it towards 1.	输出一个介于-1和1之间的标准值，使用[$[action_throttle_up]]和[$[action_throttle_down]]进行控制。[$[action_throttle_down]]使输出值向-1移动，[$[action_throttle_up]]将其向1移动。
+def_seat_racing_node_5_label		Axis 2 [$[action_up]]/[$[action_down]]	热键1[$[action_hotkey_1]]
+def_seat_racing_node_5_desc		Outputs a standard value between -1 and 1, controlled using [$[action_up]] and [$[action_down]]. [$[action_down]] causes the output value to move towards -1, and [$[action_up]] moves it towards 1.	按住[$[action_hotkey_1]]时输出打开信号，不按住时输出关闭信号。
+def_seat_racing_node_6_label		Axis 3 [$[action_pedal_left]]/[$[action_pedal_right]]	热键2[$[action_hotkey_2]]
+def_seat_racing_node_6_desc		Outputs a standard value between -1 and 1, controlled using [$[action_pedal_left]] and [$[action_pedal_right]]. [$[action_pedal_left]] causes the output value to move towards -1, and [$[action_pedal_right]] moves it towards 1.	按住[$[action_hotkey_2]]时输出打开信号，不按住时输出关闭信号。
+def_seat_racing_node_7_label		Axis 4 [$[action_throttle_up]]/[$[action_throttle_down]]	热键3[$[action_hotkey_3]]
+def_seat_racing_node_7_desc		Outputs a standard value between -1 and 1, controlled using [$[action_throttle_up]] and [$[action_throttle_down]]. [$[action_throttle_down]] causes the output value to move towards -1, and [$[action_throttle_up]] moves it towards 1.	按住[$[action_hotkey_3]时输出打开信号，不按住时输出关闭信号。
 def_seat_racing_node_8_label		Hotkey 1 [$[action_hotkey_1]]	热键4[$[action_hotkey_4]]
 def_seat_racing_node_8_desc		Outputs an on signal when [$[action_hotkey_1]] is held, and off when it is not.	按住[$[action_hotkey_4]]时输出打开信号，不按住时输出关闭信号。
 def_seat_racing_node_9_label		Hotkey 2 [$[action_hotkey_2]]	热键5[$[action_hotkey_5]]
@@ -5229,7 +5910,7 @@ def_seat_racing_node_12_desc		Outputs an on signal when [$[action_hotkey_5]] is 
 def_seat_racing_node_13_label		Hotkey 6 [$[action_hotkey_6]]	耳机音频
 def_seat_racing_node_13_desc		Outputs an on signal when [$[action_hotkey_6]] is held, and off when it is not.	
 def_seat_racing_node_14_label		Seat data	
-def_seat_racing_node_14_desc		Outputs the axis, hotkey and occupied data from the seat. (On/Off 1+ : Hotkeys) (On/Off 31 : Trigger) (On/Off 32 : Occupied) (Value 1 : [$[action_left]]/[$[action_right]]) (Value 2 : [$[action_up]]/[$[action_down]]) (Value 3 : [$[action_pedal_left]]/[$[action_pedal_right]]) (Value 4 : [$[action_throttle_up]]/[$[action_throttle_down]])	
+def_seat_racing_node_14_desc		Outputs the axis, hotkey and occupied data from the seat. (On/Off 1+ : Hotkeys) (On/Off 31 : Trigger) (On/Off 32 : Occupied) (Value 1 : [$[action_left]]/[$[action_right]]) (Value 2 : [$[action_up]]/[$[action_down]]) (Value 3 : [$[action_pedal_left]]/[$[action_pedal_right]]) (Value 4 : [$[action_throttle_up]]/[$[action_throttle_down]]) (Value 9 : Look X)  (Value 10 : Look Y)	
 def_seat_racing_node_15_label		Headset Audio	
 def_seat_racing_node_15_desc			
 def_seat_racing_node_16_label		Headset Audio	
@@ -5249,20 +5930,23 @@ def_sign_node_1_desc		Electrical power connection.	电源连接。
 def_sign_na_name		Paintable Sign	可涂标志
 def_sign_na_desc		This block has a paintable surface where small grid squares can be painted individually.	这个块有一个可绘制的表面，在那里可以单独绘制小的网格正方形。
 def_sign_na_s_desc		Sign block for displaying painted detail.	用于显示涂漆细节的标志块。
+def_siren_name		Siren	
+def_siren_desc		It has an audible range of 3000m.	
+def_siren_s_desc		A warning siren with a large audible range.	
+def_siren_node_0_label		Horn	
+def_siren_node_0_desc		Sounds the horn when recieving an on signal.	
+def_siren_node_1_label		Electric	
+def_siren_node_1_desc		Electrical power connection.	
 def_ski_name		Ski	雪橇
 def_ski_desc		This component has low friction moving along its length, but grips laterally.	该部件沿其长度移动时摩擦力很低，但会横向夹紧。
 def_ski_s_desc		A wide hinged ski.	宽铰链滑雪板。
 def_ski_node_0_label		Steering	驾驶
 def_ski_node_0_desc		Accepts a value between -1 and 1 that represents the extremes of the steering rotation.	接受一个介于-1和1之间的值，该值表示转向旋转的极值值。
-def_ski_node_1_label		Electric	电源
-def_ski_node_1_desc		Electrical power connection.	电源连接。
 def_ski_small_name		Ski (Small)	雪橇(小)
 def_ski_small_desc		This component has low friction moving along its length, but grips laterally.	该部件沿其长度移动时摩擦力很低，但会横向夹紧。
 def_ski_small_s_desc		A small hinged ski.	有铰链的小滑雪板。
 def_ski_small_node_0_label		Steering	驾驶
 def_ski_small_node_0_desc		Accepts a value between -1 and 1 that represents the extremes of the steering rotation.	接受一个介于-1和1之间的值，该值表示转向旋转的极值值。
-def_ski_small_node_1_label		Electric	电源
-def_ski_small_node_1_desc		Electrical power connection.	电源连接。
 def_small_light_name		Light	灯
 def_small_light_desc			
 def_small_light_s_desc		A basic light that can be controlled using an on/off signal.	一种可以用开关信号控制的基本光。
@@ -5285,12 +5969,33 @@ def_solar_node_0_desc		The electric connection to output electric energy.	输出
 def_solid_rocket_huge_name		Solid Rocket Fuel (Huge)	固体火箭燃料(巨大)
 def_solid_rocket_huge_desc		Fuel can be stacked to increase the burn duration of a rocket booster.	燃料可以堆积起来以增加火箭助推器的燃烧时间。
 def_solid_rocket_huge_s_desc		A huge solid rocket fuel segment.	巨大的固体火箭燃料块。
+def_solid_rocket_huge_fins_name		Solid Rocket Fuel (Huge) (Fins)	
+def_solid_rocket_huge_fins_desc		Fuel can be stacked to increase the burn duration of a rocket booster. Link up to the instruction output of a missile radar for automatic guidance.	
+def_solid_rocket_huge_fins_s_desc		A huge solid rocket fuel segment with in-built controllable fins.	
+def_solid_rocket_huge_fins_node_0_label		Composite Input	
+def_solid_rocket_huge_fins_node_0_desc		Composite data for the control surfaces.	
+def_solid_rocket_huge_fins_node_1_label		Electric	
+def_solid_rocket_huge_fins_node_1_desc		Electrical power connection.	
 def_solid_rocket_large_name		Solid Rocket Fuel (Large)	固体火箭燃料(大)
 def_solid_rocket_large_desc		Fuel can be stacked to increase the burn duration of a rocket booster.	燃料可以堆积起来以增加火箭助推器的燃烧时间。
 def_solid_rocket_large_s_desc		A large solid rocket fuel segment.	大型固体火箭燃料段。
+def_solid_rocket_large_fins_name		Solid Rocket Fuel (Large) (Fins)	
+def_solid_rocket_large_fins_desc		Fuel can be stacked to increase the burn duration of a rocket booster. Link up to the instruction output of a missile radar for automatic guidance.	
+def_solid_rocket_large_fins_s_desc		A large solid rocket fuel segment with in-built controllable fins.	
+def_solid_rocket_large_fins_node_0_label		Composite Input	
+def_solid_rocket_large_fins_node_0_desc		Composite data for the control surfaces.	
+def_solid_rocket_large_fins_node_1_label		Electric	
+def_solid_rocket_large_fins_node_1_desc		Electrical power connection.	
 def_solid_rocket_medium_name		Solid Rocket Fuel (Medium)	固体火箭燃料(中)
 def_solid_rocket_medium_desc		Fuel can be stacked to increase the burn duration of a rocket booster.	燃料可以堆积起来以增加火箭助推器的燃烧时间。
 def_solid_rocket_medium_s_desc		A medium solid rocket fuel segment.	一种中等固体火箭燃料段。
+def_solid_rocket_medium_fins_name		Solid Rocket Fuel (Medium) (Fins)	
+def_solid_rocket_medium_fins_desc		Fuel can be stacked to increase the burn duration of a rocket booster. Link up to the instruction output of a missile radar for automatic guidance.	
+def_solid_rocket_medium_fins_s_desc		A medium solid rocket fuel segment with in-built controllable fins.	
+def_solid_rocket_medium_fins_node_0_label		Composite Input	
+def_solid_rocket_medium_fins_node_0_desc		Composite data for the control surfaces.	
+def_solid_rocket_medium_fins_node_1_label		Electric	
+def_solid_rocket_medium_fins_node_1_desc		Electrical power connection.	
 def_solid_rocket_nozzle_huge_name		Solid Rocket Booster (Huge)	固体火箭助推器(巨大)
 def_solid_rocket_nozzle_huge_desc		Additional fuel can be stacked on top of the booster to increase its burn duration. The burn rate can be set in the component's properties, with slower burn rates producing less thrust.	额外的燃料可以堆放在助推器的顶部，以增加其燃烧持续时间。燃烧速度可以在组件的属性中设置，燃烧速度越慢，产生的推力越小。
 def_solid_rocket_nozzle_huge_s_desc		A huge single-use solid rocket booster.	一个巨大的一次性固体火箭助推器。
@@ -5320,6 +6025,13 @@ def_solid_rocket_nozzle_small_node_0_desc		Triggers the booster's combustion.	�
 def_solid_rocket_small_name		Solid Rocket Fuel (Small)	固体火箭燃料(小型)
 def_solid_rocket_small_desc		Fuel can be stacked to increase the burn duration of a rocket booster.	燃料可以堆积起来以增加火箭助推器的燃烧时间。
 def_solid_rocket_small_s_desc		A small solid rocket fuel segment.	小型固体火箭燃料段。
+def_solid_rocket_small_fins_name		Solid Rocket Fuel (Small) (Fins)	
+def_solid_rocket_small_fins_desc		Fuel can be stacked to increase the burn duration of a rocket booster. Link up to the instruction output of a missile radar for automatic guidance.	
+def_solid_rocket_small_fins_s_desc		A small solid rocket fuel segment with in-built controllable fins.	
+def_solid_rocket_small_fins_node_0_label		Composite Input	
+def_solid_rocket_small_fins_node_0_desc		Composite data for the control surfaces.	
+def_solid_rocket_small_fins_node_1_label		Electric	
+def_solid_rocket_small_fins_node_1_desc		Electrical power connection.	
 def_speaker_name		Speaker (Small)	扬声器(小)
 def_speaker_desc		A small speaker capable of playing audio data to nearby players. (Range : 15)	一种小型扬声器，能向附近的玩家播放音频数据。(范围：15)
 def_speaker_s_desc		A speaker capable of playing audio data to players within its range.	一种能够向其范围内的玩家播放音频数据的扬声器。
@@ -5644,6 +6356,41 @@ def_tyre_large_s_desc		A large decorative tyre.	一个装饰性的大轮胎。
 def_tyre_small_name		Small Tyre	小轮胎
 def_tyre_small_desc		Useful for creating tyre stacks and fenders.	用于创建轮胎堆栈和挡泥板。
 def_tyre_small_s_desc		A small decorative tyre.	一种装饰性的小轮胎。
+def_warhead_body_large_name		Warhead Body (Large)	
+def_warhead_body_large_desc		Detonates from an impact, or when receiving damage. Be careful!	
+def_warhead_body_large_s_desc		A large explosive warhead.	
+def_warhead_body_large_node_0_label		Arm	
+def_warhead_body_large_node_0_desc		Arm the explosives in the warhead to detonate when the internal impact sensor reaches its threshold.	
+def_warhead_body_medium_name		Warhead Body (Medium)	
+def_warhead_body_medium_desc		Detonates from an impact, or when receiving damage. Be careful!	
+def_warhead_body_medium_s_desc		A medium explosive warhead.	
+def_warhead_body_medium_node_0_label		Arm	
+def_warhead_body_medium_node_0_desc		Arm the explosives in the warhead to detonate when the internal impact sensor reaches its threshold.	
+def_warhead_body_small_name		Warhead Body (Small)	
+def_warhead_body_small_desc		Detonates from an impact, or when receiving damage. Be careful!	
+def_warhead_body_small_s_desc		A small explosive warhead.	
+def_warhead_body_small_node_0_label		Arm	
+def_warhead_body_small_node_0_desc		Arm the explosives in the warhead to detonate when the internal impact sensor reaches its threshold.	
+def_warhead_emp_name		Warhead (EMP)	
+def_warhead_emp_desc		Detonates from an impact, creating an EMP to temporarily shut down nearby electronic systems.	
+def_warhead_emp_s_desc		A electromagnetic-pulse warhead.	
+def_warhead_emp_node_0_label		Arm	
+def_warhead_emp_node_0_desc		Arm the EMP charge in the warhead to detonate when the internal impact sensor reaches its threshold.	
+def_warhead_large_name		Warhead (Large)	
+def_warhead_large_desc		Detonates from an impact, or when receiving damage. Be careful!	
+def_warhead_large_s_desc		A large explosive warhead.	
+def_warhead_large_node_0_label		Arm	
+def_warhead_large_node_0_desc		Arm the explosives in the warhead to detonate when the internal impact sensor reaches its threshold.	
+def_warhead_medium_name		Warhead (Medium)	
+def_warhead_medium_desc		Detonates from an impact, or when receiving damage. Be careful!	
+def_warhead_medium_s_desc		A medium explosive warhead.	
+def_warhead_medium_node_0_label		Arm	
+def_warhead_medium_node_0_desc		Arm the explosives in the warhead to detonate when the internal impact sensor reaches its threshold.	
+def_warhead_small_name		Warhead (Small)	
+def_warhead_small_desc		Detonates from an impact, or when receiving damage. Be careful!	
+def_warhead_small_s_desc		A small explosive warhead.	
+def_warhead_small_node_0_label		Arm	
+def_warhead_small_node_0_desc		Arm the explosives in the warhead to detonate when the internal impact sensor reaches its threshold.	
 def_watercannon_name		Fluid Cannon	流体炮
 def_watercannon_desc		The cannon is a turret and can rotate on 2 axis.	一个炮塔，可以在2轴上旋转。
 def_watercannon_s_desc		A fluid cannon that fires pressurized water for putting out fires.	一种流体大炮，用来发射加压水来灭火。
@@ -5992,6 +6739,12 @@ def_window_2x1_s_desc		Basic window piece.	基本窗饰。
 def_window_2x2_name		Window 2x2	窗（2x2）
 def_window_2x2_desc		Sits flush with walls and ceilings.	这是一扇平窗，与墙壁和天花板齐平。2个单位宽。
 def_window_2x2_s_desc		Basic window piece.	基本窗饰。
+def_window_2x2_inv_pyramid_name		Window Inverse Pyramid 2x2x2	
+def_window_2x2_inv_pyramid_desc			
+def_window_2x2_inv_pyramid_s_desc		Basic window piece.	
+def_window_2x2_pyramid_name		Window Pyramid 2x2x2	
+def_window_2x2_pyramid_desc			
+def_window_2x2_pyramid_s_desc		Basic window piece.	
 def_window_3x2_name		Window 2x3	窗（3x2）
 def_window_3x2_desc		Sits flush with walls and ceilings.	这是一扇平窗，与墙壁和天花板齐平。3个单位宽。
 def_window_3x2_s_desc		Basic window piece.	基本窗饰。
@@ -6116,6 +6869,65 @@ def_wing_xl_s_desc		The wing surface cuts through the air while resisting moveme
 def_wing_xxl_name		Wing Section (XXLarge)	机翼面(超大)
 def_wing_xxl_desc		Wing surface to provide lift and cut through the air.	机翼表面提供升力并穿过气体。
 def_wing_xxl_s_desc		The wing surface cuts through the air while resisting movement against the flat plane of its surface. The aerofoil section also provides lift.	机翼表面穿透气体，同时抵抗其表面平面的运动。机翼部分也提供升力。
+		Add Ice	添加冰块
+		Classic career mode. Expand your coastguard empire. Complete missions to earn money and unlock components.	经典生涯模式。扩张你的海岸警卫队帝国，通过完成任务来获得金钱、解锁组件。
+		Toggle Controller Input	切换控制器输入
+		Classic Career	经典生存模式
+		Skin Colour	肤色
+		Hair Colour	发色
+		Shirt Colour	衬衫颜色
+		Trouser Colour	裤子颜色
+		Shoe Colour	鞋子颜色
+		Hat Colour	帽子颜色
+		Glasses Colour	眼镜颜色
+		Mask Colour	面罩颜色
+		Clothing Colour	服装颜色
+		Colour Mode	色彩模式
+		Logo Colour	Logo颜色
+		Colourise	着色
+		Original Colour	原色
+		crane up	起重机升起
+		crane down	起重机放下
+		Replace Colour	替换颜色
+		Change the colours of placed components.	更改已放置组件的颜色。
+		Merge two vehicle bodies. Different bodies are denoted by different colours. Click on a body to select it, then click an adjacent one to merge them.	合并两个载具。不同的物体用不同的颜色表示。单击一个实体将其选中，然后单击相邻的实体将其合并。
+		SERVER: ### FPS	服务器：###FPS
+		Colour	颜色
+		Set the current draw colour. Values range from 0 - 255.	设置当前绘图颜色。值的范围为0-255。
+		Set the current draw colour and transparency. Values range from 0 - 255.	设置当前绘图颜色和透明度。值的范围为0-255。
+		Set the colours used for rendering the map. Values range from 0 - 255, alpha is optional.	设置用于渲染地图的颜色。值的范围从0到255，可指定alpha(透明度)。
+		[$[action_equipment_use]] Fire flare [$[action_equipment_secondary]] Unload	[$[action_equipment_use]] 射击信号弹 [$[action_equipment_secondary]] 卸载弹药
+		Light Auto Ammo Box (Kinetic)	轻型自动武器弹药箱(动能)
+		Light Auto Ammo Box (High Explosive)	轻型自动武器弹药箱(高爆)
+		Light Auto Ammo Box (Fragmentation)	轻型自动武器弹药箱(破片)
+		Light Auto Ammo Box (Armor Piercing)	轻型自动武器弹药箱(穿甲)
+		Light Auto Ammo Box (Incendiary)	轻型自动武器弹药箱(曳光)
+		Rotary Auto Ammo Box (Kinetic)	转轮自动武器弹药箱(动能)
+		Rotary Auto Ammo Box (High Explosive)	转轮自动武器弹药箱(高爆)
+		Rotary Auto Ammo Box (Fragmentation)	转轮自动武器弹药箱(破片)
+		Rotary Auto Ammo Box (Armor Piercing)	转轮自动武器弹药箱(穿甲)
+		Rotary Auto Ammo Box (Incendiary)	转轮自动武器弹药箱(曳光)
+		Heavy Auto Ammo Box (Kinetic)	重型自动武器弹药箱(动能)
+		Heavy Auto Ammo Box (High Explosive)	重型自动武器弹药箱(高爆)
+		Heavy Auto Ammo Box (Fragmentation)	重型自动武器弹药箱(破片)
+		Heavy Auto Ammo Box (Armor Piercing)	重型自动武器弹药箱(穿甲)
+		Heavy Auto Ammo Box (Incendiary)	重型自动武器弹药箱(曳光)
+		Battle Shell (Kinetic)	炮弹(动能)
+		Battle Shell (High Explosive)	炮弹(高爆)
+		Battle Shell (Fragmentation)	炮弹(破片)
+		Battle Shell (Armor Piercing)	炮弹(穿甲)
+		Battle Shell (Incendiary)	炮弹(曳光)
+		Artillery Shell (Kinetic)	重型炮弹(动能)
+		Artillery Shell (High Explosive)	重型炮弹(高爆)
+		Artillery Shell (Fragmentation)	重型炮弹(破片)
+		Artillery Shell (Armor Piercing)	重型炮弹(穿甲)
+		Artillery Shell (Incendiary)	重型炮弹(曳光)
+		C4 Explosive	C4炸药
+		C4 Detonator	C4雷管
+def_ski_node_1_label		Electric	电源
+def_ski_node_1_desc		Electrical power connection.	电源连接。
+def_ski_small_node_1_label		Electric	电源
+def_ski_small_node_1_desc		Electrical power connection.	电源连接。
 		Suggest a Feature	提议新功能
 		ADD ENV MOD ZONE	添加环境MOD区域
 		Env Mod Zones are persistent zones, they can be used to set up advanced mission behaviour at specific world locations and can be manipulated from addon Lua. These zones can be accessed globally by any addon script with functions getZones() and isInZone().	环境MOD区域是永久性区域，它们可以用来在特定的世界位置设置高级任务行为，并且可以通过Playlist Lua进行操作。这些区域可以通过任何Playlist脚本使用函数getZones()和isInZone()进行全局访问。
@@ -6161,11 +6973,6 @@ def_scoop_intake_3_node_1_desc		Air output port.	气体输出端口
 		203mm Shell (Incendiary)	203mm口径炮弹(燃烧)
 		Water	水
 		Allow Water	允许水
-def_inventory_equipment_speargun_ammo_name		Equipment inventory (Speargun Ammo)	装备架(鱼叉枪弹药)
-def_inventory_equipment_speargun_ammo_desc		Pressing [$[action_interact_left]]/[$[action_interact_right]] will equip/store the selected item. Press [$[action_equipment_use]] to reload any unloaded flaregun in the players inventory. This equipment has a limited uses, picking up additional boxes of flaregun ammo will replenish these uses. This equipment can be stored on the belt when not in use.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按下 [$[action_equipment_use]] 来给在库存中没有装弹的鱼叉枪装上弹药。有着有限使用次数，拿起其他鱼叉枪弹药能够补充使用次数。不使用时可以挂在腰上。
-def_inventory_equipment_speargun_ammo_s_desc		A small equipment storage unit containing a box flaregun ammo.	小型装备架，存储一盒鱼叉枪弹药
-def_inventory_equipment_speargun_ammo_node_0_label		Electric	电力
-def_inventory_equipment_speargun_ammo_node_0_desc		Electrical power connection.	电力接口
 		NEW PLAYLIST	新游玩列表
 		Are you sure you want to test this mission in the world?\n\nYour mission will be automatically despawned when you return to the mission editor.	你确定要在世界中测试这个任务吗？\n\n当您返回任务编辑器时，您的任务将自动取消。
 		Enable time/weather control menu, mission editor, mission spawn menu.	启用时间/天气控制菜单，任务编辑器，任务生成菜单。
