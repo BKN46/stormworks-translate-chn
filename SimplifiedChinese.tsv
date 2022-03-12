@@ -1,4 +1,3 @@
-
 id	description	en	local
 		New Game	新游戏
 		Waiting for server...	正在等待服务器…
@@ -71,8 +70,8 @@ id	description	en	local
 		Turns to radians	转换为弧度
 		Degrees to radians	角度转换为弧度
 		Radians to degrees	弧度转换为度
-			真
-			假
+		True	True
+		False	False
 		And	与(And)
 		Or	或(Or)
 		Xor	异或(Xor)
@@ -456,7 +455,7 @@ id	description	en	local
 		Hardcore mode with permadeath (save file will be deleted upon death).	带有永久死亡的硬核模式(保存文件将在死亡时被删除)。
 		Custom difficulty settings.	自定义难度设置。
 		Custom mode. A sandbox environment with an array of settings to customise your session. Career or Creative.	自定义模式，随意设定你的游戏，无论是生涯还是创造。
-		Classic career mode. Expand your coastguard empire. Complete missions to earn money and unlock components.	经典生涯模式。扩张你的海岸警卫队帝国，通过完成任务来获得金钱、解锁组件。
+		Classic mode. Career mode with research tree, third person, and teleport.	经典模式。具有研发树、第三人称模式、允许玩家传送。
 		Career mode. Expand your coastguard empire. Complete missions with survival style settings.	生涯模式。扩张你的海岸警卫队帝国，在更加生存风格的设置下完成任务。
 		Custom game mode settings.	自定义游戏模式设置。
 		PLEASE CHOOSE ANOTHER KEY	请选择其他按键
@@ -880,7 +879,6 @@ id	description	en	local
 		Zoom	缩放
 		Camera Mode	摄像头模式
 		Toggle Controls UI	切换控件用户界面
-		Toggle Controller Input	切换控制器输入
 		Emote Wheel	电动轮
 		Player List	玩家列表
 		Quick Chat	快速聊天
@@ -911,11 +909,11 @@ id	description	en	local
 		Survival	生存
 		Hardcore	硬核
 		Rogue	铁人
-		Custom	自定义模式
+		Custom	自定义
 		Game Mode	游戏模式
 		Career	生涯模式
-		Classic Career	经典生存模式
-		Custom	自定义
+		Classic	经典模式
+		Custom	自定义模式
 		CUSTOMISE DIFFICULTY	自定义难度
 		First Person Only	锁定第一人称
 		Camera is locked to first person when on foot.	当步行时，摄像机被锁定。
@@ -1052,7 +1050,7 @@ id	description	en	local
 		Hat Color	帽子颜色
 		Glasses	眼镜
 		Glasses Color	眼镜颜色
-		Mask	面具
+		Mask	面罩
 		Mask Color	面具颜色
 		Clothes	服装
 		Clothing Color	服装颜色
@@ -1143,7 +1141,7 @@ id	description	en	local
 		Teleport	传送
 		No-Clip	无碰撞
 		Name Plates	头顶显示名称
-		Allow	
+		Allow 	允许
 		3D Waypoints	三维路径点
 		Map Vehicles	地图上显示载具
 		Map Players	地图上显示玩家
@@ -1255,8 +1253,8 @@ id	description	en	local
 		Original Color	原色
 		rotate camera	旋转摄影机
 		move camera	移动摄像机
-		crane up	起重机升起
-		crane down	起重机放下
+		Crane up	摄像机上升
+		Crane down	摄像机下降
 		reset	重置
 		hide ui	隐藏用户界面
 		pause/unpause	暂停/取消暂停
@@ -1388,7 +1386,7 @@ id	description	en	local
 		Misc.	杂项。
 		tags	标签
 		Vehicle (Made by ###)	载具(由####制造)
-		SERVER: ### FPS	服务器：###FPS
+		SERVER: ### TPS	服务器：### TPS
 		### Degrees	###度
 		Last updated ###	上次更新时间###
 		Addon	插件
@@ -1705,9 +1703,9 @@ id	description	en	local
 		ROPE	绳索
 		Edit rope transfer nodes.	编辑绳索传输节点。
 		rope	绳
-		ROPE	绳索
+		ROPE	绳
 		sail	帆
-		Edit rope transfer nodes.	编辑绳索传输节点。
+		Edit rope transfer nodes.	编辑绳索传输节点
 		LUA SCRIPTING OVERVIEW	LUA脚本概述
 		Lua scripting gives you the tools to create advanced logic components using the Lua scripting language. Stormworks provides a number of functions to allow your script to interface with your vehicle's logic system, as well as drawing to in-game monitors.\n\nThis guide outlines the functions that are available for use in your scripts but it is not a comprehensive tutorial on using the Lua language.	Lua脚本提供了使用Lua脚本语言创建高级逻辑组件的工具。Stormworks提供了许多功能，允许脚本与载具的逻辑系统进行交互，并绘制到游戏中的屏幕中。\n\n本指南概述了可在脚本中使用的功能，但它不是使用Lua语言的综合系统性教程。\n\n显示器中的绘图均以左上角为坐标原点，向右为X轴正方向，向下为Y轴正方向。文字的坐标为其左上角像素点的坐标值。\n\n游戏中一个单位长度为32个像素，即：\n\n屏幕1x1=32x32像素；\n\n屏幕2x2=64x64像素；\n\n屏幕5x3=160x96像素；\n\n屏幕9x5=288x160像素；\n\nHUD（小）=32x32像素；\n\nHUD（大）=96x96像素。
 		SCRIPT BASICS	脚本基础
@@ -1883,7 +1881,7 @@ id	description	en	local
 		Transponder	应答器
 		Underwater Welding Torch	水下焊枪
 		Welding Torch	焊枪
-			
+			假
 			
 			
 		[$[action_equipment_use]] Open parachute [$[action_equipment_secondary]] Close parachute	[$[action_equipment_use]] 打开降落伞 [$[action_equipment_secondary]] 关闭降落伞
@@ -1906,9 +1904,9 @@ id	description	en	local
 		[$[action_equipment_use]] Toggle control [$[action_equipment_secondary]] cycle frequency	[$[action_equipment_use]] 控制开关 [$[action_equipment_secondary]] 循环切换频率
 			
 		[$[action_equipment_use]] Toggle strobe [$[action_equipment_secondary]] Toggle MOB mode	[$[action_equipment_use]]切换到频闪模式 [$[action_equipment_secondary]]切换到MOB(落水)模式
-		[$[action_equipment_use]] Toggle strobe [$[action_equipment_secondary]] Toggle MOB mode	[$[action_equipment_use]]切换到频闪模式 [$[action_equipment_secondary]]切换到MOB(落水)模式
+		[$[action_equipment_use]] Toggle infrared strobe [$[action_equipment_secondary]] Toggle MOB mode	[$[action_equipment_use]] 切换红外模式 [$[action_equipment_secondary]] 切换MOB(落水)模式
 		[$[action_equipment_use]] Toggle transmit [$[action_equipment_secondary]] Toggle MOB mode	[$[action_equipment_use]] 通信开关 [$[action_equipment_secondary]] 切换MOB(落水)模式
-		[$[action_equipment_use]] Repair	[$[action_equipment_use]] 修理
+			
 		[$[action_equipment_use]] Repair	[$[action_equipment_use]] 修理
 		Detailed	细致的
 		Simple	简单的
@@ -2016,12 +2014,12 @@ id	description	en	local
 		[$[action_equipment_use]] Detonate	[$[action_equipment_use]] 起爆
 		[$[action_equipment_use]] Fire [$[action_equipment_secondary]] Reload	[$[action_equipment_use]]开火[$[action_equipment_secondary]]重新装填
 		[$[action_equipment_use]] Reload	[$[action_equipment_use]]重新装填
-		[$[action_equipment_use]] Fire [$[action_equipment_secondary]] Reload	[$[action_equipment_use]]开火[$[action_equipment_secondary]]重新装填
-		[$[action_equipment_use]] Reload	[$[action_equipment_use]]重新装填
-		[$[action_equipment_use]] Fire [$[action_equipment_secondary]] Reload	[$[action_equipment_use]]开火[$[action_equipment_secondary]]重新装填
-		[$[action_equipment_use]] Reload	[$[action_equipment_use]]重新装填
-		[$[action_equipment_use]] Fire [$[action_equipment_secondary]] Reload	[$[action_equipment_use]]开火[$[action_equipment_secondary]]重新装填
-		[$[action_equipment_use]] Reload	[$[action_equipment_use]]重新装填
+			
+			
+			
+			
+			
+			
 		[$[action_equipment_use]] Throw	[$[action_equipment_use]]投掷
 		Camera Shake	镜头抖动
 		Trigger	触发
@@ -2047,13 +2045,13 @@ id	description	en	local
 		Spawn Volcanic Eruption	生成火山喷发
 		Xmas Tree	圣诞树
 		Xmas Stormworks	圣诞风暴工程
-		Xmas Stormworks	圣诞风暴工程
+		Xmas Stormworks 2	圣诞风暴工程2
 		Xmas Reindeer	圣诞节驯鹿
 		Xmas Elf	圣诞精灵
 		Xmas Nutcracker	圣诞胡桃夹子
-		Xmas Elf	圣诞精灵
+		Xmas Elf Hat	圣诞精灵帽
 		Xmas Winter Hat	圣诞帽
-		Xmas Tree	圣诞树
+		Xmas Tree Hat	圣诞树帽
 		Xmas Tophat/Scarf	圣诞礼帽/围巾
 		Xmas Pudding	圣诞布丁
 		Xmas Party Hat	圣诞派对帽
@@ -2094,6 +2092,30 @@ id	description	en	local
 		Army Suit	陆军套装
 		Armour Vest	防弹背心
 		Use	使用
+		Keyboard	键盘
+		Gamepad	手柄
+		Move X	移动X轴
+		Move Y	移动Y轴
+		View X	视角X轴
+		View Y	视角Y轴
+		HOTAS	HOTAS
+		Pause	暂停
+		Slow	慢速
+		Fast	快速
+		Very Fast	非常快
+		Navigate X	载具X轴
+		Navigate Y	载具Y轴
+		Navigate Up	载具向上
+		Navigate Down	载具向下
+		Navigate Left	载具向左
+		Navigate Right	载具向右
+		Select/Confirm	选择/确认
+		Context	内容
+		Tab Left	向左切换
+		Tab Right	向右切换
+		Free View	自由查看
+		Hotkey	快捷键
+		You were disconnected due to adverse network conditions.	由于不佳的网络状态，你断开了连接
 def_01_block_name		Block	方块
 def_01_block_desc		The block is a quarter-metre in size. Components can be attached to all 6 faces.	这个方块有四分之一米大。组件可以连接收到所有6个面。
 def_01_block_s_desc		Basic cube-shaped building block.	基本立方形建筑块。
@@ -2108,7 +2130,7 @@ def_02_wedge_desc		Components can be attached to all faces, with the exception o
 def_02_wedge_s_desc		Basic wedge-shaped building block.	基本的楔形建筑块。
 def_03_pyramid_name		Pyramid	锥形块
 def_03_pyramid_desc		Components can be attached to all faces, with the exception of the triangular face. Pyramids can act as a corner-piece for perpendicular lines of wedge blocks.	组件可以附加到除三角面外的所有面。锥形块可以作为楔形块侧面的角件。
-def_03_pyramid_s_desc		Basic pyramid-shaped building block.	基本的锥形建筑块。
+def_03_pyramid_s_desc		Basic pyramid-shaped building block. 	基本的锥形建筑块。
 def_04_invpyramid_name		Inverse Pyramid	倒锥形块
 def_04_invpyramid_desc		Components can be attached to all faces, with the exception of the triangular face. Inverse pyramids are useful for closing gaps between perpendicular lines of wedge and pyramid blocks.	组件可以附加到除三角面的所有面。倒锥形块用于填补楔形块侧面和锥形块之间的间隙。
 def_04_invpyramid_s_desc		Basic inverse pyramid-shaped building block.	基本的倒锥形建筑块。
@@ -2117,7 +2139,7 @@ def_05_wedge_2_desc		Components can be attached to all faces, with the exception
 def_05_wedge_2_s_desc		1x2 wedge-shaped building block.	1x2楔形建筑块。
 def_06_pyramid_2_name		Pyramid 1x2	1x2锥形块
 def_06_pyramid_2_desc		Components can be attached to all faces, with the exception of the triangular face. Pyramids can act as a corner-piece for perpendicular lines of wedge blocks.	组件可以附加到除三角面外的所有面。锥形块可以作为楔形块侧面的角件。
-def_06_pyramid_2_s_desc		1x2 pyramid-shaped building block.	1x2楔形形建筑块。
+def_06_pyramid_2_s_desc		1x2 pyramid-shaped building block. 	1x2楔形形建筑块。
 def_07_invpyramid_2_name		Inverse pyramid 1x2	1x2倒锥形块
 def_07_invpyramid_2_desc		Components can be attached to all faces, with the exception of the triangular face. Inverse pyramids are useful for closing gaps between perpendicular lines of wedge and pyramid blocks.	组件可以附加到组件可以附加到除三角面外的所有面所有面。倒锥形块用于填补楔形块侧面和锥形块之间的间。
 def_07_invpyramid_2_s_desc		1x2 inverse pyramid-shaped building block.	1x2倒锥形建筑块。
@@ -2126,19 +2148,19 @@ def_08_wedge_4_desc		Components can be attached to all faces, with the exception
 def_08_wedge_4_s_desc		1x4 wedge-shaped building block.	1x4楔形形建筑块。
 def_09_pyramid_4_name		Pyramid 1x4	1x4锥形块
 def_09_pyramid_4_desc		Components can be attached to all faces, with the exception of the triangular face. Pyramids can act as a corner-piece for perpendicular lines of wedge blocks.	组件可以附加到除三角面外的所有面。锥形块可以作为楔形块侧面的角件。
-def_09_pyramid_4_s_desc		1x4 pyramid-shaped building block.	1x4锥形建筑块。
+def_09_pyramid_4_s_desc		1x4 pyramid-shaped building block. 	1x4锥形建筑块。
 def_10_invpyramid_4_name		Inverse Pyramid 1x4	1x4倒锥形块
 def_10_invpyramid_4_desc		Components can be attached to all faces, with the exception of the triangular face. Inverse pyramids are useful for closing gaps between perpendicular lines of wedge and pyramid blocks.	组件可以附加到组件可以附加到除三角面外的所有面所有面。倒锥形块用于填补楔形块侧面和锥形块之间的间。
 def_10_invpyramid_4_s_desc		1x4 inverse pyramid-shaped building block.	1x4倒锥形建筑块。
 def_11_pyramid_2x2_name		Pyramid 2x2	楔形2x2
 def_11_pyramid_2x2_desc		Components can be attached to all faces, with the exception of the triangular face. Pyramids can act as a corner-piece for perpendicular lines of wedge blocks.	组件可以附加到除三角面外的所有面。锥形块可以作为楔形块侧面的角件。
-def_11_pyramid_2x2_s_desc		2x2 pyramid-shaped building block.	2x2锥形建筑块。
+def_11_pyramid_2x2_s_desc		2x2 pyramid-shaped building block. 	2x2锥形建筑块。
 def_12_pyramid_2x4_name		Pyramid 2x4	楔形2x4
 def_12_pyramid_2x4_desc		Components can be attached to all faces, with the exception of the triangular face. Pyramids can act as a corner-piece for perpendicular lines of wedge blocks.	组件可以附加到除三角面外的所有面。锥形块可以作为楔形块侧面的角件。
-def_12_pyramid_2x4_s_desc		2x4 pyramid-shaped building block.	2x4锥形建筑块。
+def_12_pyramid_2x4_s_desc		2x4 pyramid-shaped building block. 	2x4锥形建筑块。
 def_13_pyramid_4x4_name		Pyramid 4x4	楔形4x4
 def_13_pyramid_4x4_desc		Components can be attached to all faces, with the exception of the triangular face. Pyramids can act as a corner-piece for perpendicular lines of wedge blocks.	组件可以附加到除三角面外的所有面。锥形块可以作为楔形块侧面的角件。
-def_13_pyramid_4x4_s_desc		4x4 pyramid-shaped building block.	4x4锥形建筑块。
+def_13_pyramid_4x4_s_desc		4x4 pyramid-shaped building block. 	4x4锥形建筑块。
 def_14_invpyramid_2x2_name		Inverse Pyramid 2x2	倒楔形2x2
 def_14_invpyramid_2x2_desc		Components can be attached to all faces, with the exception of the triangular face. Pyramids can act as a corner-piece for perpendicular lines of wedge blocks.	组件可以附加到除三角面外的所有面。锥形块可以作为楔形块侧面的角件。
 def_14_invpyramid_2x2_s_desc		2x2 inverse pyramid-shaped building block.	2x2倒锥形建筑块。
@@ -2220,7 +2242,7 @@ def_air_exchanger_5_3_node_0_desc		Input air port.	气体输入接口
 def_air_exchanger_5_3_node_1_label		Air Out	气体输出
 def_air_exchanger_5_3_node_1_desc		Output air port.	气体输出接口
 def_air_exchanger_5_3_node_2_label		Fluid In	液体进入
-def_air_exchanger_5_3_node_2_desc		Input fluid port.	流体进入接口
+def_air_exchanger_5_3_node_2_desc		 Input fluid port.	流体进入接口
 def_air_exchanger_5_3_node_3_label		Fluid Out	液体流出
 def_air_exchanger_5_3_node_3_desc		Output fluid port.	流体输出接口
 def_air_exchanger_5_3_node_4_label		Temp A	气体温度
@@ -3597,15 +3619,15 @@ def_gun_l_barrel_2_s_desc		A battle cannon barrel extension.	一根坦克主炮�
 def_gun_l_barrel_3_name		Battle Cannon Barrel Extension	坦克主炮炮管加长件
 def_gun_l_barrel_3_desc		Barrel extensions increase weapon accuracy, but also produce more recoil force.	炮管加长件增加了武器的精度，但也产生了更多的后坐力。
 def_gun_l_barrel_3_s_desc		A battle cannon barrel extension.	一根坦克主炮炮管加长件
-def_gun_l_muzzle_name		Battle Cannon Muzzle Break	坦克主炮制退器
-def_gun_l_muzzle_desc		A muzzle break will reduce weapon recoil force when added to the end of a weapon barrel.	炮管加长件增加了武器的精度，但也产生了更多的后坐力。
-def_gun_l_muzzle_s_desc		A battle cannon muzzle break.	一个坦克主炮制退器
-def_gun_l_muzzle_1_name		Battle Cannon Muzzle Break	坦克主炮制退器
-def_gun_l_muzzle_1_desc		A muzzle break will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，制退器将减少武器的后坐力。
-def_gun_l_muzzle_1_s_desc		A battle cannon muzzle break.	一个坦克主炮制退器
-def_gun_l_muzzle_2_name		Battle Cannon Muzzle Break	坦克主炮制退器
-def_gun_l_muzzle_2_desc		A muzzle break will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，制退器将减少武器的后坐力。
-def_gun_l_muzzle_2_s_desc		A battle cannon muzzle break.	一个坦克主炮制退器
+def_gun_l_muzzle_name		Battle Cannon Muzzle Brake	坦克主炮制退器
+def_gun_l_muzzle_desc		A muzzle brake will reduce weapon recoil force when added to the end of a weapon barrel.	炮管加长件增加了武器的精度，但也产生了更多的后坐力。
+def_gun_l_muzzle_s_desc		A battle cannon muzzle brake.	一个坦克主炮制退器
+def_gun_l_muzzle_1_name		Battle Cannon Muzzle Brake	坦克主炮制退器
+def_gun_l_muzzle_1_desc		A muzzle brake will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，制退器将减少武器的后坐力。
+def_gun_l_muzzle_1_s_desc		A battle cannon muzzle brake.	一个坦克主炮制退器
+def_gun_l_muzzle_2_name		Battle Cannon Muzzle Brake	坦克主炮制退器
+def_gun_l_muzzle_2_desc		A muzzle brake will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，制退器将减少武器的后坐力。
+def_gun_l_muzzle_2_s_desc		A battle cannon muzzle brake.	一个坦克主炮制退器
 def_gun_m_name		Heavy Autocannon	重型机炮
 def_gun_m_desc		Heavy autocannons bridge the gap between fast-firing autocannons and high-caliber cannons. Autocannons require electric power to load ammo from connected belts or drums.	重型机炮填补了快速射击自动加火炮和大口径榴弹炮之间的空白。机炮需要电力从弹带或弹鼓装弹。
 def_gun_m_s_desc		A heavy autocannon.	一个重型机炮
@@ -3627,15 +3649,15 @@ def_gun_m_barrel_2_s_desc		A heavy autocannon barrel extension.	一个重型机�
 def_gun_m_barrel_3_name		Heavy Autocannon Barrel Extension	重型机炮炮管加长件
 def_gun_m_barrel_3_desc		Barrel extensions increase weapon accuracy, but also produce more recoil force.	炮管加长件增加了武器的精度，但也产生了更多的后坐力。
 def_gun_m_barrel_3_s_desc		A heavy autocannon barrel extension.	一个重型机炮炮管加长件
-def_gun_m_muzzle_name		Heavy Autocannon Muzzle Break	重型机炮制退器
-def_gun_m_muzzle_desc		A muzzle break will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，制退器将减少武器的后坐力。
-def_gun_m_muzzle_s_desc		A heavy autocannon muzzle break.	一个重型机炮制退器
-def_gun_m_muzzle_1_name		Heavy Autocannon Muzzle Break	重型机炮制退器
-def_gun_m_muzzle_1_desc		A muzzle break will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，制退器将减少武器的后坐力。
-def_gun_m_muzzle_1_s_desc		A heavy autocannon muzzle break.	一个重型机炮制退器
-def_gun_m_muzzle_2_name		Heavy Autocannon Muzzle Break	重型机炮制退器
-def_gun_m_muzzle_2_desc		A muzzle break will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，制退器将减少武器的后坐力。
-def_gun_m_muzzle_2_s_desc		A heavy autocannon muzzle break.	一个重型机炮制退器
+def_gun_m_muzzle_name		Heavy Autocannon Muzzle Brake	重型机炮制退器
+def_gun_m_muzzle_desc		A muzzle brake will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，制退器将减少武器的后坐力。
+def_gun_m_muzzle_s_desc		A heavy autocannon muzzle brake.	一个重型机炮制退器
+def_gun_m_muzzle_1_name		Heavy Autocannon Muzzle Brake	重型机炮制退器
+def_gun_m_muzzle_1_desc		A muzzle brake will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，制退器将减少武器的后坐力。
+def_gun_m_muzzle_1_s_desc		A heavy autocannon muzzle brake.	一个重型机炮制退器
+def_gun_m_muzzle_2_name		Heavy Autocannon Muzzle Brake	重型机炮制退器
+def_gun_m_muzzle_2_desc		A muzzle brake will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，制退器将减少武器的后坐力。
+def_gun_m_muzzle_2_s_desc		A heavy autocannon muzzle brake.	一个重型机炮制退器
 def_gun_rocket_launcher_name		Rocket Launcher	火箭发射器
 def_gun_rocket_launcher_desc		Rocket launchers fire powerful high explosive rockets, but cannot be reloaded once empty. Rockets are vulnerable to bullets while in flight.	火箭发射器发射大威力火箭弹，一旦空了就不能重新装填。火箭在飞行中很容易被子弹击中。
 def_gun_rocket_launcher_s_desc		A 4-shot rocket launcher.	四联装火箭发射器。
@@ -3657,18 +3679,18 @@ def_gun_s_node_2_desc		Electrical power connection.	电源连接。
 def_gun_s_barrel_name		Light Autocannon Barrel Extension	轻型机炮炮管加长件
 def_gun_s_barrel_desc		Barrel extensions increase weapon accuracy, but also produce more recoil force.	炮管加长增加了武器的精度，但也产生了更多的后坐力。
 def_gun_s_barrel_s_desc		A light autocannon barrel extension.	一个轻型机炮炮管加长件
-def_gun_s_muzzle_name		Light Autocannon Muzzle Break	轻型机炮制退器
-def_gun_s_muzzle_desc		A muzzle break will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，制退器将减少武器的后坐力。
-def_gun_s_muzzle_s_desc		A light autocannon muzzle break.	一个轻型机炮制退器
-def_gun_s_muzzle_1_name		Light Autocannon Muzzle Break	轻型机炮制退器
-def_gun_s_muzzle_1_desc		A muzzle break will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，制退器将减少武器的后坐力。
-def_gun_s_muzzle_1_s_desc		A light autocannon muzzle break.	一个轻型机炮制退器
-def_gun_s_muzzle_2_name		Light Autocannon Muzzle Break	轻型机炮制退器
-def_gun_s_muzzle_2_desc		A muzzle break will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，制退器将减少武器的后坐力。
-def_gun_s_muzzle_2_s_desc		A light autocannon muzzle break.	一个轻型机炮制退器
-def_gun_s_muzzle_3_name		Light Autocannon Muzzle Break	轻型机炮制退器
-def_gun_s_muzzle_3_desc		A muzzle break will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，制退器将减少武器的后坐力。
-def_gun_s_muzzle_3_s_desc		A light autocannon muzzle break.	一个轻型机炮制退器
+def_gun_s_muzzle_name		Light Autocannon Muzzle Brake	轻型机炮制退器
+def_gun_s_muzzle_desc		A muzzle brake will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，制退器将减少武器的后坐力。
+def_gun_s_muzzle_s_desc		A light autocannon muzzle brake.	一个轻型机炮制退器
+def_gun_s_muzzle_1_name		Light Autocannon Muzzle Brake	轻型机炮制退器
+def_gun_s_muzzle_1_desc		A muzzle brake will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，制退器将减少武器的后坐力。
+def_gun_s_muzzle_1_s_desc		A light autocannon muzzle brake.	一个轻型机炮制退器
+def_gun_s_muzzle_2_name		Light Autocannon Muzzle Brake	轻型机炮制退器
+def_gun_s_muzzle_2_desc		A muzzle brake will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，制退器将减少武器的后坐力。
+def_gun_s_muzzle_2_s_desc		A light autocannon muzzle brake.	一个轻型机炮制退器
+def_gun_s_muzzle_3_name		Light Autocannon Muzzle Brake	轻型机炮制退器
+def_gun_s_muzzle_3_desc		A muzzle brake will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，制退器将减少武器的后坐力。
+def_gun_s_muzzle_3_s_desc		A light autocannon muzzle brake.	一个轻型机炮制退器
 def_gun_v_name		Rotary Autocannon	转管机炮
 def_gun_v_desc		Rotary autocannons have a tremendous rate of fire, but can overheat quickly. Autocannons require electric power to load ammo from connected belts or drums.	转管机炮的射速很快，但会很快过热。机炮需要电力从弹带或弹鼓装弹。
 def_gun_v_s_desc		A rotary autocannon.	一个转管机炮
@@ -3702,15 +3724,15 @@ def_gun_xl_barrel_2_s_desc		An artillery cannon barrel extension.	大型榴弹�
 def_gun_xl_barrel_3_name		Artillery Cannon Barrel Extension	大型榴弹炮炮管加长件
 def_gun_xl_barrel_3_desc		Barrel extensions increase weapon accuracy, but also produce more recoil force.	炮管加长件增加了武器的精度，但也产生了更多的后坐力。
 def_gun_xl_barrel_3_s_desc		An artillery cannon barrel extension.	大型榴弹炮炮管加长件
-def_gun_xl_muzzle_name		Artillery Cannon Muzzle Break	大型榴弹炮制退器
-def_gun_xl_muzzle_desc		A muzzle break will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，制退器将减少武器的后坐力。
-def_gun_xl_muzzle_s_desc		A artillery cannon muzzle break.	大型榴弹炮制退器
-def_gun_xl_muzzle_1_name		Artillery Cannon Muzzle Break	大型榴弹炮制退器
-def_gun_xl_muzzle_1_desc		A muzzle break will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，制退器将减少武器的后坐力。
-def_gun_xl_muzzle_1_s_desc		A artillery cannon muzzle break.	大型榴弹炮制退器
-def_gun_xl_muzzle_2_name		Artillery Cannon Muzzle Break	大型榴弹炮制退器
-def_gun_xl_muzzle_2_desc		A muzzle break will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，制退器将减少武器的后坐力。
-def_gun_xl_muzzle_2_s_desc		A artillery cannon muzzle break.	大型榴弹炮制退器
+def_gun_xl_muzzle_name		Artillery Cannon Muzzle Brake	大型榴弹炮制退器
+def_gun_xl_muzzle_desc		A muzzle brake will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，制退器将减少武器的后坐力。
+def_gun_xl_muzzle_s_desc		A artillery cannon muzzle brake.	大型榴弹炮制退器
+def_gun_xl_muzzle_1_name		Artillery Cannon Muzzle Brake	大型榴弹炮制退器
+def_gun_xl_muzzle_1_desc		A muzzle brake will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，制退器将减少武器的后坐力。
+def_gun_xl_muzzle_1_s_desc		A artillery cannon muzzle brake.	大型榴弹炮制退器
+def_gun_xl_muzzle_2_name		Artillery Cannon Muzzle Brake	大型榴弹炮制退器
+def_gun_xl_muzzle_2_desc		A muzzle brake will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，制退器将减少武器的后坐力。
+def_gun_xl_muzzle_2_s_desc		A artillery cannon muzzle brake.	大型榴弹炮制退器
 def_gun_xs_name		Machine Gun	机枪
 def_gun_xs_desc		Machine guns are lightweight and compact, but require ammo boxes to be reloaded by hand.	机枪重量轻、结构紧凑，但需要手动重新装填弹药箱。
 def_gun_xs_s_desc		A machine gun.	机枪。
@@ -4919,7 +4941,7 @@ def_radar_advanced_node_0_desc		Electrical power connection.	电源连接。
 def_radar_advanced_node_1_label		Activate	激活
 def_radar_advanced_node_1_desc		Enable the Radar.	启动雷达
 def_radar_advanced_node_2_label		Radar Data	雷达数据
-def_radar_advanced_node_2_desc		Outputs data for up to 8 targets. (On/Off 1-8 : Target Found) (Values 1-4 : Target 1 (Distance, Azimuth Angle, Elevation Angle, Time Since Detection)) (Values 5-8 : Target 2) Ect...	输出多达8个目标的数据。（on/off1-8：找到目标）（值1-4：目标1（距离、方位角、仰角、检测后的时间））（值5-8：目标2）等。。。
+def_radar_advanced_node_2_desc		Outputs data for up to 8 targets. (On/Off 1-8 : Target Found) (Values 1-4 : Target 1 (Distance, Azimuth Angle, Elevation Angle, Time Since Detection)) (Values 5-8 : Target 2) Ect... 	输出多达8个目标的数据。（on/off1-8：找到目标）（值1-4：目标1（距离、方位角、仰角、检测后的时间））（值5-8：目标2）等。。。
 def_radar_advanced_node_3_label		Radar Rotation	雷达旋转
 def_radar_advanced_node_3_desc		Current radar rotation from forward in turns.	当前雷达从前方开始自转。
 def_radar_advanced_awacs_name		Radar (AWACS)	雷达（预警机）
@@ -4930,7 +4952,7 @@ def_radar_advanced_awacs_node_0_desc		Electrical power connection.	电源连接�
 def_radar_advanced_awacs_node_1_label		Activate	激活
 def_radar_advanced_awacs_node_1_desc		Enable the Radar.	启动雷达。
 def_radar_advanced_awacs_node_2_label		Radar Data	雷达数据
-def_radar_advanced_awacs_node_2_desc		Outputs data for up to 8 targets. (On/Off 1-8 : Target Found) (Values 1-4 : Target 1 (Distance, Azimuth Angle, Elevation Angle, Time Since Detection)) (Values 5-8 : Target 2) Ect...	输出多达8个目标的数据。（on/off1-8：找到目标）（值1-4：目标1（距离、方位角、仰角、检测后的时间））（值5-8：目标2）等。。。
+def_radar_advanced_awacs_node_2_desc		Outputs data for up to 8 targets. (On/Off 1-8 : Target Found) (Values 1-4 : Target 1 (Distance, Azimuth Angle, Elevation Angle, Time Since Detection)) (Values 5-8 : Target 2) Ect... 	输出多达8个目标的数据。（on/off1-8：找到目标）（值1-4：目标1（距离、方位角、仰角、检测后的时间））（值5-8：目标2）等。。。
 def_radar_advanced_awacs_node_3_label		Radar Rotation	雷达旋转
 def_radar_advanced_awacs_node_3_desc		Current radar rotation from forward in turns.	当前雷达从前方开始自转。
 def_radar_advanced_dish_name		Radar (Dish)	雷达（抛物面天线）
@@ -4941,7 +4963,7 @@ def_radar_advanced_dish_node_0_desc		Electrical power connection.	电源连接�
 def_radar_advanced_dish_node_1_label		Activate	激活
 def_radar_advanced_dish_node_1_desc		Enable the Radar.	启动雷达。
 def_radar_advanced_dish_node_2_label		Radar Data	雷达数据
-def_radar_advanced_dish_node_2_desc		Outputs data for up to 8 targets. (On/Off 1-8 : Target Found) (Values 1-4 : Target 1 (Distance, Azimuth Angle, Elevation Angle, Time Since Detection)) (Values 5-8 : Target 2) Ect...	输出多达8个目标的数据。（on/off1-8：找到目标）（值1-4：目标1（距离、方位角、仰角、检测后的时间））（值5-8：目标2）等。。。
+def_radar_advanced_dish_node_2_desc		Outputs data for up to 8 targets. (On/Off 1-8 : Target Found) (Values 1-4 : Target 1 (Distance, Azimuth Angle, Elevation Angle, Time Since Detection)) (Values 5-8 : Target 2) Ect... 	输出多达8个目标的数据。（on/off1-8：找到目标）（值1-4：目标1（距离、方位角、仰角、检测后的时间））（值5-8：目标2）等。。。
 def_radar_advanced_dish_node_3_label		Radar Rotation	雷达旋转
 def_radar_advanced_dish_node_3_desc		Current radar rotation from forward in turns.	当前雷达从前方开始自转。
 def_radar_advanced_missile_name		Radar (Missile)	雷达（导弹）
@@ -4952,7 +4974,7 @@ def_radar_advanced_missile_node_0_desc		Electrical power connection.	电源连�
 def_radar_advanced_missile_node_1_label		Activate	激活
 def_radar_advanced_missile_node_1_desc		Enable the Radar.	启动雷达。
 def_radar_advanced_missile_node_2_label		Radar Data	雷达数据
-def_radar_advanced_missile_node_2_desc		Outputs data for up to 8 targets. (On/Off 1-8 : Target Found) (Values 1-4 : Target 1 (Distance, Azimuth Angle, Elevation Angle, Time Since Detection)) (Values 5-8 : Target 2) Ect...	输出多达8个目标的数据。（on/off1-8：找到目标）（值1-4：目标1（距离、方位角、仰角、检测后的时间））（值5-8：目标2）等。。。
+def_radar_advanced_missile_node_2_desc		Outputs data for up to 8 targets. (On/Off 1-8 : Target Found) (Values 1-4 : Target 1 (Distance, Azimuth Angle, Elevation Angle, Time Since Detection)) (Values 5-8 : Target 2) Ect... 	输出多达8个目标的数据。（on/off1-8：找到目标）（值1-4：目标1（距离、方位角、仰角、检测后的时间））（值5-8：目标2）等。。。
 def_radar_advanced_missile_node_3_label		Missile Output	导弹输出
 def_radar_advanced_missile_node_3_desc		Outputs x and y data for the most immediate target. Link this directly into a rocket fins component.	输出最直接目标的x和y数据。将其直接连接到火箭翼组件中。
 def_radar_advanced_missile_node_4_label		Radar Rotation	雷达旋转
@@ -4965,7 +4987,7 @@ def_radar_advanced_phalanx_node_0_desc		Electrical power connection.	电源连�
 def_radar_advanced_phalanx_node_1_label		Activate	激活
 def_radar_advanced_phalanx_node_1_desc		Enable the Radar.	启动雷达。
 def_radar_advanced_phalanx_node_2_label		Radar Data	雷达数据
-def_radar_advanced_phalanx_node_2_desc		Outputs data for up to 8 targets. (On/Off 1-8 : Target Found) (Values 1-4 : Target 1 (Distance, Azimuth Angle, Elevation Angle, Time Since Detection)) (Values 5-8 : Target 2) Ect...	输出多达8个目标的数据。（on/off1-8：找到目标）（值1-4：目标1（距离、方位角、仰角、检测后的时间））（值5-8：目标2）等。。。
+def_radar_advanced_phalanx_node_2_desc		Outputs data for up to 8 targets. (On/Off 1-8 : Target Found) (Values 1-4 : Target 1 (Distance, Azimuth Angle, Elevation Angle, Time Since Detection)) (Values 5-8 : Target 2) Ect... 	输出多达8个目标的数据。（on/off1-8：找到目标）（值1-4：目标1（距离、方位角、仰角、检测后的时间））（值5-8：目标2）等。。。
 def_radar_advanced_phalanx_node_3_label		Radar Rotation	雷达旋转
 def_radar_advanced_phalanx_node_3_desc		Current radar rotation from forward in turns.	当前雷达从前方开始自转。
 def_radar_detector_name		Radar Detector	雷达探测器
@@ -4998,7 +5020,7 @@ def_radar_huge_node_1_desc		The sensor's yaw direction in turns from -0.5 to 0.5
 def_radar_huge_node_2_label		Electric	电
 def_radar_huge_node_2_desc		Electrical power connection.	电源连接。
 def_radar_huge_node_3_label		Radar Data	雷达数据
-def_radar_huge_node_3_desc		Outputs data for up to 8 targets. (On/Off 1-8 : Target Found) (Values 1-4 : Target 1 (Relative Distance, Signal Strength, Elevation Angle, Azimuth Angle)) (Values 5-8 : Target 2) Ect...	输出多达8个目标的数据。(开/关1-8：找到目标)(值1-4：目标1(相对距离、信号强度、仰角、方位角))(值5-8：目标2)等...
+def_radar_huge_node_3_desc		Outputs data for up to 8 targets. (On/Off 1-8 : Target Found) (Values 1-4 : Target 1 (Relative Distance, Signal Strength, Elevation Angle, Azimuth Angle)) (Values 5-8 : Target 2) Ect... 	输出多达8个目标的数据。(开/关1-8：找到目标)(值1-4：目标1(相对距离、信号强度、仰角、方位角))(值5-8：目标2)等...
 def_radar_large_name		Radar (Large) (Deprecated)	雷达(大)
 def_radar_large_desc		This sensor outputs the distance and relative angles to a detected object within its range and field of view using radio waves. This sensor uniquely allows the changing of it's pitch direction. (Range : 20000) (Max FOV : 0.250)	该传感器使用无线电波将距离和相对角度输出到被探测物体的范围和视场内。这个传感器唯一允许改变它的俯仰(Pitch)方向。(射程：20000)(最大视场：0.250)
 def_radar_large_s_desc		A medium range, highly configurable Radar that returns detailed information about a detected object within its view.	一种中程、高度可配置的雷达，能返回在其视野内探测到的物体的详细信息。
@@ -6335,40 +6357,40 @@ def_tyre_small_name		Small Tyre	小轮胎
 def_tyre_small_desc		Useful for creating tyre stacks and fenders.	用于创建轮胎堆栈和挡泥板。
 def_tyre_small_s_desc		A small decorative tyre.	一种装饰性的小轮胎。
 def_warhead_body_large_name		Warhead Body (Large)	弹头（大）
-def_warhead_body_large_desc		Detonates from a logic signal, or when receiving damage. Be careful!	通过逻辑信号引爆，或在受到伤害时引爆。小心处理
+def_warhead_body_large_desc		Detonates from an impact, or when receiving damage. Be careful!	通过逻辑信号引爆，或在受到伤害时引爆。小心处理
 def_warhead_body_large_s_desc		A large explosive warhead.	一个巨大的弹头
-def_warhead_body_large_node_0_label		Detonate	引爆
-def_warhead_body_large_node_0_desc		Detonates the explosives in the warhead.	引爆弹头中的炸药。
+def_warhead_body_large_node_0_label		Arm	引爆
+def_warhead_body_large_node_0_desc		Arm the explosives in the warhead to detonate when the internal impact sensor reaches its threshold.	引爆弹头中的炸药。
 def_warhead_body_medium_name		Warhead Body (Medium)	弹头（中）
-def_warhead_body_medium_desc		Detonates from a logic signal, or when receiving damage. Be careful!	通过逻辑信号引爆，或在受到伤害时引爆。小心处理
+def_warhead_body_medium_desc		Detonates from an impact, or when receiving damage. Be careful!	通过逻辑信号引爆，或在受到伤害时引爆。小心处理
 def_warhead_body_medium_s_desc		A medium explosive warhead.	中等爆炸性弹头。
-def_warhead_body_medium_node_0_label		Detonate	引爆
-def_warhead_body_medium_node_0_desc		Detonates the explosives in the warhead.	引爆弹头中的炸药。
+def_warhead_body_medium_node_0_label		Arm	引爆
+def_warhead_body_medium_node_0_desc		Arm the explosives in the warhead to detonate when the internal impact sensor reaches its threshold.	引爆弹头中的炸药。
 def_warhead_body_small_name		Warhead Body (Small)	弹头（小）
-def_warhead_body_small_desc		Detonates from a logic signal, or when receiving damage. Be careful!	通过逻辑信号引爆，或在受到伤害时引爆。小心处理
+def_warhead_body_small_desc		Detonates from an impact, or when receiving damage. Be careful!	通过逻辑信号引爆，或在受到伤害时引爆。小心处理
 def_warhead_body_small_s_desc		A small explosive warhead.	小型爆炸弹头。
-def_warhead_body_small_node_0_label		Detonate	引爆
-def_warhead_body_small_node_0_desc		Detonates the explosives in the warhead.	引爆弹头中的炸药。
+def_warhead_body_small_node_0_label		Arm	引爆
+def_warhead_body_small_node_0_desc		Arm the explosives in the warhead to detonate when the internal impact sensor reaches its threshold.	引爆弹头中的炸药。
 def_warhead_emp_name		Warhead (EMP)	弹头（EMP）
-def_warhead_emp_desc		Detonates from a logic signal, creating an EMP to temporarily shut down nearby electronic systems.	通过逻辑信号引爆，产生电磁脉冲，暂时关闭附近的电子系统。
+def_warhead_emp_desc		Detonates from an impact, creating an EMP to temporarily shut down nearby electronic systems.	通过逻辑信号引爆，产生电磁脉冲，暂时关闭附近的电子系统。
 def_warhead_emp_s_desc		A electromagnetic-pulse warhead.	电磁脉冲弹头。
-def_warhead_emp_node_0_label		Detonate	引爆
-def_warhead_emp_node_0_desc		Detonates the EMP charge in the warhead.	引爆弹头中的EMP装药。
+def_warhead_emp_node_0_label		Arm	引爆
+def_warhead_emp_node_0_desc		Arm the EMP charge in the warhead to detonate when the internal impact sensor reaches its threshold.	引爆弹头中的EMP装药。
 def_warhead_large_name		Warhead (Large)	弹头（大）
-def_warhead_large_desc		Detonates from a logic signal, or when receiving damage. Be careful!	通过逻辑信号引爆，或在受到伤害时引爆。小心处理
+def_warhead_large_desc		Detonates from an impact, or when receiving damage. Be careful!	通过逻辑信号引爆，或在受到伤害时引爆。小心处理
 def_warhead_large_s_desc		A large explosive warhead.	一个巨大的弹头
-def_warhead_large_node_0_label		Detonate	引爆
-def_warhead_large_node_0_desc		Detonates the explosives in the warhead.	引爆弹头中的炸药。
+def_warhead_large_node_0_label		Arm	引爆
+def_warhead_large_node_0_desc		Arm the explosives in the warhead to detonate when the internal impact sensor reaches its threshold.	引爆弹头中的炸药。
 def_warhead_medium_name		Warhead (Medium)	弹头（中）
-def_warhead_medium_desc		Detonates from a logic signal, or when receiving damage. Be careful!	通过逻辑信号引爆，或在受到伤害时引爆。小心处理
+def_warhead_medium_desc		Detonates from an impact, or when receiving damage. Be careful!	通过逻辑信号引爆，或在受到伤害时引爆。小心处理
 def_warhead_medium_s_desc		A medium explosive warhead.	中等爆炸性弹头。
-def_warhead_medium_node_0_label		Detonate	引爆
-def_warhead_medium_node_0_desc		Detonates the explosives in the warhead.	引爆弹头中的炸药。
+def_warhead_medium_node_0_label		Arm	引爆
+def_warhead_medium_node_0_desc		Arm the explosives in the warhead to detonate when the internal impact sensor reaches its threshold.	引爆弹头中的炸药。
 def_warhead_small_name		Warhead (Small)	弹头（小）
-def_warhead_small_desc		Detonates from a logic signal, or when receiving damage. Be careful!	通过逻辑信号引爆，或在受到伤害时引爆。小心处理
+def_warhead_small_desc		Detonates from an impact, or when receiving damage. Be careful!	通过逻辑信号引爆，或在受到伤害时引爆。小心处理
 def_warhead_small_s_desc		A small explosive warhead.	小型爆炸弹头。
-def_warhead_small_node_0_label		Detonate	引爆
-def_warhead_small_node_0_desc		Detonates the explosives in the warhead.	引爆弹头中的炸药。
+def_warhead_small_node_0_label		Arm	引爆
+def_warhead_small_node_0_desc		Arm the explosives in the warhead to detonate when the internal impact sensor reaches its threshold.	引爆弹头中的炸药。
 def_watercannon_name		Fluid Cannon	流体炮
 def_watercannon_desc		The cannon is a turret and can rotate on 2 axis.	一个炮塔，可以在2轴上旋转。
 def_watercannon_s_desc		A fluid cannon that fires pressurized water for putting out fires.	一种流体大炮，用来发射加压水来灭火。
@@ -6847,6 +6869,13 @@ def_wing_xl_s_desc		The wing surface cuts through the air while resisting moveme
 def_wing_xxl_name		Wing Section (XXLarge)	机翼面(超大)
 def_wing_xxl_desc		Wing surface to provide lift and cut through the air.	机翼表面提供升力并穿过气体。
 def_wing_xxl_s_desc		The wing surface cuts through the air while resisting movement against the flat plane of its surface. The aerofoil section also provides lift.	机翼表面穿透气体，同时抵抗其表面平面的运动。机翼部分也提供升力。
+id	description	en	local
+		Classic career mode. Expand your coastguard empire. Complete missions to earn money and unlock components.	经典生涯模式。扩张你的海岸警卫队帝国，通过完成任务来获得金钱、解锁组件。
+		Toggle Controller Input	切换控制器输入
+		Classic Career	经典生存模式
+		crane up	起重机升起
+		crane down	起重机放下
+		SERVER: ### FPS	服务器：###FPS
 id	description	en	local
 		Allow	允许
 id	description	en	local
