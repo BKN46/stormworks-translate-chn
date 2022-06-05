@@ -17,9 +17,9 @@ id	description	en	local
 		LOAD GAME	加载游戏
 		NEW MULTIPLAYER GAME	新的多人游戏
 		LOAD MULTIPLAYER GAME	加载多人游戏
-		Invalid password	无效密码
+		Invalid password	密码无效
 		Incompatible game version	不兼容的游戏版本
-		server version	服务器版本
+		server version	服务器游戏版本
 		Server is full	服务器已满
 		Server is not open to multiplayer	服务器未开启多人模式
 		You are not whitelisted on this server	你不在此服务器白名单中
@@ -69,7 +69,7 @@ id	description	en	local
 		m/s to knots	m/s至节
 		Turns to radians	转换为弧度
 		Degrees to radians	角度转换为弧度
-		Radians to degrees	弧度转换为度
+		Radians to degrees	弧度转换为角度
 		True	True
 		False	False
 		And	与(And)
@@ -114,7 +114,7 @@ id	description	en	local
 		Home	家
 		Welcome to Stormworks	欢迎来到Stormworks
 		FIX YOUR BOAT	修理你的船
-		Your boat was damaged in a recent storm. You will need to use a workbench to fix it.	你的船在最近的风暴中损坏了。你需要使用工作台来修复它。
+		Your boat was damaged in a recent storm. You will need to use a workbench to fix it.	你的船在最近一次风暴中损坏了。你需要使用工作台来修复它。
 		Workbench	工作台
 		VEHICLE EDITOR	载具编辑器
 		This is the vehicle editor, where you can fix your boat.	这是载具编辑器，你可以在这里修理你的船。
@@ -743,7 +743,7 @@ id	description	en	local
 		Are you sure you want to clear this vehicle? This cannot be undone.	你确定要清空这辆载具吗？这是无法撤消的。
 		Are you sure you want to overwrite this workshop vehicle?	是否确实要覆盖此创意工坊载具？
 		UPLOAD VEHICLE	上传载具
-		Are you sure you want to upload this vehicle to the workshop?\n This will make it available to all Stormworks players.	是否确实要将此载具上传到创意工坊？\n这将使所有的暴风城玩家都可以使用。
+		Are you sure you want to upload this vehicle to the workshop?\n This will make it available to all Stormworks players.	是否确认将此载具上传到创意工坊？\n这将使所有stormworks玩家都能够看到
 		ERROR LOADING VEHICLE	加载载具时出错
 		There was an error	发生错误
 		UPLOAD COMPLETE	上传完成
@@ -1051,7 +1051,7 @@ id	description	en	local
 		Glasses	眼镜
 		Glasses Color	眼镜颜色
 		Mask	面罩
-		Mask Color	面具颜色
+		Mask Color	面罩颜色
 		Clothes	服装
 		Clothing Color	服装颜色
 		Character	人物
@@ -1219,7 +1219,7 @@ id	description	en	local
 		Camera Roll	摄影机滚轮
 		Hide Player	隐藏玩家
 		Contrast	对比度
-		Color Mode	颜色模式
+		Color Mode	色彩模式
 		Time of Day	时间
 		Border	边界
 		Logo	Logo
@@ -1856,7 +1856,7 @@ id	description	en	local
 		CPU Active Time (ms)	CPU活动时间(ms)
 		CPU Utilization	CPU利用率
 		FPS	FPS
-		Diving Equipment	潜水设备
+		Diving Equipment	潜水装备
 		Firefighting Outfit	救火外套
 		Scuba Gear	水肺装备
 		Parachute	降落伞
@@ -2067,7 +2067,7 @@ id	description	en	local
 		WZ 063 Helmet	Wz.63头盔
 		Helmet Visor	头盔面罩
 		Heli Helmet	直升机头盔
-		Headset	头戴式耳机
+		Headset	耳机
 		Cap	帽子
 		Boonie Hat	布尼帽
 		Bomb Disposal Helmet	拆弹头盔
@@ -4122,7 +4122,7 @@ def_inventory_outfit_arctic_node_0_label		Electric	电
 def_inventory_outfit_arctic_node_0_desc		Electrical power connection.	电源连接。
 def_inventory_outfit_diving_name		Outfit Inventory (Diving)	装备架(潜水)
 def_inventory_outfit_diving_desc		When equipped, it will allow deep sea diving to a depth of 250m, and provides air for 10 minutes. The air tank can be refilled by storing the equipment in an outfit inventory unit.	按 [$[action_interact_left]]/[$[action_interact_right]]将装备/储存装备。如果装备，它将允许深海潜水到250米的深度，并提供10分钟的气体。可通过将设备存储在装备架单元中来重新填充气罐。
-def_inventory_outfit_diving_s_desc		An outfit inventory unit containing specialist diving equipment.	一个装备架，包含专业潜水设备。
+def_inventory_outfit_diving_s_desc		An outfit inventory unit containing specialist diving equipment.	包含专业潜水设备的装备架。
 def_inventory_outfit_diving_node_0_label		Electric	电
 def_inventory_outfit_diving_node_0_desc		Electrical power connection.	电源连接。
 def_inventory_outfit_firefighter_name		Outfit Inventory (Firefighter)	装备架(消防员)
@@ -4370,7 +4370,7 @@ def_linear_module_name		Linear Track Extension	直线轨道扩展
 def_linear_module_desc		A Linear Track Base must be attached somewhere along the track for it to function.	一个线性的轨道基地必须附在轨道上的某个地方，它才能发挥作用。
 def_linear_module_s_desc		An extension piece that can be used to build linear tracks.	可用于建立线性轨迹的延长件。
 def_linear_speed_sensor_name		Linear Speed Sensor	线性速度传感器
-def_linear_speed_sensor_desc		This sensor outputs the speed of the component in one of 4 modes. Modes can be changed by selecting the sensor.	此传感器以四种模式之一输出部件的速度。可以通过选择传感器来更改模式。
+def_linear_speed_sensor_desc		This sensor outputs the speed of the component in one of 4 modes. Modes can be changed by selecting the sensor.	此传感器以四种模式之一输出部件的速度。可以通过在设置中选择来更改模式。
 def_linear_speed_sensor_s_desc		This sensor outputs its current linear speed in m/s, allowing you to measure how fast your vehicle is travelling.	该传感器以m/s为单位输出当前的线性速度，允许您测量载具的行驶速度。
 def_linear_speed_sensor_node_0_label		Linear Speed	线速度
 def_linear_speed_sensor_node_0_desc		The sensor's linear speed in m/s.	传感器的线速度(m/s)。
@@ -5396,7 +5396,7 @@ def_rx_huge_node_4_desc
 def_rx_huge_node_5_label		Signal Strength	信号强度
 def_rx_huge_node_5_desc			
 def_rx_huge_v2_name		Radio RX Huge	巨型无线电接收
-def_rx_huge_v2_desc		Sends and receives data on the specified frequency. Transmit Mode defaults to receive. (Max Effective Range : 20000m)	以指定的发送频率和接收数据。传输模式默认为接收。
+def_rx_huge_v2_desc		Sends and receives data on the specified frequency. Transmit Mode defaults to receive. (Max Effective Range : 20000m)	以指定的发送频率和接收数据。传输模式默认为接收。最大范围20000米。
 def_rx_huge_v2_s_desc		A radio data transmitter and receiver.	无线电数据发射器和接收器。
 def_rx_huge_v2_node_0_label		Audio Recv	音频接收
 def_rx_huge_v2_node_0_desc		Output for received audio data.	接收音频数据的输出。
@@ -5430,7 +5430,7 @@ def_rx_large_node_4_desc
 def_rx_large_node_5_label		Signal Strength	信号强度
 def_rx_large_node_5_desc			
 def_rx_large_v2_name		Radio RX Large	大型无线电接收
-def_rx_large_v2_desc		Sends and receives data on the specified frequency. Transmit Mode defaults to receive. (Max Effective Range : 4000m)	以指定的发送频率和接收数据。传输模式默认为接收。
+def_rx_large_v2_desc		Sends and receives data on the specified frequency. Transmit Mode defaults to receive. (Max Effective Range : 4000m)	以指定的发送频率和接收数据。传输模式默认为接收。最大范围4000米。
 def_rx_large_v2_s_desc		A radio data transmitter and receiver.	无线电数据发射器和接收器。
 def_rx_large_v2_node_0_label		Audio Recv	音频接收
 def_rx_large_v2_node_0_desc		Output for received audio data.	接收音频数据的输出。
@@ -5464,7 +5464,7 @@ def_rx_med_node_4_desc
 def_rx_med_node_5_label		Signal Strength	信号强度
 def_rx_med_node_5_desc			
 def_rx_med_v2_name		Radio RX Medium	中型无线电接收
-def_rx_med_v2_desc		Sends and receives data on the specified frequency. Transmit Mode defaults to receive. (Max Effective Range : 1000m)	以指定的发送频率和接收数据。传输模式默认为接收。
+def_rx_med_v2_desc		Sends and receives data on the specified frequency. Transmit Mode defaults to receive. (Max Effective Range : 1000m)	以指定的发送频率和接收数据。传输模式默认为接收。最大范围1000米。
 def_rx_med_v2_s_desc		A radio data transmitter and receiver.	无线电数据发射器和接收器。
 def_rx_med_v2_node_0_label		Audio Recv	音频接收
 def_rx_med_v2_node_0_desc		Output for received audio data.	接收音频数据的输出。
@@ -5496,7 +5496,7 @@ def_rx_small_node_3_desc
 def_rx_small_node_4_label		Frequency Recv	频率接收
 def_rx_small_node_4_desc			
 def_rx_small_v2_name		Radio RX Small	小型无线电接收
-def_rx_small_v2_desc		Sends and receives data on the specified frequency. Transmit Mode defaults to receive. (Max Effective Range : 100m)	以指定的发送频率和接收数据。传输模式默认为接收。
+def_rx_small_v2_desc		Sends and receives data on the specified frequency. Transmit Mode defaults to receive. (Max Effective Range : 100m)	以指定的发送频率和接收数据。传输模式默认为接收。最大范围100米。
 def_rx_small_v2_s_desc		A radio data transmitter and receiver.	无线电数据发射器和接收器。
 def_rx_small_v2_node_0_label		Audio Recv	音频接收
 def_rx_small_v2_node_0_desc		Output for received audio data.	接收音频数据的输出。
