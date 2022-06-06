@@ -2115,7 +2115,50 @@ id	description	en	local
 		Tab Right	向右切换
 		Free View	自由查看
 		Hotkey	快捷键
+		Body Warmer	无袖棉夹克
+		Cardigan	羊毛衫
+		Hoodie Down	帽衫羽绒服
+		Hoodie Up	连帽衫
+		Leggings	紧身裤
+		Puffer Jacket	羽绒夹克
+		Raincoat	雨衣
+		Varsity Jacket	棒球夹克
+		Shirt Beautiful OB	Beautiful OB T恤
+		Shirt Camodo	Camodo T恤
+		Shirt CC2	CC2 T恤
+		Shirt Frantic	Frantic T恤
+		Shirt GQ	GQ T恤
+		Shirt Lynx Highland	Lynx Highland T恤
+		Shirt MrNJersy	MrNJersy T恤
+		Shirt ND	ND T恤
+		Shirt Raptor	Raptor T恤
+		Shirt Rubber Duck	Rubber Duck T恤
+		Shirt Spycakes	Spycakes T恤
+		Shirt Stormworks	Stormworks T恤
+		Hoodie Beautiful OB	Beautiful OB帽衫
+		Hoodie Camodo	Camodo帽衫
+		Hoodie CC2	CC2帽衫
+		Hoodie Frantic	Frantic帽衫
+		Hoodie GQ	GQ帽衫
+		Hoodie Lynx Highland	Lynx Highland帽衫
+		Hoodie MrNJersy	MrNJersy帽衫
+		Hoodie ND	ND帽衫
+		Hoodie Raptor	Raptor帽衫
+		Hoodie Rubber Duck	Rubber Duck帽衫
+		Hoodie Spycakes	Spycakes帽衫
+		Hoodie Stormworks	Stormworks帽衫
 		You were disconnected due to adverse network conditions.	由于不佳的网络状态，你断开了连接
+		Physics	物理
+		Physics Detail	物理详情
+		Gameplay	游戏设定
+		Fish Spawn Rate	鱼类繁殖率
+		Color Palette	调色板
+		Blood Effects	血腥效果
+		Accessibility	可访问性
+		Auto	自动
+		Glowstick	荧光棒
+		[$[action_equipment_use]] Throw glowstick	丢出荧光棒
+		Kraken	北海巨妖
 def_01_block_name		Block	方块
 def_01_block_desc		The block is a quarter-metre in size. Components can be attached to all 6 faces.	这个方块有四分之一米大。组件可以连接收到所有6个面。
 def_01_block_s_desc		Basic cube-shaped building block.	基本立方形建筑块。
@@ -3411,7 +3454,7 @@ def_gps_sensor_node_1_label		Y Coordinate	Y坐标
 def_gps_sensor_node_1_desc		The y coordinate of this component on the world map.	世界地图上此组件的y坐标。
 def_gps_sensor_node_2_label		Electric	电
 def_gps_sensor_node_2_desc		Electrical power connection.	电源连接。
-def_gun_belt_corner_name		Autocannon Ammo (Corner)	机炮弹药（拐角）
+def_gun_belt_corner_name		Autocannon Belt (Corner)	机炮弹药带（拐角）
 def_gun_belt_corner_desc		Autocannon belts can transfer all calibers of autocannon ammo.	机炮弹药带可以传送所有口径的机炮弹药。
 def_gun_belt_corner_s_desc		An autocannon ammo belt.	机炮弹药带。
 def_gun_belt_corner_node_0_label		Contains Ammo	是否有弹药
@@ -3466,7 +3509,7 @@ def_gun_belt_corner_xxl_desc		Cannon ammo belts can store and transfer ammo shel
 def_gun_belt_corner_xxl_s_desc		A bertha cannon ammo belt.	贝莎巨炮弹药带。
 def_gun_belt_corner_xxl_node_0_label		Contains Ammo	是否有弹药
 def_gun_belt_corner_xxl_node_0_desc		Returns true if the belt contains a shell.	如果弹药带中有弹药，则返回true。
-def_gun_belt_junction_name		Autocannon Ammo Belt (Junction)	机炮弹药带（交叉）
+def_gun_belt_junction_name		Autocannon Belt (Junction)	机炮弹药带（交叉）
 def_gun_belt_junction_desc		Autocannon belts can transfer all calibers of autocannon ammo. Junction belts redirect the path of ammo transfer.	机炮弹药带可以传送所有口径的机炮弹药。连接带改变了弹药转移的路径。
 def_gun_belt_junction_s_desc		An autocannon ammo belt.	机炮弹药带。
 def_gun_belt_junction_node_0_label		Contains Ammo	是否有弹药
@@ -4000,6 +4043,11 @@ def_inventory_equipment_geiger_counter_desc		Press [$[action_equipment_use]] to 
 def_inventory_equipment_geiger_counter_s_desc		A small equipment storage unit containing a radiation detector.	小型装备架，储存一个辐射指示器
 def_inventory_equipment_geiger_counter_node_0_label		Electric	电
 def_inventory_equipment_geiger_counter_node_0_desc		Electrical power connection.	电源连接。
+def_inventory_equipment_glowstick_name		Equipment inventory (Glowstick)	荧光棒库存量
+def_inventory_equipment_glowstick_desc		Press [$[action_equipment_use]] to throw a glowstick which emits light for an extended time. The editor paint tool can be used to set the glowstick hue.	按[$[action_equipment_use]]扔出一个荧光棒，它会发光一段时间。可以使用编辑器绘制工具来设置荧光棒的色调。
+def_inventory_equipment_glowstick_s_desc		A small equipment storage unit containing glowsticks.	小型荧光棒存储单元
+def_inventory_equipment_glowstick_node_0_label		Electric	电力
+def_inventory_equipment_glowstick_node_0_desc		Electrical power connection.	电源连接。
 def_inventory_equipment_grenade_name		Equipment Inventory (Hand Grenade)	装备架[手榴弹]
 def_inventory_equipment_grenade_desc		Press [$[action_equipment_use]] to throw a hand grenade, which will detonate after a short delay.	按[$[action_equipment_use]]投掷手榴弹，手榴弹会在短时间延迟后引爆。
 def_inventory_equipment_grenade_s_desc		A small equipment storage unit containing a hand grenade.	装有手榴弹的小型设备储存装置。
@@ -4105,7 +4153,7 @@ def_inventory_equipment_welding_torch_desc		Hold [$[action_equipment_use]] to re
 def_inventory_equipment_welding_torch_s_desc		A large equipment storage unit containing a welding torch.	大型装备架，存储一个火旱枪 [译注:这游戏不支持han字...]
 def_inventory_equipment_welding_torch_node_0_label		Electric	电
 def_inventory_equipment_welding_torch_node_0_desc		Electrical power connection.	电源连接。
-def_inventory_medium_name		Large equipment inventory	大装备架
+def_inventory_medium_name		Large equipment inventory (Empty)	大装备架(空)
 def_inventory_medium_desc		Only large handheld equipment can be stored in this unit. When connected to an electric power source, any rechargable equipment stored in the unit will drain a small amount of electricity until recharged to 100% capacity.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。只有大型手持装备能够放在这个架子中。当连接到电源时，其内的装备可以得到充电。
 def_inventory_medium_s_desc		An empty large equipment storage unit.	一个空的大型装备架
 def_inventory_medium_node_0_label		Electric	电
@@ -4122,7 +4170,7 @@ def_inventory_outfit_arctic_node_0_label		Electric	电
 def_inventory_outfit_arctic_node_0_desc		Electrical power connection.	电源连接。
 def_inventory_outfit_diving_name		Outfit Inventory (Diving)	装备架(潜水)
 def_inventory_outfit_diving_desc		When equipped, it will allow deep sea diving to a depth of 250m, and provides air for 10 minutes. The air tank can be refilled by storing the equipment in an outfit inventory unit.	按 [$[action_interact_left]]/[$[action_interact_right]]将装备/储存装备。如果装备，它将允许深海潜水到250米的深度，并提供10分钟的气体。可通过将设备存储在装备架单元中来重新填充气罐。
-def_inventory_outfit_diving_s_desc		An outfit inventory unit containing specialist diving equipment.	包含专业潜水设备的装备架。
+def_inventory_outfit_diving_s_desc		An outfit inventory unit containing specialist diving equipment.	一个包含专业潜水设备的装备架。
 def_inventory_outfit_diving_node_0_label		Electric	电
 def_inventory_outfit_diving_node_0_desc		Electrical power connection.	电源连接。
 def_inventory_outfit_firefighter_name		Outfit Inventory (Firefighter)	装备架(消防员)
@@ -4145,7 +4193,7 @@ def_inventory_outfit_scuba_desc		When equipped, it will allow diving to a depth 
 def_inventory_outfit_scuba_s_desc		An outfit inventory unit containing specialist scuba gear.	一个装备架，包含专业的潜水装备。
 def_inventory_outfit_scuba_node_0_label		Electric	电
 def_inventory_outfit_scuba_node_0_desc		Electrical power connection.	电源连接。
-def_inventory_small_name		Small equipment inventory	小装备架
+def_inventory_small_name		Small equipment inventory (Empty)	小装备架(空)
 def_inventory_small_desc		Only small handheld equipment can be stored in this unit. When connected to an electric power source, any rechargable equipment stored in the unit will drain a small amount of electricity until recharged to 100% capacity.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。只有小型手持装备能够放在这个架子中。当连接到电源时，其内的装备可以得到充电。
 def_inventory_small_s_desc		An empty small equipment storage unit.	一个空的小型装备架
 def_inventory_small_node_0_label		Electric	电
@@ -4755,7 +4803,7 @@ def_multibody_door_hinge_a_s_desc		A powered robotic hinge for custom sealable d
 def_multibody_door_hinge_a_node_0_label		Rotation Target	旋转目标
 def_multibody_door_hinge_a_node_0_desc		The standard value setting the orientation within the range of motion.	在运动范围内设置方向的标准值。
 def_multibody_door_hinge_a_node_1_label		Current Rotation	通用旋转组合
-def_multibody_door_hinge_a_node_1_desc		The hinge's measured rotation between 0 and 0.25.	铰链在0到0.25之间的旋转测量值
+def_multibody_door_hinge_a_node_1_desc		The hinge's measured rotation between -0.25 and 0.25.	铰链在-0.25到0.25之间的旋转测量值
 def_multibody_door_hinge_a_node_2_label		Electric	电
 def_multibody_door_hinge_a_node_2_desc		Electrical power connection.	电源连接。
 def_multibody_door_hinge_b_name		Robotic door hinge child	自动门铰链[从]
@@ -4830,7 +4878,7 @@ def_multibody_suspension_a_desc		Power can be passed through the suspension, all
 def_multibody_suspension_a_s_desc		A shock absorber that can be used to improve handling of land-based vehicles.	可用于改善陆基车辆操控性的减震器。
 def_multibody_suspension_a_node_0_label		RPS	每分钟转数
 def_multibody_suspension_a_node_0_desc		Power connection for transfering mechanical energy.	用于传输机械能的连接
-def_multibody_suspension_b_name		suspension b	悬挂 b
+def_multibody_suspension_b_name		multibody_suspension_b	多体悬挂B
 def_multibody_suspension_b_desc			
 def_multibody_suspension_b_s_desc			
 def_multibody_suspension_b_node_0_label		RPS	每分钟转数
@@ -4976,7 +5024,7 @@ def_radar_advanced_missile_node_1_desc		Enable the Radar.	启动雷达。
 def_radar_advanced_missile_node_2_label		Radar Data	雷达数据
 def_radar_advanced_missile_node_2_desc		Outputs data for up to 8 targets. (On/Off 1-8 : Target Found) (Values 1-4 : Target 1 (Distance, Azimuth Angle, Elevation Angle, Time Since Detection)) (Values 5-8 : Target 2) Ect... 	输出多达8个目标的数据。（on/off1-8：找到目标）（值1-4：目标1（距离、方位角、仰角、检测后的时间））（值5-8：目标2）等。。。
 def_radar_advanced_missile_node_3_label		Missile Output	导弹输出
-def_radar_advanced_missile_node_3_desc		Outputs x and y data for the most immediate target. Link this directly into a rocket fins component.	输出最直接目标的x和y数据。将其直接连接到火箭翼组件中。
+def_radar_advanced_missile_node_3_desc		Outputs x and y data for the most immediate target. Link this directly into a rocket fins component.	输出凝视目标的x和y数据。将其直接连接到弹翼组件中。
 def_radar_advanced_missile_node_4_label		Radar Rotation	雷达旋转
 def_radar_advanced_missile_node_4_desc		Current radar rotation from forward in turns.	当前雷达从前方开始自转。
 def_radar_advanced_phalanx_name		Radar (Phalanx)	雷达（密集阵）
@@ -5042,7 +5090,7 @@ def_radar_large_node_7_label		Target Found	发现目标
 def_radar_large_node_7_desc		Returns if an object has been detected.	如果检测到对象，则返回。
 def_radar_large_node_8_label		Electric	电
 def_radar_large_node_8_desc		Electrical power connection.	电源连接。
-def_radar_sonar_name		Sonar (Large)	声纳
+def_radar_sonar_name		Sonar (Large) (Deprecated)	声纳(大)(已弃用)
 def_radar_sonar_desc		This sensor outputs the distance and angle to a detected underwater object within its range and field of view using sound waves. (Range : 3000) (Max FOV : 0.125)	利用声波在选定角度和FOV内检测目标仰角和距离。(射程：3000)(最大视场：0.125)
 def_radar_sonar_s_desc		A short range Sonar that returns information about a detected underwater object within its view.	一种短程声纳，在其视野内返回有关探测到的水下物体的信息。
 def_radar_sonar_node_0_label		FOV	视野
@@ -5059,7 +5107,7 @@ def_radar_sonar_node_5_label		Target Found	发现目标
 def_radar_sonar_node_5_desc		Returns if an object has been detected.	如果检测到对象，则返回。
 def_radar_sonar_node_6_label		Electric	电
 def_radar_sonar_node_6_desc		Electrical power connection.	电源连接。
-def_radar_sonar_small_name		Sonar (Small)	声纳(小)
+def_radar_sonar_small_name		Sonar (Small) (Deprecated)	声纳(小)(已弃用)
 def_radar_sonar_small_desc		This sensor outputs the distance and angle to a detected underwater object within its range and field of view using sound waves. (Range : 1000) (Max FOV : 0.125)	利用声波在选定角度和FOV内检测目标仰角和距离。(射程：3000)(最大视场：0.125)
 def_radar_sonar_small_s_desc		A short range Sonar that returns information about a detected underwater object within its view.	一种短程声纳，在其视野内返回有关探测到的水下物体的信息。
 def_radar_sonar_small_node_0_label		FOV	视野
@@ -5280,7 +5328,6 @@ def_rotor_coaxial_large_node_2_desc		Receives power generated by an engine.	接�
 def_rotor_coaxial_large_node_3_label		Collective	总距
 def_rotor_coaxial_large_node_3_desc		Standard value between -1 and 1 representing the desired pitch amount.	-1到1的值，代表螺旋桨总距。
 def_rotor_coaxial_large_node_4_label		RPS	动力
-def_rotor_coaxial_large_node_4_desc			
 def_rotor_coaxial_light_name		Rotor (Light)	旋翼（轻型）
 def_rotor_coaxial_light_desc		Two standard number inputs control the rotor's swashplate, allowing you to affect the its pitch and roll. Power received from an engine affects the amount of up and down force that the rotor will generate. The output force of this rotor is decreased when underwater.	两个数字输入控制旋翼的倾斜盘，允许您影响其俯仰Pitch和滚动Roll。从发动机接收到的功率影响旋翼将产生的上下作用力的大小。在水下时，螺旋桨的输出力减小。
 def_rotor_coaxial_light_s_desc		A helicopter rotor with controllable pitch and roll.	能够控制直升机俯仰、滚动的螺旋桨
@@ -5293,7 +5340,6 @@ def_rotor_coaxial_light_node_2_desc		Receives power generated by an engine.	接�
 def_rotor_coaxial_light_node_3_label		Collective	总距
 def_rotor_coaxial_light_node_3_desc		Standard value between -1 and 1 representing the desired pitch amount.	-1到1的值，代表螺旋桨总距。
 def_rotor_coaxial_light_node_4_label		RPS	动力
-def_rotor_coaxial_light_node_4_desc			
 def_rotor_coaxial_light_end_name		Rotor End (Light)	旋翼末端（轻型）
 def_rotor_coaxial_light_end_desc		Two standard number inputs control the rotor's swashplate, allowing you to affect the its pitch and roll. Power received from an engine affects the amount of up and down force that the rotor will generate. The output force of this rotor is decreased when underwater.	两个数字输入控制旋翼的倾斜盘，允许您影响其俯仰Pitch和滚动Roll。从发动机接收到的功率影响旋翼将产生的上下作用力的大小。在水下时，螺旋桨的输出力减小。
 def_rotor_coaxial_light_end_s_desc		A helicopter rotor with controllable pitch and roll.	能够控制直升机俯仰、滚动的螺旋桨
@@ -5317,7 +5363,6 @@ def_rotor_coaxial_prop_node_2_desc		Receives power generated by an engine.	接�
 def_rotor_coaxial_prop_node_3_label		Collective	总距
 def_rotor_coaxial_prop_node_3_desc		Standard value between -1 and 1 representing the desired pitch amount.	-1到1的值，代表螺旋桨总距。
 def_rotor_coaxial_prop_node_4_label		RPS	动力
-def_rotor_coaxial_prop_node_4_desc			
 def_rotor_coaxial_prop_end_name		Rotor Propeller End (Large)	旋翼末端（大型）
 def_rotor_coaxial_prop_end_desc		Two standard number inputs control the rotor's swashplate, allowing you to affect the its pitch and roll. Power received from an engine affects the amount of up and down force that the rotor will generate. The output force of this rotor is decreased when underwater.	两个数字输入控制旋翼的倾斜盘，允许您影响其俯仰Pitch和滚动Roll。从发动机接收到的功率影响旋翼将产生的上下作用力的大小。在水下时，螺旋桨的输出力减小。
 def_rotor_coaxial_prop_end_s_desc		A helicopter rotor with controllable pitch and roll.	能够控制直升机俯仰、滚动的螺旋桨
@@ -5341,7 +5386,6 @@ def_rotor_coaxial_prop_small_node_2_desc		Receives power generated by an engine.
 def_rotor_coaxial_prop_small_node_3_label		Collective	总距
 def_rotor_coaxial_prop_small_node_3_desc		Standard value between -1 and 1 representing the desired pitch amount.	-1到1的值，代表螺旋桨总距。
 def_rotor_coaxial_prop_small_node_4_label		RPS	动力
-def_rotor_coaxial_prop_small_node_4_desc			
 def_rotor_coaxial_prop_small_end_name		Rotor Propeller End (Small)	旋翼推进器末端（小型）
 def_rotor_coaxial_prop_small_end_desc		Two standard number inputs control the rotor's swashplate, allowing you to affect the its pitch and roll. Power received from an engine affects the amount of up and down force that the rotor will generate. The output force of this rotor is decreased when underwater.	两个数字输入控制旋翼的倾斜盘，允许您影响其俯仰Pitch和滚动Roll。从发动机接收到的功率影响旋翼将产生的上下作用力的大小。在水下时，螺旋桨的输出力减小。
 def_rotor_coaxial_prop_small_end_s_desc		A helicopter rotor with controllable pitch and roll.	能够控制直升机俯仰、滚动的螺旋桨
@@ -5365,7 +5409,6 @@ def_rotor_coaxial_small_node_2_desc		Receives power generated by an engine.	接�
 def_rotor_coaxial_small_node_3_label		Collective	总距
 def_rotor_coaxial_small_node_3_desc		Standard value between -1 and 1 representing the desired pitch amount.	-1到1的值，代表螺旋桨总距。
 def_rotor_coaxial_small_node_4_label		RPS	动力
-def_rotor_coaxial_small_node_4_desc			
 def_rudder_name		Rudder	方向舵
 def_rudder_desc		It takes a number input between -1 and 1 that represent the two extremes of the rudder's rotation.	它需要一个介于-1和1之间的数字输入，表示方向舵旋转的两个极值。
 def_rudder_s_desc		The rudder can be attached to the underside of a boat to control its yaw, allowing you to steer left and right.	舵可以附在船的下侧以控制它的偏航(Yaw)，允许你左右控制舵。
@@ -5402,9 +5445,9 @@ def_rx_huge_v2_node_0_label		Audio Recv	音频接收
 def_rx_huge_v2_node_0_desc		Output for received audio data.	接收音频数据的输出。
 def_rx_huge_v2_node_1_label		Audio Send	音频发送
 def_rx_huge_v2_node_1_desc		Input for audio data to send.	用于发送音频数据的输入。
-def_rx_huge_v2_node_2_label		Data Send	数据发送
+def_rx_huge_v2_node_2_label		Data Recv	数据接收
 def_rx_huge_v2_node_2_desc		Output for received composite data.	接收的复合数据的输出。
-def_rx_huge_v2_node_3_label		Data Recv	数据接收
+def_rx_huge_v2_node_3_label		Data Send	数据发送
 def_rx_huge_v2_node_3_desc		Input for composite data to send.	用于复合数据的输入。
 def_rx_huge_v2_node_4_label		Electric	电
 def_rx_huge_v2_node_4_desc		Electrical input.	电气输入。
@@ -5436,9 +5479,9 @@ def_rx_large_v2_node_0_label		Audio Recv	音频接收
 def_rx_large_v2_node_0_desc		Output for received audio data.	接收音频数据的输出。
 def_rx_large_v2_node_1_label		Audio Send	音频发送
 def_rx_large_v2_node_1_desc		Input for audio data to send.	用于发送音频数据的输入。
-def_rx_large_v2_node_2_label		Data Send	数据发送
+def_rx_large_v2_node_2_label		Data Recv	数据接收
 def_rx_large_v2_node_2_desc		Output for received composite data.	接收的复合数据的输出。
-def_rx_large_v2_node_3_label		Data Recv	数据接收
+def_rx_large_v2_node_3_label		Data Send	数据发送
 def_rx_large_v2_node_3_desc		Input for composite data to send.	用于复合数据的输入。
 def_rx_large_v2_node_4_label		Electric	电
 def_rx_large_v2_node_4_desc		Electrical input.	电气输入。
@@ -5470,9 +5513,9 @@ def_rx_med_v2_node_0_label		Audio Recv	音频接收
 def_rx_med_v2_node_0_desc		Output for received audio data.	接收音频数据的输出。
 def_rx_med_v2_node_1_label		Audio Send	音频发送
 def_rx_med_v2_node_1_desc		Input for audio data to send.	用于发送音频数据的输入。
-def_rx_med_v2_node_2_label		Data Send	数据发送
+def_rx_med_v2_node_2_label		Data Recv	数据接收
 def_rx_med_v2_node_2_desc		Output for received composite data.	接收的复合数据的输出。
-def_rx_med_v2_node_3_label		Data Recv	数据接收
+def_rx_med_v2_node_3_label		Data Send	数据发送
 def_rx_med_v2_node_3_desc		Input for composite data to send.	用于复合数据的输入。
 def_rx_med_v2_node_4_label		Electric	电
 def_rx_med_v2_node_4_desc		Electrical input.	电气输入。
@@ -5502,9 +5545,9 @@ def_rx_small_v2_node_0_label		Audio Recv	音频接收
 def_rx_small_v2_node_0_desc		Output for received audio data.	接收音频数据的输出。
 def_rx_small_v2_node_1_label		Audio Send	音频发送
 def_rx_small_v2_node_1_desc		Input for audio data to send.	用于发送音频数据的输入。
-def_rx_small_v2_node_2_label		Data Send	数据发送
+def_rx_small_v2_node_2_label		Data Recv	数据接收
 def_rx_small_v2_node_2_desc		Output for received composite data.	接收的复合数据的输出。
-def_rx_small_v2_node_3_label		Data Recv	数据接收
+def_rx_small_v2_node_3_label		Data Send	数据发送
 def_rx_small_v2_node_3_desc		Input for composite data to send.	用于复合数据的输入。
 def_rx_small_v2_node_4_label		Electric	电
 def_rx_small_v2_node_4_desc		Electrical input.	电气输入。
@@ -6032,6 +6075,47 @@ def_solid_rocket_small_fins_node_0_label		Composite Input	混合输入
 def_solid_rocket_small_fins_node_0_desc		Composite data for the control surfaces.	控制面的混合数据。
 def_solid_rocket_small_fins_node_1_label		Electric	电
 def_solid_rocket_small_fins_node_1_desc		Electrical power connection.	电源连接。
+def_sonar_advanced_name		Sonar (Small)	小型声纳
+def_sonar_advanced_desc		This sensor outputs the relative angle to detected objects within its range using underwater sound waves. The sensor will passively detect certain noisy components such as propellors or engines but can also send out a loud ping to detect quiet underwater bodies. After activating a ping additional detected signals will appear momentarily in the data channel as the signal returns to the sonar. Activating another ping will override the previous ping and no further data will be returned from the old signal.	该传感器利用水下声波输出其范围内被探测物体的相对角度。该传感器将被动地探测某些有噪声的部件，如螺旋桨或发动机，但也可以发出响亮的ping声来探测安静的水下物体。在激活ping信号后，当信号返回到声纳时，额外检测到的信号将在数据通道中立即出现。激活另一个ping将覆盖之前的ping，并且不再从旧信号返回进一步的数据。
+def_sonar_advanced_s_desc		A sonar that returns information about a detected objects within 60km.	该声纳最大可探测60km内的物体
+def_sonar_advanced_node_0_label		Electric	电
+def_sonar_advanced_node_0_desc		Electrical power connection.	电源连接。
+def_sonar_advanced_node_1_label		Activate	激活
+def_sonar_advanced_node_1_desc		Enable the Sonar.	启用声纳
+def_sonar_advanced_node_2_label		Ping	Ping
+def_sonar_advanced_node_2_desc		Send a ping and listen for return sounds.	进行一次Ping的发送并监听
+def_sonar_advanced_node_3_label		Sonar Data	声纳数据
+def_sonar_advanced_node_3_desc		Outputs data for up to 16 targets. (On/Off 1-16 : Target Found) (Values 1-2 : Target 1 (Azimuth Angle, Elevation Angle)) (Values 2-4 : Target 2) Ect... 	输出最多16个目标的数据。(开/关1-16:发现目标)(值1-2:目标1(方位角，仰角))(值2-4:目标2)等…
+def_sonar_advanced_node_4_label		Torpedo Output	鱼雷输出
+def_sonar_advanced_node_4_desc		Outputs x and y data for the most immediate target. Link this directly into a rocket fins component.	输出凝视目标的x和y数据。将其直接连接到弹翼组件中。
+def_sonar_advanced_5_name		Sonar (Medium)	中型声纳
+def_sonar_advanced_5_desc		This sensor outputs the relative angle to detected objects within its range using underwater sound waves. The sensor will passively detect certain noisy components such as propellors or engines but can also send out a loud ping to detect quiet underwater bodies. After activating a ping additional detected signals will appear momentarily in the data channel as the signal returns to the sonar. Activating another ping will override the previous ping and no further data will be returned from the old signal.	该传感器利用水下声波输出其范围内被探测物体的相对角度。该传感器将被动地探测某些有噪声的部件，如螺旋桨或发动机，但也可以发出响亮的ping声来探测安静的水下物体。在激活ping信号后，当信号返回到声纳时，额外检测到的信号将在数据通道中立即出现。激活另一个ping将覆盖之前的ping，并且不再从旧信号返回进一步的数据。
+def_sonar_advanced_5_s_desc		A sonar that returns information about a detected objects within 100km.	该声纳最大可探测100km内的物体
+def_sonar_advanced_5_node_0_label		Electric	电
+def_sonar_advanced_5_node_0_desc		Electrical power connection.	电源连接。
+def_sonar_advanced_5_node_1_label		Activate	激活
+def_sonar_advanced_5_node_1_desc		Enable the Sonar.	启用声纳
+def_sonar_advanced_5_node_2_label		Ping	Ping
+def_sonar_advanced_5_node_2_desc		Send a ping and listen for return sounds.	进行一次Ping的发送并监听
+def_sonar_advanced_5_node_3_label		Sonar Data	声纳数据
+def_sonar_advanced_5_node_3_desc		Outputs data for up to 16 targets. (On/Off 1-16 : Target Found) (Values 1-2 : Target 1 (Azimuth Angle, Elevation Angle)) (Values 2-4 : Target 2) Ect... 	输出最多16个目标的数据。(开/关1-16:发现目标)(值1-2:目标1(方位角，仰角))(值2-4:目标2)等…
+def_sonar_advanced_7_name		Sonar (Large)	大型声纳
+def_sonar_advanced_7_desc		This sensor outputs the relative angle to detected objects within its range using underwater sound waves. The sensor will passively detect certain noisy components such as propellors or engines but can also send out a loud ping to detect quiet underwater bodies. After activating a ping additional detected signals will appear momentarily in the data channel as the signal returns to the sonar. Activating another ping will override the previous ping and no further data will be returned from the old signal.	该传感器利用水下声波输出其范围内被探测物体的相对角度。该传感器将被动地探测某些有噪声的部件，如螺旋桨或发动机，但也可以发出响亮的ping声来探测安静的水下物体。在激活ping信号后，当信号返回到声纳时，额外检测到的信号将在数据通道中立即出现。激活另一个ping将覆盖之前的ping，并且不再从旧信号返回进一步的数据。
+def_sonar_advanced_7_s_desc		A sonar that returns information about a detected objects within 200km.	该声纳最大可探测200km内的物体
+def_sonar_advanced_7_node_0_label		Electric	电
+def_sonar_advanced_7_node_0_desc		Electrical power connection.	电源连接。
+def_sonar_advanced_7_node_1_label		Activate	激活
+def_sonar_advanced_7_node_1_desc		Enable the Sonar.	启用声纳
+def_sonar_advanced_7_node_2_label		Ping	Ping
+def_sonar_advanced_7_node_2_desc		Send a ping and listen for return sounds.	进行一次Ping的发送并监听
+def_sonar_advanced_7_node_3_label		Sonar Data	声纳数据
+def_sonar_advanced_7_node_3_desc		Outputs data for up to 16 targets. (On/Off 1-16 : Target Found) (Values 1-2 : Target 1 (Azimuth Angle, Elevation Angle)) (Values 2-4 : Target 2) Ect... 	输出最多16个目标的数据。(开/关1-16:发现目标)(值1-2:目标1(方位角，仰角))(值2-4:目标2)等…
+def_sonar_jammer_name		Sonar Jammer	声纳干扰器
+def_sonar_jammer_desc		Emits a very loud noise, as a decoy or distraction.	发出非常大的声音，作为诱饵或转移注意力。
+def_sonar_jammer_s_desc		A jamming device for sonar.	一种用于声纳的干扰装置
+def_sonar_jammer_node_0_label		Enable	启用
+def_sonar_jammer_node_0_desc		The detected radiation dose rate.	检测到的辐射剂量率
+def_sonar_jammer_node_1_label		Electric	电
 def_speaker_name		Speaker (Small)	扬声器(小)
 def_speaker_desc		A small speaker capable of playing audio data to nearby players. (Range : 15)	一种小型扬声器，能向附近的玩家播放音频数据。(范围：15)
 def_speaker_s_desc		A speaker capable of playing audio data to players within its range.	一种能够向其范围内的玩家播放音频数据的扬声器。
@@ -6869,17 +6953,12 @@ def_wing_xl_s_desc		The wing surface cuts through the air while resisting moveme
 def_wing_xxl_name		Wing Section (XXLarge)	机翼面(超大)
 def_wing_xxl_desc		Wing surface to provide lift and cut through the air.	机翼表面提供升力并穿过气体。
 def_wing_xxl_s_desc		The wing surface cuts through the air while resisting movement against the flat plane of its surface. The aerofoil section also provides lift.	机翼表面穿透气体，同时抵抗其表面平面的运动。机翼部分也提供升力。
-id	description	en	local
 		Classic career mode. Expand your coastguard empire. Complete missions to earn money and unlock components.	经典生涯模式。扩张你的海岸警卫队帝国，通过完成任务来获得金钱、解锁组件。
 		Toggle Controller Input	切换控制器输入
 		Classic Career	经典生存模式
 		crane up	起重机升起
 		crane down	起重机放下
 		SERVER: ### FPS	服务器：###FPS
-id	description	en	local
-		Allow	允许
-id	description	en	local
-		Allow	允许
 		Add Ice	添加冰块
 		Skin Colour	肤色
 		Hair Colour	发色
