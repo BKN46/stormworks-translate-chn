@@ -205,19 +205,19 @@ id	description	en	local
 		Small island with chemical plant on the key.	建有一个沙洲化工厂的小岛。
 		Key Lighthouse OB	沙洲灯塔OB
 		Small island with lighthouse on the key.	建有一个沙洲灯塔的小岛。
-		Uninhabited 1	无人居住1
+		Uninhabited 1	无人岛1
 		Small island with cliff edges.	有峭壁的小岛。
-		Uninhabited 2	无人居住2
+		Uninhabited 2	无人岛2
 		Smooth climb to a rocky cliffside.	平稳地爬到岩石峭壁上。
-		Uninhabited 3	无人居住3
+		Uninhabited 3	无人岛3
 		Two small islands surrounded by cliffs. Aerial access only.	只能从空中进入的四壁高耸的小岛。
-		Uninhabited 4	无人居住4
+		Uninhabited 4	无人岛4
 		Multiple scattered sea stacks.	多个散落的海蚀柱。
-		Uninhabited 5	无人居住5
+		Uninhabited 5	无人岛5
 		Relatively flat island with central rocky outcrop.	相对平坦的岛屿，中部有突出的岩石。
-		Uninhabited 6	无人居住6
+		Uninhabited 6	无人岛6
 		Rocky shoreline with a small bay.	有一个小海湾的岩石海岸线。
-		Uninhabited 7	无人居住7
+		Uninhabited 7	无人岛7
 		High cliffs and a bay with 2 narrow entrances.	高耸的悬崖和一个有两个狭窄入口的海湾。
 		Ruins 1	废墟1
 		Rocky coastline with small cave, ancient ruin and sheltered beach.	岩石海岸线，有小山洞，古老的遗迹和隐蔽的海滩。
@@ -879,7 +879,7 @@ id	description	en	local
 		Zoom	缩放
 		Camera Mode	摄像头模式
 		Toggle Controls UI	切换控件用户界面
-		Emote Wheel	电动轮
+		Emote Wheel	表情轮
 		Player List	玩家列表
 		Quick Chat	快速聊天
 		Show detailed data labels	显示数据标签细节
@@ -2479,7 +2479,7 @@ def_camera_gimbal_node_2_desc		Controls whether or not the infrared mode is swit
 def_camera_gimbal_node_3_label		Field of View	视野
 def_camera_gimbal_node_3_desc		Controls the level of zoom of the camera.	控制摄像头的缩放。
 def_camera_gimbal_node_4_label		Pivot Rotation	航向控制
-def_camera_gimbal_node_4_desc		Controls the rotation of the camera base.	控制摄像头底座的水平旋转。
+def_camera_gimbal_node_4_desc		Controls the rotation of the camera base.	输入速度，控制摄像头底座的水平旋转
 def_camera_gimbal_node_5_label		Pitch Rotation	俯仰控制
 def_camera_gimbal_node_5_desc		Controls the rotation of the camera head.	控制摄影机的俯仰旋转。
 def_camera_gimbal_laser_name		Camera Stabilized	自稳定云台摄像机
@@ -2496,7 +2496,7 @@ def_camera_gimbal_laser_node_3_desc		Enables the Laser.	开启激光
 def_camera_gimbal_laser_node_4_label		Field of View	FOV(视野)
 def_camera_gimbal_laser_node_4_desc		Controls the level of zoom of the camera.	控制摄像头的缩放
 def_camera_gimbal_laser_node_5_label		Pivot Rotation	航向控制
-def_camera_gimbal_laser_node_5_desc		Controls the rotation of the camera base.	控制摄像头基座的水平旋转
+def_camera_gimbal_laser_node_5_desc		Controls the rotation of the camera base.	输入速度，控制摄像头底座的水平旋转
 def_camera_gimbal_laser_node_6_label		Pitch Rotation	俯仰控制
 def_camera_gimbal_laser_node_6_desc		Controls the rotation of the camera head.	控制摄像头的俯仰旋转
 def_camera_gimbal_laser_node_7_label		Laser Distance	激光指示距离
@@ -6276,63 +6276,6 @@ def_steam_nuclear_fuel_assembly_node_1_desc
 def_steam_nuclear_fuel_rod_name		Nuclear Fuel Rod	核燃料棒
 def_steam_nuclear_fuel_rod_desc		Can be inserted into a fuel assembly to start the nuclear fission process.	可以插入核燃料总成来开始核裂变反应。
 def_steam_nuclear_fuel_rod_s_desc		A Radioactive Fuel Rod.	一个放射性燃料棒
-def_steam_piston_name		Steam Piston (Small)	蒸汽活塞(小)
-def_steam_piston_desc		Steam pressurized through the outer coupling extends the piston and steam pressurized through the inner coupling retracts the piston. Altenating pressure to the couplings based on the piston position will allow the crankpin to rotate continuously.	通过外侧联轴器加压的蒸汽使活塞伸出,通过内侧联轴器加压的蒸汽使活塞缩回.根据活塞的位置来调整联轴器的压力,可以使曲轴连续旋转.(P.S:就像真正的蒸汽机一样,为了避免失速,最好有一个飞轮或多个不相干的活塞.这是因为曲轴上的扭矩作用在冲程的末端有低效率区,就像真正的活塞一样.彼此相邻的活塞被锁定在一起,但可以用玩家定义的曲柄周期偏移来生成.这允许对发动机的建造方式进行大量的控制.)
-def_steam_piston_s_desc		A steam powered piston that converts steam pressure into torque.	以蒸汽为动力的活塞，将蒸汽压力转换为扭矩
-def_steam_piston_node_0_label		RPS	RPS
-def_steam_piston_node_0_desc		Power connection A.	动力连接A
-def_steam_piston_node_1_label		RPS	RPS
-def_steam_piston_node_1_desc		Power connection B.	动力连接B
-def_steam_piston_node_2_label		Steam In	蒸汽入口
-def_steam_piston_node_2_desc			
-def_steam_piston_node_3_label		Steam Out	蒸汽出口
-def_steam_piston_node_3_desc			
-def_steam_piston_node_4_label		Steam In	蒸汽入口
-def_steam_piston_node_4_desc			
-def_steam_piston_node_5_label		Steam Out	蒸汽出口
-def_steam_piston_node_5_desc			
-def_steam_piston_node_6_label		RPS	RPS
-def_steam_piston_node_6_desc			
-def_steam_piston_node_7_label		Piston Position	活塞位置
-def_steam_piston_node_7_desc			
-def_steam_piston_3x3_name		Steam Piston (Medium)	蒸汽活塞(中)
-def_steam_piston_3x3_desc		Steam pressurized through the outer coupling extends the piston and steam pressurized through the inner coupling retracts the piston. Altenating pressure to the couplings based on the piston position will allow the crankpin to rotate continuously.	通过外侧联轴器加压的蒸汽使活塞伸出,通过内侧联轴器加压的蒸汽使活塞缩回.根据活塞的位置来调整联轴器的压力,可以使曲轴连续旋转.(P.S:就像真正的蒸汽机一样,为了避免失速,最好有一个飞轮或多个不相干的活塞.这是因为曲轴上的扭矩作用在冲程的末端有低效率区,就像真正的活塞一样.彼此相邻的活塞被锁定在一起,但可以用玩家定义的曲柄周期偏移来生成.这允许对发动机的建造方式进行大量的控制.)
-def_steam_piston_3x3_s_desc		A steam powered piston that converts steam pressure into torque.	以蒸汽为动力的活塞，将蒸汽压力转换为扭矩
-def_steam_piston_3x3_node_0_label		RPS	RPS
-def_steam_piston_3x3_node_0_desc		Power connection A.	动力连接A
-def_steam_piston_3x3_node_1_label		RPS	RPS
-def_steam_piston_3x3_node_1_desc		Power connection B.	动力连接B
-def_steam_piston_3x3_node_2_label		Steam In	蒸汽入口
-def_steam_piston_3x3_node_2_desc			
-def_steam_piston_3x3_node_3_label		Steam Out	蒸汽出口
-def_steam_piston_3x3_node_3_desc			
-def_steam_piston_3x3_node_4_label		Steam In	蒸汽入口
-def_steam_piston_3x3_node_4_desc			
-def_steam_piston_3x3_node_5_label		Steam Out	蒸汽出口
-def_steam_piston_3x3_node_5_desc			
-def_steam_piston_3x3_node_6_label		RPS	RPS
-def_steam_piston_3x3_node_6_desc			
-def_steam_piston_3x3_node_7_label		Piston Position	活塞位置
-def_steam_piston_3x3_node_7_desc			
-def_steam_piston_5x5_name		Steam Piston (Large)	蒸汽活塞(大)
-def_steam_piston_5x5_desc		Steam pressurized through the outer coupling extends the piston and steam pressurized through the inner coupling retracts the piston. Altenating pressure to the couplings based on the piston position will allow the crankpin to rotate continuously.	通过外侧联轴器加压的蒸汽使活塞伸出,通过内侧联轴器加压的蒸汽使活塞缩回.根据活塞的位置来调整联轴器的压力,可以使曲轴连续旋转.(P.S:就像真正的蒸汽机一样,为了避免失速,最好有一个飞轮或多个不相干的活塞.这是因为曲轴上的扭矩作用在冲程的末端有低效率区,就像真正的活塞一样.彼此相邻的活塞被锁定在一起,但可以用玩家定义的曲柄周期偏移来生成.这允许对发动机的建造方式进行大量的控制.)
-def_steam_piston_5x5_s_desc		A steam powered piston that converts steam pressure into torque.	以蒸汽为动力的活塞，将蒸汽压力转换为扭矩
-def_steam_piston_5x5_node_0_label		RPS	RPS
-def_steam_piston_5x5_node_0_desc		Power connection A.	动力连接A
-def_steam_piston_5x5_node_1_label		RPS	RPS
-def_steam_piston_5x5_node_1_desc		Power connection B.	动力连接B
-def_steam_piston_5x5_node_2_label		Steam In	蒸汽入口
-def_steam_piston_5x5_node_2_desc			
-def_steam_piston_5x5_node_3_label		Steam Out	蒸汽出口
-def_steam_piston_5x5_node_3_desc			
-def_steam_piston_5x5_node_4_label		Steam In	蒸汽入口
-def_steam_piston_5x5_node_4_desc			
-def_steam_piston_5x5_node_5_label		Steam Out	蒸汽出口
-def_steam_piston_5x5_node_5_desc			
-def_steam_piston_5x5_node_6_label		RPS	RPS
-def_steam_piston_5x5_node_6_desc			
-def_steam_piston_5x5_node_7_label		Piston Position	活塞位置
-def_steam_piston_5x5_node_7_desc			
 def_steam_turbine_name		Steam Turbine	蒸汽涡轮
 def_steam_turbine_desc		Produces torque based on the force generated by steam passing through the turbine.	利用通过涡轮的蒸汽来产生扭矩
 def_steam_turbine_s_desc		A steam powered turbine.	一个蒸汽动力涡轮
@@ -6344,13 +6287,6 @@ def_steam_turbine_node_2_label		RPS	扭矩
 def_steam_turbine_node_2_desc			
 def_steam_turbine_node_3_label		RPS	扭矩
 def_steam_turbine_node_3_desc			
-def_steam_whistle_name		Steam Whistle	蒸汽汽笛
-def_steam_whistle_desc		When open, the steam whistle produces sound as steam flows through the pipe connection. The whistle pitch can be set in the component properties menu.	当打开时，蒸汽哨子在蒸汽流经管道连接时产生声音。哨子的音调可以在组件属性菜单中设置。
-def_steam_whistle_s_desc		A steam powered signal whistle.	蒸汽驱动的信号哨子
-def_steam_whistle_node_0_label		Fluid	流体
-def_steam_whistle_node_0_desc		Allows steam to flow out.	允许蒸汽流走
-def_steam_whistle_node_1_label		Open	打开
-def_steam_whistle_node_1_desc		Opens the steam whistle, allowing steam to flow through.	打开汽笛，让蒸汽流过。
 def_tail_rotor_name		Rotor (Tail)	尾桨
 def_tail_rotor_desc		A standard number input allows you to control how much force the rotor generates.	标准数字输入允许您控制螺旋桨产生的力。
 def_tail_rotor_s_desc		A basic helicopter tail rotor.	一种基本的直升机尾桨。
