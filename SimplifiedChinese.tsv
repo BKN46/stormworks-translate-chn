@@ -2374,16 +2374,16 @@ def_battery_small_node_0_desc		Energy storage for the electrical system.	电力�
 def_battery_small_node_1_label		Charge	剩余电量
 def_battery_small_node_1_desc		Data output giving the charge of the battery from 0 to 1.	从0到1显示电池电量的数据输出。
 def_button_key_name		Key Button	钥匙开关
-def_button_key_desc		Once activated, pressing the button again will deactivate it instantly. The hold duration can be customised by selecting this component with the select tool. The external input can be used to simulate holding the button down using the output of another component. The button's default state can be configured by selecting it with the select component.	一旦激活，再次按下按钮将立即停用。通过使用选择工具选择此组件，可以自定义启动开关所需的按压时间。外部输入可用于模拟使用其他组件的输出按住按钮。通过使用选择工具选择按钮，可以配置该按钮的默认状态。
+def_button_key_desc		Once activated, interacting with the button again will deactivate it instantly. The hold duration can be customised by selecting this component with the select tool. The external input can be used to simulate interacting with the button down using the output of another component. The button's default state can be configured by selecting it with the select component.	一旦激活，再次按下按钮将立即停用。通过使用选择工具选择此组件，可以自定义启动开关所需的按压时间。外部输入可用于模拟使用其他组件的输出按住按钮。通过使用选择工具选择按钮，可以配置该按钮的默认状态。
 def_button_key_s_desc		A button that must be held down for a set duration before activating.	一种需要持续按压一段时间才能激活的按钮。
 def_button_key_node_0_label		Activated	激活
-def_button_key_node_0_desc		Outputs an on signal when [e] has been held on the button for the set duration.	当[e]按压超过设定的时长后，输出接通信号。
+def_button_key_node_0_desc		Outputs an on signal when interacting with the button for the set duration.	当[e]按压超过设定的时长后，输出接通信号。
 def_button_key_node_1_label		External Input	外部输入
 def_button_key_node_1_desc		Allows an external on/off signal to hold the button down.	允许外部开/关信号按住按钮。
 def_button_key_node_2_label		Electric	电
 def_button_key_node_2_desc		Electrical power connection.	电源连接。
 def_button_keypad_large_name		Large Keypad	大键盘
-def_button_keypad_large_desc		Pressing the keypad will show a menu where the 2 numbers can be entered, along with a button for quickly inputting waypoint coordinates. A short pulse will be emitted from the keypad's pulse node when the confirm button is clicked and the stored numbers will be continuously output from the other output nodes. An on/off signal controls whether or not the keypad's backlight is enabled.	按下键盘将显示一个可输入2个数字的菜单，以及一个快速输入航路点坐标的按钮。当点击确认按钮时，键盘的脉冲节点将发出一个短脉冲，存储的数字将从其他输出节点连续输出。开/关信号控制键盘背光是否启用。
+def_button_keypad_large_desc		Interacting with the keypad will show a menu where the 2 numbers can be entered, along with a button for quickly inputting waypoint coordinates. A short pulse will be emitted from the keypad's pulse node when the confirm button is clicked and the stored numbers will be continuously output from the other output nodes. An on/off signal controls whether or not the keypad's backlight is enabled.	按下键盘将显示一个可输入2个数字的菜单，以及一个快速输入航路点坐标的按钮。当点击确认按钮时，键盘的脉冲节点将发出一个短脉冲，存储的数字将从其他输出节点连续输出。开/关信号控制键盘背光是否启用。
 def_button_keypad_large_s_desc		A keypad that allows 2 numbers to be input.	允许输入两个数字的小键盘。
 def_button_keypad_large_node_0_label		Output A	输出A
 def_button_keypad_large_node_0_desc		Outputs the first stored value.	输出第一个存储值。
@@ -2396,7 +2396,7 @@ def_button_keypad_large_node_3_desc		Emits a short pulse when a value is entered
 def_button_keypad_large_node_4_label		Electric	电
 def_button_keypad_large_node_4_desc		Electrical power connection.	电源连接。
 def_button_keypad_small_name		Small Keypad	小键盘
-def_button_keypad_small_desc		Pressing the keypad will show a menu where the number can be entered. The stored numbers will be continuously output from the other output node. An on/off signal controls whether or not the keypad's backlight is enabled.	按键盘将显示一个可输入数字的菜单。存储的数字将从另一个输出节点连续输出。开/关信号控制键盘背光是否启用。
+def_button_keypad_small_desc		Interacting with the keypad will show a menu where the number can be entered. The stored numbers will be continuously output from the other output node. An on/off signal controls whether or not the keypad's backlight is enabled.	按键盘将显示一个可输入数字的菜单。存储的数字将从另一个输出节点连续输出。开/关信号控制键盘背光是否启用。
 def_button_keypad_small_s_desc		A keypad that allows a number to be input.	允许输入数字的小键盘。
 def_button_keypad_small_node_0_label		Output	输出
 def_button_keypad_small_node_0_desc		Outputs the stored value.	输出存储值。
@@ -2408,25 +2408,25 @@ def_button_lock_name		Lockable Button	可锁定按钮
 def_button_lock_desc		An on signal must be sent to the button's unlock node to allow player interaction. The button's default state can be configured by selecting it with the select component.	必须向按钮的解锁节点发送打开信号，以允许玩家交互。通过使用select组件选择按钮，可以配置该按钮的默认状态。
 def_button_lock_s_desc		A toggle button that can only be interacted with when unlocked.	只有解锁时才能与之交互的切换按钮。
 def_button_lock_node_0_label		Toggled	切换
-def_button_lock_node_0_desc		Outputs an on/off signal that can be toggled by pressing [e] on the button when unlocked.	输出一个打开/关闭信号，解锁时按按钮上的[e]可切换该信号。
+def_button_lock_node_0_desc		Outputs an on/off signal that can be toggled by interacting with [$[action_interact_left]]/[$[action_interact_right]] when unlocked.	输出一个打开/关闭信号，解锁时按按钮上的[$[action_interact_left]]/[$[action_interact_right]]可切换该信号。
 def_button_lock_node_1_label		Unlock	解锁
 def_button_lock_node_1_desc		Allows the button to be interacted with when receiving an on signal.	允许按钮在接收到打开信号时与之交互。
 def_button_lock_node_2_label		Electric	电
 def_button_lock_node_2_desc		Electrical power connection.	电源连接。
 def_button_push_name		Push Button	按压按钮
 def_button_push_desc		An external on/off signal can also be used to control whether or not the button is pressed, allowing you to chain multiple buttons together to unify their outputs.	外部开/关信号也可用于控制是否按下按钮，允许您将多个按钮链接在一起，以统一其输出。
-def_button_push_s_desc		A button that outputs an on signal when you are pressing [e] on it, and an off signal when you are not.	一种按钮，当你按住[e]时，它输出一个接通信号，当你松开时，它输出一个断开信号。
+def_button_push_s_desc		A button that outputs an on signal when you interact with [$[action_interact_left]]/[$[action_interact_right]], and an off signal when not interacting.	一种按钮，当你按住[$[action_interact_left]]/[$[action_interact_right]]时，它输出一个接通信号，当你松开时，它输出一个断开信号。
 def_button_push_node_0_label		Pressed	按下
-def_button_push_node_0_desc		Outputs an on signal when you are pressing [e] on the button, and an off signal otherwise.	当您按住按钮上的[e]时，输出接通信号，否则输出断开信号。
+def_button_push_node_0_desc		Outputs an on signal when you interact wtih [$[action_interact_left]]/[$[action_interact_right]], and an off signal otherwise.	当您按住[$[action_interact_left]]/[$[action_interact_right]]时，输出接通信号，否则输出断开信号。
 def_button_push_node_1_label		External Input	外部输入
 def_button_push_node_1_desc		Allows an external on/off signal to control whether or not the button is pressed.	允许外部开/关信号控制按钮是否按下。
 def_button_push_node_2_label		Electric	电
 def_button_push_node_2_desc		Electrical power connection.	电源连接。
 def_button_push_2side_name		Push Button (2 Sided)	按压按钮(双面)
 def_button_push_2side_desc		An external on/off signal can also be used to control whether or not the button is pressed, allowing you to chain multiple buttons together to unify their outputs.	外部开/关信号也可用于控制是否按下按钮，允许您将多个按钮链接在一起，以统一其输出。
-def_button_push_2side_s_desc		A button that outputs an on signal when you are pressing [e] on it, and an off signal when you are not.	一种按钮，当你按住[e]时，它输出一个接通信号，当你松开时，它输出一个断开信号。
+def_button_push_2side_s_desc		A button that outputs an on signal when interacting with [$[action_interact_left]]/[$[action_interact_right]].	一种按钮，当你按住[e]时，它输出一个接通信号，当你松开时，它输出一个断开信号。
 def_button_push_2side_node_0_label		Pressed	按下
-def_button_push_2side_node_0_desc		Outputs an on signal when you are pressing [e] on the button, and an off signal otherwise.	当您按住按钮上的[e]时，输出接通信号，否则输出断开信号。
+def_button_push_2side_node_0_desc		Outputs an on signal when you interact with [$[action_interact_left]]/[$[action_interact_right]], and an off signal otherwise.	当您按住按钮上的[e]时，输出接通信号，否则输出断开信号。
 def_button_push_2side_node_1_label		External Input	外部输入
 def_button_push_2side_node_1_desc		Allows an external on/off signal to control whether or not the button is pressed.	允许外部开/关信号控制按钮是否按下。
 def_button_push_2side_node_2_label		Electric	电
@@ -2444,18 +2444,18 @@ def_button_throttle_lever_node_3_label		Electric	电
 def_button_throttle_lever_node_3_desc		Electrical power connection.	电源连接。
 def_button_toggle_name		Toggle Button	开关按钮
 def_button_toggle_desc		An external on/off signal can also be used to control whether or not the button is pressed, allowing you to chain multiple buttons together to unify their outputs. The button's default state can be configured by selecting it with the select component.	外部开/关信号也可用于控制是否按下按钮，允许您将多个按钮链接在一起，以统一其输出。通过使用select组件选择按钮，可以配置该按钮的默认状态。
-def_button_toggle_s_desc		A button that toggles between sending an on or off signal when you press [e] on it.	当您按[e]时，在发送开或关信号之间切换的按钮。
+def_button_toggle_s_desc		A button that toggles between sending an on or off signal when you press [$[action_interact_left]]/[$[action_interact_right]] on it.	当您按[e]时，在发送开或关信号之间切换的按钮。
 def_button_toggle_node_0_label		Toggled	切换
-def_button_toggle_node_0_desc		Outputs an on/off signal that can be toggled by pressing [e] on the button.	输出一个开/关信号，可通过按按钮上的[e]进行切换。
+def_button_toggle_node_0_desc		Outputs an on/off signal that can be toggled by interacting with [$[action_interact_left]]/[$[action_interact_right]].	输出一个开/关信号，可通过按按钮上的[e]进行切换。
 def_button_toggle_node_1_label		External Input	外部输入
 def_button_toggle_node_1_desc		Allows an external on/off signal to control whether or not the button is pressed.	允许外部开/关信号控制按钮是否按下。
 def_button_toggle_node_2_label		Electric	电
 def_button_toggle_node_2_desc		Electrical power connection.	电源连接。
 def_button_toggle_2side_name		Toggle Button (2 Sided)	开关按钮(双面)
 def_button_toggle_2side_desc		An external on/off signal can also be used to control whether or not the button is pressed, allowing you to chain multiple buttons together to unify their outputs. The button's default state can be configured by selecting it with the select component.	外部开/关信号也可用于控制是否按下按钮，允许您将多个按钮链接在一起，以统一其输出。通过使用select组件选择按钮，可以配置该按钮的默认状态。
-def_button_toggle_2side_s_desc		A button that toggles between sending an on or off signal when you press [e] on it.	当您按[e]时，在发送开或关信号之间切换的按钮。
+def_button_toggle_2side_s_desc		A button that toggles between sending an on or off signal when you press [$[action_interact_left]]/[$[action_interact_right]] on it.	当您按[e]时，在发送开或关信号之间切换的按钮。
 def_button_toggle_2side_node_0_label		Toggled	切换
-def_button_toggle_2side_node_0_desc		Outputs an on/off signal that can be toggled by pressing [e] on the button.	输出一个开/关信号，可通过按按钮上的[e]进行切换。
+def_button_toggle_2side_node_0_desc		Outputs an on/off signal that can be toggled by interacting with [$[action_interact_left]]/[$[action_interact_right]].	输出一个开/关信号，可通过按按钮上的[e]进行切换。
 def_button_toggle_2side_node_1_label		External Input	外部输入
 def_button_toggle_2side_node_1_desc		Allows an external on/off signal to control whether or not the button is pressed.	允许外部开/关信号控制按钮是否按下。
 def_button_toggle_2side_node_2_label		Electric	电
@@ -3822,8 +3822,8 @@ def_gyro_node_8_desc		Enables the gyroscope's auto-hover circuit when receiving 
 def_gyro_node_9_label		Electric	电
 def_gyro_node_9_desc		Electrical power connection.	电源连接。
 def_handle_name		Handle	把手
-def_handle_desc		Pressing [$[action_interact_left]]/[$[action_interact_right]] while attached will detach you depending on which you pressed to attach. The handle can be used to drag vehicles around. If a vehicle is too heavy to move, you will be detached automatically when you move outside the handle's interaction range.	在连接上时按[$[action_interact_left]/[$[action_interact_right]]将分离您，具体取决于您开始按了哪个键。把手可以用来拖动载具。如果载具太重而无法移动，则当您在把手的交互作用范围之外移动时，将自动分离。
-def_handle_s_desc		A handle that you can attach to by pressing [$[action_interact_left]] or [$[action_interact_right]].	通过按[$[action_interact_left]]或[$[action_interact_right]]可以抓上把手。
+def_handle_desc		Interacting with [$[action_interact_left]] or [$[action_interact_right]] again will detach that hand. The handle can be used to drag vehicles around. If a vehicle is too heavy to move, you will be detached automatically when you move outside the handle's interaction range.	在连接上时按[$[action_interact_left]/[$[action_interact_right]]将分离您，具体取决于您开始按了哪个键。把手可以用来拖动载具。如果载具太重而无法移动，则当您在把手的交互作用范围之外移动时，将自动分离。
+def_handle_s_desc		A handle that you can attach to by interacting with [$[action_interact_left]] or [$[action_interact_right]].	通过按[$[action_interact_left]]或[$[action_interact_right]]可以抓上把手。
 def_hatch_name		Sliding Hatch (Electric)	舱口
 def_hatch_desc			
 def_hatch_s_desc		Sliding hatch that can be opened and closed using an on/off signal.	滑动舱口，可使用开/关信号打开和关闭。
@@ -3997,7 +3997,7 @@ def_inventory_equipment_c4_detonator_s_desc		A small equipment storage unit cont
 def_inventory_equipment_c4_detonator_node_0_label		Electric	电
 def_inventory_equipment_c4_detonator_node_0_desc		Electrical power connection.	电源连接。
 def_inventory_equipment_cable_name		Equipment inventory (Cable)	装备架(电缆)
-def_inventory_equipment_cable_desc		Press [$[action_equipment_use]] to attach the cable to an unoccupied electrical cable anchor. Pressing [$[action_interact_left]]/[$[action_interact_right]] on an occupied electical cable anchor will retrieve the cable if the player has inventory space to hold it.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。 按下 [$[action_equipment_use]] 来将电缆连接到未占用的电缆锚点。 如果有剩余空间，在已经占用的电缆锚点按下 [$[action_interact_left]]/[$[action_interact_right]] 将会把电缆收回到玩家库存。 不使用时，这个装备能够收到背后。
+def_inventory_equipment_cable_desc		Press [$[action_equipment_use]] to attach the cable to an unoccupied electrical cable anchor. Interacting with [$[action_interact_left]]/[$[action_interact_right]] on an occupied electical cable anchor will retrieve the cable if the player has inventory space to hold it.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。 按下 [$[action_equipment_use]] 来将电缆连接到未占用的电缆锚点。 如果有剩余空间，在已经占用的电缆锚点按下 [$[action_interact_left]]/[$[action_interact_right]] 将会把电缆收回到玩家库存。 不使用时，这个装备能够收到背后。
 def_inventory_equipment_cable_s_desc		A large equipment storage unit containing 20m of electrical cable.	大型装备架，存储共计20m长的电缆
 def_inventory_equipment_cable_node_0_label		Electric	电
 def_inventory_equipment_cable_node_0_desc		Electrical power connection.	电源连接。
@@ -4057,7 +4057,7 @@ def_inventory_equipment_grenade_s_desc		A small equipment storage unit containin
 def_inventory_equipment_grenade_node_0_label		Electric	电
 def_inventory_equipment_grenade_node_0_desc		Electrical power connection.	电源连接。
 def_inventory_equipment_hose_name		Equipment inventory (Hose)	装备架(软管)
-def_inventory_equipment_hose_desc		Press [$[action_equipment_use]] to attach the hose to an unoccupied fluid hose anchor. Pressing [$[action_interact_left]]/[$[action_interact_right]] on an occupied fluid hose anchor will retrieve the hose if the player has inventory space to hold it. If the hose contains water, press [$[action_equipment_secondary]] to toggle open the hose valve and allow the water to flow freely.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。 按下 [$[action_equipment_use]] 来将电缆连接到未占用的软管锚点。 如果有剩余空间，在已经占用的软管锚点按下 [$[action_interact_left]]/[$[action_interact_right]] 将会把软管收回到玩家库存。如果软管中有流体，按下 [$[action_equipment_secondary]] 可以开关阀门允许流体自由流动。不使用时，这个装备能够收到背后。
+def_inventory_equipment_hose_desc		Press [$[action_equipment_use]] to attach the hose to an unoccupied fluid hose anchor. Interacting with [$[action_interact_left]]/[$[action_interact_right]] on an occupied fluid hose anchor will retrieve the hose if the player has inventory space to hold it. If the hose contains water, press [$[action_equipment_secondary]] to toggle open the hose valve and allow the water to flow freely.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。 按下 [$[action_equipment_use]] 来将电缆连接到未占用的软管锚点。 如果有剩余空间，在已经占用的软管锚点按下 [$[action_interact_left]]/[$[action_interact_right]] 将会把软管收回到玩家库存。如果软管中有流体，按下 [$[action_equipment_secondary]] 可以开关阀门允许流体自由流动。不使用时，这个装备能够收到背后。
 def_inventory_equipment_hose_s_desc		A large equipment storage unit containing 20m of fluid hosing.	大型装备架，存储20m长流体软管
 def_inventory_equipment_hose_node_0_label		Electric	电
 def_inventory_equipment_hose_node_0_desc		Electrical power connection.	电源连接。
@@ -4107,7 +4107,7 @@ def_inventory_equipment_rifle_ammo_s_desc		A small equipment storage unit contai
 def_inventory_equipment_rifle_ammo_node_0_label		Electric	电
 def_inventory_equipment_rifle_ammo_node_0_desc		Electrical power connection.	电源连接。
 def_inventory_equipment_rope_name		Equipment inventory (Rope)	装备架(绳索)
-def_inventory_equipment_rope_desc		Press [$[action_equipment_use]] to attach the rope to any rope anchor. Pressing [$[action_interact_left]]/[$[action_interact_right]] on an occupied rope anchor will retrieve the rope if the player has inventory space to hold it.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。 按下 [$[action_equipment_use]] 来将绳索连接到未占用的绳索锚点。 如果有剩余空间，在已经占用的绳索锚点按下 [$[action_interact_left]]/[$[action_interact_right]] 将会把绳索收回到玩家库存。 不使用时，这个装备能够收到背后。
+def_inventory_equipment_rope_desc		Press [$[action_equipment_use]] to attach the rope to any rope anchor. Interacting with [$[action_interact_left]]/[$[action_interact_right]] on an occupied rope anchor will retrieve the rope if the player has inventory space to hold it.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。 按下 [$[action_equipment_use]] 来将绳索连接到未占用的绳索锚点。 如果有剩余空间，在已经占用的绳索锚点按下 [$[action_interact_left]]/[$[action_interact_right]] 将会把绳索收回到玩家库存。 不使用时，这个装备能够收到背后。
 def_inventory_equipment_rope_s_desc		A large equipment storage unit containing 20m of rope.	大型装备架，存储20m长绳索
 def_inventory_equipment_rope_node_0_label		Electric	电
 def_inventory_equipment_rope_node_0_desc		Electrical power connection.	电源连接。
@@ -4122,7 +4122,7 @@ def_inventory_equipment_smg_ammo_s_desc		A small equipment storage unit containi
 def_inventory_equipment_smg_ammo_node_0_label		Electric	电
 def_inventory_equipment_smg_ammo_node_0_desc		Electrical power connection.	电源连接。
 def_inventory_equipment_speargun_name		Equipment inventory (Speargun)	装备架[鱼叉枪]
-def_inventory_equipment_speargun_desc		Press [$[action_equipment_use]] to fire, and [$[action_equipment_secondary]] to reload. The speargun can be fired underwater, the heavier spears travelling through the water more effectively than bullets.	按[$[action_equipment_use]]开火，按[$[action_equipment_secondary]]重新装填。鱼叉枪可以在水下发射，较重的长矛在水中比子弹更有效。
+def_inventory_equipment_speargun_desc		Press [$[action_equipment_use]] to fire, and [$[action_equipment_secondary]] to reload. The speargun can be fired underwater and spears travel through the water more effectively than bullets.	按[$[action_equipment_use]]开火，按[$[action_equipment_secondary]]重新装填。鱼叉枪可以在水下发射，较重的长矛在水中比子弹更有效。
 def_inventory_equipment_speargun_s_desc		A large equipment storage unit containing a speargun.	一种大型装备架，内有一把长矛。
 def_inventory_equipment_speargun_node_0_label		Electric	电
 def_inventory_equipment_speargun_node_0_desc		Electrical power connection.	电源连接。
@@ -4162,7 +4162,7 @@ def_inventory_medium_s_desc		An empty large equipment storage unit.	一个空的
 def_inventory_medium_node_0_label		Electric	电
 def_inventory_medium_node_0_desc		Electrical power connection.	电源连接。
 def_inventory_outfit_name		Outfit Inventory (Empty)	装备架(空)
-def_inventory_outfit_desc		Pressing [$[action_interact_left]]/[$[action_interact_right]] will equip/store the selected outfit. Only specialist outfits can be stored in this unit. When connected to an electric power source, any rechargable outfits stored in the unit will drain a small amount of electricity until recharged to 100% capacity.	如果你穿的是专业服装，按$[action_interact_left]/[$[action_interact_right]]将其储存在本单元中。
+def_inventory_outfit_desc		Interacting with [$[action_interact_left]]/[$[action_interact_right]] will equip/store the selected outfit. Only specialist outfits can be stored in this unit. When connected to an electric power source, any rechargable outfits stored in the unit will drain a small amount of electricity until recharged to 100% capacity.	如果你穿的是专业服装，按$[action_interact_left]/[$[action_interact_right]]将其储存在本单元中。当连接上电源时，会自动对其中装备进行充电。
 def_inventory_outfit_s_desc		An empty outfit storage unit.	一个空的装备储藏室。
 def_inventory_outfit_node_0_label		Electric	电
 def_inventory_outfit_node_0_desc		Electrical power connection.	电源连接。
@@ -4196,6 +4196,31 @@ def_inventory_outfit_scuba_desc		When equipped, it will allow diving to a depth 
 def_inventory_outfit_scuba_s_desc		An outfit inventory unit containing specialist scuba gear.	一个装备架，包含专业的潜水装备。
 def_inventory_outfit_scuba_node_0_label		Electric	电
 def_inventory_outfit_scuba_node_0_desc		Electrical power connection.	电源连接。
+def_inventory_outfit_wep_armor_vest_name		Outfit Inventory (Armor Vest)	装备架(防弹背心)
+def_inventory_outfit_wep_armor_vest_desc		When equipped, damage from projectiles to the body and head is greatly reduced.  Wearing the outfit significantly limits movement speed.	当装备时，大幅降低身体与头部所受到的投射物伤害，同时大幅降低移动速度。
+def_inventory_outfit_wep_armor_vest_s_desc		An outfit inventory unit containing specialist millitary clothing for projectile protection.	一个装备架，包含军用防弹装备。
+def_inventory_outfit_wep_armor_vest_node_0_label		Electric	电
+def_inventory_outfit_wep_armor_vest_node_0_desc		Electrical power connection.	电源连接
+def_inventory_outfit_wep_black_hawk_vest_name		Outfit Inventory (Black Hawk Vest)	装备架(黑鹰防弹背心)
+def_inventory_outfit_wep_black_hawk_vest_desc		When equipped, damage from projectiles to the body is reduced slightly.	当装备时，略微降低身体所受到的投射物伤害。
+def_inventory_outfit_wep_black_hawk_vest_s_desc		An outfit inventory unit containing specialist millitary clothing for projectile protection.	一个装备架，包含军用防弹装备。
+def_inventory_outfit_wep_black_hawk_vest_node_0_label		Electric	电
+def_inventory_outfit_wep_black_hawk_vest_node_0_desc		Electrical power connection.	电源连接
+def_inventory_outfit_wep_bomb_disposal_name		Outfit Inventory (Bomb Disposal)	装备架(拆弹防护服)
+def_inventory_outfit_wep_bomb_disposal_desc		When equipped, damage from explosives is drastically reduced. Damage from projectiles to the body and head is slightly reduced. Wearing the outfit greatly limits movement speed.	当装备时，极大降低身体与头部所受到的投射物与爆炸物伤害，同时也极大降低移动速度。
+def_inventory_outfit_wep_bomb_disposal_s_desc		An outfit inventory unit containing specialist millitary clothing for explosive protection.	一个装备架，包含军用防弹装备。
+def_inventory_outfit_wep_bomb_disposal_node_0_label		Electric	电
+def_inventory_outfit_wep_bomb_disposal_node_0_desc		Electrical power connection.	电源连接
+def_inventory_outfit_wep_chest_rig_name		Outfit Inventory (Chest Rig)	装备架(胸挂)
+def_inventory_outfit_wep_chest_rig_desc		When equipped, damage from projectiles to the body is reduced slightly and damage to the head is significantly reduced.	当装备时，略微降低身体、极大降低头部所受到的投射物伤害。
+def_inventory_outfit_wep_chest_rig_s_desc		An outfit inventory unit containing specialist millitary clothing for projectile protection.	一个装备架，包含军用防弹装备。
+def_inventory_outfit_wep_chest_rig_node_0_label		Electric	电
+def_inventory_outfit_wep_chest_rig_node_0_desc		Electrical power connection.	电源连接
+def_inventory_outfit_wep_plate_vest_name		Outfit Inventory (Plate Vest)	装备架(插板胸挂)
+def_inventory_outfit_wep_plate_vest_desc		When equipped, damage from projectiles to the body is reduced significantly and damage to the head is greatly reduced.  Wearing the outfit significantly limits movement speed.	当装备时，极大降低身体、大幅降低头部所受到的投射物伤害，同时极大降低移动速度。
+def_inventory_outfit_wep_plate_vest_s_desc		An outfit inventory unit containing specialist millitary clothing for projectile protection.	一个装备架，包含军用防弹装备。
+def_inventory_outfit_wep_plate_vest_node_0_label		Electric	电
+def_inventory_outfit_wep_plate_vest_node_0_desc		Electrical power connection.	电源连接
 def_inventory_small_name		Small equipment inventory (Empty)	小装备架(空)
 def_inventory_small_desc		Only small handheld equipment can be stored in this unit. When connected to an electric power source, any rechargable equipment stored in the unit will drain a small amount of electricity until recharged to 100% capacity.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。只有小型手持装备能够放在这个架子中。当连接到电源时，其内的装备可以得到充电。
 def_inventory_small_s_desc		An empty small equipment storage unit.	一个空的小型装备架
@@ -4316,7 +4341,7 @@ def_jet_engine_turbine_small_node_2_desc		The rotations per second generated by 
 def_jet_engine_turbine_small_node_3_label		Electric	电
 def_jet_engine_turbine_small_node_3_desc		The electric connection to output electric energy.	输出电能的电气连接。
 def_ladder_small_name		Ladder	梯子
-def_ladder_small_desc		You can attach to the ladder by pressing [$[action_use_seat]], then detach again by pressing either [$[action_use_seat]] or [$[action_jump]]. You will automatically detach from the ladder when you reach the top.	您可以按[$[action_use_seat]]连接收到梯子，然后按[$[action_use_seat]]或[$[action_jump]]再次分离。到达顶部时，您将自动从梯子上分离。
+def_ladder_small_desc		You can attach to the ladder by interacting with [$[action_use_seat]], then detach again with either [$[action_use_seat]] or [$[action_jump]]. You will automatically detach from the ladder when you reach the top.	您可以按[$[action_use_seat]]连接收到梯子，然后按[$[action_use_seat]]或[$[action_jump]]再次分离。到达顶部时，您将自动从梯子上分离。
 def_ladder_small_s_desc		Single ladder rung. Multiple rungs can placed on top of each other to form a ladder of abitrary length.	单梯横档。多个横档可以相互叠放，形成一个任意长度的梯子。
 def_landing_float_name		Landing Float	着陆浮子
 def_landing_float_desc		Ideal for attaching to helicopters to allow them to land on the ocean.	非常适合安装在直升机上，使其能够在海上降落。
@@ -6276,6 +6301,63 @@ def_steam_nuclear_fuel_assembly_node_1_desc
 def_steam_nuclear_fuel_rod_name		Nuclear Fuel Rod	核燃料棒
 def_steam_nuclear_fuel_rod_desc		Can be inserted into a fuel assembly to start the nuclear fission process.	可以插入核燃料总成来开始核裂变反应。
 def_steam_nuclear_fuel_rod_s_desc		A Radioactive Fuel Rod.	一个放射性燃料棒
+def_steam_piston_name		Steam Piston (Small)	蒸汽活塞(小)
+def_steam_piston_desc		Steam pressurized through the outer coupling extends the piston and steam pressurized through the inner coupling retracts the piston. Altenating pressure to the couplings based on the piston position will allow the crankpin to rotate continuously.	通过外侧联轴器加压的蒸汽使活塞伸出,通过内侧联轴器加压的蒸汽使活塞缩回.根据活塞的位置来调整联轴器的压力,可以使曲轴连续旋转.(P.S:就像真正的蒸汽机一样,为了避免失速,最好有一个飞轮或多个不相干的活塞.这是因为曲轴上的扭矩作用在冲程的末端有低效率区,就像真正的活塞一样.彼此相邻的活塞被锁定在一起,但可以用玩家定义的曲柄周期偏移来生成.这允许对发动机的建造方式进行大量的控制.)
+def_steam_piston_s_desc		A steam powered piston that converts steam pressure into torque.	以蒸汽为动力的活塞，将蒸汽压力转换为扭矩
+def_steam_piston_node_0_label		RPS	RPS
+def_steam_piston_node_0_desc		Power connection A.	动力连接A
+def_steam_piston_node_1_label		RPS	RPS
+def_steam_piston_node_1_desc		Power connection B.	动力连接B
+def_steam_piston_node_2_label		Steam In	蒸汽入口
+def_steam_piston_node_2_desc			
+def_steam_piston_node_3_label		Steam Out	蒸汽出口
+def_steam_piston_node_3_desc			
+def_steam_piston_node_4_label		Steam In	蒸汽入口
+def_steam_piston_node_4_desc			
+def_steam_piston_node_5_label		Steam Out	蒸汽出口
+def_steam_piston_node_5_desc			
+def_steam_piston_node_6_label		RPS	RPS
+def_steam_piston_node_6_desc			
+def_steam_piston_node_7_label		Piston Position	活塞位置
+def_steam_piston_node_7_desc			
+def_steam_piston_3x3_name		Steam Piston (Medium)	蒸汽活塞(中)
+def_steam_piston_3x3_desc		Steam pressurized through the outer coupling extends the piston and steam pressurized through the inner coupling retracts the piston. Altenating pressure to the couplings based on the piston position will allow the crankpin to rotate continuously.	通过外侧联轴器加压的蒸汽使活塞伸出,通过内侧联轴器加压的蒸汽使活塞缩回.根据活塞的位置来调整联轴器的压力,可以使曲轴连续旋转.(P.S:就像真正的蒸汽机一样,为了避免失速,最好有一个飞轮或多个不相干的活塞.这是因为曲轴上的扭矩作用在冲程的末端有低效率区,就像真正的活塞一样.彼此相邻的活塞被锁定在一起,但可以用玩家定义的曲柄周期偏移来生成.这允许对发动机的建造方式进行大量的控制.)
+def_steam_piston_3x3_s_desc		A steam powered piston that converts steam pressure into torque.	以蒸汽为动力的活塞，将蒸汽压力转换为扭矩
+def_steam_piston_3x3_node_0_label		RPS	RPS
+def_steam_piston_3x3_node_0_desc		Power connection A.	动力连接A
+def_steam_piston_3x3_node_1_label		RPS	RPS
+def_steam_piston_3x3_node_1_desc		Power connection B.	动力连接B
+def_steam_piston_3x3_node_2_label		Steam In	蒸汽入口
+def_steam_piston_3x3_node_2_desc			
+def_steam_piston_3x3_node_3_label		Steam Out	蒸汽出口
+def_steam_piston_3x3_node_3_desc			
+def_steam_piston_3x3_node_4_label		Steam In	蒸汽入口
+def_steam_piston_3x3_node_4_desc			
+def_steam_piston_3x3_node_5_label		Steam Out	蒸汽出口
+def_steam_piston_3x3_node_5_desc			
+def_steam_piston_3x3_node_6_label		RPS	RPS
+def_steam_piston_3x3_node_6_desc			
+def_steam_piston_3x3_node_7_label		Piston Position	活塞位置
+def_steam_piston_3x3_node_7_desc			
+def_steam_piston_5x5_name		Steam Piston (Large)	蒸汽活塞(大)
+def_steam_piston_5x5_desc		Steam pressurized through the outer coupling extends the piston and steam pressurized through the inner coupling retracts the piston. Altenating pressure to the couplings based on the piston position will allow the crankpin to rotate continuously.	通过外侧联轴器加压的蒸汽使活塞伸出,通过内侧联轴器加压的蒸汽使活塞缩回.根据活塞的位置来调整联轴器的压力,可以使曲轴连续旋转.(P.S:就像真正的蒸汽机一样,为了避免失速,最好有一个飞轮或多个不相干的活塞.这是因为曲轴上的扭矩作用在冲程的末端有低效率区,就像真正的活塞一样.彼此相邻的活塞被锁定在一起,但可以用玩家定义的曲柄周期偏移来生成.这允许对发动机的建造方式进行大量的控制.)
+def_steam_piston_5x5_s_desc		A steam powered piston that converts steam pressure into torque.	以蒸汽为动力的活塞，将蒸汽压力转换为扭矩
+def_steam_piston_5x5_node_0_label		RPS	RPS
+def_steam_piston_5x5_node_0_desc		Power connection A.	动力连接A
+def_steam_piston_5x5_node_1_label		RPS	RPS
+def_steam_piston_5x5_node_1_desc		Power connection B.	动力连接B
+def_steam_piston_5x5_node_2_label		Steam In	蒸汽入口
+def_steam_piston_5x5_node_2_desc			
+def_steam_piston_5x5_node_3_label		Steam Out	蒸汽出口
+def_steam_piston_5x5_node_3_desc			
+def_steam_piston_5x5_node_4_label		Steam In	蒸汽入口
+def_steam_piston_5x5_node_4_desc			
+def_steam_piston_5x5_node_5_label		Steam Out	蒸汽出口
+def_steam_piston_5x5_node_5_desc			
+def_steam_piston_5x5_node_6_label		RPS	RPS
+def_steam_piston_5x5_node_6_desc			
+def_steam_piston_5x5_node_7_label		Piston Position	活塞位置
+def_steam_piston_5x5_node_7_desc			
 def_steam_turbine_name		Steam Turbine	蒸汽涡轮
 def_steam_turbine_desc		Produces torque based on the force generated by steam passing through the turbine.	利用通过涡轮的蒸汽来产生扭矩
 def_steam_turbine_s_desc		A steam powered turbine.	一个蒸汽动力涡轮
@@ -6287,6 +6369,13 @@ def_steam_turbine_node_2_label		RPS	扭矩
 def_steam_turbine_node_2_desc			
 def_steam_turbine_node_3_label		RPS	扭矩
 def_steam_turbine_node_3_desc			
+def_steam_whistle_name		Steam Whistle	蒸汽汽笛
+def_steam_whistle_desc		When open, the steam whistle produces sound as steam flows through the pipe connection. The whistle pitch can be set in the component properties menu.	当打开时，蒸汽哨子在蒸汽流经管道连接时产生声音。哨子的音调可以在组件属性菜单中设置。
+def_steam_whistle_s_desc		A steam powered signal whistle.	蒸汽驱动的信号哨子
+def_steam_whistle_node_0_label		Fluid	流体
+def_steam_whistle_node_0_desc		Allows steam to flow out.	允许蒸汽流走
+def_steam_whistle_node_1_label		Open	打开
+def_steam_whistle_node_1_desc		Opens the steam whistle, allowing steam to flow through.	打开汽笛，让蒸汽流过。
 def_tail_rotor_name		Rotor (Tail)	尾桨
 def_tail_rotor_desc		A standard number input allows you to control how much force the rotor generates.	标准数字输入允许您控制螺旋桨产生的力。
 def_tail_rotor_s_desc		A basic helicopter tail rotor.	一种基本的直升机尾桨。
