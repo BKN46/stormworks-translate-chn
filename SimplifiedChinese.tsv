@@ -6693,7 +6693,7 @@ def_water_pump_s_desc		A small fluid pump.	一个小型的流体泵。
 def_water_pump_node_0_label		On/Off	开/关
 def_water_pump_node_0_desc		Controls whether or not the fluid is being pumped through.	控制流体是否被泵入。
 def_water_pump_node_1_label		Fluid In	液体进入
-def_water_pump_node_1_desc		Connect to an inlet component to take fluid into the system.	连接收到入口部件以将流体带入系统。
+def_water_pump_node_1_desc		Connect to an inlet component to take fluid into the system.	连接入口部件以将流体泵入系统。
 def_water_pump_node_2_label		Fluid Out	液体流出
 def_water_pump_node_2_desc		Connect to an outlet component to release fluid from the system.	连接收到出口部件以释放系统中的流体。
 def_water_pump_node_3_label		Electric	电
@@ -6702,7 +6702,7 @@ def_water_pump_large_name		Large Fluid Pump	大型液压泵
 def_water_pump_large_desc		Connect to an inlet and outlet to create a pumping system to move fluid around a vehicle.	连接收到入口和出口，以创建一个泵送系统，在载具周围移动流体。
 def_water_pump_large_s_desc		A large fluid pump.	一个大的油泵。
 def_water_pump_large_node_0_label		Fluid In	液体进入
-def_water_pump_large_node_0_desc		Connect to an inlet component to take fluid into the system.	连接收到入口部件以将流体带入系统。
+def_water_pump_large_node_0_desc		Connect to an inlet component to take fluid into the system.	连接入口部件以将流体泵入系统。
 def_water_pump_large_node_1_label		Fluid Out	液体流出
 def_water_pump_large_node_1_desc		Connect to an outlet component to release fluid from the system.	连接收到出口部件以释放系统中的流体。
 def_water_pump_large_node_2_label		On/Off	开/关
@@ -6713,9 +6713,9 @@ def_water_pump_manual_name		Fluid Pump (Manual)	液压泵(手动)
 def_water_pump_manual_desc		Hold [$[action_interact_left]]/[$[action_interact_right]] to create pressure in the pump. Connect to an inlet and outlet to create a pumping system to move fluid around a vehicle.	按住[$[action_interact_left]]/[$[action_interact_right]]，产生压力
 def_water_pump_manual_s_desc		A small fluid pump with a manual handle.	小型手摇流体泵
 def_water_pump_manual_node_0_label		Fluid In	流体入口
-def_water_pump_manual_node_0_desc		Connect to an inlet component to take fluid into the system.	连接到入口部件以讲流体带入系统
+def_water_pump_manual_node_0_desc		Connect to an inlet component to take fluid into the system.	连接到入口部件以讲流体泵入系统
 def_water_pump_manual_node_1_label		Fluid Out	流体出口
-def_water_pump_manual_node_1_desc		Connect to an outlet component to release fluid from the system.	连接到出口部件以讲流体带入系统
+def_water_pump_manual_node_1_desc		Connect to an outlet component to release fluid from the system.	连接到出口部件以讲流体泵入系统
 def_water_spawner_name		Fluid Spawner	流体生成器
 def_water_spawner_desc		The fluid spawner for helping with custom fluid tanks, so they can be spawned full, without a need to fill after spawning.	流体生成器，帮助自定义的流体坦克，所以他们可以生成充分，无需填补后生成。
 def_water_spawner_s_desc		A component to mark an enclosed area to be spawned with fluid inside.	一种组件，用于标记要在内部生成流体的封闭区域。
