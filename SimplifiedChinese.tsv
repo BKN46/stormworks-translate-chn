@@ -2162,6 +2162,24 @@ id	description	en	local
 		Kraken	北海巨妖
 		Fuel	
 		Fill Level	
+		Camera Forward	镜头前移
+		Camera Back	镜头后退
+		Camera Left	镜头左移
+		Camera Right	镜头右移
+		Camera Up	镜头向上
+		Camera Down	镜头向下
+		Camera Zoom In	镜头放大
+		Camera Zoom Out	镜头缩小
+		Camera Set Origin	镜头设置原点
+		Rotate X	X轴旋转
+		Rotate Y	Y轴旋转
+		Rotate Z	Z轴旋转
+		Flip X	X轴翻转
+		Flip Y	Y轴翻转
+		Flip Z	Z轴翻转
+		Show Rotation UI	显示旋转界面
+		Show/Hide Vehicle (Selection Grid)	显示/隐藏载具(选择网格)
+		Toggle Eraser	切换橡皮擦
 def_01_block_name		Block	方块
 def_01_block_desc		The block is a quarter-metre in size. Components can be attached to all 6 faces.	这个方块有四分之一米大。组件可以连接收到所有6个面。
 def_01_block_s_desc		Basic cube-shaped building block.	基本立方形建筑块。
@@ -3063,30 +3081,37 @@ def_fluid_tank_small_node_1_label		Tank Content	油箱容量
 def_fluid_tank_small_node_1_desc		The amount of fluid in the tank in litres.	油箱中的流体量，单位为升。
 def_fluid_tank_small_node_2_label		Stored Fluid	内容物体积
 def_fluid_tank_small_node_2_desc		The fluid connection for the stored contents.	连通内容物的接口
-def_fluid_valve_flow_name		Fluid Flow Valve	流体流量阀
+def_fluid_valve_flow_name		Fluid Flow Valve	流量阀
 def_fluid_valve_flow_desc		Allows fluid to move from the input side of the valve to the output but resists fluid flow in the other direction.	允许流体从阀门的输入侧移动到输出端，但阻止流体朝另一个方向流动。
 def_fluid_valve_flow_s_desc		A one way valve for controlling fluid flow.	控制流体流动的单向阀。
-def_fluid_valve_flow_node_0_label		Fluid In	液体进入
+def_fluid_valve_flow_node_0_label		Fluid In	流体进入
 def_fluid_valve_flow_node_0_desc		Fluid connection for the valve input.	阀门输入的流体连接。
-def_fluid_valve_flow_node_1_label		Fluid Out	液体流出
+def_fluid_valve_flow_node_1_label		Fluid Out	流体流出
 def_fluid_valve_flow_node_1_desc		Fluid connection for the valve output.	阀门输出的流体连接。
 def_fluid_valve_on_off_name		Fluid On/Off Valve	油液开关阀
 def_fluid_valve_on_off_desc		Controls flow from one side of the valve to the other. Fluid can flow in both directions.	控制从阀门一侧到另一侧的流量。流体可以双向流动。
 def_fluid_valve_on_off_s_desc		An on/off fluid valve.	开/关液阀。
-def_fluid_valve_on_off_node_0_label		Fluid In	液体进入
+def_fluid_valve_on_off_node_0_label		Fluid In	流体进入
 def_fluid_valve_on_off_node_0_desc		Fluid input connection for the valve.	阀门的流体输入连接。
-def_fluid_valve_on_off_node_1_label		Fluid Out	液体流出
+def_fluid_valve_on_off_node_1_label		Fluid Out	流体流出
 def_fluid_valve_on_off_node_1_desc		Fluid output connection for the valve.	阀门的流体输出连接。
 def_fluid_valve_on_off_node_2_label		Valve Control	阀门控制
 def_fluid_valve_on_off_node_2_desc		Valve gate control for opening and closing the valve.	用于打开和关闭阀门的闸门控制。
 def_fluid_valve_on_off_node_3_label		Electric	电
 def_fluid_valve_on_off_node_3_desc		Electrical power connection.	电源连接。
+def_fluid_valve_on_off_manual_name		Fluid On/Off Valve (Manual)	流体阀(手动)
+def_fluid_valve_on_off_manual_desc		Interacting with [$[action_interact_left]]/[$[action_interact_right]] will open / close the valve. Controls flow from one side of the valve to the other. Fluid can flow in both directions.	按 [$[action_interact_left]]/[$[action_interact_right]] 开关阀门，流体可以双向流动
+def_fluid_valve_on_off_manual_s_desc		An on/off fluid valve with a manual handle.	手动操作的流体阀门
+def_fluid_valve_on_off_manual_node_0_label		Fluid In	流体进入
+def_fluid_valve_on_off_manual_node_0_desc		Fluid input connection for the valve.	流体入口
+def_fluid_valve_on_off_manual_node_1_label		Fluid Out	流体流出
+def_fluid_valve_on_off_manual_node_1_desc		Fluid output connection for the valve.	流体出口
 def_fluid_valve_variable_name		Fluid Variable Valve	流体变量阀
 def_fluid_valve_variable_desc		Controls flow from one side of the valve to the other. Fluid can flow in both directions.	控制从阀门一侧到另一侧的流量。流体可以双向流动。
 def_fluid_valve_variable_s_desc		A variable fluid valve.	可变流体阀。
-def_fluid_valve_variable_node_0_label		Fluid In	液体进入
+def_fluid_valve_variable_node_0_label		Fluid In	流体进入
 def_fluid_valve_variable_node_0_desc		Fluid input connection for the valve.	阀门的流体输入连接。
-def_fluid_valve_variable_node_1_label		Fluid Out	液体流出
+def_fluid_valve_variable_node_1_label		Fluid Out	流体流出
 def_fluid_valve_variable_node_1_desc		Fluid output connection for the valve.	阀门的流体输出连接。
 def_fluid_valve_variable_node_2_label		Valve Control	阀门控制
 def_fluid_valve_variable_node_2_desc		Valve gate control for opening and closing the valve.	用于打开和关闭阀门的闸门控制。
@@ -3752,7 +3777,7 @@ def_gun_v_barrel_s_desc		A rotary autocannon barrel extension.	一个转管机�
 def_gun_xl_name		Artillery Cannon	大型榴弹炮
 def_gun_xl_desc		Artillery cannons fire high caliber explosive and armor-piercing shells over great distances.	大型榴弹炮可以远距离发射高口径爆炸物和穿甲弹
 def_gun_xl_s_desc		An artillery cannon.	大型榴弹炮
-def_gun_xl_node_0_label		Trigger	装填
+def_gun_xl_node_0_label		Trigger	开火
 def_gun_xl_node_0_desc		When true: fires a loaded shell.	如果为true：发射一枚已装填的炮弹。
 def_gun_xl_node_1_label		Loaded	是否已装填
 def_gun_xl_node_1_desc		Returns true when a shell is loaded and ready to fire.	当弹药装载完毕并准备发射时，返回true。
@@ -4437,7 +4462,7 @@ def_linear_matic_a_node_2_label		Electric	电
 def_linear_matic_a_node_2_desc		Electrical power connection.	电源连接。
 def_linear_matic_a_node_3_label		Fluid	流体
 def_linear_matic_a_node_3_desc		Fluid connection for transfering fluid.	用于输送流体的流体接头
-def_linear_matic_b_name		Linear Matic B	Linear Matic B
+def_linear_matic_b_name		Pneumatic Piston	Linear Matic B
 def_linear_matic_b_desc			
 def_linear_matic_b_s_desc			
 def_linear_matic_b_node_0_label		Fluid	流体
@@ -4808,7 +4833,7 @@ def_motor_small_node_1_label		Electric	电
 def_motor_small_node_1_desc		The electric energy input to be converted into mechanical force.	输入的电能被转换成机械能。
 def_motor_small_node_2_label		Throttle	节流阀
 def_motor_small_node_2_desc		The throttle input to control how much electric energy is converted to force.	控制多少电能转化为力的油门输入。
-def_multibody_compact_pivot_b_name		compact_pivot_b	compact_pivot_b
+def_multibody_compact_pivot_b_name		Compact Pivot	compact_pivot_b
 def_multibody_compact_pivot_b_desc			
 def_multibody_compact_pivot_b_s_desc			
 def_multibody_compact_pivot_robotic_a_name		Compact Robotic Pivot	紧凑型机械枢轴
@@ -4834,19 +4859,19 @@ def_multibody_door_hinge_a_node_1_label		Current Rotation	通用旋转组合
 def_multibody_door_hinge_a_node_1_desc		The hinge's measured rotation between -0.25 and 0.25.	铰链在-0.25到0.25之间的旋转测量值
 def_multibody_door_hinge_a_node_2_label		Electric	电
 def_multibody_door_hinge_a_node_2_desc		Electrical power connection.	电源连接。
-def_multibody_door_hinge_b_name		Robotic door hinge child	自动门铰链[从]
+def_multibody_door_hinge_b_name		Robotic Door Hinge	自动门铰链[从]
 def_multibody_door_hinge_b_desc			
 def_multibody_door_hinge_b_s_desc			
 def_multibody_piston_suspension_a_name		Piston Suspension	活塞悬挂
 def_multibody_piston_suspension_a_desc		A dampened hydraulic sprung piston.	液压阻尼弹簧活塞。
 def_multibody_piston_suspension_a_s_desc		A shock absorber that can be used to improve handling of land-based vehicles.	可用于改善陆基车辆操控性的减震器。
-def_multibody_piston_suspension_b_name		Piston Suspension B	活塞悬挂B
+def_multibody_piston_suspension_b_name		Piston Suspension	活塞悬挂B
 def_multibody_piston_suspension_b_desc			
 def_multibody_piston_suspension_b_s_desc			
 def_multibody_pivot_a_name		Pivot	枢轴
 def_multibody_pivot_a_desc		The pivot can rotate to 0.25 turns in both directions.	枢轴可以在两个方向上旋转0.25圈。
 def_multibody_pivot_a_s_desc		A basic pivot that can move freely.	可以自由移动的基本支点。
-def_multibody_pivot_b_name		pivot_b	枢轴
+def_multibody_pivot_b_name		Pivot	枢轴
 def_multibody_pivot_b_desc			
 def_multibody_pivot_b_s_desc			
 def_multibody_robotic_hinge_01_a_name		Robotic Hinge	机械铰链[主]
@@ -4862,7 +4887,7 @@ def_multibody_robotic_hinge_01_a_node_3_label		RPS	每分钟转数
 def_multibody_robotic_hinge_01_a_node_3_desc		Power connection for transfering mechanical energy.	用于传输机械能的连接
 def_multibody_robotic_hinge_01_a_node_4_label		Fluid	流体
 def_multibody_robotic_hinge_01_a_node_4_desc		Fluid connection for transfering fluid.	用于输送流体的流体接头
-def_multibody_robotic_hinge_01_b_name		Robotic hinge child	机械铰链[从]
+def_multibody_robotic_hinge_01_b_name		Robotic Hinge	机械铰链[从]
 def_multibody_robotic_hinge_01_b_desc			
 def_multibody_robotic_hinge_01_b_s_desc			
 def_multibody_robotic_hinge_01_b_node_0_label		RPS	每分钟转数
@@ -4891,12 +4916,12 @@ def_multibody_robotic_pivot_01_a_fluid_node_2_label		Electric	电
 def_multibody_robotic_pivot_01_a_fluid_node_2_desc		Electrical power connection.	电源连接。
 def_multibody_robotic_pivot_01_a_fluid_node_3_label		Fluid	流体
 def_multibody_robotic_pivot_01_a_fluid_node_3_desc		Fluid connection for transfering fluids.	用于输送液体的流体连接。
-def_multibody_robotic_pivot_01_b_name		robotic pivot b	机械枢轴b
+def_multibody_robotic_pivot_01_b_name		Robotic Pivot	机械枢轴b
 def_multibody_robotic_pivot_01_b_desc			
 def_multibody_robotic_pivot_01_b_s_desc			
 def_multibody_robotic_pivot_01_b_node_0_label		RPS	每分钟转数
 def_multibody_robotic_pivot_01_b_node_0_desc		Power connection for transfering mechanical energy.	用于传输机械能的连接
-def_multibody_robotic_pivot_01_b_fluid_name		robotic pivot b	机械枢轴b
+def_multibody_robotic_pivot_01_b_fluid_name		Robotic Pivot	机械枢轴b
 def_multibody_robotic_pivot_01_b_fluid_desc			
 def_multibody_robotic_pivot_01_b_fluid_s_desc			
 def_multibody_robotic_pivot_01_b_fluid_node_0_label		Fluid	流体
@@ -4906,7 +4931,7 @@ def_multibody_suspension_a_desc		Power can be passed through the suspension, all
 def_multibody_suspension_a_s_desc		A shock absorber that can be used to improve handling of land-based vehicles.	可用于改善陆基车辆操控性的减震器。
 def_multibody_suspension_a_node_0_label		RPS	每分钟转数
 def_multibody_suspension_a_node_0_desc		Power connection for transfering mechanical energy.	用于传输机械能的连接
-def_multibody_suspension_b_name		multibody_suspension_b	多体悬挂B
+def_multibody_suspension_b_name		Suspension	多体悬挂B
 def_multibody_suspension_b_desc			
 def_multibody_suspension_b_s_desc			
 def_multibody_suspension_b_node_0_label		RPS	每分钟转数
@@ -4920,7 +4945,7 @@ def_multibody_turret_large_a_node_1_label		Current Rotation	通用旋转组合
 def_multibody_turret_large_a_node_1_desc		The turrets measured rotation expressed in fractions of full turns.	炮塔测量的旋转以整圈的分数表示。
 def_multibody_turret_large_a_node_2_label		Electric	电
 def_multibody_turret_large_a_node_2_desc		Electrical power connection.	电源连接。
-def_multibody_turret_large_b_name		Turret Ring (Large) b	炮塔（大）b
+def_multibody_turret_large_b_name		Turret Ring (Large)	炮塔（大）b
 def_multibody_turret_large_b_desc			
 def_multibody_turret_large_b_s_desc			
 def_multibody_turret_medium_a_name		Turret Ring (Medium)	炮塔（中型）
@@ -4932,7 +4957,7 @@ def_multibody_turret_medium_a_node_1_label		Current Rotation	通用旋转组合
 def_multibody_turret_medium_a_node_1_desc		The turrets measured rotation expressed in fractions of full turns.	炮塔测量的旋转以整圈的分数表示。
 def_multibody_turret_medium_a_node_2_label		Electric	电
 def_multibody_turret_medium_a_node_2_desc		Electrical power connection.	电源连接。
-def_multibody_turret_medium_b_name		Turret Ring (Medium) b	炮塔（中）b
+def_multibody_turret_medium_b_name		Turret Ring (Medium)	炮塔（中）b
 def_multibody_turret_medium_b_desc			
 def_multibody_turret_medium_b_s_desc			
 def_multibody_turret_small_a_name		Turret Ring (Small)	炮塔（小）
@@ -4944,7 +4969,7 @@ def_multibody_turret_small_a_node_1_label		Current Rotation	通用旋转组合
 def_multibody_turret_small_a_node_1_desc		The turrets measured rotation expressed in fractions of full turns.	炮塔测量的旋转以整圈的分数表示。
 def_multibody_turret_small_a_node_2_label		Electric	电
 def_multibody_turret_small_a_node_2_desc		Electrical power connection.	电源连接。
-def_multibody_turret_small_b_name		Turret Ring (Small) b	炮塔（小）b
+def_multibody_turret_small_b_name		Turret Ring (Small)	炮塔（小）b
 def_multibody_turret_small_b_desc			
 def_multibody_turret_small_b_s_desc			
 def_multibody_velocity_pivot_a_name		Velocity Pivot	速度轴
@@ -4956,7 +4981,7 @@ def_multibody_velocity_pivot_a_node_1_label		Current Rotation	通用旋转组合
 def_multibody_velocity_pivot_a_node_1_desc		The pivot's measured rotation expressed in fractions of full turns.	枢轴的测量旋转以整圈的分数表示。
 def_multibody_velocity_pivot_a_node_2_label		Electric	电
 def_multibody_velocity_pivot_a_node_2_desc		Electrical power connection.	电源连接。
-def_multibody_velocity_pivot_b_name		robotic pivot b	机器人枢轴b
+def_multibody_velocity_pivot_b_name		Robotic Pivot	机器人枢轴b
 def_multibody_velocity_pivot_b_desc			
 def_multibody_velocity_pivot_b_s_desc			
 def_no_sleep_name		Keep Active Block	载具保活块
@@ -6399,6 +6424,11 @@ def_torque_clutch_node_2_label		Clutch Pressure	离合器压力
 def_torque_clutch_node_2_desc		A number between 0 and 1 representing the clutch engagement factor.	介于0和1之间的数字，表示离合器接合系数。
 def_torque_clutch_node_3_label		Electric	电
 def_torque_clutch_node_3_desc		The electric connection to power the component.	为组件提供电源的电力连接。
+def_torque_crank_name		Torque Crank	手摇曲柄
+def_torque_crank_desc		Holding [$[action_interact_left]]/[$[action_interact_right]] turns the crank, generating a small amount of mechanical power.	按住[$[action_interact_left]]/[$[action_interact_right]]转动曲柄，产生少量机械动力。
+def_torque_crank_s_desc		A hand crank to produce mechanical power.	产生机械动力的摇把
+def_torque_crank_node_0_label		RPS	PRS
+def_torque_crank_node_0_desc		Connection to the power system.	连接到动力系统
 def_torque_gearbox_name		Gearbox (Deprecated)	变速箱(已弃用)
 def_torque_gearbox_desc		The ratio can be toggled between two values which can be set in the properties.	在属性中设置两个可切换的比率
 def_torque_gearbox_s_desc		Gearbox for changing the torque and speed across power connections.	变速箱，用于通过电源连接改变扭矩和速度。
@@ -6663,7 +6693,7 @@ def_water_pump_s_desc		A small fluid pump.	一个小型的流体泵。
 def_water_pump_node_0_label		On/Off	开/关
 def_water_pump_node_0_desc		Controls whether or not the fluid is being pumped through.	控制流体是否被泵入。
 def_water_pump_node_1_label		Fluid In	液体进入
-def_water_pump_node_1_desc		Connect to an inlet component to take fluid into the system.	连接收到入口部件以将流体带入系统。
+def_water_pump_node_1_desc		Connect to an inlet component to take fluid into the system.	连接入口部件以将流体泵入系统。
 def_water_pump_node_2_label		Fluid Out	液体流出
 def_water_pump_node_2_desc		Connect to an outlet component to release fluid from the system.	连接收到出口部件以释放系统中的流体。
 def_water_pump_node_3_label		Electric	电
@@ -6672,13 +6702,20 @@ def_water_pump_large_name		Large Fluid Pump	大型液压泵
 def_water_pump_large_desc		Connect to an inlet and outlet to create a pumping system to move fluid around a vehicle.	连接收到入口和出口，以创建一个泵送系统，在载具周围移动流体。
 def_water_pump_large_s_desc		A large fluid pump.	一个大的油泵。
 def_water_pump_large_node_0_label		Fluid In	液体进入
-def_water_pump_large_node_0_desc		Connect to an inlet component to take fluid into the system.	连接收到入口部件以将流体带入系统。
+def_water_pump_large_node_0_desc		Connect to an inlet component to take fluid into the system.	连接入口部件以将流体泵入系统。
 def_water_pump_large_node_1_label		Fluid Out	液体流出
 def_water_pump_large_node_1_desc		Connect to an outlet component to release fluid from the system.	连接收到出口部件以释放系统中的流体。
 def_water_pump_large_node_2_label		On/Off	开/关
 def_water_pump_large_node_2_desc		Controls whether or not the fluid is being pumped.	控制是否泵送流体。
 def_water_pump_large_node_3_label		Electric	电
 def_water_pump_large_node_3_desc		Electrical power connection.	电源连接。
+def_water_pump_manual_name		Fluid Pump (Manual)	液压泵(手动)
+def_water_pump_manual_desc		Hold [$[action_interact_left]]/[$[action_interact_right]] to create pressure in the pump. Connect to an inlet and outlet to create a pumping system to move fluid around a vehicle.	按住[$[action_interact_left]]/[$[action_interact_right]]，产生压力
+def_water_pump_manual_s_desc		A small fluid pump with a manual handle.	小型手摇流体泵
+def_water_pump_manual_node_0_label		Fluid In	流体入口
+def_water_pump_manual_node_0_desc		Connect to an inlet component to take fluid into the system.	连接到入口部件以讲流体泵入系统
+def_water_pump_manual_node_1_label		Fluid Out	流体出口
+def_water_pump_manual_node_1_desc		Connect to an outlet component to release fluid from the system.	连接到出口部件以讲流体泵入系统
 def_water_spawner_name		Fluid Spawner	流体生成器
 def_water_spawner_desc		The fluid spawner for helping with custom fluid tanks, so they can be spawned full, without a need to fill after spawning.	流体生成器，帮助自定义的流体坦克，所以他们可以生成充分，无需填补后生成。
 def_water_spawner_s_desc		A component to mark an enclosed area to be spawned with fluid inside.	一种组件，用于标记要在内部生成流体的封闭区域。
