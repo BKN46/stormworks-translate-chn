@@ -2062,17 +2062,15 @@ id	description	en	local
 		Raf Officer Hat	皇家空军军官帽
 		Navy Sidecap	海军船形帽
 		Navy Officer Hat	海军军官帽
-		Mask	面具
 		k6 3 Helmet	K6-3头盔
 		WZ 063 Helmet	Wz.63头盔
 		Helmet Visor	头盔面罩
 		Heli Helmet	直升机头盔
-		Headset	耳机
+		Helmet Headset	头盔耳机
 		Cap	帽子
 		Boonie Hat	布尼帽
 		Bomb Disposal Helmet	拆弹头盔
 		Beret	贝雷帽
-		Balaclava	巴拉克拉瓦头套
 		Army Sidecap	陆军船形帽
 		Army Officer	陆军军官帽
 		Suit Bowtie	西装领结
@@ -2162,6 +2160,8 @@ id	description	en	local
 		Kraken	北海巨妖
 		Fuel	
 		Fill Level	
+		Sea Monsters	海怪
+		Lightning	闪电
 		Camera Forward	镜头前移
 		Camera Back	镜头后退
 		Camera Left	镜头左移
@@ -3947,7 +3947,7 @@ def_humidity_sensor_s_desc		A humidity sensor for measuring the current fog and 
 def_humidity_sensor_node_0_label		Humidity Factor	湿度系数
 def_humidity_sensor_node_0_desc		The level of humidity in the air, relating to the fog visibility.	气体中的湿度水平，与雾的可见度有关。
 def_impact_sensor_name		Impact Sensor	冲击传感器
-def_impact_sensor_desc		Setting the impact threshold property will tune the sensitivity for impacts. When the instant change in velocity from an impact exceeds the threshold, and on signal is produced.	设置冲击阈值能够调整敏感度。 当来自撞击的瞬时速度变化超过阈值时，将产生一个信号。
+def_impact_sensor_desc		Setting the impact threshold property will tune the sensitivity for impacts. When the instant change in velocity from an impact exceeds the threshold, an on signal is produced.	设置冲击阈值能够调整敏感度。 当来自撞击的瞬时速度变化超过阈值时，将产生一个信号。
 def_impact_sensor_s_desc		A sensor activated by a sudden change in velocity.	传感器能够检测瞬间的速度变化
 def_impact_sensor_node_0_label		Output	输出
 def_impact_sensor_node_0_desc		Outputs an on signal when instant change in velocity exceeds the impact threshold.	当瞬间速度变化超过阈值时，输出一个on信号。
@@ -6327,7 +6327,7 @@ def_steam_nuclear_fuel_rod_name		Nuclear Fuel Rod	核燃料棒
 def_steam_nuclear_fuel_rod_desc		Can be inserted into a fuel assembly to start the nuclear fission process.	可以插入核燃料总成来开始核裂变反应。
 def_steam_nuclear_fuel_rod_s_desc		A Radioactive Fuel Rod.	一个放射性燃料棒
 def_steam_piston_name		Steam Piston (Small)	蒸汽活塞(小)
-def_steam_piston_desc		Steam pressurized through the outer coupling extends the piston and steam pressurized through the inner coupling retracts the piston. Altenating pressure to the couplings based on the piston position will allow the crankpin to rotate continuously.	通过外侧联轴器加压的蒸汽使活塞伸出,通过内侧联轴器加压的蒸汽使活塞缩回.根据活塞的位置来调整联轴器的压力,可以使曲轴连续旋转.(P.S:就像真正的蒸汽机一样,为了避免失速,最好有一个飞轮或多个不相干的活塞.这是因为曲轴上的扭矩作用在冲程的末端有低效率区,就像真正的活塞一样.彼此相邻的活塞被锁定在一起,但可以用玩家定义的曲柄周期偏移来生成.这允许对发动机的建造方式进行大量的控制.)
+def_steam_piston_desc		Steam pressurized through the outer coupling extends the piston and steam pressurized through the inner coupling retracts the piston. Alternating pressure to the couplings based on the piston position will allow the crankpin to rotate continuously.	通过外侧联轴器加压的蒸汽使活塞伸出,通过内侧联轴器加压的蒸汽使活塞缩回.根据活塞的位置来调整联轴器的压力,可以使曲轴连续旋转.(P.S:就像真正的蒸汽机一样,为了避免失速,最好有一个飞轮或多个不相干的活塞.这是因为曲轴上的扭矩作用在冲程的末端有低效率区,就像真正的活塞一样.彼此相邻的活塞被锁定在一起,但可以用玩家定义的曲柄周期偏移来生成.这允许对发动机的建造方式进行大量的控制.)
 def_steam_piston_s_desc		A steam powered piston that converts steam pressure into torque.	以蒸汽为动力的活塞，将蒸汽压力转换为扭矩
 def_steam_piston_node_0_label		RPS	RPS
 def_steam_piston_node_0_desc		Power connection A.	动力连接A
@@ -6346,7 +6346,7 @@ def_steam_piston_node_6_desc
 def_steam_piston_node_7_label		Piston Position	活塞位置
 def_steam_piston_node_7_desc			
 def_steam_piston_3x3_name		Steam Piston (Medium)	蒸汽活塞(中)
-def_steam_piston_3x3_desc		Steam pressurized through the outer coupling extends the piston and steam pressurized through the inner coupling retracts the piston. Altenating pressure to the couplings based on the piston position will allow the crankpin to rotate continuously.	通过外侧联轴器加压的蒸汽使活塞伸出,通过内侧联轴器加压的蒸汽使活塞缩回.根据活塞的位置来调整联轴器的压力,可以使曲轴连续旋转.(P.S:就像真正的蒸汽机一样,为了避免失速,最好有一个飞轮或多个不相干的活塞.这是因为曲轴上的扭矩作用在冲程的末端有低效率区,就像真正的活塞一样.彼此相邻的活塞被锁定在一起,但可以用玩家定义的曲柄周期偏移来生成.这允许对发动机的建造方式进行大量的控制.)
+def_steam_piston_3x3_desc		Steam pressurized through the outer coupling extends the piston and steam pressurized through the inner coupling retracts the piston. Alternating pressure to the couplings based on the piston position will allow the crankpin to rotate continuously.	通过外侧联轴器加压的蒸汽使活塞伸出,通过内侧联轴器加压的蒸汽使活塞缩回.根据活塞的位置来调整联轴器的压力,可以使曲轴连续旋转.(P.S:就像真正的蒸汽机一样,为了避免失速,最好有一个飞轮或多个不相干的活塞.这是因为曲轴上的扭矩作用在冲程的末端有低效率区,就像真正的活塞一样.彼此相邻的活塞被锁定在一起,但可以用玩家定义的曲柄周期偏移来生成.这允许对发动机的建造方式进行大量的控制.)
 def_steam_piston_3x3_s_desc		A steam powered piston that converts steam pressure into torque.	以蒸汽为动力的活塞，将蒸汽压力转换为扭矩
 def_steam_piston_3x3_node_0_label		RPS	RPS
 def_steam_piston_3x3_node_0_desc		Power connection A.	动力连接A
@@ -6365,7 +6365,7 @@ def_steam_piston_3x3_node_6_desc
 def_steam_piston_3x3_node_7_label		Piston Position	活塞位置
 def_steam_piston_3x3_node_7_desc			
 def_steam_piston_5x5_name		Steam Piston (Large)	蒸汽活塞(大)
-def_steam_piston_5x5_desc		Steam pressurized through the outer coupling extends the piston and steam pressurized through the inner coupling retracts the piston. Altenating pressure to the couplings based on the piston position will allow the crankpin to rotate continuously.	通过外侧联轴器加压的蒸汽使活塞伸出,通过内侧联轴器加压的蒸汽使活塞缩回.根据活塞的位置来调整联轴器的压力,可以使曲轴连续旋转.(P.S:就像真正的蒸汽机一样,为了避免失速,最好有一个飞轮或多个不相干的活塞.这是因为曲轴上的扭矩作用在冲程的末端有低效率区,就像真正的活塞一样.彼此相邻的活塞被锁定在一起,但可以用玩家定义的曲柄周期偏移来生成.这允许对发动机的建造方式进行大量的控制.)
+def_steam_piston_5x5_desc		Steam pressurized through the outer coupling extends the piston and steam pressurized through the inner coupling retracts the piston. Alternating pressure to the couplings based on the piston position will allow the crankpin to rotate continuously.	通过外侧联轴器加压的蒸汽使活塞伸出,通过内侧联轴器加压的蒸汽使活塞缩回.根据活塞的位置来调整联轴器的压力,可以使曲轴连续旋转.(P.S:就像真正的蒸汽机一样,为了避免失速,最好有一个飞轮或多个不相干的活塞.这是因为曲轴上的扭矩作用在冲程的末端有低效率区,就像真正的活塞一样.彼此相邻的活塞被锁定在一起,但可以用玩家定义的曲柄周期偏移来生成.这允许对发动机的建造方式进行大量的控制.)
 def_steam_piston_5x5_s_desc		A steam powered piston that converts steam pressure into torque.	以蒸汽为动力的活塞，将蒸汽压力转换为扭矩
 def_steam_piston_5x5_node_0_label		RPS	RPS
 def_steam_piston_5x5_node_0_desc		Power connection A.	动力连接A
@@ -7114,6 +7114,7 @@ def_wing_xl_s_desc		The wing surface cuts through the air while resisting moveme
 def_wing_xxl_name		Wing Section (XXLarge)	机翼面(超大)
 def_wing_xxl_desc		Wing surface to provide lift and cut through the air.	机翼表面提供升力并穿过气体。
 def_wing_xxl_s_desc		The wing surface cuts through the air while resisting movement against the flat plane of its surface. The aerofoil section also provides lift.	机翼表面穿透气体，同时抵抗其表面平面的运动。机翼部分也提供升力。
+		Balaclava	巴拉克拉瓦头套
 		Vehicle editing is disabled.	载具编辑已禁用。
 		Classic career mode. Expand your coastguard empire. Complete missions to earn money and unlock components.	经典生涯模式。扩张你的海岸警卫队帝国，通过完成任务来获得金钱、解锁组件。
 		Toggle Controller Input	切换控制器输入
