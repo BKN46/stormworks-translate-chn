@@ -3825,11 +3825,11 @@ def_gun_xxl_barrel_desc		Barrel extensions increase weapon accuracy, but also pr
 def_gun_xxl_barrel_s_desc		A Bertha cannon barrel extension.	贝莎巨炮炮管加长件
 def_gyro_name		Gyro	陀螺仪
 def_gyro_desc		It outputs stabilised values that can be sent to rotors and engines to make them much easier to control. An on/off input allows you to activate and deactivate the internal auto-hover circuit. When auto-hover is enabled, the gyroscope will attempt to keep your helicopter steady.	它输出稳定值，可以发送到螺旋桨和发动机，使它们更容易控制。开/关输入允许您激活和停用内部自动悬停电路。启用自动悬停后，陀螺仪将尝试保持直升机稳定。
-def_gyro_s_desc		The gyroscope takes 4 standard value signals representing the desired yaw, pitch, roll and vertical motion of a helicopter.	陀螺仪接收4个标准值信号，表示直升机所需的偏航(Yaw)、俯仰(Pitch)、偏转(Roll)和垂直运动。
-def_gyro_node_0_label		Roll	偏转(Roll)
-def_gyro_node_0_desc		Accepts a standard value between -1 and 1 representing the desired roll speed.	接受一个介于-1和1之间的标准值，表示所需的偏转(Roll)速度。
-def_gyro_node_1_label		Stabilised Roll	偏转(Roll)稳定
-def_gyro_node_1_desc		Outputs a standard value between -1 and 1 representing a stabilised roll speed.	输出一个介于-1和1之间的标准值，表示稳定的偏转(Roll)速度。
+def_gyro_s_desc		The gyroscope takes 4 standard value signals representing the desired yaw, pitch, roll and vertical motion of a helicopter.	陀螺仪接收4个标准值信号，表示直升机所需的偏航(Yaw)、俯仰(Pitch)、滚转(Roll)和垂直运动。
+def_gyro_node_0_label		Roll	滚转(Roll)
+def_gyro_node_0_desc		Accepts a standard value between -1 and 1 representing the desired roll speed.	接受一个介于-1和1之间的标准值，表示所需的滚转(Roll)速度。
+def_gyro_node_1_label		Stabilised Roll	滚转(Roll)稳定
+def_gyro_node_1_desc		Outputs a standard value between -1 and 1 representing a stabilised roll speed.	输出一个介于-1和1之间的标准值，表示稳定的滚转(Roll)速度。
 def_gyro_node_2_label		Pitch	俯仰(Pitch)
 def_gyro_node_2_desc		Accepts a standard value between -1 and 1 representing the desired pitch speed.	接受一个介于-1和1之间的标准值，表示所需的俯仰(Pitch)速度。
 def_gyro_node_3_label		Stabilised Pitch	俯仰(Pitch)稳定
@@ -3911,8 +3911,8 @@ def_heat_exchanger_9_9_node_5_desc		Compartment temperature.	气体B温度
 def_heavy_rotor_name		Heavy Rotor	重型螺旋桨
 def_heavy_rotor_desc		Three standard number inputs control the rotor's swashplate, allowing you to affect the pitch, roll, and collective rotor angle. Power received from an engine affects the amount of up and down force that the rotor will generate.	三个标准数字输入控制螺旋桨的旋转斜盘，允许您影响俯仰(Pitch)、侧倾和总螺旋桨角度。从发动机接收到的功率影响螺旋桨将产生的上下力的大小。
 def_heavy_rotor_s_desc		A heavy duty rotor with thrust vectoring.	带有推力矢量的重型螺旋桨。
-def_heavy_rotor_node_0_label		Roll	偏转(Roll)
-def_heavy_rotor_node_0_desc		Standard value between -1 and 1 representing the desired roll amount.	介于-1和1之间的标准值，表示想要偏转(Roll)的量。
+def_heavy_rotor_node_0_label		Roll	滚转(Roll)
+def_heavy_rotor_node_0_desc		Standard value between -1 and 1 representing the desired roll amount.	介于-1和1之间的标准值，表示想要滚转(Roll)的量。
 def_heavy_rotor_node_1_label		Pitch	俯仰(Pitch)
 def_heavy_rotor_node_1_desc		Standard value between -1 and 1 representing the desired pitch amount.	介于-1和1之间的标准值，表示想要俯仰(Pitch)的量。
 def_heavy_rotor_node_2_label		RPS	动力
@@ -3922,8 +3922,8 @@ def_heavy_rotor_node_3_desc		Standard value between -1 and 1 representing the de
 def_heavy_rotor_large_name		Heavy Large Rotor	重型大螺旋桨
 def_heavy_rotor_large_desc		Three standard number inputs control the rotor's swashplate, allowing you to affect the pitch, roll, and collective rotor angle. Power received from an engine affects the amount of up and down force that the rotor will generate.	三个标准数字输入控制螺旋桨的旋转斜盘，允许您影响俯仰(Pitch)、侧倾和总螺旋桨角度。从发动机接收到的功率影响螺旋桨将产生的上下力的大小。
 def_heavy_rotor_large_s_desc		A large heavy duty rotor with thrust vectoring.	带有推力矢量的大型重型螺旋桨。
-def_heavy_rotor_large_node_0_label		Roll	偏转(Roll)
-def_heavy_rotor_large_node_0_desc		Standard value between -1 and 1 representing the desired roll amount.	介于-1和1之间的标准值，表示想要偏转(Roll)的量。
+def_heavy_rotor_large_node_0_label		Roll	滚转(Roll)
+def_heavy_rotor_large_node_0_desc		Standard value between -1 and 1 representing the desired roll amount.	介于-1和1之间的标准值，表示想要滚转(Roll)的量。
 def_heavy_rotor_large_node_1_label		Pitch	俯仰(Pitch)
 def_heavy_rotor_large_node_1_desc		Standard value between -1 and 1 representing the desired pitch amount.	介于-1和1之间的标准值，表示想要俯仰(Pitch)的量。
 def_heavy_rotor_large_node_2_label		RPS	动力
@@ -3932,9 +3932,9 @@ def_heavy_rotor_large_node_3_label		Collective	总距
 def_heavy_rotor_large_node_3_desc		Standard value between -1 and 1 representing the desired pitch amount.	介于-1和1之间的标准值，表示总距。
 def_huge_rotor_name		Huge Rotor	巨型螺旋桨
 def_huge_rotor_desc		Two standard number inputs control the rotor's swashplate, allowing you to affect the its pitch and roll. Power received from an engine affects the amount of up and down force that the rotor will generate. The output force of this rotor is decreased when underwater.	两个标准数字输入控制螺旋桨的旋转斜盘，允许您影响其俯仰(Pitch)和侧倾。从发动机接收到的功率影响螺旋桨将产生的上下力的大小。在水下时，该螺旋桨的输出力减小。
-def_huge_rotor_s_desc		A large helicopter rotor with controllable pitch and roll.	具有可控制的俯仰(Pitch)和偏转(Roll)的大型直升机旋翼。
-def_huge_rotor_node_0_label		Roll	偏转(Roll)
-def_huge_rotor_node_0_desc		Standard value between -1 and 1 representing the desired roll amount.	介于-1和1之间的标准值，表示想要偏转(Roll)的量。
+def_huge_rotor_s_desc		A large helicopter rotor with controllable pitch and roll.	具有可控制的俯仰(Pitch)和滚转(Roll)的大型直升机旋翼。
+def_huge_rotor_node_0_label		Roll	滚转(Roll)
+def_huge_rotor_node_0_desc		Standard value between -1 and 1 representing the desired roll amount.	介于-1和1之间的标准值，表示想要滚转(Roll)的量。
 def_huge_rotor_node_1_label		Pitch	俯仰(Pitch)
 def_huge_rotor_node_1_desc		Standard value between -1 and 1 representing the desired pitch amount.	介于-1和1之间的标准值，表示想要俯仰(Pitch)的量。
 def_huge_rotor_node_2_label		RPS	动力
@@ -6660,10 +6660,10 @@ def_water_jet_node_1_label		RPS	动力
 def_water_jet_node_1_desc		Mechanical power input to power jet.	动力喷射的机械动力输入。
 def_water_jet_node_2_label		Vertical Trim	垂直配平
 def_water_jet_node_2_desc		Vertical nozzle angle to control jet direction.	垂直喷嘴角度控制喷射方向。
-def_water_jet_node_3_label		Deflector A	偏转(Roll)器A
-def_water_jet_node_3_desc		Left bucket defector control input.	左铲斗偏转(Roll)器控制输入。
-def_water_jet_node_4_label		Deflector B	偏转(Roll)器B
-def_water_jet_node_4_desc		Right bucket defector control input.	右铲斗偏转(Roll)器控制输入。
+def_water_jet_node_3_label		Deflector A	滚转(Roll)器A
+def_water_jet_node_3_desc		Left bucket defector control input.	左铲斗滚转(Roll)器控制输入。
+def_water_jet_node_4_label		Deflector B	滚转(Roll)器B
+def_water_jet_node_4_desc		Right bucket defector control input.	右铲斗滚转(Roll)器控制输入。
 def_water_jet_node_5_label		Electric	电
 def_water_jet_node_5_desc		Electrical power connection.	电源连接。
 def_water_measure_name		Fluid Meter	流体测量仪
