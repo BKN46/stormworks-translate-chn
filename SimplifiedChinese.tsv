@@ -2180,6 +2180,7 @@ id	description	en	local
 		Show Rotation UI	显示旋转界面
 		Show/Hide Vehicle (Selection Grid)	显示/隐藏载具(选择网格)
 		Toggle Eraser	切换橡皮擦
+		You were disconnected.	你被断开了连接
 def_01_block_name		Block	方块
 def_01_block_desc		The block is a quarter-metre in size. Components can be attached to all 6 faces.	这个方块有四分之一米大。组件可以连接收到所有6个面。
 def_01_block_s_desc		Basic cube-shaped building block.	基本立方形建筑块。
@@ -3050,7 +3051,7 @@ def_fluid_radiator_electric_5_node_1_label		Fluid B	流体接口b
 def_fluid_radiator_electric_5_node_1_desc		Fluid Connection.	流体连接
 def_fluid_radiator_electric_5_node_2_label		Electric	电
 def_fluid_radiator_electric_5_node_2_desc			
-def_fluid_radiator_electric_5_node_3_label		Fan on/off	风扇开关
+def_fluid_radiator_electric_5_node_3_label		Fan On/Off	风扇开/关
 def_fluid_radiator_electric_5_node_3_desc			
 def_fluid_radiator_electric_5_node_4_label		Temperature	温度
 def_fluid_radiator_electric_5_node_4_desc			
@@ -3825,11 +3826,11 @@ def_gun_xxl_barrel_desc		Barrel extensions increase weapon accuracy, but also pr
 def_gun_xxl_barrel_s_desc		A Bertha cannon barrel extension.	贝莎巨炮炮管加长件
 def_gyro_name		Gyro	陀螺仪
 def_gyro_desc		It outputs stabilised values that can be sent to rotors and engines to make them much easier to control. An on/off input allows you to activate and deactivate the internal auto-hover circuit. When auto-hover is enabled, the gyroscope will attempt to keep your helicopter steady.	它输出稳定值，可以发送到螺旋桨和发动机，使它们更容易控制。开/关输入允许您激活和停用内部自动悬停电路。启用自动悬停后，陀螺仪将尝试保持直升机稳定。
-def_gyro_s_desc		The gyroscope takes 4 standard value signals representing the desired yaw, pitch, roll and vertical motion of a helicopter.	陀螺仪接收4个标准值信号，表示直升机所需的偏航(Yaw)、俯仰(Pitch)、偏转(Roll)和垂直运动。
-def_gyro_node_0_label		Roll	偏转(Roll)
-def_gyro_node_0_desc		Accepts a standard value between -1 and 1 representing the desired roll speed.	接受一个介于-1和1之间的标准值，表示所需的偏转(Roll)速度。
-def_gyro_node_1_label		Stabilised Roll	偏转(Roll)稳定
-def_gyro_node_1_desc		Outputs a standard value between -1 and 1 representing a stabilised roll speed.	输出一个介于-1和1之间的标准值，表示稳定的偏转(Roll)速度。
+def_gyro_s_desc		The gyroscope takes 4 standard value signals representing the desired yaw, pitch, roll and vertical motion of a helicopter.	陀螺仪接收4个标准值信号，表示直升机所需的偏航(Yaw)、俯仰(Pitch)、滚转(Roll)和垂直运动。
+def_gyro_node_0_label		Roll	滚转(Roll)
+def_gyro_node_0_desc		Accepts a standard value between -1 and 1 representing the desired roll speed.	接受一个介于-1和1之间的标准值，表示所需的滚转(Roll)速度。
+def_gyro_node_1_label		Stabilised Roll	滚转(Roll)稳定
+def_gyro_node_1_desc		Outputs a standard value between -1 and 1 representing a stabilised roll speed.	输出一个介于-1和1之间的标准值，表示稳定的滚转(Roll)速度。
 def_gyro_node_2_label		Pitch	俯仰(Pitch)
 def_gyro_node_2_desc		Accepts a standard value between -1 and 1 representing the desired pitch speed.	接受一个介于-1和1之间的标准值，表示所需的俯仰(Pitch)速度。
 def_gyro_node_3_label		Stabilised Pitch	俯仰(Pitch)稳定
@@ -3911,8 +3912,8 @@ def_heat_exchanger_9_9_node_5_desc		Compartment temperature.	气体B温度
 def_heavy_rotor_name		Heavy Rotor	重型螺旋桨
 def_heavy_rotor_desc		Three standard number inputs control the rotor's swashplate, allowing you to affect the pitch, roll, and collective rotor angle. Power received from an engine affects the amount of up and down force that the rotor will generate.	三个标准数字输入控制螺旋桨的旋转斜盘，允许您影响俯仰(Pitch)、侧倾和总螺旋桨角度。从发动机接收到的功率影响螺旋桨将产生的上下力的大小。
 def_heavy_rotor_s_desc		A heavy duty rotor with thrust vectoring.	带有推力矢量的重型螺旋桨。
-def_heavy_rotor_node_0_label		Roll	偏转(Roll)
-def_heavy_rotor_node_0_desc		Standard value between -1 and 1 representing the desired roll amount.	介于-1和1之间的标准值，表示想要偏转(Roll)的量。
+def_heavy_rotor_node_0_label		Roll	滚转(Roll)
+def_heavy_rotor_node_0_desc		Standard value between -1 and 1 representing the desired roll amount.	介于-1和1之间的标准值，表示想要滚转(Roll)的量。
 def_heavy_rotor_node_1_label		Pitch	俯仰(Pitch)
 def_heavy_rotor_node_1_desc		Standard value between -1 and 1 representing the desired pitch amount.	介于-1和1之间的标准值，表示想要俯仰(Pitch)的量。
 def_heavy_rotor_node_2_label		RPS	动力
@@ -3922,8 +3923,8 @@ def_heavy_rotor_node_3_desc		Standard value between -1 and 1 representing the de
 def_heavy_rotor_large_name		Heavy Large Rotor	重型大螺旋桨
 def_heavy_rotor_large_desc		Three standard number inputs control the rotor's swashplate, allowing you to affect the pitch, roll, and collective rotor angle. Power received from an engine affects the amount of up and down force that the rotor will generate.	三个标准数字输入控制螺旋桨的旋转斜盘，允许您影响俯仰(Pitch)、侧倾和总螺旋桨角度。从发动机接收到的功率影响螺旋桨将产生的上下力的大小。
 def_heavy_rotor_large_s_desc		A large heavy duty rotor with thrust vectoring.	带有推力矢量的大型重型螺旋桨。
-def_heavy_rotor_large_node_0_label		Roll	偏转(Roll)
-def_heavy_rotor_large_node_0_desc		Standard value between -1 and 1 representing the desired roll amount.	介于-1和1之间的标准值，表示想要偏转(Roll)的量。
+def_heavy_rotor_large_node_0_label		Roll	滚转(Roll)
+def_heavy_rotor_large_node_0_desc		Standard value between -1 and 1 representing the desired roll amount.	介于-1和1之间的标准值，表示想要滚转(Roll)的量。
 def_heavy_rotor_large_node_1_label		Pitch	俯仰(Pitch)
 def_heavy_rotor_large_node_1_desc		Standard value between -1 and 1 representing the desired pitch amount.	介于-1和1之间的标准值，表示想要俯仰(Pitch)的量。
 def_heavy_rotor_large_node_2_label		RPS	动力
@@ -3932,9 +3933,9 @@ def_heavy_rotor_large_node_3_label		Collective	总距
 def_heavy_rotor_large_node_3_desc		Standard value between -1 and 1 representing the desired pitch amount.	介于-1和1之间的标准值，表示总距。
 def_huge_rotor_name		Huge Rotor	巨型螺旋桨
 def_huge_rotor_desc		Two standard number inputs control the rotor's swashplate, allowing you to affect the its pitch and roll. Power received from an engine affects the amount of up and down force that the rotor will generate. The output force of this rotor is decreased when underwater.	两个标准数字输入控制螺旋桨的旋转斜盘，允许您影响其俯仰(Pitch)和侧倾。从发动机接收到的功率影响螺旋桨将产生的上下力的大小。在水下时，该螺旋桨的输出力减小。
-def_huge_rotor_s_desc		A large helicopter rotor with controllable pitch and roll.	具有可控制的俯仰(Pitch)和偏转(Roll)的大型直升机旋翼。
-def_huge_rotor_node_0_label		Roll	偏转(Roll)
-def_huge_rotor_node_0_desc		Standard value between -1 and 1 representing the desired roll amount.	介于-1和1之间的标准值，表示想要偏转(Roll)的量。
+def_huge_rotor_s_desc		A large helicopter rotor with controllable pitch and roll.	具有可控制的俯仰(Pitch)和滚转(Roll)的大型直升机旋翼。
+def_huge_rotor_node_0_label		Roll	滚转(Roll)
+def_huge_rotor_node_0_desc		Standard value between -1 and 1 representing the desired roll amount.	介于-1和1之间的标准值，表示想要滚转(Roll)的量。
 def_huge_rotor_node_1_label		Pitch	俯仰(Pitch)
 def_huge_rotor_node_1_desc		Standard value between -1 and 1 representing the desired pitch amount.	介于-1和1之间的标准值，表示想要俯仰(Pitch)的量。
 def_huge_rotor_node_2_label		RPS	动力
@@ -5080,6 +5081,19 @@ def_radar_advanced_missile_node_3_label		Missile Output	导弹输出
 def_radar_advanced_missile_node_3_desc		Outputs x and y data for the most immediate target. Link this directly into a rocket fins component.	输出凝视目标的x和y数据。将其直接连接到弹翼组件中。
 def_radar_advanced_missile_node_4_label		Radar Rotation	雷达旋转
 def_radar_advanced_missile_node_4_desc		Current radar rotation from forward in turns.	当前雷达从前方开始自转。
+def_radar_advanced_missile_laser_name		Laser Sensor (Missile)	激光传感器（导弹）
+def_radar_advanced_missile_laser_desc		This sensor is designed for missiles and acts along the Z axis, with an output node that passes data to course correct linked rocket fin components toward the closest target. The sensor also outputs data for up to 8 detected laser points.	为导弹设计,最大输出8个探测到的激光点的数据,沿Z轴作用,可连接到火箭弹翼以向最近的目标方向修正.
+def_radar_advanced_missile_laser_s_desc		A short range sensor that returns information about detected laser points within its view.	一个短距离的传感器，返回其视野内探测到的激光点的信息。
+def_radar_advanced_missile_laser_node_0_label		Electric	电
+def_radar_advanced_missile_laser_node_0_desc		Electrical power connection.	电源连接。
+def_radar_advanced_missile_laser_node_1_label		Activate	激活
+def_radar_advanced_missile_laser_node_1_desc		Enable the Laser Sensor.	启用激光传感器
+def_radar_advanced_missile_laser_node_2_label		Sensor Data	传感器数据
+def_radar_advanced_missile_laser_node_2_desc		Outputs data for up to 8 targets. On/Off 1-8 : Target 1 Found, Target 2 Found, etc... Values 1-32 : Target 1 Distance, Target 1 Azimuth Angle, Target 1 Elevation Angle, Target 1 Time Since Detection, Target 2 Distance, Target 2 Azimuth Angle, Target 2 Elevation Angle, Target 2 Time Since Detection, etc...	输出多达8个目标的数据。（on/off1-8：找到目标）（值1-4：目标1（距离、方位角、仰角、检测后的时间））（值5-8：目标2）等。。。
+def_radar_advanced_missile_laser_node_3_label		Missile Output	导弹输出
+def_radar_advanced_missile_laser_node_3_desc		Outputs x and y data for the most immediate target. Link this directly into a rocket fins component.	输出凝视目标的x和y数据。将其直接连接到弹翼组件中。
+def_radar_advanced_missile_laser_node_4_label		Frequency	频率
+def_radar_advanced_missile_laser_node_4_desc		Target laser frequency to scan for.	要捕获的激光频率
 def_radar_advanced_phalanx_name		Radar (Phalanx)	雷达（密集阵）
 def_radar_advanced_phalanx_desc		This sensor outputs the distance and relative angle to a detected object within its range and field of view using radio waves. Sensitivity is based on FOV, target size, and distance.	该传感器输出其范围和视野内的检测对象的距离和相对角度。灵敏度取决于视场、目标大小和距离
 def_radar_advanced_phalanx_s_desc		A radar that returns information about a detected object within its view.	一种雷达，返回其视野内探测到的物体的信息。
@@ -5259,7 +5273,7 @@ def_rope_hook_fluid_node_0_desc
 def_rope_hook_fluid_node_1_label		Fluid Node	流体节点
 def_rope_hook_fluid_node_1_desc			
 def_rope_hook_winch_name		Medium Winch	中型绞车
-def_rope_hook_winch_desc		Draw a rope logic link between two Rope Nodes to form a cable. Can be retracted and detracted.	在两个电缆锚之间画一个绳索逻辑链接，形成一条电缆。仅限于一个链路，但可以通过链路传输数据和电力。
+def_rope_hook_winch_desc		Draw a rope logic link between two Rope Nodes to form a cable. Can be extended and retracted.	在两个电缆锚之间画一个绳索逻辑链接，形成一条电缆。仅限于一个链路，但可以通过链路传输数据和电力。可伸缩
 def_rope_hook_winch_s_desc		A mechanical winch that can transfer data/electric/fluid through an attached cable, with an extension length of 40m.	一个可以通过绳索传输数据、电力、流体的机械绞车，最大长度20米。
 def_rope_hook_winch_node_0_label		Down	放下绳索
 def_rope_hook_winch_node_0_desc		Lowers the winch cable down when receiving an on signal.	当接收到信号时降下绞盘绳索
@@ -5290,7 +5304,7 @@ def_rope_hook_winch_node_12_desc		The current length of the winch cable in metre
 def_rope_hook_winch_node_13_label		Fluid	流体
 def_rope_hook_winch_node_13_desc		Fluid connection for the hose coil.	由线缆连接的流体接口
 def_rope_hook_winch_huge_name		Huge Winch	巨型绞车
-def_rope_hook_winch_huge_desc		Draw a rope logic link between two Rope Nodes to form a cable. Can be retracted and detracted.	在两个电缆锚之间画一个绳索逻辑链接，形成一条电缆。仅限于一个链路，但可以通过链路传输数据和电力。
+def_rope_hook_winch_huge_desc		Draw a rope logic link between two Rope Nodes to form a cable. Can be extended and retracted.	在两个电缆锚之间画一个绳索逻辑链接，形成一条电缆。仅限于一个链路，但可以通过链路传输数据和电力。可伸缩
 def_rope_hook_winch_huge_s_desc		A mechanical winch that can transfer data/electric/fluid through an attached cable, with an extension length of 600m.	一个可以通过绳索传输数据、电力、流体的机械绞车，最大长度600米。
 def_rope_hook_winch_huge_node_0_label		Down	放下绳索
 def_rope_hook_winch_huge_node_0_desc		Lowers the winch cable down when receiving an on signal.	当接收到信号时降下绞盘绳索
@@ -5321,7 +5335,7 @@ def_rope_hook_winch_huge_node_12_desc		The current length of the winch cable in 
 def_rope_hook_winch_huge_node_13_label		Fluid	流体
 def_rope_hook_winch_huge_node_13_desc		Fluid connection for the hose coil.	由线缆连接的流体接口
 def_rope_hook_winch_large_name		Large Winch	大型绞车
-def_rope_hook_winch_large_desc		Draw a rope logic link between two Rope Nodes to form a cable. Can be retracted and detracted.	在两个电缆锚之间画一个绳索逻辑链接，形成一条电缆。仅限于一个链路，但可以通过链路传输数据和电力。
+def_rope_hook_winch_large_desc		Draw a rope logic link between two Rope Nodes to form a cable. Can be extended and retracted.	在两个电缆锚之间画一个绳索逻辑链接，形成一条电缆。仅限于一个链路，但可以通过链路传输数据和电力。可伸缩
 def_rope_hook_winch_large_s_desc		A mechanical winch that can transfer data/electric/fluid through an attached cable, with an extension length of 150m.	一个可以通过绳索传输数据、电力、流体的机械绞车，最大长度150米。
 def_rope_hook_winch_large_node_0_label		Down	放下绳索
 def_rope_hook_winch_large_node_0_desc		Lowers the winch cable down when receiving an on signal.	当接收到信号时降下绞盘绳索
@@ -5352,7 +5366,7 @@ def_rope_hook_winch_large_node_12_desc		The current length of the winch cable in
 def_rope_hook_winch_large_node_13_label		Fluid	流体
 def_rope_hook_winch_large_node_13_desc		Fluid connection for the hose coil.	由线缆连接的流体接口
 def_rope_hook_winch_small_name		Small Winch	小型绞车
-def_rope_hook_winch_small_desc		Draw a rope logic link between two Rope Nodes to form a cable. Can be retracted and detracted.	在两个电缆锚之间画一个绳索逻辑链接，形成一条电缆。仅限于一个链路，但可以通过链路传输数据和电力。
+def_rope_hook_winch_small_desc		Draw a rope logic link between two Rope Nodes to form a cable. Can be extended and retracted.	在两个电缆锚之间画一个绳索逻辑链接，形成一条电缆。仅限于一个链路，但可以通过链路传输数据和电力。可伸缩
 def_rope_hook_winch_small_s_desc		A mechanical winch that can transfer electric/fluid through an attached cable, with an extension length of 10m.	一个可以通过绳索传输数据、电力、流体的机械绞车，最大长度10米。
 def_rope_hook_winch_small_node_0_label		Down	放下绳索
 def_rope_hook_winch_small_node_0_desc		Lowers the winch cable down when receiving an on signal.	当接收到信号时降下绞盘绳索
@@ -6386,7 +6400,7 @@ def_steam_piston_5x5_node_7_desc
 def_steam_turbine_name		Steam Turbine	蒸汽涡轮
 def_steam_turbine_desc		Produces torque based on the force generated by steam passing through the turbine.	利用通过涡轮的蒸汽来产生扭矩
 def_steam_turbine_s_desc		A steam powered turbine.	一个蒸汽动力涡轮
-def_steam_turbine_node_0_label		Steam in	蒸汽输入
+def_steam_turbine_node_0_label		Steam In	蒸汽输入
 def_steam_turbine_node_0_desc			
 def_steam_turbine_node_1_label		Steam Out	蒸汽输出
 def_steam_turbine_node_1_desc			
@@ -6460,15 +6474,186 @@ def_torque_meter_node_1_label		RPS	每秒旋转次数
 def_torque_meter_node_1_desc		The rotations per second of the power system.	电力系统每秒的旋转。
 def_torque_meter_node_2_label		Torque	扭矩
 def_torque_meter_node_2_desc		The torque reading from the power system.	动力系统的扭矩读数。
-def_train_wheels_name		Train Wheel Assembly	铁路轮总成
-def_train_wheels_desc			
-def_train_wheels_s_desc			
+def_train_wheels_name		Train Wheel Assembly Classic	火车轮总成(旧版)
+def_train_wheels_desc		Attaches to rail lines.	附着在铁路上
+def_train_wheels_s_desc		Train wheel assembly.	火车轮毂
 def_train_wheels_node_0_label		Brakes	制动器
-def_train_wheels_node_0_desc		Number input to set the level of braking applied to the wheels.	用于设置应用于载具轮的制动级别的数字输入。
-def_train_wheels_node_1_label		RPS	动力
-def_train_wheels_node_1_desc		Receives power generated by an engine to control forward and backward rotation.	接收发动机产生的控制前后旋转的动力。
-def_train_wheels_node_2_label		Wheel Slip	载具轮打滑
-def_train_wheels_node_2_desc		Detects if wheels are slipping resulting in reduced torque.	检测载具轮是否打滑导致扭矩减小。
+def_train_wheels_node_0_desc		Number input to set the level of braking applied to the wheels.	输入制动级别
+def_train_wheels_node_1_label		RPS	RPS
+def_train_wheels_node_1_desc		Receives power generated by an engine to control forward and backward rotation.	接收引擎产生的动力。
+def_train_wheels_node_2_label		Wheel Slip	车轮打滑
+def_train_wheels_node_2_desc		Detects if wheels are slipping resulting in reduced torque.	检测车轮是否打滑导致扭矩减小
+def_train_wheels_dynamic_flanged_name		Train Wheel Assembly Flanged A	有轮缘轮轴总成A
+def_train_wheels_dynamic_flanged_desc		Attaches to rail lines.	附着在铁路上
+def_train_wheels_dynamic_flanged_s_desc		Unpowered train wheel assembly.	无动力轮轴总成
+def_train_wheels_dynamic_flanged_node_0_label		Brakes	制动器
+def_train_wheels_dynamic_flanged_node_0_desc		Number input to set the level of braking applied to the wheels.	输入制动级别
+def_train_wheels_dynamic_flanged_node_1_label		Wheel Slip	车轮打滑
+def_train_wheels_dynamic_flanged_node_1_desc		Detects if wheels are slipping resulting in reduced torque.	检测车轮是否打滑导致扭矩减小
+def_train_wheels_dynamic_flanged_b_name		Train Wheel Assembly Flanged B	有轮缘轮轴总成B
+def_train_wheels_dynamic_flanged_b_desc		Attaches to rail lines.	附着在铁路上
+def_train_wheels_dynamic_flanged_b_s_desc		Unpowered train wheel assembly.	无动力轮轴总成
+def_train_wheels_dynamic_flanged_b_node_0_label		Brakes	制动器
+def_train_wheels_dynamic_flanged_b_node_0_desc		Number input to set the level of braking applied to the wheels.	输入制动级别
+def_train_wheels_dynamic_flanged_b_node_1_label		Wheel Slip	车轮打滑
+def_train_wheels_dynamic_flanged_b_node_1_desc		Detects if wheels are slipping resulting in reduced torque.	检测车轮是否打滑导致扭矩减小
+def_train_wheels_dynamic_flanged_c_name		Train Wheel Assembly Flanged C	有轮缘轮轴总成C
+def_train_wheels_dynamic_flanged_c_desc		Attaches to rail lines.	附着在铁路上
+def_train_wheels_dynamic_flanged_c_s_desc		Unpowered train wheel assembly.	无动力轮轴总成
+def_train_wheels_dynamic_flanged_c_node_0_label		Brakes	制动器
+def_train_wheels_dynamic_flanged_c_node_0_desc		Number input to set the level of braking applied to the wheels.	输入制动级别
+def_train_wheels_dynamic_flanged_c_node_1_label		Wheel Slip	车轮打滑
+def_train_wheels_dynamic_flanged_c_node_1_desc		Detects if wheels are slipping resulting in reduced torque.	检测车轮是否打滑导致扭矩减小
+def_train_wheels_dynamic_flanged_d_name		Train Wheel Assembly Flanged D	有轮缘轮轴总成D
+def_train_wheels_dynamic_flanged_d_desc		Attaches to rail lines.	附着在铁路上
+def_train_wheels_dynamic_flanged_d_s_desc		Unpowered train wheel assembly.	无动力轮轴总成
+def_train_wheels_dynamic_flanged_d_node_0_label		Brakes	制动器
+def_train_wheels_dynamic_flanged_d_node_0_desc		Number input to set the level of braking applied to the wheels.	输入制动级别
+def_train_wheels_dynamic_flanged_d_node_1_label		Wheel Slip	车轮打滑
+def_train_wheels_dynamic_flanged_d_node_1_desc		Detects if wheels are slipping resulting in reduced torque.	检测车轮是否打滑导致扭矩减小
+def_train_wheels_dynamic_steam_basic_mid_name		Train Wheel Assembly Medium	转向架总成(中型)
+def_train_wheels_dynamic_steam_basic_mid_desc		Attaches to rail lines.	附着在铁路上
+def_train_wheels_dynamic_steam_basic_mid_s_desc		Train wheel assembly.	转向架总成
+def_train_wheels_dynamic_steam_basic_mid_node_0_label		Brakes	制动器
+def_train_wheels_dynamic_steam_basic_mid_node_0_desc		Number input to set the level of braking applied to the wheels.	输入制动级别
+def_train_wheels_dynamic_steam_basic_mid_node_1_label		RPS	RPS
+def_train_wheels_dynamic_steam_basic_mid_node_1_desc		Receives power generated by an engine to control forward and backward rotation.	接收引擎产生的动力。
+def_train_wheels_dynamic_steam_basic_mid_node_2_label		Wheel Slip	车轮打滑
+def_train_wheels_dynamic_steam_basic_mid_node_2_desc		Detects if wheels are slipping resulting in reduced torque.	检测车轮是否打滑导致扭矩减小
+def_train_wheels_dynamic_steam_large_name		Train Wheel Assembly Steam Large A	蒸汽机车动轮A(大型)
+def_train_wheels_dynamic_steam_large_desc		Attaches to rail lines. Connect to a train wheel drive piston or another steam train assembly.	附着在铁路上，连接到蒸汽机车驱动活塞或其他蒸汽机车组件上
+def_train_wheels_dynamic_steam_large_s_desc		Steam powered train wheel assembly.	蒸汽机车动轮总成
+def_train_wheels_dynamic_steam_large_node_0_label		Brakes	制动器
+def_train_wheels_dynamic_steam_large_node_0_desc		Number input to set the level of braking applied to the wheels.	输入制动级别
+def_train_wheels_dynamic_steam_large_node_1_label		Wheel Slip	车轮打滑
+def_train_wheels_dynamic_steam_large_node_1_desc		Detects if wheels are slipping resulting in reduced torque.	检测车轮是否打滑导致扭矩减小
+def_train_wheels_dynamic_steam_large_b_name		Train Wheel Assembly Steam Large B	蒸汽机车动轮B(大型)
+def_train_wheels_dynamic_steam_large_b_desc		Attaches to rail lines. Connect to a train wheel drive piston or another steam train assembly.	附着在铁路上，连接到蒸汽机车驱动活塞或其他蒸汽机车组件上
+def_train_wheels_dynamic_steam_large_b_s_desc		Steam powered train wheel assembly.	蒸汽机车动轮总成
+def_train_wheels_dynamic_steam_large_b_node_0_label		Brakes	制动器
+def_train_wheels_dynamic_steam_large_b_node_0_desc		Number input to set the level of braking applied to the wheels.	输入制动级别
+def_train_wheels_dynamic_steam_large_b_node_1_label		Wheel Slip	车轮打滑
+def_train_wheels_dynamic_steam_large_b_node_1_desc		Detects if wheels are slipping resulting in reduced torque.	检测车轮是否打滑导致扭矩减小
+def_train_wheels_dynamic_steam_mid_name		Train Wheel Assembly Steam Medium A	蒸汽机车动轮A(中型)
+def_train_wheels_dynamic_steam_mid_desc		Attaches to rail lines. Connect to a train wheel drive piston or another steam train assembly.	附着在铁路上，连接到蒸汽机车驱动活塞或其他蒸汽机车组件上
+def_train_wheels_dynamic_steam_mid_s_desc		Steam powered train wheel assembly.	蒸汽机车动轮总成
+def_train_wheels_dynamic_steam_mid_node_0_label		Brakes	制动器
+def_train_wheels_dynamic_steam_mid_node_0_desc		Number input to set the level of braking applied to the wheels.	输入制动级别
+def_train_wheels_dynamic_steam_mid_node_1_label		RPS	RPS
+def_train_wheels_dynamic_steam_mid_node_1_desc		Receives power generated by an engine to control forward and backward rotation.	接收引擎产生的动力。
+def_train_wheels_dynamic_steam_mid_node_2_label		Wheel Slip	车轮打滑
+def_train_wheels_dynamic_steam_mid_node_2_desc		Detects if wheels are slipping resulting in reduced torque.	检测车轮是否打滑导致扭矩减小
+def_train_wheels_dynamic_steam_mid_b_name		Train Wheel Assembly Steam Medium B	蒸汽机车动轮B(中型)
+def_train_wheels_dynamic_steam_mid_b_desc		Attaches to rail lines. Connect to a train wheel drive piston or another steam train assembly.	附着在铁路上，连接到蒸汽机车驱动活塞或其他蒸汽机车组件上
+def_train_wheels_dynamic_steam_mid_b_s_desc		Steam powered train wheel assembly.	蒸汽机车动轮总成
+def_train_wheels_dynamic_steam_mid_b_node_0_label		Brakes	制动器
+def_train_wheels_dynamic_steam_mid_b_node_0_desc		Number input to set the level of braking applied to the wheels.	输入制动级别
+def_train_wheels_dynamic_steam_mid_b_node_1_label		RPS	RPS
+def_train_wheels_dynamic_steam_mid_b_node_1_desc		Receives power generated by an engine to control forward and backward rotation.	接收引擎产生的动力。
+def_train_wheels_dynamic_steam_mid_b_node_2_label		Wheel Slip	车轮打滑
+def_train_wheels_dynamic_steam_mid_b_node_2_desc		Detects if wheels are slipping resulting in reduced torque.	检测车轮是否打滑导致扭矩减小
+def_train_wheels_dynamic_steam_small_name		Train Wheel Assembly Steam Small A	蒸汽机车动轮A(小型)
+def_train_wheels_dynamic_steam_small_desc		Attaches to rail lines. Connect to a train wheel drive piston or another steam train assembly.	附着在铁路上，连接到蒸汽机车驱动活塞或其他蒸汽机车组件上
+def_train_wheels_dynamic_steam_small_s_desc		Steam powered train wheel assembly.	蒸汽机车动轮总成
+def_train_wheels_dynamic_steam_small_node_0_label		Brakes	制动器
+def_train_wheels_dynamic_steam_small_node_0_desc		Number input to set the level of braking applied to the wheels.	输入制动级别
+def_train_wheels_dynamic_steam_small_node_1_label		RPS	RPS
+def_train_wheels_dynamic_steam_small_node_1_desc		Receives power generated by an engine to control forward and backward rotation.	接收引擎产生的动力。
+def_train_wheels_dynamic_steam_small_node_2_label		Wheel Slip	车轮打滑
+def_train_wheels_dynamic_steam_small_node_2_desc		Detects if wheels are slipping resulting in reduced torque.	检测车轮是否打滑导致扭矩减小
+def_train_wheels_dynamic_steam_small_b_name		Train Wheel Assembly Steam Small B	蒸汽机车动轮B(小型)
+def_train_wheels_dynamic_steam_small_b_desc		Attaches to rail lines. Connect to a train wheel drive piston or another steam train assembly.	附着在铁路上，连接到蒸汽机车驱动活塞或其他蒸汽机车组件上
+def_train_wheels_dynamic_steam_small_b_s_desc		Steam powered train wheel assembly.	蒸汽机车动轮总成
+def_train_wheels_dynamic_steam_small_b_node_0_label		Brakes	制动器
+def_train_wheels_dynamic_steam_small_b_node_0_desc		Number input to set the level of braking applied to the wheels.	输入制动级别
+def_train_wheels_dynamic_steam_small_b_node_1_label		RPS	RPS
+def_train_wheels_dynamic_steam_small_b_node_1_desc		Receives power generated by an engine to control forward and backward rotation.	接收引擎产生的动力。
+def_train_wheels_dynamic_steam_small_b_node_2_label		Wheel Slip	车轮打滑
+def_train_wheels_dynamic_steam_small_b_node_2_desc		Detects if wheels are slipping resulting in reduced torque.	检测车轮是否打滑导致扭矩减小
+def_train_wheels_dynamic_steam_small_basic_name		Train Wheel Assembly Small	列车动轮总成(小)
+def_train_wheels_dynamic_steam_small_basic_desc		Attaches to rail lines.	附着在铁路上
+def_train_wheels_dynamic_steam_small_basic_s_desc		Train wheel assembly.	列车动轮总成
+def_train_wheels_dynamic_steam_small_basic_node_0_label		Brakes	制动器
+def_train_wheels_dynamic_steam_small_basic_node_0_desc		Number input to set the level of braking applied to the wheels.	输入制动级别
+def_train_wheels_dynamic_steam_small_basic_node_1_label		RPS	RPS
+def_train_wheels_dynamic_steam_small_basic_node_1_desc		Receives power generated by an engine to control forward and backward rotation.	接收引擎产生的动力。
+def_train_wheels_dynamic_steam_small_basic_node_2_label		Wheel Slip	车轮打滑
+def_train_wheels_dynamic_steam_small_basic_node_2_desc		Detects if wheels are slipping resulting in reduced torque.	检测车轮是否打滑导致扭矩减小
+def_train_wheels_dynamic_x1_name		Train Wheel Assembly x1	列车转向架总成(带悬挂) x1
+def_train_wheels_dynamic_x1_desc		Attaches to rail lines.	附着在铁路上
+def_train_wheels_dynamic_x1_s_desc		Train wheel assembly.	带有悬挂的列车转向架总成 单轴
+def_train_wheels_dynamic_x1_node_0_label		Brakes	制动器
+def_train_wheels_dynamic_x1_node_0_desc		Number input to set the level of braking applied to the wheels.	输入制动级别
+def_train_wheels_dynamic_x1_node_1_label		RPS	RPS
+def_train_wheels_dynamic_x1_node_1_desc		Receives power generated by an engine to control forward and backward rotation.	接收引擎产生的动力。
+def_train_wheels_dynamic_x1_node_2_label		Wheel Slip	车轮打滑
+def_train_wheels_dynamic_x1_node_2_desc		Detects if wheels are slipping resulting in reduced torque.	检测车轮是否打滑导致扭矩减小
+def_train_wheels_dynamic_x1_small_name		Train Wheel Assembly x1 Small	列车转向架总成(带悬挂) x1(小)
+def_train_wheels_dynamic_x1_small_desc		Attaches to rail lines.	附着在铁路上
+def_train_wheels_dynamic_x1_small_s_desc		Train wheel assembly.	带有悬挂的列车转向架总成 单轴
+def_train_wheels_dynamic_x1_small_node_0_label		Brakes	制动器
+def_train_wheels_dynamic_x1_small_node_0_desc		Number input to set the level of braking applied to the wheels.	输入制动级别
+def_train_wheels_dynamic_x1_small_node_1_label		RPS	RPS
+def_train_wheels_dynamic_x1_small_node_1_desc		Receives power generated by an engine to control forward and backward rotation.	接收引擎产生的动力。
+def_train_wheels_dynamic_x1_small_node_2_label		Wheel Slip	车轮打滑
+def_train_wheels_dynamic_x1_small_node_2_desc		Detects if wheels are slipping resulting in reduced torque.	检测车轮是否打滑导致扭矩减小
+def_train_wheels_dynamic_x2_name		Train Wheel Assembly x2	列车转向架总成(带悬挂) x2
+def_train_wheels_dynamic_x2_desc		Attaches to rail lines.	附着在铁路上
+def_train_wheels_dynamic_x2_s_desc		Train wheel assembly.	带有悬挂的列车转向架总成 双轴
+def_train_wheels_dynamic_x2_node_0_label		Brakes	制动器
+def_train_wheels_dynamic_x2_node_0_desc		Number input to set the level of braking applied to the wheels.	输入制动级别
+def_train_wheels_dynamic_x2_node_1_label		RPS	RPS
+def_train_wheels_dynamic_x2_node_1_desc		Receives power generated by an engine to control forward and backward rotation.	接收引擎产生的动力。
+def_train_wheels_dynamic_x2_node_2_label		Wheel Slip	车轮打滑
+def_train_wheels_dynamic_x2_node_2_desc		Detects if wheels are slipping resulting in reduced torque.	检测车轮是否打滑导致扭矩减小
+def_train_wheels_dynamic_x3_name		Train Wheel Assembly x3	列车转向架总成(带悬挂) x3
+def_train_wheels_dynamic_x3_desc		Attaches to rail lines.	附着在铁路上
+def_train_wheels_dynamic_x3_s_desc		Train wheel assembly.	带有悬挂的列车转向架总成 三轴
+def_train_wheels_dynamic_x3_node_0_label		Brakes	制动器
+def_train_wheels_dynamic_x3_node_0_desc		Number input to set the level of braking applied to the wheels.	输入制动级别
+def_train_wheels_dynamic_x3_node_1_label		RPS	RPS
+def_train_wheels_dynamic_x3_node_1_desc		Receives power generated by an engine to control forward and backward rotation.	接收引擎产生的动力。
+def_train_wheels_dynamic_x3_node_2_label		Wheel Slip	车轮打滑
+def_train_wheels_dynamic_x3_node_2_desc		Detects if wheels are slipping resulting in reduced torque.	检测车轮是否打滑导致扭矩减小
+def_train_wheels_piston_name		Train Wheel Drive Piston Small	蒸汽机车驱动活塞(小)
+def_train_wheels_piston_desc		Attach to the front of a group of train-wheel assemblies to generate torque for them via mechanical steam power. Activate the reverser to flip the internal valves and the direction of travel.	安装在蒸汽机车动轮组前,通过蒸汽动力产生扭矩.激活翻转开关以翻转内部阀门和行驶方向
+def_train_wheels_piston_s_desc		Steam powered train piston assembly.	蒸汽机车驱动活塞总成
+def_train_wheels_piston_node_0_label		Steam In	蒸汽 进
+def_train_wheels_piston_node_0_desc			
+def_train_wheels_piston_node_1_label		Steam In	蒸汽 进
+def_train_wheels_piston_node_1_desc			
+def_train_wheels_piston_node_2_label		Steam Out	蒸汽 出
+def_train_wheels_piston_node_2_desc			
+def_train_wheels_piston_node_3_label		Steam Out	蒸汽 出
+def_train_wheels_piston_node_3_desc			
+def_train_wheels_piston_node_4_label		Reverser	翻转开关
+def_train_wheels_piston_node_4_desc		Reverse piston direction.	反转活塞方向
+def_train_wheels_piston_large_name		Train Wheel Drive Piston Large	蒸汽机车驱动活塞(大)
+def_train_wheels_piston_large_desc		Attach to the front of a group of train-wheel assemblies to generate torque for them via mechanical steam power. Activate the reverser to flip the internal valves and the direction of travel.	安装在蒸汽机车动轮组前,通过蒸汽动力产生扭矩.激活翻转开关以翻转内部阀门和行驶方向
+def_train_wheels_piston_large_s_desc		Steam powered train piston assembly.	蒸汽机车驱动活塞总成
+def_train_wheels_piston_large_node_0_label		Steam In	蒸汽 进
+def_train_wheels_piston_large_node_0_desc			
+def_train_wheels_piston_large_node_1_label		Steam In	蒸汽 进
+def_train_wheels_piston_large_node_1_desc			
+def_train_wheels_piston_large_node_2_label		Steam Out	蒸汽 出
+def_train_wheels_piston_large_node_2_desc			
+def_train_wheels_piston_large_node_3_label		Steam Out	蒸汽 出
+def_train_wheels_piston_large_node_3_desc			
+def_train_wheels_piston_large_node_4_label		Reverser	翻转开关
+def_train_wheels_piston_large_node_4_desc		Reverse piston direction.	反转活塞方向
+def_train_wheels_piston_mid_name		Train Wheel Drive Piston Medium	蒸汽机车驱动活塞(中)
+def_train_wheels_piston_mid_desc		Attach to the front of a group of train-wheel assemblies to generate torque for them via mechanical steam power. Activate the reverser to flip the internal valves and the direction of travel.	安装在蒸汽机车动轮组前,通过蒸汽动力产生扭矩.激活翻转开关以翻转内部阀门和行驶方向
+def_train_wheels_piston_mid_s_desc		Steam powered train piston assembly.	蒸汽机车驱动活塞总成
+def_train_wheels_piston_mid_node_0_label		Steam In	蒸汽 进
+def_train_wheels_piston_mid_node_0_desc			
+def_train_wheels_piston_mid_node_1_label		Steam In	蒸汽 进
+def_train_wheels_piston_mid_node_1_desc			
+def_train_wheels_piston_mid_node_2_label		Steam Out	蒸汽 出
+def_train_wheels_piston_mid_node_2_desc			
+def_train_wheels_piston_mid_node_3_label		Steam Out	蒸汽 出
+def_train_wheels_piston_mid_node_3_desc			
+def_train_wheels_piston_mid_node_4_label		Reverser	翻转开关
+def_train_wheels_piston_mid_node_4_desc		Reverse piston direction.	反转活塞方向
 def_transponder_name		Transponder	应急信标
 def_transponder_desc		When activated, emits a continuous transponder signal that can be detected over great distances by any transponder locator.	当激活时，发射连续的应答信号，任何定位器都能够在长距离内检测到此信号。
 def_transponder_s_desc		An emergency search and rescue transponder.	一个应急用搜救应答器
@@ -6479,7 +6664,7 @@ def_transponder_node_1_desc		Emit a continuous transponder signal when active.	�
 def_transponder_locator_name		Transponder Locator	应急信标定位器
 def_transponder_locator_desc		Detects all transponder signals over great distances. Outputs the strongest signal strength detected, transponder signal strengths will decrease with distance.	在长距离内检测所有的应急信号，信号会随距离衰减，输出检测到最强的信号。
 def_transponder_locator_s_desc		An emergency search and rescue transponder locator.	一个应急信标定位器
-def_transponder_locator_node_0_label		Transponder pulse	应答脉冲
+def_transponder_locator_node_0_label		Transponder Pulse	应答脉冲
 def_transponder_locator_node_0_desc		Emits a periodic boolean pulse, with a frequency determined by the distance to the nearest transponder signal.	输出一个周期性二进制脉冲，频率取决于检测到最近的应急信标的距离。
 def_transponder_locator_node_1_label		Electric	电
 def_transponder_locator_node_1_desc		Electrical power connection.	电源连接。
@@ -6492,7 +6677,6 @@ def_trans_block_angle_name		Pipe Angle (Enclosed)	封闭管道（L型）
 def_trans_block_angle_desc			
 def_trans_block_angle_s_desc		An angled pipe for transferring to components from an engine.	从发动机传送到部件的有角度的管子。
 def_trans_block_corner_name		Pipe Angle Corner (Enclosed)	封闭管道（3向 边角）
-def_trans_block_corner_desc			
 def_trans_block_corner_s_desc		A T-shaped pipe segment that can be used to branch piping into three directions.	一种T形管段，可用于将管道分为三个方向。
 def_trans_block_cross_name		Pipe Cross (Enclosed)	封闭管道（X型）
 def_trans_block_cross_desc			
@@ -6507,31 +6691,24 @@ def_trans_block_straight_name		Pipe Straight (Enclosed)	封闭管道（I型）
 def_trans_block_straight_desc			
 def_trans_block_straight_s_desc		A straight section of pipe for transferring to components from an engine.	从发动机传送到部件的一段直管。
 def_trans_block_t_name		Pipe T-Piece (Enclosed)	封闭管道（T型）
-def_trans_block_t_desc			
 def_trans_block_t_s_desc		A T-shaped pipe segment that can be used to branch piping into three directions.	一种T形管段，可用于将管道分为三个方向。
 def_trans_block_t_corner_name		Pipe T-Piece Corner (Enclosed)	封闭管道（4向 边角）
 def_trans_block_t_corner_desc			
 def_trans_block_t_corner_s_desc		A T-shaped pipe segment that can be used to branch piping into four directions.	一种T形管段，可用于将管道分为四个方向。
 def_trans_corner_name		Pipe Angle Corner	管道（3向 边角）
-def_trans_corner_desc			
 def_trans_corner_s_desc		A T-shaped pipe segment that can be used to branch piping into three directions.	一种T形管段，可用于将管道分为三个方向。
 def_trans_cross_name		Pipe Cross	管道（X型）
-def_trans_cross_desc			
 def_trans_cross_s_desc		An X-shaped pipe segment that can be used to branch piping into four directions.	一种X形管段，可用于将管道分为四个方向。
 def_trans_cross_corner_name		Pipe Cross Corner	管道（5向 边角）
-def_trans_cross_corner_desc			
 def_trans_cross_corner_s_desc		An X-shaped pipe segment that can be used to branch piping into five directions.	一种X形管段，可用于将管道分为五个方向。
 def_trans_omni_name		Pipe Omni	管道（6向 核心）
-def_trans_omni_desc			
 def_trans_omni_s_desc		An omnidirectional pipe segment.	全向管段。
 def_trans_straight_name		Pipe Straight	管道（I型）
 def_trans_straight_desc			
 def_trans_straight_s_desc		A straight section of pipe for transferring to components from an engine.	从发动机传送到部件的一段直管。
 def_trans_t_name		Pipe T-Piece	管道（T型）
-def_trans_t_desc			
 def_trans_t_s_desc		A T-shaped pipe segment that can be used to branch piping into three directions.	一种T形管段，可用于将管道分为三个方向。
 def_trans_t_corner_name		Pipe T-Piece Corner	管道（4向  边角）
-def_trans_t_corner_desc			
 def_trans_t_corner_s_desc		A T-shaped pipe segment that can be used to branch piping into four directions.	一种T形管段，可用于将管道分为四个方向。
 def_turbine_name		Turbine Engine	涡轮发动机
 def_turbine_desc		An on/off signal controls engine startup. The throttle input takes a standard value between -1 and 1 and controls the forward and backward force of connected components. The engine's maximum power output is split between connected components.	开/关信号控制发动机是否产生动力。油门输入采用介于-1和1之间的标准值，并控制连接部件的前进和后退力。发动机的最大输出功率在连接的部件之间分配。
@@ -6660,10 +6837,10 @@ def_water_jet_node_1_label		RPS	动力
 def_water_jet_node_1_desc		Mechanical power input to power jet.	动力喷射的机械动力输入。
 def_water_jet_node_2_label		Vertical Trim	垂直配平
 def_water_jet_node_2_desc		Vertical nozzle angle to control jet direction.	垂直喷嘴角度控制喷射方向。
-def_water_jet_node_3_label		Deflector A	偏转(Roll)器A
-def_water_jet_node_3_desc		Left bucket defector control input.	左铲斗偏转(Roll)器控制输入。
-def_water_jet_node_4_label		Deflector B	偏转(Roll)器B
-def_water_jet_node_4_desc		Right bucket defector control input.	右铲斗偏转(Roll)器控制输入。
+def_water_jet_node_3_label		Deflector A	滚转(Roll)器A
+def_water_jet_node_3_desc		Left bucket defector control input.	左铲斗滚转(Roll)器控制输入。
+def_water_jet_node_4_label		Deflector B	滚转(Roll)器B
+def_water_jet_node_4_desc		Right bucket defector control input.	右铲斗滚转(Roll)器控制输入。
 def_water_jet_node_5_label		Electric	电
 def_water_jet_node_5_desc		Electrical power connection.	电源连接。
 def_water_measure_name		Fluid Meter	流体测量仪
@@ -7114,6 +7291,14 @@ def_wing_xl_s_desc		The wing surface cuts through the air while resisting moveme
 def_wing_xxl_name		Wing Section (XXLarge)	机翼面(超大)
 def_wing_xxl_desc		Wing surface to provide lift and cut through the air.	机翼表面提供升力并穿过气体。
 def_wing_xxl_s_desc		The wing surface cuts through the air while resisting movement against the flat plane of its surface. The aerofoil section also provides lift.	机翼表面穿透气体，同时抵抗其表面平面的运动。机翼部分也提供升力。
+def_trans_block_corner_desc			
+def_trans_block_t_desc			
+def_trans_corner_desc			
+def_trans_cross_desc			
+def_trans_cross_corner_desc			
+def_trans_omni_desc			
+def_trans_t_desc			
+def_trans_t_corner_desc			
 		Balaclava	巴拉克拉瓦头套
 		Vehicle editing is disabled.	载具编辑已禁用。
 		Classic career mode. Expand your coastguard empire. Complete missions to earn money and unlock components.	经典生涯模式。扩张你的海岸警卫队帝国，通过完成任务来获得金钱、解锁组件。
