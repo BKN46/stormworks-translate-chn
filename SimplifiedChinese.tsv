@@ -405,8 +405,8 @@ id	description	en	local
 		Deceased	已死亡
 		Stop Following	停止跟随
 		Follow	跟随
-		Purchase Island\n$	购买岛屿\n$
-		Purchase Island to Use	购买岛屿以使用
+		Purchase Base\n$	购买基地\n$
+		Purchase Base to Use	购买基地以解锁使用
 		Not Available	不可用
 		Not Available When Carrying Someone	携带人员时不可用
 		Spawning...	正在生成...
@@ -419,7 +419,7 @@ id	description	en	local
 		none set	未设置
 		Fast-travel Location	快速旅行地点
 		CLICK TO TRAVEL HERE	点击此处旅行
-		Island for sale	待出售基地
+		Base for sale	待出售基地
 		You are here	你在这里
 		CLICK TO TAKE TO WORKBENCH	点击进入工作台
 		Waypoint	航路点
@@ -515,7 +515,7 @@ id	description	en	local
 		Fixed Yaw	左右锁定
 		Fixed	完全锁定
 		Free	自由
-		GENERAL	概览
+		GENERAL	通用
 		HUD	HUD
 		Objectives	目标
 		Clock	时钟
@@ -529,7 +529,7 @@ id	description	en	local
 		Graphics	画质
 		Audio	音频
 		Controls	控制
-		General	概览
+		General	通用
 		Language	语言
 		AVAILABLE LANGUAGES	可用语言
 		LANGUAGE	语言
@@ -748,7 +748,7 @@ id	description	en	local
 		There was an error	发生错误
 		UPLOAD COMPLETE	上传完成
 		Upload complete.	上传完成。
-		The vehicle you are trying to load is too large for this edit area.\n\nYou will need to purchase an island with a larger workbench to load this vehicle. Check the map screen for islands for sale.	您试图加载的载具对于此编辑区域太大。\n\n您需要购买一个带有较大工作台的岛屿来加载此载具。在地图上查看待售岛屿。
+		The vehicle you are trying to load is too large for this edit area.\n\nYou will need to purchase an island with a larger workbench to load this vehicle. Check the map screen for bases for sale.	您要加载的载具对于此编辑区域太大。\n\n您需要购买一个带有较大工作台的基地来加载此载具。在地图上查看待售基地。
 		The vehicle you are trying to load is too large for this edit area.	您试图加载的载具对于此编辑区域太大。
 		The vehicle file you are trying to load could not be found.	找不到您试图加载的载具文件。
 		Your vehicle has failed to upload to the Steam workshop.	您的载具无法上传到Steam创意工坊。
@@ -882,7 +882,7 @@ id	description	en	local
 		Emote Wheel	表情轮
 		Player List	玩家列表
 		Quick Chat	快速聊天
-		Show detailed data labels	显示数据标签细节
+		Show detailed data labels	显示详细数据
 		Voice Chat	语音聊天
 		Axis 1	虚拟轴1
 		Axis 2	虚拟轴2
@@ -909,7 +909,7 @@ id	description	en	local
 		Survival	生存
 		Hardcore	硬核
 		Rogue	铁人
-		Custom	自定义
+		Custom	自定义模式
 		Game Mode	游戏模式
 		Career	生涯模式
 		Classic	经典模式
@@ -944,10 +944,10 @@ id	description	en	local
 		Starting Money	启动资金
 		CUSTOMISE GAME MODE	自定义游戏模式
 		Unlock All Components	解锁所有组件
-		Unlock All Islands	解锁所有岛屿
-		All purchasable islands are pre-purchased.	所有可购买的岛屿都直接开放了。
+		Unlock All Bases	锁所有基地
+		All purchasable bases are pre-purchased.	所有可购买的基地均已解锁。
 		Infinite Stock	无限库存
-		Infinite money and components are available.	无限的钱和组件是可用的。
+		Infinite money, resources and components are available.	无限的钱、资源与组件
 		Creative Tools	创意工具
 		Enable time/weather control menu, addon editor, mission spawn menu.	开关时间/天气控制面板、插件编辑器、任务生成面板
 		Day/Night Cycle (minutes)	昼夜循环(分钟)
@@ -1150,7 +1150,7 @@ id	description	en	local
 		Infinite Ammo	无限弹药
 		Infinite Fuel	无限燃料
 		Infinite Electric	无限电力
-		Infinite Money	无限金钱
+		Infinite Resources	无限资源
 		Sunrise/Sunset Time	日出/日落时间
 		Day/Night Duration	昼/夜持续时间
 		Current Time	当前时间
@@ -1513,7 +1513,7 @@ id	description	en	local
 		Wake	醒来
 		Sleep	睡眠
 		(all players must be sleeping to fast-forward)	(所有玩家必须睡下才能快进)
-		PURCHASE ISLAND	购买岛屿
+		PURCHASE BASE	购买基地
 		Bank	银行
 		Total	总计
 		Police Hat	警帽
@@ -1964,7 +1964,7 @@ id	description	en	local
 		Pistol	手枪
 		Pistol Ammo	手枪弹药
 		Grenade	手榴弹
-		Enable weapons DLC	开启武器DLC
+		Search and Destroy DLC	搜索并歼灭DLC
 		Modular Engines	模块化引擎
 		Medium Modular Engines	中型模块化引擎
 		Heavy Modular Engines	重型模块化引擎
@@ -1977,8 +1977,8 @@ id	description	en	local
 		Coal	煤炭
 		Steam Power	蒸汽动力
 		Nuclear Power	核动力
-		Load Coal	装载煤炭
-		Unload Coal	卸载煤炭
+		Load	装载
+		Unload	卸载
 		Clean Radiation	清除辐射
 		Weapons	武器
 		Machine Gun Ammo Box (Kinetic)	机枪弹药箱（动能）
@@ -2162,6 +2162,31 @@ id	description	en	local
 		Fill Level	
 		Sea Monsters	海怪
 		Lightning	闪电
+		Ender Airfield	安德机场
+		Large airstrip with a dangerous clifftop runway.	拥有一条危险的悬崖顶跑道的大型机场
+		Uran Wind Power Plant Docks	乌兰风电厂码头
+		Large indutrial docks area with multiple boat workbenches at the collapsed nuclear power station.	拥有多个船用工作台的大型工业码头区，临近大型核电站残骸
+		Clarke Airfield	克拉克机场
+		Large airstrip on the salt flats with access to the launch site.	盐滩上的大型简易机场，可以进入发射场
+		FJ Warner Docks	FJ华纳的码头
+		A beachside port with a large hangar and a view of the salt flats.	拥有大型机库的海滨港口，可以看到盐滩
+		Serpentine Trainyard	蛇口火车站
+		A train assembly yard with two rail workbenches.	拥有两个铁路工作台的铁道的调车场
+		Brainz Train Yard	Brainz列车场
+		Large train maintenance yard on the northern coast.	北部海岸的大型火车维修场
+		Mauve Train Yard	Mauve列车场
+		A central train yard situated adjacent to the Robert Barnsley Observatory.	位于Robert Barnsley天文台附近的中央火车场
+		JSI Dock	JSI码头
+		A commerce dock on the south of Sharkspoonful Island.	Sharkspoonful岛南部的商业码头
+		North Meier Outpost	北梅尔前哨站
+		A small dock and workbench situated on the arid mainland, perfect for starting out.	拥有一个小码头的前哨站，非常适合搜救事业的起步
+		Place Animal in	将动物置于
+		Pet	宠物
+		Dog Whistle	犬哨
+		[$[action_equipment_use]] Use whistle	吹响哨子
+		Aggressive Animals	攻击性动物
+		Industrial Frontier DLC	工业先锋DLC
+		Open Store Page	打开存储页面
 		Camera Forward	镜头前移
 		Camera Back	镜头后退
 		Camera Left	镜头左移
@@ -2180,6 +2205,18 @@ id	description	en	local
 		Show Rotation UI	显示旋转界面
 		Show/Hide Vehicle (Selection Grid)	显示/隐藏载具(选择网格)
 		Toggle Eraser	切换橡皮擦
+		Iron Ore	铁矿
+		Aluminium Ore	铝矿
+		Gold Ore	金矿
+		Gold Rich Dirt	金沙
+		Uranium Ore	铀矿
+		Iron Ingot	铁锭
+		Steel Ingot	钢锭
+		Aluminium Ingot	铝锭
+		Impure Gold Ingot	不纯金锭
+		Gold Ingot	金锭
+		Uranium Ingot	铀锭
+		Industrial Equipment	工业设备
 		You were disconnected.	你被断开了连接
 def_01_block_name		Block	方块
 def_01_block_desc		The block is a quarter-metre in size. Components can be attached to all 6 faces.	这个方块有四分之一米大。组件可以连接收到所有6个面。
@@ -2861,7 +2898,7 @@ def_door_dock_small_node_8_desc		Composite data output.	复合数据输出。
 def_door_dock_small_node_9_label		Composite input	复合输入
 def_door_dock_small_node_9_desc		Composite data input.	复合数据输入。
 def_door_frame_controller_name		Door Frame Controller	门框控制器
-def_door_frame_controller_desc		Placing the controller as part of a door frame will let you lock the door when closed, and check whether the door is closed enough to be forming a seal. Only one controller should be placed per frame.	将控制器作为门框的一部分放置可以让您在关闭时锁定门，并检查门是否关闭到足以形成密封。每帧只能放置一个控制器。
+def_door_frame_controller_desc		Placing the controller as part of a door frame will let you lock the door when closed, and check whether the door is closed enough to be forming a seal. Only one controller should be placed per frame.	将控制器作为门框的一部分放置可以让您在关闭时锁定门，并检查门是否关闭到足以形成密封。每个门框只能放置一个控制器。
 def_door_frame_controller_s_desc		Controller unit for sealing door frames.	用于密封门框的控制器单元。
 def_door_frame_controller_node_0_label		Lock Seal	密封锁
 def_door_frame_controller_node_0_desc		Controls if the door panel will lock in place when sealed.	控制密封时门板是否锁定到位。
@@ -4037,6 +4074,13 @@ def_inventory_equipment_defibrillator_desc		Press [$[action_equipment_use]] on a
 def_inventory_equipment_defibrillator_s_desc		A large equipment storage unit containing a defibrillator.	大型装备架，存储一个除颤器
 def_inventory_equipment_defibrillator_node_0_label		Electric	电
 def_inventory_equipment_defibrillator_node_0_desc		Electrical power connection.	电源连接。
+def_inventory_equipment_dog_whistle_name		Equipment inventory (Dog Whistle)	装备架(狗哨)
+def_inventory_equipment_dog_whistle_desc		Hold [$[action_equipment_use]] to sound the whistle. Nearby dogs will respond to certain whistle patterns.
+\n	1 long burst = Wait.
+\n	2 short bursts = Follow.	按住[$[action_equipment_use]]吹响哨子,附近的狗狗会做出回应:长鸣等待,短鸣跟随
+def_inventory_equipment_dog_whistle_s_desc		A small equipment storage unit containing a dog whistle.	小型装备架，存储一个狗哨
+def_inventory_equipment_dog_whistle_node_0_label		Electric	电
+def_inventory_equipment_dog_whistle_node_0_desc		Electrical power connection.	电源连接
 def_inventory_equipment_fire_extinguisher_name		Equipment inventory (Fire Extinguisher)	装备架(灭火器)
 def_inventory_equipment_fire_extinguisher_desc		Hold [$[action_equipment_use]] to spray a stream of water capable of extinguishing fires. This equipment has a limited water capacity and cannot be refilled.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。对准火焰按住 [$[action_equipment_use]] 喷出一柱水来灭火。这个装备有着有限的水容量而且不能装填。不使用时可以放在背后。
 def_inventory_equipment_fire_extinguisher_s_desc		A large equipment storage unit containing a fire extinguisher.	大型装备架，存储一个灭火器
@@ -4501,6 +4545,16 @@ def_mic_node_3_desc		If the microphone is currently transmitting.	如果麦克�
 def_microprocessor_name		Microprocessor	微处理器
 def_microprocessor_desc			
 def_microprocessor_s_desc			
+def_mineral_converter_name		Mineral Converter	矿产转运器
+def_mineral_converter_desc		Transports minerals through the connected system.	通过连接的系统运输矿产
+def_mineral_converter_s_desc		A basic mineral duct.	基础矿产管道
+def_mineral_converter_node_0_label		Mineral Level	矿产等级
+def_mineral_converter_node_0_desc			
+def_mineral_drill_name		Mineral Drill	采矿钻头
+def_mineral_drill_desc		The mineral drill can be driven by torque to mine ore deposits in the world. Extracted minerals can be transferred to an attached hopper.	钻头可以通过动力RPS驱动，在世界范围内开采矿藏。提取的矿物可以被转移到一个附加的料斗中
+def_mineral_drill_s_desc		A vehicle mounted drill for mining ore deposits.	载具使用的采矿钻头
+def_mineral_drill_node_0_label		Drill Shaft	钻杆
+def_mineral_drill_node_0_desc			
 def_modular_engine_air_manifold_name		Modular Engine Air Manifold	模块化发动机气体歧管
 def_modular_engine_air_manifold_desc		Attach a manifold to a cylinder to provide a connection for air to that cylinder. Cylinders that are chained directly adjacent to each other can share a single manifold.	将歧管连接到气缸上，为气缸提供气体连接。彼此直接相邻的气缸可以共享一个歧管。
 def_modular_engine_air_manifold_s_desc		A modular engine air manifold.	模块化发动机气体歧管
@@ -6239,25 +6293,25 @@ def_steam_boiler_node_5_label		Temperature	温度
 def_steam_boiler_node_5_desc			
 def_steam_boiler_node_6_label		Pressure	压力
 def_steam_boiler_node_6_desc			
-def_steam_coal_duct_name		Steam Coal Duct	蒸汽煤输送管
-def_steam_coal_duct_desc		Transports coal through the connected system.	通过连接的系统输送煤炭
-def_steam_coal_duct_s_desc		A basic coal duct.	一个基本的煤炭输送管
-def_steam_coal_duct_node_0_label		Coal Level	储煤量
+def_steam_coal_duct_name		Mineral Duct	矿物输送管
+def_steam_coal_duct_desc		Transports minerals through the connected system.	通过连接的系统输送矿物
+def_steam_coal_duct_s_desc		A basic mineral duct.	基本的矿物输送管
+def_steam_coal_duct_node_0_label		Mineral Level	储量
 def_steam_coal_duct_node_0_desc			
-def_steam_coal_duct_l_name		Steam Coal Duct Large	大型蒸汽煤输送管
-def_steam_coal_duct_l_desc		Transports coal through the connected system.	通过连接的系统输送煤炭
-def_steam_coal_duct_l_s_desc		A basic coal duct.	一个基本的煤炭输送管
-def_steam_coal_duct_l_node_0_label		Coal Level	储煤量
+def_steam_coal_duct_l_name		Mineral Duct Large	矿物输送管(大型)
+def_steam_coal_duct_l_desc		Transports minerals through the connected system.	通过连接的系统输送矿物
+def_steam_coal_duct_l_s_desc		A basic mineral duct.	基本的矿物输送管
+def_steam_coal_duct_l_node_0_label		Mineral Level	储量
 def_steam_coal_duct_l_node_0_desc			
-def_steam_coal_duct_m_name		Steam Coal Duct Medium	中型蒸汽煤输送管
-def_steam_coal_duct_m_desc		Transports coal through the connected system.	通过连接的系统输送煤炭
-def_steam_coal_duct_m_s_desc		A basic coal duct.	一个基本的煤炭输送管
-def_steam_coal_duct_m_node_0_label		Coal Level	储煤量
+def_steam_coal_duct_m_name		Mineral Duct Medium	矿物输送管(中型)
+def_steam_coal_duct_m_desc		Transports minerals through the connected system.	通过连接的系统输送矿物
+def_steam_coal_duct_m_s_desc		A basic mineral duct.	基本的矿物输送管
+def_steam_coal_duct_m_node_0_label		Mineral Level	储量
 def_steam_coal_duct_m_node_0_desc			
-def_steam_coal_firebox_name		Steam Coal Firebox	蒸汽煤燃烧室
-def_steam_coal_firebox_desc		Produces large amounts of heat. Can be supplied with a coal duct. Consumes 1 coal to ignite the fire.	产生大量的热量。可以连接一个煤输送管。消耗1单位煤来点火。
+def_steam_coal_firebox_name		Firebox	煤炉
+def_steam_coal_firebox_desc		Produces large amounts of heat. Can be supplied with a mineral duct. Consumes 1 coal to ignite the fire.	消耗1单位的煤炭点火，产生大量的热量。可以连接矿物输送管。
 def_steam_coal_firebox_s_desc		A coal powered firebox.	一个以煤为燃料的燃烧室
-def_steam_coal_firebox_node_0_label		Coal Level	储煤量
+def_steam_coal_firebox_node_0_label		Mineral Level	储量
 def_steam_coal_firebox_node_0_desc			
 def_steam_coal_firebox_node_1_label		Temperature	温度
 def_steam_coal_firebox_node_1_desc		Temperature of the coolant that is being heated.	正在加热的液体的温度。
@@ -6271,10 +6325,10 @@ def_steam_coal_firebox_node_5_label		Air	空气
 def_steam_coal_firebox_node_5_desc		Port for supplying air to the fire.	燃烧进气口
 def_steam_coal_firebox_node_6_label		Exhaust	排气管
 def_steam_coal_firebox_node_6_desc		Port for removing exhaust from burnt coal.	燃煤排气口
-def_steam_coal_firebox_l_name		Steam Coal Firebox Large	大型蒸汽煤燃烧室
-def_steam_coal_firebox_l_desc		Produces large amounts of heat. Can be supplied with a coal duct. Consumes 1 coal to ignite the fire.	产生大量的热量。可以连接一个煤输送管。消耗1单位煤来点火。
+def_steam_coal_firebox_l_name		Firebox Large	煤炉(大型)
+def_steam_coal_firebox_l_desc		Produces large amounts of heat. Can be supplied with a mineral duct. Consumes 1 coal to ignite the fire.	消耗1单位的煤炭点火，产生大量的热量。可以连接矿物输送管。
 def_steam_coal_firebox_l_s_desc		A coal powered firebox.	一个以煤为燃料的燃烧室
-def_steam_coal_firebox_l_node_0_label		Coal Level	储煤量
+def_steam_coal_firebox_l_node_0_label		Mineral Level	储量
 def_steam_coal_firebox_l_node_0_desc			
 def_steam_coal_firebox_l_node_1_label		Temperature	温度
 def_steam_coal_firebox_l_node_1_desc		Temperature of the coolant that is being heated.	正在加热的液体的温度。
@@ -6288,25 +6342,25 @@ def_steam_coal_firebox_l_node_5_label		Air	空气
 def_steam_coal_firebox_l_node_5_desc		Port for supplying air to the fire.	燃烧进气口
 def_steam_coal_firebox_l_node_6_label		Exhaust	排气管
 def_steam_coal_firebox_l_node_6_desc		Port for removing exhaust from burnt coal.	燃烧排气口
-def_steam_coal_funnel_name		Steam Coal Funnel	蒸汽煤漏斗
-def_steam_coal_funnel_desc		Can be toggled to slowly move coal out of the connected system.	可以通过开关信号将煤炭缓慢的排出相连接的系统。
-def_steam_coal_funnel_s_desc		A funnel moving coal.	一个排出煤的漏斗
+def_steam_coal_funnel_name		Mineral Funnel	矿物漏斗
+def_steam_coal_funnel_desc		Can be toggled to slowly move minerals out of the connected system.	可以通过开关信号将矿物缓慢的排出相连接的系统。
+def_steam_coal_funnel_s_desc		A funnel for moving minerals.	排出矿物的漏斗
 def_steam_coal_funnel_node_0_label		Open	打开
 def_steam_coal_funnel_node_0_desc			
-def_steam_coal_hopper_name		Steam Coal Hopper	蒸汽煤料斗
-def_steam_coal_hopper_desc		Pouring coal into the receptacle will add it to the connected system.	将煤倒入容器存储到相连接的系统中。
-def_steam_coal_hopper_s_desc		A hopper that can accept coal.	一个能存储煤的料斗。
-def_steam_coal_hopper_node_0_label		Coal Level	储煤量
+def_steam_coal_hopper_name		Mineral Hopper	矿物料斗
+def_steam_coal_hopper_desc		Pouring minerals into the receptacle will add it to the connected system.	将矿物倒入容器存储到相连接的系统中。
+def_steam_coal_hopper_s_desc		A hopper that can accept minerals.	一个能存储矿物的料斗。
+def_steam_coal_hopper_node_0_label		Mineral Level	储量
 def_steam_coal_hopper_node_0_desc			
-def_steam_coal_hopper_l_name		Steam Coal Hopper Large	大型蒸汽煤料斗
-def_steam_coal_hopper_l_desc		Pouring coal into the receptacle will add it to the connected system.	将煤倒入容器存储到相连接的系统中。
-def_steam_coal_hopper_l_s_desc		A hopper that can accept coal.	一个能存储煤的料斗。
-def_steam_coal_hopper_l_node_0_label		Coal Level	储煤量
+def_steam_coal_hopper_l_name		Mineral Hopper Large	矿物料斗(大型)
+def_steam_coal_hopper_l_desc		Pouring minerals into the receptacle will add it to the connected system.	将矿物倒入容器存储到相连接的系统中。
+def_steam_coal_hopper_l_s_desc		A hopper that can accept minerals.	一个能存储矿物的料斗。
+def_steam_coal_hopper_l_node_0_label		Mineral Level	储量
 def_steam_coal_hopper_l_node_0_desc			
-def_steam_coal_hopper_m_name		Steam Coal Hopper Medium	中型蒸汽煤料斗
-def_steam_coal_hopper_m_desc		Pouring coal into the receptacle will add it to the connected system.	将煤倒入容器存储到相连接的系统中。
-def_steam_coal_hopper_m_s_desc		A hopper that can accept coal.	一个能存储煤的料斗。
-def_steam_coal_hopper_m_node_0_label		Coal Level	储煤量
+def_steam_coal_hopper_m_name		Mineral Hopper Medium	矿物料斗(中型)
+def_steam_coal_hopper_m_desc		Pouring minerals into the receptacle will add it to the connected system.	将矿物倒入容器存储到相连接的系统中。
+def_steam_coal_hopper_m_s_desc		A hopper that can accept minerals.	一个能存储矿物的料斗。
+def_steam_coal_hopper_m_node_0_label		Mineral Level	储量
 def_steam_coal_hopper_m_node_0_desc			
 def_steam_condenser_name		Steam Condenser	蒸汽冷凝器
 def_steam_condenser_desc		The condenser should be continously cooled to function efficiently.	冷凝器在持续冷却下才能够有效工作
@@ -7496,7 +7550,7 @@ def_modular_engine_intake_manifold_node_2_label		Air	气体
 		Creative	创造模式
 		All component blueprints are unlocked.	所有组件蓝图都已解锁。
 		CREATIVE OPTIONS	创造模式选项
-		STEAM Early Access Build	Steam 早期测试版本
+		STEAM Early Access Build	Steam EA版本
 		Available with Advanced Vehicle difficulty	在高级载具模式下可用
 		Exit the editor. This will refund any used components and money.	退出编辑器。这将退还所有使用过的部件和资金。
 		Discard any changes and start a new vehicle. This will refund any used components and money.	放弃任何更改并启动新载具。这将退还所有使用过的部件和资金。
