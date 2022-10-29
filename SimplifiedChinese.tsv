@@ -1878,7 +1878,7 @@ id	description	en	local
 		Rope	绳索
 		Strobe Light	频闪灯
 		Strobe Light (infrared)	频闪灯(红外)
-		Transponder	应答器
+		Transponder	应急信标
 		Underwater Welding Torch	水下焊枪
 		Welding Torch	焊枪
 			
@@ -2218,6 +2218,13 @@ id	description	en	local
 		Uranium Ingot	铀锭
 		Industrial Equipment	工业设备
 		You were disconnected.	你被断开了连接
+		Noclip	穿墙
+		Override Wind Direction	指定风向
+		LOCK SETTINGS	锁定设置
+		Air	气体
+		Exhaust	排气
+		Oil	油
+		Steam	蒸汽
 def_01_block_name		Block	方块
 def_01_block_desc		The block is a quarter-metre in size. Components can be attached to all 6 faces.	这个方块有四分之一米大。组件可以连接收到所有6个面。
 def_01_block_s_desc		Basic cube-shaped building block.	基本立方形建筑块。
@@ -4202,7 +4209,7 @@ def_inventory_equipment_speargun_ammo_s_desc		A small equipment storage unit con
 def_inventory_equipment_speargun_ammo_node_0_label		Electric	电
 def_inventory_equipment_speargun_ammo_node_0_desc		Electrical power connection.	电源连接。
 def_inventory_equipment_strobe_light_name		Equipment inventory (Strobe Light)	装备架(频闪灯)
-def_inventory_equipment_strobe_light_desc		Press [$[action_equipment_use]] to toggle the strobe light on or off. Press [$[action_equipment_secondary]] to toggle MOB (man overboard) mode, which will automatically turn the strobe light on if the player is submerged in water. The strobe light will continue to function when unequipped or discarded. Requires electric charge to function, and will recharge when placed into a powered small equipment storage unit.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按下 [$[action_equipment_use]] 来开关频闪灯。按下 [$[action_equipment_secondary]] 开关MOB(落水)模式，MOB模式下会在玩家落入水中时自动打开频闪。频闪灯在不被装备时依然会继续作用。该设备需要充电才能发挥作用，放入已供电的小型装备架时充电。不使用时可以挂在腰上。
+def_inventory_equipment_strobe_light_desc		Press [$[action_equipment_use]] to toggle the strobe light on or off. Press [$[action_equipment_secondary]] to toggle MOB (man overboard) mode, which will automatically turn the strobe light on if the player is submerged in water. The strobe light will continue to function when unequipped or discarded. Requires electric charge to function, and will recharge when placed into a powered small equipment storage unit.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按下 [$[action_equipment_use]] 来开关频闪灯。按下 [$[action_equipment_secondary]] 开关MOB(落水)模式，MOB模式下会在玩家落入水中时自动打开频闪。频闪灯在不被装备时依然会继续作用。该设备需要充电才能发挥作用，放入已供电的小型装备架时充电。不使用时会被挂在腰上。
 def_inventory_equipment_strobe_light_s_desc		A small equipment storage unit containing a strobe light.	小型装备架，存储一个频闪灯
 def_inventory_equipment_strobe_light_node_0_label		Electric	电
 def_inventory_equipment_strobe_light_node_0_desc		Electrical power connection.	电源连接。
@@ -4211,9 +4218,9 @@ def_inventory_equipment_strobe_light_infrared_desc		Press [$[action_equipment_us
 def_inventory_equipment_strobe_light_infrared_s_desc		A small equipment storage unit containing an infrared strobe light.	小型装备架，存储一个红外频闪灯
 def_inventory_equipment_strobe_light_infrared_node_0_label		Electric	电
 def_inventory_equipment_strobe_light_infrared_node_0_desc		Electrical power connection.	电源连接。
-def_inventory_equipment_transponder_name		Equipment inventory (Transponder)	装备架(应答器)
-def_inventory_equipment_transponder_desc		Press [$[action_equipment_use]] to toggle the transponder on or off. Press [$[action_equipment_secondary]] to toggle MOB (man overboard) mode, which will automatically turn the transponder on if the player is submerged in water. The transponder will continue to function when unequipped or discarded. Requires electric charge to function, and will recharge when placed into a powered small equipment storage unit.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按下 [$[action_equipment_use]] 来开关应答器。按下 [$[action_equipment_secondary]] 开关MOB(落水)模式，MOB模式下会在玩家落入水中时自动打开应答器。应答器在不被装备时依然会继续作用。该设备需要充电才能发挥作用，放入已供电的小型装备架时充电。不使用时可以挂在腰上。
-def_inventory_equipment_transponder_s_desc		A small equipment storage unit containing a handheld transponder.	小型装备架，存储一个手持应答器
+def_inventory_equipment_transponder_name		Equipment inventory (Transponder)	装备架(应急信标)
+def_inventory_equipment_transponder_desc		Press [$[action_equipment_use]] to toggle the transponder on or off. Press [$[action_equipment_secondary]] to toggle MOB (man overboard) mode, which will automatically turn the transponder on if the player is submerged in water. The transponder will continue to function when unequipped or discarded. Requires electric charge to function, and will recharge when placed into a powered small equipment storage unit.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按下 [$[action_equipment_use]] 来开关应急信标。按下 [$[action_equipment_secondary]] 开关MOB(落水)模式，MOB模式下会在玩家落入水中时自动启动应急信标。该信标在不被装备时依然会继续作用。该设备需要充电才能发挥作用，放入已供电的小型装备架时充电。不使用时会被挂在腰上。
+def_inventory_equipment_transponder_s_desc		A small equipment storage unit containing a handheld transponder.	小型装备架，存储一个手持应急信标
 def_inventory_equipment_transponder_node_0_label		Electric	电
 def_inventory_equipment_transponder_node_0_desc		Electrical power connection.	电源连接。
 def_inventory_equipment_underwater_welding_torch_name		Equipment inventory (Underwater Welding Torch)	装备架(水下火旱枪)
@@ -4562,9 +4569,9 @@ def_modular_engine_air_manifold_node_0_label		Throttle	节流阀
 def_modular_engine_air_manifold_node_0_desc			
 def_modular_engine_air_manifold_node_1_label		Air	气体
 def_modular_engine_air_manifold_node_1_desc			
-def_modular_engine_air_ram_name		Air Ram	气体压力机
+def_modular_engine_air_ram_name		Air Ram	气体接口
 def_modular_engine_air_ram_desc			
-def_modular_engine_air_ram_s_desc		Port used to allow air in and out of a fluid system.	只允许气体进出某一流体系统的端口。
+def_modular_engine_air_ram_s_desc		Port used to allow air in and out of a fluid system.	只允许气体进出流体系统的端口。
 def_modular_engine_air_ram_node_0_label		Air	气体
 def_modular_engine_air_ram_node_0_desc		Allows fluid to flow in and out of an enclosed volume.	允许气体进出某一封闭空间。
 def_modular_engine_alternator_name		Modular Engine Alternator	模块化发动机交流发电机
@@ -6495,7 +6502,7 @@ def_torque_clutch_node_3_desc		The electric connection to power the component.	�
 def_torque_crank_name		Torque Crank	手摇曲柄
 def_torque_crank_desc		Holding [$[action_interact_left]]/[$[action_interact_right]] turns the crank, generating a small amount of mechanical power.	按住[$[action_interact_left]]/[$[action_interact_right]]转动曲柄，产生少量机械动力。
 def_torque_crank_s_desc		A hand crank to produce mechanical power.	产生机械动力的摇把
-def_torque_crank_node_0_label		RPS	PRS
+def_torque_crank_node_0_label		RPS	RPS
 def_torque_crank_node_0_desc		Connection to the power system.	连接到动力系统
 def_torque_gearbox_name		Gearbox (Deprecated)	变速箱(已弃用)
 def_torque_gearbox_desc		The ratio can be toggled between two values which can be set in the properties.	在属性中设置两个可切换的比率
@@ -6709,21 +6716,21 @@ def_train_wheels_piston_mid_node_3_desc
 def_train_wheels_piston_mid_node_4_label		Reverser	翻转开关
 def_train_wheels_piston_mid_node_4_desc		Reverse piston direction.	反转活塞方向
 def_transponder_name		Transponder	应急信标
-def_transponder_desc		When activated, emits a continuous transponder signal that can be detected over great distances by any transponder locator.	当激活时，发射连续的应答信号，任何定位器都能够在长距离内检测到此信号。
-def_transponder_s_desc		An emergency search and rescue transponder.	一个应急用搜救应答器
+def_transponder_desc		When activated, emits a continuous transponder signal that can be detected over great distances by any transponder locator.	当激活时，会持续发射应急信号，任何应急信标定位器都可以在长距离内检测到此信号。
+def_transponder_s_desc		An emergency search and rescue transponder.	应急搜救信标
 def_transponder_node_0_label		Electric	电
 def_transponder_node_0_desc		Electrical power connection.	电源连接。
 def_transponder_node_1_label		Active	激活
-def_transponder_node_1_desc		Emit a continuous transponder signal when active.	当激活时发射连续应答信号
+def_transponder_node_1_desc		Emit a continuous transponder signal when active.	当激活时发射连续应急信号
 def_transponder_locator_name		Transponder Locator	应急信标定位器
-def_transponder_locator_desc		Detects all transponder signals over great distances. Outputs the strongest signal strength detected, transponder signal strengths will decrease with distance.	在长距离内检测所有的应急信号，信号会随距离衰减，输出检测到最强的信号。
+def_transponder_locator_desc		Detects all transponder signals over great distances. Outputs the strongest signal strength detected, transponder signal strengths will decrease with distance.	检测很大范围内的所有的应急信标信号，信号会随距离衰减，输出检测到最强的信号。
 def_transponder_locator_s_desc		An emergency search and rescue transponder locator.	一个应急信标定位器
-def_transponder_locator_node_0_label		Transponder Pulse	应答脉冲
-def_transponder_locator_node_0_desc		Emits a periodic boolean pulse, with a frequency determined by the distance to the nearest transponder signal.	输出一个周期性二进制脉冲，频率取决于检测到最近的应急信标的距离。
+def_transponder_locator_node_0_label		Transponder Pulse	应急信号脉冲
+def_transponder_locator_node_0_desc		Emits a periodic boolean pulse, with a frequency determined by the distance to the nearest transponder signal.	发出一个周期性的布尔型(boolean)脉冲，频率取决于检测到最近的应急信标的距离。
 def_transponder_locator_node_1_label		Electric	电
 def_transponder_locator_node_1_desc		Electrical power connection.	电源连接。
 def_transponder_locator_node_2_label		Active	激活
-def_transponder_locator_node_2_desc		Detects any transponder signals when active.	当激活时检测任何应急信号。
+def_transponder_locator_node_2_desc		Detects any transponder signals when active.	当激活时搜索应急信号。
 def_trans_angle_name		Pipe Angle	L型管道
 def_trans_angle_desc			
 def_trans_angle_s_desc		An angled pipe for transferring to components from an engine.	从发动机传送到部件的有角度的管子。
@@ -6776,22 +6783,22 @@ def_turbine_node_2_desc		Standard value between 0 and 1 that controls the thrott
 def_turbine_node_3_label		Electric	电
 def_turbine_node_3_desc		Electrical power connection.	电源连接。
 def_turbocharger_name		Impeller Pump	叶轮流体泵
-def_turbocharger_desc		An Impeller that will force fluid through the system when torque is applied.	当有扭矩输入时能够强制将流体从一端泵向另一端
+def_turbocharger_desc		An Impeller that will force fluid through the system when torque is applied.	需要外部动力输入的流体泵
 def_turbocharger_s_desc		An Impeller Pump that can push fluid through a system.	叶轮将流体从一端泵向另一端
-def_turbocharger_node_0_label		Fluid In	液体进入
+def_turbocharger_node_0_label		Fluid In	入口
 def_turbocharger_node_0_desc			
 def_turbocharger_node_1_label		RPS	RPS
 def_turbocharger_node_1_desc			
-def_turbocharger_node_2_label		Fluid Out	液体流出
+def_turbocharger_node_2_label		Fluid Out	出口
 def_turbocharger_node_2_desc			
 def_turbocharger_small_name		Impeller Pump (Small)	叶轮流体泵（小型）
-def_turbocharger_small_desc		An Impeller that will force fluid through the system when torque is applied.	当有扭矩输入时能够强制将流体从一端泵向另一端
+def_turbocharger_small_desc		An Impeller that will force fluid through the system when torque is applied.	需要外部动力输入的流体泵
 def_turbocharger_small_s_desc		An Impeller Pump that can push fluid through a system.	叶轮将流体从一端泵向另一端
-def_turbocharger_small_node_0_label		Fluid In	液体进入
+def_turbocharger_small_node_0_label		Fluid In	入口
 def_turbocharger_small_node_0_desc			
 def_turbocharger_small_node_1_label		RPS	RPS
 def_turbocharger_small_node_1_desc			
-def_turbocharger_small_node_2_label		Fluid Out	液体流出
+def_turbocharger_small_node_2_label		Fluid Out	出口
 def_turbocharger_small_node_2_desc			
 def_tyre_large_name		Large Tyre	大轮胎
 def_tyre_large_desc		Useful for creating tyre stacks and fenders.	用于创建轮胎栈和挡泥板。
@@ -6918,34 +6925,34 @@ def_water_outlet_desc		Place the port inside of an enclosed volume to connect to
 def_water_outlet_s_desc		Port used to allow fluid in and out of a fluid system.	允许流体进出流体系统的端口。
 def_water_outlet_node_0_label		Fluid	流体
 def_water_outlet_node_0_desc		Allows fluid to flow in and out of an enclosed volume or the ocean.	允许流体进出封闭的体积或海洋。
-def_water_pump_name		Fluid Pump	液压泵
-def_water_pump_desc		Connect to an inlet and outlet to create a pumping system to move fluid around a vehicle.	连接收到入口和出口，以创建一个泵送系统，在载具周围移动流体。
+def_water_pump_name		Fluid Pump	流体泵
+def_water_pump_desc		Connect to an inlet and outlet to create a pumping system to move fluid around a vehicle.	不需要外部动力的流体泵，正确连接流体的入口和出口，以创建一个泵送系统。
 def_water_pump_s_desc		A small fluid pump.	一个小型的流体泵。
 def_water_pump_node_0_label		On/Off	开/关
 def_water_pump_node_0_desc		Controls whether or not the fluid is being pumped through.	控制流体是否被泵入。
-def_water_pump_node_1_label		Fluid In	液体进入
+def_water_pump_node_1_label		Fluid In	入口
 def_water_pump_node_1_desc		Connect to an inlet component to take fluid into the system.	连接入口部件以将流体泵入系统。
-def_water_pump_node_2_label		Fluid Out	液体流出
+def_water_pump_node_2_label		Fluid Out	出口
 def_water_pump_node_2_desc		Connect to an outlet component to release fluid from the system.	连接收到出口部件以释放系统中的流体。
 def_water_pump_node_3_label		Electric	电
 def_water_pump_node_3_desc		Electrical power connection.	电源连接。
-def_water_pump_large_name		Large Fluid Pump	大型液压泵
-def_water_pump_large_desc		Connect to an inlet and outlet to create a pumping system to move fluid around a vehicle.	连接收到入口和出口，以创建一个泵送系统，在载具周围移动流体。
-def_water_pump_large_s_desc		A large fluid pump.	一个大的油泵。
-def_water_pump_large_node_0_label		Fluid In	液体进入
+def_water_pump_large_name		Large Fluid Pump	大型流体泵
+def_water_pump_large_desc		Connect to an inlet and outlet to create a pumping system to move fluid around a vehicle.	不需要外部动力的流体泵，正确连接流体的入口和出口，以创建一个泵送系统。
+def_water_pump_large_s_desc		A large fluid pump.	大型流体泵。
+def_water_pump_large_node_0_label		Fluid In	入口
 def_water_pump_large_node_0_desc		Connect to an inlet component to take fluid into the system.	连接入口部件以将流体泵入系统。
-def_water_pump_large_node_1_label		Fluid Out	液体流出
+def_water_pump_large_node_1_label		Fluid Out	出口
 def_water_pump_large_node_1_desc		Connect to an outlet component to release fluid from the system.	连接收到出口部件以释放系统中的流体。
 def_water_pump_large_node_2_label		On/Off	开/关
 def_water_pump_large_node_2_desc		Controls whether or not the fluid is being pumped.	控制是否泵送流体。
 def_water_pump_large_node_3_label		Electric	电
 def_water_pump_large_node_3_desc		Electrical power connection.	电源连接。
-def_water_pump_manual_name		Fluid Pump (Manual)	液压泵(手动)
+def_water_pump_manual_name		Fluid Pump (Manual)	流体泵(手动)
 def_water_pump_manual_desc		Hold [$[action_interact_left]]/[$[action_interact_right]] to create pressure in the pump. Connect to an inlet and outlet to create a pumping system to move fluid around a vehicle.	按住[$[action_interact_left]]/[$[action_interact_right]]，产生压力
 def_water_pump_manual_s_desc		A small fluid pump with a manual handle.	小型手摇流体泵
-def_water_pump_manual_node_0_label		Fluid In	流体入口
+def_water_pump_manual_node_0_label		Fluid In	入口
 def_water_pump_manual_node_0_desc		Connect to an inlet component to take fluid into the system.	连接到入口部件以讲流体泵入系统
-def_water_pump_manual_node_1_label		Fluid Out	流体出口
+def_water_pump_manual_node_1_label		Fluid Out	出口
 def_water_pump_manual_node_1_desc		Connect to an outlet component to release fluid from the system.	连接到出口部件以讲流体泵入系统
 def_water_spawner_name		Fluid Spawner	流体生成器
 def_water_spawner_desc		The fluid spawner for helping with custom fluid tanks, so they can be spawned full, without a need to fill after spawning.	流体生成器，帮助自定义的流体坦克，所以他们可以生成充分，无需填补后生成。
