@@ -6942,7 +6942,7 @@ def_water_pump_large_s_desc		A large fluid pump.	大型流体泵
 def_water_pump_large_node_0_label		Fluid In	入口
 def_water_pump_large_node_0_desc		Connect to an inlet component to take fluid into the system.	连接入口部件以将流体泵入系统
 def_water_pump_large_node_1_label		Fluid Out	出口
-def_water_pump_large_node_1_desc		Connect to an outlet component to release fluid from the system.	连接收到出口部件以释放系统中的流体
+def_water_pump_large_node_1_desc		Connect to an outlet component to release fluid from the system.	连接出口部件以泵出系统中的流体
 def_water_pump_large_node_2_label		On/Off	开/关
 def_water_pump_large_node_2_desc		Controls whether or not the fluid is being pumped.	控制是否泵送流体
 def_water_pump_large_node_3_label		Electric	电
@@ -6951,12 +6951,12 @@ def_water_pump_manual_name		Fluid Pump (Manual)	流体泵(手动)
 def_water_pump_manual_desc		Hold [$[action_interact_left]]/[$[action_interact_right]] to create pressure in the pump. Connect to an inlet and outlet to create a pumping system to move fluid around a vehicle.	按住[$[action_interact_left]]/[$[action_interact_right]]，产生压力
 def_water_pump_manual_s_desc		A small fluid pump with a manual handle.	小型手摇流体泵
 def_water_pump_manual_node_0_label		Fluid In	入口
-def_water_pump_manual_node_0_desc		Connect to an inlet component to take fluid into the system.	连接到入口部件以讲流体泵入系统
+def_water_pump_manual_node_0_desc		Connect to an inlet component to take fluid into the system.	连接到入口部件以将流体泵入系统
 def_water_pump_manual_node_1_label		Fluid Out	出口
-def_water_pump_manual_node_1_desc		Connect to an outlet component to release fluid from the system.	连接到出口部件以讲流体泵入系统
-def_water_spawner_name		Fluid Spawner	流体生成器
-def_water_spawner_desc		The fluid spawner for helping with custom fluid tanks, so they can be spawned full, without a need to fill after spawning.	流体生成器，帮助自定义的流体坦克，所以他们可以生成充分，无需填补后生成
-def_water_spawner_s_desc		A component to mark an enclosed area to be spawned with fluid inside.	一种组件，用于标记要在内部生成流体的封闭区域
+def_water_pump_manual_node_1_desc		Connect to an outlet component to release fluid from the system.	连接到出口部件以将流体泵入系统
+def_water_spawner_name		Fluid Spawner	液体生成器
+def_water_spawner_desc		The fluid spawner for helping with custom fluid tanks, so they can be spawned full, without a need to fill after spawning.	在封闭区域生成液体,一般用于制作自定义油箱/水箱等.
+def_water_spawner_s_desc		A component to mark an enclosed area to be spawned with fluid inside.	用于标记要在封闭区域内部生成流体的组件
 def_water_suction_duct_name		Fluid Slot Port	流体进出端口
 def_water_suction_duct_desc		Place the port inside of an enclosed volume to connect to that volume, or outside of the vehicle to connect to the ocean.	将端口放在封闭空间的内部以连接收到该空间，或放在载具外部以连接到海洋
 def_water_suction_duct_s_desc		Port used to allow fluid in and out of a fluid system.	允许流体进出流体系统的端口
