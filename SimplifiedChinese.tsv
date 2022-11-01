@@ -2558,20 +2558,20 @@ def_camera_gimbal_laser_node_3_label		Enable Laser	开启激光
 def_camera_gimbal_laser_node_3_desc		Enables the Laser.	开启激光
 def_camera_gimbal_laser_node_4_label		Field of View	FOV(视野)
 def_camera_gimbal_laser_node_4_desc		Controls the level of zoom of the camera.	控制摄像头的缩放
-def_camera_gimbal_laser_node_5_label		Pivot Rotation	航向控制
+def_camera_gimbal_laser_node_5_label		Pivot Rotation	旋转控制
 def_camera_gimbal_laser_node_5_desc		Controls the rotation of the camera base.	输入速度，控制摄像头底座的水平旋转
 def_camera_gimbal_laser_node_6_label		Pitch Rotation	俯仰控制
 def_camera_gimbal_laser_node_6_desc		Controls the rotation of the camera head.	控制摄像头的俯仰旋转
-def_camera_gimbal_laser_node_7_label		Laser Distance	激光指示距离
-def_camera_gimbal_laser_node_7_desc		The measured distance in meters.	激光指示距离(单位:米)
-def_camera_gimbal_laser_node_8_label		Stabilizer Mode	锁定模式
+def_camera_gimbal_laser_node_7_label		Laser Distance	激光测距
+def_camera_gimbal_laser_node_7_desc		The measured distance in meters.	激光测距(单位:米)
+def_camera_gimbal_laser_node_8_label		Stabilizer Mode	防抖模式
 def_camera_gimbal_laser_node_8_desc		Enable stabilization to keep the camera focused in its current direction.	开启稳定模式让摄像头稳定在目前朝向
 def_camera_gimbal_laser_node_9_label		Tracker Mode	追踪模式
 def_camera_gimbal_laser_node_9_desc		Enable tracking to direct the camera at the current lazed position.	开启后将相机朝向稳定至当前激光照射位置
 def_camera_gimbal_laser_node_10_label		Composite Output	混合输出
 def_camera_gimbal_laser_node_10_desc		x, y, z output for the laser target in channels 1, 2, 3 respectively.	输出目标x,y,z轴位置，对应1,2,3通道
-def_camera_gimbal_laser_node_11_label		Laser Wavelength	激光波长
-def_camera_gimbal_laser_node_11_desc		The specific light wavelength to emit (whole number).	指定激光发出特定波长(整数)
+def_camera_gimbal_laser_node_11_label		Laser Wavelength	激光编码
+def_camera_gimbal_laser_node_11_desc		The specific light wavelength to emit (whole number).	激光编码(整数),激光传感器需要使用相同的编码才能识别激光照射
 def_camera_med_name		Camera Medium	中型摄像头
 def_camera_med_desc		Has infrared mode as well as variable field of view.	具有红外模式以及可变视野
 def_camera_med_s_desc		A camera with video output feed.	有视频输出的摄像头
@@ -2845,10 +2845,10 @@ def_digital_display_node_1_desc		Enables the backlight when receiving an on sign
 def_digital_display_node_2_label		Electric	电
 def_digital_display_node_2_desc		Electrical power connection.	电源连接
 def_distance_sensor_name		Distance Sensor	距离传感器
-def_distance_sensor_desc		The reading can be read from the sensor's number output and is measured in metres (1 metre = 4 blocks).	可以从传感器的数字输出中读取读数，并以米(1米=4块)为单位进行测量
-def_distance_sensor_s_desc		A laser distance sensor with a maximum measurement range of 500m.	最大测量范围为250米的激光距离传感器
+def_distance_sensor_desc		The reading can be read from the sensor's number output and is measured in metres (1 metre = 4 blocks).	以米为单位输出测量的距离(1米=4块),最大量程500米
+def_distance_sensor_s_desc		A laser distance sensor with a maximum measurement range of 500m.	最大量程为500米的激光测距仪
 def_distance_sensor_node_0_label		Distance	距离
-def_distance_sensor_node_0_desc		The measured distance in metres.	以米为单位测量的距离，可达250米
+def_distance_sensor_node_0_desc		The measured distance in metres.	以米为单位测量的距离
 def_distance_sensor_node_1_label		Electric	电
 def_distance_sensor_node_1_desc		Electrical power connection.	电源连接
 def_door_name		Sliding Door (Electric)	滑动门(电动)
@@ -4441,33 +4441,33 @@ def_large_rotor_node_3_label		Collective	总距
 def_large_rotor_node_3_desc		Standard value between -1 and 1 representing the desired pitch amount.	介于-1和1之间的标准值，表示总距
 def_laser_beacon_name		Laser Beacon	激光信标
 def_laser_beacon_desc			
-def_laser_beacon_s_desc		A beacon that produces a laser point light, visible by laser point sensors.	产生激光点光源的信标，由激光点传感器可见
-def_laser_beacon_node_0_label		Beacon Light	信标灯
-def_laser_beacon_node_0_desc		Switches the beacon on when receiving an on signal.	接收到接通信号时打开信标
+def_laser_beacon_s_desc		A beacon that produces a laser point light, visible by laser point sensors.	在此信标位置产生激光点，可以被激光传感器识别
+def_laser_beacon_node_0_label		Beacon Light	开关
+def_laser_beacon_node_0_desc		Switches the beacon on when receiving an on signal.	收到on信号时点亮
 def_laser_beacon_node_1_label		Electric	电
 def_laser_beacon_node_1_desc		Electrical power connection.	电源连接
-def_laser_beacon_node_2_label		Wavelength	波长
-def_laser_beacon_node_2_desc		The specific light wavelength to emit (whole number).	要发射的特定光波长(整数)
+def_laser_beacon_node_2_label		Wavelength	激光编码
+def_laser_beacon_node_2_desc		The specific light wavelength to emit (whole number).	设定激光编码(整数),使用相同编码的传感器才能识别到此激光信号
 def_laser_distance_sensor_name		Laser Distance Sensor	激光距离传感器
-def_laser_distance_sensor_desc		The reading can be read from the sensor's number output and is measured in metres (1 metre = 4 blocks).	可以从传感器的数字输出中读取读数，并以米(1米=4块)为单位进行测量
-def_laser_distance_sensor_s_desc		A laser distance sensor with a maximum measurement range of 4000m.	最大测量范围为2000米的激光距离传感器
-def_laser_distance_sensor_node_0_label		Distance	距离
-def_laser_distance_sensor_node_0_desc		The measured distance in metres.	以米为单位测量的距离，可达2000米
+def_laser_distance_sensor_desc		The reading can be read from the sensor's number output and is measured in metres (1 metre = 4 blocks).	以米为单位输出测量的距离(1米=4块),最大量程4000米
+def_laser_distance_sensor_s_desc		A laser distance sensor with a maximum measurement range of 4000m.	最大量程为4000米的激光测距仪
+def_laser_distance_sensor_node_0_label		Distance	距离(米)
+def_laser_distance_sensor_node_0_desc		The measured distance in metres.	以米为单位测量的距离
 def_laser_distance_sensor_node_1_label		Electric	电
 def_laser_distance_sensor_node_1_desc		Electrical power connection.	电源连接
 def_laser_distance_sensor_node_2_label		Active	打开
-def_laser_distance_sensor_node_2_desc		Controls whether or not the laser is active.	控制激光器是否激活
-def_laser_distance_sensor_node_3_label		Wavelength	波长
+def_laser_distance_sensor_node_2_desc		Controls whether or not the laser is active.	控制激光器是否发射
+def_laser_distance_sensor_node_3_label		Wavelength	激光编码
 def_laser_distance_sensor_node_3_desc		The specific light wavelength to emit (whole number).	要发射的特定光波长(整数)
 def_laser_point_sensor_name		Laser Point Sensor	激光点传感器
-def_laser_point_sensor_desc		The closest point to the center of the sensor's field of view will be reported. It outputs a value of -1 to 1 on composite number channel 1 for the x position, and a value of -1 to 1 on composite number channel 2 for the y position. Composite on/off channel 1 is set to on when a point is visible. The -1 to 1 values map to an fov of -cos(0.5) to cos(0.5) in both the x and y directions.	将报告距离传感器视场中心最近的点。它在x位置的复合编号通道1上输出-1到1的值，在y位置的复合编号通道2上输出-1到1的值。当点可见时，复合开/关通道1设置为开。在x和y方向，-1到1的值映射到-cos(0.5)到cos(0.5)的fov
+def_laser_point_sensor_desc		The closest point to the center of the sensor's field of view will be reported. It outputs a value of -1 to 1 on composite number channel 1 for the x position, and a value of -1 to 1 on composite number channel 2 for the y position. Composite on/off channel 1 is set to on when a point is visible. The -1 to 1 values map to an fov of -cos(0.5) to cos(0.5) in both the x and y directions.	在混合通道输出距离视场中心最近的激光点(相同激光编码).number通道1:x位置(-1到1).number通道2:y位置(-1到1).boolean通道1:发现激光点.-1到1的值在x和y方向上都映射为-cos(0.5)到cos(0.5)的视场
 def_laser_point_sensor_s_desc		A sensor that outputs a relative x and y position of a laser point that it can see within its field of view.	一种传感器，输出激光点的相对x和y位置，在其视场内可以看到
 def_laser_point_sensor_node_0_label		Electric	电
 def_laser_point_sensor_node_0_desc		Electrical power connection.	电源连接
 def_laser_point_sensor_node_1_label		Data Output	数据输出
-def_laser_point_sensor_node_1_desc		On/Off channel 1: is laser detected. Number channel 1, 2: X, Y position within the sensors 120 degree field of view.	打开/关闭通道1:检测到激光。数字通道1，2:X，Y在传感器120度视野内的位置
-def_laser_point_sensor_node_2_label		Wavelength	波长
-def_laser_point_sensor_node_2_desc		The specific light wavelength to detect (whole number).	要检测的特定光波长(整数)
+def_laser_point_sensor_node_1_desc		On/Off channel 1: is laser detected. Number channel 1, 2: X, Y position within the sensors 120 degree field of view.	on/off通道1:检测到激光。munber通道1,2:X，Y点在传感器120度视野内的位置
+def_laser_point_sensor_node_2_label		Wavelength	激光编码
+def_laser_point_sensor_node_2_desc		The specific light wavelength to detect (whole number).	设置激光编码(整数),相同编码的激光才能被检测到
 def_linear_base_name		Linear Track Base	直线轨道基座
 def_linear_base_desc		You can build the track using the Linear Track Extension component. This base component provides 3 blocks that can be built on. A pair of on/off signals allow you to control the up and down motion of the slider, and a numerical output lets you measure the slider's offset from its starting position. Multiple slider bases can run along the same track. The up/down speed can be configured by selecting this component with the select tool.	可以使用“线性轨迹扩展”组件构建轨迹。这个基本组件提供了3个可以构建的块。一对开/关信号允许您控制滑块的上下运动，一个数字输出允许您测量滑块从其起始位置的偏移。多个滑块底座可以沿同一轨迹运行。可通过使用选择工具选择该部件来配置上升/下降速度
 def_linear_base_s_desc		A slider that moves along a modular linear track.	沿模块化线性轨道移动的滑块
@@ -5153,8 +5153,8 @@ def_radar_advanced_missile_laser_node_2_label		Sensor Data	传感器数据
 def_radar_advanced_missile_laser_node_2_desc		Outputs data for up to 8 targets. On/Off 1-8 : Target 1 Found, Target 2 Found, etc... Values 1-32 : Target 1 Distance, Target 1 Azimuth Angle, Target 1 Elevation Angle, Target 1 Time Since Detection, Target 2 Distance, Target 2 Azimuth Angle, Target 2 Elevation Angle, Target 2 Time Since Detection, etc...	输出多达8个目标的数据。(on/off1-8:找到目标)(值1-4:目标1(距离、方位角、仰角、检测后的时间))(值5-8:目标2)等。。
 def_radar_advanced_missile_laser_node_3_label		Missile Output	导弹输出
 def_radar_advanced_missile_laser_node_3_desc		Outputs x and y data for the most immediate target. Link this directly into a rocket fins component.	输出凝视目标的x和y数据。将其直接连接到弹翼组件中
-def_radar_advanced_missile_laser_node_4_label		Frequency	频率
-def_radar_advanced_missile_laser_node_4_desc		Target laser frequency to scan for.	要捕获的激光频率
+def_radar_advanced_missile_laser_node_4_label		Frequency	激光编码
+def_radar_advanced_missile_laser_node_4_desc		Target laser frequency to scan for.	要捕获的激光编码
 def_radar_advanced_phalanx_name		Radar (Phalanx)	雷达(密集阵)
 def_radar_advanced_phalanx_desc		This sensor outputs the distance and relative angle to a detected object within its range and field of view using radio waves. Sensitivity is based on FOV, target size, and distance.	该传感器输出其范围和视野内的检测对象的距离和相对角度。灵敏度取决于视场、目标大小和距离
 def_radar_advanced_phalanx_s_desc		A radar that returns information about a detected object within its view.	一种雷达，返回其视野内探测到的物体的信息
