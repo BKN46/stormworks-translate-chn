@@ -6284,17 +6284,17 @@ def_stair_top_name		Stair Top	楼梯顶部
 def_stair_top_desc			
 def_stair_top_s_desc		A single step that can be used at the top of a staircase to make it flush with a platform.	一种台阶，可用于楼梯顶部，使其与平台平齐。
 def_steam_boiler_name		Steam Boiler	蒸汽锅炉
-def_steam_boiler_desc		The boiler should be connected to a firebox to supply heat for evaporation. Allowing too much pressure to build up in the boiler may cause an explosion; control your boiler's heat to restrict steam generation and keep the pressure below the threshold (10).	锅炉应连接至提供蒸发水所需热量的燃烧室。当压力过高时可能会爆炸。请控制燃烧以将蒸汽压力保持在安全压力(10)以下。
-def_steam_boiler_s_desc		A boiler for evaporating water into steam.	把水蒸发成蒸汽的锅炉
-def_steam_boiler_node_0_label		Coolant A	冷却液 A
-def_steam_boiler_node_0_desc		Port for supplying hot fluid to heat the contents of the boiler.	锅炉热流输入口
-def_steam_boiler_node_1_label		Coolant B	冷却液 B
-def_steam_boiler_node_1_desc		Port for supplying hot fluid to heat the contents of the boiler.	锅炉热流输入口
-def_steam_boiler_node_2_label		Water In	水进入
+def_steam_boiler_desc		The boiler should be connected to a firebox to supply heat for evaporation. Allowing too much pressure to build up in the boiler may cause an explosion; control your boiler's heat to restrict steam generation and keep the pressure below the threshold (10).	热流的温度大于100时,就可以开始产生蒸汽压力.更高的温度可以更快的产生压力.压力到达10锅炉就会爆炸.压力低于5会降低性能,5到10的压力似乎没有性能差异
+def_steam_boiler_s_desc		A boiler for evaporating water into steam.	蒸汽锅炉用于建造燃煤煤或核动力引擎。热源向锅炉提供热流体，淡水被转化为蒸汽排出。
+def_steam_boiler_node_0_label		Coolant A	热水接口 A
+def_steam_boiler_node_0_desc		Port for supplying hot fluid to heat the contents of the boiler.	锅炉热流出入口
+def_steam_boiler_node_1_label		Coolant B	热水接口 B
+def_steam_boiler_node_1_desc		Port for supplying hot fluid to heat the contents of the boiler.	锅炉热流出入口
+def_steam_boiler_node_2_label		Water In	水箱入口
 def_steam_boiler_node_2_desc			
-def_steam_boiler_node_3_label		Steam Out	蒸汽排出
+def_steam_boiler_node_3_label		Steam Out	蒸汽出口
 def_steam_boiler_node_3_desc			
-def_steam_boiler_node_4_label		Fluid Volume	流体体积
+def_steam_boiler_node_4_label		Fluid Volume	剩余水量
 def_steam_boiler_node_4_desc			
 def_steam_boiler_node_5_label		Temperature	温度
 def_steam_boiler_node_5_desc			
@@ -6317,38 +6317,38 @@ def_steam_coal_duct_m_node_0_label		Mineral Level	储量
 def_steam_coal_duct_m_node_0_desc			
 def_steam_coal_firebox_name		Firebox	煤炉
 def_steam_coal_firebox_desc		Produces large amounts of heat. Can be supplied with a mineral duct. Consumes 1 coal to ignite the fire.	消耗1单位的煤炭点火，产生大量的热量。可以连接矿物输送管。
-def_steam_coal_firebox_s_desc		A coal powered firebox.	一个以煤为燃料的燃烧室
-def_steam_coal_firebox_node_0_label		Mineral Level	储量
+def_steam_coal_firebox_s_desc		A coal powered firebox.	一个以煤为燃料,加热水的燃烧室
+def_steam_coal_firebox_node_0_label		Mineral Level	煤炭储量
 def_steam_coal_firebox_node_0_desc			
 def_steam_coal_firebox_node_1_label		Temperature	温度
-def_steam_coal_firebox_node_1_desc		Temperature of the coolant that is being heated.	正在加热的液体的温度。
+def_steam_coal_firebox_node_1_desc		Temperature of the coolant that is being heated.	正在加热的水温
 def_steam_coal_firebox_node_2_label		Ignition	点火
 def_steam_coal_firebox_node_2_desc		Activate to consume a coal and ignite the firebox.	激活以消耗煤炭并点燃燃烧室
-def_steam_coal_firebox_node_3_label		Coolant In	冷却液进入
-def_steam_coal_firebox_node_3_desc		In port for fluid to be heated by the firebox.	燃烧室待加热液体入口
-def_steam_coal_firebox_node_4_label		Coolant Out	冷却液排出
+def_steam_coal_firebox_node_3_label		Coolant In	热水入口
+def_steam_coal_firebox_node_3_desc		In port for fluid to be heated by the firebox.	燃烧室热液入口
+def_steam_coal_firebox_node_4_label		Coolant Out	热水出口
 def_steam_coal_firebox_node_4_desc		Out port for fluid to be heated by the firebox.	燃烧室热液出口
 def_steam_coal_firebox_node_5_label		Air	空气
-def_steam_coal_firebox_node_5_desc		Port for supplying air to the fire.	燃烧进气口
+def_steam_coal_firebox_node_5_desc		Port for supplying air to the fire.	燃烧室进气口
 def_steam_coal_firebox_node_6_label		Exhaust	排气管
-def_steam_coal_firebox_node_6_desc		Port for removing exhaust from burnt coal.	燃煤排气口
+def_steam_coal_firebox_node_6_desc		Port for removing exhaust from burnt coal.	燃煤废气的排气口
 def_steam_coal_firebox_l_name		Firebox Large	煤炉(大型)
 def_steam_coal_firebox_l_desc		Produces large amounts of heat. Can be supplied with a mineral duct. Consumes 1 coal to ignite the fire.	消耗1单位的煤炭点火，产生大量的热量。可以连接矿物输送管。
-def_steam_coal_firebox_l_s_desc		A coal powered firebox.	一个以煤为燃料的燃烧室
-def_steam_coal_firebox_l_node_0_label		Mineral Level	储量
+def_steam_coal_firebox_l_s_desc		A coal powered firebox.	一个以煤为燃料,加热水的燃烧室
+def_steam_coal_firebox_l_node_0_label		Mineral Level	煤炭储量
 def_steam_coal_firebox_l_node_0_desc			
 def_steam_coal_firebox_l_node_1_label		Temperature	温度
-def_steam_coal_firebox_l_node_1_desc		Temperature of the coolant that is being heated.	正在加热的液体的温度。
+def_steam_coal_firebox_l_node_1_desc		Temperature of the coolant that is being heated.	正在加热的水温
 def_steam_coal_firebox_l_node_2_label		Ignition	点火
 def_steam_coal_firebox_l_node_2_desc		Activate to consume a coal and ignite the firebox.	激活以消耗煤炭并点燃燃烧室
-def_steam_coal_firebox_l_node_3_label		Coolant In	冷却液进入
-def_steam_coal_firebox_l_node_3_desc		In port for fluid to be heated by the firebox.	燃烧室待加热液体入口
-def_steam_coal_firebox_l_node_4_label		Coolant Out	冷却液排出
+def_steam_coal_firebox_l_node_3_label		Coolant In	热水入口
+def_steam_coal_firebox_l_node_3_desc		In port for fluid to be heated by the firebox.	燃烧室热液入口
+def_steam_coal_firebox_l_node_4_label		Coolant Out	热水出口
 def_steam_coal_firebox_l_node_4_desc		Out port for fluid to be heated by the firebox.	燃烧室热液出口
 def_steam_coal_firebox_l_node_5_label		Air	空气
-def_steam_coal_firebox_l_node_5_desc		Port for supplying air to the fire.	燃烧进气口
+def_steam_coal_firebox_l_node_5_desc		Port for supplying air to the fire.	燃烧室进气口
 def_steam_coal_firebox_l_node_6_label		Exhaust	排气管
-def_steam_coal_firebox_l_node_6_desc		Port for removing exhaust from burnt coal.	燃烧排气口
+def_steam_coal_firebox_l_node_6_desc		Port for removing exhaust from burnt coal.	燃煤废气的排气口
 def_steam_coal_funnel_name		Mineral Funnel	矿物漏斗
 def_steam_coal_funnel_desc		Can be toggled to slowly move minerals out of the connected system.	可以通过开关信号将矿物缓慢的排出相连接的系统。
 def_steam_coal_funnel_s_desc		A funnel for moving minerals.	排出矿物的漏斗
@@ -6371,16 +6371,16 @@ def_steam_coal_hopper_m_node_0_label		Mineral Level	储量
 def_steam_coal_hopper_m_node_0_desc			
 def_steam_condenser_name		Steam Condenser	蒸汽冷凝器
 def_steam_condenser_desc		The condenser should be continously cooled to function efficiently.	冷凝器在持续冷却下才能够有效工作
-def_steam_condenser_s_desc		A condenser for converting steam back to water.	将蒸汽冷凝回水的机器
-def_steam_condenser_node_0_label		Coolant A	冷却液 A
-def_steam_condenser_node_0_desc		Port for supplying cold fluid to cool the contents of the condenser.	锅炉冷流输入口
-def_steam_condenser_node_1_label		Coolant B	冷却液 B
-def_steam_condenser_node_1_desc		Port for supplying cold fluid to cool the contents of the condenser.	锅炉冷流输入口
-def_steam_condenser_node_2_label		Steam In	蒸汽输入
+def_steam_condenser_s_desc		A condenser for converting steam back to water.	用于将蒸汽转换为水的冷凝器
+def_steam_condenser_node_0_label		Coolant A	冷却接口 A
+def_steam_condenser_node_0_desc		Port for supplying cold fluid to cool the contents of the condenser.	给冷凝器降温的冷流接口
+def_steam_condenser_node_1_label		Coolant B	冷却接口 B
+def_steam_condenser_node_1_desc		Port for supplying cold fluid to cool the contents of the condenser.	给冷凝器降温的冷流接口
+def_steam_condenser_node_2_label		Steam In	蒸汽入口
 def_steam_condenser_node_2_desc			
-def_steam_condenser_node_3_label		Water Out	冷凝水输出
+def_steam_condenser_node_3_label		Water Out	冷凝水出口
 def_steam_condenser_node_3_desc			
-def_steam_condenser_node_4_label		Fluid Volume	液体容量
+def_steam_condenser_node_4_label		Fluid Volume	水量
 def_steam_condenser_node_4_desc			
 def_steam_condenser_node_5_label		Temperature	温度
 def_steam_condenser_node_5_desc			
@@ -6458,12 +6458,12 @@ def_steam_piston_5x5_node_6_label		RPS	RPS
 def_steam_piston_5x5_node_6_desc			
 def_steam_piston_5x5_node_7_label		Piston Position	活塞位置
 def_steam_piston_5x5_node_7_desc			
-def_steam_turbine_name		Steam Turbine	蒸汽涡轮
-def_steam_turbine_desc		Produces torque based on the force generated by steam passing through the turbine.	利用通过涡轮的蒸汽来产生扭矩
-def_steam_turbine_s_desc		A steam powered turbine.	一个蒸汽动力涡轮
-def_steam_turbine_node_0_label		Steam In	蒸汽输入
+def_steam_turbine_name		Steam Turbine	蒸汽轮机
+def_steam_turbine_desc		Produces torque based on the force generated by steam passing through the turbine.	利用通过的蒸汽来产生扭矩
+def_steam_turbine_s_desc		A steam powered turbine.	蒸汽动力引擎
+def_steam_turbine_node_0_label		Steam In	蒸汽入口
 def_steam_turbine_node_0_desc			
-def_steam_turbine_node_1_label		Steam Out	蒸汽输出
+def_steam_turbine_node_1_label		Steam Out	蒸汽出口
 def_steam_turbine_node_1_desc			
 def_steam_turbine_node_2_label		RPS	RPS
 def_steam_turbine_node_2_desc			
