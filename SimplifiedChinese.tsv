@@ -1958,7 +1958,7 @@ id	description	en	local
 		Artillery Cannon Shell (Armor Piercing)	大型榴弹(穿甲)
 		Artillery Cannon Shell (Incendiary)	大型榴弹(燃烧)
 		C-4 Explosive	C-4炸药
-		C-4 Detonator	C-4雷管
+		C-4 Detonator	C-4起爆器
 		Speargun	鱼叉枪
 		Speargun Ammo	鱼叉枪弹药
 		Pistol	手枪
@@ -7416,7 +7416,7 @@ def_trans_t_corner_desc
 		Artillery Shell (Armor Piercing)	大型榴弹(穿甲)
 		Artillery Shell (Incendiary)	大型榴弹(燃烧)
 		C4 Explosive	C4炸药
-		C4 Detonator	C4雷管
+		C4 Detonator	C4起爆器
 def_ski_node_1_label		Electric	电
 def_ski_node_1_desc		Electrical power connection.	电源连接
 def_ski_small_node_1_label		Electric	电
