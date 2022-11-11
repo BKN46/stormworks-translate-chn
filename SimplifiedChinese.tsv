@@ -1630,7 +1630,7 @@ id	description	en	local
 		Beep 2	嘟嘟声2
 		Seatbelt	安全带
 		Volume	音量
-		Roll	侧偏
+		Roll	滚转(Roll)
 		Pitch	俯仰(Pitch)
 		Yaw	偏航(Yaw)
 		Preview	预览
@@ -2404,7 +2404,7 @@ def_angular_speed_sensor_s_desc		This sensor outputs its current angular speed i
 def_angular_speed_sensor_node_0_label		Angular Speed	角速度
 def_angular_speed_sensor_node_0_desc		The sensor's angular speed in rotations per second.	传感器的角速度，以转/秒为单位
 def_artificial_horizon_name		Artificial Horizon	水平仪
-def_artificial_horizon_desc		The horizon ball rotates up and down as your vehicle's pitch changes, and the central line gives an indication of your vehicle's roll. This is a useful component to have in your helicopter to make it easier to fly at night and in thick fog. An on/off signal can be used to toggle the backlight.	水平球随着载具的俯仰(Pitch)变化上下旋转，中心线指示载具的横滚(Roll)。给你的直升机配备该组件，能够使它更容易在夜间和浓雾中飞行。开/关信号可用于切换背光
+def_artificial_horizon_desc		The horizon ball rotates up and down as your vehicle's pitch changes, and the central line gives an indication of your vehicle's roll. This is a useful component to have in your helicopter to make it easier to fly at night and in thick fog. An on/off signal can be used to toggle the backlight.	水平球随着载具的俯仰(Pitch)变化上下旋转，中心线指示载具的滚转(Roll)。给你的直升机配备该组件，能够使它更容易在夜间和浓雾中飞行。开/关信号可用于切换背光
 def_artificial_horizon_s_desc		The artificial horizon shows you the orientation of your vehicle with respect to the horizon line.	水平仪显示载具相对于水平的方向
 def_artificial_horizon_node_0_label		Backlight	背光
 def_artificial_horizon_node_0_desc		Enables the backlight when receiving an on signal.	接收到打开信号时启用背光
