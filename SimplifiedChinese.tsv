@@ -10,8 +10,8 @@ id	description	en	local
 		SET ROGUE MODE SAVE	设置铁人模式存档
 		SERVER SLOWDOWN	服务器速度减慢
 		### is slowing the game.	### 正在减慢游戏速度
-		Error connecting to server:	连接收到服务器时出错:
-		Connecting to server...	正在连接收到服务器...
+		Error connecting to server:	连接到服务器时出错:
+		Connecting to server...	正在连接到服务器...
 		Joining game...	正在加入游戏...
 		NEW GAME	新游戏
 		LOAD GAME	加载游戏
@@ -43,7 +43,7 @@ id	description	en	local
 		Divide	除
 		Modulo (fmod)	取模(fmod)
 		Power	幂
-		Trigonometry (radians)	三角学(弧度制) [Trigonometry (radians)]
+		Trigonometry (radians)	三角函数(弧度)
 		Sine	正弦(sin)
 		Cosine	余弦(cos)
 		Tangent	切弦(tan)
@@ -64,8 +64,8 @@ id	description	en	local
 		Linearly interpolate x to y by z	用z线性插值x到y
 		Clamp x within y and z	在y和z范围内对x值进行限定(Clamp)
 		Conversions	转换
-		m/s to kmph	m/s至kmph
-		m/s to mph	m/s至mph
+		m/s to kmph	m/s至km/h
+		m/s to mph	m/s至m/h
 		m/s to knots	m/s至节
 		Turns to radians	转换为弧度
 		Degrees to radians	角度转换为弧度
@@ -650,10 +650,10 @@ id	description	en	local
 		You can set a vehicle to be static in the properties window. Static vehicles are fixed in place, making them useful for adding buildings or cranes to missions.	可以在“属性”窗口中将载具设置为静态。静态载具被固定在一个位置，这使得它们有助于在任务中增加建筑或机械臂
 		ADD VEHICLE BUTTON	添加载具按钮
 		Vehicle buttons allow your mission to interact with a named button on a vehicle. You must parent the button to a vehicle, and set the 'button display name' in the properties window to be the name of a button on the parent vehicle.	载具按钮允许您的任务与载具上的指定按钮交互。必须将按钮设置为载具的父级，并将“属性”窗口中的“按钮显示名称”设置为父级载具上按钮的名称
-		ADD FLARE	添加照明弹
+		ADD FLARE	添加信号弹
 		Flares emit a plume of coloured smoke that can be used to get the player's attention in an emergency situation. The colour of the flare can be customised in the properties window.	照明弹会释放出一股彩色烟雾，在紧急情况下可以用来引起玩家的注意。可以在“属性”窗口中自定义照明弹的颜色
 		ADD FIRE	添加火焰
-		Fires can be extinguished using water cannons and will spread to other nearby fires. The size of the fire and whether or not it is initially lit can be customised in the properties window.	火灾可以用高压水枪扑灭，并蔓延到附近的其他火灾中。火的大小以及它最初是否被点燃可以在属性窗口中定制
+		Fires can be extinguished using water cannons and will spread to other nearby fires. The size of the fire and whether or not it is initially lit can be customised in the properties window.	火焰可以用高压水枪扑灭，并在周围蔓延形成火灾。火焰的大小以及它最初是否被点燃可以在属性窗口中定制
 		ADD LOOT	添加战利品
 		Loot boxes allow you to hide additional rewards in your missions. Each one will give the player a random reward with a value between $6000 and $10000.	战利品箱允许你在任务中隐藏额外的奖励。每位玩家将随机获得一份价值在6000到10000美元之间的奖励
 		ADD ANIMAL	添加动物
@@ -1216,7 +1216,7 @@ id	description	en	local
 		Are you sure you want to quit to the main menu?	你确定要退出主菜单吗？
 		Field of View	视野(FOV)
 		Roll With Player	视角跟随玩家旋转
-		Camera Roll	摄影机滚轮
+		Camera Roll	倾斜相机
 		Hide Player	隐藏玩家
 		Contrast	对比度
 		Color Mode	色彩模式
@@ -1224,12 +1224,12 @@ id	description	en	local
 		Border	边界
 		Logo	Logo
 		Logo Color	Logo颜色
-		Vignette	边框
+		Vignette	镜头暗角
 		Vignette Distance	边框距离
 		Vignette Strength	边框强度
 		Film Grain	画面颗粒
 		Film Grain Strength	画面颗粒强度
-		Colorise	着色器
+		Colorise	照片滤镜
 		Top Left	左上
 		Top Middle	上方中间
 		Top Right	右上
@@ -1240,9 +1240,9 @@ id	description	en	local
 		Grey	灰色
 		Black	黑色
 		Orange	橙色
-		Letter Boxed	封好的信
-		Square	正方形
-		Instant	瞬间
+		Letter Boxed	电影式
+		Square	方形
+		Instant	拍立得式
 		Black and White	黑白
 		Sepia	黑白
 		Cyan	青色
@@ -1320,8 +1320,8 @@ id	description	en	local
 		Use pipes with Advanced Vehicle difficulty	在高级载具模式中请使用管道代替此功能
 		FLUID	流体
 		Edit fluid transfer nodes.	编辑流体传输节点
-		ELECTRIC	电动
-		Edit electrical transfer nodes.	编辑电气传输节点
+		ELECTRIC	电
+		Edit electrical transfer nodes.	编辑电力传输节点
 		Show/Hide Move Widget	显示/隐藏移动小部件
 		SYMMETRY	对称
 		Select the symmetry plane that should be used when adding and removing components.	选择在添加和删除零部件时应使用的对称平面
@@ -1469,16 +1469,16 @@ id	description	en	local
 		Survivor	幸存者
 		NPC	NPC
 		Is Static	是静态的
-		Is Lit	是着火
+		Is Lit	被点燃
 		Is Explosion	是爆炸
 		Fire Size	火灾规模
 		Loot Type	捡拾类型
-		Crate (floats)	板条箱(浮子)
-		Chest (sinks)	箱子(水槽)
+		Crate (floats)	板条箱(可漂浮)
+		Chest (sinks)	宝箱(会沉底)
 		Button's Display Name	按钮显示名称
 		Zone	区域
 		Object	对象
-		Flare	照明弹
+		Flare	信号弹
 		Fire	火
 		Vehicle Button	载具按钮
 		Mission Component	任务部分
@@ -1498,7 +1498,7 @@ id	description	en	local
 		on/off	开/关
 		number	数字
 		fluid	流体
-		electric	电气
+		electric	电力
 		composite	混合
 		Police Outfit	警察装备
 		Scientist Outfit	科学家装备
@@ -1616,8 +1616,8 @@ id	description	en	local
 		7 Blades	7叶
 		8 Blades	8叶
 		Blade Pitch	桨距
-		positive	正
-		neutral	中性
+		positive	最大桨距
+		neutral	零桨距
 		Min Throttle	最小节流阀
 		Max Throttle	最大节流阀
 		Decimal Point Position	小数点位置
@@ -1736,7 +1736,7 @@ id	description	en	local
 		Convert pixel coordinates into world coordinates.	将像素坐标转换为世界坐标
 		Convert world coordinates into pixel coordinates.	将世界坐标转换为像素坐标
 		LUA FUNCTIONS	LUA函数
-		The following global lua functions are available:\n\n- pairs\n- ipairs\n- next\n- tostring\n- tonumber\n\nand additional functions are available through the following lua libraries:\n\n- math\n- table\n- string\n\nFor full documentation of the functions provided by these libraries, visit https://www.lua.org/manual/.	以下全局lua函数可用:\ n\n-pairs\n-ipairs\n-next\n-tostring\n-tonumber\n\n其他函数可通过以下lua库使用:\ n\n-math\n-table\n-string\n\n有关这些库提供的函数的完整文档，请访问https://www。lua。org/manual/
+		The following global lua functions are available:\n\n- pairs\n- ipairs\n- next\n- tostring\n- tonumber\n\nand additional functions are available through the following lua libraries:\n\n- math\n- table\n- string\n\nFor full documentation of the functions provided by these libraries, visit https://www.lua.org/manual/.	以下全局lua函数可用:\n\n-pairs\n-ipairs\n-next\n-tostring\n-tonumber\n\n其他函数可通过以下lua库使用:\n\n-math\n-table\n-string\n\n有关这些库提供的函数的完整文档，请访问https://www.lua.org/manual/
 		TELEMETRY FUNCTIONS	遥测功能
 		The following global async functions are available:\n\n- httpGet\n\nHTTP requests are sent to the localhost on the specified port. Responses are caught with the httpReply(port, request_body, response_body) callback function.\n\nasync.httpGet(port, request_body)\n\nExample of a HTTP request sent to port 80:	可以使用以下全局异步函数:\n\n-httpGet\n\nHTTP请求被发送到指定端口上的本地主机。使用httpReply(端口，request_body，response_body)回调函数捕获响应。\n\nasync.httpGet(端口，request_body)\n\n[译者注:此函数使用可以参考本人B站视频:BV1mV411B7Bg] \n\n发送到端口80的HTTP请求示例:
 		META FROM THE DEVS	来自开发组的参考
@@ -1797,7 +1797,7 @@ id	description	en	local
 		Functions	函数
 		Behaviour	行为
 		Advanced Logic	高级逻辑
-		Electrics	电气
+		Electrics	电
 		High Capacity Electrics	大容量电池
 		Radio RX	无线电接收
 		Fluid Management	流体管理
@@ -2023,9 +2023,9 @@ id	description	en	local
 		[$[action_equipment_use]] Throw	[$[action_equipment_use]]投掷
 		Camera Shake	镜头抖动
 		Trigger	触发
-		GRAPH NODE	图形节点
-		ADD GRAPH NODE	添加图形节点
-		Add a linkable node to provide data for advanced AI pathing or use as a generic marker.	添加可链接节点，为高级AI路径提供数据，或用作通用标记
+		GRAPH NODE	路径点
+		ADD GRAPH NODE	添加路径点
+		Add a linkable node to provide data for advanced AI pathing or use as a generic marker.	添加可链接节点，为AI寻路功能提供数据，或用作通用标记
 		Link node.	链接节点
 		UI	用户界面[UI]
 		Objects	物体[Objects]
@@ -2438,7 +2438,7 @@ def_battery_small_node_1_label		Charge	剩余电量
 def_battery_small_node_1_desc		Data output giving the charge of the battery from 0 to 1.	从0到1显示电池电量的数据输出
 def_button_key_name		Key Button	钥匙开关
 def_button_key_desc		Once activated, interacting with the button again will deactivate it instantly. The hold duration can be customised by selecting this component with the select tool. The external input can be used to simulate interacting with the button down using the output of another component. The button's default state can be configured by selecting it with the select component.	一旦激活，再次按下按钮将立即停用。通过使用选择工具选择此组件，可以自定义启动开关所需的按压时间。外部输入可用于模拟使用其他组件的输出按住按钮。通过使用选择工具选择按钮，可以配置该按钮的默认状态
-def_button_key_s_desc		A button that must be held down for a set duration before activating.	一种需要持续按压一段时间才能激活的按钮
+def_button_key_s_desc		A button that must be held down for a set duration before activating.	需要持续按压一段时间才能激活的按钮
 def_button_key_node_0_label		Activated	激活
 def_button_key_node_0_desc		Outputs an on signal when interacting with the button for the set duration.	当[e]按压超过设定的时长后，输出接通信号
 def_button_key_node_1_label		External Input	外部输入
@@ -2946,26 +2946,26 @@ def_door_panel_straight_s_desc		A straight edge piece for building door panels.	
 def_electric_curcuit_breaker_name		Electric Circuit Breaker	断路器
 def_electric_curcuit_breaker_desc		When turned on, the circuit breaker closes the circuit, allowing electrical energy to flow between terminals A and B.	打开时，断路器闭合电路，使电能在端子A和B之间流动
 def_electric_curcuit_breaker_s_desc		A circuit breaker for electrical systems.	电气系统的断路器
-def_electric_curcuit_breaker_node_0_label		Electric A	电动A
-def_electric_curcuit_breaker_node_0_desc		Terminal A electrical connection.	端子A电气连接
-def_electric_curcuit_breaker_node_1_label		Electric B	电气B
-def_electric_curcuit_breaker_node_1_desc		Terminal B electrical connection.	端子B电气连接
+def_electric_curcuit_breaker_node_0_label		Electric A	电缆A
+def_electric_curcuit_breaker_node_0_desc		Terminal A electrical connection.	端子A电源线连接
+def_electric_curcuit_breaker_node_1_label		Electric B	电缆B
+def_electric_curcuit_breaker_node_1_desc		Terminal B electrical connection.	端子B电源线连接
 def_electric_diode_name		Electric Charger	充电器
 def_electric_diode_desc		The charger transfers electric one-way between its nodes when there is a significant discrepancy in charge. It can be used to recharge batteries.	当两边节点存在明显电位差时，从输入向输出传输电力，可用于电池充电
 def_electric_diode_s_desc		A one-way charger.	单向充电器
 def_electric_diode_node_0_label		Electric In	输入
-def_electric_diode_node_0_desc		Input node for electric.	电气输入节点
+def_electric_diode_node_0_desc		Input node for electric.	电力输入节点
 def_electric_diode_node_1_label		Electric Out	输出
-def_electric_diode_node_1_desc		Output node for electric.	电气输出节点
-def_electric_relay_name		Electric Relay	电气继电器
+def_electric_diode_node_1_desc		Output node for electric.	电力输出节点
+def_electric_relay_name		Electric Relay	电力继电器
 def_electric_relay_desc		When turned on, the relay closes the circuit, allowing electrical energy to flow between terminals A and B.	打开时，继电器闭合电路，使电能在端子A和B之间流动
 def_electric_relay_s_desc		A relay for electrical systems.	电气系统的继电器
-def_electric_relay_node_0_label		Electric A	电动A
-def_electric_relay_node_0_desc		Terminal A electrical connection.	端子A电气连接
-def_electric_relay_node_1_label		Electric B	电气B
-def_electric_relay_node_1_desc		Terminal B electrical connection.	端子B电气连接
-def_electric_relay_node_2_label		Relay State	继电器状态
-def_electric_relay_node_2_desc		Input to set if the electrical connection is made.	输入以设置是否进行了电气连接
+def_electric_relay_node_0_label		Electric A	电缆A
+def_electric_relay_node_0_desc		Terminal A electrical connection.	端子A电源线连接
+def_electric_relay_node_1_label		Electric B	电缆B
+def_electric_relay_node_1_desc		Terminal B electrical connection.	端子B电源线连接
+def_electric_relay_node_2_label		Relay State	开关状态
+def_electric_relay_node_2_desc		Input to set if the electrical connection is made.	设置是否接通电力连接
 def_engine_name		Small Engine	小型发动机
 def_engine_desc		An on/off signal controls engine startup and throttle signal controls energy output.	开/关信号控制发动机操作，节气门信号控制能量输出
 def_engine_s_desc		Small diesel engine that can be connected to powered components.	小型柴油机，可与动力部件相连
@@ -3029,11 +3029,11 @@ def_fan_small_s_desc		A small ducted fan used for propulsion.	用于推进的小
 def_fan_small_node_0_label		RPS	RPS
 def_fan_small_node_0_desc			
 def_flare_launcher_name		Flare Launcher	信号弹发射器
-def_flare_launcher_desc		Set the flare canister type and launch velocity in the component properties.	在组件属性中设置信号弹类型和发射速度
-def_flare_launcher_s_desc		Single-use flare launcher for signalling and illumination.	信号和照明用一次性信号弹发射器
+def_flare_launcher_desc		Set the flare canister type and launch velocity in the component properties.	在组件属性中设置信号弹装填类型和发射速度
+def_flare_launcher_s_desc		Single-use flare launcher for signalling and illumination.	单发的信号弹 照明弹 箔条发射器
 def_flare_launcher_node_0_label		Launch	发射
 def_flare_launcher_node_0_desc			
-def_flare_launcher_node_1_label		Launch Passthrough	发射传递(顺序点燃)
+def_flare_launcher_node_1_label		Launch Passthrough	发射串联信号
 def_flare_launcher_node_1_desc			
 def_fluid_exhaust_name		Fluid Exhaust	排液(气)口
 def_fluid_exhaust_desc		Fluid can flow in and out of the port as part of a fluid system.	流体可以作为流体系统的一部分进出端口
@@ -3492,7 +3492,7 @@ def_generator_large_s_desc		A large generator unit for converting mechanical pow
 def_generator_large_node_0_label		RPS	RPS
 def_generator_large_node_0_desc		The torque power input to convert to electric energy.	将转矩功率输入转换为电能
 def_generator_large_node_1_label		Electric	电
-def_generator_large_node_1_desc		The electric connection to output electric energy.	输出电能的电气连接
+def_generator_large_node_1_desc		The electric connection to output electric energy.	输出电能的电源连接
 def_generator_large_node_2_label		Output	输出
 def_generator_large_node_2_desc		Data output giving the electrical generation of the generator.	提供发电机发电的数据输出
 def_generator_medium_name		Medium Generator	中型发电机
@@ -3501,7 +3501,7 @@ def_generator_medium_s_desc		A medium generator unit for converting mechanical p
 def_generator_medium_node_0_label		RPS	RPS
 def_generator_medium_node_0_desc		The torque power input to convert to electric energy.	将转矩功率输入转换为电能
 def_generator_medium_node_1_label		Electric	电
-def_generator_medium_node_1_desc		The electric connection to output electric energy.	输出电能的电气连接
+def_generator_medium_node_1_desc		The electric connection to output electric energy.	输出电能的电源连接
 def_generator_medium_node_2_label		Output	输出
 def_generator_medium_node_2_desc		Data output giving the electrical generation of the generator.	提供发电机发电的数据输出
 def_generator_small_name		Small Generator	小型发电机
@@ -3510,7 +3510,7 @@ def_generator_small_s_desc		A small generator unit for converting mechanical pow
 def_generator_small_node_0_label		RPS	RPS
 def_generator_small_node_0_desc		The torque power input to convert to electric energy.	将转矩功率输入转换为电能
 def_generator_small_node_1_label		Electric	电
-def_generator_small_node_1_desc		The electric connection to output electric energy.	输出电能的电气连接
+def_generator_small_node_1_desc		The electric connection to output electric energy.	输出电能的电源连接
 def_generator_small_node_2_label		Output	输出
 def_generator_small_node_2_desc		Data output giving the electrical generation of the generator.	提供发电机发电的数据输出
 def_giga_prop_small_name		Giant Propeller	巨型船用推进器
@@ -3992,7 +3992,7 @@ def_humidity_sensor_s_desc		A humidity sensor for measuring the current fog and 
 def_humidity_sensor_node_0_label		Humidity Factor	湿度系数
 def_humidity_sensor_node_0_desc		The level of humidity in the air, relating to the fog visibility.	气体中的湿度水平，与雾的可见度有关
 def_impact_sensor_name		Impact Sensor	冲击传感器
-def_impact_sensor_desc		Setting the impact threshold property will tune the sensitivity for impacts. When the instant change in velocity from an impact exceeds the threshold, an on signal is produced.	设置冲击阈值能够调整敏感度。 当来自撞击的瞬时速度变化超过阈值时，将产生一个信号
+def_impact_sensor_desc		Setting the impact threshold property will tune the sensitivity for impacts. When the instant change in velocity from an impact exceeds the threshold, an on signal is produced.	设置冲击阈值能够调整敏感度。 当来自撞击的瞬时速度变化超过阈值时，输出一个on信号
 def_impact_sensor_s_desc		A sensor activated by a sudden change in velocity.	传感器能够检测瞬间的速度变化
 def_impact_sensor_node_0_label		Output	输出
 def_impact_sensor_node_0_desc		Outputs an on signal when instant change in velocity exceeds the impact threshold.	当瞬间速度变化超过阈值时，输出一个on信号
@@ -4098,9 +4098,9 @@ def_inventory_equipment_first_aid_desc		Press [$[action_equipment_use]] to heal 
 def_inventory_equipment_first_aid_s_desc		A small equipment storage unit containing a first aid kit.	小型装备架，存储一个急救包
 def_inventory_equipment_first_aid_node_0_label		Electric	电
 def_inventory_equipment_first_aid_node_0_desc		Electrical power connection.	电源连接
-def_inventory_equipment_flare_name		Equipment inventory (Flare)	装备架(投掷信号弹)
-def_inventory_equipment_flare_desc		Press [$[action_equipment_use]] to throw a red smoke flare which burns for a long time.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按下 [$[action_equipment_use]] 来扔出一个持续时间内释放红烟并发光的信号弹。这个装备有使用次数限制，拿起其他投掷信号弹能够补充使用次数。不使用时可以挂在腰带上
-def_inventory_equipment_flare_s_desc		A small equipment storage unit containing flares.	小型装备架，存储投掷信号弹
+def_inventory_equipment_flare_name		Equipment inventory (Flare)	装备架(手持燃烧照明棒)
+def_inventory_equipment_flare_desc		Press [$[action_equipment_use]] to throw a red smoke flare which burns for a long time.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按下 [$[action_equipment_use]] 来扔出一个持续时间内释放红烟并发光的燃烧照明棒。这个装备有使用次数限制，拿起其他照明棒能够补充使用次数。不使用时可以挂在腰带上
+def_inventory_equipment_flare_s_desc		A small equipment storage unit containing flares.	小型装备架，存储一支手持燃烧照明棒
 def_inventory_equipment_flare_node_0_label		Electric	电
 def_inventory_equipment_flare_node_0_desc		Electrical power connection.	电源连接
 def_inventory_equipment_flaregun_name		Equipment inventory (Flaregun)	装备架(信号弹枪)
@@ -4253,12 +4253,12 @@ def_inventory_outfit_diving_desc		When equipped, it will allow deep sea diving t
 def_inventory_outfit_diving_s_desc		An outfit inventory unit containing specialist diving equipment.	包含专业潜水设备的装备架
 def_inventory_outfit_diving_node_0_label		Electric	电
 def_inventory_outfit_diving_node_0_desc		Electrical power connection.	电源连接
-def_inventory_outfit_firefighter_name		Outfit Inventory (Firefighter)	装备架(消防员)
+def_inventory_outfit_firefighter_name		Outfit Inventory (Firefighter)	装备架(消防服)
 def_inventory_outfit_firefighter_desc		When equipped, it will absorb 95% of damage dealt by fires.	按 [$[action_interact_left]]/[$[action_interact_right]]将装备/储存装备。装备后，它将吸收95%的火灾伤害
 def_inventory_outfit_firefighter_s_desc		An outfit inventory unit containing specialist firefighting gear.	包含专业消防装备的装备架
 def_inventory_outfit_firefighter_node_0_label		Electric	电
 def_inventory_outfit_firefighter_node_0_desc		Electrical power connection.	电源连接
-def_inventory_outfit_hazmat_name		Outfit Inventory (Hazmat)	装备架(化学防护服)
+def_inventory_outfit_hazmat_name		Outfit Inventory (Hazmat)	装备架(防化服)
 def_inventory_outfit_hazmat_desc		When equipped, it will absorb 95% of incoming radiation.	按 [$[action_interact_left]]/[$[action_interact_right]]将装备/储存装备。装备后，将吸收95%的辐射伤害
 def_inventory_outfit_hazmat_s_desc		An outfit inventory unit containing specialist hazmat gear.	包含一套专业化学防护服的装备架
 def_inventory_outfit_hazmat_node_0_label		Electric	电
@@ -4322,7 +4322,7 @@ def_jet_engine_compressor_s_desc		A compressor that compresses air within a jet 
 def_jet_engine_compressor_node_0_label		Compressor	压气机
 def_jet_engine_compressor_node_0_desc		Enables the compressor.	启动压气机
 def_jet_engine_compressor_node_1_label		Electric	电
-def_jet_engine_compressor_node_1_desc		Electrical input for starting the compressor.	启动压气机的电气输入
+def_jet_engine_compressor_node_1_desc		Electrical input for starting the compressor.	启动压气机的电源输入
 def_jet_engine_compressor_node_2_label		Air Pressure	气压
 def_jet_engine_compressor_node_2_desc		The pressure of air transferred by the compressor.	压气机输送的气体压力
 def_jet_engine_compressor_node_3_label		Temperature	温度
@@ -4378,7 +4378,7 @@ def_jet_engine_exhaust_rotating_node_2_desc		The air flow spoiler for reducing e
 def_jet_engine_exhaust_rotating_node_3_label		Rotation Target	旋转目标
 def_jet_engine_exhaust_rotating_node_3_desc		The standard value setting the orientation within the range of motion.	在运动范围内设置方向的起始值
 def_jet_engine_exhaust_rotating_node_4_label		Electric	电
-def_jet_engine_exhaust_rotating_node_4_desc		Electrical input to power the exhaust's pivot.	为排气枢轴提供动力的电气输入
+def_jet_engine_exhaust_rotating_node_4_desc		Electrical input to power the exhaust's pivot.	为排气枢轴提供动力的电源输入
 def_jet_engine_intake_large_name		Large Jet Intake	大型喷气式进气道
 def_jet_engine_intake_large_desc		The intake has turbo fans that will provide additional thrust. The intake will provide a greater air flow when travelling through the air.	进气有涡轮风扇，可以提供额外的推力。当通过气体时，进气口将提供更大的气体流量
 def_jet_engine_intake_large_s_desc		A large intake that will suck air into a jet engine.	将气体吸入喷气发动机的大进气口
@@ -4405,7 +4405,7 @@ def_jet_engine_turbine_medium_node_2_desc		The temperature of air transferred by
 def_jet_engine_turbine_medium_node_3_label		RPS	RPS
 def_jet_engine_turbine_medium_node_3_desc		The rotations per second generated by the turbine.	涡轮每秒转数
 def_jet_engine_turbine_medium_node_4_label		Electric	电
-def_jet_engine_turbine_medium_node_4_desc		The electric connection to output electric energy.	输出电能的电气连接
+def_jet_engine_turbine_medium_node_4_desc		The electric connection to output electric energy.	输出电能的电源连接
 def_jet_engine_turbine_small_name		Jet Turbine Small	小型喷气涡轮
 def_jet_engine_turbine_small_desc		This is part of a set of modular jet engine components.	这是一套模块化喷气发动机部件的一部分
 def_jet_engine_turbine_small_s_desc		A small turbine that will convert air pressure to RPS within a jet engine.	将气体压力转换为喷气发动机内转速的小涡轮
@@ -4416,7 +4416,7 @@ def_jet_engine_turbine_small_node_1_desc		The temperature of air transferred by 
 def_jet_engine_turbine_small_node_2_label		RPS	RPS
 def_jet_engine_turbine_small_node_2_desc		The rotations per second generated by the turbine.	涡轮每秒转数
 def_jet_engine_turbine_small_node_3_label		Electric	电
-def_jet_engine_turbine_small_node_3_desc		The electric connection to output electric energy.	输出电能的电气连接
+def_jet_engine_turbine_small_node_3_desc		The electric connection to output electric energy.	输出电能的电源连接
 def_ladder_small_name		Ladder	梯子
 def_ladder_small_desc		You can attach to the ladder by interacting with [$[action_use_seat]], then detach again with either [$[action_use_seat]] or [$[action_jump]]. You will automatically detach from the ladder when you reach the top.	您可以按[$[action_use_seat]]连接收到梯子，然后按[$[action_use_seat]]或[$[action_jump]]再次分离。到达顶部时，您将自动从梯子上分离
 def_ladder_small_s_desc		Single ladder rung. Multiple rungs can placed on top of each other to form a ladder of abitrary length.	单梯横档。多个横档可以相互叠放，形成一个任意长度的梯子
@@ -4917,7 +4917,7 @@ def_multibody_door_hinge_a_desc		The hinge has a range of motion of 0.25 in each
 def_multibody_door_hinge_a_s_desc		A powered robotic hinge for custom sealable doors.	用于定制可密封门的电动机械铰链
 def_multibody_door_hinge_a_node_0_label		Rotation Target	旋转目标
 def_multibody_door_hinge_a_node_0_desc		The standard value setting the orientation within the range of motion.	在运动范围内设置方向的标准值
-def_multibody_door_hinge_a_node_1_label		Current Rotation	通用旋转组合
+def_multibody_door_hinge_a_node_1_label		Current Rotation	当前圈数
 def_multibody_door_hinge_a_node_1_desc		The hinge's measured rotation between -0.25 and 0.25.	铰链在-0.25到0.25之间的旋转测量值
 def_multibody_door_hinge_a_node_2_label		Electric	电
 def_multibody_door_hinge_a_node_2_desc		Electrical power connection.	电源连接
@@ -4941,7 +4941,7 @@ def_multibody_robotic_hinge_01_a_desc		The hinge has a range of motion of 0.25 t
 def_multibody_robotic_hinge_01_a_s_desc		A powered robotic hinge that will orientate towards the input value within its range of motion.	一种有动力的机械铰链，它将朝向其运动范围内的输入值
 def_multibody_robotic_hinge_01_a_node_0_label		Rotation Target	旋转目标
 def_multibody_robotic_hinge_01_a_node_0_desc		The standard value setting the orientation within the range of motion.	在运动范围内设置方向的标准值
-def_multibody_robotic_hinge_01_a_node_1_label		Current Rotation	通用旋转组合
+def_multibody_robotic_hinge_01_a_node_1_label		Current Rotation	当前圈数
 def_multibody_robotic_hinge_01_a_node_1_desc		The hinge's measured rotation between -0.25 and 0.25.	铰链在0到0.25之间的旋转测量值
 def_multibody_robotic_hinge_01_a_node_2_label		Electric	电
 def_multibody_robotic_hinge_01_a_node_2_desc		Electrical power connection.	电源连接
@@ -4961,7 +4961,7 @@ def_multibody_robotic_pivot_01_a_desc		The pivot has a range of motion of 0.25 t
 def_multibody_robotic_pivot_01_a_s_desc		A robotic pivot that will orientate towards the input value within its range of motion.	在其运动范围内朝向输入值的机器枢轴
 def_multibody_robotic_pivot_01_a_node_0_label		Rotation Target	旋转目标
 def_multibody_robotic_pivot_01_a_node_0_desc		The standard value setting the orientation within the range of motion.	在运动范围内设置方向的标准值
-def_multibody_robotic_pivot_01_a_node_1_label		Current Rotation	通用旋转组合
+def_multibody_robotic_pivot_01_a_node_1_label		Current Rotation	当前圈数
 def_multibody_robotic_pivot_01_a_node_1_desc		The pivot's measured rotation between -0.25 and 0.25.	枢轴在-0.25到0.25之间测量
 def_multibody_robotic_pivot_01_a_node_2_label		Electric	电
 def_multibody_robotic_pivot_01_a_node_2_desc		Electrical power connection.	电源连接
@@ -4972,7 +4972,7 @@ def_multibody_robotic_pivot_01_a_fluid_desc		The pivot has a range of motion of 
 def_multibody_robotic_pivot_01_a_fluid_s_desc		A robotic pivot that will orientate towards the input value within its range of motion.	在其运动范围内朝向输入值的机器枢轴
 def_multibody_robotic_pivot_01_a_fluid_node_0_label		Rotation Target	旋转目标
 def_multibody_robotic_pivot_01_a_fluid_node_0_desc		The standard value setting the orientation within the range of motion.	在运动范围内设置方向的标准值
-def_multibody_robotic_pivot_01_a_fluid_node_1_label		Current Rotation	通用旋转组合
+def_multibody_robotic_pivot_01_a_fluid_node_1_label		Current Rotation	当前圈数
 def_multibody_robotic_pivot_01_a_fluid_node_1_desc		The pivot's measured rotation between -0.25 and 0.25.	枢轴在-0.25到0.25之间测量
 def_multibody_robotic_pivot_01_a_fluid_node_2_label		Electric	电
 def_multibody_robotic_pivot_01_a_fluid_node_2_desc		Electrical power connection.	电源连接
@@ -4998,40 +4998,40 @@ def_multibody_suspension_b_desc
 def_multibody_suspension_b_s_desc			
 def_multibody_suspension_b_node_0_label		RPS	RPS
 def_multibody_suspension_b_node_0_desc		Power connection for transfering mechanical energy.	用于传输机械能的连接
-def_multibody_turret_large_a_name		Turret Ring (Large)	炮塔(大)
-def_multibody_turret_large_a_desc		A turret ring rotates in the same way as a velocity pivot. The gap inside the turret ring creates a door seal, and can be used to extend a sealed volume through the turret ring.	炮塔的旋转方式与速度枢轴相同。炮塔内部的间隙形成门密封，并可用于通过炮塔扩展密封体积
-def_multibody_turret_large_a_s_desc		A large turret ring that can rotate continuously.	可以连续旋转的大型炮塔
+def_multibody_turret_large_a_name		Turret Ring (Large)	炮塔座圈(大)
+def_multibody_turret_large_a_desc		A turret ring rotates in the same way as a velocity pivot. The gap inside the turret ring creates a door seal, and can be used to extend a sealed volume through the turret ring.	炮塔座圈的旋转方式与速度枢轴相同。炮塔内部的间隙形成门密封，并可用于通过炮塔扩展密封体积
+def_multibody_turret_large_a_s_desc		A large turret ring that can rotate continuously.	可以连续旋转的大型炮塔座圈
 def_multibody_turret_large_a_node_0_label		Rotational Speed	转速
 def_multibody_turret_large_a_node_0_desc		The speed at which the turret should rotate.	炮塔旋转的速度
-def_multibody_turret_large_a_node_1_label		Current Rotation	通用旋转组合
+def_multibody_turret_large_a_node_1_label		Current Rotation	当前圈数
 def_multibody_turret_large_a_node_1_desc		The turrets measured rotation expressed in fractions of full turns.	炮塔测量的旋转以整圈的分数表示
 def_multibody_turret_large_a_node_2_label		Electric	电
 def_multibody_turret_large_a_node_2_desc		Electrical power connection.	电源连接
-def_multibody_turret_large_b_name		Turret Ring (Large)	炮塔(大)b
+def_multibody_turret_large_b_name		Turret Ring (Large)	炮塔座圈(大)b
 def_multibody_turret_large_b_desc			
 def_multibody_turret_large_b_s_desc			
-def_multibody_turret_medium_a_name		Turret Ring (Medium)	炮塔(中)
-def_multibody_turret_medium_a_desc		A turret ring rotates in the same way as a velocity pivot. The gap inside the turret ring creates a door seal, and can be used to extend a sealed volume through the turret ring.	炮塔的旋转方式与速度枢轴相同。炮塔内部的间隙形成门密封，并可用于通过炮塔扩展密封体积
-def_multibody_turret_medium_a_s_desc		A medium turret ring that can rotate continuously.	可连续旋转的中型炮塔
+def_multibody_turret_medium_a_name		Turret Ring (Medium)	炮塔座圈(中)
+def_multibody_turret_medium_a_desc		A turret ring rotates in the same way as a velocity pivot. The gap inside the turret ring creates a door seal, and can be used to extend a sealed volume through the turret ring.	炮塔座圈的旋转方式与速度枢轴相同。炮塔内部的间隙形成门密封，并可用于通过炮塔扩展密封体积
+def_multibody_turret_medium_a_s_desc		A medium turret ring that can rotate continuously.	可连续旋转的中型炮塔座圈
 def_multibody_turret_medium_a_node_0_label		Rotational Speed	转速
 def_multibody_turret_medium_a_node_0_desc		The speed at which the turret should rotate.	炮塔旋转的速度
-def_multibody_turret_medium_a_node_1_label		Current Rotation	通用旋转组合
+def_multibody_turret_medium_a_node_1_label		Current Rotation	当前圈数
 def_multibody_turret_medium_a_node_1_desc		The turrets measured rotation expressed in fractions of full turns.	炮塔测量的旋转以整圈的分数表示
 def_multibody_turret_medium_a_node_2_label		Electric	电
 def_multibody_turret_medium_a_node_2_desc		Electrical power connection.	电源连接
-def_multibody_turret_medium_b_name		Turret Ring (Medium)	炮塔(中)
+def_multibody_turret_medium_b_name		Turret Ring (Medium)	炮塔座圈(中)b
 def_multibody_turret_medium_b_desc			
 def_multibody_turret_medium_b_s_desc			
-def_multibody_turret_small_a_name		Turret Ring (Small)	炮塔(小)
-def_multibody_turret_small_a_desc		A turret ring rotates in the same way as a velocity pivot. The gap inside the turret ring creates a door seal, and can be used to extend a sealed volume through the turret ring.	炮塔的旋转方式与速度枢轴相同。炮塔内部的间隙形成门密封，并可用于通过炮塔扩展密封体积
-def_multibody_turret_small_a_s_desc		A small turret ring that can rotate continuously.	可以连续旋转的小炮塔
+def_multibody_turret_small_a_name		Turret Ring (Small)	炮塔座圈(小)
+def_multibody_turret_small_a_desc		A turret ring rotates in the same way as a velocity pivot. The gap inside the turret ring creates a door seal, and can be used to extend a sealed volume through the turret ring.	炮塔座圈的旋转方式与速度枢轴相同。炮塔内部的间隙形成门密封，并可用于通过炮塔扩展密封体积
+def_multibody_turret_small_a_s_desc		A small turret ring that can rotate continuously.	可以连续旋转的小炮塔座圈
 def_multibody_turret_small_a_node_0_label		Rotational Speed	转速
 def_multibody_turret_small_a_node_0_desc		The speed at which the turret should rotate.	炮塔旋转的速度
-def_multibody_turret_small_a_node_1_label		Current Rotation	通用旋转组合
+def_multibody_turret_small_a_node_1_label		Current Rotation	当前圈数
 def_multibody_turret_small_a_node_1_desc		The turrets measured rotation expressed in fractions of full turns.	炮塔测量的旋转以整圈的分数表示
 def_multibody_turret_small_a_node_2_label		Electric	电
 def_multibody_turret_small_a_node_2_desc		Electrical power connection.	电源连接
-def_multibody_turret_small_b_name		Turret Ring (Small)	炮塔(小)b
+def_multibody_turret_small_b_name		Turret Ring (Small)	炮塔座圈(小)b
 def_multibody_turret_small_b_desc			
 def_multibody_turret_small_b_s_desc			
 def_multibody_velocity_pivot_a_name		Velocity Pivot	速度轴
@@ -5039,7 +5039,7 @@ def_multibody_velocity_pivot_a_desc		Inputting a value of 0 will cause it to sto
 def_multibody_velocity_pivot_a_s_desc		A pivot that will continuously rotate at a set input speed.	以设定的输入速度连续旋转的轴
 def_multibody_velocity_pivot_a_node_0_label		Rotational Speed	转速
 def_multibody_velocity_pivot_a_node_0_desc		The speed at which the pivot should rotate.	枢轴旋转的速度
-def_multibody_velocity_pivot_a_node_1_label		Current Rotation	通用旋转组合
+def_multibody_velocity_pivot_a_node_1_label		Current Rotation	当前圈数
 def_multibody_velocity_pivot_a_node_1_desc		The pivot's measured rotation expressed in fractions of full turns.	枢轴的测量旋转以整圈的分数表示
 def_multibody_velocity_pivot_a_node_2_label		Electric	电
 def_multibody_velocity_pivot_a_node_2_desc		Electrical power connection.	电源连接
@@ -5167,10 +5167,10 @@ def_radar_advanced_phalanx_node_2_desc		Outputs data for up to 8 targets. On/Off
 def_radar_advanced_phalanx_node_3_label		Radar Rotation	雷达旋转
 def_radar_advanced_phalanx_node_3_desc		Current radar rotation from forward in turns.	当前雷达从前方开始自转
 def_radar_detector_name		Radar Detector	雷达告警接收机
-def_radar_detector_desc		This sensor outputs an On signal when it detects a radio wave.	当检测到无线电波时，该传感器输出接通信号
+def_radar_detector_desc		This sensor outputs an On signal when it detects a radio wave.	当检测到雷达波时，该传感器输出on信号
 def_radar_detector_s_desc		A sensor that can detect radar waves.	侦测雷达波的传感器
-def_radar_detector_node_0_label		Detected	探测到
-def_radar_detector_node_0_desc		Returns an On signal when it detects a radio wave.	当检测到反射雷达波时输出on信号
+def_radar_detector_node_0_label		Detected	被探测到
+def_radar_detector_node_0_desc		Returns an On signal when it detects a radio wave.	当检测到雷达波时输出on信号
 def_radar_dish_name		Radar (Dish) (Deprecated)	雷达(盘)(已弃用)
 def_radar_dish_desc		This fixed sensor outputs the distance and angle to a detected object within its range and field of view using radio waves. (Range : 20000) (Max FOV : 0.125)	这个固定传感器使用无线电波将距离和角度输出到被探测物体的范围和视场内。(射程:20000)(最大视场:0.125)
 def_radar_dish_s_desc		A medium range, fixed rotation Radar that returns information about a detected object within its view.	一种中程固定雷达，返回在其视野内探测到的物体的信息
@@ -5255,7 +5255,7 @@ def_radar_sonar_small_node_6_desc		Electrical power connection.	电源连接
 def_radiation_detector_name		Radiation Detector	辐射探测器
 def_radiation_detector_desc		Outputs radiation dose rate per second at its location.	输出其所在位置的每秒辐射剂量率
 def_radiation_detector_s_desc		A sensor to detect radiation.	检测电离辐射的传感器
-def_radiation_detector_node_0_label		Radiation	辐射
+def_radiation_detector_node_0_label		Radiation	辐射量
 def_radiation_detector_node_0_desc		The detected radiation dose rate.	检测到的辐射剂量率
 def_railing_extension_angle_name		Railing Segment Extension Incline	栏杆段延伸斜面
 def_railing_extension_angle_desc			
@@ -5440,8 +5440,8 @@ def_rope_hook_winch_small_node_3_desc
 def_rope_hook_winch_small_node_4_label		Fluid	流体
 def_rope_hook_winch_small_node_4_desc		Fluid connection for the hose coil.	由线缆连接的流体接口
 def_rotation_sensor_name		Tilt Sensor	倾斜传感器
-def_rotation_sensor_desc		The measurement is expressed in terms of turns, with an output range of -0.25 to 0.25 turns. A value of zero points towards the horizon.	测量值以圈表示，输出范围为-0.25到0.25圈。指向水平的零点
-def_rotation_sensor_s_desc		A sensor that measures how much it has tilted, relative to the horizon.	测量它相对于水平倾斜多少的传感器
+def_rotation_sensor_desc		The measurement is expressed in terms of turns, with an output range of -0.25 to 0.25 turns. A value of zero points towards the horizon.	测量值以圈表示，输出范围为-0.25到0.25圈(代表-90°到90°)。输出0代表水平位置
+def_rotation_sensor_s_desc		A sensor that measures how much it has tilted, relative to the horizon.	测量它相对于自身水平面倾斜多少的传感器
 def_rotation_sensor_node_0_label		Tilt	倾斜
 def_rotation_sensor_node_0_desc		The measured tilt relative to the horizon.	相对于水平的测量倾斜度
 def_rotor_coaxial_large_name		Rotor (Large)	旋翼(大)
@@ -5583,7 +5583,7 @@ def_rx_huge_v2_node_2_desc		Output for received composite data.	接收的复合�
 def_rx_huge_v2_node_3_label		Data Send	数据发送
 def_rx_huge_v2_node_3_desc		Input for composite data to send.	用于复合数据的输入
 def_rx_huge_v2_node_4_label		Electric	电
-def_rx_huge_v2_node_4_desc		Electrical input.	电气输入
+def_rx_huge_v2_node_4_desc		Electrical input.	电源输入
 def_rx_huge_v2_node_5_label		Frequency	频率
 def_rx_huge_v2_node_5_desc		Radio Send/Receive Frequency.	无线电发送/接收频率
 def_rx_huge_v2_node_6_label		Signal Strength	信号强度
@@ -5617,7 +5617,7 @@ def_rx_large_v2_node_2_desc		Output for received composite data.	接收的复合
 def_rx_large_v2_node_3_label		Data Send	数据发送
 def_rx_large_v2_node_3_desc		Input for composite data to send.	用于复合数据的输入
 def_rx_large_v2_node_4_label		Electric	电
-def_rx_large_v2_node_4_desc		Electrical input.	电气输入
+def_rx_large_v2_node_4_desc		Electrical input.	电源输入
 def_rx_large_v2_node_5_label		Frequency	频率
 def_rx_large_v2_node_5_desc		Radio Send/Receive Frequency.	无线电发送/接收频率
 def_rx_large_v2_node_6_label		Signal Strength	信号强度
@@ -5651,7 +5651,7 @@ def_rx_med_v2_node_2_desc		Output for received composite data.	接收的复合�
 def_rx_med_v2_node_3_label		Data Send	数据发送
 def_rx_med_v2_node_3_desc		Input for composite data to send.	用于复合数据的输入
 def_rx_med_v2_node_4_label		Electric	电
-def_rx_med_v2_node_4_desc		Electrical input.	电气输入
+def_rx_med_v2_node_4_desc		Electrical input.	电源输入
 def_rx_med_v2_node_5_label		Frequency	频率
 def_rx_med_v2_node_5_desc		Radio Send/Receive Frequency.	无线电发送/接收频率
 def_rx_med_v2_node_6_label		Signal Strength	信号强度
@@ -5683,7 +5683,7 @@ def_rx_small_v2_node_2_desc		Output for received composite data.	接收的复合
 def_rx_small_v2_node_3_label		Data Send	数据发送
 def_rx_small_v2_node_3_desc		Input for composite data to send.	用于复合数据的输入
 def_rx_small_v2_node_4_label		Electric	电
-def_rx_small_v2_node_4_desc		Electrical input.	电气输入
+def_rx_small_v2_node_4_desc		Electrical input.	电源输入
 def_rx_small_v2_node_5_label		Frequency	频率
 def_rx_small_v2_node_5_desc		Radio Send/Receive Frequency.	无线电发送/接收频率
 def_rx_small_v2_node_6_label		Transmit Mode	传输模式
@@ -6141,7 +6141,7 @@ def_solar_name		Solar Cell	太阳能电池
 def_solar_desc		The cell generates electrical current based on time of day and angle towards the sun.	电池根据一天中的时间和太阳的角度产生电流
 def_solar_s_desc		A solar cell for generating electricity.	用于发电的太阳能电池
 def_solar_node_0_label		Electric	电
-def_solar_node_0_desc		The electric connection to output electric energy.	输出电能的电气连接
+def_solar_node_0_desc		The electric connection to output electric energy.	输出电能的电源连接
 def_solid_rocket_huge_name		Solid Rocket Fuel (Huge)	固体火箭燃料(巨)
 def_solid_rocket_huge_desc		Fuel can be stacked to increase the burn duration of a rocket booster.	燃料可以堆积起来以增加火箭助推器的燃烧时间
 def_solid_rocket_huge_s_desc		A huge solid rocket fuel segment.	巨大的固体火箭燃料块
@@ -6209,7 +6209,7 @@ def_solid_rocket_small_fins_node_0_desc		Composite data for the control surfaces
 def_solid_rocket_small_fins_node_1_label		Electric	电
 def_solid_rocket_small_fins_node_1_desc		Electrical power connection.	电源连接
 def_sonar_advanced_name		Sonar (Small)	小型声纳
-def_sonar_advanced_desc		This sensor outputs the relative angle to detected objects within its range using underwater sound waves. The sensor will passively detect certain noisy components such as propellers or engines but can also send out a loud ping to detect quiet underwater bodies. While the ping input is held passive signals will be supressed. After activating a ping additional detected signals will appear momentarily in the data channel as the signal returns to the sonar. Activating another ping will override the previous ping and no further data will be returned from the old signal.	声纳利用声波输出其探测范围内检测到的物体的相对角度。声纳可被动检测某些嘈杂的部件,如螺旋桨或发动机。也可主动发出一个响亮的Ping来检测安静的水下物体。主动Ping时,被动信号将被抑制。激活Ping后,当信号返回到声纳时,额外的检测信号将暂时出现在数据通道中。激活新的Ping将覆盖前一个Ping,旧信号将不再返回数据
+def_sonar_advanced_desc		This sensor outputs the relative angle to detected objects within its range using underwater sound waves. The sensor will passively detect certain noisy components such as propellers or engines but can also send out a loud ping to detect quiet underwater bodies. While the ping input is held passive signals will be supressed. After activating a ping additional detected signals will appear momentarily in the data channel as the signal returns to the sonar. Activating another ping will override the previous ping and no further data will be returned from the old signal.	声纳可在水下利用声波探测其探测范围内检测到的物体的相对角度。被动模式可监听测某些嘈杂的部件,如螺旋桨或发动机。也可主动发出一个响亮的Ping来检测安静的水下物体。主动Ping时,无法检测到被动信号。激活Ping后,当信号返回到声纳时,额外的检测信号将暂时出现在数据通道中。激活新的Ping将覆盖前一个Ping,旧信号将不再返回数据
 def_sonar_advanced_s_desc		A sonar that returns information about a detected objects within 60km.	该声纳最大可探测60km内的物体
 def_sonar_advanced_node_0_label		Electric	电
 def_sonar_advanced_node_0_desc		Electrical power connection.	电源连接
@@ -6222,7 +6222,7 @@ def_sonar_advanced_node_3_desc		Outputs data for up to 16 targets. On/Off 1-16 :
 def_sonar_advanced_node_4_label		Torpedo Output	鱼雷输出
 def_sonar_advanced_node_4_desc		Outputs x and y data for the most immediate target. Link this directly into a rocket fins component.	输出凝视目标的x和y数据。将其直接连接到弹翼组件中
 def_sonar_advanced_5_name		Sonar (Medium)	中型声纳
-def_sonar_advanced_5_desc		This sensor outputs the relative angle to detected objects within its range using underwater sound waves. The sensor will passively detect certain noisy components such as propellers or engines but can also send out a loud ping to detect quiet underwater bodies. While the ping input is held passive signals will be supressed. After activating a ping additional detected signals will appear momentarily in the data channel as the signal returns to the sonar. Activating another ping will override the previous ping and no further data will be returned from the old signal.	声纳利用声波输出其探测范围内检测到的物体的相对角度。声纳可被动检测某些嘈杂的部件,如螺旋桨或发动机。也可主动发出一个响亮的Ping来检测安静的水下物体。主动Ping时,被动信号将被抑制。激活Ping后,当信号返回到声纳时,额外的检测信号将暂时出现在数据通道中。激活新的Ping将覆盖前一个Ping,旧信号将不再返回数据
+def_sonar_advanced_5_desc		This sensor outputs the relative angle to detected objects within its range using underwater sound waves. The sensor will passively detect certain noisy components such as propellers or engines but can also send out a loud ping to detect quiet underwater bodies. While the ping input is held passive signals will be supressed. After activating a ping additional detected signals will appear momentarily in the data channel as the signal returns to the sonar. Activating another ping will override the previous ping and no further data will be returned from the old signal.	声纳可在水下利用声波探测其探测范围内检测到的物体的相对角度。被动模式可监听测某些嘈杂的部件,如螺旋桨或发动机。也可主动发出一个响亮的Ping来检测安静的水下物体。主动Ping时,无法检测到被动信号。激活Ping后,当信号返回到声纳时,额外的检测信号将暂时出现在数据通道中。激活新的Ping将覆盖前一个Ping,旧信号将不再返回数据
 def_sonar_advanced_5_s_desc		A sonar that returns information about a detected objects within 100km.	该声纳最大可探测100km内的物体
 def_sonar_advanced_5_node_0_label		Electric	电
 def_sonar_advanced_5_node_0_desc		Electrical power connection.	电源连接
@@ -6233,7 +6233,7 @@ def_sonar_advanced_5_node_2_desc		Send a ping and listen for return sounds.	进�
 def_sonar_advanced_5_node_3_label		Sonar Data	声纳数据
 def_sonar_advanced_5_node_3_desc		Outputs data for up to 16 targets. On/Off 1-16 : Target 1 Found, Target 2 Found, Etc... Values 1-32: Target 1 Pivot, Target 1 Pitch, Target 2 Pivot, Target 2 Pitch, Etc...	输出最多16个目标的数据。开/关1-16:发现目标1,发现目标2,等等...。值1-32:目标1方位,目标1距离,目标2方位,目标2距离,等等
 def_sonar_advanced_7_name		Sonar (Large)	大型声纳
-def_sonar_advanced_7_desc		This sensor outputs the relative angle to detected objects within its range using underwater sound waves. The sensor will passively detect certain noisy components such as propellers or engines but can also send out a loud ping to detect quiet underwater bodies. While the ping input is held passive signals will be supressed. After activating a ping additional detected signals will appear momentarily in the data channel as the signal returns to the sonar. Activating another ping will override the previous ping and no further data will be returned from the old signal.	声纳利用声波输出其探测范围内检测到的物体的相对角度。声纳可被动检测某些嘈杂的部件,如螺旋桨或发动机。也可主动发出一个响亮的Ping来检测安静的水下物体。主动Ping时,被动信号将被抑制。激活Ping后,当信号返回到声纳时,额外的检测信号将暂时出现在数据通道中。激活新的Ping将覆盖前一个Ping,旧信号将不再返回数据
+def_sonar_advanced_7_desc		This sensor outputs the relative angle to detected objects within its range using underwater sound waves. The sensor will passively detect certain noisy components such as propellers or engines but can also send out a loud ping to detect quiet underwater bodies. While the ping input is held passive signals will be supressed. After activating a ping additional detected signals will appear momentarily in the data channel as the signal returns to the sonar. Activating another ping will override the previous ping and no further data will be returned from the old signal.	声纳可在水下利用声波探测其探测范围内检测到的物体的相对角度。被动模式可监听测某些嘈杂的部件,如螺旋桨或发动机。也可主动发出一个响亮的Ping来检测安静的水下物体。主动Ping时,无法检测到被动信号。激活Ping后,当信号返回到声纳时,额外的检测信号将暂时出现在数据通道中。激活新的Ping将覆盖前一个Ping,旧信号将不再返回数据
 def_sonar_advanced_7_s_desc		A sonar that returns information about a detected objects within 200km.	该声纳最大可探测200km内的物体
 def_sonar_advanced_7_node_0_label		Electric	电
 def_sonar_advanced_7_node_0_desc		Electrical power connection.	电源连接
@@ -6244,8 +6244,8 @@ def_sonar_advanced_7_node_2_desc		Send a ping and listen for return sounds.	进�
 def_sonar_advanced_7_node_3_label		Sonar Data	声纳数据
 def_sonar_advanced_7_node_3_desc		Outputs data for up to 16 targets. On/Off 1-16 : Target 1 Found, Target 2 Found, Etc... Values 1-32: Target 1 Pivot, Target 1 Pitch, Target 2 Pivot, Target 2 Pitch, Etc...	输出最多16个目标的数据。开/关1-16:发现目标1,发现目标2,等等...。值1-32:目标1方位,目标1距离,目标2方位,目标2距离,等等
 def_sonar_jammer_name		Sonar Noisemaker	声纳干扰器
-def_sonar_jammer_desc		Emits a very loud noise at an inaudible frequency when activated, as a decoy or distraction for sonar components that are listening passively.	激活时以听不见的频率发出非常大的噪音，作为被动声纳的诱饵或干扰
-def_sonar_jammer_s_desc		A distracting device for sonar.	一种用于声纳的干扰装置
+def_sonar_jammer_desc		Emits a very loud noise at an inaudible frequency when activated, as a decoy or distraction for sonar components that are listening passively.	激活时以听不见的频率发出非常大的噪音，作为被动声纳的诱饵或干扰器
+def_sonar_jammer_s_desc		A distracting device for sonar.	用于对抗声纳的干扰装置
 def_sonar_jammer_node_0_label		Enable	启用
 def_sonar_jammer_node_0_desc		Enable the noisemaker.	启用声纳干扰器
 def_sonar_jammer_node_1_label		Electric	电
@@ -6258,7 +6258,7 @@ def_speaker_node_0_desc		Audio data connection.	音频数据连接
 def_speaker_node_1_label		Electric	电
 def_speaker_node_1_desc		Electrical power connection.	电源连接
 def_speaker_node_2_label		Is Transmit	正在传输
-def_speaker_node_2_desc		If the speaker is currently transmitting.	如果扬声器当前正在发送
+def_speaker_node_2_desc		If the speaker is currently transmitting.	扬声器当前是否在接收数据
 def_speaker_large_name		Megaphone Speaker (Large)	扩音器(大)
 def_speaker_large_desc		A large megaphone capable of playing audio data to players within its range. (Range : 1000)	一种大型扩音器，能够向其范围内的玩家播放音频数据。(范围:1000)
 def_speaker_large_s_desc		A speaker capable of playing audio data to players within its range.	一种能够向其范围内的玩家播放音频数据的扬声器
@@ -6267,7 +6267,7 @@ def_speaker_large_node_0_desc		Audio data connection.	音频数据连接
 def_speaker_large_node_1_label		Electric	电
 def_speaker_large_node_1_desc		Electrical power connection.	电源连接
 def_speaker_large_node_2_label		Is Transmit	正在传输
-def_speaker_large_node_2_desc		If the speaker is currently transmitting.	如果扬声器当前正在发送
+def_speaker_large_node_2_desc		If the speaker is currently transmitting.	扬声器当前是否在接收数据
 def_speaker_medium_name		Megaphone Speaker (Small)	扩音器(小)
 def_speaker_medium_desc		A small megaphone capable of playing audio data to players within its range. (Range : 300)	一种小型扩音器，能向其范围内的玩家播放音频数据。(范围:300)
 def_speaker_medium_s_desc		A speaker capable of playing audio data to players within its range.	一种能够向其范围内的玩家播放音频数据的扬声器
@@ -6276,7 +6276,7 @@ def_speaker_medium_node_0_desc		Audio data connection.	音频数据连接
 def_speaker_medium_node_1_label		Electric	电
 def_speaker_medium_node_1_desc		Electrical power connection.	电源连接
 def_speaker_medium_node_2_label		Is Transmit	正在传输
-def_speaker_medium_node_2_desc		If the speaker is currently transmitting.	如果扬声器当前正在发送
+def_speaker_medium_node_2_desc		If the speaker is currently transmitting.	扬声器当前是否在接收数据
 def_stair_segment_name		Stair Step	楼梯踏板
 def_stair_segment_desc			
 def_stair_segment_s_desc		A single step that can be stacked to create a staircase.	可以堆叠成楼梯的踏板
@@ -7389,7 +7389,7 @@ def_trans_t_corner_desc
 		Set the current draw colour. Values range from 0 - 255.	设置当前绘图颜色。值的范围为0-255
 		Set the current draw colour and transparency. Values range from 0 - 255.	设置当前绘图颜色和透明度。值的范围为0-255
 		Set the colours used for rendering the map. Values range from 0 - 255, alpha is optional.	设置用于渲染地图的颜色。值的范围从0到255，可指定alpha(透明度)
-		[$[action_equipment_use]] Fire flare [$[action_equipment_secondary]] Unload	[$[action_equipment_use]] 射击信号弹 [$[action_equipment_secondary]] 卸载弹药
+		[$[action_equipment_use]] Fire flare [$[action_equipment_secondary]] Unload	按[$[action_equipment_use]] 发射,按[$[action_equipment_secondary]] 卸载弹药
 		Light Auto Ammo Box (Kinetic)	轻型机炮弹药箱(动能)
 		Light Auto Ammo Box (High Explosive)	轻型机炮弹药箱(高爆)
 		Light Auto Ammo Box (Fragmentation)	轻型机炮弹药箱(破片)
