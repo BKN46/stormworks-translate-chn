@@ -405,8 +405,8 @@ id	description	en	local
 		Deceased	已死亡
 		Stop Following	停止跟随
 		Follow	跟随
-		Purchase Base\n$	购买基地\n$
-		Purchase Base to Use	购买基地以解锁使用
+		Purchase Property\n$	购买基地\n$
+		Purchase Property to Use	购买基地以解锁使用
 		Not Available	不可用
 		Not Available When Carrying Someone	携带人员时不可用
 		Spawning...	正在生成...
@@ -419,7 +419,7 @@ id	description	en	local
 		none set	未设置
 		Fast-travel Location	快速旅行地点
 		CLICK TO TRAVEL HERE	点击此处旅行
-		Base for sale	待出售基地
+		Property for sale	待售基地
 		You are here	你在这里
 		CLICK TO TAKE TO WORKBENCH	点击进入工作台
 		Waypoint	航路点
@@ -944,8 +944,8 @@ id	description	en	local
 		Starting Money	启动资金
 		CUSTOMISE GAME MODE	自定义游戏模式
 		Unlock All Components	解锁所有组件
-		Unlock All Bases	解锁所有基地
-		All purchasable bases are pre-purchased.	所有可购买的基地均已解锁
+		Unlock All Properties	解锁所有基地
+		All purchasable properties are pre-purchased.	所有可购买基地均已解锁
 		Infinite Stock	无限库存
 		Infinite money, resources and components are available.	无限的钱、资源与组件
 		Creative Tools	创意工具
@@ -1513,7 +1513,7 @@ id	description	en	local
 		Wake	醒来
 		Sleep	睡眠
 		(all players must be sleeping to fast-forward)	(所有玩家必须睡下才能快进)
-		PURCHASE BASE	购买基地
+		PURCHASE PROPERTY	购买地产
 		Bank	银行
 		Total	总计
 		Police Hat	警帽
@@ -2225,6 +2225,106 @@ id	description	en	local
 		Exhaust	排气
 		Oil	油
 		Steam	蒸汽
+		Creature	生物
+		ADD CREATURE	放置生物
+		Add a creature object. The creature type can be set in the properties window.	放置一个生物对象，生物类型可在属性栏中进行调整
+		Badger	獾
+		Grizzly Bear	灰熊
+		Black Bear	黑熊
+		Polar Bear	北极熊
+		Barnevelder Chicken	巴内维尔德鸡
+		Marans Chicken	马兰鸡
+		Orpington Fowl Chicken	奥平顿鸡
+		Sussex Fowl Chicken	苏塞克斯鸡
+		Angus Cow	安格斯牛
+		Hereford Cow	赫里福德牛
+		Highland Cow	高地牛
+		Holstein Cow	荷斯坦奶牛
+		Sasquatch	大脚野人
+		Yeti	雪人
+		Red Deer F	雌马鹿
+		Red Deer M	雄马鹿
+		Sika Deer F	雌梅花鹿
+		Sika Deer M	雄梅花鹿
+		Beagle	比格犬
+		Border Collie	边境牧羊犬
+		Boxer	拳师犬
+		Corgi	柯基
+		Dachshund	腊肠犬
+		Dalmatian	斑点狗
+		Dobermann	杜宾
+		German Shepherd	德国牧羊犬
+		Greyhound	灰猎犬
+		Jack Russell	杰克罗素㹴犬
+		Labrador	拉布拉多
+		Newfoundland	纽芬兰犬
+		Pug	哈巴狗
+		Shiba	柴犬
+		Husky	哈士奇
+		St Bernard	圣伯纳德犬
+		Vizsla	维兹拉犬
+		Yorkshire Terrier	约克夏梗犬
+		Red Fox	红狐
+		Arctic Fox	北极狐
+		Alpine Goat	高山山羊
+		Bengal Goat	孟加拉山羊
+		Oberhasli Goat	奥伯哈斯利山羊
+		Saanen Goat	萨能山羊
+		Arctic Hare	北极野兔
+		Irish Hare	爱尔兰野兔
+		Moutain Hare	山兔
+		Clydesdale Horse	克莱兹代尔马
+		Friesian Horse	弗里斯马
+		Haflinger Horse	哈弗林格马
+		Welara Horse	维拉拉马
+		Muntjac F	雌麂
+		Muntjac M	雄麂
+		Gentoo Penguin	巴布亚企鹅
+		Angeln Saddleback Pig	昂格尔恩鞍背猪
+		Old Spot Pig	老斑点猪
+		Tamworth Pig	塔姆沃思猪
+		Yorkshire Pig	约克郡猪
+		Polar Seal	极地海豹
+		Black Nose Sheep	黑鼻羊
+		Highland Sheep	高低羊
+		Mule Sheep	骡羊
+		Scottish Wildcat	苏格兰野猫
+		Arctic Wolf	北极狼
+		Coastal Wolf	沿海狼
+		Plains Wolf	平原狼
+		Zombie M	僵尸男
+		Zombie M a	僵尸男a
+		Zombie M b	僵尸男b
+		Zombie M c	僵尸男c
+		Zombie M d	僵尸男d
+		Zombie M e	僵尸男e
+		Zombie M f	僵尸男f
+		Zombie M g	僵尸男g
+		Zombie M Nurse	僵尸男护士
+		Zombie M Arctic	僵尸男极地
+		Zombie M Firefighter	僵尸男消防员
+		Zombie M Pilot	僵尸男飞行员
+		Zombie M Police	僵尸男警察
+		Zombie M Ranger	僵尸男巡林者
+		Zombie M Scuba	僵尸男潜水员
+		Zombie M Tree Surgeon	僵尸男林地保护员
+		Zombie F	僵尸女
+		Zombie F a	僵尸女a
+		Zombie F b	僵尸女b
+		Zombie F c	僵尸女c
+		Zombie F d	僵尸女d
+		Zombie F e	僵尸女e
+		Zombie F f	僵尸女f
+		Zombie F Arctic	僵尸女极地
+		Zombie F Firefighter	僵尸女消防员
+		Zombie F Hazmat	僵尸女应急人员
+		Zombie F Pilot	僵尸女飞行员
+		Zombie F Pirate	僵尸女海盗
+		Zombie F Police	僵尸女警察
+		Zombie F Safari	僵尸女猎手
+		Zombie F SAR	僵尸女SAR
+		Zombie F Scuba	僵尸女潜水员
+		Zombie F Surgeon	僵尸女医生
 def_01_block_name		Block	方块
 def_01_block_desc		The block is a quarter-metre in size. Components can be attached to all 6 faces.	这个方块有四分之一米大。组件可以连接收到所有6个面
 def_01_block_s_desc		Basic cube-shaped building block.	基本立方形建筑块
@@ -2826,6 +2926,13 @@ def_control_surface_small_node_0_label		Rotation	旋转
 def_control_surface_small_node_0_desc		Accepts a value between -1 and 1 that represent the two extremes of the rudder's rotation.	接受介于-1和1之间的值，该值表示方向舵旋转的两个极值
 def_control_surface_small_node_1_label		Electric	电
 def_control_surface_small_node_1_desc		Electrical power connection.	电源连接
+def_desalinator_name		Desalinator	海水淡化器
+def_desalinator_desc		The valve can be configured to select which fluids may pass across the two directional valve.	这个阀门可以设置来只允许一种液体通过
+def_desalinator_s_desc		The fluid filter only allows certain types of fluid across the valve.	这个阀门可以设置来只允许一种液体通过
+def_desalinator_node_0_label		Fluid In	流体进入
+def_desalinator_node_0_desc		Seawater connection.	海水连接
+def_desalinator_node_1_label		Fluid Out	流体流出
+def_desalinator_node_1_desc		Freshwater connection.	净水连接
 def_dial_name		Dial	刻度表
 def_dial_desc		The dial's face represents values ranging from -1 to 1 by default. This can be configured by selecting it with the select tool. Values outside this range will cause the needle to wrap around, but can be scaled to fit using additional logic components if necessary. An on/off signal can be used to toggle the backlight.	默认情况下，刻度盘的面表示从-1到1的值。这可以通过使用选择工具选择来配置。超出此范围的值将导致指针环绕，但如果需要，可以使用其他逻辑组件缩放以适应。开/关信号可用于切换背光
 def_dial_s_desc		A dial with a rotating needle for displaying numerical values.	显示数值的带有旋转针的刻度盘
@@ -7352,6 +7459,12 @@ def_wing_xl_s_desc		The wing surface cuts through the air while resisting moveme
 def_wing_xxl_name		Wing Section (XXLarge)	机翼面(超大)
 def_wing_xxl_desc		Wing surface to provide lift and cut through the air.	机翼表面提供升力并穿过气体
 def_wing_xxl_s_desc		The wing surface cuts through the air while resisting movement against the flat plane of its surface. The aerofoil section also provides lift.	机翼表面穿透气体，同时抵抗其表面平面的运动。机翼部分也提供升力
+		Purchase Base\n$	购买基地\n$
+		Purchase Base to Use	购买基地以解锁使用
+		Base for sale	待出售基地
+		Unlock All Bases	解锁所有基地
+		All purchasable bases are pre-purchased.	所有可购买的基地均已解锁
+		PURCHASE BASE	购买基地
 def_trans_block_corner_desc			
 def_trans_block_t_desc			
 def_trans_corner_desc			
