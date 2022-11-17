@@ -1457,14 +1457,14 @@ id	description	en	local
 		Radius	半径
 		Type	类型
 		Outfit	装备
-		Civilian	平民
+		Civilian	便服
 		Worker	工人
-		Fishing	垂钓
+		Fishing	垂钓者
 		Waiter	侍者
 		Swimsuit	泳衣
-		Military	军用
-		Office	办公室
-		Medical	医学
+		Military	军装
+		Office	正装
+		Medical	医生
 		Wetsuit	潜水服
 		Survivor	幸存者
 		NPC	NPC
@@ -1833,7 +1833,7 @@ id	description	en	local
 		Passenger	乘客
 		Container	容器
 		Vehicle editing is disabled by server settings.	载具编辑已被服务器禁用
-		You must be authorised to use workbench.	你必须得到授权才能使用工具台
+		You must be authorised to use workbench.	你必须得到授权才能使用工作台
 		Explosion ignition point	爆炸着火点
 		Explosion magnitude	爆炸当量
 		Begin	开始
@@ -1879,8 +1879,8 @@ id	description	en	local
 		Strobe Light	频闪灯
 		Strobe Light (infrared)	频闪灯(红外)
 		Transponder	应急信标
-		Underwater Welding Torch	水下焊枪
-		Welding Torch	焊枪
+		Underwater Welding Torch	水下火旱枪
+		Welding Torch	火旱枪
 			
 			
 			
@@ -2578,18 +2578,18 @@ def_button_lock_node_2_label		Electric	电
 def_button_lock_node_2_desc		Electrical power connection.	电源连接
 def_button_push_name		Push Button	按压按钮
 def_button_push_desc		An external on/off signal can also be used to control whether or not the button is pressed, allowing you to chain multiple buttons together to unify their outputs.	外部开/关信号也可用于控制是否按下按钮，允许您将多个按钮链接在一起，以统一其输出
-def_button_push_s_desc		A button that outputs an on signal when you interact with [$[action_interact_left]]/[$[action_interact_right]], and an off signal when not interacting.	一种按钮，当你按住[$[action_interact_left]]/[$[action_interact_right]]时，它输出一个接通信号，当你松开时，它输出一个断开信号
+def_button_push_s_desc		A button that outputs an on signal when you interact with [$[action_interact_left]]/[$[action_interact_right]], and an off signal when not interacting.	当你按住[$[action_interact_left]]/[$[action_interact_right]]时输出on信号;松开时输出off信号
 def_button_push_node_0_label		Pressed	按下
-def_button_push_node_0_desc		Outputs an on signal when you interact wtih [$[action_interact_left]]/[$[action_interact_right]], and an off signal otherwise.	当您按住[$[action_interact_left]]/[$[action_interact_right]]时，输出接通信号，否则输出断开信号
+def_button_push_node_0_desc		Outputs an on signal when you interact wtih [$[action_interact_left]]/[$[action_interact_right]], and an off signal otherwise.	当您按住[$[action_interact_left]]/[$[action_interact_right]]时，输出on信号,否则输出off信号
 def_button_push_node_1_label		External Input	外部输入
 def_button_push_node_1_desc		Allows an external on/off signal to control whether or not the button is pressed.	允许外部开/关信号控制按钮是否按下
 def_button_push_node_2_label		Electric	电
 def_button_push_node_2_desc		Electrical power connection.	电源连接
 def_button_push_2side_name		Push Button (2 Sided)	按压按钮(双面)
 def_button_push_2side_desc		An external on/off signal can also be used to control whether or not the button is pressed, allowing you to chain multiple buttons together to unify their outputs.	外部开/关信号也可用于控制是否按下按钮，允许您将多个按钮链接在一起，以统一其输出
-def_button_push_2side_s_desc		A button that outputs an on signal when interacting with [$[action_interact_left]]/[$[action_interact_right]].	一种按钮，当你按住[e]时，它输出一个接通信号，当你松开时，它输出一个断开信号
+def_button_push_2side_s_desc		A button that outputs an on signal when interacting with [$[action_interact_left]]/[$[action_interact_right]].	当你按住[$[action_interact_left]]/[$[action_interact_right]]时输出一个on信号;松开输出一个off信号
 def_button_push_2side_node_0_label		Pressed	按下
-def_button_push_2side_node_0_desc		Outputs an on signal when you interact with [$[action_interact_left]]/[$[action_interact_right]], and an off signal otherwise.	当您按住按钮上的[e]时，输出接通信号，否则输出断开信号
+def_button_push_2side_node_0_desc		Outputs an on signal when you interact with [$[action_interact_left]]/[$[action_interact_right]], and an off signal otherwise.	当您按住按钮上的[$[action_interact_left]]/[$[action_interact_right]]时输出on信号,否则输出off信号
 def_button_push_2side_node_1_label		External Input	外部输入
 def_button_push_2side_node_1_desc		Allows an external on/off signal to control whether or not the button is pressed.	允许外部开/关信号控制按钮是否按下
 def_button_push_2side_node_2_label		Electric	电
@@ -2624,8 +2624,8 @@ def_button_toggle_2side_node_1_desc		Allows an external on/off signal to control
 def_button_toggle_2side_node_2_label		Electric	电
 def_button_toggle_2side_node_2_desc		Electrical power connection.	电源连接
 def_buzzer_name		Buzzer	蜂鸣器
-def_buzzer_desc		The type of sound, volume, and pitch can be customised by selecting this component with the select tool. It has an audible range of 30m.	声音、音量和音高的类型可以通过使用选择工具选择此组件进行自定义。它的声音范围是30米
-def_buzzer_s_desc		A buzzer that will play a selected sound when toggled from off to on.	一种蜂鸣器，当从关切换到开时将播放选定的声音
+def_buzzer_desc		The type of sound, volume, and pitch can be customised by selecting this component with the select tool. It has an audible range of 30m.	可以使用选择工具自定义音色和音量.播放范围是30米
+def_buzzer_s_desc		A buzzer that will play a selected sound when toggled from off to on.	信号为on时播放选定音色的蜂鸣器
 def_buzzer_node_0_label		Buzzer	蜂鸣器
 def_buzzer_node_0_desc		Plays the selected sound when toggled from off to on.	从“关”切换到“开”时播放选定的声音
 def_buzzer_node_1_label		Electric	电
@@ -2698,8 +2698,8 @@ def_catalytic_converter_node_0_desc
 def_catalytic_converter_node_1_label		Exhaust Out	废气输出
 def_catalytic_converter_node_1_desc			
 def_clock_name		Clock	时钟
-def_clock_desc		The clock has a display to visualise the time of day or night. The 12 o'clock position is the white arrow on the face of the display.	时钟有一个显示器，可以直观地显示白天或晚上的时间。12点钟的位置是显示屏正面的白色箭头
-def_clock_s_desc		An analogue clock display that outputs a number value representing the time of day.	一种模拟时钟显示器，输出代表一天中时间的数值
+def_clock_desc		The clock has a display to visualise the time of day or night. The 12 o'clock position is the white arrow on the face of the display.	时钟有一个显示器，可以直观地显示白天或晚上的时间.12点钟的位置是显示屏正面的白色箭头
+def_clock_s_desc		An analogue clock display that outputs a number value representing the time of day.	模拟时钟显示器.显示当前游戏内时间
 def_clock_node_0_label		Time	时间
 def_clock_node_0_desc		The time as a factor of a day, from 0 (midnight) to 1 (midnight).	一天中从0(午夜0点)到1(午夜24点)的时间
 def_clock_node_1_label		Backlight	背光
@@ -2713,9 +2713,9 @@ def_compass_node_0_label		Backlight	背光
 def_compass_node_0_desc		Enables the backlight when receiving an on signal.	接收到打开信号时启用背光
 def_compass_node_1_label		Electric	电
 def_compass_node_1_desc		Electrical power connection.	电源连接
-def_compass_sensor_name		Compass Sensor	罗盘感应器
-def_compass_sensor_desc		The sensor has a display to visualise the direction of north. The measured output is taken relative to the white arrow on the face of the display.	这个传感器有一个显示北方方向的显示器。测量的输出是相对于显示器表面的白色箭头进行的
-def_compass_sensor_s_desc		A digital compass that outputs a number value representing the turn that must be made for it to face north.	一种数字罗盘，它输出一个数字值，表示它偏离正北方向的角度
+def_compass_sensor_name		Compass Sensor	罗盘传感器
+def_compass_sensor_desc		The sensor has a display to visualise the direction of north. The measured output is taken relative to the white arrow on the face of the display.	该传感器可以测量白色箭头的方向.测量的输出是相对于传感器表面的白色箭头进行的
+def_compass_sensor_s_desc		A digital compass that outputs a number value representing the turn that must be made for it to face north.	数字罗盘,输出的数字类型的值代表它偏离正北方向的角度
 def_compass_sensor_node_0_label		Compass Reading	罗盘读数
 def_compass_sensor_node_0_desc		The angle measured in turns that the needle is rotated from the white arrow on the display.	指针从显示屏上的白色箭头开始旋转的角度(单位:圆周)\n(译者注:若数值为x，则代表偏离角度为x*360)
 def_compass_sensor_node_1_label		Backlight	背光
@@ -2724,7 +2724,7 @@ def_compass_sensor_node_2_label		Electric	电
 def_compass_sensor_node_2_desc		Electrical power connection.	电源连接
 def_connector_electric_name		Electric Connector	电线连接头
 def_connector_electric_desc		Two electric connectors will attach when they are within close proximity. When connected, electric energy will flow freely between the connectors.	当两个电线连接头靠近时，它们将连接在一起。连接时，电能将在连接头之间自由流动
-def_connector_electric_s_desc		A small electric connector that can be used to transfer electric energy between vehicles.	一种小型电线连接头，可用于在载具之间传输电能
+def_connector_electric_s_desc		A small electric connector that can be used to transfer electric energy between vehicles.	小型电线连接头，可用于在载具之间传输电能
 def_connector_electric_node_0_label		Release Connector	连接头释放
 def_connector_electric_node_0_desc		Release the connector when receiving an on signal.	收到接通信号时，松开连接器
 def_connector_electric_node_1_label		Connected	已连接
@@ -2796,7 +2796,7 @@ def_connector_hardpoint_b_round_node_6_label		Electric	电
 def_connector_hardpoint_b_round_node_6_desc		Electrical power connection.	电源连接
 def_connector_hinge_name		Hinge Connector	铰链连接头
 def_connector_hinge_desc		Two connectors will attach when they are within close proximity and both are switched on. They will connect along their long edge and hinge along this axis. An on/off output allows you to check whether or not this connector is currently attached to anything.	当两个连接头接近并且都打开时，它们将连接在一起。它们将沿着长边连接，并沿着这条轴转动。开/关输出允许您检查此连接头当前是否连接收到任何对象
-def_connector_hinge_s_desc		A small magnetic connector that can be used to attach two or more vehicles together.	一种小型磁性连接头，可用于将两辆或多辆载具连接在一起
+def_connector_hinge_s_desc		A small magnetic connector that can be used to attach two or more vehicles together.	小型磁性连接头，可用于将两辆或多辆载具连接在一起
 def_connector_hinge_node_0_label		Magnet Toggle	磁铁开关
 def_connector_hinge_node_0_desc		Enables the connector's magnet when receiving an on signal.	在接收到接通信号时启用连接头的磁铁
 def_connector_hinge_node_1_label		Connected	已连接
@@ -2813,7 +2813,7 @@ def_connector_hinge_node_6_label		Video Data Receive	接收视频数据
 def_connector_hinge_node_6_desc		Video data to receive from the connected connector.	从所连接的连接器上接收视频数据
 def_connector_large_name		Large Connector	大型连接头
 def_connector_large_desc		Two large connectors will attach when they are within close proximity and both are switched on. The additional inputs and outputs allow you to send and receive power and signals between two connected magnets, giving you a limited amount of control over a linked vehicle. An additional on/off output allows you to check whether or not this connector is currently attached to anything.	当两个大的连接头靠近并且都打开时，它们会连接起来。附加的输入和输出允许您在两个连接的磁铁之间发送和接收功率和信号，从而限制您对连接载具的控制。附加的开/关输出允许您检查此连接头当前是否连接收到任何对象
-def_connector_large_s_desc		A magnetic connector that can be used to attach two or more vehicles together.	一种磁性连接头，可用于将两辆或多辆载具连接在一起
+def_connector_large_s_desc		A magnetic connector that can be used to attach two or more vehicles together.	磁性连接头，可用于将两辆或多辆载具连接在一起
 def_connector_large_node_0_label		Magnet Toggle	磁铁开关
 def_connector_large_node_0_desc		Enables the connector's magnet when receiving an on signal.	在接收到接通信号时启用连接头的磁铁
 def_connector_large_node_1_label		On/Off Sent	开/关发送
@@ -2849,10 +2849,10 @@ def_connector_slider_gripper_node_1_label		Brake	制动器
 def_connector_slider_gripper_node_1_desc		Enables the gripper's brake to keep it in place on the track.	使夹持器的制动器在轨道上保持原位
 def_connector_slider_track_name		Sliding Connector Track	滑动连接头轨道
 def_connector_slider_track_desc		Gripper connectors will attach to the track when aligned and close enough, and will detach when they slide off the end.	夹持器连接头将在对齐和足够接近时连接收到轨道，并在滑离末端时分离
-def_connector_slider_track_s_desc		A connector that can be used to build a track for grippers to attach to.	一种连接头，可以用来为夹持器建立一个连接轨道
+def_connector_slider_track_s_desc		A connector that can be used to build a track for grippers to attach to.	可以用来为夹持器建立一个连接轨道
 def_connector_small_name		Small Connector	小型连接头
 def_connector_small_desc		Two small connectors will attach when they are within close proximity and both are switched on. An on/off output allows you to check whether or not this connector is currently attached to anything.	当两个小连接头靠近并且都打开时，它们将连接在一起。开/关输出允许您检查此连接头当前是否连接收到任何对象
-def_connector_small_s_desc		A small magnetic connector that can be used to attach two or more vehicles together.	一种小型磁性连接头，可用于将两辆或多辆载具连接在一起
+def_connector_small_s_desc		A small magnetic connector that can be used to attach two or more vehicles together.	小型磁性连接头，可用于将两辆或多辆载具连接在一起
 def_connector_small_node_0_label		Magnet Toggle	磁铁开关
 def_connector_small_node_0_desc		Enables the connector's magnet when receiving an on signal.	在接收到接通信号时启用连接头的磁铁
 def_connector_small_node_1_label		Connected	已连接
@@ -2869,7 +2869,7 @@ def_connector_small_node_6_label		Video Data Receive	接收视频数据
 def_connector_small_node_6_desc		Video data to receive from the connected connector.	从所连接的连接器上接收视频数据
 def_connector_water_name		Fluid Connector	流体连接头
 def_connector_water_desc		Two fluid connectors will attach when they are within close proximity. When connected, fluid will flow freely between the connectors.	当两个流体接头靠近时，它们将连接在一起。连接时，流体将在接头之间自由流动
-def_connector_water_s_desc		A fluid connector that can be used to transfer fluid between vehicles.	一种流体连接头，可用于在载具之间传输流体
+def_connector_water_s_desc		A fluid connector that can be used to transfer fluid between vehicles.	流体连接头，可用于在载具之间传输流体
 def_connector_water_node_0_label		Release Connector	连接头释放
 def_connector_water_node_0_desc		Release the connector when receiving an on signal.	接收到接通信号时，松开连接器
 def_connector_water_node_1_label		Connected	已连接
@@ -3020,10 +3020,10 @@ def_door_frame_controller_node_1_label		Seal State	密封状态
 def_door_frame_controller_node_1_desc		Indicates if the door panel is closed and forming a seal.	指示门板是否关闭并形成密封
 def_door_frame_corner_name		Door Frame Corner	门框转角
 def_door_frame_corner_desc		To create a valid frame, there must be a continuous loop of frame parts in a consistent orientation with no other parts inside the frame.	要创建有效的框架，必须有一个连续的框架部件循环，其方向一致，框架内没有其他部件
-def_door_frame_corner_s_desc		A corner piece for building openings to sealed fluid compartments.	一种角件，用于为密封的流体室建立开口
+def_door_frame_corner_s_desc		A corner piece for building openings to sealed fluid compartments.	用于在密封的流体室中建立开口
 def_door_frame_straight_name		Door Frame Edge	门框边缘
 def_door_frame_straight_desc		To create a valid frame, there must be a continuous loop of frame parts in a consistent orientation with no other parts inside the frame.	要创建有效的框架，必须有一个连续的框架部件循环，其方向一致，框架内没有其他部件
-def_door_frame_straight_s_desc		A straight edge for building openings to sealed fluid compartments.	一种直尺，用于在密封的流体室中建立开口
+def_door_frame_straight_s_desc		A straight edge for building openings to sealed fluid compartments.	用于在密封的流体室中建立开口
 def_door_manual_name		Sliding Door	滑动门(手动)
 def_door_manual_desc			
 def_door_manual_s_desc		Sliding door that can be opened and closed by hand and locked using an on/off signal.	滑动门通过手动打开，使用on/off信号锁定
@@ -3280,14 +3280,14 @@ def_friction_block_name		Friction Pad	摩擦块
 def_friction_block_desc		High friction pad that grips any surface it touches.	向接触的任何表面提供摩擦力
 def_friction_block_s_desc		Friction pad that grips to surfaces.	接触表面的摩擦块
 def_gate_bool_and_name		And	与(And)
-def_gate_bool_and_desc		The output will only be switched on if both inputs are on.	只有当两个输入都打开时，输出才会打开
-def_gate_bool_and_s_desc		A logic gate that outputs the logical AND of two input signals.	一种逻辑门，输出两个输入信号的逻辑和
+def_gate_bool_and_desc		The output will only be switched on if both inputs are on.	只有当两个输入都on时，输出才会on
+def_gate_bool_and_s_desc		A logic gate that outputs the logical AND of two input signals.	输出两个输入信号的逻辑和
 def_gate_bool_and_node_0_label		A	A
 def_gate_bool_and_node_0_desc		The first value to perform the logical AND on.	执行逻辑与的第一个值
 def_gate_bool_and_node_1_label		B	B
 def_gate_bool_and_node_1_desc		The second value to perform the logical AND on.	执行逻辑与的第二个值
 def_gate_bool_and_node_2_label		A AND B	A与B
-def_gate_bool_and_node_2_desc		Outputs an on signal when both A and B are on, and an off signal if either one is off.	当A和B都打开时，输出一个打开信号；当其中一个关闭时，输出一个关闭信号
+def_gate_bool_and_node_2_desc		Outputs an on signal when both A and B are on, and an off signal if either one is off.	当A和B都on时，输出一个on信号；当其中一个off时，输出一个off信号
 def_gate_bool_blink_name		Blinker	信号灯
 def_gate_bool_blink_desc		You can set the duration that the signal should stay on and off for by selecting it with the select tool. A control signal determines whether or not the blinker should output anything. If the control signal is off, the blinker's output will be off. The internal blink timer is reset every time the control signal is switched off.	通过使用选择工具选择信号，可以设置信号应保持打开和关闭的持续时间。控制信号决定闪光灯是否应该输出任何东西。如果控制信号关闭，则闪烁器的输出将关闭。每次关闭控制信号时，内部闪烁计时器都会重置
 def_gate_bool_blink_s_desc		The blinker outputs a value that blinks between on and off at a set rate.	闪烁器输出一个在开和关之间以设定速率闪烁的值
@@ -3304,7 +3304,7 @@ def_gate_bool_capacitor_node_1_label		Stored Charge	储存电荷
 def_gate_bool_capacitor_node_1_desc		The capacitor's stored charge.	电容器的储存电荷
 def_gate_bool_constant_name		Constant On Signal	恒定ON信号
 def_gate_bool_constant_desc		This is useful for creating logic circuits that are permanently switched on.	这对于创建永久打开的逻辑电路很有用
-def_gate_bool_constant_s_desc		A simple logic component that continuously outputs an on signal.	一种连续输出接通信号的简单逻辑元件
+def_gate_bool_constant_s_desc		A simple logic component that continuously outputs an on signal.	连续输出接通信号的简单逻辑元件
 def_gate_bool_constant_node_0_label		On	打开
 def_gate_bool_constant_node_0_desc		Outputs a constant on signal.	输出常开信号
 def_gate_bool_delay_name		Delay	延迟
@@ -3316,7 +3316,7 @@ def_gate_bool_delay_node_1_label		Delayed Signal	延迟信号
 def_gate_bool_delay_node_1_desc		The input signal that has been delayed.	被延迟的输入信号
 def_gate_bool_not_name		Not	非(Not)
 def_gate_bool_not_desc		The output will always be the opposite of the input.	输出总是与输入相反
-def_gate_bool_not_s_desc		A logic gate that outputs the logical NOT of its input signal.	一种逻辑门，输出输入信号的逻辑非
+def_gate_bool_not_s_desc		A logic gate that outputs the logical NOT of its input signal.	输出输入信号的逻辑非
 def_gate_bool_not_node_0_label		A	A
 def_gate_bool_not_node_0_desc		The signal to invert.	反转的信号
 def_gate_bool_not_node_1_label		NOT A	非A
@@ -3329,10 +3329,10 @@ def_gate_bool_or_node_0_desc		The first value to perform the logical OR on.	执�
 def_gate_bool_or_node_1_label		B	B
 def_gate_bool_or_node_1_desc		The second value to perform the logical OR on.	执行逻辑或的第二个值
 def_gate_bool_or_node_2_label		A OR B	A或B
-def_gate_bool_or_node_2_desc		Outputs an on signal when either A or B are on, and an off signal if neither are on.	当A或B接通时，输出接通信号；当两者都不接通时，输出断开信号
+def_gate_bool_or_node_2_desc		Outputs an on signal when either A or B are on, and an off signal if neither are on.	当A或B为on时，输出on信号;当两者都off时，输出off信号
 def_gate_bool_xor_name		Xor	异或(Xor)
 def_gate_bool_xor_desc		The output will be switched on if only one of the signals are on. The output will be switched off if the two signals are the same.	如果只有一个信号打开，则输出将打开。如果两个信号相同，则输出将关闭
-def_gate_bool_xor_s_desc		A logic gate that outputs the logical XOR of two input signals.	一种逻辑门，输出两个输入信号的逻辑异或
+def_gate_bool_xor_s_desc		A logic gate that outputs the logical XOR of two input signals.	输出两个输入信号的逻辑异或
 def_gate_bool_xor_node_0_label		A	A
 def_gate_bool_xor_node_0_desc		The first value to perform the logical XOR on.	对其执行逻辑异或的第一个值
 def_gate_bool_xor_node_1_label		B	B
@@ -3444,7 +3444,7 @@ def_gate_float_multiply_node_2_label		B	B
 def_gate_float_multiply_node_2_desc		The value to multiply by.	要乘以的值
 def_gate_float_register_name		Memory Register	存储寄存器
 def_gate_float_register_desc		The number input will be stored when an on signal is received. A secondary on/off signal can be used to clear the stored value, resetting it to the configured value set using the select tool.	当接收到接通信号时，数字输入将被存储。辅助开/关信号可用于清除存储值，使用选择工具将其重置为配置值集
-def_gate_float_register_s_desc		A memory register that can store a number value.	一种能存储数值的存储寄存器
+def_gate_float_register_s_desc		A memory register that can store a number value.	能存储数值的存储寄存器
 def_gate_float_register_node_0_label		Stored Value	存储值
 def_gate_float_register_node_0_desc		The value that is stored in the memory.	存储在内存中的值
 def_gate_float_register_node_1_label		Value to Store	要存储的值
@@ -3517,8 +3517,8 @@ def_gate_function_small_node_0_desc		Outputs the evaluation of the entered funct
 def_gate_function_small_node_1_label		Input 1 (x)	输入1(x)
 def_gate_function_small_node_1_desc		X input to the function.	函数的X输入
 def_gate_jk_flipflop_name		JK Flip-Flop	JK触发器
-def_gate_jk_flipflop_desc		When both inputs are off, there is no change in state. If both Set and Reset are set to on, the state will be toggled.	当两个输入都关闭时，状态没有变化。如果Set和Reset都设置为on，则状态将被切换(反转)
-def_gate_jk_flipflop_s_desc		A JK flip-flop that can be set and reset using two on/off inputs.	一种JK触发器，可以用两个开/关输入进行设置和复位
+def_gate_jk_flipflop_desc		When both inputs are off, there is no change in state. If both Set and Reset are set to on, the state will be toggled.	当两个输入都off时，状态没有变化。如果Set和Reset都设置为on，则状态将被切换(反转)
+def_gate_jk_flipflop_s_desc		A JK flip-flop that can be set and reset using two on/off inputs.	JK触发器，可以用两个on/off输入进行设置和复位
 def_gate_jk_flipflop_node_0_label		Set	设置(Set)
 def_gate_jk_flipflop_node_0_desc		Sets the output to on.	将输出设置为打开
 def_gate_jk_flipflop_node_1_label		Reset	重置(Reset)
@@ -3529,7 +3529,7 @@ def_gate_jk_flipflop_node_3_label		NOT Output	NOT输出
 def_gate_jk_flipflop_node_3_desc		The inverse of the internal state of the flip-flop.	触发器内部状态的取非
 def_gate_pid_controller_name		PID Controller	PID控制器
 def_gate_pid_controller_desc		It takes the current measured output of a system or sensor, and a desired target measurement. It outputs a value that can be used as an input to the system to gradually correct its error. For example, the controller could input to an engine's throttle to maintain a desired speed or altitude. The control terms (proportional, integral and derivative) can be set by selecting the component with the select tool. The control terms must be carefully tuned for optimal output.	它获取系统或传感器的电流测量输出，以及所需的目标测量。它输出一个值，可以用作系统的输入，以逐步纠正其错误。例如，控制器可以输入发动机的油门以保持所需的速度或高度。控制项(比例、积分和导数)可以通过使用选择工具选择组件来设置。必须仔细调整控制项以获得最佳输出
-def_gate_pid_controller_s_desc		A control loop feedback mechanism that measures and corrects the error in a system over time.	一种控制回路反馈机制，随着时间的推移测量并校正系统中的错误
+def_gate_pid_controller_s_desc		A control loop feedback mechanism that measures and corrects the error in a system over time.	控制回路反馈机制，随着时间的推移测量并校正系统中的错误
 def_gate_pid_controller_node_0_label		Active	激活
 def_gate_pid_controller_node_0_desc		Sets whether or not the controller is active. When inactive, stored values are reset.	设置控制器是否处于活动状态。不活动时，存储的值将重置
 def_gate_pid_controller_node_1_label		Control Output	控制输出
@@ -3547,7 +3547,7 @@ def_gate_push_to_toggle_node_1_label		Internal State	内部状态
 def_gate_push_to_toggle_node_1_desc		The output of the internal on/off switch.	内部开/关开关的输出
 def_gate_sr_latch_name		SR Latch	SR锁存器
 def_gate_sr_latch_desc		When both inputs are off, there is no change in state. If both Set and Reset are set to on, Reset will take precedence.	当两个输入都设置为off时，状态没有变化。如果Set和Reset都设置为on，将创建一个无效状态，并且两个输出都设置为off
-def_gate_sr_latch_s_desc		An SR latch that can be set and reset using two on/off inputs.	一种SR锁存器，可使用两个开/关输入进行设置和复位
+def_gate_sr_latch_s_desc		An SR latch that can be set and reset using two on/off inputs.	SR锁存器，可使用两个on/off输入进行设置和复位
 def_gate_sr_latch_node_0_label		Set	组(Set)
 def_gate_sr_latch_node_0_desc		Sets the output to on.	将输出设置为打开
 def_gate_sr_latch_node_1_label		Reset	重置
@@ -4105,21 +4105,21 @@ def_impact_sensor_node_0_label		Output	输出
 def_impact_sensor_node_0_desc		Outputs an on signal when instant change in velocity exceeds the impact threshold.	当瞬间速度变化超过阈值时，输出一个on信号
 def_indicator_name		Indicator Light	指示灯
 def_indicator_desc			
-def_indicator_s_desc		A simple light that can be used as an indicator in logic systems.	一种简单的灯，可用作逻辑系统中的指示器
+def_indicator_s_desc		A simple light that can be used as an indicator in logic systems.	简单的指示灯,可用作逻辑系统中的指示器
 def_indicator_node_0_label		Indicator Light	指示灯
 def_indicator_node_0_desc		Switches the light on when receiving an on signal.	接收到接通信号时，打开灯
 def_indicator_node_1_label		Electric	电
 def_indicator_node_1_desc		Electrical power connection.	电源连接
 def_indicator_rgb_name		Indicator Light (RGB)	指示灯(RGB)
 def_indicator_rgb_desc		Three channels of the composite input can be used to set the red, green and blue components of the indicator's color using numbers between 0 and 1. The light can also operate in HSV mode, where the 3 inputs correspond to the hue, saturation and value (brightness) of the color between 0 and 1. The color mode and input channels can be customised by selecting this component with the select tool.	组合输入的三个通道可用于使用0到1之间的数字设置指示器颜色的红色、绿色和蓝色分量。灯光也可以在HSV模式下工作，其中3个输入对应于0到1之间颜色的色调、饱和度和值(亮度)。颜色模式和输入通道可以通过使用选择工具选择此组件进行自定义
-def_indicator_rgb_s_desc		An advanced indicator that can be controlled using a microcontroller.	一种可以用微控制器控制的高级指示器
+def_indicator_rgb_s_desc		An advanced indicator that can be controlled using a microcontroller.	可以用微控制器操作的高级指示器
 def_indicator_rgb_node_0_label		Color Data	颜色数据
 def_indicator_rgb_node_0_desc		Composite link containing the indicator's color data.	包含指示器颜色数据的复合链接
 def_indicator_rgb_node_1_label		Electric	电
 def_indicator_rgb_node_1_desc		Electrical power connection.	电源连接
 def_instrument_display_name		Instrument Panel	仪表板
 def_instrument_display_desc		The 4 instruments can be selected in the properties window. Each type of instrument has options for choosing the composite channels that they read from or write to. Composite signals are bridged from the input node to the output node to enable displays to be chained together. Instruments marked as '(On/Off)' require multiple on/off signals to control each of their segments individually.	可以在“属性”窗口中选择这4种仪器。每种类型的仪器都有选择读写复合通道的选项。复合信号从输入节点桥接收到输出节点，以使显示链接在一起。标记为“(开/关)”的仪表需要多个开/关信号来单独控制其每个段
-def_instrument_display_s_desc		A customisable panel that can have up to 4 different instruments, controlled by a composite signal from a microcontroller.	一种可定制的面板，可以有多达4种不同的仪器，由微控制器的复合信号控制
+def_instrument_display_s_desc		A customisable panel that can have up to 4 different instruments, controlled by a composite signal from a microcontroller.	可定制的面板,可以有多达4种不同的仪器.需由微控制器的复合信号控制
 def_instrument_display_node_0_label		Out Signal	信号输出
 def_instrument_display_node_0_desc		Output signal containing data set by buttons on the display.	包含由显示器上的按钮设置的数据的输出信号
 def_instrument_display_node_1_label		In Signal	信号输入
@@ -4287,7 +4287,7 @@ def_inventory_equipment_rifle_node_0_label		Electric	电
 def_inventory_equipment_rifle_node_0_desc		Electrical power connection.	电源连接
 def_inventory_equipment_rifle_ammo_name		Equipment inventory (Rifle Ammo)	装备架[步枪弹药]
 def_inventory_equipment_rifle_ammo_desc		Press [$[action_equipment_use]] to reload an equipped rifle.	按[$[action_equipment_use]]重新装填步枪
-def_inventory_equipment_rifle_ammo_s_desc		A small equipment storage unit containing a rifle ammo magazine.	一种小型装备架，包含一个步枪弹匣
+def_inventory_equipment_rifle_ammo_s_desc		A small equipment storage unit containing a rifle ammo magazine.	小型装备架，包含一个步枪弹匣
 def_inventory_equipment_rifle_ammo_node_0_label		Electric	电
 def_inventory_equipment_rifle_ammo_node_0_desc		Electrical power connection.	电源连接
 def_inventory_equipment_rope_name		Equipment inventory (Rope)	装备架(绳索)
@@ -4307,7 +4307,7 @@ def_inventory_equipment_smg_ammo_node_0_label		Electric	电
 def_inventory_equipment_smg_ammo_node_0_desc		Electrical power connection.	电源连接
 def_inventory_equipment_speargun_name		Equipment inventory (Speargun)	装备架[鱼叉枪]
 def_inventory_equipment_speargun_desc		Press [$[action_equipment_use]] to fire, and [$[action_equipment_secondary]] to reload. The speargun can be fired underwater and spears travel through the water more effectively than bullets.	按[$[action_equipment_use]]开火，按[$[action_equipment_secondary]]重新装填。鱼叉枪可以在水下发射，较重的长矛在水中比子弹更有效
-def_inventory_equipment_speargun_s_desc		A large equipment storage unit containing a speargun.	一种大型装备架，内有一把长矛
+def_inventory_equipment_speargun_s_desc		A large equipment storage unit containing a speargun.	大型装备架，内有一把鱼叉枪
 def_inventory_equipment_speargun_node_0_label		Electric	电
 def_inventory_equipment_speargun_node_0_desc		Electrical power connection.	电源连接
 def_inventory_equipment_speargun_ammo_name		Equipment inventory (Speargun Ammo)	装备架(鱼叉枪弹药)
@@ -4352,7 +4352,7 @@ def_inventory_outfit_node_0_label		Electric	电
 def_inventory_outfit_node_0_desc		Electrical power connection.	电源连接
 def_inventory_outfit_arctic_name		Outfit Inventory (Arctic)	装备架(极地)
 def_inventory_outfit_arctic_desc		When equipped, it will increase your temperature enough to survive in colder weather conditions. Its thermal effectiveness is reduced when wet.	按 [$[action_interact_left]]/[$[action_interact_right]]将装备/储存装备。装备后，它会使你的体温升高，足以在更冷的天气条件下生存。湿的时候它的热效率会降低
-def_inventory_outfit_arctic_s_desc		An outfit inventory unit containing specialist thermal clothing for surviving Arctic temperatures.	一种装备架，装有专门的保暖服，用于抵御北极的温度
+def_inventory_outfit_arctic_s_desc		An outfit inventory unit containing specialist thermal clothing for surviving Arctic temperatures.	装有保暖服的装备架，用于抵御极地的严寒
 def_inventory_outfit_arctic_node_0_label		Electric	电
 def_inventory_outfit_arctic_node_0_desc		Electrical power connection.	电源连接
 def_inventory_outfit_diving_name		Outfit Inventory (Diving)	装备架(潜水)
@@ -4453,7 +4453,7 @@ def_jet_engine_duct_t_desc
 def_jet_engine_duct_t_s_desc		A T-shaped section of ducting for use in jet engines.	喷气发动机用的T形管道
 def_jet_engine_exhaust_afterburner_name		Jet Exhaust Afterburner	喷气引擎加力燃烧室
 def_jet_engine_exhaust_afterburner_desc		This is part of a set of modular jet engine components. Thrust will be produced at the back of the exhaust proportional to the internal RPS of the engine. Additional thrust is produced when the afterburner is active, at the cost of increased fuel consumption.	这是一套模块化喷气发动机部件的一部分。推力将在排气后部产生，与发动机的内部转速成比例。当加力燃烧室启动时，会以增加燃料消耗为代价，产生额外的推力
-def_jet_engine_exhaust_afterburner_s_desc		A jet engine exhaust that can burn additional fuel for increased output.	一种喷气发动机的排气装置，可以燃烧额外的燃料以增加输出
+def_jet_engine_exhaust_afterburner_s_desc		A jet engine exhaust that can burn additional fuel for increased output.	喷气引擎的排气装置之一,可以燃烧额外的燃料以增加输出
 def_jet_engine_exhaust_afterburner_node_0_label		Fuel	燃料
 def_jet_engine_exhaust_afterburner_node_0_desc		Jet fuel input to the afterburner.	输入喷气燃料到加力燃烧室
 def_jet_engine_exhaust_afterburner_node_1_label		Air Pressure	气压
@@ -4475,7 +4475,7 @@ def_jet_engine_exhaust_basic_node_2_label		Thrust Spoiler	喷管收敛控制
 def_jet_engine_exhaust_basic_node_2_desc		The air flow spoiler for reducing effective thrust from the exhaust. Takes value 0 (no reduction in thrust) to 1 (total reduction in thrust).	控制喷气口的阻力。取值为0(不减少推力)到1(完全减少推力)
 def_jet_engine_exhaust_rotating_name		Jet Exhaust Rotating	旋转式喷气口
 def_jet_engine_exhaust_rotating_desc		This is part of a set of modular jet engine components. Thrust will be produced at the back of the exhaust proportional to the internal RPS of the engine. The direction of the thrust is controlled using a standard value that sets the target orientation within the pivot's range of motion of -0.5 to 0.5 turns.	这是一套模块化喷气发动机部件的一部分。推力将在排气后部产生，与发动机的内部转速成比例。使用标准值控制推力方向，该值将目标方向设置在枢轴-0.5到0.5圈的运动范围内
-def_jet_engine_exhaust_rotating_s_desc		A jet engine exhaust that has a built-in mechanical pivot.	一种内置机械枢轴的喷气发动机排气装置
+def_jet_engine_exhaust_rotating_s_desc		A jet engine exhaust that has a built-in mechanical pivot.	内置机械枢轴的喷气发动机排气装置
 def_jet_engine_exhaust_rotating_node_0_label		Air Pressure	气压
 def_jet_engine_exhaust_rotating_node_0_desc		The pressure of air into the exhaust.	气体进入排气管的压力
 def_jet_engine_exhaust_rotating_node_1_label		Temperature	温度
@@ -4568,7 +4568,7 @@ def_laser_distance_sensor_node_3_label		Wavelength	激光编码
 def_laser_distance_sensor_node_3_desc		The specific light wavelength to emit (whole number).	要发射的特定光波长(整数)
 def_laser_point_sensor_name		Laser Point Sensor	激光点传感器
 def_laser_point_sensor_desc		The closest point to the center of the sensor's field of view will be reported. It outputs a value of -1 to 1 on composite number channel 1 for the x position, and a value of -1 to 1 on composite number channel 2 for the y position. Composite on/off channel 1 is set to on when a point is visible. The -1 to 1 values map to an fov of -cos(0.5) to cos(0.5) in both the x and y directions.	在混合通道输出距离视场中心最近的激光点(相同激光编码).number通道1:x位置(-1到1).number通道2:y位置(-1到1).boolean通道1:发现激光点.-1到1的值在x和y方向上都映射为-cos(0.5)到cos(0.5)的视场
-def_laser_point_sensor_s_desc		A sensor that outputs a relative x and y position of a laser point that it can see within its field of view.	一种传感器，输出激光点的相对x和y位置，在其视场内可以看到
+def_laser_point_sensor_s_desc		A sensor that outputs a relative x and y position of a laser point that it can see within its field of view.	输出在其视场内探测到的激光点的相对x和y位置的传感器
 def_laser_point_sensor_node_0_label		Electric	电
 def_laser_point_sensor_node_0_desc		Electrical power connection.	电源连接
 def_laser_point_sensor_node_1_label		Data Output	数据输出
@@ -4602,7 +4602,7 @@ def_linear_compact_head_desc
 def_linear_compact_head_s_desc			
 def_linear_compact_module_name		Compact Linear Track Extension	紧凑型直线轨道扩展
 def_linear_compact_module_desc		A Compact Linear Track Base must be attached somewhere along the track for it to function.	紧凑的线性轨道基座必须附着在轨道的某处，使其发挥作用
-def_linear_compact_module_s_desc		An extension piece that can be used to build compact linear tracks.	一种可用来建造紧凑的直线轨道的延长件
+def_linear_compact_module_s_desc		An extension piece that can be used to build compact linear tracks.	可用来建造紧凑的直线轨道的延长件
 def_linear_head_name		Linear Track Head	直线轨头
 def_linear_head_desc			
 def_linear_head_s_desc			
@@ -4765,7 +4765,7 @@ def_modular_engine_exhaust_manifold_straight_s_desc		A modular engine manifold.	
 def_modular_engine_exhaust_manifold_straight_node_0_label		Exhaust	排气管
 def_modular_engine_exhaust_manifold_straight_node_0_desc			
 def_modular_engine_fluid_pump_name		Modular Engine Fluid Pump	模块化发动机油泵
-def_modular_engine_fluid_pump_desc		An pump that attaches to a Drive Belt to mechanically push fluid around a system.	一种连接在传动带上的泵，以机械地推动流体在系统中流动
+def_modular_engine_fluid_pump_desc		An pump that attaches to a Drive Belt to mechanically push fluid around a system.	连接在皮带轮上的泵,以机械地推动流体在系统中流动
 def_modular_engine_fluid_pump_s_desc		A modular engine fluid pump.	模块化发动机油泵
 def_modular_engine_fluid_pump_node_0_label		Clutch Pressure	离合器压力
 def_modular_engine_fluid_pump_node_0_desc			
@@ -5045,7 +5045,7 @@ def_multibody_pivot_b_desc
 def_multibody_pivot_b_s_desc			
 def_multibody_robotic_hinge_01_a_name		Robotic Hinge	机械铰链[主]
 def_multibody_robotic_hinge_01_a_desc		The hinge has a range of motion of 0.25 turns in both directions. A standard input value sets the target orientation within the pivot's range of motion. The measured rotation of the hinge can be read from its output. The hinge's speed can be configured by selecting it with the select tool.	铰链在两个方向上的运动范围为0.25圈。标准输入值设置轴运动范围内的目标方向。铰链的旋转测量值可以从其输出中读取。铰链的速度可以通过选择工具进行配置
-def_multibody_robotic_hinge_01_a_s_desc		A powered robotic hinge that will orientate towards the input value within its range of motion.	一种有动力的机械铰链，它将朝向其运动范围内的输入值
+def_multibody_robotic_hinge_01_a_s_desc		A powered robotic hinge that will orientate towards the input value within its range of motion.	有动力的机械铰链，它将朝向其运动范围内的输入值
 def_multibody_robotic_hinge_01_a_node_0_label		Rotation Target	旋转目标
 def_multibody_robotic_hinge_01_a_node_0_desc		The standard value setting the orientation within the range of motion.	在运动范围内设置方向的标准值
 def_multibody_robotic_hinge_01_a_node_1_label		Current Rotation	当前圈数
@@ -5158,7 +5158,7 @@ def_no_sleep_desc		When on a vehicle, the vehicle will not despawn when out of r
 def_no_sleep_s_desc		A keep alive marking block.	载具保活标记块
 def_parachute_name		Vehicle Parachute	载具降落伞
 def_parachute_desc		The parachute will deploy when receiving an on signal, and will close when not. Once deployed, it will open at a speed of 20m/s and stall when it drops below 5m/s. Once opened, the single use will be consumed and it must be returned to a workbench to be refolded. The size of the parachute can be customised by selecting this component with the select tool.	降落伞将在收到打开信号时展开，否则将关闭。一旦展开，它将在20m/s的速度打开，当速度降至5m/s以下时停止。一旦打开，一次性使用将被消耗，必须返回工作台重新折叠。通过使用选择工具选择该组件，可以定制降落伞的尺寸
-def_parachute_s_desc		A single-use parachute that can be deployed to reduce a vehicle's velocity.	一种一次性降落伞，可以用来降低载具的速度
+def_parachute_s_desc		A single-use parachute that can be deployed to reduce a vehicle's velocity.	一次性的降落伞，可以用来降低载具的速度
 def_parachute_node_0_label		Deploy	展开
 def_parachute_node_0_desc		Deploy the parachute. The parachute will close when it stalls or stops receiving an on signal.	展开降落伞。当降落伞失速或停止接收到打开信号时，降落伞将关闭
 def_passenger_seat_name		Passenger Seat (Deprecated)	乘客座椅(已弃用)
@@ -5168,7 +5168,7 @@ def_passenger_seat_node_0_label		Occupied	被占用
 def_passenger_seat_node_0_desc		Outputs an on signal if this seat is occupied by a character.	如果该座位被角色占用，则输出接通信号
 def_physics_flooder_name		Physics Flooder	物理填充块
 def_physics_flooder_desc		Floods an enclosed volume with massless physics, allowing for physics shape optimisation without comprimising vehicle integrity.	用零重量的方块填满密闭空间(不能用于有可动部件的房间)
-def_physics_flooder_s_desc		A device that floods an enclosed volume with physics for optimisation.	一种在封闭的空间中注入用零重量的方块以进行优化的装置
+def_physics_flooder_s_desc		A device that floods an enclosed volume with physics for optimisation.	可以在封闭的空间中注入用零重量的方块以进行优化的装置
 def_player_sensor_name		Player Sensor	玩家传感器
 def_player_sensor_desc		If the sensor is facing into a sealed room, only players inside that room will be detected. Likewise, players inside sealed rooms will not be detected if the sensor is placed on the outside. The size of the area and types of players to detect can be changed by selecting this component with the select tool.	如果传感器正对着一个密封的房间，则只会检测到房间内的玩家。同样，如果传感器放在外面，密封房间内的玩家也不会被检测到。通过使用选择工具选择此组件，可以更改要检测的区域大小和玩家类型
 def_player_sensor_s_desc		A sensor that outputs the number of players detected within an area.	输出在一个区域内检测到的玩家数量的传感器
@@ -5188,7 +5188,7 @@ def_propeller_node_0_label		RPS	RPS
 def_propeller_node_0_desc		Receives power generated by an engine.	接收发动机产生的动力
 def_radar_name		Radar (Deprecated)	雷达(已弃用)
 def_radar_desc		This sensor outputs the distance and angle to a detected object within its range and field of view using radio waves. (Range : 5000) (Max FOV : 0.125)	该传感器将输出其范围和视野内的检测对象的距离和角度。(最大距离:5000)(最大视场:0.125)
-def_radar_s_desc		A short range Radar that returns information about a detected object within its view.	一种短程雷达，返回其视野内探测到的物体的信息
+def_radar_s_desc		A short range Radar that returns information about a detected object within its view.	短程雷达，返回其视野内探测到的物体的信息
 def_radar_node_0_label		FOV	视野角度
 def_radar_node_0_desc		The sensor's yaw field of view in turns from 0.01 to 0.125.	传感器的偏航视野从0.01到0.125依次变化
 def_radar_node_1_label		Facing Yaw	面向偏航
@@ -5205,7 +5205,7 @@ def_radar_node_6_label		Electric	电
 def_radar_node_6_desc		Electrical power connection.	电源连接
 def_radar_advanced_name		Radar (Basic)	雷达(基础)
 def_radar_advanced_desc		This sensor outputs the distance and relative angle to a detected object within its range and field of view using radio waves. Sensitivity is based on FOV, target size, and distance.	该传感器输出其范围和视野内的检测对象的距离和相对角度。灵敏度取决于视场、目标大小和距离
-def_radar_advanced_s_desc		A radar that returns information about a detected object within its view.	一种雷达，返回其视野内探测到的物体的信息
+def_radar_advanced_s_desc		A radar that returns information about a detected object within its view.	返回其视野内探测到的物体的信息
 def_radar_advanced_node_0_label		Electric	电
 def_radar_advanced_node_0_desc		Electrical power connection.	电源连接
 def_radar_advanced_node_1_label		Activate	激活
@@ -5216,7 +5216,7 @@ def_radar_advanced_node_3_label		Radar Rotation	雷达旋转
 def_radar_advanced_node_3_desc		Current radar rotation from forward in turns.	当前雷达从前方开始自转
 def_radar_advanced_awacs_name		Radar (AWACS)	雷达(预警机)
 def_radar_advanced_awacs_desc		This sensor outputs the distance and relative angle to a detected object within its range and field of view using radio waves. Sensitivity is based on FOV, target size, and distance.	该传感器输出其范围和视野内的检测对象的距离和相对角度。灵敏度取决于视场、目标大小和距离
-def_radar_advanced_awacs_s_desc		A long range radar that returns information about a detected object within its view.	一种远程雷达，返回视野内探测到的物体的信息
+def_radar_advanced_awacs_s_desc		A long range radar that returns information about a detected object within its view.	远程雷达，返回视野内探测到的物体的信息
 def_radar_advanced_awacs_node_0_label		Electric	电
 def_radar_advanced_awacs_node_0_desc		Electrical power connection.	电源连接
 def_radar_advanced_awacs_node_1_label		Activate	激活
@@ -5227,7 +5227,7 @@ def_radar_advanced_awacs_node_3_label		Radar Rotation	雷达旋转
 def_radar_advanced_awacs_node_3_desc		Current radar rotation from forward in turns.	当前雷达从前方开始自转
 def_radar_advanced_dish_name		Radar (Dish)	雷达(抛物面天线)
 def_radar_advanced_dish_desc		This sensor outputs the distance and relative angle to a detected object within its range and field of view using radio waves. Sensitivity is based on FOV, target size, and distance.	该传感器输出其范围和视野内的检测对象的距离和相对角度。灵敏度取决于视场、目标大小和距离
-def_radar_advanced_dish_s_desc		A radar that returns information about a detected object within its view.	一种远程雷达，返回视野内探测到的物体的信息
+def_radar_advanced_dish_s_desc		A radar that returns information about a detected object within its view.	远程雷达，返回视野内探测到的物体的信息
 def_radar_advanced_dish_node_0_label		Electric	电
 def_radar_advanced_dish_node_0_desc		Electrical power connection.	电源连接
 def_radar_advanced_dish_node_1_label		Activate	激活
@@ -5238,7 +5238,7 @@ def_radar_advanced_dish_node_3_label		Radar Rotation	雷达旋转
 def_radar_advanced_dish_node_3_desc		Current radar rotation from forward in turns.	当前雷达从前方开始自转
 def_radar_advanced_missile_name		Radar (Missile)	雷达(导弹)
 def_radar_advanced_missile_desc		This sensor outputs the distance and relative angle to a detected object within its range and field of view using radio waves. This sensor is designed for missiles and its radar acts along the Z axis. Sensitivity is based on FOV, target size, and distance.	该传感器输出其范围和视野内的检测对象的距离和相对角度。该传感器是为导弹设计的，其雷达沿Z轴工作。灵敏度取决于视场、目标大小和距离
-def_radar_advanced_missile_s_desc		A short range radar that returns information about a detected object within its view.	一种短程雷达，返回其视野内探测到的物体的信息
+def_radar_advanced_missile_s_desc		A short range radar that returns information about a detected object within its view.	短程雷达，返回其视野内探测到的物体的信息
 def_radar_advanced_missile_node_0_label		Electric	电
 def_radar_advanced_missile_node_0_desc		Electrical power connection.	电源连接
 def_radar_advanced_missile_node_1_label		Activate	激活
@@ -5264,7 +5264,7 @@ def_radar_advanced_missile_laser_node_4_label		Frequency	激光编码
 def_radar_advanced_missile_laser_node_4_desc		Target laser frequency to scan for.	要捕获的激光编码
 def_radar_advanced_phalanx_name		Radar (Phalanx)	雷达(密集阵)
 def_radar_advanced_phalanx_desc		This sensor outputs the distance and relative angle to a detected object within its range and field of view using radio waves. Sensitivity is based on FOV, target size, and distance.	该传感器输出其范围和视野内的检测对象的距离和相对角度。灵敏度取决于视场、目标大小和距离
-def_radar_advanced_phalanx_s_desc		A radar that returns information about a detected object within its view.	一种雷达，返回其视野内探测到的物体的信息
+def_radar_advanced_phalanx_s_desc		A radar that returns information about a detected object within its view.	返回其视野内探测到的物体的信息
 def_radar_advanced_phalanx_node_0_label		Electric	电
 def_radar_advanced_phalanx_node_0_desc		Electrical power connection.	电源连接
 def_radar_advanced_phalanx_node_1_label		Activate	激活
@@ -5280,7 +5280,7 @@ def_radar_detector_node_0_label		Detected	被探测到
 def_radar_detector_node_0_desc		Returns an On signal when it detects a radio wave.	当检测到雷达波时输出on信号
 def_radar_dish_name		Radar (Dish) (Deprecated)	雷达(盘)(已弃用)
 def_radar_dish_desc		This fixed sensor outputs the distance and angle to a detected object within its range and field of view using radio waves. (Range : 20000) (Max FOV : 0.125)	这个固定传感器使用无线电波将距离和角度输出到被探测物体的范围和视场内。(射程:20000)(最大视场:0.125)
-def_radar_dish_s_desc		A medium range, fixed rotation Radar that returns information about a detected object within its view.	一种中程固定雷达，返回在其视野内探测到的物体的信息
+def_radar_dish_s_desc		A medium range, fixed rotation Radar that returns information about a detected object within its view.	中程固定雷达，返回在其视野内探测到的物体的信息
 def_radar_dish_node_0_label		FOV	视野
 def_radar_dish_node_0_desc		The sensor's yaw field of view in turns from 0.01 to 0.125.	传感器的偏航视野从0.01到0.125依次变化
 def_radar_dish_node_1_label		Target Distance	目标距离
@@ -5295,7 +5295,7 @@ def_radar_dish_node_5_label		Electric	电
 def_radar_dish_node_5_desc		Electrical power connection.	电源连接
 def_radar_huge_name		Radar (Huge) (Deprecated)	雷达(巨大)(已弃用)
 def_radar_huge_desc		This sensor outputs the distance and relative angles to up to 8 detected objects within its range and field of view using radio waves and outputs all detected targets through composite channels. (Range : 50000) (Max FOV : 0.125)	该传感器使用无线电波输出其范围和视场内最多8个被检测对象的距离和相对角度，并通过复合信道输出所有被检测目标。(射程:50000)(最大视场:0.125)
-def_radar_huge_s_desc		A long range, multi-target Radar that returns detailed information through composite channels about detected objects within its view.	多目标雷达一种远程多目标雷达，通过合成通道返回其视野内探测到的物体的详细信息
+def_radar_huge_s_desc		A long range, multi-target Radar that returns detailed information through composite channels about detected objects within its view.	远程多目标雷达，通过合成通道返回其视野内探测到的物体的详细信息
 def_radar_huge_node_0_label		FOV	视野
 def_radar_huge_node_0_desc		The sensor's yaw field of view in turns from 0.01 to 0.125.	传感器的偏航视野从0.01到0.125依次变化
 def_radar_huge_node_1_label		Facing Yaw	面向偏航
@@ -5306,7 +5306,7 @@ def_radar_huge_node_3_label		Radar Data	雷达数据
 def_radar_huge_node_3_desc		Outputs data for up to 8 targets. On/Off 1-8 : Target 1 Found, Target 2 Found, etc... Values 1-32 : Target 1 Distance, Target 1 Azimuth Angle, Target 1 Elevation Angle, Target 1 Time Since Detection, Target 2 Distance, Target 2 Azimuth Angle, Target 2 Elevation Angle, Target 2 Time Since Detection, etc...	输出多达8个目标的数据。(开/关1-8:找到目标)(值1-4:目标1(相对距离、信号强度、仰角、方位角))(值5-8:目标2)等...
 def_radar_large_name		Radar (Large) (Deprecated)	雷达(大)(已弃用)
 def_radar_large_desc		This sensor outputs the distance and relative angles to a detected object within its range and field of view using radio waves. This sensor uniquely allows the changing of it's pitch direction. (Range : 20000) (Max FOV : 0.250)	该传感器使用无线电波将距离和相对角度输出到被探测物体的范围和视场内。这个传感器唯一允许改变它的俯仰(Pitch)方向。(射程:20000)(最大视场:0.250)
-def_radar_large_s_desc		A medium range, highly configurable Radar that returns detailed information about a detected object within its view.	一种中程、高度可配置的雷达，能返回在其视野内探测到的物体的详细信息
+def_radar_large_s_desc		A medium range, highly configurable Radar that returns detailed information about a detected object within its view.	高度可配置的中程雷达，能返回在其视野内探测到的物体的详细信息
 def_radar_large_node_0_label		FOV	视野
 def_radar_large_node_0_desc		The sensor's yaw and pitch field of view in turns from 0.01 to 0.125.	传感器的FOV从0.01到0.125
 def_radar_large_node_1_label		Facing Yaw	面向偏航
@@ -5327,7 +5327,7 @@ def_radar_large_node_8_label		Electric	电
 def_radar_large_node_8_desc		Electrical power connection.	电源连接
 def_radar_sonar_name		Sonar (Large) (Deprecated)	声纳(大)(已弃用)
 def_radar_sonar_desc		This sensor outputs the distance and angle to a detected underwater object within its range and field of view using sound waves. (Range : 3000) (Max FOV : 0.125)	利用声波在选定角度和FOV内检测目标仰角和距离。(射程:3000)(最大视场:0.125)
-def_radar_sonar_s_desc		A short range Sonar that returns information about a detected underwater object within its view.	一种短程声纳，在其视野内返回有关探测到的水下物体的信息
+def_radar_sonar_s_desc		A short range Sonar that returns information about a detected underwater object within its view.	短程声纳，在其视野内返回有关探测到的水下物体的信息
 def_radar_sonar_node_0_label		FOV	视野
 def_radar_sonar_node_0_desc		The sensor's yaw field of view in turns from 0.01 to 0.125.	传感器的偏航视野从0.01到0.125依次变化
 def_radar_sonar_node_1_label		Facing Yaw	面向偏航
@@ -5344,7 +5344,7 @@ def_radar_sonar_node_6_label		Electric	电
 def_radar_sonar_node_6_desc		Electrical power connection.	电源连接
 def_radar_sonar_small_name		Sonar (Small) (Deprecated)	声纳(小)(已弃用)
 def_radar_sonar_small_desc		This sensor outputs the distance and angle to a detected underwater object within its range and field of view using sound waves. (Range : 1000) (Max FOV : 0.125)	利用声波在选定角度和FOV内检测目标仰角和距离。(射程:3000)(最大视场:0.125)
-def_radar_sonar_small_s_desc		A short range Sonar that returns information about a detected underwater object within its view.	一种短程声纳，在其视野内返回有关探测到的水下物体的信息
+def_radar_sonar_small_s_desc		A short range Sonar that returns information about a detected underwater object within its view.	短程声纳，在其视野内返回有关探测到的水下物体的信息
 def_radar_sonar_small_node_0_label		FOV	视野
 def_radar_sonar_small_node_0_desc		The sensor's yaw field of view in turns from 0.01 to 0.125.	传感器的偏航视野从0.01到0.125依次变化
 def_radar_sonar_small_node_1_label		Facing Yaw	面向偏航
@@ -5831,14 +5831,14 @@ def_searchlight_node_2_label		Electric	电
 def_searchlight_node_2_desc		Electrical power connection.	电源连接
 def_searchlight_small_name		Small Spotlight (Block)	小聚光灯(块)
 def_searchlight_small_desc		It has a range of 60m.	它的范围是60米
-def_searchlight_small_s_desc		A small spotlight that can be controlled using an on/off signal.	一种可以用开/关信号控制的小聚光灯
+def_searchlight_small_s_desc		A small spotlight that can be controlled using an on/off signal.	可以由开/关信号控制的小聚光灯
 def_searchlight_small_node_0_label		Light Switch	灯光开关
 def_searchlight_small_node_0_desc		Controls whether or not the light is switched on.	控制灯是否打开
 def_searchlight_small_node_1_label		Electric	电
 def_searchlight_small_node_1_desc		Electrical power connection.	电源连接
 def_searchlight_small_2_name		Small Spotlight (Mounted)	小聚光灯(挂载)
 def_searchlight_small_2_desc		It has a range of 60m.	它的范围是60米
-def_searchlight_small_2_s_desc		A small spotlight that can be controlled using an on/off signal.	一种可以用开/关信号控制的小聚光灯
+def_searchlight_small_2_s_desc		A small spotlight that can be controlled using an on/off signal.	可以由开/关信号控制的小聚光灯
 def_searchlight_small_2_node_0_label		Light Switch	灯光开关
 def_searchlight_small_2_node_0_desc		Controls whether or not the light is switched on.	控制灯是否打开
 def_searchlight_small_2_node_1_label		Electric	电
@@ -6199,15 +6199,15 @@ def_seat_racing_node_15_desc
 def_seat_racing_node_16_label		Headset Audio	耳机音频
 def_seat_racing_node_16_desc			
 def_seat_stretcher_name		Stretcher	担架
-def_seat_stretcher_desc		You can get in and out of the stretcher by interacting with it using [$[action_use_seat]]. You can place a rescued survivor in any stretcher by using [$[action_use_seat]] while carrying them.	您可以通过使用 [$[action_use_seat]]与担架交互来进出担架。您可以使用 [$[action_use_seat]]将获救的幸存者放在担架上
-def_seat_stretcher_s_desc		A strecher that connects below an attachment point.	连接在连接点下面的一种拉紧器
+def_seat_stretcher_desc		You can get in and out of the stretcher by interacting with it using [$[action_use_seat]]. You can place a rescued survivor in any stretcher by using [$[action_use_seat]] while carrying them.	按 [$[action_use_seat]] 键躺在担架上,或按下 [$[action_use_seat]] 键将获救的幸存者放在担架上
+def_seat_stretcher_s_desc		A strecher that connects below an attachment point.	连接点下方的担架
 def_seat_stretcher_node_0_label		Occupied	被占用
-def_seat_stretcher_node_0_desc		Outputs an on signal if this bed is occupied by a character.	如果这个床被一个角色占用，则输出一个打开信号
-def_sign_name		Paintable Indicator	可喷涂指示器
-def_sign_desc		This block has a paintable surface where small grid squares can be painted individually. Use additive painting mode to paint the backlight grid. The backlight can be enabled by using an on signal and a name can be set with the select tool that will be visible when the indicator is looked at by a player.	这个块有一个可绘制的表面，在那里可以单独绘制小的网格正方形。使用附加绘制模式绘制背光网格。背光可以通过使用打开信号启用，并且可以使用选择工具设置名称，当玩家查看指示灯时，该工具将可见
-def_sign_s_desc		A backlit indicator for displaying painted detail.	一种背光指示器，用于显示绘制的细节
+def_seat_stretcher_node_0_desc		Outputs an on signal if this bed is occupied by a character.	如果这个床被一个角色占用，则输出一个on信号
+def_sign_name		Paintable Indicator	可涂标志(带背光)
+def_sign_desc		This block has a paintable surface where small grid squares can be painted individually. Use additive painting mode to paint the backlight grid. The backlight can be enabled by using an on signal and a name can be set with the select tool that will be visible when the indicator is looked at by a player.	这个块有一个可绘制的表面，这个面可以单独绘制小的正方形网格.使用附加绘制模式绘制背光网格.背光可以通过on信号启用,并且可以使用选择工具设置名称.当玩家查看指示灯时，该提示将可见
+def_sign_s_desc		A backlit indicator for displaying painted detail.	带有背光的可涂标志，用于显示绘制的细节
 def_sign_node_0_label		Backlight	背光
-def_sign_node_0_desc		Switches the backlight on when receiving an on signal.	接收到打开信号时，打开背光
+def_sign_node_0_desc		Switches the backlight on when receiving an on signal.	接收到on信号时，打开背光
 def_sign_node_1_label		Electric	电
 def_sign_node_1_desc		Electrical power connection.	电源连接
 def_sign_na_name		Paintable Sign	可涂标志
@@ -6232,20 +6232,20 @@ def_ski_small_node_0_label		Steering	驾驶
 def_ski_small_node_0_desc		Accepts a value between -1 and 1 that represents the extremes of the steering rotation.	接受一个介于-1和1之间的值，该值表示转向旋转的极值值
 def_small_light_name		Light	灯
 def_small_light_desc			
-def_small_light_s_desc		A basic light that can be controlled using an on/off signal.	一种可以用开关信号控制的基本光
+def_small_light_s_desc		A basic light that can be controlled using an on/off signal.	可以用开关信号控制的基本光源
 def_small_light_node_0_label		Light Switch	灯光开关
 def_small_light_node_0_desc		Controls whether or not the light is switched on.	控制灯是否打开
 def_small_light_node_1_label		Electric	电
 def_small_light_node_1_desc		Electrical power connection.	电源连接
 def_small_light_rgb_name		Light (RGB)	灯(RGB)
-def_small_light_rgb_desc		Three channels of the composite input can be used to set the red, green and blue components of the light's color using numbers between 0 and 1. The light can also operate in HSV mode, where the 3 inputs correspond to the hue, saturation and value (brightness) of the color between 0 and 1. The color mode and input channels can be customised by selecting this component with the select tool.	组合输入的三个通道可用于使用0到1之间的数字设置灯光颜色的红色、绿色和蓝色分量。灯光也可以在HSV模式下工作，其中3个输入对应于0到1之间颜色的色调、饱和度和值(亮度)。颜色模式和输入通道可以通过使用选择工具选择此组件进行自定义
-def_small_light_rgb_s_desc		An advanced light that can be controlled using a microcontroller.	一种可以用微控制器控制的先进光源
+def_small_light_rgb_desc		Three channels of the composite input can be used to set the red, green and blue components of the light's color using numbers between 0 and 1. The light can also operate in HSV mode, where the 3 inputs correspond to the hue, saturation and value (brightness) of the color between 0 and 1. The color mode and input channels can be customised by selecting this component with the select tool.	组合输入的三个通道可用于使用0到1之间的数字设置灯光的红色、绿色和蓝色分量。灯光也可以在HSV模式下工作，其中3个输入对应于0到1之间颜色的色调、饱和度和亮度。颜色模式和输入通道可以通过使用选择工具进行调整
+def_small_light_rgb_s_desc		An advanced light that can be controlled using a microcontroller.	需要使用微控制器控制的先进光源
 def_small_light_rgb_node_0_label		Color Data	颜色数据
 def_small_light_rgb_node_0_desc		Composite link containing the light's color data.	包含灯光颜色数据的复合链接
 def_small_light_rgb_node_1_label		Electric	电
 def_small_light_rgb_node_1_desc		Electrical power connection.	电源连接
 def_solar_name		Solar Cell	太阳能电池
-def_solar_desc		The cell generates electrical current based on time of day and angle towards the sun.	电池根据一天中的时间和太阳的角度产生电流
+def_solar_desc		The cell generates electrical current based on time of day and angle towards the sun.	电池根据一天中的时间和太阳的角度产生微弱的电流
 def_solar_s_desc		A solar cell for generating electricity.	用于发电的太阳能电池
 def_solar_node_0_label		Electric	电
 def_solar_node_0_desc		The electric connection to output electric energy.	输出电能的电源连接
@@ -6271,7 +6271,7 @@ def_solid_rocket_large_fins_node_1_label		Electric	电
 def_solid_rocket_large_fins_node_1_desc		Electrical power connection.	电源连接
 def_solid_rocket_medium_name		Solid Rocket Fuel (Medium)	固体火箭燃料(中)
 def_solid_rocket_medium_desc		Fuel can be stacked to increase the burn duration of a rocket booster.	燃料可以堆积起来以增加火箭助推器的燃烧时间
-def_solid_rocket_medium_s_desc		A medium solid rocket fuel segment.	一种中等固体火箭燃料段
+def_solid_rocket_medium_s_desc		A medium solid rocket fuel segment.	中等尺寸的固体火箭燃料段
 def_solid_rocket_medium_fins_name		Solid Rocket Fuel (Medium) (Fins)	固体火箭燃料(中)(弹翼)
 def_solid_rocket_medium_fins_desc		Fuel can be stacked to increase the burn duration of a rocket booster. Link up to the instruction output of a missile radar for automatic guidance.	燃料段可堆积，以增加火箭助推器的燃烧持续时间。连接到导弹雷达的指令输出进行自动制导
 def_solid_rocket_medium_fins_s_desc		A medium solid rocket fuel segment with in-built controllable fins.	带有内置可控弹翼的中型固体火箭燃料段
@@ -6358,8 +6358,8 @@ def_sonar_jammer_node_0_desc		Enable the noisemaker.	启用声纳干扰器
 def_sonar_jammer_node_1_label		Electric	电
 def_sonar_jammer_node_1_desc		Electrical connection.	电源连接
 def_speaker_name		Speaker (Small)	扬声器(小)
-def_speaker_desc		A small speaker capable of playing audio data to nearby players. (Range : 15)	一种小型扬声器，能向附近的玩家播放音频数据。(范围:15)
-def_speaker_s_desc		A speaker capable of playing audio data to players within its range.	一种能够向其范围内的玩家播放音频数据的扬声器
+def_speaker_desc		A small speaker capable of playing audio data to nearby players. (Range : 15)	小型扬声器，能向附近的玩家播放音频数据(范围:15)
+def_speaker_s_desc		A speaker capable of playing audio data to players within its range.	能够向其范围内的玩家播放音频数据的扬声器
 def_speaker_node_0_label		Audio	音频
 def_speaker_node_0_desc		Audio data connection.	音频数据连接
 def_speaker_node_1_label		Electric	电
@@ -6367,8 +6367,8 @@ def_speaker_node_1_desc		Electrical power connection.	电源连接
 def_speaker_node_2_label		Is Transmit	正在传输
 def_speaker_node_2_desc		If the speaker is currently transmitting.	扬声器当前是否在接收数据
 def_speaker_large_name		Megaphone Speaker (Large)	扩音器(大)
-def_speaker_large_desc		A large megaphone capable of playing audio data to players within its range. (Range : 1000)	一种大型扩音器，能够向其范围内的玩家播放音频数据。(范围:1000)
-def_speaker_large_s_desc		A speaker capable of playing audio data to players within its range.	一种能够向其范围内的玩家播放音频数据的扬声器
+def_speaker_large_desc		A large megaphone capable of playing audio data to players within its range. (Range : 1000)	大型扩音器，能够向其范围内的玩家播放音频数据(范围:1000)
+def_speaker_large_s_desc		A speaker capable of playing audio data to players within its range.	能够向其范围内的玩家播放音频数据的扬声器
 def_speaker_large_node_0_label		Audio	音频
 def_speaker_large_node_0_desc		Audio data connection.	音频数据连接
 def_speaker_large_node_1_label		Electric	电
@@ -6376,8 +6376,8 @@ def_speaker_large_node_1_desc		Electrical power connection.	电源连接
 def_speaker_large_node_2_label		Is Transmit	正在传输
 def_speaker_large_node_2_desc		If the speaker is currently transmitting.	扬声器当前是否在接收数据
 def_speaker_medium_name		Megaphone Speaker (Small)	扩音器(小)
-def_speaker_medium_desc		A small megaphone capable of playing audio data to players within its range. (Range : 300)	一种小型扩音器，能向其范围内的玩家播放音频数据。(范围:300)
-def_speaker_medium_s_desc		A speaker capable of playing audio data to players within its range.	一种能够向其范围内的玩家播放音频数据的扬声器
+def_speaker_medium_desc		A small megaphone capable of playing audio data to players within its range. (Range : 300)	小型扩音器，能向其范围内的玩家播放音频数据(范围:300)
+def_speaker_medium_s_desc		A speaker capable of playing audio data to players within its range.	能够向其范围内的玩家播放音频数据的扬声器
 def_speaker_medium_node_0_label		Audio	音频
 def_speaker_medium_node_0_desc		Audio data connection.	音频数据连接
 def_speaker_medium_node_1_label		Electric	电
@@ -6389,7 +6389,7 @@ def_stair_segment_desc
 def_stair_segment_s_desc		A single step that can be stacked to create a staircase.	可以堆叠成楼梯的踏板
 def_stair_top_name		Stair Top	楼梯顶部
 def_stair_top_desc			
-def_stair_top_s_desc		A single step that can be used at the top of a staircase to make it flush with a platform.	一种台阶，可用于楼梯顶部，使其与平台平齐
+def_stair_top_s_desc		A single step that can be used at the top of a staircase to make it flush with a platform.	可以在楼梯顶部使用的单个台阶,使其与平台齐平
 def_steam_boiler_name		Steam Boiler	蒸汽锅炉
 def_steam_boiler_desc		The boiler should be connected to a firebox to supply heat for evaporation. Allowing too much pressure to build up in the boiler may cause an explosion; control your boiler's heat to restrict steam generation and keep the pressure below the threshold (10).	热流的温度大于100时,就可以开始产生蒸汽压力.更高的温度可以更快的产生压力.压力到达10锅炉就会爆炸.压力低于5会降低性能,5到10的压力似乎没有性能差异
 def_steam_boiler_s_desc		A boiler for evaporating water into steam.	蒸汽锅炉用于建造燃煤煤或核动力引擎。热源向锅炉提供热流体，淡水被转化为蒸汽排出
@@ -6584,8 +6584,8 @@ def_steam_whistle_node_0_desc		Allows steam to flow out.	允许蒸汽流走
 def_steam_whistle_node_1_label		Open	打开
 def_steam_whistle_node_1_desc		Opens the steam whistle, allowing steam to flow through.	打开汽笛，让蒸汽流过
 def_tail_rotor_name		Rotor (Tail)	尾桨
-def_tail_rotor_desc		A standard number input allows you to control how much force the rotor generates.	标准数字输入允许您控制螺旋桨产生的力
-def_tail_rotor_s_desc		A basic helicopter tail rotor.	一种基本的直升机尾桨
+def_tail_rotor_desc		A standard number input allows you to control how much force the rotor generates.	输入数字来调节尾桨产生的推力
+def_tail_rotor_s_desc		A basic helicopter tail rotor.	直升机的尾桨
 def_tail_rotor_node_0_label		RPS	RPS
 def_tail_rotor_node_0_desc		Receives power generated by an engine.	接收发动机产生的动力
 def_tail_rotor_node_1_label		Yaw	偏航(Yaw)
@@ -6845,13 +6845,13 @@ def_trans_block_angle_name		Pipe Angle (Enclosed)	封闭管道(L型)
 def_trans_block_angle_desc			
 def_trans_block_angle_s_desc		An angled pipe for transferring to components from an engine.	从发动机传送到部件的有角度的管子
 def_trans_block_corner_name		Pipe Angle Corner (Enclosed)	封闭管道(3向 边角)
-def_trans_block_corner_s_desc		A T-shaped pipe segment that can be used to branch piping into three directions.	一种T形管段，可用于将管道分为三个方向
+def_trans_block_corner_s_desc		A T-shaped pipe segment that can be used to branch piping into three directions.	T形管段，可用于将管道分为三个方向
 def_trans_block_cross_name		Pipe Cross (Enclosed)	封闭管道(X型)
 def_trans_block_cross_desc			
-def_trans_block_cross_s_desc		An X-shaped pipe segment that can be used to branch piping into four directions.	一种X形管段，可用于将管道分为四个方向
+def_trans_block_cross_s_desc		An X-shaped pipe segment that can be used to branch piping into four directions.	X形管段，可用于将管道分为四个方向
 def_trans_block_cross_corner_name		Pipe Cross Corner (Enclosed)	封闭管道(5向 边角)
 def_trans_block_cross_corner_desc			
-def_trans_block_cross_corner_s_desc		An X-shaped pipe segment that can be used to branch piping into five directions.	一种X形管段，可用于将管道分为五个方向
+def_trans_block_cross_corner_s_desc		An X-shaped pipe segment that can be used to branch piping into five directions.	X形管段，可用于将管道分为五个方向
 def_trans_block_omni_name		Pipe Omni (Enclosed)	封闭管道(6向 核心)
 def_trans_block_omni_desc			
 def_trans_block_omni_s_desc		An omnidirectional pipe segment.	全向管段
@@ -6859,25 +6859,25 @@ def_trans_block_straight_name		Pipe Straight (Enclosed)	封闭管道(I型)
 def_trans_block_straight_desc			
 def_trans_block_straight_s_desc		A straight section of pipe for transferring to components from an engine.	从发动机传送到部件的一段直管
 def_trans_block_t_name		Pipe T-Piece (Enclosed)	封闭管道(T型)
-def_trans_block_t_s_desc		A T-shaped pipe segment that can be used to branch piping into three directions.	一种T形管段，可用于将管道分为三个方向
+def_trans_block_t_s_desc		A T-shaped pipe segment that can be used to branch piping into three directions.	T形管段，可用于将管道分为三个方向
 def_trans_block_t_corner_name		Pipe T-Piece Corner (Enclosed)	封闭管道(4向 边角)
 def_trans_block_t_corner_desc			
-def_trans_block_t_corner_s_desc		A T-shaped pipe segment that can be used to branch piping into four directions.	一种T形管段，可用于将管道分为四个方向
+def_trans_block_t_corner_s_desc		A T-shaped pipe segment that can be used to branch piping into four directions.	T形管段，可用于将管道分为四个方向
 def_trans_corner_name		Pipe Angle Corner	管道(3向 边角)
-def_trans_corner_s_desc		A T-shaped pipe segment that can be used to branch piping into three directions.	一种T形管段，可用于将管道分为三个方向
+def_trans_corner_s_desc		A T-shaped pipe segment that can be used to branch piping into three directions.	T形管段，可用于将管道分为三个方向
 def_trans_cross_name		Pipe Cross	管道(X型)
-def_trans_cross_s_desc		An X-shaped pipe segment that can be used to branch piping into four directions.	一种X形管段，可用于将管道分为四个方向
+def_trans_cross_s_desc		An X-shaped pipe segment that can be used to branch piping into four directions.	X形管段，可用于将管道分为四个方向
 def_trans_cross_corner_name		Pipe Cross Corner	管道(5向 边角)
-def_trans_cross_corner_s_desc		An X-shaped pipe segment that can be used to branch piping into five directions.	一种X形管段，可用于将管道分为五个方向
+def_trans_cross_corner_s_desc		An X-shaped pipe segment that can be used to branch piping into five directions.	X形管段，可用于将管道分为五个方向
 def_trans_omni_name		Pipe Omni	管道(6向 核心)
 def_trans_omni_s_desc		An omnidirectional pipe segment.	全向管段
 def_trans_straight_name		Pipe Straight	管道(I型)
 def_trans_straight_desc			
 def_trans_straight_s_desc		A straight section of pipe for transferring to components from an engine.	从发动机传送到部件的一段直管
 def_trans_t_name		Pipe T-Piece	管道(T型)
-def_trans_t_s_desc		A T-shaped pipe segment that can be used to branch piping into three directions.	一种T形管段，可用于将管道分为三个方向
+def_trans_t_s_desc		A T-shaped pipe segment that can be used to branch piping into three directions.	T形管段，可用于将管道分为三个方向
 def_trans_t_corner_name		Pipe T-Piece Corner	管道(4向  边角)
-def_trans_t_corner_s_desc		A T-shaped pipe segment that can be used to branch piping into four directions.	一种T形管段，可用于将管道分为四个方向
+def_trans_t_corner_s_desc		A T-shaped pipe segment that can be used to branch piping into four directions.	T形管段，可用于将管道分为四个方向
 def_turbine_name		Turbine Engine	涡轮发动机
 def_turbine_desc		An on/off signal controls engine startup. The throttle input takes a standard value between -1 and 1 and controls the forward and backward force of connected components. The engine's maximum power output is split between connected components.	开/关信号控制发动机是否产生动力。油门输入采用介于-1和1之间的标准值，并控制连接部件的前进和后退力。发动机的最大输出功率在连接的部件之间分配
 def_turbine_s_desc		Turbine engine that can be connected to powered components.	可连接收到动力部件的涡轮发动机
@@ -6912,7 +6912,7 @@ def_tyre_large_desc		Useful for creating tyre stacks and fenders.	用于创建�
 def_tyre_large_s_desc		A large decorative tyre.	装饰性的大轮胎
 def_tyre_small_name		Small Tyre	小轮胎
 def_tyre_small_desc		Useful for creating tyre stacks and fenders.	用于创建轮胎堆栈和挡泥板
-def_tyre_small_s_desc		A small decorative tyre.	一种装饰性的小轮胎
+def_tyre_small_s_desc		A small decorative tyre.	装饰性的小轮胎
 def_vehicle_tool_interact_name		Mounted End-Effector	按钮触手
 def_vehicle_tool_interact_desc		The end-effector can interact with button components.	可以按下外部按钮的组件
 def_vehicle_tool_interact_s_desc		A vehicle mounted end-effector.	载具用按钮触手
@@ -6962,15 +6962,15 @@ def_warhead_small_desc		Detonates from an impact, or when receiving damage. Be c
 def_warhead_small_s_desc		A small explosive warhead.	小型爆炸弹头
 def_warhead_small_node_0_label		Arm	引爆
 def_warhead_small_node_0_desc		Arm the explosives in the warhead to detonate when the internal impact sensor reaches its threshold.	引爆弹头中的炸药
-def_watercannon_name		Fluid Cannon	流体炮
-def_watercannon_desc		The cannon is a turret and can rotate on 2 axis.	炮塔，可以在2轴上旋转
-def_watercannon_s_desc		A fluid cannon that fires pressurized water for putting out fires.	一种流体大炮，用来发射加压水来灭火
-def_watercannon_node_0_label		Turret Swivel	转台转动
+def_watercannon_name		Fluid Cannon	旋转水炮
+def_watercannon_desc		The cannon is a turret and can rotate on 2 axis.	可以在水平和垂直轴上旋转的炮塔
+def_watercannon_s_desc		A fluid cannon that fires pressurized water for putting out fires.	发射加压过的水来灭火
+def_watercannon_node_0_label		Turret Swivel	水平转动
 def_watercannon_node_0_desc		Yaw axis servo control for the cannon head.	炮头偏航(Yaw)轴伺服控制
 def_watercannon_node_1_label		Nozzle Pitch	喷嘴俯仰(Pitch)
 def_watercannon_node_1_desc		Pitch axis servo control for the cannon head.	炮头俯仰(Pitch)轴伺服控制
-def_watercannon_node_2_label		Fluid Supply	流体供应
-def_watercannon_node_2_desc		The fluid input to output from the nozzle. Filters to water only.	从喷嘴输入到输出的流体。只过滤水
+def_watercannon_node_2_label		Fluid Supply	进水口
+def_watercannon_node_2_desc		The fluid input to output from the nozzle. Filters to water only.	只能输入水,用于喷出
 def_watercannon_node_3_label		Electric	电
 def_watercannon_node_3_desc		Electrical power connection.	电源连接
 def_water_hose_name		Hose (Deprecated)	软管(已弃用)
@@ -6996,35 +6996,35 @@ def_water_inlet_desc		Place the port inside of an enclosed volume to connect to 
 def_water_inlet_s_desc		Port used to allow fluid in and out of a fluid system.	允许流体进出流体系统的端口
 def_water_inlet_node_0_label		Fluid	流体
 def_water_inlet_node_0_desc		Allows fluid to flow in and out of an enclosed volume or the ocean.	允许流体进出封闭的体积或海洋
-def_water_jet_name		Fluid Jet	流体喷射器
-def_water_jet_desc		Converts mechanical power and water into a high power jet for generating thrust.	将机械功率和水转换成大功率喷射器以产生推力
-def_water_jet_s_desc		A fluid impeller and jet nozzle for ocean propulsion.	用于海洋推进的流体叶轮和喷嘴
-def_water_jet_node_0_label		Fluid Flow In	流体流入
-def_water_jet_node_0_desc		Fluid inlet to supply jet.	流体入口到供应喷嘴
+def_water_jet_name		Fluid Jet	喷水推进器
+def_water_jet_desc		Converts mechanical power and water into a high power jet for generating thrust.	输入强劲的动力(至少中型引擎+减速机)将海水喷出以产生很强的推力.偏流板可以左右调节推力方向.偏流板在0时远离喷流,随着数值增加而靠近喷流.以相同比例控制偏流板会降低推力
+def_water_jet_s_desc		A fluid impeller and jet nozzle for ocean propulsion.	用于船只推进的泵式推进器,只能使用海水
+def_water_jet_node_0_label		Fluid Flow In	进水口
+def_water_jet_node_0_desc		Fluid inlet to supply jet.	吸水以供喷射
 def_water_jet_node_1_label		RPS	RPS
-def_water_jet_node_1_desc		Mechanical power input to power jet.	动力喷射的机械动力输入
+def_water_jet_node_1_desc		Mechanical power input to power jet.	动力输入
 def_water_jet_node_2_label		Vertical Trim	垂直配平
-def_water_jet_node_2_desc		Vertical nozzle angle to control jet direction.	垂直喷嘴角度控制喷射方向
-def_water_jet_node_3_label		Deflector A	滚转(Roll)器A
-def_water_jet_node_3_desc		Left bucket defector control input.	左铲斗滚转(Roll)器控制输入
-def_water_jet_node_4_label		Deflector B	滚转(Roll)器B
-def_water_jet_node_4_desc		Right bucket defector control input.	右铲斗滚转(Roll)器控制输入
+def_water_jet_node_2_desc		Vertical nozzle angle to control jet direction.	控制喷嘴的垂直方向角度(俯仰),取值范围-1~1
+def_water_jet_node_3_label		Deflector A	偏流板(A)
+def_water_jet_node_3_desc		Left bucket defector control input.	控制偏流板角度,值0~1
+def_water_jet_node_4_label		Deflector B	偏流板(B)
+def_water_jet_node_4_desc		Right bucket defector control input.	控制偏流板角度,值0~1
 def_water_jet_node_5_label		Electric	电
 def_water_jet_node_5_desc		Electrical power connection.	电源连接
-def_water_measure_name		Fluid Meter	流体测量仪
-def_water_measure_desc		This will output a quantity in litres and the total capacity in litres. If not inside an enclosed volume, it will give the height relative to the water surface.	这将输出以升为单位的量和以升为单位的总容量。如果不在封闭体积内，它将给出相对于水面的高度
-def_water_measure_s_desc		A device to measure how much fluid is within an enclosed volume.	一种测量一个封闭容积内流体含量的装置
-def_water_measure_node_0_label		Fluid Level	液位
-def_water_measure_node_0_desc		Returns the number of litres in an enclosed volume, or height relative to water if not enclosed.	返回封闭体积中的升数，如果未封闭，则返回相对于水的高度
-def_water_measure_node_1_label		Fluid Capacity	流体容量
-def_water_measure_node_1_desc		Returns the total capacity of an enclosed volume in litres, or 0 if not enclosed.	返回封闭体积的总容量(以升为单位)，如果未封闭，则返回0.
-def_water_nozzle_name		Fluid Nozzle	流体喷嘴
+def_water_measure_name		Fluid Meter	液位测量仪
+def_water_measure_desc		This will output a quantity in litres and the total capacity in litres. If not inside an enclosed volume, it will give the height relative to the water surface.	输出封闭空间的总容量和当前液位(单位升).如果在开放空间,将给出相对于水面的高度
+def_water_measure_s_desc		A device to measure how much fluid is within an enclosed volume.	可以测量一个封闭容积内流体含量的传感器,也可当作海拔高度计和深度测量仪
+def_water_measure_node_0_label		Fluid Level	当前液位
+def_water_measure_node_0_desc		Returns the number of litres in an enclosed volume, or height relative to water if not enclosed.	返回封闭空间中的升数.如果是开放空间,将给出相对于水面的高度(水下为正)
+def_water_measure_node_1_label		Fluid Capacity	总容量
+def_water_measure_node_1_desc		Returns the total capacity of an enclosed volume in litres, or 0 if not enclosed.	返回封闭空间的总容量(以升为单位).如果是开放空间则返回0
+def_water_nozzle_name		Fluid Nozzle	水枪喷嘴
 def_water_nozzle_desc		The angle of spray can be adjusted.	喷雾角度可以调节
-def_water_nozzle_s_desc		A fluid nozzle that fires pressurized water for putting out fires.	一种流体喷嘴，用来点燃加压水来灭火
-def_water_nozzle_node_0_label		Fluid Supply	流体供应
-def_water_nozzle_node_0_desc		The fluid input to output from the nozzle. Filters to water only.	从喷嘴输入到输出的流体。只过滤水
-def_water_nozzle_node_1_label		Spray Angle	喷射角
-def_water_nozzle_node_1_desc		Adjustable spray angle from 0 (focused) to 1 (spread).	可调喷雾角度从0(聚焦)到1(扩散)
+def_water_nozzle_s_desc		A fluid nozzle that fires pressurized water for putting out fires.	喷射加压水以灭火的水枪喷嘴
+def_water_nozzle_node_0_label		Fluid Supply	进水口
+def_water_nozzle_node_0_desc		The fluid input to output from the nozzle. Filters to water only.	只能输入水,进入的水会被喷嘴喷出
+def_water_nozzle_node_1_label		Spray Angle	喷雾角度
+def_water_nozzle_node_1_desc		Adjustable spray angle from 0 (focused) to 1 (spread).	可调的喷雾角度从0(聚焦)到1(扩散)
 def_water_nozzle_node_2_label		Electric	电
 def_water_nozzle_node_2_desc		Electrical power connection.	电源连接
 def_water_outlet_name		Fluid Port (Deprecated)	流体端口(已弃用)
@@ -7243,7 +7243,7 @@ def_wheel_tank_drive_7_node_1_label		RPS	RPS
 def_wheel_tank_drive_7_node_1_desc		Receives power generated by an engine to control forward and backward rotation.	接收发动机产生的控制前后旋转的动力
 def_winch_a_name		Medium Winch (Deprecated)	中型绞车(弃用)
 def_winch_a_desc		The winch is operated electrically, and outputs its current length.	绞车是电动操作的，输出当前长度
-def_winch_a_s_desc		A building block attached to the end of a 20m mechanical winch that can be raised and lowered.	连接在20米机械绞车末端的一种方块，可以伸缩
+def_winch_a_s_desc		A building block attached to the end of a 20m mechanical winch that can be raised and lowered.	连接在20米机械绞车末端的方块，可以伸缩
 def_winch_a_node_0_label		Up	电缆连接
 def_winch_a_node_0_desc		Raises the winch cable up when receiving an on signal.	接收到接通信号时，将绞盘缆绳向上提起
 def_winch_a_node_1_label		Down	电缆引下线
@@ -7261,7 +7261,7 @@ def_winch_b_node_0_label		Fluid	流体
 def_winch_b_node_0_desc		Fluid connection for the end of the hose.	软管末端的流体连接
 def_winch_electric_name		Small Winch (Deprecated)	小型绞车(弃用)
 def_winch_electric_desc		The winch is operated electrically, and outputs its current length.	绞车是电动操作的，输出当前长度
-def_winch_electric_s_desc		A building block attached to the end of a 10m mechanical winch that can be raised and lowered.	安装在10米机械绞车末端的一种方块，可以伸缩
+def_winch_electric_s_desc		A building block attached to the end of a 10m mechanical winch that can be raised and lowered.	安装在10米机械绞车末端的方块，可以伸缩
 def_winch_electric_node_0_label		Up	收回绳索
 def_winch_electric_node_0_desc			
 def_winch_electric_node_1_label		Down	放下绳索
@@ -7277,7 +7277,7 @@ def_winch_electric_b_node_0_label		Fluid	流体
 def_winch_electric_b_node_0_desc		Fluid connection for the end of the hose.	软管末端的流体连接
 def_winch_huge_a_name		Huge Winch (Deprecated)	大绞车(弃用)
 def_winch_huge_a_desc		The winch is operated electrically, and outputs its current length.	绞车是电动操作的，输出当前长度
-def_winch_huge_a_s_desc		A building block attached to the end of a 500m mechanical winch that can be raised and lowered.	安装在500米机械绞车末端的一种方块，可以伸缩
+def_winch_huge_a_s_desc		A building block attached to the end of a 500m mechanical winch that can be raised and lowered.	安装在500米机械绞车末端的方块，可以伸缩
 def_winch_huge_a_node_0_label		Up	电缆收起
 def_winch_huge_a_node_0_desc		Raises the winch cable up when receiving an on signal.	接收到接通信号时，将绞盘缆绳向上提起
 def_winch_huge_a_node_1_label		Down	电缆放下
@@ -7295,7 +7295,7 @@ def_winch_huge_b_node_0_label		Fluid	流体
 def_winch_huge_b_node_0_desc		Fluid connection for the end of the hose.	软管末端的流体连接
 def_winch_large_a_name		Large Winch (Deprecated)	大绞车(弃用)
 def_winch_large_a_desc		The winch is operated electrically, and outputs its current length.	绞车是电动操作的，输出当前长度
-def_winch_large_a_s_desc		A building block attached to the end of a 100m mechanical winch that can be raised and lowered.	安装在100米机械绞车末端的一种方块，可以伸缩
+def_winch_large_a_s_desc		A building block attached to the end of a 100m mechanical winch that can be raised and lowered.	安装在100米机械绞车末端的方块，可以伸缩
 def_winch_large_a_node_0_label		Up	电缆收起
 def_winch_large_a_node_0_desc		Raises the winch cable up when receiving an on signal.	接收到接通信号时，将绞盘缆绳向上提起
 def_winch_large_a_node_1_label		Down	电缆放下
