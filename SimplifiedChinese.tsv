@@ -2343,6 +2343,9 @@ id	description	en	local
 		Horn 3	喇叭3
 		Klaxon Small	电喇叭(小)
 		Klaxon Large	电喇叭(大)
+		Particle Effects	粒子效果
+		Full	完整
+		Reduced	简化
 		Press [ctrl] + [c] to copy object / Press [ctrl] + [v] to paste object	按下Ctrl+C复制，按下Ctrl+V粘贴
 def_01_block_name		Block	方块
 def_01_block_desc		The block is a quarter-metre in size. Components can be attached to all 6 faces.	这个方块有四分之一米大。组件可以连接收到所有6个面
