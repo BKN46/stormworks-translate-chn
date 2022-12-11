@@ -5718,7 +5718,7 @@ def_rx_huge_v2_node_5_desc		Radio Send/Receive Frequency.	无线电发送/接收
 def_rx_huge_v2_node_6_label		Signal Strength	信号强度
 def_rx_huge_v2_node_6_desc		Strength of connection signal.	连接信号强度
 def_rx_huge_v2_node_7_label		Transmit Mode	传输模式
-def_rx_huge_v2_node_7_desc		Wether the Radio is transmitting or Receiving.	选择无线电是发射还是接收
+def_rx_huge_v2_node_7_desc		Wether the Radio is transmitting or Receiving.	选择无线电是发射(on)还是接收(off)
 def_rx_large_name		Radio RX Large (Deprecated)	大型无线电RX(已弃用)
 def_rx_large_desc		Sends and receives data on the specified frequencies.	按指定发送频率和接收数据
 def_rx_large_s_desc		A radio data transmitter and receiver.	无线电数据发射器和接收器
@@ -5752,7 +5752,7 @@ def_rx_large_v2_node_5_desc		Radio Send/Receive Frequency.	无线电发送/接�
 def_rx_large_v2_node_6_label		Signal Strength	信号强度
 def_rx_large_v2_node_6_desc		Strength of connection signal.	连接信号强度
 def_rx_large_v2_node_7_label		Transmit Mode	传输模式
-def_rx_large_v2_node_7_desc		Wether the Radio is transmitting or Receiving.	选择无线电是发射还是接收
+def_rx_large_v2_node_7_desc		Wether the Radio is transmitting or Receiving.	选择无线电是发射(on)还是接收(off)
 def_rx_med_name		Radio RX Medium (Deprecated)	无线电接收中等(已弃用)
 def_rx_med_desc		Sends and receives data on the specified frequencies.	按指定发送频率和接收数据
 def_rx_med_s_desc		A radio data transmitter and receiver.	无线电数据发射器和接收器
@@ -5786,7 +5786,7 @@ def_rx_med_v2_node_5_desc		Radio Send/Receive Frequency.	无线电发送/接收�
 def_rx_med_v2_node_6_label		Signal Strength	信号强度
 def_rx_med_v2_node_6_desc		Strength of connection signal.	连接信号强度
 def_rx_med_v2_node_7_label		Transmit Mode	传输模式
-def_rx_med_v2_node_7_desc		Wether the Radio is transmitting or Receiving.	选择无线电是发射还是接收
+def_rx_med_v2_node_7_desc		Wether the Radio is transmitting or Receiving.	选择无线电是发射(on)还是接收(off)
 def_rx_small_name		Radio RX Small (Deprecated)	小型无线电接收(已弃用)
 def_rx_small_desc		Sends and receives data on the specified frequencies.	按指定发送频率和接收数据
 def_rx_small_s_desc		A radio data transmitter and receiver.	无线电数据发射器和接收器
@@ -5816,7 +5816,7 @@ def_rx_small_v2_node_4_desc		Electrical input.	电源输入
 def_rx_small_v2_node_5_label		Frequency	频率
 def_rx_small_v2_node_5_desc		Radio Send/Receive Frequency.	无线电发送/接收频率
 def_rx_small_v2_node_6_label		Transmit Mode	传输模式
-def_rx_small_v2_node_6_desc		Wether the Radio is transmitting or Receiving.	选择无线电是发射还是接收
+def_rx_small_v2_node_6_desc		Wether the Radio is transmitting or Receiving.	选择无线电是发射(on)还是接收(off)
 def_rx_video_r_name		Radio Video Recv	无线图传接收端
 def_rx_video_r_desc		Receives a video signal on the frequency specified.	接收指定频率的视频信号
 def_rx_video_r_s_desc		A radio receiver for receiving video signals.	接收视频信号的无线电接收器
