@@ -4768,7 +4768,7 @@ def_modular_engine_crankshaft_converter_5x5_desc		The crankshaft is the core of 
 def_modular_engine_crankshaft_converter_5x5_s_desc		A modular engine crankshaft block.	模块化发动机曲轴缸体
 def_modular_engine_crankshaft_converter_5x5_node_0_label		RPS	RPS
 def_modular_engine_crankshaft_converter_5x5_node_0_desc		Output value giving data info on engine speed.	输出发动机转速数据
-def_modular_engine_cylinder_straight_name		Modular Engine Cylinder 1x1	模块化发动机气缸(直筒
+def_modular_engine_cylinder_straight_name		Modular Engine Cylinder 1x1	模块化发动机气缸1x1
 def_modular_engine_cylinder_straight_desc		Attach a cylinder to a crankshafts outer surface to produce power for an engine. The cylinder requires a manifold to move air, fuel, and exhaust through the cylinder. Cylinders that are chained directly adjacent to each other can share a single manifold.	将气缸连接到曲轴外表面，为发动机提供动力。气缸需要一个歧管来输送空气、燃油和废气。相互直接相邻的气缸可以共用一个歧管
 def_modular_engine_cylinder_straight_s_desc		A modular engine cylinder.	模块化发动机气缸
 def_modular_engine_cylinder_straight_node_0_label		Composite Data	复合数据
@@ -6950,40 +6950,40 @@ def_vehicle_tool_welder_node_0_desc		Electrical power connection.	电源连接
 def_vehicle_tool_welder_node_1_label		Activate	启用
 def_vehicle_tool_welder_node_1_desc		Enable welding torch.	启用电焊机
 def_warhead_body_large_name		Warhead Body (Large)	弹头(大)
-def_warhead_body_large_desc		Detonates from an impact, or when receiving damage. Be careful!	通过逻辑信号引爆，或在受到伤害时引爆。小心处理
+def_warhead_body_large_desc		Detonates from an impact, or when receiving damage. Be careful!	解除保险后受到指定速度撞击会被引爆,小心处理,该组件在受到攻击时会殉爆
 def_warhead_body_large_s_desc		A large explosive warhead.	巨大的弹头
-def_warhead_body_large_node_0_label		Arm	引爆
-def_warhead_body_large_node_0_desc		Arm the explosives in the warhead to detonate when the internal impact sensor reaches its threshold.	引爆弹头中的炸药
+def_warhead_body_large_node_0_label		Arm	解除保险
+def_warhead_body_large_node_0_desc		Arm the explosives in the warhead to detonate when the internal impact sensor reaches its threshold.	解除碰炸引信的保险.解除保险后受到撞击会产生爆炸
 def_warhead_body_medium_name		Warhead Body (Medium)	弹头(中)
-def_warhead_body_medium_desc		Detonates from an impact, or when receiving damage. Be careful!	通过逻辑信号引爆，或在受到伤害时引爆。小心处理
+def_warhead_body_medium_desc		Detonates from an impact, or when receiving damage. Be careful!	解除保险后受到指定速度撞击会被引爆,小心处理,该组件在受到攻击时会殉爆
 def_warhead_body_medium_s_desc		A medium explosive warhead.	中等爆炸性弹头
-def_warhead_body_medium_node_0_label		Arm	引爆
-def_warhead_body_medium_node_0_desc		Arm the explosives in the warhead to detonate when the internal impact sensor reaches its threshold.	引爆弹头中的炸药
+def_warhead_body_medium_node_0_label		Arm	解除保险
+def_warhead_body_medium_node_0_desc		Arm the explosives in the warhead to detonate when the internal impact sensor reaches its threshold.	解除碰炸引信的保险.解除保险后受到撞击会产生爆炸
 def_warhead_body_small_name		Warhead Body (Small)	弹头(小)
-def_warhead_body_small_desc		Detonates from an impact, or when receiving damage. Be careful!	通过逻辑信号引爆，或在受到伤害时引爆。小心处理
+def_warhead_body_small_desc		Detonates from an impact, or when receiving damage. Be careful!	解除保险后受到指定速度撞击会被引爆,小心处理,该组件在受到攻击时会殉爆
 def_warhead_body_small_s_desc		A small explosive warhead.	小型爆炸弹头
-def_warhead_body_small_node_0_label		Arm	引爆
-def_warhead_body_small_node_0_desc		Arm the explosives in the warhead to detonate when the internal impact sensor reaches its threshold.	引爆弹头中的炸药
+def_warhead_body_small_node_0_label		Arm	解除保险
+def_warhead_body_small_node_0_desc		Arm the explosives in the warhead to detonate when the internal impact sensor reaches its threshold.	解除碰炸引信的保险.解除保险后受到撞击会产生爆炸
 def_warhead_emp_name		Warhead (EMP)	弹头(EMP)
 def_warhead_emp_desc		Detonates from an impact, creating an EMP to temporarily shut down nearby electronic systems.	通过逻辑信号引爆，产生电磁脉冲，暂时关闭附近的电子系统
 def_warhead_emp_s_desc		A electromagnetic-pulse warhead.	电磁脉冲弹头
-def_warhead_emp_node_0_label		Arm	引爆
+def_warhead_emp_node_0_label		Arm	解除保险
 def_warhead_emp_node_0_desc		Arm the EMP charge in the warhead to detonate when the internal impact sensor reaches its threshold.	引爆弹头中的EMP装药
 def_warhead_large_name		Warhead (Large)	弹头(大)
-def_warhead_large_desc		Detonates from an impact, or when receiving damage. Be careful!	通过逻辑信号引爆，或在受到伤害时引爆。小心处理
+def_warhead_large_desc		Detonates from an impact, or when receiving damage. Be careful!	解除保险后受到指定速度撞击会被引爆,小心处理,该组件在受到攻击时会殉爆
 def_warhead_large_s_desc		A large explosive warhead.	巨大的弹头
-def_warhead_large_node_0_label		Arm	引爆
-def_warhead_large_node_0_desc		Arm the explosives in the warhead to detonate when the internal impact sensor reaches its threshold.	引爆弹头中的炸药
+def_warhead_large_node_0_label		Arm	解除保险
+def_warhead_large_node_0_desc		Arm the explosives in the warhead to detonate when the internal impact sensor reaches its threshold.	解除碰炸引信的保险.解除保险后受到撞击会产生爆炸
 def_warhead_medium_name		Warhead (Medium)	弹头(中)
-def_warhead_medium_desc		Detonates from an impact, or when receiving damage. Be careful!	通过逻辑信号引爆，或在受到伤害时引爆。小心处理
+def_warhead_medium_desc		Detonates from an impact, or when receiving damage. Be careful!	解除保险后受到指定速度撞击会被引爆,小心处理,该组件在受到攻击时会殉爆
 def_warhead_medium_s_desc		A medium explosive warhead.	中等爆炸性弹头
-def_warhead_medium_node_0_label		Arm	引爆
-def_warhead_medium_node_0_desc		Arm the explosives in the warhead to detonate when the internal impact sensor reaches its threshold.	引爆弹头中的炸药
+def_warhead_medium_node_0_label		Arm	解除保险
+def_warhead_medium_node_0_desc		Arm the explosives in the warhead to detonate when the internal impact sensor reaches its threshold.	解除碰炸引信的保险.解除保险后受到撞击会产生爆炸
 def_warhead_small_name		Warhead (Small)	弹头(小)
-def_warhead_small_desc		Detonates from an impact, or when receiving damage. Be careful!	通过逻辑信号引爆，或在受到伤害时引爆。小心处理
+def_warhead_small_desc		Detonates from an impact, or when receiving damage. Be careful!	解除保险后受到指定速度撞击会被引爆,小心处理,该组件在受到攻击时会殉爆
 def_warhead_small_s_desc		A small explosive warhead.	小型爆炸弹头
-def_warhead_small_node_0_label		Arm	引爆
-def_warhead_small_node_0_desc		Arm the explosives in the warhead to detonate when the internal impact sensor reaches its threshold.	引爆弹头中的炸药
+def_warhead_small_node_0_label		Arm	解除保险
+def_warhead_small_node_0_desc		Arm the explosives in the warhead to detonate when the internal impact sensor reaches its threshold.	解除碰炸引信的保险.解除保险后受到撞击会产生爆炸
 def_watercannon_name		Fluid Cannon	旋转水炮
 def_watercannon_desc		The cannon is a turret and can rotate on 2 axis.	可以在水平和垂直轴上旋转的炮塔
 def_watercannon_s_desc		A fluid cannon that fires pressurized water for putting out fires.	发射加压过的水来灭火
