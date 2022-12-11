@@ -1799,7 +1799,7 @@ id	description	en	local
 		Advanced Logic	高级逻辑
 		Electrics	电
 		High Capacity Electrics	大容量电池
-		Radio RX	无线电接收
+		Radio RX	无线电收发机
 		Fluid Management	流体管理
 		Advanced Fluid Management	高级流体管理
 		Water Jets	喷水引擎
@@ -5700,7 +5700,7 @@ def_rx_huge_node_4_label		Frequency Recv	接收频率
 def_rx_huge_node_4_desc			
 def_rx_huge_node_5_label		Signal Strength	信号强度
 def_rx_huge_node_5_desc			
-def_rx_huge_v2_name		Radio RX Huge	巨型无线电接收
+def_rx_huge_v2_name		Radio RX Huge	无线电收发机(巨)
 def_rx_huge_v2_desc		Sends and receives data on the specified frequency. Transmit Mode defaults to receive. (Max Effective Range : 20000m)	以指定的发送频率和接收数据。传输模式默认为接收。最大范围20000米
 def_rx_huge_v2_s_desc		A radio data transmitter and receiver.	无线电数据发射器和接收器
 def_rx_huge_v2_node_0_label		Audio Recv	音频接收
@@ -5734,7 +5734,7 @@ def_rx_large_node_4_label		Frequency Recv	接收频率
 def_rx_large_node_4_desc			
 def_rx_large_node_5_label		Signal Strength	信号强度
 def_rx_large_node_5_desc			
-def_rx_large_v2_name		Radio RX Large	大型无线电接收
+def_rx_large_v2_name		Radio RX Large	无线电收发机(大)
 def_rx_large_v2_desc		Sends and receives data on the specified frequency. Transmit Mode defaults to receive. (Max Effective Range : 4000m)	以指定的发送频率和接收数据。传输模式默认为接收。最大范围4000米
 def_rx_large_v2_s_desc		A radio data transmitter and receiver.	无线电数据发射器和接收器
 def_rx_large_v2_node_0_label		Audio Recv	音频接收
@@ -5768,7 +5768,7 @@ def_rx_med_node_4_label		Frequency Recv	接收频率
 def_rx_med_node_4_desc			
 def_rx_med_node_5_label		Signal Strength	信号强度
 def_rx_med_node_5_desc			
-def_rx_med_v2_name		Radio RX Medium	中型无线电接收
+def_rx_med_v2_name		Radio RX Medium	无线电收发机(中)
 def_rx_med_v2_desc		Sends and receives data on the specified frequency. Transmit Mode defaults to receive. (Max Effective Range : 1000m)	以指定的发送频率和接收数据。传输模式默认为接收。最大范围1000米
 def_rx_med_v2_s_desc		A radio data transmitter and receiver.	无线电数据发射器和接收器
 def_rx_med_v2_node_0_label		Audio Recv	音频接收
@@ -5800,7 +5800,7 @@ def_rx_small_node_3_label		Frequency Send	发送频率
 def_rx_small_node_3_desc			
 def_rx_small_node_4_label		Frequency Recv	接收频率
 def_rx_small_node_4_desc			
-def_rx_small_v2_name		Radio RX Small	小型无线电接收
+def_rx_small_v2_name		Radio RX Small	无线电收发机(小)
 def_rx_small_v2_desc		Sends and receives data on the specified frequency. Transmit Mode defaults to receive. (Max Effective Range : 100m)	以指定的发送频率和接收数据。传输模式默认为接收。最大范围100米
 def_rx_small_v2_s_desc		A radio data transmitter and receiver.	无线电数据发射器和接收器
 def_rx_small_v2_node_0_label		Audio Recv	音频接收
