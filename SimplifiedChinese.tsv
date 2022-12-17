@@ -3865,7 +3865,7 @@ def_gun_l_barrel_3_name		Battle Cannon Barrel Extension	坦克主炮炮管加长
 def_gun_l_barrel_3_desc		Barrel extensions increase weapon accuracy, but also produce more recoil force.	炮管加长件增加了武器的精度，但也产生了更多的后坐力
 def_gun_l_barrel_3_s_desc		A battle cannon barrel extension.	一根坦克主炮炮管加长件
 def_gun_l_muzzle_name		Battle Cannon Muzzle Brake	坦克主炮制退器
-def_gun_l_muzzle_desc		A muzzle brake will reduce weapon recoil force when added to the end of a weapon barrel.	炮管加长件增加了武器的精度，但也产生了更多的后坐力
+def_gun_l_muzzle_desc		A muzzle brake will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，制退器将减少武器的后坐力
 def_gun_l_muzzle_s_desc		A battle cannon muzzle brake.	坦克主炮制退器
 def_gun_l_muzzle_1_name		Battle Cannon Muzzle Brake	坦克主炮制退器
 def_gun_l_muzzle_1_desc		A muzzle brake will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，制退器将减少武器的后坐力
@@ -3874,7 +3874,7 @@ def_gun_l_muzzle_2_name		Battle Cannon Muzzle Brake	坦克主炮制退器
 def_gun_l_muzzle_2_desc		A muzzle brake will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，制退器将减少武器的后坐力
 def_gun_l_muzzle_2_s_desc		A battle cannon muzzle brake.	坦克主炮制退器
 def_gun_m_name		Heavy Autocannon	重型机炮
-def_gun_m_desc		Heavy autocannons bridge the gap between fast-firing autocannons and high-caliber cannons. Autocannons require electric power to load ammo from connected belts or drums.	重型机炮填补了快速射击自动加火炮和大口径榴弹炮之间的空白。机炮需要电力从弹带或弹鼓装弹
+def_gun_m_desc		Heavy autocannons bridge the gap between fast-firing autocannons and high-caliber cannons. Autocannons require electric power to load ammo from connected belts or drums.	重型机炮填补了快速发射的轻型自动火力和大口径火炮之间的空白。机炮需要电力从弹带或弹鼓装弹
 def_gun_m_s_desc		A heavy autocannon.	重型机炮
 def_gun_m_node_0_label		Trigger	开火
 def_gun_m_node_0_desc		When true: feeds, loads, and fires cartridges from a connected belt or drum.	如果为true:从连接的弹药带或弹鼓上送入、装载和发射子弹
