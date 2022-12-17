@@ -7092,7 +7092,7 @@ def_water_suction_duct_s_desc		Port used to allow fluid in and out of a fluid sy
 def_water_suction_duct_node_0_label		Fluid	流体
 def_water_suction_duct_node_0_desc		Allows fluid to flow in and out of an enclosed volume or the ocean.	允许流体进出封闭的体积或海洋
 def_wheel_advanced_3_name		Wheel 3x3	3x3轮
-def_wheel_advanced_3_desc		The wheel will rotate forwards and backwards depending on power received. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据接收到的功率前后旋转。它可以通过向转向输入发送数字信号来左右旋转。它也可以通过向制动输入发送接通信号来锁定到位
+def_wheel_advanced_3_desc		The wheel will rotate forwards and backwards depending on power received. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据接收到的功率前后旋转。它可以通过接收数字信号左右转向，也可以接收数字或开关信号实现制动刹车
 def_wheel_advanced_3_s_desc		Small steerable wheel with power connection and braking.	带动力连接和制动的小型可操纵载具轮
 def_wheel_advanced_3_node_0_label		Brake	制动器
 def_wheel_advanced_3_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
@@ -7103,7 +7103,7 @@ def_wheel_advanced_3_node_2_desc		A value between 0 and 1 for soft braking	输�
 def_wheel_advanced_3_node_3_label		Steering	转向
 def_wheel_advanced_3_node_3_desc		Accepts a value between -1 and 1 that represents the extremes of the wheels steering rotation	接受一个介于-1和1之间的值，表示车轮转向的角度
 def_wheel_advanced_3_sus_name		Wheel 3x3 (Suspension)	3x3轮(悬挂)
-def_wheel_advanced_3_sus_desc		The wheel will rotate forwards and backwards depending on power received. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据接收到的功率前后旋转。它可以通过向转向输入发送数字信号来左右旋转。它也可以通过向制动输入发送接通信号来锁定到位
+def_wheel_advanced_3_sus_desc		The wheel will rotate forwards and backwards depending on power received. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据接收到的功率前后旋转。它可以通过接收数字信号左右转向，也可以接收数字或开关信号实现制动刹车
 def_wheel_advanced_3_sus_s_desc		Small steerable wheel with suspension, power connection, and braking.	带悬挂、电源连接和制动的小型可操纵载具轮
 def_wheel_advanced_3_sus_node_0_label		Brake	制动器
 def_wheel_advanced_3_sus_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
@@ -7114,7 +7114,7 @@ def_wheel_advanced_3_sus_node_2_desc		A value between 0 and 1 for soft braking	�
 def_wheel_advanced_3_sus_node_3_label		Steering	转向
 def_wheel_advanced_3_sus_node_3_desc		Accepts a value between -1 and 1 that represents the extremes of the wheels steering rotation	接受一个介于-1和1之间的值，表示车轮转向的角度
 def_wheel_advanced_5_name		Wheel 5x5	5x5轮
-def_wheel_advanced_5_desc		The wheel will rotate forwards and backwards depending on power received. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据接收到的功率前后旋转。它可以通过向转向输入发送数字信号来左右旋转。它也可以通过向制动输入发送接通信号来锁定到位
+def_wheel_advanced_5_desc		The wheel will rotate forwards and backwards depending on power received. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据接收到的功率前后旋转。它可以通过接收数字信号左右转向，也可以接收数字或开关信号实现制动刹车
 def_wheel_advanced_5_s_desc		Medium steerable wheel with power connection and braking.	带动力连接和制动的中等方向盘
 def_wheel_advanced_5_node_0_label		Brake	制动器
 def_wheel_advanced_5_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
@@ -7125,7 +7125,7 @@ def_wheel_advanced_5_node_2_desc		A value between 0 and 1 for soft braking	输�
 def_wheel_advanced_5_node_3_label		Steering	转向
 def_wheel_advanced_5_node_3_desc		Accepts a value between -1 and 1 that represents the extremes of the wheels steering rotation	接受一个介于-1和1之间的值，表示车轮转向的角度
 def_wheel_advanced_5_sus_name		Wheel 5x5 (Suspension)	5x5轮(悬挂)
-def_wheel_advanced_5_sus_desc		The wheel will rotate forwards and backwards depending on power received. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据接收到的功率前后旋转。它可以通过向转向输入发送数字信号来左右旋转。它也可以通过向制动输入发送接通信号来锁定到位
+def_wheel_advanced_5_sus_desc		The wheel will rotate forwards and backwards depending on power received. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据接收到的功率前后旋转。它可以通过接收数字信号左右转向，也可以接收数字或开关信号实现制动刹车
 def_wheel_advanced_5_sus_s_desc		Medium steerable wheel with suspension, power connection, and braking.	带悬挂、电源连接和制动的中等方向盘
 def_wheel_advanced_5_sus_node_0_label		Brake	制动器
 def_wheel_advanced_5_sus_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
@@ -7136,7 +7136,7 @@ def_wheel_advanced_5_sus_node_2_desc		A value between 0 and 1 for soft braking	�
 def_wheel_advanced_5_sus_node_3_label		Steering	转向
 def_wheel_advanced_5_sus_node_3_desc		Accepts a value between -1 and 1 that represents the extremes of the wheels steering rotation	接受一个介于-1和1之间的值，表示车轮转向的角度
 def_wheel_advanced_7_name		Wheel 7x7	7x7轮
-def_wheel_advanced_7_desc		The wheel will rotate forwards and backwards depending on power received. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据接收到的功率前后旋转。它可以通过向转向输入发送数字信号来左右旋转。它也可以通过向制动输入发送接通信号来锁定到位
+def_wheel_advanced_7_desc		The wheel will rotate forwards and backwards depending on power received. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据接收到的功率前后旋转。它可以通过接收数字信号左右转向，也可以接收数字或开关信号实现制动刹车
 def_wheel_advanced_7_s_desc		Large steerable wheel with power connection and braking.	带动力连接和制动的大方向盘
 def_wheel_advanced_7_node_0_label		Brake	制动器
 def_wheel_advanced_7_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
@@ -7147,7 +7147,7 @@ def_wheel_advanced_7_node_2_desc		A value between 0 and 1 for soft braking	输�
 def_wheel_advanced_7_node_3_label		Steering	转向
 def_wheel_advanced_7_node_3_desc		Accepts a value between -1 and 1 that represents the extremes of the wheels steering rotation	接受一个介于-1和1之间的值，表示车轮转向的角度
 def_wheel_advanced_7_sus_name		Wheel 7x7 (Suspension)	7x7轮(悬挂)
-def_wheel_advanced_7_sus_desc		The wheel will rotate forwards and backwards depending on power received. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据接收到的功率前后旋转。它可以通过向转向输入发送数字信号来左右旋转。它也可以通过向制动输入发送接通信号来锁定到位
+def_wheel_advanced_7_sus_desc		The wheel will rotate forwards and backwards depending on power received. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据接收到的功率前后旋转。它可以通过接收数字信号左右转向，也可以接收数字或开关信号实现制动刹车
 def_wheel_advanced_7_sus_s_desc		Large steerable wheel with suspension, power connection, and braking.	带悬挂、电源连接和制动的大方向盘
 def_wheel_advanced_7_sus_node_0_label		Brake	制动器
 def_wheel_advanced_7_sus_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
@@ -7158,7 +7158,7 @@ def_wheel_advanced_7_sus_node_2_desc		A value between 0 and 1 for soft braking	�
 def_wheel_advanced_7_sus_node_3_label		Steering	转向
 def_wheel_advanced_7_sus_node_3_desc		Accepts a value between -1 and 1 that represents the extremes of the wheels steering rotation	接受一个介于-1和1之间的值，表示车轮转向的角度
 def_wheel_advanced_9_name		Wheel 9x9	9x9轮
-def_wheel_advanced_9_desc		The wheel will rotate forwards and backwards depending on power received. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据接收到的功率前后旋转。它可以通过向转向输入发送数字信号来左右旋转。它也可以通过向制动输入发送接通信号来锁定到位
+def_wheel_advanced_9_desc		The wheel will rotate forwards and backwards depending on power received. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据接收到的功率前后旋转。它可以通过接收数字信号以左右转向，也可以接收数字或开关信号实现制动刹车
 def_wheel_advanced_9_s_desc		XLarge steerable wheel with power connection and braking.	XLarge方向盘，带电源连接和制动
 def_wheel_advanced_9_node_0_label		Brake	制动器
 def_wheel_advanced_9_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
@@ -7169,7 +7169,7 @@ def_wheel_advanced_9_node_2_desc		A value between 0 and 1 for soft braking	输�
 def_wheel_advanced_9_node_3_label		Steering	转向
 def_wheel_advanced_9_node_3_desc		Accepts a value between -1 and 1 that represents the extremes of the wheels steering rotation	接受一个介于-1和1之间的值，表示车轮转向的角度
 def_wheel_advanced_9_sus_name		Wheel 9x9 (Suspension)	9x9轮(悬挂)
-def_wheel_advanced_9_sus_desc		The wheel will rotate forwards and backwards depending on power received. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据接收到的功率前后旋转。它可以通过向转向输入发送数字信号来左右旋转。它也可以通过向制动输入发送接通信号来锁定到位
+def_wheel_advanced_9_sus_desc		The wheel will rotate forwards and backwards depending on power received. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据接收到的功率前后旋转。它可以通过接收数字信号以左右转向，也可以接收数字或开关信号实现制动刹车
 def_wheel_advanced_9_sus_s_desc		XLarge steerable wheel with suspension, power connection, and braking.	XLarge方向盘，带悬挂、电源连接和制动
 def_wheel_advanced_9_sus_node_0_label		Brake	制动器
 def_wheel_advanced_9_sus_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
@@ -7180,21 +7180,21 @@ def_wheel_advanced_9_sus_node_2_desc		A value between 0 and 1 for soft braking	�
 def_wheel_advanced_9_sus_node_3_label		Steering	转向
 def_wheel_advanced_9_sus_node_3_desc		Accepts a value between -1 and 1 that represents the extremes of the wheels steering rotation	接受一个介于-1和1之间的值，表示车轮转向的角度
 def_wheel_coaster_name		Wheel Coaster	辅助轮
-def_wheel_coaster_desc		You cannot control the forward and backward rotation of this wheel, but it can be locked into place by sending an on signal to the brake input.	您无法控制此载具轮的前后旋转，但可以通过向制动输入发送接通信号将其锁定到位
+def_wheel_coaster_desc		You cannot control the forward and backward rotation of this wheel, but it can be locked into place by sending an on signal to the brake input.	您无法控制此载具轮的前后旋转，但可以接收数字或开关信号实现制动刹车
 def_wheel_coaster_s_desc		Simple small wheel that requires no engine power and spins freely.	简单的小轮子，不需要发动机动力，可以自由旋转
 def_wheel_coaster_node_0_label		Brake	制动器
 def_wheel_coaster_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
 def_wheel_coaster_node_1_label		Variable Brake	可变制动器
 def_wheel_coaster_node_1_desc		A value between 0 and 1 for soft braking	输入制动力度(0~1)
 def_wheel_coaster_large_name		Large Landing Wheel	大起落轮
-def_wheel_coaster_large_desc		You cannot control the forward and backward rotation of this wheel, but it can be locked into place by sending an on signal to the brake input.	您无法控制此载具轮的前后旋转，但可以通过向制动输入发送接通信号将其锁定到位
+def_wheel_coaster_large_desc		You cannot control the forward and backward rotation of this wheel, but it can be locked into place by sending an on signal to the brake input.	您无法控制此载具轮的前后旋转，但可以接收数字或开关信号实现制动刹车
 def_wheel_coaster_large_s_desc		Large landing wheel that requires no engine power and spins freely.	无需发动机动力和自由旋转的大型起落架
 def_wheel_coaster_large_node_0_label		Brake	制动器
 def_wheel_coaster_large_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
 def_wheel_coaster_large_node_1_label		Variable Brake	可变制动器
 def_wheel_coaster_large_node_1_desc		A value between 0 and 1 for soft braking	输入制动力度(0~1)
 def_wheel_medium_name		Medium Wheel	中型轮
-def_wheel_medium_desc		The wheel will rotate forwards and backwards depending on power received from a connected engine. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据从连接的发动机接收到的功率前后旋转。它可以通过向转向输入发送数字信号来左右旋转。它也可以通过向制动输入发送接通信号来锁定到位
+def_wheel_medium_desc		The wheel will rotate forwards and backwards depending on power received from a connected engine. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据从连接的发动机接收到的功率前后旋转。它可以通过接收数字信号以左右转向，也可以接收数字或开关信号实现制动刹车
 def_wheel_medium_s_desc		Medium wheel that can be controlled using an engine.	可使用发动机控制的中型载具轮
 def_wheel_medium_node_0_label		Brake	制动器
 def_wheel_medium_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
@@ -7205,7 +7205,7 @@ def_wheel_medium_node_2_desc		A value between 0 and 1 for soft braking	输入制
 def_wheel_medium_node_3_label		Steering	转向
 def_wheel_medium_node_3_desc		Accepts a value between -1 and 1 that represents the extremes of the wheels steering rotation	接受一个介于-1和1之间的值，表示车轮转向的角度
 def_wheel_small_name		Small Wheel	小型轮
-def_wheel_small_desc		The wheel will rotate forwards and backwards depending on power received from a connected engine. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据从连接的发动机接收到的功率前后旋转。它可以通过向转向输入发送数字信号来左右旋转。它也可以通过向制动输入发送接通信号来锁定到位
+def_wheel_small_desc		The wheel will rotate forwards and backwards depending on power received from a connected engine. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据从连接的发动机接收到的功率前后旋转。它可以通过接收数字信号以左右转向，也可以接收数字或开关信号实现制动刹车
 def_wheel_small_s_desc		Small wheel that can be controlled using an engine.	可以用发动机控制的小轮子
 def_wheel_small_node_0_label		Brake	制动器
 def_wheel_small_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
