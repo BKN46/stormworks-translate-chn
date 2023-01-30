@@ -6344,7 +6344,7 @@ def_sonar_advanced_node_1_desc		Enable the Sonar.	启用声纳
 def_sonar_advanced_node_2_label		Ping	Ping
 def_sonar_advanced_node_2_desc		Send a ping and listen for return sounds.	进行一次Ping的发送并监听
 def_sonar_advanced_node_3_label		Sonar Data	声纳数据
-def_sonar_advanced_node_3_desc		Outputs data for up to 16 targets. On/Off 1-16 : Target 1 Found, Target 2 Found, Etc... Values 1-32: Target 1 Pivot, Target 1 Pitch, Target 2 Pivot, Target 2 Pitch, Etc...	输出最多16个目标的数据。开/关1-16:发现目标1,发现目标2,等等...。值1-32:目标1方位,目标1距离,目标2方位,目标2距离,等等
+def_sonar_advanced_node_3_desc		Outputs data for up to 16 targets. On/Off 1-16 : Target 1 Found, Target 2 Found, Etc... Values 1-32: Target 1 Pivot, Target 1 Pitch, Target 2 Pivot, Target 2 Pitch, Etc...	输出最多16个目标的数据。开/关1-16:发现目标1,发现目标2,等等...。值1-32:目标1方位角,目标1俯仰角,目标2方位角,目标2俯仰角,等等
 def_sonar_advanced_node_4_label		Torpedo Output	鱼雷输出
 def_sonar_advanced_node_4_desc		Outputs x and y data for the most immediate target. Link this directly into a rocket fins component.	输出凝视目标的x和y数据。将其直接连接到弹翼组件中
 def_sonar_advanced_5_name		Sonar (Medium)	中型声纳
@@ -6357,7 +6357,7 @@ def_sonar_advanced_5_node_1_desc		Enable the Sonar.	启用声纳
 def_sonar_advanced_5_node_2_label		Ping	Ping
 def_sonar_advanced_5_node_2_desc		Send a ping and listen for return sounds.	进行一次Ping的发送并监听
 def_sonar_advanced_5_node_3_label		Sonar Data	声纳数据
-def_sonar_advanced_5_node_3_desc		Outputs data for up to 16 targets. On/Off 1-16 : Target 1 Found, Target 2 Found, Etc... Values 1-32: Target 1 Pivot, Target 1 Pitch, Target 2 Pivot, Target 2 Pitch, Etc...	输出最多16个目标的数据。开/关1-16:发现目标1,发现目标2,等等...。值1-32:目标1方位,目标1距离,目标2方位,目标2距离,等等
+def_sonar_advanced_5_node_3_desc		Outputs data for up to 16 targets. On/Off 1-16 : Target 1 Found, Target 2 Found, Etc... Values 1-32: Target 1 Pivot, Target 1 Pitch, Target 2 Pivot, Target 2 Pitch, Etc...	输出最多16个目标的数据。开/关1-16:发现目标1,发现目标2,等等...。值1-32:目标1方位角,目标1俯仰角,目标2方位角,目标2俯仰角,等等
 def_sonar_advanced_7_name		Sonar (Large)	大型声纳
 def_sonar_advanced_7_desc		This sensor outputs the relative angle to detected objects within its range using underwater sound waves. The sensor will passively detect certain noisy components such as propellers or engines but can also send out a loud ping to detect quiet underwater bodies. While the ping input is held passive signals will be supressed. After activating a ping additional detected signals will appear momentarily in the data channel as the signal returns to the sonar. Activating another ping will override the previous ping and no further data will be returned from the old signal.	声纳可在水下利用声波探测其探测范围内检测到的物体的相对角度。被动模式可监听测某些嘈杂的部件,如螺旋桨或发动机。也可主动发出一个响亮的Ping来检测安静的水下物体。主动Ping时,无法检测到被动信号。激活Ping后,当信号返回到声纳时,额外的检测信号将暂时出现在数据通道中。激活新的Ping将覆盖前一个Ping,旧信号将不再返回数据
 def_sonar_advanced_7_s_desc		A sonar that returns information about a detected objects within 200km.	该声纳最大可探测200km内的物体
@@ -6368,7 +6368,7 @@ def_sonar_advanced_7_node_1_desc		Enable the Sonar.	启用声纳
 def_sonar_advanced_7_node_2_label		Ping	Ping
 def_sonar_advanced_7_node_2_desc		Send a ping and listen for return sounds.	进行一次Ping的发送并监听
 def_sonar_advanced_7_node_3_label		Sonar Data	声纳数据
-def_sonar_advanced_7_node_3_desc		Outputs data for up to 16 targets. On/Off 1-16 : Target 1 Found, Target 2 Found, Etc... Values 1-32: Target 1 Pivot, Target 1 Pitch, Target 2 Pivot, Target 2 Pitch, Etc...	输出最多16个目标的数据。开/关1-16:发现目标1,发现目标2,等等...。值1-32:目标1方位,目标1距离,目标2方位,目标2距离,等等
+def_sonar_advanced_7_node_3_desc		Outputs data for up to 16 targets. On/Off 1-16 : Target 1 Found, Target 2 Found, Etc... Values 1-32: Target 1 Pivot, Target 1 Pitch, Target 2 Pivot, Target 2 Pitch, Etc...	输出最多16个目标的数据。开/关1-16:发现目标1,发现目标2,等等...。值1-32:目标1方位角,目标1俯仰角,目标2方位角,目标2俯仰角,等等
 def_sonar_jammer_name		Sonar Noisemaker	声纳干扰器
 def_sonar_jammer_desc		Emits a very loud noise at an inaudible frequency when activated, as a decoy or distraction for sonar components that are listening passively.	激活时以听不见的频率发出非常大的噪音，作为被动声纳的诱饵或干扰器
 def_sonar_jammer_s_desc		A distracting device for sonar.	用于对抗声纳的干扰装置
