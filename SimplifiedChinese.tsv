@@ -1799,7 +1799,7 @@ id	description	en	local
 		Advanced Logic	高级逻辑
 		Electrics	电
 		High Capacity Electrics	大容量电池
-		Radio RX	无线电接收
+		Radio RX	无线电收发机
 		Fluid Management	流体管理
 		Advanced Fluid Management	高级流体管理
 		Water Jets	喷水引擎
@@ -3865,7 +3865,7 @@ def_gun_l_barrel_3_name		Battle Cannon Barrel Extension	坦克主炮炮管加长
 def_gun_l_barrel_3_desc		Barrel extensions increase weapon accuracy, but also produce more recoil force.	炮管加长件增加了武器的精度，但也产生了更多的后坐力
 def_gun_l_barrel_3_s_desc		A battle cannon barrel extension.	一根坦克主炮炮管加长件
 def_gun_l_muzzle_name		Battle Cannon Muzzle Brake	坦克主炮制退器
-def_gun_l_muzzle_desc		A muzzle brake will reduce weapon recoil force when added to the end of a weapon barrel.	炮管加长件增加了武器的精度，但也产生了更多的后坐力
+def_gun_l_muzzle_desc		A muzzle brake will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，制退器将减少武器的后坐力
 def_gun_l_muzzle_s_desc		A battle cannon muzzle brake.	坦克主炮制退器
 def_gun_l_muzzle_1_name		Battle Cannon Muzzle Brake	坦克主炮制退器
 def_gun_l_muzzle_1_desc		A muzzle brake will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，制退器将减少武器的后坐力
@@ -3874,7 +3874,7 @@ def_gun_l_muzzle_2_name		Battle Cannon Muzzle Brake	坦克主炮制退器
 def_gun_l_muzzle_2_desc		A muzzle brake will reduce weapon recoil force when added to the end of a weapon barrel.	当增加到炮管末端时，制退器将减少武器的后坐力
 def_gun_l_muzzle_2_s_desc		A battle cannon muzzle brake.	坦克主炮制退器
 def_gun_m_name		Heavy Autocannon	重型机炮
-def_gun_m_desc		Heavy autocannons bridge the gap between fast-firing autocannons and high-caliber cannons. Autocannons require electric power to load ammo from connected belts or drums.	重型机炮填补了快速射击自动加火炮和大口径榴弹炮之间的空白。机炮需要电力从弹带或弹鼓装弹
+def_gun_m_desc		Heavy autocannons bridge the gap between fast-firing autocannons and high-caliber cannons. Autocannons require electric power to load ammo from connected belts or drums.	重型机炮填补了快速发射的轻型自动火力和大口径火炮之间的空白。机炮需要电力从弹带或弹鼓装弹
 def_gun_m_s_desc		A heavy autocannon.	重型机炮
 def_gun_m_node_0_label		Trigger	开火
 def_gun_m_node_0_desc		When true: feeds, loads, and fires cartridges from a connected belt or drum.	如果为true:从连接的弹药带或弹鼓上送入、装载和发射子弹
@@ -4768,7 +4768,7 @@ def_modular_engine_crankshaft_converter_5x5_desc		The crankshaft is the core of 
 def_modular_engine_crankshaft_converter_5x5_s_desc		A modular engine crankshaft block.	模块化发动机曲轴缸体
 def_modular_engine_crankshaft_converter_5x5_node_0_label		RPS	RPS
 def_modular_engine_crankshaft_converter_5x5_node_0_desc		Output value giving data info on engine speed.	输出发动机转速数据
-def_modular_engine_cylinder_straight_name		Modular Engine Cylinder 1x1	模块化发动机气缸(直筒
+def_modular_engine_cylinder_straight_name		Modular Engine Cylinder 1x1	模块化发动机气缸1x1
 def_modular_engine_cylinder_straight_desc		Attach a cylinder to a crankshafts outer surface to produce power for an engine. The cylinder requires a manifold to move air, fuel, and exhaust through the cylinder. Cylinders that are chained directly adjacent to each other can share a single manifold.	将气缸连接到曲轴外表面，为发动机提供动力。气缸需要一个歧管来输送空气、燃油和废气。相互直接相邻的气缸可以共用一个歧管
 def_modular_engine_cylinder_straight_s_desc		A modular engine cylinder.	模块化发动机气缸
 def_modular_engine_cylinder_straight_node_0_label		Composite Data	复合数据
@@ -5700,7 +5700,7 @@ def_rx_huge_node_4_label		Frequency Recv	接收频率
 def_rx_huge_node_4_desc			
 def_rx_huge_node_5_label		Signal Strength	信号强度
 def_rx_huge_node_5_desc			
-def_rx_huge_v2_name		Radio RX Huge	巨型无线电接收
+def_rx_huge_v2_name		Radio RX Huge	无线电收发机(巨)
 def_rx_huge_v2_desc		Sends and receives data on the specified frequency. Transmit Mode defaults to receive. (Max Effective Range : 20000m)	以指定的发送频率和接收数据。传输模式默认为接收。最大范围20000米
 def_rx_huge_v2_s_desc		A radio data transmitter and receiver.	无线电数据发射器和接收器
 def_rx_huge_v2_node_0_label		Audio Recv	音频接收
@@ -5718,7 +5718,7 @@ def_rx_huge_v2_node_5_desc		Radio Send/Receive Frequency.	无线电发送/接收
 def_rx_huge_v2_node_6_label		Signal Strength	信号强度
 def_rx_huge_v2_node_6_desc		Strength of connection signal.	连接信号强度
 def_rx_huge_v2_node_7_label		Transmit Mode	传输模式
-def_rx_huge_v2_node_7_desc		Wether the Radio is transmitting or Receiving.	选择无线电是发射还是接收
+def_rx_huge_v2_node_7_desc		Wether the Radio is transmitting or Receiving.	选择无线电是发射(on)还是接收(off)
 def_rx_large_name		Radio RX Large (Deprecated)	大型无线电RX(已弃用)
 def_rx_large_desc		Sends and receives data on the specified frequencies.	按指定发送频率和接收数据
 def_rx_large_s_desc		A radio data transmitter and receiver.	无线电数据发射器和接收器
@@ -5734,7 +5734,7 @@ def_rx_large_node_4_label		Frequency Recv	接收频率
 def_rx_large_node_4_desc			
 def_rx_large_node_5_label		Signal Strength	信号强度
 def_rx_large_node_5_desc			
-def_rx_large_v2_name		Radio RX Large	大型无线电接收
+def_rx_large_v2_name		Radio RX Large	无线电收发机(大)
 def_rx_large_v2_desc		Sends and receives data on the specified frequency. Transmit Mode defaults to receive. (Max Effective Range : 4000m)	以指定的发送频率和接收数据。传输模式默认为接收。最大范围4000米
 def_rx_large_v2_s_desc		A radio data transmitter and receiver.	无线电数据发射器和接收器
 def_rx_large_v2_node_0_label		Audio Recv	音频接收
@@ -5752,7 +5752,7 @@ def_rx_large_v2_node_5_desc		Radio Send/Receive Frequency.	无线电发送/接�
 def_rx_large_v2_node_6_label		Signal Strength	信号强度
 def_rx_large_v2_node_6_desc		Strength of connection signal.	连接信号强度
 def_rx_large_v2_node_7_label		Transmit Mode	传输模式
-def_rx_large_v2_node_7_desc		Wether the Radio is transmitting or Receiving.	选择无线电是发射还是接收
+def_rx_large_v2_node_7_desc		Wether the Radio is transmitting or Receiving.	选择无线电是发射(on)还是接收(off)
 def_rx_med_name		Radio RX Medium (Deprecated)	无线电接收中等(已弃用)
 def_rx_med_desc		Sends and receives data on the specified frequencies.	按指定发送频率和接收数据
 def_rx_med_s_desc		A radio data transmitter and receiver.	无线电数据发射器和接收器
@@ -5768,7 +5768,7 @@ def_rx_med_node_4_label		Frequency Recv	接收频率
 def_rx_med_node_4_desc			
 def_rx_med_node_5_label		Signal Strength	信号强度
 def_rx_med_node_5_desc			
-def_rx_med_v2_name		Radio RX Medium	中型无线电接收
+def_rx_med_v2_name		Radio RX Medium	无线电收发机(中)
 def_rx_med_v2_desc		Sends and receives data on the specified frequency. Transmit Mode defaults to receive. (Max Effective Range : 1000m)	以指定的发送频率和接收数据。传输模式默认为接收。最大范围1000米
 def_rx_med_v2_s_desc		A radio data transmitter and receiver.	无线电数据发射器和接收器
 def_rx_med_v2_node_0_label		Audio Recv	音频接收
@@ -5786,7 +5786,7 @@ def_rx_med_v2_node_5_desc		Radio Send/Receive Frequency.	无线电发送/接收�
 def_rx_med_v2_node_6_label		Signal Strength	信号强度
 def_rx_med_v2_node_6_desc		Strength of connection signal.	连接信号强度
 def_rx_med_v2_node_7_label		Transmit Mode	传输模式
-def_rx_med_v2_node_7_desc		Wether the Radio is transmitting or Receiving.	选择无线电是发射还是接收
+def_rx_med_v2_node_7_desc		Wether the Radio is transmitting or Receiving.	选择无线电是发射(on)还是接收(off)
 def_rx_small_name		Radio RX Small (Deprecated)	小型无线电接收(已弃用)
 def_rx_small_desc		Sends and receives data on the specified frequencies.	按指定发送频率和接收数据
 def_rx_small_s_desc		A radio data transmitter and receiver.	无线电数据发射器和接收器
@@ -5800,7 +5800,7 @@ def_rx_small_node_3_label		Frequency Send	发送频率
 def_rx_small_node_3_desc			
 def_rx_small_node_4_label		Frequency Recv	接收频率
 def_rx_small_node_4_desc			
-def_rx_small_v2_name		Radio RX Small	小型无线电接收
+def_rx_small_v2_name		Radio RX Small	无线电收发机(小)
 def_rx_small_v2_desc		Sends and receives data on the specified frequency. Transmit Mode defaults to receive. (Max Effective Range : 100m)	以指定的发送频率和接收数据。传输模式默认为接收。最大范围100米
 def_rx_small_v2_s_desc		A radio data transmitter and receiver.	无线电数据发射器和接收器
 def_rx_small_v2_node_0_label		Audio Recv	音频接收
@@ -5816,7 +5816,7 @@ def_rx_small_v2_node_4_desc		Electrical input.	电源输入
 def_rx_small_v2_node_5_label		Frequency	频率
 def_rx_small_v2_node_5_desc		Radio Send/Receive Frequency.	无线电发送/接收频率
 def_rx_small_v2_node_6_label		Transmit Mode	传输模式
-def_rx_small_v2_node_6_desc		Wether the Radio is transmitting or Receiving.	选择无线电是发射还是接收
+def_rx_small_v2_node_6_desc		Wether the Radio is transmitting or Receiving.	选择无线电是发射(on)还是接收(off)
 def_rx_video_r_name		Radio Video Recv	无线图传接收端
 def_rx_video_r_desc		Receives a video signal on the frequency specified.	接收指定频率的视频信号
 def_rx_video_r_s_desc		A radio receiver for receiving video signals.	接收视频信号的无线电接收器
@@ -6347,7 +6347,7 @@ def_sonar_advanced_node_1_desc		Enable the Sonar.	启用声纳
 def_sonar_advanced_node_2_label		Ping	Ping
 def_sonar_advanced_node_2_desc		Send a ping and listen for return sounds.	进行一次Ping的发送并监听
 def_sonar_advanced_node_3_label		Sonar Data	声纳数据
-def_sonar_advanced_node_3_desc		Outputs data for up to 16 targets. On/Off 1-16 : Target 1 Found, Target 2 Found, Etc... Values 1-32: Target 1 Pivot, Target 1 Pitch, Target 2 Pivot, Target 2 Pitch, Etc...	输出最多16个目标的数据。开/关1-16:发现目标1,发现目标2,等等...。值1-32:目标1方位,目标1距离,目标2方位,目标2距离,等等
+def_sonar_advanced_node_3_desc		Outputs data for up to 16 targets. On/Off 1-16 : Target 1 Found, Target 2 Found, Etc... Values 1-32: Target 1 Pivot, Target 1 Pitch, Target 2 Pivot, Target 2 Pitch, Etc...	输出最多16个目标的数据。开/关1-16:发现目标1,发现目标2,等等...。值1-32:目标1方位角,目标1俯仰角,目标2方位角,目标2俯仰角,等等
 def_sonar_advanced_node_4_label		Torpedo Output	鱼雷输出
 def_sonar_advanced_node_4_desc		Outputs x and y data for the most immediate target. Link this directly into a rocket fins component.	输出凝视目标的x和y数据。将其直接连接到弹翼组件中
 def_sonar_advanced_5_name		Sonar (Medium)	中型声纳
@@ -6360,7 +6360,7 @@ def_sonar_advanced_5_node_1_desc		Enable the Sonar.	启用声纳
 def_sonar_advanced_5_node_2_label		Ping	Ping
 def_sonar_advanced_5_node_2_desc		Send a ping and listen for return sounds.	进行一次Ping的发送并监听
 def_sonar_advanced_5_node_3_label		Sonar Data	声纳数据
-def_sonar_advanced_5_node_3_desc		Outputs data for up to 16 targets. On/Off 1-16 : Target 1 Found, Target 2 Found, Etc... Values 1-32: Target 1 Pivot, Target 1 Pitch, Target 2 Pivot, Target 2 Pitch, Etc...	输出最多16个目标的数据。开/关1-16:发现目标1,发现目标2,等等...。值1-32:目标1方位,目标1距离,目标2方位,目标2距离,等等
+def_sonar_advanced_5_node_3_desc		Outputs data for up to 16 targets. On/Off 1-16 : Target 1 Found, Target 2 Found, Etc... Values 1-32: Target 1 Pivot, Target 1 Pitch, Target 2 Pivot, Target 2 Pitch, Etc...	输出最多16个目标的数据。开/关1-16:发现目标1,发现目标2,等等...。值1-32:目标1方位角,目标1俯仰角,目标2方位角,目标2俯仰角,等等
 def_sonar_advanced_7_name		Sonar (Large)	大型声纳
 def_sonar_advanced_7_desc		This sensor outputs the relative angle to detected objects within its range using underwater sound waves. The sensor will passively detect certain noisy components such as propellers or engines but can also send out a loud ping to detect quiet underwater bodies. While the ping input is held passive signals will be supressed. After activating a ping additional detected signals will appear momentarily in the data channel as the signal returns to the sonar. Activating another ping will override the previous ping and no further data will be returned from the old signal.	声纳可在水下利用声波探测其探测范围内检测到的物体的相对角度。被动模式可监听测某些嘈杂的部件,如螺旋桨或发动机。也可主动发出一个响亮的Ping来检测安静的水下物体。主动Ping时,无法检测到被动信号。激活Ping后,当信号返回到声纳时,额外的检测信号将暂时出现在数据通道中。激活新的Ping将覆盖前一个Ping,旧信号将不再返回数据
 def_sonar_advanced_7_s_desc		A sonar that returns information about a detected objects within 200km.	该声纳最大可探测200km内的物体
@@ -6371,7 +6371,7 @@ def_sonar_advanced_7_node_1_desc		Enable the Sonar.	启用声纳
 def_sonar_advanced_7_node_2_label		Ping	Ping
 def_sonar_advanced_7_node_2_desc		Send a ping and listen for return sounds.	进行一次Ping的发送并监听
 def_sonar_advanced_7_node_3_label		Sonar Data	声纳数据
-def_sonar_advanced_7_node_3_desc		Outputs data for up to 16 targets. On/Off 1-16 : Target 1 Found, Target 2 Found, Etc... Values 1-32: Target 1 Pivot, Target 1 Pitch, Target 2 Pivot, Target 2 Pitch, Etc...	输出最多16个目标的数据。开/关1-16:发现目标1,发现目标2,等等...。值1-32:目标1方位,目标1距离,目标2方位,目标2距离,等等
+def_sonar_advanced_7_node_3_desc		Outputs data for up to 16 targets. On/Off 1-16 : Target 1 Found, Target 2 Found, Etc... Values 1-32: Target 1 Pivot, Target 1 Pitch, Target 2 Pivot, Target 2 Pitch, Etc...	输出最多16个目标的数据。开/关1-16:发现目标1,发现目标2,等等...。值1-32:目标1方位角,目标1俯仰角,目标2方位角,目标2俯仰角,等等
 def_sonar_jammer_name		Sonar Noisemaker	声纳干扰器
 def_sonar_jammer_desc		Emits a very loud noise at an inaudible frequency when activated, as a decoy or distraction for sonar components that are listening passively.	激活时以听不见的频率发出非常大的噪音，作为被动声纳的诱饵或干扰器
 def_sonar_jammer_s_desc		A distracting device for sonar.	用于对抗声纳的干扰装置
@@ -6950,40 +6950,40 @@ def_vehicle_tool_welder_node_0_desc		Electrical power connection.	电源连接
 def_vehicle_tool_welder_node_1_label		Activate	启用
 def_vehicle_tool_welder_node_1_desc		Enable welding torch.	启用电焊机
 def_warhead_body_large_name		Warhead Body (Large)	弹头(大)
-def_warhead_body_large_desc		Detonates from an impact, or when receiving damage. Be careful!	通过逻辑信号引爆，或在受到伤害时引爆。小心处理
+def_warhead_body_large_desc		Detonates from an impact, or when receiving damage. Be careful!	解除保险后受到指定速度撞击会被引爆,小心处理,该组件在受到攻击时会殉爆
 def_warhead_body_large_s_desc		A large explosive warhead.	巨大的弹头
-def_warhead_body_large_node_0_label		Arm	引爆
-def_warhead_body_large_node_0_desc		Arm the explosives in the warhead to detonate when the internal impact sensor reaches its threshold.	引爆弹头中的炸药
+def_warhead_body_large_node_0_label		Arm	解除保险
+def_warhead_body_large_node_0_desc		Arm the explosives in the warhead to detonate when the internal impact sensor reaches its threshold.	解除碰炸引信的保险.解除保险后受到撞击会产生爆炸
 def_warhead_body_medium_name		Warhead Body (Medium)	弹头(中)
-def_warhead_body_medium_desc		Detonates from an impact, or when receiving damage. Be careful!	通过逻辑信号引爆，或在受到伤害时引爆。小心处理
+def_warhead_body_medium_desc		Detonates from an impact, or when receiving damage. Be careful!	解除保险后受到指定速度撞击会被引爆,小心处理,该组件在受到攻击时会殉爆
 def_warhead_body_medium_s_desc		A medium explosive warhead.	中等爆炸性弹头
-def_warhead_body_medium_node_0_label		Arm	引爆
-def_warhead_body_medium_node_0_desc		Arm the explosives in the warhead to detonate when the internal impact sensor reaches its threshold.	引爆弹头中的炸药
+def_warhead_body_medium_node_0_label		Arm	解除保险
+def_warhead_body_medium_node_0_desc		Arm the explosives in the warhead to detonate when the internal impact sensor reaches its threshold.	解除碰炸引信的保险.解除保险后受到撞击会产生爆炸
 def_warhead_body_small_name		Warhead Body (Small)	弹头(小)
-def_warhead_body_small_desc		Detonates from an impact, or when receiving damage. Be careful!	通过逻辑信号引爆，或在受到伤害时引爆。小心处理
+def_warhead_body_small_desc		Detonates from an impact, or when receiving damage. Be careful!	解除保险后受到指定速度撞击会被引爆,小心处理,该组件在受到攻击时会殉爆
 def_warhead_body_small_s_desc		A small explosive warhead.	小型爆炸弹头
-def_warhead_body_small_node_0_label		Arm	引爆
-def_warhead_body_small_node_0_desc		Arm the explosives in the warhead to detonate when the internal impact sensor reaches its threshold.	引爆弹头中的炸药
+def_warhead_body_small_node_0_label		Arm	解除保险
+def_warhead_body_small_node_0_desc		Arm the explosives in the warhead to detonate when the internal impact sensor reaches its threshold.	解除碰炸引信的保险.解除保险后受到撞击会产生爆炸
 def_warhead_emp_name		Warhead (EMP)	弹头(EMP)
 def_warhead_emp_desc		Detonates from an impact, creating an EMP to temporarily shut down nearby electronic systems.	通过逻辑信号引爆，产生电磁脉冲，暂时关闭附近的电子系统
 def_warhead_emp_s_desc		A electromagnetic-pulse warhead.	电磁脉冲弹头
-def_warhead_emp_node_0_label		Arm	引爆
+def_warhead_emp_node_0_label		Arm	解除保险
 def_warhead_emp_node_0_desc		Arm the EMP charge in the warhead to detonate when the internal impact sensor reaches its threshold.	引爆弹头中的EMP装药
 def_warhead_large_name		Warhead (Large)	弹头(大)
-def_warhead_large_desc		Detonates from an impact, or when receiving damage. Be careful!	通过逻辑信号引爆，或在受到伤害时引爆。小心处理
+def_warhead_large_desc		Detonates from an impact, or when receiving damage. Be careful!	解除保险后受到指定速度撞击会被引爆,小心处理,该组件在受到攻击时会殉爆
 def_warhead_large_s_desc		A large explosive warhead.	巨大的弹头
-def_warhead_large_node_0_label		Arm	引爆
-def_warhead_large_node_0_desc		Arm the explosives in the warhead to detonate when the internal impact sensor reaches its threshold.	引爆弹头中的炸药
+def_warhead_large_node_0_label		Arm	解除保险
+def_warhead_large_node_0_desc		Arm the explosives in the warhead to detonate when the internal impact sensor reaches its threshold.	解除碰炸引信的保险.解除保险后受到撞击会产生爆炸
 def_warhead_medium_name		Warhead (Medium)	弹头(中)
-def_warhead_medium_desc		Detonates from an impact, or when receiving damage. Be careful!	通过逻辑信号引爆，或在受到伤害时引爆。小心处理
+def_warhead_medium_desc		Detonates from an impact, or when receiving damage. Be careful!	解除保险后受到指定速度撞击会被引爆,小心处理,该组件在受到攻击时会殉爆
 def_warhead_medium_s_desc		A medium explosive warhead.	中等爆炸性弹头
-def_warhead_medium_node_0_label		Arm	引爆
-def_warhead_medium_node_0_desc		Arm the explosives in the warhead to detonate when the internal impact sensor reaches its threshold.	引爆弹头中的炸药
+def_warhead_medium_node_0_label		Arm	解除保险
+def_warhead_medium_node_0_desc		Arm the explosives in the warhead to detonate when the internal impact sensor reaches its threshold.	解除碰炸引信的保险.解除保险后受到撞击会产生爆炸
 def_warhead_small_name		Warhead (Small)	弹头(小)
-def_warhead_small_desc		Detonates from an impact, or when receiving damage. Be careful!	通过逻辑信号引爆，或在受到伤害时引爆。小心处理
+def_warhead_small_desc		Detonates from an impact, or when receiving damage. Be careful!	解除保险后受到指定速度撞击会被引爆,小心处理,该组件在受到攻击时会殉爆
 def_warhead_small_s_desc		A small explosive warhead.	小型爆炸弹头
-def_warhead_small_node_0_label		Arm	引爆
-def_warhead_small_node_0_desc		Arm the explosives in the warhead to detonate when the internal impact sensor reaches its threshold.	引爆弹头中的炸药
+def_warhead_small_node_0_label		Arm	解除保险
+def_warhead_small_node_0_desc		Arm the explosives in the warhead to detonate when the internal impact sensor reaches its threshold.	解除碰炸引信的保险.解除保险后受到撞击会产生爆炸
 def_watercannon_name		Fluid Cannon	旋转水炮
 def_watercannon_desc		The cannon is a turret and can rotate on 2 axis.	可以在水平和垂直轴上旋转的炮塔
 def_watercannon_s_desc		A fluid cannon that fires pressurized water for putting out fires.	发射加压过的水来灭火
@@ -7092,175 +7092,175 @@ def_water_suction_duct_s_desc		Port used to allow fluid in and out of a fluid sy
 def_water_suction_duct_node_0_label		Fluid	流体
 def_water_suction_duct_node_0_desc		Allows fluid to flow in and out of an enclosed volume or the ocean.	允许流体进出封闭的体积或海洋
 def_wheel_advanced_3_name		Wheel 3x3	3x3轮
-def_wheel_advanced_3_desc		The wheel will rotate forwards and backwards depending on power received. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据接收到的功率前后旋转。它可以通过向转向输入发送数字信号来左右旋转。它也可以通过向制动输入发送接通信号来锁定到位
+def_wheel_advanced_3_desc		The wheel will rotate forwards and backwards depending on power received. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据接收到的功率前后旋转。它可以通过接收数字信号左右转向，也可以接收数字或开关信号实现制动刹车
 def_wheel_advanced_3_s_desc		Small steerable wheel with power connection and braking.	带动力连接和制动的小型可操纵载具轮
 def_wheel_advanced_3_node_0_label		Brake	制动器
-def_wheel_advanced_3_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将载具轮锁定到位
+def_wheel_advanced_3_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
 def_wheel_advanced_3_node_1_label		RPS	RPS
 def_wheel_advanced_3_node_1_desc		Receives power generated by an engine to control forward and backward rotation.	接收发动机产生的控制前后旋转的动力
 def_wheel_advanced_3_node_2_label		Variable Brake	可变制动器
-def_wheel_advanced_3_node_2_desc		A value between 0 and 1 for soft braking	软制动值介于0和1之间
+def_wheel_advanced_3_node_2_desc		A value between 0 and 1 for soft braking	输入制动力度(0~1)
 def_wheel_advanced_3_node_3_label		Steering	转向
-def_wheel_advanced_3_node_3_desc		Accepts a value between -1 and 1 that represents the extremes of the wheels steering rotation	接受一个介于-1和1之间的值，该值表示载具轮转向旋转的极值值
+def_wheel_advanced_3_node_3_desc		Accepts a value between -1 and 1 that represents the extremes of the wheels steering rotation	接受一个介于-1和1之间的值，表示车轮转向的角度
 def_wheel_advanced_3_sus_name		Wheel 3x3 (Suspension)	3x3轮(悬挂)
-def_wheel_advanced_3_sus_desc		The wheel will rotate forwards and backwards depending on power received. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据接收到的功率前后旋转。它可以通过向转向输入发送数字信号来左右旋转。它也可以通过向制动输入发送接通信号来锁定到位
+def_wheel_advanced_3_sus_desc		The wheel will rotate forwards and backwards depending on power received. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据接收到的功率前后旋转。它可以通过接收数字信号左右转向，也可以接收数字或开关信号实现制动刹车
 def_wheel_advanced_3_sus_s_desc		Small steerable wheel with suspension, power connection, and braking.	带悬挂、电源连接和制动的小型可操纵载具轮
 def_wheel_advanced_3_sus_node_0_label		Brake	制动器
-def_wheel_advanced_3_sus_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将载具轮锁定到位
+def_wheel_advanced_3_sus_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
 def_wheel_advanced_3_sus_node_1_label		RPS	RPS
 def_wheel_advanced_3_sus_node_1_desc		Receives power generated by an engine to control forward and backward rotation.	接收发动机产生的控制前后旋转的动力
 def_wheel_advanced_3_sus_node_2_label		Variable Brake	可变制动器
-def_wheel_advanced_3_sus_node_2_desc		A value between 0 and 1 for soft braking	软制动值介于0和1之间
+def_wheel_advanced_3_sus_node_2_desc		A value between 0 and 1 for soft braking	输入制动力度(0~1)
 def_wheel_advanced_3_sus_node_3_label		Steering	转向
-def_wheel_advanced_3_sus_node_3_desc		Accepts a value between -1 and 1 that represents the extremes of the wheels steering rotation	接受一个介于-1和1之间的值，该值表示载具轮转向旋转的极值值
+def_wheel_advanced_3_sus_node_3_desc		Accepts a value between -1 and 1 that represents the extremes of the wheels steering rotation	接受一个介于-1和1之间的值，表示车轮转向的角度
 def_wheel_advanced_5_name		Wheel 5x5	5x5轮
-def_wheel_advanced_5_desc		The wheel will rotate forwards and backwards depending on power received. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据接收到的功率前后旋转。它可以通过向转向输入发送数字信号来左右旋转。它也可以通过向制动输入发送接通信号来锁定到位
+def_wheel_advanced_5_desc		The wheel will rotate forwards and backwards depending on power received. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据接收到的功率前后旋转。它可以通过接收数字信号左右转向，也可以接收数字或开关信号实现制动刹车
 def_wheel_advanced_5_s_desc		Medium steerable wheel with power connection and braking.	带动力连接和制动的中等方向盘
 def_wheel_advanced_5_node_0_label		Brake	制动器
-def_wheel_advanced_5_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将载具轮锁定到位
+def_wheel_advanced_5_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
 def_wheel_advanced_5_node_1_label		RPS	RPS
 def_wheel_advanced_5_node_1_desc		Receives power generated by an engine to control forward and backward rotation.	接收发动机产生的控制前后旋转的动力
 def_wheel_advanced_5_node_2_label		Variable Brake	可变制动器
-def_wheel_advanced_5_node_2_desc		A value between 0 and 1 for soft braking	软制动值介于0和1之间
+def_wheel_advanced_5_node_2_desc		A value between 0 and 1 for soft braking	输入制动力度(0~1)
 def_wheel_advanced_5_node_3_label		Steering	转向
-def_wheel_advanced_5_node_3_desc		Accepts a value between -1 and 1 that represents the extremes of the wheels steering rotation	接受一个介于-1和1之间的值，该值表示载具轮转向旋转的极值值
+def_wheel_advanced_5_node_3_desc		Accepts a value between -1 and 1 that represents the extremes of the wheels steering rotation	接受一个介于-1和1之间的值，表示车轮转向的角度
 def_wheel_advanced_5_sus_name		Wheel 5x5 (Suspension)	5x5轮(悬挂)
-def_wheel_advanced_5_sus_desc		The wheel will rotate forwards and backwards depending on power received. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据接收到的功率前后旋转。它可以通过向转向输入发送数字信号来左右旋转。它也可以通过向制动输入发送接通信号来锁定到位
+def_wheel_advanced_5_sus_desc		The wheel will rotate forwards and backwards depending on power received. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据接收到的功率前后旋转。它可以通过接收数字信号左右转向，也可以接收数字或开关信号实现制动刹车
 def_wheel_advanced_5_sus_s_desc		Medium steerable wheel with suspension, power connection, and braking.	带悬挂、电源连接和制动的中等方向盘
 def_wheel_advanced_5_sus_node_0_label		Brake	制动器
-def_wheel_advanced_5_sus_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将载具轮锁定到位
+def_wheel_advanced_5_sus_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
 def_wheel_advanced_5_sus_node_1_label		RPS	RPS
 def_wheel_advanced_5_sus_node_1_desc		Receives power generated by an engine to control forward and backward rotation.	接收发动机产生的控制前后旋转的动力
 def_wheel_advanced_5_sus_node_2_label		Variable Brake	可变制动器
-def_wheel_advanced_5_sus_node_2_desc		A value between 0 and 1 for soft braking	软制动值介于0和1之间
+def_wheel_advanced_5_sus_node_2_desc		A value between 0 and 1 for soft braking	输入制动力度(0~1)
 def_wheel_advanced_5_sus_node_3_label		Steering	转向
-def_wheel_advanced_5_sus_node_3_desc		Accepts a value between -1 and 1 that represents the extremes of the wheels steering rotation	接受一个介于-1和1之间的值，该值表示载具轮转向旋转的极值值
+def_wheel_advanced_5_sus_node_3_desc		Accepts a value between -1 and 1 that represents the extremes of the wheels steering rotation	接受一个介于-1和1之间的值，表示车轮转向的角度
 def_wheel_advanced_7_name		Wheel 7x7	7x7轮
-def_wheel_advanced_7_desc		The wheel will rotate forwards and backwards depending on power received. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据接收到的功率前后旋转。它可以通过向转向输入发送数字信号来左右旋转。它也可以通过向制动输入发送接通信号来锁定到位
+def_wheel_advanced_7_desc		The wheel will rotate forwards and backwards depending on power received. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据接收到的功率前后旋转。它可以通过接收数字信号左右转向，也可以接收数字或开关信号实现制动刹车
 def_wheel_advanced_7_s_desc		Large steerable wheel with power connection and braking.	带动力连接和制动的大方向盘
 def_wheel_advanced_7_node_0_label		Brake	制动器
-def_wheel_advanced_7_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将载具轮锁定到位
+def_wheel_advanced_7_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
 def_wheel_advanced_7_node_1_label		RPS	RPS
 def_wheel_advanced_7_node_1_desc		Receives power generated by an engine to control forward and backward rotation.	接收发动机产生的控制前后旋转的动力
 def_wheel_advanced_7_node_2_label		Variable Brake	可变制动器
-def_wheel_advanced_7_node_2_desc		A value between 0 and 1 for soft braking	软制动值介于0和1之间
+def_wheel_advanced_7_node_2_desc		A value between 0 and 1 for soft braking	输入制动力度(0~1)
 def_wheel_advanced_7_node_3_label		Steering	转向
-def_wheel_advanced_7_node_3_desc		Accepts a value between -1 and 1 that represents the extremes of the wheels steering rotation	接受一个介于-1和1之间的值，该值表示载具轮转向旋转的极值值
+def_wheel_advanced_7_node_3_desc		Accepts a value between -1 and 1 that represents the extremes of the wheels steering rotation	接受一个介于-1和1之间的值，表示车轮转向的角度
 def_wheel_advanced_7_sus_name		Wheel 7x7 (Suspension)	7x7轮(悬挂)
-def_wheel_advanced_7_sus_desc		The wheel will rotate forwards and backwards depending on power received. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据接收到的功率前后旋转。它可以通过向转向输入发送数字信号来左右旋转。它也可以通过向制动输入发送接通信号来锁定到位
+def_wheel_advanced_7_sus_desc		The wheel will rotate forwards and backwards depending on power received. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据接收到的功率前后旋转。它可以通过接收数字信号左右转向，也可以接收数字或开关信号实现制动刹车
 def_wheel_advanced_7_sus_s_desc		Large steerable wheel with suspension, power connection, and braking.	带悬挂、电源连接和制动的大方向盘
 def_wheel_advanced_7_sus_node_0_label		Brake	制动器
-def_wheel_advanced_7_sus_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将载具轮锁定到位
+def_wheel_advanced_7_sus_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
 def_wheel_advanced_7_sus_node_1_label		RPS	RPS
 def_wheel_advanced_7_sus_node_1_desc		Receives power generated by an engine to control forward and backward rotation.	接收发动机产生的控制前后旋转的动力
 def_wheel_advanced_7_sus_node_2_label		Variable Brake	可变制动器
-def_wheel_advanced_7_sus_node_2_desc		A value between 0 and 1 for soft braking	软制动值介于0和1之间
+def_wheel_advanced_7_sus_node_2_desc		A value between 0 and 1 for soft braking	输入制动力度(0~1)
 def_wheel_advanced_7_sus_node_3_label		Steering	转向
-def_wheel_advanced_7_sus_node_3_desc		Accepts a value between -1 and 1 that represents the extremes of the wheels steering rotation	接受一个介于-1和1之间的值，该值表示载具轮转向旋转的极值值
+def_wheel_advanced_7_sus_node_3_desc		Accepts a value between -1 and 1 that represents the extremes of the wheels steering rotation	接受一个介于-1和1之间的值，表示车轮转向的角度
 def_wheel_advanced_9_name		Wheel 9x9	9x9轮
-def_wheel_advanced_9_desc		The wheel will rotate forwards and backwards depending on power received. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据接收到的功率前后旋转。它可以通过向转向输入发送数字信号来左右旋转。它也可以通过向制动输入发送接通信号来锁定到位
+def_wheel_advanced_9_desc		The wheel will rotate forwards and backwards depending on power received. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据接收到的功率前后旋转。它可以通过接收数字信号以左右转向，也可以接收数字或开关信号实现制动刹车
 def_wheel_advanced_9_s_desc		XLarge steerable wheel with power connection and braking.	XLarge方向盘，带电源连接和制动
 def_wheel_advanced_9_node_0_label		Brake	制动器
-def_wheel_advanced_9_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将载具轮锁定到位
+def_wheel_advanced_9_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
 def_wheel_advanced_9_node_1_label		RPS	RPS
 def_wheel_advanced_9_node_1_desc		Receives power generated by an engine to control forward and backward rotation.	接收发动机产生的控制前后旋转的动力
 def_wheel_advanced_9_node_2_label		Variable Brake	可变制动器
-def_wheel_advanced_9_node_2_desc		A value between 0 and 1 for soft braking	软制动值介于0和1之间
+def_wheel_advanced_9_node_2_desc		A value between 0 and 1 for soft braking	输入制动力度(0~1)
 def_wheel_advanced_9_node_3_label		Steering	转向
-def_wheel_advanced_9_node_3_desc		Accepts a value between -1 and 1 that represents the extremes of the wheels steering rotation	接受一个介于-1和1之间的值，该值表示载具轮转向旋转的极值值
+def_wheel_advanced_9_node_3_desc		Accepts a value between -1 and 1 that represents the extremes of the wheels steering rotation	接受一个介于-1和1之间的值，表示车轮转向的角度
 def_wheel_advanced_9_sus_name		Wheel 9x9 (Suspension)	9x9轮(悬挂)
-def_wheel_advanced_9_sus_desc		The wheel will rotate forwards and backwards depending on power received. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据接收到的功率前后旋转。它可以通过向转向输入发送数字信号来左右旋转。它也可以通过向制动输入发送接通信号来锁定到位
+def_wheel_advanced_9_sus_desc		The wheel will rotate forwards and backwards depending on power received. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据接收到的功率前后旋转。它可以通过接收数字信号以左右转向，也可以接收数字或开关信号实现制动刹车
 def_wheel_advanced_9_sus_s_desc		XLarge steerable wheel with suspension, power connection, and braking.	XLarge方向盘，带悬挂、电源连接和制动
 def_wheel_advanced_9_sus_node_0_label		Brake	制动器
-def_wheel_advanced_9_sus_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将载具轮锁定到位
+def_wheel_advanced_9_sus_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
 def_wheel_advanced_9_sus_node_1_label		RPS	RPS
 def_wheel_advanced_9_sus_node_1_desc		Receives power generated by an engine to control forward and backward rotation.	接收发动机产生的控制前后旋转的动力
 def_wheel_advanced_9_sus_node_2_label		Variable Brake	可变制动器
-def_wheel_advanced_9_sus_node_2_desc		A value between 0 and 1 for soft braking	软制动值介于0和1之间
+def_wheel_advanced_9_sus_node_2_desc		A value between 0 and 1 for soft braking	输入制动力度(0~1)
 def_wheel_advanced_9_sus_node_3_label		Steering	转向
-def_wheel_advanced_9_sus_node_3_desc		Accepts a value between -1 and 1 that represents the extremes of the wheels steering rotation	接受一个介于-1和1之间的值，该值表示载具轮转向旋转的极值值
+def_wheel_advanced_9_sus_node_3_desc		Accepts a value between -1 and 1 that represents the extremes of the wheels steering rotation	接受一个介于-1和1之间的值，表示车轮转向的角度
 def_wheel_coaster_name		Wheel Coaster	辅助轮
-def_wheel_coaster_desc		You cannot control the forward and backward rotation of this wheel, but it can be locked into place by sending an on signal to the brake input.	您无法控制此载具轮的前后旋转，但可以通过向制动输入发送接通信号将其锁定到位
+def_wheel_coaster_desc		You cannot control the forward and backward rotation of this wheel, but it can be locked into place by sending an on signal to the brake input.	您无法控制此载具轮的前后旋转，但可以接收数字或开关信号实现制动刹车
 def_wheel_coaster_s_desc		Simple small wheel that requires no engine power and spins freely.	简单的小轮子，不需要发动机动力，可以自由旋转
 def_wheel_coaster_node_0_label		Brake	制动器
-def_wheel_coaster_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将载具轮锁定到位
+def_wheel_coaster_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
 def_wheel_coaster_node_1_label		Variable Brake	可变制动器
-def_wheel_coaster_node_1_desc		A value between 0 and 1 for soft braking	软制动值介于0和1之间
+def_wheel_coaster_node_1_desc		A value between 0 and 1 for soft braking	输入制动力度(0~1)
 def_wheel_coaster_large_name		Large Landing Wheel	大起落轮
-def_wheel_coaster_large_desc		You cannot control the forward and backward rotation of this wheel, but it can be locked into place by sending an on signal to the brake input.	您无法控制此载具轮的前后旋转，但可以通过向制动输入发送接通信号将其锁定到位
+def_wheel_coaster_large_desc		You cannot control the forward and backward rotation of this wheel, but it can be locked into place by sending an on signal to the brake input.	您无法控制此载具轮的前后旋转，但可以接收数字或开关信号实现制动刹车
 def_wheel_coaster_large_s_desc		Large landing wheel that requires no engine power and spins freely.	无需发动机动力和自由旋转的大型起落架
 def_wheel_coaster_large_node_0_label		Brake	制动器
-def_wheel_coaster_large_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将载具轮锁定到位
+def_wheel_coaster_large_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
 def_wheel_coaster_large_node_1_label		Variable Brake	可变制动器
-def_wheel_coaster_large_node_1_desc		A value between 0 and 1 for soft braking	软制动值介于0和1之间
+def_wheel_coaster_large_node_1_desc		A value between 0 and 1 for soft braking	输入制动力度(0~1)
 def_wheel_medium_name		Medium Wheel	中型轮
-def_wheel_medium_desc		The wheel will rotate forwards and backwards depending on power received from a connected engine. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据从连接的发动机接收到的功率前后旋转。它可以通过向转向输入发送数字信号来左右旋转。它也可以通过向制动输入发送接通信号来锁定到位
+def_wheel_medium_desc		The wheel will rotate forwards and backwards depending on power received from a connected engine. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据从连接的发动机接收到的功率前后旋转。它可以通过接收数字信号以左右转向，也可以接收数字或开关信号实现制动刹车
 def_wheel_medium_s_desc		Medium wheel that can be controlled using an engine.	可使用发动机控制的中型载具轮
 def_wheel_medium_node_0_label		Brake	制动器
-def_wheel_medium_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将载具轮锁定到位
+def_wheel_medium_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
 def_wheel_medium_node_1_label		RPS	RPS
 def_wheel_medium_node_1_desc		Receives power generated by an engine to control forward and backward rotation.	接收发动机产生的控制前后旋转的动力
 def_wheel_medium_node_2_label		Variable Brake	可变制动器
-def_wheel_medium_node_2_desc		A value between 0 and 1 for soft braking	软制动值介于0和1之间
+def_wheel_medium_node_2_desc		A value between 0 and 1 for soft braking	输入制动力度(0~1)
 def_wheel_medium_node_3_label		Steering	转向
-def_wheel_medium_node_3_desc		Accepts a value between -1 and 1 that represents the extremes of the wheels steering rotation	接受一个介于-1和1之间的值，该值表示载具轮转向旋转的极值值
+def_wheel_medium_node_3_desc		Accepts a value between -1 and 1 that represents the extremes of the wheels steering rotation	接受一个介于-1和1之间的值，表示车轮转向的角度
 def_wheel_small_name		Small Wheel	小型轮
-def_wheel_small_desc		The wheel will rotate forwards and backwards depending on power received from a connected engine. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据从连接的发动机接收到的功率前后旋转。它可以通过向转向输入发送数字信号来左右旋转。它也可以通过向制动输入发送接通信号来锁定到位
+def_wheel_small_desc		The wheel will rotate forwards and backwards depending on power received from a connected engine. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据从连接的发动机接收到的功率前后旋转。它可以通过接收数字信号以左右转向，也可以接收数字或开关信号实现制动刹车
 def_wheel_small_s_desc		Small wheel that can be controlled using an engine.	可以用发动机控制的小轮子
 def_wheel_small_node_0_label		Brake	制动器
-def_wheel_small_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将载具轮锁定到位
+def_wheel_small_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
 def_wheel_small_node_1_label		RPS	RPS
 def_wheel_small_node_1_desc		Receives power generated by an engine to control forward and backward rotation.	接收发动机产生的控制前后旋转的动力
 def_wheel_small_node_2_label		Variable Brake	可变制动器
-def_wheel_small_node_2_desc		A value between 0 and 1 for soft braking	软制动值介于0和1之间
+def_wheel_small_node_2_desc		A value between 0 and 1 for soft braking	输入制动力度(0~1)
 def_wheel_small_node_3_label		Steering	转向
-def_wheel_small_node_3_desc		Accepts a value between -1 and 1 that represents the extremes of the wheels steering rotation	接受一个介于-1和1之间的值，该值表示载具轮转向旋转的极值值
-def_wheel_tank_1_name		Tank Wheel (Small)	槽轮(小)
-def_wheel_tank_1_desc		A drive wheel is required to rotate the connected track. The wheel will form a track with other wheels of the same size and orientation that are placed in line and on the same body.	转动连接的轨道需要一个驱动轮。载具轮将与其他尺寸和方向相同的载具轮形成一条轨道，这些载具轮排列成一条直线，位于同一载具身上
+def_wheel_small_node_3_desc		Accepts a value between -1 and 1 that represents the extremes of the wheels steering rotation	接受一个介于-1和1之间的值，表示车轮转向的角度
+def_wheel_tank_1_name		Tank Wheel (Small)	履带从动轮(小)
+def_wheel_tank_1_desc		A drive wheel is required to rotate the connected track. The wheel will form a track with other wheels of the same size and orientation that are placed in line and on the same body.	将相同尺寸和方向的履带轮摆放在相同的平面上，会自动形成一个履带系统
 def_wheel_tank_1_s_desc		Small wheel for tracked vehicles.	履带载具的小轮子
 def_wheel_tank_1_node_0_label		Brake	制动器
-def_wheel_tank_1_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将载具轮锁定到位
-def_wheel_tank_5_name		Tank Wheel (Large)	槽轮(大)
-def_wheel_tank_5_desc		A drive wheel is required to rotate the connected track. The wheel will form a track with other wheels of the same size and orientation that are placed in line and on the same body.	转动连接的轨道需要一个驱动轮。载具轮将与其他尺寸和方向相同的载具轮形成一条轨道，这些载具轮排列成一条直线，位于同一载具身上
+def_wheel_tank_1_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
+def_wheel_tank_5_name		Tank Wheel (Large)	履带从动轮(大)
+def_wheel_tank_5_desc		A drive wheel is required to rotate the connected track. The wheel will form a track with other wheels of the same size and orientation that are placed in line and on the same body.	将相同尺寸和方向的履带轮摆放在相同的平面上，会自动形成一个履带系统
 def_wheel_tank_5_s_desc		Medium wheel for tracked vehicles.	履带载具的中型载具轮
 def_wheel_tank_5_node_0_label		Brake	制动器
-def_wheel_tank_5_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将载具轮锁定到位
-def_wheel_tank_5_2_name		Tank Wheel (Medium)	槽轮(中)
-def_wheel_tank_5_2_desc		A drive wheel is required to rotate the connected track. The wheel will form a track with other wheels of the same size and orientation that are placed in line and on the same body.	转动连接的轨道需要一个驱动轮。载具轮将与其他尺寸和方向相同的载具轮形成一条轨道，这些载具轮排列成一条直线，位于同一载具身上
+def_wheel_tank_5_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
+def_wheel_tank_5_2_name		Tank Wheel (Medium)	履带从动轮(中)
+def_wheel_tank_5_2_desc		A drive wheel is required to rotate the connected track. The wheel will form a track with other wheels of the same size and orientation that are placed in line and on the same body.	将相同尺寸和方向的履带轮摆放在相同的平面上，会自动形成一个履带系统
 def_wheel_tank_5_2_s_desc		Medium wheel for tracked vehicles.	履带载具的中型载具轮
 def_wheel_tank_5_2_node_0_label		Brake	制动器
-def_wheel_tank_5_2_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将载具轮锁定到位
-def_wheel_tank_7_name		Tank Wheel (Huge)	槽轮(巨)
-def_wheel_tank_7_desc		A drive wheel is required to rotate the connected track. The wheel will form a track with other wheels of the same size and orientation that are placed in line and on the same body.	转动连接的轨道需要一个驱动轮。载具轮将与其他尺寸和方向相同的载具轮形成一条轨道，这些载具轮排列成一条直线，位于同一载具身上
+def_wheel_tank_5_2_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
+def_wheel_tank_7_name		Tank Wheel (Huge)	履带从动轮(巨)
+def_wheel_tank_7_desc		A drive wheel is required to rotate the connected track. The wheel will form a track with other wheels of the same size and orientation that are placed in line and on the same body.	将相同尺寸和方向的履带轮摆放在相同的平面上，会自动形成一个履带系统
 def_wheel_tank_7_s_desc		Large wheel for tracked vehicles.	履带载具用大载具轮
 def_wheel_tank_7_node_0_label		Brake	制动器
-def_wheel_tank_7_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将载具轮锁定到位
-def_wheel_tank_drive_1_name		Tank Drive Wheel (Small)	坦克传动轮(小)
-def_wheel_tank_drive_1_desc		The wheel will form a track with other wheels of the same size and orientation that are placed in line and on the same body.	载具轮将与其他尺寸和方向相同的载具轮形成一条轨道，这些载具轮排列成一条直线，位于同一载具身上
-def_wheel_tank_drive_1_s_desc		Small drive wheel for tracked vehicles.	履带载具用小驱动轮
+def_wheel_tank_7_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
+def_wheel_tank_drive_1_name		Tank Drive Wheel (Small)	履带主动轮(小)
+def_wheel_tank_drive_1_desc		The wheel will form a track with other wheels of the same size and orientation that are placed in line and on the same body.	将相同尺寸和方向的履带轮摆放在相同的平面上，会自动形成一个履带系统
+def_wheel_tank_drive_1_s_desc		Small drive wheel for tracked vehicles.	履带载具用小型驱动轮
 def_wheel_tank_drive_1_node_0_label		Brake	制动器
-def_wheel_tank_drive_1_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将载具轮锁定到位
+def_wheel_tank_drive_1_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
 def_wheel_tank_drive_1_node_1_label		RPS	RPS
 def_wheel_tank_drive_1_node_1_desc		Receives power generated by an engine to control forward and backward rotation.	接收发动机产生的控制前后旋转的动力
-def_wheel_tank_drive_5_name		Tank Drive Wheel (Large)	坦克传动轮(大)
-def_wheel_tank_drive_5_desc		The wheel will form a track with other wheels of the same size and orientation that are placed in line and on the same body.	载具轮将与其他尺寸和方向相同的载具轮形成一条轨道，这些载具轮排列成一条直线，位于同一载具身上
-def_wheel_tank_drive_5_s_desc		Medium drive wheel for tracked vehicles.	履带载具的中型驱动轮
+def_wheel_tank_drive_5_name		Tank Drive Wheel (Large)	履带主动轮(大)
+def_wheel_tank_drive_5_desc		The wheel will form a track with other wheels of the same size and orientation that are placed in line and on the same body.	将相同尺寸和方向的履带轮摆放在相同的平面上，会自动形成一个履带系统
+def_wheel_tank_drive_5_s_desc		Medium drive wheel for tracked vehicles.	履带载具的大型驱动轮
 def_wheel_tank_drive_5_node_0_label		Brake	制动器
-def_wheel_tank_drive_5_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将载具轮锁定到位
+def_wheel_tank_drive_5_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
 def_wheel_tank_drive_5_node_1_label		RPS	RPS
 def_wheel_tank_drive_5_node_1_desc		Receives power generated by an engine to control forward and backward rotation.	接收发动机产生的控制前后旋转的动力
-def_wheel_tank_drive_5_2_name		Tank Drive Wheel (Medium)	坦克传动轮(中)
-def_wheel_tank_drive_5_2_desc		The wheel will form a track with other wheels of the same size and orientation that are placed in line and on the same body.	载具轮将与其他尺寸和方向相同的载具轮形成一条轨道，这些载具轮排列成一条直线，位于同一载具身上
-def_wheel_tank_drive_5_2_s_desc		Medium drive wheel for tracked vehicles.	
+def_wheel_tank_drive_5_2_name		Tank Drive Wheel (Medium)	履带主动轮(中)
+def_wheel_tank_drive_5_2_desc		The wheel will form a track with other wheels of the same size and orientation that are placed in line and on the same body.	将相同尺寸和方向的履带轮摆放在相同的平面上，会自动形成一个履带系统
+def_wheel_tank_drive_5_2_s_desc		Medium drive wheel for tracked vehicles.	履带载具的中型驱动轮
 def_wheel_tank_drive_5_2_node_0_label		Brake	制动器
-def_wheel_tank_drive_5_2_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将载具轮锁定到位
+def_wheel_tank_drive_5_2_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
 def_wheel_tank_drive_5_2_node_1_label		RPS	RPS
 def_wheel_tank_drive_5_2_node_1_desc		Receives power generated by an engine to control forward and backward rotation.	接收发动机产生的控制前后旋转的动力
-def_wheel_tank_drive_7_name		Tank Drive Wheel (Huge)	坦克传动轮(巨)
-def_wheel_tank_drive_7_desc		The wheel will form a track with other wheels of the same size and orientation that are placed in line and on the same body.	载具轮将与其他尺寸和方向相同的载具轮形成一条轨道，这些载具轮排列成一条直线，位于同一载具身上
-def_wheel_tank_drive_7_s_desc		Large drive wheel for tracked vehicles.	履带载具用大驱动轮
+def_wheel_tank_drive_7_name		Tank Drive Wheel (Huge)	履带主动轮(巨)
+def_wheel_tank_drive_7_desc		The wheel will form a track with other wheels of the same size and orientation that are placed in line and on the same body.	将相同尺寸和方向的履带轮摆放在相同的平面上，会自动形成一个履带系统
+def_wheel_tank_drive_7_s_desc		Large drive wheel for tracked vehicles.	履带载具用巨型驱动轮
 def_wheel_tank_drive_7_node_0_label		Brake	制动器
-def_wheel_tank_drive_7_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将载具轮锁定到位
+def_wheel_tank_drive_7_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
 def_wheel_tank_drive_7_node_1_label		RPS	RPS
 def_wheel_tank_drive_7_node_1_desc		Receives power generated by an engine to control forward and backward rotation.	接收发动机产生的控制前后旋转的动力
 def_winch_a_name		Medium Winch (Deprecated)	中型绞车(弃用)
