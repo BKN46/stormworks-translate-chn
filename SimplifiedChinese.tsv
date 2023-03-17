@@ -2371,6 +2371,16 @@ id	description	en	local
 		Ski Headwear	滑雪帽
 		Straw Hat	草帽
 		Welding Goggles	焊接护目镜
+		Drill Rod	钻杆
+		Slurry	泥浆
+		Saturated Slurry	饱和泥浆
+		Allow Steam	允许蒸汽
+		Allow Slurry	允许泥浆
+		Allow Saturated Slurry	允许饱和泥浆
+		Oil Industry	石油工业
+		Spawn Drill Rod	生成钻杆
+		Allow Liquids	允许液体
+		Allow Gases	允许气体
 def_01_block_name		Block	方块
 def_01_block_desc		The block is a quarter-metre in size. Components can be attached to all 6 faces.	这个方块有四分之一米大。组件可以连接收到所有6个面
 def_01_block_s_desc		Basic cube-shaped building block.	基本立方形建筑块
@@ -3004,6 +3014,11 @@ def_distance_sensor_node_0_label		Distance	距离
 def_distance_sensor_node_0_desc		The measured distance in metres.	以米为单位测量的距离
 def_distance_sensor_node_1_label		Electric	电
 def_distance_sensor_node_1_desc		Electrical power connection.	电源连接
+def_distillation_tray_name		Fractional Distillation Port	分馏出口
+def_distillation_tray_desc		Place the port inside of an enclosed volume to connect to that volume. Outputs different fluids based on height relative to the bottom of the compartment.	将该设备放置在密闭的空间中进行分馏.根据该设备到密闭空间底部的距离不同,可分馏出不同的产物
+def_distillation_tray_s_desc		Port used to collect output in a distillation column.	分馏产物收集设备
+def_distillation_tray_node_0_label		Fluid	流体
+def_distillation_tray_node_0_desc		Collects distilled fluids from an enclosed volume.	收集分馏产物的流体出口
 def_door_name		Sliding Door (Electric)	滑动门(电动)
 def_door_desc			
 def_door_s_desc		Sliding door that can be opened and closed using an on/off signal.	可使用开/关信号打开和关闭的滑动门
@@ -3193,13 +3208,20 @@ def_fluid_exhaust_desc		Fluid can flow in and out of the port as part of a fluid
 def_fluid_exhaust_s_desc		An exhaust port for fluid systems.	流体系统的排气口
 def_fluid_exhaust_node_0_label		Fluid	流体
 def_fluid_exhaust_node_0_desc		Allows fluid to flow in and out of an enclosed volume or the ocean.	允许流体进出封闭的体积或海洋
-def_fluid_filter_name		Fluid Filter	流体过滤器
+def_fluid_filter_name		Fluid Filter (Deprecated)	流体过滤器(已弃用)
 def_fluid_filter_desc		The valve can be configured to select which fluids may pass across the two directional valve.	该阀可配置为选择哪些流体可通过双向阀
 def_fluid_filter_s_desc		The fluid filter only allows certain types of fluid across the valve.	油液滤清器只允许特定类型的油液通过阀门
 def_fluid_filter_node_0_label		Fluid A	流体A
 def_fluid_filter_node_0_desc		Fluid connection.	流体连接
 def_fluid_filter_node_1_label		Fluid B	流体B
 def_fluid_filter_node_1_desc		Fluid connection.	流体连接
+def_fluid_filter_v2_name		Fluid Filter	流体过滤器
+def_fluid_filter_v2_desc		The valve can be configured to select which fluid groups may pass across the two directional valve. Liquids or gases.	该阀门可以被配置为选择哪种流体类型,气体或液体可以双向通过.
+def_fluid_filter_v2_s_desc		The fluid filter can prevent liquids or gases crossing the valve.	控制特定类型的流体通过
+def_fluid_filter_v2_node_0_label		Fluid A	流体A
+def_fluid_filter_v2_node_0_desc		Fluid connection.	流体接口
+def_fluid_filter_v2_node_1_label		Fluid B	流体B
+def_fluid_filter_v2_node_1_desc		Fluid connection.	流体接口
 def_fluid_heat_sink_name		Fluid Heat Sink	流体散热器
 def_fluid_heat_sink_desc		Fluid inside the cooler will lose temperature.	冷却器内的流体将失去温度
 def_fluid_heat_sink_s_desc		Heat sink type cooler for fluid.	散热器式流体冷却器
@@ -3325,6 +3347,38 @@ def_foghorn_node_1_desc		Electrical power connection.	电源连接
 def_friction_block_name		Friction Pad	摩擦块
 def_friction_block_desc		High friction pad that grips any surface it touches.	向接触的任何表面提供摩擦力
 def_friction_block_s_desc		Friction pad that grips to surfaces.	接触表面的摩擦块
+def_furnace_electric_name		Electric Furnace	电热炉
+def_furnace_electric_desc		Produces large amounts of heat from electricity.	消耗电能产生大量的热.
+def_furnace_electric_s_desc		An electrically powered furnace.	以电为能源的加热炉
+def_furnace_electric_node_0_label		Temperature	温度
+def_furnace_electric_node_0_desc		Temperature of the coolant that is being heated.	被加热的冷流的温度.
+def_furnace_electric_node_1_label		Enable	启用
+def_furnace_electric_node_1_desc		Activate the electric furnace.	激活电热炉
+def_furnace_electric_node_2_label		Coolant In	冷流入口
+def_furnace_electric_node_2_desc		In port for fluid to be heated by the furnace.	需要被加热的流体的入口
+def_furnace_electric_node_3_label		Coolant Out	冷流出口
+def_furnace_electric_node_3_desc		Out port for fluid to be heated by the furnace.	需要被加热的流体的出口
+def_furnace_electric_node_4_label		Electric	电
+def_furnace_electric_node_4_desc		Electrical power connection.	电源连接
+def_furnace_industrial_name		Industrial Diesel Furnace	工业柴油炉
+def_furnace_industrial_desc		Produces large amounts of heat by burning supplied diesel. Consumes a portion of the diesel reserve to ignite the fire.	以柴油为燃料的热炉,点燃火焰的时候会消耗部分柴油
+def_furnace_industrial_s_desc		A diesel powered furnace.	以柴油为能源的加热炉
+def_furnace_industrial_node_0_label		Diesel Level	柴油液位
+def_furnace_industrial_node_0_desc			
+def_furnace_industrial_node_1_label		Temperature	温度
+def_furnace_industrial_node_1_desc		Temperature of the coolant that is being heated.	被加热的冷流的温度
+def_furnace_industrial_node_2_label		Ignition	点火
+def_furnace_industrial_node_2_desc		Activate to consume diesel and ignite the furnace.	消耗柴油并点燃热炉
+def_furnace_industrial_node_3_label		Coolant In	冷流入口
+def_furnace_industrial_node_3_desc		In port for fluid to be heated by the furnace.	需要被加热的流体的入口
+def_furnace_industrial_node_4_label		Coolant Out	冷流出口
+def_furnace_industrial_node_4_desc		Out port for fluid to be heated by the furnace.	需要被加热的流体的出口
+def_furnace_industrial_node_5_label		Air In	空气入口
+def_furnace_industrial_node_5_desc		Port for supplying air.	燃烧需要的空气的入口
+def_furnace_industrial_node_6_label		Exhaust Out	废气出口
+def_furnace_industrial_node_6_desc		Port for removing exhaust from the furnace.	燃烧废气出口
+def_furnace_industrial_node_7_label		Diesel In	柴油入口
+def_furnace_industrial_node_7_desc		Port for supplying diesel fuel.	提供燃烧所需的柴油
 def_gate_bool_and_name		And	与(And)
 def_gate_bool_and_desc		The output will only be switched on if both inputs are on.	只有当两个输入都on时，输出才会on
 def_gate_bool_and_s_desc		A logic gate that outputs the logical AND of two input signals.	输出两个输入信号的逻辑和
@@ -5200,6 +5254,72 @@ def_multibody_velocity_pivot_b_s_desc
 def_no_sleep_name		Keep Active Block	载具保活块
 def_no_sleep_desc		When on a vehicle, the vehicle will not despawn when out of range.	放在载具上时，载具在超出视野范围后不会消失
 def_no_sleep_s_desc		A keep alive marking block.	载具保活标记块
+def_oil_rig_drill_connector_name		Oil Rig Drill Connector	钻杆连接器
+def_oil_rig_drill_connector_desc		It can connect drill rods together to lengthen them, or separate drill rods to shorten them.	可以将钻杆连接在一起以延长其长度,或将钻杆分开以缩短其长度
+def_oil_rig_drill_connector_s_desc		A clamp for moving drill rods into place.	用于将钻杆移至适当位置的夹具
+def_oil_rig_drill_connector_node_0_label		Clamp Rod	钻杆夹持
+def_oil_rig_drill_connector_node_0_desc		Attach a drill rod to the clamp.	将钻杆固定在夹具上
+def_oil_rig_drill_connector_node_1_label		Rod Clamped	夹具夹持
+def_oil_rig_drill_connector_node_1_desc		Returns true when a drill rod is attached.	当钻杆被夹持时返回true
+def_oil_rig_drill_connector_node_2_label		Slider Velocity	滑动速度
+def_oil_rig_drill_connector_node_2_desc		Moves an attached drill rod up or down the clamp.	将夹持的钻杆向上或向下移动
+def_oil_rig_drill_connector_node_3_label		Connect/Disconnect	连接/断开
+def_oil_rig_drill_connector_node_3_desc		Connects or disconnects a pair of drill rods when the ends are aligned at the connection point.	当两根钻杆对准连接点时,将一对钻杆连接或断开
+def_oil_rig_drill_connector_node_4_label		Connector Aligned	钻杆对准状态
+def_oil_rig_drill_connector_node_4_desc		Returns true when the connection point aligns over the end of a pair of drill rods.	当一对钻杆对准连接点时,返回true
+def_oil_rig_drill_driver_name		Oil Rig Rotary Table	钻机旋转台
+def_oil_rig_drill_driver_desc		Torque provided by an external motor rotates the table, which can rotate a drill rod placed through the center of the table.	由外部供能的旋转台,可以使转台中央的钻杆旋转
+def_oil_rig_drill_driver_s_desc		A rotary table for drilling in an oil rig.	带动钻杆的钻台
+def_oil_rig_drill_driver_node_0_label		Clamp	夹持
+def_oil_rig_drill_driver_node_0_desc		Attach a drill rod to the table. This will transfer any rotation of the table to the attached drill rod.	控制钻台是否夹持钻杆以带动钻杆旋转
+def_oil_rig_drill_driver_node_1_label		Torque	扭矩
+def_oil_rig_drill_driver_node_1_desc		Torque connection to power the rotation of the table.	为钻台提供动力的扭矩入口
+def_oil_rig_drill_driver_node_2_label		RPS	RPS
+def_oil_rig_drill_driver_node_2_desc		The rotations per second of the table.	钻台的每秒旋转次数
+def_oil_rig_drill_grabber_name		Oil Rig Drill Clamp	钻杆夹具
+def_oil_rig_drill_grabber_desc			
+def_oil_rig_drill_grabber_s_desc		A clamp for moving drill rods into place.	用来抓取并移动钻杆的夹具
+def_oil_rig_drill_grabber_node_0_label		Clamp Rod	夹持钻杆
+def_oil_rig_drill_grabber_node_0_desc		Attach a drill rod to the clamp.	将钻杆固定在夹具上
+def_oil_rig_drill_grabber_node_1_label		Rod Clamped	夹具夹持
+def_oil_rig_drill_grabber_node_1_desc		Returns true when a drill rod is attached.	当钻杆被夹持时返回true
+def_oil_rig_drill_grabber_node_2_label		Slider Velocity	滑动速度
+def_oil_rig_drill_grabber_node_2_desc		Slides an attached drill rod up or down the clamp.	将夹持的钻杆向上或向下移动
+def_oil_rig_drill_storage_name		Oil Rig Rod Storage	钻杆存储器
+def_oil_rig_drill_storage_desc		Contains a single drill rod when spawned.	生成时包含一根钻杆
+def_oil_rig_drill_storage_s_desc		A storage rack for drill rods.	存放一根钻杆
+def_oil_rig_drill_storage_node_0_label		Rod Stored	钻杆已储存
+def_oil_rig_drill_storage_node_0_desc		Returns true when a drill rod is stored in the component.	当钻杆被存储在组件中时返回true
+def_oil_rig_drill_swivel_name		Oil Rig Drill Swivel	泥浆喷嘴
+def_oil_rig_drill_swivel_desc		The swivel connects to the end of a drill rod, and has fluid ports for drilling slurry and crude oil. Pumping a supply of drilling slurry through a drill rod is required for effective drilling.	泥浆喷嘴接到钻杆的末端,并有泥浆和原油的出入口.为了高效钻探,需要将泥浆泵入钻杆
+def_oil_rig_drill_swivel_s_desc		A swivel for transferring fluids through a drill rod.	用于通过钻杆输送流体的设备
+def_oil_rig_drill_swivel_node_0_label		Clamp Rod	夹持钻杆
+def_oil_rig_drill_swivel_node_0_desc		Attach a drill rod to the swivel.	夹持钻杆以传输流体
+def_oil_rig_drill_swivel_node_1_label		Rod Clamped	夹具夹持
+def_oil_rig_drill_swivel_node_1_desc		Returns true when a drill rod is attached.	当钻杆被夹持时返回true
+def_oil_rig_drill_swivel_node_2_label		Fluid In	泥浆入口
+def_oil_rig_drill_swivel_node_2_desc		Fluid port to transfer drilling slurry through an attached rod linked to a well.	将泥浆泵入钻杆的入口
+def_oil_rig_drill_swivel_node_3_label		Fluid Out	泥浆出口
+def_oil_rig_drill_swivel_node_3_desc		Fluid port to transfer drilling slurry from an attached rod linked to a well.	钻井串联时用到的泥浆出口
+def_oil_rig_pumpjack_name		Oil Rig Pumpjack	抽油泵
+def_oil_rig_pumpjack_desc		Pulling the piston of the pumpjack with enough force will lift the piston, pulling fluid through the pump. A mechanical force capable of repeatedly cycling the piston is required to pump fluid effectively.	用足够的力量拉动泵架的活塞,就会抬起活塞，以拉动流体通过液泵.为了有效地泵送流体,需要一个能够反复循环活塞的机械力
+def_oil_rig_pumpjack_s_desc		A pumpjack for extracting crude oil from a drilled oil well.	用于从钻好的油井中抽取原油的抽油机
+def_oil_rig_pumpjack_node_0_label		Fluid Out	原油出口
+def_oil_rig_pumpjack_node_0_desc			
+def_oil_rig_pumpjack_b_name		Oil Rig Pumpjack B	抽油泵B
+def_oil_rig_pumpjack_b_desc			
+def_oil_rig_pumpjack_b_s_desc			
+def_oil_rig_well_head_name		Oil Rig Well Head	井口装置
+def_oil_rig_well_head_desc		Once anchored to the terrain, a drill rod can be inserted into a well head to begin drilling a well. In order to drill effectively a drill rod should be driven by a rotary table and forced downward toward the terrain. A continuous supply of drilling slurry must be provided through the drill rod via a swivel, and the saturated drilling slurry extracted from the well head fluid port. If a well successfully breaches an underground oil deposit, crude oil can be extracted from the well head fluid port.	一旦锚定在地形上,就可以将钻杆插入井口,开始钻井.为了有效地进行钻探,应通过钻机旋转台驱动钻杆,并使其向地面下移.必须通过钻机旋转台向钻杆持续供应钻井泥浆,并从井口流体出口抽取饱和泥浆.如果一口油井成功的钻入了地下含有层,就可以从井口流体出口提取原油
+def_oil_rig_well_head_s_desc		A well head for oil drilling.	井口装置
+def_oil_rig_well_head_node_0_label		Anchor	锚定
+def_oil_rig_well_head_node_0_desc		Extend / retract piles to anchor the well head to the terrain, allowing for a new well to be drilled. The well head must be close to the terrain (~1m) and upright (+-30 degrees) to be anchored. Unanchoring the well will reset any drilling progress made.	延长/缩短地桩以将井口锚定在地形上.井口必须靠近地形(约1米)并直立(+-30度)才能被锚定.解除井的锚定将重置钻探的进展
+def_oil_rig_well_head_node_1_label		Is Anchored	是否锚定
+def_oil_rig_well_head_node_1_desc		Returns true when the well head is anchored to the terrain.	当井口被锚定在地形上时返回true
+def_oil_rig_well_head_node_2_label		Drill Depth	钻杆深度
+def_oil_rig_well_head_node_2_desc		Returns the depth of an attached drill rod in meters.	以米为单位的钻杆深度
+def_oil_rig_well_head_node_3_label		Well Depth	井深
+def_oil_rig_well_head_node_3_desc		Returns the depth of the drilled well in meters.	以米为单位的井深
 def_parachute_name		Vehicle Parachute	载具降落伞
 def_parachute_desc		The parachute will deploy when receiving an on signal, and will close when not. Once deployed, it will open at a speed of 20m/s and stall when it drops below 5m/s. Once opened, the single use will be consumed and it must be returned to a workbench to be refolded. The size of the parachute can be customised by selecting this component with the select tool.	降落伞将在收到打开信号时展开，否则将关闭。一旦展开，它将在20m/s的速度打开，当速度降至5m/s以下时停止。一旦打开，一次性使用将被消耗，必须返回工作台重新折叠。通过使用选择工具选择该组件，可以定制降落伞的尺寸
 def_parachute_s_desc		A single-use parachute that can be deployed to reduce a vehicle's velocity.	一次性的降落伞，可以用来降低载具的速度
@@ -6281,6 +6401,17 @@ def_ski_small_desc		This component has low friction moving along its length, but
 def_ski_small_s_desc		A small hinged ski.	有铰链的小滑雪板
 def_ski_small_node_0_label		Steering	驾驶
 def_ski_small_node_0_desc		Accepts a value between -1 and 1 that represents the extremes of the steering rotation.	接受一个介于-1和1之间的值，该值表示转向旋转的极值值
+def_slurry_filter_name		Slurry Filter	泥浆稀释器
+def_slurry_filter_desc		A pipe with a solids filter that consumes fresh water to slowly convert saturated slurry to slurry and allows free flow of slurry.	带有过滤器的管道系统,消耗淡水将饱和泥浆慢慢转化为泥浆,并允许泥浆流过
+def_slurry_filter_s_desc		A filter that slowly desaturates slurry.	能使泥浆缓慢去饱和的过滤器
+def_slurry_filter_node_0_label		Water In	淡水入口
+def_slurry_filter_node_0_desc		Water Input.	淡水入口
+def_slurry_filter_node_1_label		Water Out	淡水出口
+def_slurry_filter_node_1_desc		Water Output.	淡水出口
+def_slurry_filter_node_2_label		Slurry In	泥浆入口
+def_slurry_filter_node_2_desc		Saturated Slurry input.	饱和泥浆入口
+def_slurry_filter_node_3_label		Slurry Out	泥浆出口
+def_slurry_filter_node_3_desc		Slurry output.	泥浆出口
 def_small_light_name		Light	灯
 def_small_light_desc			
 def_small_light_s_desc		A basic light that can be controlled using an on/off signal.	可以用开关信号控制的基本光源
@@ -6476,7 +6607,7 @@ def_steam_coal_duct_m_node_0_desc
 def_steam_coal_firebox_name		Firebox	煤炉
 def_steam_coal_firebox_desc		Produces large amounts of heat. Can be supplied with a mineral duct. Consumes 1 coal to ignite the fire.	消耗1单位的煤炭点火，产生大量的热量。可以连接矿物输送管
 def_steam_coal_firebox_s_desc		A coal powered firebox.	以煤为燃料,加热水的燃烧室
-def_steam_coal_firebox_node_0_label		Mineral Level	煤炭储量
+def_steam_coal_firebox_node_0_label		Coal Level	煤炭储量
 def_steam_coal_firebox_node_0_desc			
 def_steam_coal_firebox_node_1_label		Temperature	温度
 def_steam_coal_firebox_node_1_desc		Temperature of the coolant that is being heated.	正在加热的水温
@@ -6493,7 +6624,7 @@ def_steam_coal_firebox_node_6_desc		Port for removing exhaust from burnt coal.	�
 def_steam_coal_firebox_l_name		Firebox Large	煤炉(大)
 def_steam_coal_firebox_l_desc		Produces large amounts of heat. Can be supplied with a mineral duct. Consumes 1 coal to ignite the fire.	消耗1单位的煤炭点火，产生大量的热量。可以连接矿物输送管
 def_steam_coal_firebox_l_s_desc		A coal powered firebox.	以煤为燃料,加热水的燃烧室
-def_steam_coal_firebox_l_node_0_label		Mineral Level	煤炭储量
+def_steam_coal_firebox_l_node_0_label		Coal Level	煤炭储量
 def_steam_coal_firebox_l_node_0_desc			
 def_steam_coal_firebox_l_node_1_label		Temperature	温度
 def_steam_coal_firebox_l_node_1_desc		Temperature of the coolant that is being heated.	正在加热的水温
@@ -6642,7 +6773,7 @@ def_tail_rotor_node_0_desc		Receives power generated by an engine.	接收发动�
 def_tail_rotor_node_1_label		Yaw	偏航(Yaw)
 def_tail_rotor_node_1_desc		Standard value between -1 and 1 representing the desired yaw amount.	标准值介于-1和1之间，表示所需的偏航(Yaw)量
 def_temperature_probe_name		Temperature Probe	温度探头
-def_temperature_probe_desc		A sensor that outputs the current ambient air temperature at its location in Celsius.	输出当前环境气体温度的传感器
+def_temperature_probe_desc		A sensor that outputs the current temperature of an enclosed space in Celcius, if not within an enclosed volume it outputs the ambient air temperature at its location.	以摄氏度输出当前环境气温的传感器.如果使用在封闭空间,则输出该空间的环境温度
 def_temperature_probe_s_desc		A sensor to determine temperature.	用来测定温度的传感器
 def_temperature_probe_node_0_label		Temperature	温度
 def_temperature_probe_node_0_desc		The detected temperature in degrees.	检测到的温度(度)
