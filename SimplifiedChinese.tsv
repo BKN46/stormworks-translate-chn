@@ -1889,7 +1889,7 @@ id	description	en	local
 		[$[action_equipment_use]] Zoom in	[$[action_equipment_use]]放大
 			
 			
-		[$[action_equipment_use]] Revive incapaciated player	[$[action_equipment_use]] 复活丧失行动能力玩家
+		[$[action_equipment_use]] Revive incapacitated player	按[$[action_equipment_use]]复活丧失行动能力的玩家
 		[$[action_equipment_use]] Spray water	[$[action_equipment_use]] 洒水
 		[$[action_equipment_use]] Heal self / target	[$[action_equipment_use]] 治疗自己/目标
 		[$[action_equipment_use]] Throw flare	[$[action_equipment_use]] 扔出信号弹
@@ -2381,6 +2381,11 @@ id	description	en	local
 		Spawn Drill Rod	生成钻杆
 		Allow Liquids	允许液体
 		Allow Gases	允许气体
+		WARNING	警告
+		Missing required coal to fill ducts/hopper to requested level	缺少煤炭以填充管道/料斗
+		Missing required diesel to fill tanks to requested level	缺少柴油以填充油箱
+		Missing required jet fuel to fill tanks to requested level	缺少航空燃油以填充油箱
+		Missing required uranium ingots to fill fuel rods to requested level	缺少铀锭以填充燃料棒
 def_01_block_name		Block	方块
 def_01_block_desc		The block is a quarter-metre in size. Components can be attached to all 6 faces.	这个方块有四分之一米大。组件可以连接收到所有6个面
 def_01_block_s_desc		Basic cube-shaped building block.	基本立方形建筑块
@@ -5310,7 +5315,7 @@ def_oil_rig_pumpjack_b_name		Oil Rig Pumpjack B	抽油泵B
 def_oil_rig_pumpjack_b_desc			
 def_oil_rig_pumpjack_b_s_desc			
 def_oil_rig_well_head_name		Oil Rig Well Head	井口装置
-def_oil_rig_well_head_desc		Once anchored to the terrain, a drill rod can be inserted into a well head to begin drilling a well. In order to drill effectively a drill rod should be driven by a rotary table and forced downward toward the terrain. A continuous supply of drilling slurry must be provided through the drill rod via a swivel, and the saturated drilling slurry extracted from the well head fluid port. If a well successfully breaches an underground oil deposit, crude oil can be extracted from the well head fluid port.	一旦锚定在地形上,就可以将钻杆插入井口,开始钻井.为了有效地进行钻探,应通过钻机旋转台驱动钻杆,并使其向地面下移.必须通过钻机旋转台向钻杆持续供应钻井泥浆,并从井口流体出口抽取饱和泥浆.如果一口油井成功的钻入了地下含有层,就可以从井口流体出口提取原油
+def_oil_rig_well_head_desc		Once anchored to the terrain, a drill rod can be inserted into a well head to begin drilling a well. In order to drill effectively a drill rod should be driven by a rotary table and forced downward toward the terrain. A continuous supply of drilling slurry must be provided through the drill rod via a swivel, and the saturated drilling slurry extracted from the well head fluid port.	一旦锚定在地形上,就可以将钻杆插入井口,开始钻井.为了有效地进行钻探,应通过钻机旋转台驱动钻杆,并使其向地面下移.必须通过钻机旋转台向钻杆持续供应钻井泥浆,并从井口流体出口抽取饱和泥浆
 def_oil_rig_well_head_s_desc		A well head for oil drilling.	井口装置
 def_oil_rig_well_head_node_0_label		Anchor	锚定
 def_oil_rig_well_head_node_0_desc		Extend / retract piles to anchor the well head to the terrain, allowing for a new well to be drilled. The well head must be close to the terrain (~1m) and upright (+-30 degrees) to be anchored. Unanchoring the well will reset any drilling progress made.	延长/缩短地桩以将井口锚定在地形上.井口必须靠近地形(约1米)并直立(+-30度)才能被锚定.解除井的锚定将重置钻探的进展
@@ -6681,8 +6686,8 @@ def_steam_nuclear_control_rod_node_0_desc
 def_steam_nuclear_control_rod_node_1_label		Insertion	控制棒插入
 def_steam_nuclear_control_rod_node_1_desc			
 def_steam_nuclear_fuel_assembly_name		Nuclear Fuel Assembly	核燃料总成
-def_steam_nuclear_fuel_assembly_desc		A fuel rod can be inserted into the assembly to facilitate a fission reaction.	可以将核燃料棒插入其中以促进裂变反应
-def_steam_nuclear_fuel_assembly_s_desc		A Fuel assembly.	核燃料总成
+def_steam_nuclear_fuel_assembly_desc		A fuel rod can be inserted into the assembly to facilitate a fission reaction. Fuel rods consume uranium ingots from the workbench inventory to fuel.	可以将核燃料棒插入其中以促进裂变反应,燃料棒消耗工作台库存中的铀锭作为燃料
+def_steam_nuclear_fuel_assembly_s_desc		A Fuel assembly powered by uranium ingots.	以铀锭为燃料的动力总成
 def_steam_nuclear_fuel_assembly_node_0_label		Release Fuel Rod	释放核燃料棒
 def_steam_nuclear_fuel_assembly_node_0_desc			
 def_steam_nuclear_fuel_assembly_node_1_label		Fuel Rod Temperature	核燃料棒温度
