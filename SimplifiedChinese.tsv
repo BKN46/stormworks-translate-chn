@@ -2734,7 +2734,7 @@ def_camera_gimbal_laser_node_10_desc		x, y, z output for the laser target in cha
 def_camera_gimbal_laser_node_11_label		Laser Wavelength	激光编码
 def_camera_gimbal_laser_node_11_desc		The specific light wavelength to emit (whole number).	激光编码(整数),激光传感器需要使用相同的编码才能识别激光照射
 def_camera_med_name		Camera Medium	中型摄像头
-def_camera_med_desc		Has infrared mode as well as variable field of view.	具有红外模式以及可变视野
+def_camera_med_desc		Has infrared mode as well as variable field of view. Can be pivoted up to 45° using composite input.	具有红外模式以及可变视野,可以使用混合输入控制45°内的旋转
 def_camera_med_s_desc		A camera with video output feed.	有视频输出的摄像头
 def_camera_med_node_0_label		Camera Feed	摄像头输出
 def_camera_med_node_0_desc			
@@ -2744,13 +2744,17 @@ def_camera_med_node_2_label		Infrared Mode	红外模式
 def_camera_med_node_2_desc		Controls whether or not the infrared mode is switched on.	控制红外模式是否打开
 def_camera_med_node_3_label		Field of View	视野
 def_camera_med_node_3_desc		Controls the level of zoom of the camera.	控制摄像头的缩放级别
+def_camera_med_node_4_label		Pivot	轴
+def_camera_med_node_4_desc		Inputs for camera X/Y pivot. (Value 1 : Pivot X) (Value 2 : Pivot Y)	摄像头的X/Y轴数值(数值1:X轴,数值2:Y轴)
 def_camera_small_name		Camera Small	小型摄像机
-def_camera_small_desc			
+def_camera_small_desc		Can be pivoted up to 45° using composite input.	可以使用混合输入控制45°内的旋转
 def_camera_small_s_desc		A camera with video output feed.	有视频输出的摄像头
 def_camera_small_node_0_label		Camera Feed	摄像头输出
 def_camera_small_node_0_desc			
 def_camera_small_node_1_label		Electric	电
 def_camera_small_node_1_desc			
+def_camera_small_node_2_label		Pivot	轴
+def_camera_small_node_2_desc		Inputs for camera X/Y pivot. (Value 1 : Pivot X) (Value 2 : Pivot Y)	摄像头的X/Y轴数值(数值1:X轴,数值2:Y轴)
 def_catalytic_converter_name		Catalytic Converter	催化器
 def_catalytic_converter_desc		Catalytic converter that removes fumes and decreases the number of exhaust particles emitted from an exhaust.	催化转化器，用于清除废气并减少废气中排放的颗粒颗粒物数量
 def_catalytic_converter_s_desc		Reduces particles from exhausts.	减少废气的排放颗粒物
@@ -4659,7 +4663,7 @@ def_laser_beacon_node_1_desc		Electrical power connection.	电源连接
 def_laser_beacon_node_2_label		Wavelength	激光编码
 def_laser_beacon_node_2_desc		The specific light wavelength to emit (whole number).	设定激光编码(整数),使用相同编码的传感器才能识别到此激光信号
 def_laser_distance_sensor_name		Laser Distance Sensor	激光距离传感器
-def_laser_distance_sensor_desc		The reading can be read from the sensor's number output and is measured in metres (1 metre = 4 blocks).	以米为单位输出测量的距离(1米=4块),最大量程4000米
+def_laser_distance_sensor_desc		The reading can be read from the sensor's number output and is measured in metres (1 metre = 4 blocks). Can be pivoted up to 45° using composite input.	以米为单位输出测量的距离(1米=4块),最大量程4000米,可以使用混合输入控制45°内的旋转
 def_laser_distance_sensor_s_desc		A laser distance sensor with a maximum measurement range of 4000m.	最大量程为4000米的激光测距仪
 def_laser_distance_sensor_node_0_label		Distance	距离(米)
 def_laser_distance_sensor_node_0_desc		The measured distance in metres.	以米为单位测量的距离
@@ -4669,6 +4673,8 @@ def_laser_distance_sensor_node_2_label		Active	打开
 def_laser_distance_sensor_node_2_desc		Controls whether or not the laser is active.	控制激光器是否发射
 def_laser_distance_sensor_node_3_label		Wavelength	激光编码
 def_laser_distance_sensor_node_3_desc		The specific light wavelength to emit (whole number).	要发射的特定光波长(整数)
+def_laser_distance_sensor_node_4_label		Pivot	轴
+def_laser_distance_sensor_node_4_desc		Inputs for laser X/Y pivot. (Value 1 : Pivot X) (Value 2 : Pivot Y)	激光传感器的X/Y轴数值(数值1:X轴,数值2:Y轴)
 def_laser_point_sensor_name		Laser Point Sensor	激光点传感器
 def_laser_point_sensor_desc		The closest point to the center of the sensor's field of view will be reported. It outputs a value of -1 to 1 on composite number channel 1 for the x position, and a value of -1 to 1 on composite number channel 2 for the y position. Composite on/off channel 1 is set to on when a point is visible. The -1 to 1 values map to an fov of -cos(0.5) to cos(0.5) in both the x and y directions.	在混合通道输出距离视场中心最近的激光点(相同激光编码).number通道1:x位置(-1到1).number通道2:y位置(-1到1).boolean通道1:发现激光点.-1到1的值在x和y方向上都映射为-cos(0.5)到cos(0.5)的视场
 def_laser_point_sensor_s_desc		A sensor that outputs a relative x and y position of a laser point that it can see within its field of view.	输出在其视场内探测到的激光点的相对x和y位置的传感器
@@ -6006,19 +6012,23 @@ def_searchlight_node_1_desc		Standard value between -1 and 1 representing the ta
 def_searchlight_node_2_label		Electric	电
 def_searchlight_node_2_desc		Electrical power connection.	电源连接
 def_searchlight_small_name		Small Spotlight (Block)	小聚光灯(块)
-def_searchlight_small_desc		It has a range of 60m.	照明范围60米
+def_searchlight_small_desc		It has a range of 60m. Can be pivoted up to 45° using composite input.	照明范围60米,可以使用混合输入控制45°内的旋转
 def_searchlight_small_s_desc		A small spotlight that can be controlled using an on/off signal.	可以由开/关信号控制的小聚光灯
 def_searchlight_small_node_0_label		Light Switch	灯光开关
 def_searchlight_small_node_0_desc		Controls whether or not the light is switched on.	控制灯是否打开
 def_searchlight_small_node_1_label		Electric	电
 def_searchlight_small_node_1_desc		Electrical power connection.	电源连接
+def_searchlight_small_node_2_label		Pivot	轴
+def_searchlight_small_node_2_desc		Inputs for spotlight X/Y pivot. (Value 1 : Pivot X) (Value 2 : Pivot Y)	聚光灯的X/Y轴数值(数值1:X轴,数值2:Y轴)
 def_searchlight_small_2_name		Small Spotlight (Mounted)	小聚光灯(挂载)
-def_searchlight_small_2_desc		It has a range of 60m.	照明范围60米
+def_searchlight_small_2_desc		It has a range of 60m. Can be pivoted up to 45° using composite input.	照明范围60米,可以使用混合输入控制45°内的旋转
 def_searchlight_small_2_s_desc		A small spotlight that can be controlled using an on/off signal.	可以由开/关信号控制的小聚光灯
 def_searchlight_small_2_node_0_label		Light Switch	灯光开关
 def_searchlight_small_2_node_0_desc		Controls whether or not the light is switched on.	控制灯是否打开
 def_searchlight_small_2_node_1_label		Electric	电
 def_searchlight_small_2_node_1_desc		Electrical power connection.	电源连接
+def_searchlight_small_2_node_2_label		Pivot	轴
+def_searchlight_small_2_node_2_desc		Inputs for spotlight X/Y pivot. (Value 1 : Pivot X) (Value 2 : Pivot Y)	聚光灯的X/Y轴数值(数值1:X轴,数值2:Y轴)
 def_seat_name		Pilot Seat	驾驶员座椅
 def_seat_desc		It provides 4 number outputs that produce a standard value ranging from -1 to 1, and 6 on/off outputs. You can get in and out of the pilot seat by interacting with it using [$[action_use_seat]].	它提供4个输出，产生从-1到1的标准值，以及6个开/关输出。您可以通过使用 [$[action_use_seat]]与飞行员座椅交互来进出
 def_seat_s_desc		The pilot seat lets you translate keyboard presses into output signals that can control logic components.	飞行员座椅可以将键盘按键转换成可以控制逻辑元件的输出信号
