@@ -2386,6 +2386,8 @@ id	description	en	local
 		Missing required diesel to fill tanks to requested level	缺少柴油以填充油箱
 		Missing required jet fuel to fill tanks to requested level	缺少航空燃油以填充油箱
 		Missing required uranium ingots to fill fuel rods to requested level	缺少铀锭以填充燃料棒
+		too short to attach	太短,无法连接
+		Move closer to attach	靠近一些才能连接
 def_01_block_name		Block	方块
 def_01_block_desc		The block is a quarter-metre in size. Components can be attached to all 6 faces.	这个方块有四分之一米大。组件可以连接收到所有6个面
 def_01_block_s_desc		Basic cube-shaped building block.	基本立方形建筑块
