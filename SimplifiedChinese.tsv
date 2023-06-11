@@ -2388,6 +2388,11 @@ id	description	en	local
 		Missing required uranium ingots to fill fuel rods to requested level	缺少铀锭以填充燃料棒
 		too short to attach	太短,无法连接
 		Move closer to attach	靠近一些才能连接
+		ERROR: You are VAC banned	错误:你已被VAC阻止登陆
+		VAC banned users are not permitted to play Stormworks online. You have been VAC banned for using a modified version of the game for the purposes of cheating, greifing, copyright infringement, or another illegal purpose.	被VAC禁止的用户不允许在线游玩Stormworks.你因使用修改过的游戏版本作弊、贪婪、侵犯版权或其他非法目的而被VAC禁止.
+		Buffalo	水牛
+		Bighorn Sheep	大角羊
+		Roadrunner	走鹃
 def_01_block_name		Block	方块
 def_01_block_desc		The block is a quarter-metre in size. Components can be attached to all 6 faces.	这个方块有四分之一米大。组件可以连接收到所有6个面
 def_01_block_s_desc		Basic cube-shaped building block.	基本立方形建筑块
