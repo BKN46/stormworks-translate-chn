@@ -25,6 +25,7 @@ id	description	en	local
 		You are not whitelisted on this server	你不在此服务器白名单中
 		You are missing a required DLC	缺失必要DLC
 		You are banned from this server	你被禁止进入这台服务器
+		Server already has your account connected - please retry	服务器已经连接了您的账户 - 请稍后重试
 		no errors detected	未检测到错误
 		Variables	变量
 		Input 1	输入1
@@ -2145,7 +2146,8 @@ id	description	en	local
 		Hoodie Rubber Duck	Rubber Duck帽衫
 		Hoodie Spycakes	Spycakes帽衫
 		Hoodie Stormworks	Stormworks帽衫
-		You were disconnected due to adverse network conditions.	由于不佳的网络状态，你断开了连接
+		You were disconnected due to adverse network conditions.	由于网络状态不佳,您断开了连接
+		You were disconnected due to steam failing to authorize. Please restart Steam.	您被断开连接的原因是Steam授权失败.请重新启动Steam客户端
 		Physics	物理
 		Physics Detail	物理详情
 		Gameplay	游戏设定
@@ -2388,6 +2390,11 @@ id	description	en	local
 		Missing required uranium ingots to fill fuel rods to requested level	缺少铀锭以填充燃料棒
 		too short to attach	太短,无法连接
 		Move closer to attach	靠近一些才能连接
+		ERROR: You are banned	错误:您被禁止访问
+		Banned users are not permitted to play Stormworks online. You have been banned for using a modified version of the game for the purposes of cheating, greifing, piracy, or another illegal purpose.	被禁止登录的用户不允许在线游玩Stormworks.你因使用修改过的游戏版本作弊、贪婪、侵犯版权或其他非法目的而被禁止在线游戏.
+		Buffalo	水牛
+		Bighorn Sheep	大角羊
+		Roadrunner	走鹃
 def_01_block_name		Block	方块
 def_01_block_desc		The block is a quarter-metre in size. Components can be attached to all 6 faces.	这个方块有四分之一米大。组件可以连接收到所有6个面
 def_01_block_s_desc		Basic cube-shaped building block.	基本立方形建筑块
@@ -5298,6 +5305,13 @@ def_oil_rig_drill_grabber_node_1_label		Rod Clamped	夹具夹持
 def_oil_rig_drill_grabber_node_1_desc		Returns true when a drill rod is attached.	当钻杆被夹持时返回true
 def_oil_rig_drill_grabber_node_2_label		Slider Velocity	滑动速度
 def_oil_rig_drill_grabber_node_2_desc		Slides an attached drill rod up or down the clamp.	将夹持的钻杆向上或向下移动
+def_oil_rig_drill_grabber_end_name		Oil Rig Drill Clamp (End)	钻杆夹具(端头)
+def_oil_rig_drill_grabber_end_desc			
+def_oil_rig_drill_grabber_end_s_desc		A clamp for moving drill rods into place.	用来抓取并移动钻杆的夹具
+def_oil_rig_drill_grabber_end_node_0_label		Clamp Rod	夹持钻杆
+def_oil_rig_drill_grabber_end_node_0_desc		Attach a drill rod to the clamp.	将钻杆固定在夹具上
+def_oil_rig_drill_grabber_end_node_1_label		Rod Clamped	夹具夹持
+def_oil_rig_drill_grabber_end_node_1_desc		Returns true when a drill rod is attached.	当钻杆被夹持时返回true
 def_oil_rig_drill_storage_name		Oil Rig Rod Storage	钻杆存储器
 def_oil_rig_drill_storage_desc		Contains a single drill rod when spawned.	生成时包含一根钻杆
 def_oil_rig_drill_storage_s_desc		A storage rack for drill rods.	存放一根钻杆
@@ -6391,6 +6405,17 @@ def_seat_stretcher_desc		You can get in and out of the stretcher by interacting 
 def_seat_stretcher_s_desc		A strecher that connects below an attachment point.	连接点下方的担架
 def_seat_stretcher_node_0_label		Occupied	被占用
 def_seat_stretcher_node_0_desc		Outputs an on signal if this bed is occupied by a character.	如果这个床被一个角色占用，则输出一个on信号
+def_separator_name		Centrifugal Separator	离心分离机
+def_separator_desc		Provide torque to begin spinning the separator, fluid output ports will separate with increased effectiveness based on the spin speed.	输入扭矩以开始旋转离心机,输入的转速影响分离效率
+def_separator_s_desc		A tank that can be spun to separate contained fluids.	分离机液罐
+def_separator_node_0_label		Torque	扭矩
+def_separator_node_0_desc		Torque Input.	扭矩输入
+def_separator_node_1_label		Fluid In	流体入口
+def_separator_node_1_desc		Input fluid port.	流体输入接口
+def_separator_node_2_label		Fluid Out	流体出口
+def_separator_node_2_desc		Main output fluid port.	流体主出口
+def_separator_node_3_label		Dense Fluid Out	高密度流体出口
+def_separator_node_3_desc		Output port that will filter the denser fluid when the centrifuge is operating at high speed.	离心机高速运转时,输出口将过滤密度较高的流体
 def_sign_name		Paintable Indicator	可涂标志(带背光)
 def_sign_desc		This block has a paintable surface where small grid squares can be painted individually. Use additive painting mode to paint the backlight grid. The backlight can be enabled by using an on signal and a name can be set with the select tool that will be visible when the indicator is looked at by a player.	这个块有一个可绘制的表面，这个面可以单独绘制小的正方形网格.使用附加绘制模式绘制背光网格.背光可以通过on信号启用,并且可以使用选择工具设置名称.当玩家查看指示灯时，该提示将可见
 def_sign_s_desc		A backlit indicator for displaying painted detail.	带有背光的可涂标志，用于显示绘制的细节
