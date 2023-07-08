@@ -2395,6 +2395,10 @@ id	description	en	local
 		Buffalo	水牛
 		Bighorn Sheep	大角羊
 		Roadrunner	走鹃
+		Mountain Lion	美洲狮
+		Crocodile	鳄鱼
+		Coyote	郊狼
+		Merch Store	周边商店
 def_01_block_name		Block	方块
 def_01_block_desc		The block is a quarter-metre in size. Components can be attached to all 6 faces.	这个方块有四分之一米大。组件可以连接收到所有6个面
 def_01_block_s_desc		Basic cube-shaped building block.	基本立方形建筑块
@@ -2743,7 +2747,7 @@ def_camera_gimbal_laser_node_10_desc		x, y, z output for the laser target in cha
 def_camera_gimbal_laser_node_11_label		Laser Wavelength	激光编码
 def_camera_gimbal_laser_node_11_desc		The specific light wavelength to emit (whole number).	激光编码(整数),激光传感器需要使用相同的编码才能识别激光照射
 def_camera_med_name		Camera Medium	中型摄像头
-def_camera_med_desc		Has infrared mode as well as variable field of view. Can be pivoted up to 45° using composite input.	具有红外模式以及可变视野,可以使用混合输入控制45°内的旋转
+def_camera_med_desc		Has infrared mode as well as variable field of view. Can be pivoted up to 0.125 turns using composite input.	具有红外模式以及可变视野,可以使用混合输入控制0.125圈的旋转
 def_camera_med_s_desc		A camera with video output feed.	有视频输出的摄像头
 def_camera_med_node_0_label		Camera Feed	摄像头输出
 def_camera_med_node_0_desc			
@@ -2756,7 +2760,7 @@ def_camera_med_node_3_desc		Controls the level of zoom of the camera.	控制摄�
 def_camera_med_node_4_label		Pivot	轴
 def_camera_med_node_4_desc		Inputs for camera X/Y pivot. (Value 1 : Pivot X) (Value 2 : Pivot Y)	摄像头的X/Y轴数值(数值1:X轴,数值2:Y轴)
 def_camera_small_name		Camera Small	小型摄像机
-def_camera_small_desc		Can be pivoted up to 45° using composite input.	可以使用混合输入控制45°内的旋转
+def_camera_small_desc		Can be pivoted up to 0.125 turns using composite input.	可以使用混合输入控制0.125圈的旋转
 def_camera_small_s_desc		A camera with video output feed.	有视频输出的摄像头
 def_camera_small_node_0_label		Camera Feed	摄像头输出
 def_camera_small_node_0_desc			
@@ -4672,7 +4676,7 @@ def_laser_beacon_node_1_desc		Electrical power connection.	电源连接
 def_laser_beacon_node_2_label		Wavelength	激光编码
 def_laser_beacon_node_2_desc		The specific light wavelength to emit (whole number).	设定激光编码(整数),使用相同编码的传感器才能识别到此激光信号
 def_laser_distance_sensor_name		Laser Distance Sensor	激光距离传感器
-def_laser_distance_sensor_desc		The reading can be read from the sensor's number output and is measured in metres (1 metre = 4 blocks). Can be pivoted up to 45° using composite input.	以米为单位输出测量的距离(1米=4块),最大量程4000米,可以使用混合输入控制45°内的旋转
+def_laser_distance_sensor_desc		The reading can be read from the sensor's number output and is measured in metres (1 metre = 4 blocks). Can be pivoted up to 0.125 turns using composite input.	以米为单位输出测量的距离(1米=4块),最大量程4000米,可以使用混合输入控制0.125圈的旋转
 def_laser_distance_sensor_s_desc		A laser distance sensor with a maximum measurement range of 4000m.	最大量程为4000米的激光测距仪
 def_laser_distance_sensor_node_0_label		Distance	距离(米)
 def_laser_distance_sensor_node_0_desc		The measured distance in metres.	以米为单位测量的距离
@@ -6028,7 +6032,7 @@ def_searchlight_node_1_desc		Standard value between -1 and 1 representing the ta
 def_searchlight_node_2_label		Electric	电
 def_searchlight_node_2_desc		Electrical power connection.	电源连接
 def_searchlight_small_name		Small Spotlight (Block)	小聚光灯(块)
-def_searchlight_small_desc		It has a range of 60m. Can be pivoted up to 45° using composite input.	照明范围60米,可以使用混合输入控制45°内的旋转
+def_searchlight_small_desc		It has a range of 60m. Can be pivoted up to 0.125 turns using composite input.	照明范围60米,可以使用混合输入控制0.125圈的旋转
 def_searchlight_small_s_desc		A small spotlight that can be controlled using an on/off signal.	可以由开/关信号控制的小聚光灯
 def_searchlight_small_node_0_label		Light Switch	灯光开关
 def_searchlight_small_node_0_desc		Controls whether or not the light is switched on.	控制灯是否打开
@@ -6037,7 +6041,7 @@ def_searchlight_small_node_1_desc		Electrical power connection.	电源连接
 def_searchlight_small_node_2_label		Pivot	轴
 def_searchlight_small_node_2_desc		Inputs for spotlight X/Y pivot. (Value 1 : Pivot X) (Value 2 : Pivot Y)	聚光灯的X/Y轴数值(数值1:X轴,数值2:Y轴)
 def_searchlight_small_2_name		Small Spotlight (Mounted)	小聚光灯(挂载)
-def_searchlight_small_2_desc		It has a range of 60m. Can be pivoted up to 45° using composite input.	照明范围60米,可以使用混合输入控制45°内的旋转
+def_searchlight_small_2_desc		It has a range of 60m. Can be pivoted up to 0.125 turns using composite input.	照明范围60米,可以使用混合输入控制0.125圈的旋转
 def_searchlight_small_2_s_desc		A small spotlight that can be controlled using an on/off signal.	可以由开/关信号控制的小聚光灯
 def_searchlight_small_2_node_0_label		Light Switch	灯光开关
 def_searchlight_small_2_node_0_desc		Controls whether or not the light is switched on.	控制灯是否打开
