@@ -3323,14 +3323,14 @@ def_fluid_tank_small_node_1_label		Tank Content	油箱容量
 def_fluid_tank_small_node_1_desc		The amount of fluid in the tank in litres.	油箱中的流体量，单位为升
 def_fluid_tank_small_node_2_label		Stored Fluid	内容物体积
 def_fluid_tank_small_node_2_desc		The fluid connection for the stored contents.	连通内容物的接口
-def_fluid_valve_flow_name		Fluid Flow Valve	流量阀
+def_fluid_valve_flow_name		Fluid Flow Valve	单向阀
 def_fluid_valve_flow_desc		Allows fluid to move from the input side of the valve to the output but resists fluid flow in the other direction.	允许流体从阀门的输入侧移动到输出端，但阻止流体朝另一个方向流动
 def_fluid_valve_flow_s_desc		A one way valve for controlling fluid flow.	控制流体流动的单向阀
 def_fluid_valve_flow_node_0_label		Fluid In	流体进入
 def_fluid_valve_flow_node_0_desc		Fluid connection for the valve input.	阀门输入的流体连接
 def_fluid_valve_flow_node_1_label		Fluid Out	流体流出
 def_fluid_valve_flow_node_1_desc		Fluid connection for the valve output.	阀门输出的流体连接
-def_fluid_valve_on_off_name		Fluid On/Off Valve	油液开关阀
+def_fluid_valve_on_off_name		Fluid On/Off Valve	流体开关阀
 def_fluid_valve_on_off_desc		Controls flow from one side of the valve to the other. Fluid can flow in both directions.	控制从阀门一侧到另一侧的流量。流体可以双向流动
 def_fluid_valve_on_off_s_desc		An on/off fluid valve.	开/关液阀
 def_fluid_valve_on_off_node_0_label		Fluid In	流体进入
@@ -3341,7 +3341,7 @@ def_fluid_valve_on_off_node_2_label		Valve Control	阀门控制
 def_fluid_valve_on_off_node_2_desc		Valve gate control for opening and closing the valve.	用于打开和关闭阀门的闸门控制
 def_fluid_valve_on_off_node_3_label		Electric	电
 def_fluid_valve_on_off_node_3_desc		Electrical power connection.	电源连接
-def_fluid_valve_on_off_manual_name		Fluid On/Off Valve (Manual)	流体阀(手动)
+def_fluid_valve_on_off_manual_name		Fluid On/Off Valve (Manual)	流体开关阀(手动)
 def_fluid_valve_on_off_manual_desc		Interacting with [$[action_interact_left]]/[$[action_interact_right]] will open / close the valve. Controls flow from one side of the valve to the other. Fluid can flow in both directions.	按 [$[action_interact_left]]/[$[action_interact_right]] 开关阀门，流体可以双向流动
 def_fluid_valve_on_off_manual_s_desc		An on/off fluid valve with a manual handle.	手动操作的流体阀门
 def_fluid_valve_on_off_manual_node_0_label		Fluid In	流体进入
@@ -6017,7 +6017,7 @@ def_rx_video_x_node_1_label		Electric	电
 def_rx_video_x_node_1_desc			
 def_rx_video_x_node_2_label		Frequency Send	发送频率
 def_rx_video_x_node_2_desc			
-def_scoop_intake_2_name		Air Scoop Intake 1x1	进气口 1x1
+def_scoop_intake_2_name		Air Scoop Intake 1x1	流体力学进气口 1x1
 def_scoop_intake_2_desc		An air intake component that performs better at higher velocity.	在高速下表现更好的进气口组件
 def_scoop_intake_2_s_desc		An air intake component.	进气口
 def_scoop_intake_2_node_0_label		Fluid	流体
