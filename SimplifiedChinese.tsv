@@ -2398,6 +2398,8 @@ id	description	en	local
 		Mountain Lion	美洲狮
 		Crocodile	鳄鱼
 		Coyote	郊狼
+		Gila Monster	大毒蜥
+		Desert Tortoise	沙漠龟
 		Merch Store	周边商店
 def_01_block_name		Block	方块
 def_01_block_desc		The block is a quarter-metre in size. Components can be attached to all 6 faces.	这个方块有四分之一米大。组件可以连接收到所有6个面
@@ -5368,7 +5370,7 @@ def_physics_sensor_name		Physics Sensor	多功能物理传感器
 def_physics_sensor_desc		Outputs physics information to a composite logic node. Requires Electric for GPS position functionality. This component is directed along its local Y axis.	将检测到的物理信息以混合信号发送出。需要连接电力以使用GPS功能。方块的方向以他自身的Y轴（绿色箭头朝向）朝向为准。
 def_physics_sensor_s_desc		Sensor component that outputs various physics measurements such as position and velocity.	检测例如位置以及速度等不同物理信息的传感器
 def_physics_sensor_node_0_label		Composite Output	复合输出
-def_physics_sensor_node_0_desc		Outputs x position, y position, z position, euler rotation x, euler rotation y, euler rotation z, linear velocity x, linear velocity y, linear velocity z, angular velocity x, angular velocity y, angular velocity z, absolute linear velocity, and absolute angular velocity to the respective order composite channels.	输出\n1. x坐标\n2. y坐标\n3. z坐标\n4. x轴旋转量\n5. y轴旋转量\n6. z轴旋转量\n7. x轴速度\n8. y轴速度\n9. z轴速度\n10. x轴角速度\n11. y轴角速度\n12. z轴角速度\n13. 绝对速度\n14. 绝对角速度\n(箭头红色x轴、绿色y轴、蓝色z轴)
+def_physics_sensor_node_0_desc		Outputs [1] x position, [2] y position, [3] z position, [4] euler rotation x, [5] euler rotation y, [6] euler rotation z, [7] linear velocity x, [8] linear velocity y, [9] linear velocity z, [10] angular velocity x, [11] angular velocity y, [12] angular velocity z, [13] absolute linear velocity, [14] absolute angular velocity, [15] local z tilt, [16] local x tilt and [17] compass heading (-0.5 to 0.5) to the respective composite channels.	输出\n1. x坐标\n2. y坐标\n3. z坐标\n4. x轴旋转量\n5. y轴旋转量\n6. z轴旋转量\n7. x轴速度\n8. y轴速度\n9. z轴速度\n10. x轴角速度\n11. y轴角速度\n12. z轴角速度\n13. 绝对速度\n14. 绝对角速度\n(箭头红色x轴、绿色y轴、蓝色z轴)\n15.Z轴倾斜\n16.X轴倾斜\n17.方向(-0.5~0.5)
 def_physics_sensor_node_1_label		Electric	电
 def_physics_sensor_node_1_desc		Electrical power connection.	电源连接
 def_player_sensor_name		Player Sensor	玩家传感器
