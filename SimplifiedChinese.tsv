@@ -3348,43 +3348,43 @@ def_fluid_radiator_electric_5_node_4_desc
 def_fluid_tank_compressed_gas_1_3_name		Gas Tank (Small)	气罐(小)
 def_fluid_tank_compressed_gas_1_3_desc		The tank will spawn full of the selected fluid type.	罐内可充满气体类流体
 def_fluid_tank_compressed_gas_1_3_s_desc		A tank for storing gas.	气体储罐
-def_fluid_tank_compressed_gas_1_3_node_0_label		Stored Gas	储气
+def_fluid_tank_compressed_gas_1_3_node_0_label		Stored Gas	气体接口
 def_fluid_tank_compressed_gas_1_3_node_0_desc		The fluid connection for the stored contents.	气体接口
-def_fluid_tank_compressed_gas_1_3_node_1_label		Tank Content	储气内容物
+def_fluid_tank_compressed_gas_1_3_node_1_label		Tank Content	剩余储量
 def_fluid_tank_compressed_gas_1_3_node_1_desc		The amount of gas in the tank in litres.	储量(单位升)
 def_fluid_tank_compressed_gas_1_3_node_2_label		Tank Pressure	罐内压强
 def_fluid_tank_compressed_gas_1_3_node_2_desc		The pressure in the tank in atmospheres.	以大气压强表示的罐内气压
 def_fluid_tank_compressed_gas_1_7_name		Gas Tank (Medium)	气罐(中)
 def_fluid_tank_compressed_gas_1_7_desc		The tank will spawn full of the selected fluid type.	罐内可充满气体类流体
 def_fluid_tank_compressed_gas_1_7_s_desc		A tank for storing gas.	气体储罐
-def_fluid_tank_compressed_gas_1_7_node_0_label		Stored Gas	储气
+def_fluid_tank_compressed_gas_1_7_node_0_label		Stored Gas	气体接口
 def_fluid_tank_compressed_gas_1_7_node_0_desc		The fluid connection for the stored contents.	气体接口
-def_fluid_tank_compressed_gas_1_7_node_1_label		Tank Content	储气内容物
+def_fluid_tank_compressed_gas_1_7_node_1_label		Tank Content	剩余储量
 def_fluid_tank_compressed_gas_1_7_node_1_desc		The amount of fluid in the tank in litres.	储量(单位升)
 def_fluid_tank_compressed_gas_1_7_node_2_label		Tank Pressure	罐内压强
 def_fluid_tank_compressed_gas_1_7_node_2_desc		The pressure in the tank in atmospheres.	以大气压强表示的罐内气压
 def_fluid_tank_compressed_gas_3_7_name		Gas Tank (Large)	气罐(大)
 def_fluid_tank_compressed_gas_3_7_desc		The tank will spawn full of the selected fluid type.	罐内可充满气体类流体
 def_fluid_tank_compressed_gas_3_7_s_desc		A tank for storing gas.	气体储罐
-def_fluid_tank_compressed_gas_3_7_node_0_label		Stored Gas	储气
+def_fluid_tank_compressed_gas_3_7_node_0_label		Stored Gas	气体接口
 def_fluid_tank_compressed_gas_3_7_node_0_desc		The fluid connection for the stored contents.	气体接口
-def_fluid_tank_compressed_gas_3_7_node_1_label		Tank Content	储气内容物
+def_fluid_tank_compressed_gas_3_7_node_1_label		Tank Content	剩余储量
 def_fluid_tank_compressed_gas_3_7_node_1_desc		The amount of gas in the tank in litres.	储量(单位升)
 def_fluid_tank_compressed_gas_3_7_node_2_label		Tank Pressure	罐内压强
 def_fluid_tank_compressed_gas_3_7_node_2_desc		The pressure in the tank in atmospheres.	以大气压强表示的罐内气压
 def_fluid_tank_compressed_gas_5_9_name		Gas Tank (Huge)	气罐(巨)
 def_fluid_tank_compressed_gas_5_9_desc		The tank will spawn full of the selected fluid type.	罐内可充满气体类流体
 def_fluid_tank_compressed_gas_5_9_s_desc		A tank for storing gas.	气体储罐
-def_fluid_tank_compressed_gas_5_9_node_0_label		Stored Gas	储气
+def_fluid_tank_compressed_gas_5_9_node_0_label		Stored Gas	气体接口
 def_fluid_tank_compressed_gas_5_9_node_0_desc		The fluid connection for the stored contents.	气体接口
-def_fluid_tank_compressed_gas_5_9_node_1_label		Tank Content	储气内容物
+def_fluid_tank_compressed_gas_5_9_node_1_label		Tank Content	剩余储量
 def_fluid_tank_compressed_gas_5_9_node_1_desc		The amount of gas in the tank in litres.	储量(单位升)
 def_fluid_tank_compressed_gas_5_9_node_2_label		Tank Pressure	罐内压强
 def_fluid_tank_compressed_gas_5_9_node_2_desc		The pressure in the tank in atmospheres.	以大气压强表示的罐内气压
 def_fluid_tank_large_name		Fluid Tank Large	大油箱
 def_fluid_tank_large_desc		The tank will spawn full of the selected fluid type.	油箱充满所选流体类型
 def_fluid_tank_large_s_desc		A tank for storing fluid.	储存流体的罐
-def_fluid_tank_large_node_0_label		Stored Fluid	储存的流体
+def_fluid_tank_large_node_0_label		Stored Fluid	流体接口
 def_fluid_tank_large_node_0_desc		The fluid connection for the stored contents.	存储内容的流体连接
 def_fluid_tank_large_node_1_label		Tank Content	油箱容量
 def_fluid_tank_large_node_1_desc		The amount of fluid in the tank in litres.	油箱中的流体量，单位为升
@@ -3395,7 +3395,7 @@ def_fluid_tank_large_node_3_desc		The pressure in the tank in atmospheres.	以�
 def_fluid_tank_medium_name		Fluid Tank Medium	中等油箱
 def_fluid_tank_medium_desc		The tank will spawn full of the selected fluid type.	油箱充满所选流体类型
 def_fluid_tank_medium_s_desc		A tank for storing fluid.	储存流体的罐
-def_fluid_tank_medium_node_0_label		Stored Fluid	储存的流体
+def_fluid_tank_medium_node_0_label		Stored Fluid	流体接口
 def_fluid_tank_medium_node_0_desc		The fluid connection for the stored contents.	存储内容的流体连接
 def_fluid_tank_medium_node_1_label		Tank Content	油箱容量
 def_fluid_tank_medium_node_1_desc		The amount of fluid in the tank in litres.	油箱中的流体量，单位为升
@@ -3406,7 +3406,7 @@ def_fluid_tank_medium_node_3_desc		The pressure in the tank in atmospheres.	以�
 def_fluid_tank_small_name		Fluid Tank Small	小油箱
 def_fluid_tank_small_desc		The tank will spawn full of the selected fluid type.	油箱充满所选流体类型
 def_fluid_tank_small_s_desc		A tank for storing fluid.	储存流体的罐
-def_fluid_tank_small_node_0_label		Stored Fluid	储存的流体
+def_fluid_tank_small_node_0_label		Stored Fluid	流体接口
 def_fluid_tank_small_node_0_desc		The fluid connection for the stored contents.	存储内容的流体连接
 def_fluid_tank_small_node_1_label		Tank Content	油箱容量
 def_fluid_tank_small_node_1_desc		The amount of fluid in the tank in litres.	油箱中的流体量，单位为升
