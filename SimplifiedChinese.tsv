@@ -2587,9 +2587,9 @@ def_air_exchanger_9_5_node_5_label		Temp B	流体温度
 def_air_exchanger_9_5_node_5_desc		Compartment water temperature.	热交换器流体温度
 def_air_filter_name		Air Filter	气体过滤端口
 def_air_filter_desc			
-def_air_filter_s_desc		Port used to allow air in and out of a fluid system.	只允许气体进出某一流体系统的端口
+def_air_filter_s_desc		Port used to allow air in and out of a fluid system.	只允许气体进出某一流体系统的端口(P.S:装饰部件,与其他流体口功能相同)
 def_air_filter_node_0_label		Air	气体
-def_air_filter_node_0_desc		Allows fluid to flow in and out of an enclosed volume.	允许气体进出某一封闭空间
+def_air_filter_node_0_desc		Allows fluid to flow in and out of an enclosed volume.	允许气体进出某一封闭空间(P.S:装饰部件,与其他流体口功能相同)
 def_altimeter_name		Altimeter	高度计
 def_altimeter_desc		Outputs distance above sea-level in meters.	输出高于海平面的距离(米)
 def_altimeter_s_desc		An altitude sensor.	高度传感器
