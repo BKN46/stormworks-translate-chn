@@ -43,7 +43,7 @@ id	description	en	local
 		Multiply	乘
 		Divide	除
 		Modulo (fmod)	取模(fmod)
-		Power	幂
+		Power	幂(Power)
 		Trigonometry (radians)	三角函数(弧度)
 		Sine	正弦(sin)
 		Cosine	余弦(cos)
@@ -2391,7 +2391,7 @@ id	description	en	local
 		too short to attach	太短,无法连接
 		Move closer to attach	靠近一些才能连接
 		Space Suit	航天服
-		Exploration Space Suit	舱外航天服
+		Exploration Space Suit	探索型航天服
 		Oxygen	氧
 		Nitrogen	氮
 		Solid Propellant	固体推进剂
@@ -2587,9 +2587,9 @@ def_air_exchanger_9_5_node_5_label		Temp B	流体温度
 def_air_exchanger_9_5_node_5_desc		Compartment water temperature.	热交换器流体温度
 def_air_filter_name		Air Filter	气体过滤端口
 def_air_filter_desc			
-def_air_filter_s_desc		Port used to allow air in and out of a fluid system.	只允许气体进出某一流体系统的端口
+def_air_filter_s_desc		Port used to allow air in and out of a fluid system.	只允许气体进出某一流体系统的端口(P.S:装饰部件,与其他流体口功能相同)
 def_air_filter_node_0_label		Air	气体
-def_air_filter_node_0_desc		Allows fluid to flow in and out of an enclosed volume.	允许气体进出某一封闭空间
+def_air_filter_node_0_desc		Allows fluid to flow in and out of an enclosed volume.	允许气体进出某一封闭空间(P.S:装饰部件,与其他流体口功能相同)
 def_altimeter_name		Altimeter	高度计
 def_altimeter_desc		Outputs distance above sea-level in meters.	输出高于海平面的距离(米)
 def_altimeter_s_desc		An altitude sensor.	高度传感器
@@ -3296,12 +3296,12 @@ def_fluid_heat_sink_node_0_desc		Fluid Connection.	流体连接
 def_fluid_heat_sink_node_1_label		Fluid B	流体B
 def_fluid_heat_sink_node_1_desc		Fluid Connection.	流体连接
 def_fluid_intake_name		Fluid Intake	进液口
-def_fluid_intake_desc		Place the port inside of an enclosed volume to connect to that volume, or outside of the vehicle to connect to the exterior.	将接口至于封闭空间内以连通空间,或至于开放空间以连接外部
+def_fluid_intake_desc		Place the port inside of an enclosed volume to connect to that volume, or outside of the vehicle to connect to the exterior.	将接口置于封闭空间内以连通空间,或置于开放空间以连接外部
 def_fluid_intake_s_desc		Port used to allow fluid in and out of a fluid system.	允许流体进出流体系统的端口
 def_fluid_intake_node_0_label		Fluid	流体
 def_fluid_intake_node_0_desc		Allows fluid to flow in and out of an enclosed volume or the exterior.	允许流体进出封闭空间或外部
 def_fluid_port_end_name		Fluid Port End	流体末端接口
-def_fluid_port_end_desc		Place the port inside of an enclosed volume to connect to that volume, or outside of the vehicle to connect to the ocean.	将接口至于封闭空间内以连通空间,或至于开放空间以连接海洋
+def_fluid_port_end_desc		Place the port inside of an enclosed volume to connect to that volume, or outside of the vehicle to connect to the ocean.	将接口置于封闭空间内以连通空间,或置于开放空间以连接海洋
 def_fluid_port_end_s_desc		Port used to allow fluid in and out of a fluid system.	允许流体进出流体系统的端口
 def_fluid_port_end_node_0_label		Fluid	流体
 def_fluid_port_end_node_0_desc		Allows fluid to flow in and out of an enclosed volume or the ocean.	允许流体进出封闭空间或连通海洋
@@ -4627,14 +4627,14 @@ def_inventory_outfit_scuba_node_1_label		Fluid In	流体入口
 def_inventory_outfit_scuba_node_1_desc			
 def_inventory_outfit_space_suit_name		Outfit Inventory (Space)	装备架(航天服)
 def_inventory_outfit_space_suit_desc		When equipped, it will protect against low temperatures, low pressures and provide oxygen.	防止低温低压并提供氧气的套装
-def_inventory_outfit_space_suit_s_desc		An outfit inventory unit containing specialist Space Exploration gear required for surviving in space.	包含一套为太空探索准备的航天服
+def_inventory_outfit_space_suit_s_desc		An outfit inventory unit containing specialist Space Exploration gear required for surviving in space.	包含一套为太空探索准备的探索型航天服
 def_inventory_outfit_space_suit_node_0_label		Electric	电
 def_inventory_outfit_space_suit_node_0_desc		Electrical power connection.	电源连接
 def_inventory_outfit_space_suit_node_1_label		Fluid In	流体入口
 def_inventory_outfit_space_suit_node_1_desc			
-def_inventory_outfit_space_suit_exploration_name		Outfit Inventory (Space Exploration)	装备架(舱外航天服)
+def_inventory_outfit_space_suit_exploration_name		Outfit Inventory (Space Exploration)	装备架(探索型航天服)
 def_inventory_outfit_space_suit_exploration_desc		When equipped, it will protect against low temperatures, low pressures and provide oxygen.	防止低温低压并提供氧气的套装
-def_inventory_outfit_space_suit_exploration_s_desc		An outfit inventory unit containing specialist Space Exploration gear required for surviving in space.	包含一套为太空探索准备的航天服
+def_inventory_outfit_space_suit_exploration_s_desc		An outfit inventory unit containing specialist Space Exploration gear required for surviving in space.	包含一套为太空探索准备的探索型航天服
 def_inventory_outfit_space_suit_exploration_node_0_label		Electric	电
 def_inventory_outfit_space_suit_exploration_node_0_desc		Electrical power connection.	电源连接
 def_inventory_outfit_space_suit_exploration_node_1_label		Fluid In	流体入口
@@ -7538,7 +7538,7 @@ def_water_inlet_s_desc		Port used to allow fluid in and out of a fluid system.	�
 def_water_inlet_node_0_label		Fluid	流体
 def_water_inlet_node_0_desc		Allows fluid to flow in and out of an enclosed volume or the ocean.	允许流体进出封闭的体积或海洋
 def_water_jet_name		Fluid Jet	喷水推进器
-def_water_jet_desc		Converts mechanical power and water into a high power jet for generating thrust.	输入强劲的动力(至少中型引擎+减速机)将海水喷出以产生很强的推力.偏流板可以左右调节推力方向.偏流板在0时远离喷流,随着数值增加而靠近喷流.以相同比例控制偏流板会降低推力
+def_water_jet_desc		Converts mechanical power and water into a high power jet for generating thrust.	输入强劲的动力(至少中型引擎+变速箱)将海水喷出以产生很强的推力.偏流板可以左右调节推力方向.偏流板在0时不阻挡喷流,随着数值增加而靠近并阻挡喷流以改变喷流方向.以相同比例控制两侧的偏流板会降低推力
 def_water_jet_s_desc		A fluid impeller and jet nozzle for ocean propulsion.	用于船只推进的泵式推进器,只能使用海水
 def_water_jet_node_0_label		Fluid Flow In	进水口
 def_water_jet_node_0_desc		Fluid inlet to supply jet.	吸水以供喷射
