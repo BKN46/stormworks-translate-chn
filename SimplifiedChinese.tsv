@@ -1704,9 +1704,6 @@ id	description	en	local
 		ROPE	绳索
 		Edit rope transfer nodes.	编辑绳索传输节点
 		rope	绳
-		ROPE	绳
-		sail	帆
-		Edit rope transfer nodes.	编辑绳索传输节点
 		LUA SCRIPTING OVERVIEW	LUA脚本概述
 		Lua scripting gives you the tools to create advanced logic components using the Lua scripting language. Stormworks provides a number of functions to allow your script to interface with your vehicle's logic system, as well as drawing to in-game monitors.\n\nThis guide outlines the functions that are available for use in your scripts but it is not a comprehensive tutorial on using the Lua language.	Lua脚本提供了使用Lua脚本语言创建高级逻辑组件的工具。Stormworks提供了许多功能，允许脚本与载具的逻辑系统进行交互，并绘制到游戏中的屏幕中。\n\n本指南概述了可在脚本中使用的功能，但它不是使用Lua语言的综合系统性教程。\n\n显示器中的绘图均以左上角为坐标原点，向右为X轴正方向，向下为Y轴正方向。文字的坐标为其左上角像素点的坐标值。\n\n游戏中一个单位长度为32个像素，即:\n\n屏幕1x1=32x32像素；\n\n屏幕2x2=64x64像素；\n\n屏幕5x3=160x96像素；\n\n屏幕9x5=288x160像素；\n\nHUD(小)=32x32像素；\n\nHUD(大)=96x96像素
 		SCRIPT BASICS	脚本基础
@@ -5825,8 +5822,10 @@ def_relief_valve_liquid_node_1_desc
 def_rope_hook_name		Rope Anchor	绳锚
 def_rope_hook_desc		Draw a rope logic link between two Rope Anchors to form a rope.	在两个绳锚之间绘制一个绳逻辑链接以形成一条绳
 def_rope_hook_s_desc		An anchor point for a basic rope.	基本绳索的固定点
-def_rope_hook_node_0_label		Rope Node	绳节点
+def_rope_hook_node_0_label		Rope Node	绳索节点
 def_rope_hook_node_0_desc			
+def_rope_hook_node_1_label		Detach Rope	绳索脱钩
+def_rope_hook_node_1_desc			
 def_rope_hook_composite_name		Electrical Cable Anchor	电缆锚
 def_rope_hook_composite_desc		Draw a rope logic link between two Electrical Cable Anchors to form a cable. Limited to only one link but can transfer Data and Electric across the link.	在两个电缆锚之间画一个绳索逻辑链接，形成一条电缆。仅限于一个链路，但可以通过链路传输数据和电力
 def_rope_hook_composite_s_desc		An anchor point for a basic data/electric cable.	基本数据/电缆的固定点
