@@ -2419,6 +2419,7 @@ id	description	en	local
 		Missing required solid propellant to fuel solid rockets to requested level	缺少所需的固体推进剂,无法为固体火箭提供所需的燃料
 		30 Dollar Train Yard	30美元列车场
 		A train yard adjacent to the Monkey Brain Launch site and Clarke Airfield.	连接猴脑发射场和克拉克机场的火车货场
+		Threshold (+/-)	阈值(+/-)
 def_01_block_name		Block	方块
 def_01_block_desc		The block is a quarter-metre in size. Components can be attached to all 6 faces.	这个方块有四分之一米大。组件可以连接收到所有6个面
 def_01_block_s_desc		Basic cube-shaped building block.	基本立方形建筑块
@@ -3034,6 +3035,16 @@ def_control_surface_small_node_0_label		Rotation	旋转
 def_control_surface_small_node_0_desc		Accepts a value between -1 and 1 that represent the two extremes of the rudder's rotation.	接受介于-1和1之间的值，该值表示方向舵旋转的两个极值
 def_control_surface_small_node_1_label		Electric	电
 def_control_surface_small_node_1_desc		Electrical power connection.	电源连接
+def_data_logger_bool_name		Data Logger (Bool)	数据记录器(布尔)
+def_data_logger_bool_desc		Link to the bool output node of another component to record data for unit tests.	连接到另一个组件的布尔型的输出端,为单元测试进行数据记录
+def_data_logger_bool_s_desc		A bool data logging block for unit tests.	布尔型的单元测试数据记录器
+def_data_logger_bool_node_0_label		Bool In	布尔输入
+def_data_logger_bool_node_0_desc			
+def_data_logger_number_name		Data Logger (Number)	数据记录器(数值)
+def_data_logger_number_desc		Link to the number output node of another component to record data for unit tests.	连接到另一个组件的数值型的输出端,为单元测试进行数据记录
+def_data_logger_number_s_desc		A number data logging block for unit tests.	数值型的单元测试数据记录器
+def_data_logger_number_node_0_label		Number In	数值输入
+def_data_logger_number_node_0_desc			
 def_desalinator_name		Desalinator	海水淡化器
 def_desalinator_desc		A pipe with a fine desalination filter that slowly converts seawater to freshwater and allows free flow of freshwater.	带有精细脱盐过滤器的管道，可将海水缓慢转化为淡水并允许淡水自由流动
 def_desalinator_s_desc		A pipe that slowly converts seawater to freshwater.	将海水缓慢转化为淡水的管道
