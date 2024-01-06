@@ -7885,6 +7885,28 @@ def_winch_large_b_desc
 def_winch_large_b_s_desc			
 def_winch_large_b_node_0_label		Fluid	流体
 def_winch_large_b_node_0_desc		Fluid connection for the end of the hose.	软管末端的流体连接
+def_winch_pulley_name		Pulley	滑轮(U型)
+def_winch_pulley_desc		Draw a rope logic link between two rope nodes to form a cable. Ropes will slide based on difference in force applied to each rope.	使用绳索连接滑轮的两个节点，成为滑轮上连接的同一根绳索，绳索将根据施加在每根绳索上的力的差异而滑动
+def_winch_pulley_s_desc		A pulley that changes attached rope lengths based on forces applied to ropes.	滑轮，其上的绳索将根据施加在每根绳索上的力的差异而滑动
+def_winch_pulley_node_0_label		Rope 1 Length	绳索1的长度
+def_winch_pulley_node_0_desc		The current length of rope 1 in metres.	绳索1当前长度(米)
+def_winch_pulley_node_1_label		Rope 2 Length	绳索2的长度
+def_winch_pulley_node_1_desc		The current length of rope 2 in metres.	绳索2当前长度(米)
+def_winch_pulley_node_2_label		Rope 2	绳索2
+def_winch_pulley_node_2_desc			
+def_winch_pulley_node_3_label		Rope 1	绳索1
+def_winch_pulley_node_3_desc			
+def_winch_pulley_corner_name		Pulley (Corner)	滑轮(L型)
+def_winch_pulley_corner_desc		Draw a rope logic link between two rope nodes to form a cable. Ropes will slide based on difference in force applied to each rope.	使用绳索连接滑轮的两个节点，成为滑轮上连接的同一根绳索，绳索将根据施加在每根绳索上的力的差异而滑动
+def_winch_pulley_corner_s_desc		A pulley that changes attached rope lengths based on forces applied to ropes.	滑轮，其上的绳索将根据施加在每根绳索上的力的差异而滑动
+def_winch_pulley_corner_node_0_label		Rope 1 Length	绳索1的长度
+def_winch_pulley_corner_node_0_desc		The current length of rope 1 in metres.	绳索1当前长度(米)
+def_winch_pulley_corner_node_1_label		Rope 2 Length	绳索2的长度
+def_winch_pulley_corner_node_1_desc		The current length of rope 2 in metres.	绳索2当前长度(米)
+def_winch_pulley_corner_node_2_label		Rope 2	绳索2
+def_winch_pulley_corner_node_2_desc			
+def_winch_pulley_corner_node_3_label		Rope 1	绳索1
+def_winch_pulley_corner_node_3_desc			
 def_window_1x1_name		Window 1x1	窗(1x1)
 def_window_1x1_desc		Sits flush with walls and ceilings.	这是一扇平窗，与墙壁和天花板齐平。1个单位宽
 def_window_1x1_s_desc		Basic window piece.	基本的窗户
