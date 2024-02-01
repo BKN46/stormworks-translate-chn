@@ -2409,6 +2409,53 @@ id	description	en	local
 		Gila Monster	大毒蜥
 		Desert Tortoise	沙漠龟
 		Merch Store	周边商店
+		Fish	鱼
+		Fishing Rod	钓鱼竿
+		[$[action_equipment_use]] Cast [$[action_equipment_secondary]] Reel in	[$[action_equipment_use]]:抛杆 [$[action_equipment_secondary]]:收线
+		Fishing Lure	鱼饵
+		Anchovy	凤尾鱼
+		Anglerfish	安康鱼
+		Arctic Char	北极红点鲑
+		Ballan Lizardfish	球状蛇鱼
+		Ballan Wrasse	球状濑鱼
+		Barreleye Fish	桶眼鱼
+		Black Bream	黑鲷鱼
+		Black Dragonfish	黑海蛾鱼
+		Clownfish	小丑鱼
+		Cod	鳕鱼
+		Dolphinfish	鬼头刀
+		Gulper Eel	吞噬鳗
+		Haddock	黑线鳕
+		Hake	无须鳕
+		Herring	鲱鱼
+		John Dory	海鲂
+		Labrus	隆头鱼
+		Lanternfish	灯笼鱼
+		Mackerel	鲭鱼
+		Midshipman	深水光蟾鱼
+		Perch	鲈鱼
+		Pike	梭子鱼
+		Pinecone Fish	松球鱼
+		Pollock	狭鳕鱼
+		Red Mullet	红鲣
+		Rockfish	岩鱼
+		Sablefish	裸盖鱼
+		Salmon	鲑鱼
+		Sardine	沙丁鱼
+		Scad	竹荚鱼
+		Sea Bream	海鲷
+		Sea Halibut	海比目鱼
+		Sea Piranha	海水虎鱼
+		Seabass	石斑鱼
+		Slimehead	燧鲷
+		Snapper	鲷鱼
+		Golden Snapper	金鲷鱼
+		Snook	锯盖鱼
+		Spadefish	锹鱼
+		Trout	鳟鱼
+		Tubeshoulders Fish	管肩鱼
+		Viperfish	蝰鱼
+		Yellowfin Tuna	黄鳍金枪鱼
 		Main	主
 		Arctic	北极
 		Sawyer	索耶
@@ -2609,7 +2656,7 @@ def_astronomy_sensor_name		Astronomy Sensor	天文传感器
 def_astronomy_sensor_desc		Outputs relative position data based on the optimal target trajectory between the earth and moon.	根据地月之间的最佳目标轨迹输出相对位置数据
 def_astronomy_sensor_s_desc		A sensor that provides raw space navigation data.	提供原始空间导航数据的传感器
 def_astronomy_sensor_node_0_label		Data	混合输出
-def_astronomy_sensor_node_0_desc		Number channels 1: x position relative to earth-moon trajectory -1 to 1, 2: y position realtive to earth-moon trajectory 0 (earth) to 1 (moon), 3: z position relative to earth-moon trajectory -1 to 1.	数字通道:1.相对于地月轨迹的x位置(-1~1);2.相对于地月轨迹的y位置( 0(地球)~ 1(月球));3.相对于地月轨迹的z位置(-1~1)
+def_astronomy_sensor_node_0_desc		Outputs [1] x position relative to earth-moon trajectory -1 to 1, [2] y position realtive to earth-moon trajectory 0 (earth) to 1 (moon), [3] z position relative to earth-moon trajectory -1 to 1, [4] euler rotation x, [5] euler rotation y, [6] euler rotation z, [7] angular velocity x, [8] angular velocity y, [9] angular velocity z, [10] local z tilt and [11] local x tilt to the respective composite channels.	数字通道:1.相对于地月轨迹的x位置(-1~1);2.相对于地月轨迹的y位置( 0(地球)~ 1(月球));3.相对于地月轨迹的z位置(-1~1);4.欧拉旋转X;5.欧拉旋转Y;6.欧拉旋转Z;7.角速度X;8.角速度Y;9.角速度Z;10.当地Z倾斜;11.当地X倾斜
 def_azimuth_thruster_name		Azimuth Thruster	方位推进器
 def_azimuth_thruster_desc		The thruster can be attached to a robotic pivot to provide steering as well as propulsion. This propeller will only operate underwater.	推进器可以连接收到机器的枢轴上，提供转向和推进。这个螺旋桨只能在水下工作
 def_azimuth_thruster_s_desc		An azimuth thruster for boats.	船用方位推进器
@@ -4454,6 +4501,11 @@ def_inventory_equipment_first_aid_desc		Press [$[action_equipment_use]] to heal 
 def_inventory_equipment_first_aid_s_desc		A small equipment storage unit containing a first aid kit.	小型装备架，存储一个急救包
 def_inventory_equipment_first_aid_node_0_label		Electric	电
 def_inventory_equipment_first_aid_node_0_desc		Electrical power connection.	电源连接
+def_inventory_equipment_fishing_rod_name		Equipment inventory (Fishing Rod)	装备架(鱼竿)
+def_inventory_equipment_fishing_rod_desc		Hold [$[action_equipment_use]] to repair damaged vehicle components highlighted by the players crosshair. This equipment has a limited fuel capacity and cannot be refilled.	装备鱼竿的装备架
+def_inventory_equipment_fishing_rod_s_desc		A large equipment storage unit containing a welding torch.	装备鱼竿的装备架
+def_inventory_equipment_fishing_rod_node_0_label		Electric	电
+def_inventory_equipment_fishing_rod_node_0_desc		Electrical power connection.	电源连接
 def_inventory_equipment_flare_name		Equipment inventory (Flare)	装备架(手持燃烧照明棒)
 def_inventory_equipment_flare_desc		Press [$[action_equipment_use]] to throw a red smoke flare which burns for a long time.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按下 [$[action_equipment_use]] 来扔出一个持续时间内释放红烟并发光的燃烧照明棒。这个装备有使用次数限制，拿起其他照明棒能够补充使用次数。不使用时可以挂在腰带上
 def_inventory_equipment_flare_s_desc		A small equipment storage unit containing flares.	小型装备架，存储一支手持燃烧照明棒
@@ -6979,20 +7031,20 @@ def_steam_boiler_node_5_label		Temperature	温度
 def_steam_boiler_node_5_desc			
 def_steam_boiler_node_6_label		Pressure	压力
 def_steam_boiler_node_6_desc			
-def_steam_coal_duct_name		Mineral Duct	矿物输送管
-def_steam_coal_duct_desc		Transports minerals through the connected system.	通过连接的系统输送矿物
-def_steam_coal_duct_s_desc		A basic mineral duct.	基本的矿物输送管
-def_steam_coal_duct_node_0_label		Mineral Level	储量
+def_steam_coal_duct_name		Duct	输送管
+def_steam_coal_duct_desc		Transports resources through the connected system.	通过连接的系统输送资源
+def_steam_coal_duct_s_desc		A basic resource duct.	基础物资输送管
+def_steam_coal_duct_node_0_label		Fill Level	储量
 def_steam_coal_duct_node_0_desc			
-def_steam_coal_duct_l_name		Mineral Duct Large	矿物输送管(大)
-def_steam_coal_duct_l_desc		Transports minerals through the connected system.	通过连接的系统输送矿物
-def_steam_coal_duct_l_s_desc		A basic mineral duct.	基本的矿物输送管
-def_steam_coal_duct_l_node_0_label		Mineral Level	储量
+def_steam_coal_duct_l_name		Duct Large	输送管(大)
+def_steam_coal_duct_l_desc		Transports resources through the connected system.	通过连接的系统输送资源
+def_steam_coal_duct_l_s_desc		A basic resource duct.	基础物资输送管
+def_steam_coal_duct_l_node_0_label		Fill Level	储量
 def_steam_coal_duct_l_node_0_desc			
-def_steam_coal_duct_m_name		Mineral Duct Medium	矿物输送管(中)
-def_steam_coal_duct_m_desc		Transports minerals through the connected system.	通过连接的系统输送矿物
-def_steam_coal_duct_m_s_desc		A basic mineral duct.	基本的矿物输送管
-def_steam_coal_duct_m_node_0_label		Mineral Level	储量
+def_steam_coal_duct_m_name		Duct Medium	输送管(中)
+def_steam_coal_duct_m_desc		Transports resources through the connected system.	通过连接的系统输送资源
+def_steam_coal_duct_m_s_desc		A basic resource duct.	基础物资输送管
+def_steam_coal_duct_m_node_0_label		Fill Level	储量
 def_steam_coal_duct_m_node_0_desc			
 def_steam_coal_firebox_name		Firebox	煤炉
 def_steam_coal_firebox_desc		Produces large amounts of heat. Can be supplied with a mineral duct. Consumes 1 coal to ignite the fire.	消耗1单位的煤炭点火，产生大量的热量。可以连接矿物输送管
@@ -7012,7 +7064,7 @@ def_steam_coal_firebox_node_5_desc		Port for supplying air to the fire.	燃烧�
 def_steam_coal_firebox_node_6_label		Exhaust	排气管
 def_steam_coal_firebox_node_6_desc		Port for removing exhaust from burnt coal.	燃煤废气的排气口
 def_steam_coal_firebox_l_name		Firebox Large	煤炉(大)
-def_steam_coal_firebox_l_desc		Produces large amounts of heat. Can be supplied with a mineral duct. Consumes 1 coal to ignite the fire.	消耗1单位的煤炭点火，产生大量的热量。可以连接矿物输送管
+def_steam_coal_firebox_l_desc		Produces large amounts of heat. Can be supplied with a duct. Consumes 1 coal to ignite the fire.	消耗1单位的煤炭点火，产生大量的热量。可以连接资源输送管
 def_steam_coal_firebox_l_s_desc		A coal powered firebox.	以煤为燃料,加热水的燃烧室
 def_steam_coal_firebox_l_node_0_label		Coal Level	煤炭储量
 def_steam_coal_firebox_l_node_0_desc			
@@ -7028,26 +7080,33 @@ def_steam_coal_firebox_l_node_5_label		Air	空气
 def_steam_coal_firebox_l_node_5_desc		Port for supplying air to the fire.	燃烧室进气口
 def_steam_coal_firebox_l_node_6_label		Exhaust	排气管
 def_steam_coal_firebox_l_node_6_desc		Port for removing exhaust from burnt coal.	燃煤废气的排气口
-def_steam_coal_funnel_name		Mineral Funnel	矿物漏斗
-def_steam_coal_funnel_desc		Can be toggled to slowly move minerals out of the connected system.	可以通过开关信号将矿物缓慢的排出相连接的系统
-def_steam_coal_funnel_s_desc		A funnel for moving minerals.	排出矿物的漏斗
+def_steam_coal_funnel_name		Funnel Duct	输送管漏斗
+def_steam_coal_funnel_desc		Can be toggled to slowly move resources out of the connected system.	可以通过开关信号将资源缓慢的排出相连接的系统
+def_steam_coal_funnel_s_desc		A funnel for moving resources.	排出资源的漏斗
 def_steam_coal_funnel_node_0_label		Open	打开
 def_steam_coal_funnel_node_0_desc			
-def_steam_coal_hopper_name		Mineral Hopper	矿物料斗
-def_steam_coal_hopper_desc		Pouring minerals into the receptacle will add it to the connected system.	将矿物倒入容器存储到相连接的系统中
-def_steam_coal_hopper_s_desc		A hopper that can accept minerals.	能存储矿物的料斗
-def_steam_coal_hopper_node_0_label		Mineral Level	储量
+def_steam_coal_hopper_name		Hopper	输送管料斗
+def_steam_coal_hopper_desc		Pouring resources into the receptacle will add it to the connected system.	将资源倒入料斗以存储到相连接的系统中
+def_steam_coal_hopper_s_desc		A hopper that can accept bulk minerals, ingots, and fish.	能存储资源的料斗
+def_steam_coal_hopper_node_0_label		Fill Level	储量
 def_steam_coal_hopper_node_0_desc			
-def_steam_coal_hopper_l_name		Mineral Hopper Large	矿物料斗(大)
-def_steam_coal_hopper_l_desc		Pouring minerals into the receptacle will add it to the connected system.	将矿物倒入容器存储到相连接的系统中
-def_steam_coal_hopper_l_s_desc		A hopper that can accept minerals.	能存储矿物的料斗
-def_steam_coal_hopper_l_node_0_label		Mineral Level	储量
+def_steam_coal_hopper_l_name		Hopper Large	输送管料斗(大)
+def_steam_coal_hopper_l_desc		Pouring resources into the receptacle will add it to the connected system.	将矿物倒入料斗以存储到相连接的系统中
+def_steam_coal_hopper_l_s_desc		A hopper that can accept bulk minerals, ingots, and fish.	能存储资源的料斗
+def_steam_coal_hopper_l_node_0_label		Fill Level	储量
 def_steam_coal_hopper_l_node_0_desc			
-def_steam_coal_hopper_m_name		Mineral Hopper Medium	矿物料斗(中)
-def_steam_coal_hopper_m_desc		Pouring minerals into the receptacle will add it to the connected system.	将矿物倒入容器存储到相连接的系统中
-def_steam_coal_hopper_m_s_desc		A hopper that can accept minerals.	能存储矿物的料斗
-def_steam_coal_hopper_m_node_0_label		Mineral Level	储量
+def_steam_coal_hopper_m_name		Hopper Medium	输送管料斗(中)
+def_steam_coal_hopper_m_desc		Pouring resources into the receptacle will add it to the connected system.	将矿物倒入料斗以存储到相连接的系统中
+def_steam_coal_hopper_m_s_desc		A hopper that can accept bulk minerals, ingots, and fish.	能存储资源的料斗
+def_steam_coal_hopper_m_node_0_label		Fill Level	储量
 def_steam_coal_hopper_m_node_0_desc			
+def_steam_coal_vacuum_name		Vacuum Duct	输送管吸口
+def_steam_coal_vacuum_desc		Can be toggled to move resources through the vacuum. The vacuum can transport resources from ducts and hoppers immediately in front of the vacuum nozzle.	可切换为通过真空吸力运送物资.激活后可以从紧靠真空吸嘴前方的管道和料斗中运送资源
+def_steam_coal_vacuum_s_desc		A vacuum for moving resources.	真空吸力资源移动装置
+def_steam_coal_vacuum_node_0_label		Active	激活
+def_steam_coal_vacuum_node_0_desc			
+def_steam_coal_vacuum_node_1_label		Electric	电
+def_steam_coal_vacuum_node_1_desc		Electrical input.	电源连接
 def_steam_condenser_name		Steam Condenser	蒸汽冷凝器
 def_steam_condenser_desc		The condenser should be continously cooled to function efficiently.	冷凝器在持续冷却下才能够有效工作
 def_steam_condenser_s_desc		A condenser for converting steam back to water.	用于将蒸汽转换为水的冷凝器
