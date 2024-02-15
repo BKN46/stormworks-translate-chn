@@ -1386,7 +1386,7 @@ id	description	en	local
 		Vehicle Functionality	载具功能
 		Misc.	杂项
 		tags	标签
-		Vehicle (Made by ###)	载具(由####制造)
+		 (Made by ###)	(由####制造)
 		SERVER: ### TPS	服务器:### TPS
 		### Degrees	###度
 		Last updated ###	上次更新时间###
@@ -4970,7 +4970,7 @@ def_liquid_rocket_node_4_label		Gimbal Z	云台Z
 def_liquid_rocket_node_4_desc			
 def_liquid_rocket_node_5_label		Gimbal X	云台X
 def_liquid_rocket_node_5_desc			
-def_liquid_rocket_node_6_label		Thottle	节流阀
+def_liquid_rocket_node_6_label		Throttle	节流阀
 def_liquid_rocket_node_6_desc			
 def_liquid_rocket_large_name		Liquid Fuel Rocket (Large)	液体火箭发动机(大)
 def_liquid_rocket_large_desc		Fuel with liquid oxygen and hydrogen.	以氢氧为燃料
@@ -4987,7 +4987,7 @@ def_liquid_rocket_large_node_4_label		Gimbal Z	云台Z
 def_liquid_rocket_large_node_4_desc			
 def_liquid_rocket_large_node_5_label		Gimbal X	云台X
 def_liquid_rocket_large_node_5_desc			
-def_liquid_rocket_large_node_6_label		Thottle	节流阀
+def_liquid_rocket_large_node_6_label		Throttle	节流阀
 def_liquid_rocket_large_node_6_desc			
 def_liquid_rocket_small_name		Liquid Fuel Rocket (Small)	液体火箭发动机(小)
 def_liquid_rocket_small_desc		Fuel with liquid oxygen and hydrogen.	以氢氧为燃料
@@ -5004,7 +5004,7 @@ def_liquid_rocket_small_node_4_label		Gimbal Z	云台Z
 def_liquid_rocket_small_node_4_desc			
 def_liquid_rocket_small_node_5_label		Gimbal X	云台X
 def_liquid_rocket_small_node_5_desc			
-def_liquid_rocket_small_node_6_label		Thottle	节流阀
+def_liquid_rocket_small_node_6_label		Throttle	节流阀
 def_liquid_rocket_small_node_6_desc			
 def_magall_name		Mag All	万能磁头
 def_magall_desc		While the connector is active the end will glow and it will stick to most surfaces that it touches. The connection will break if enough stress (200) is applied.	当连接件处于活动状态时，末端将发光，并将粘住其接触的大多数曲面。如果施加足够的应力(200)，连接将断开
@@ -5017,6 +5017,9 @@ def_magall_node_2_label		Force	力
 def_magall_node_2_desc		Outputs the current force stress on the connector.	输出连接头上的电流应力
 def_magall_node_3_label		Electric	电
 def_magall_node_3_desc		Electrical power connection.	电源连接
+def_map_icon_name		Map Icon Block	地图标志块
+def_map_icon_desc		When on a vehicle, the vehicle will show on the map and other vehicles in the group will be hidden. The custom name set here will be the name set on the map.	放置在载具上时,该载具将显示在地图上,而组内的其他载具将被隐藏.此处设置的自定义名称将是地图上显示的名称
+def_map_icon_s_desc		A vehicle tracking block.	用于载具追踪的方块
 def_mic_name		Microphone	话筒
 def_mic_desc		A simple microphone that picks up voice data from nearby players. (Range : 15)	麦克风，可以从附近的玩家中采集声音数据(范围:15)
 def_mic_s_desc		A microphone for transmitting player voice data.	传送玩家声音数据的麦克风
@@ -6757,8 +6760,8 @@ def_seat_racing_node_15_desc
 def_seat_racing_node_16_label		Headset Audio	耳机音频
 def_seat_racing_node_16_desc			
 def_seat_space_name		Space Seat	飞船座椅
-def_seat_space_desc		You can get in and out of the position by interacting with it using [$[action_use_seat]].	按下 [$[action_use_seat]] 进出该位置
-def_seat_space_s_desc		A compact control handle.	紧凑型飞船控制器
+def_seat_space_desc		It provides 4 number outputs that produce a standard value ranging from -1 to 1, and 6 on/off outputs. You can get in and out of the space seat by interacting with it using [$[action_use_seat]].	提供4个数字轴输出(-1~1)和6个on/off的按钮输出，按下 [$[action_use_seat]] 进出该位置
+def_seat_space_s_desc		The space seat lets you translate keyboard presses into output signals that can control logic components.	飞船座椅可以将键盘输入转化为控制载具的逻辑
 def_seat_space_node_0_label		Occupied	已被占用
 def_seat_space_node_0_desc		Outputs an on signal if the handle is occupied by a character.	输出该座位是否被占用
 def_seat_space_node_1_label		Trigger [$[action_trigger]]	扳机 [$[action_trigger]]
