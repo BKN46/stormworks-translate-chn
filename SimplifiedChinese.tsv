@@ -456,7 +456,7 @@ id	description	en	local
 		Hardcore mode with permadeath (save file will be deleted upon death).	带有永久死亡的硬核模式(保存文件将在死亡时被删除)
 		Custom difficulty settings.	自定义难度设置
 		Custom mode. A sandbox environment with an array of settings to customise your session. Career or Creative.	自定义模式，随意设定你的游戏，无论是生涯还是创造
-		Classic mode. Career mode with research tree, third person, and teleport.	经典模式。具有研发树、第三人称模式、允许玩家传送
+		Classic mode. Career mode with research tree and third person.	经典模式。具有研发科技树和第三人称模式
 		Career mode. Expand your coastguard empire. Complete missions with survival style settings.	生涯模式。扩张你的海岸警卫队帝国，在更加生存风格的设置下完成任务
 		Custom game mode settings.	自定义游戏模式设置
 		PLEASE CHOOSE ANOTHER KEY	请选择其他按键
@@ -4502,8 +4502,8 @@ def_inventory_equipment_first_aid_s_desc		A small equipment storage unit contain
 def_inventory_equipment_first_aid_node_0_label		Electric	电
 def_inventory_equipment_first_aid_node_0_desc		Electrical power connection.	电源连接
 def_inventory_equipment_fishing_rod_name		Equipment inventory (Fishing Rod)	装备架(鱼竿)
-def_inventory_equipment_fishing_rod_desc		Hold [$[action_equipment_use]] to repair damaged vehicle components highlighted by the players crosshair. This equipment has a limited fuel capacity and cannot be refilled.	装备鱼竿的装备架
-def_inventory_equipment_fishing_rod_s_desc		A large equipment storage unit containing a welding torch.	装备鱼竿的装备架
+def_inventory_equipment_fishing_rod_desc		Hold and release [$[action_equipment_use]] to load and cast the fishing line. Hold [$[action_equipment_secondary]] to reel in the fishing line.	按住[$[action_equipment_use]]并松开以抛出鱼线,按住[$[action_equipment_secondary]]收杆
+def_inventory_equipment_fishing_rod_s_desc		A large equipment storage unit containing a fishing rod.	大型装备架，存储一套鱼竿
 def_inventory_equipment_fishing_rod_node_0_label		Electric	电
 def_inventory_equipment_fishing_rod_node_0_desc		Electrical power connection.	电源连接
 def_inventory_equipment_flare_name		Equipment inventory (Flare)	装备架(手持燃烧照明棒)
@@ -4964,14 +4964,12 @@ def_liquid_rocket_node_1_label		Hydrogen	氢
 def_liquid_rocket_node_1_desc			
 def_liquid_rocket_node_2_label		Ignition	点火
 def_liquid_rocket_node_2_desc			
-def_liquid_rocket_node_3_label		Electric	电
+def_liquid_rocket_node_3_label		Gimbal Z	云台Z
 def_liquid_rocket_node_3_desc			
-def_liquid_rocket_node_4_label		Gimbal Z	云台Z
+def_liquid_rocket_node_4_label		Gimbal X	云台X
 def_liquid_rocket_node_4_desc			
-def_liquid_rocket_node_5_label		Gimbal X	云台X
+def_liquid_rocket_node_5_label		Throttle	节流阀
 def_liquid_rocket_node_5_desc			
-def_liquid_rocket_node_6_label		Throttle	节流阀
-def_liquid_rocket_node_6_desc			
 def_liquid_rocket_large_name		Liquid Fuel Rocket (Large)	液体火箭发动机(大)
 def_liquid_rocket_large_desc		Fuel with liquid oxygen and hydrogen.	以氢氧为燃料
 def_liquid_rocket_large_s_desc		A liquid fuel rocket engine.	液体火箭发动机
@@ -4981,14 +4979,12 @@ def_liquid_rocket_large_node_1_label		Hydrogen	氢
 def_liquid_rocket_large_node_1_desc			
 def_liquid_rocket_large_node_2_label		Ignition	点火
 def_liquid_rocket_large_node_2_desc			
-def_liquid_rocket_large_node_3_label		Electric	电
+def_liquid_rocket_large_node_3_label		Gimbal Z	云台Z
 def_liquid_rocket_large_node_3_desc			
-def_liquid_rocket_large_node_4_label		Gimbal Z	云台Z
+def_liquid_rocket_large_node_4_label		Gimbal X	云台X
 def_liquid_rocket_large_node_4_desc			
-def_liquid_rocket_large_node_5_label		Gimbal X	云台X
+def_liquid_rocket_large_node_5_label		Throttle	节流阀
 def_liquid_rocket_large_node_5_desc			
-def_liquid_rocket_large_node_6_label		Throttle	节流阀
-def_liquid_rocket_large_node_6_desc			
 def_liquid_rocket_small_name		Liquid Fuel Rocket (Small)	液体火箭发动机(小)
 def_liquid_rocket_small_desc		Fuel with liquid oxygen and hydrogen.	以氢氧为燃料
 def_liquid_rocket_small_s_desc		A liquid fuel rocket engine.	液体火箭发动机
@@ -4998,14 +4994,12 @@ def_liquid_rocket_small_node_1_label		Hydrogen	氢
 def_liquid_rocket_small_node_1_desc			
 def_liquid_rocket_small_node_2_label		Ignition	点火
 def_liquid_rocket_small_node_2_desc			
-def_liquid_rocket_small_node_3_label		Electric	电
+def_liquid_rocket_small_node_3_label		Gimbal Z	云台Z
 def_liquid_rocket_small_node_3_desc			
-def_liquid_rocket_small_node_4_label		Gimbal Z	云台Z
+def_liquid_rocket_small_node_4_label		Gimbal X	云台X
 def_liquid_rocket_small_node_4_desc			
-def_liquid_rocket_small_node_5_label		Gimbal X	云台X
+def_liquid_rocket_small_node_5_label		Throttle	节流阀
 def_liquid_rocket_small_node_5_desc			
-def_liquid_rocket_small_node_6_label		Throttle	节流阀
-def_liquid_rocket_small_node_6_desc			
 def_magall_name		Mag All	万能磁头
 def_magall_desc		While the connector is active the end will glow and it will stick to most surfaces that it touches. The connection will break if enough stress (200) is applied.	当连接件处于活动状态时，末端将发光，并将粘住其接触的大多数曲面。如果施加足够的应力(200)，连接将断开
 def_magall_s_desc		A small connector that will attach to most surfaces.	连接收到大多数表面的小连接头
@@ -6186,9 +6180,9 @@ def_rx_directional_node_6_desc		Strength of connection signal.	信号的强度
 def_rx_directional_node_7_label		Transmit Mode	传输模式
 def_rx_directional_node_7_desc		Whether the radio is transmitting or receiving.	无线电是发射还是接收
 def_rx_directional_node_8_label		Target Pitch	目标俯仰(Pitch)
-def_rx_directional_node_8_desc		Target dish pitch in turns.	以圈为单位的俯仰(Pitch)数据
+def_rx_directional_node_8_desc		Target dish pitch in turns. Max 0.1	以圈为单位的俯仰(Pitch)数据,最大值0.1
 def_rx_directional_node_9_label		Target Yaw	目标偏航(Yaw)
-def_rx_directional_node_9_desc		Target dish yaw in turns. Max 0.1	以圈为单位的偏航(Yaw)数据,最大0.1
+def_rx_directional_node_9_desc		Target dish yaw in turns.	以圈为单位的偏航(Yaw)数据
 def_rx_directional_node_10_label		Video Send	视频发送
 def_rx_directional_node_10_desc		Input for video data to send.	输入以发送视频数据
 def_rx_directional_node_11_label		Video Recv	视频接收
@@ -6213,9 +6207,9 @@ def_rx_directional_large_node_6_desc		Strength of connection signal.	信号的�
 def_rx_directional_large_node_7_label		Transmit Mode	传输模式
 def_rx_directional_large_node_7_desc		Whether the radio is transmitting or receiving.	无线电是发射还是接收
 def_rx_directional_large_node_8_label		Target Pitch	目标俯仰(Pitch)
-def_rx_directional_large_node_8_desc		Target dish pitch in turns.	以圈为单位的俯仰(Pitch)数据
+def_rx_directional_large_node_8_desc		Target dish pitch in turns. Max 0.1	以圈为单位的俯仰(Pitch)数据
 def_rx_directional_large_node_9_label		Target Yaw	目标偏航(Yaw)
-def_rx_directional_large_node_9_desc		Target dish yaw in turns. Max 0.1	以圈为单位的偏航(Yaw)数据,最大0.1
+def_rx_directional_large_node_9_desc		Target dish yaw in turns.	以圈为单位的偏航(Yaw)数据,最大0.1
 def_rx_directional_large_node_10_label		Video Send	视频发送
 def_rx_directional_large_node_10_desc		Input for video data to send.	输入以发送视频数据
 def_rx_directional_large_node_11_label		Video Recv	视频接收
