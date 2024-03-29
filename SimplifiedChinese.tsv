@@ -2040,7 +2040,7 @@ id	description	en	local
 		Cancel Tornado	取消龙卷风
 		Spawn Meteor	生成流星
 		Spawn Meteor Shower	生成流星雨
-		Spawn Volcanic Eruption	生成火山喷发
+		Spawn Eruption	生成火山爆发
 		Xmas Tree	圣诞树
 		Xmas Stormworks	圣诞风暴工程
 		Xmas Stormworks 2	圣诞风暴工程2
@@ -2467,6 +2467,7 @@ id	description	en	local
 		30 Dollar Train Yard	30美元列车场
 		A train yard adjacent to the Monkey Brain Launch site and Clarke Airfield.	连接猴脑发射场和克拉克机场的火车货场
 		Threshold (+/-)	阈值(+/-)
+		Clean Oil Spills	清除溢油
 def_01_block_name		Block	方块
 def_01_block_desc		The block is a quarter-metre in size. Components can be attached to all 6 faces.	这个方块有四分之一米大。组件可以连接收到所有6个面
 def_01_block_s_desc		Basic cube-shaped building block.	基本立方形建筑块
@@ -2656,7 +2657,7 @@ def_astronomy_sensor_name		Astronomy Sensor	天文传感器
 def_astronomy_sensor_desc		Outputs relative position data based on the optimal target trajectory between the earth and moon.	根据地月之间的最佳目标轨迹输出相对位置数据
 def_astronomy_sensor_s_desc		A sensor that provides raw space navigation data.	提供原始空间导航数据的传感器
 def_astronomy_sensor_node_0_label		Data	混合输出
-def_astronomy_sensor_node_0_desc		Outputs [1] x position relative to earth-moon trajectory -1 to 1, [2] y position realtive to earth-moon trajectory 0 (earth) to 1 (moon), [3] z position relative to earth-moon trajectory -1 to 1, [4] euler rotation x, [5] euler rotation y, [6] euler rotation z, [7] angular velocity x, [8] angular velocity y, [9] angular velocity z, [10] local z tilt and [11] local x tilt to the respective composite channels.	数字通道:1.相对于地月轨迹的x位置(-1~1);2.相对于地月轨迹的y位置( 0(地球)~ 1(月球));3.相对于地月轨迹的z位置(-1~1);4.欧拉旋转X;5.欧拉旋转Y;6.欧拉旋转Z;7.角速度X;8.角速度Y;9.角速度Z;10.当地Z倾斜;11.当地X倾斜
+def_astronomy_sensor_node_0_desc		Outputs [1] x position in metres, [2] y position in metres (earth sea level is 0), [3] z position in metres, [4] euler rotation x, [5] euler rotation y, [6] euler rotation z, [7] angular velocity x, [8] angular velocity y, [9] angular velocity z, [10] local z tilt and [11] local x tilt to the respective composite channels.	数字通道:[1]x位置(米);[2]y位置(米)(地球海平面为 0);[3]z位置(米);[4]欧拉旋转x;[5]欧拉旋转y;[6]欧拉旋转z;[7]角速度x;[8]角速度y;[9]角速度z;[10]当地Z倾斜[11]当地x倾斜
 def_azimuth_thruster_name		Azimuth Thruster	方位推进器
 def_azimuth_thruster_desc		The thruster can be attached to a robotic pivot to provide steering as well as propulsion. This propeller will only operate underwater.	推进器可以连接收到机器的枢轴上，提供转向和推进。这个螺旋桨只能在水下工作
 def_azimuth_thruster_s_desc		An azimuth thruster for boats.	船用方位推进器
@@ -7012,7 +7013,7 @@ def_stair_top_name		Stair Top	楼梯顶部
 def_stair_top_desc			
 def_stair_top_s_desc		A single step that can be used at the top of a staircase to make it flush with a platform.	可以在楼梯顶部使用的单个台阶,使其与平台齐平
 def_steam_boiler_name		Steam Boiler	蒸汽锅炉
-def_steam_boiler_desc		The boiler should be connected to a firebox to supply heat for evaporation. Allowing too much pressure to build up in the boiler may cause an explosion; control your boiler's heat to restrict steam generation and keep the pressure below the threshold (10).	热流的温度大于100时,就可以开始产生蒸汽压力.更高的温度可以更快的产生压力.压力到达10锅炉就会爆炸.压力低于5会降低性能,5到10的压力似乎没有性能差异
+def_steam_boiler_desc		The boiler should be connected to a firebox to supply heat for evaporation. Control the rate of evaporation to maintain consistent output steam pressure.	锅炉应与火箱相连,为蒸发提供热量.控制蒸发速度,以保持稳定的输出蒸汽压力
 def_steam_boiler_s_desc		A boiler for evaporating water into steam.	蒸汽锅炉用于建造燃煤煤或核动力引擎。热源向锅炉提供热流体，淡水被转化为蒸汽排出
 def_steam_boiler_node_0_label		Coolant A	热水接口 A
 def_steam_boiler_node_0_desc		Port for supplying hot fluid to heat the contents of the boiler.	锅炉热流出入口
@@ -7026,8 +7027,6 @@ def_steam_boiler_node_4_label		Fluid Volume	剩余水量
 def_steam_boiler_node_4_desc			
 def_steam_boiler_node_5_label		Temperature	温度
 def_steam_boiler_node_5_desc			
-def_steam_boiler_node_6_label		Pressure	压力
-def_steam_boiler_node_6_desc			
 def_steam_coal_duct_name		Duct	输送管
 def_steam_coal_duct_desc		Transports resources through the connected system.	通过连接的系统输送资源
 def_steam_coal_duct_s_desc		A basic resource duct.	基础物资输送管
