@@ -456,7 +456,7 @@ id	description	en	local
 		Hardcore mode with permadeath (save file will be deleted upon death).	带有永久死亡的硬核模式(保存文件将在死亡时被删除)
 		Custom difficulty settings.	自定义难度设置
 		Custom mode. A sandbox environment with an array of settings to customise your session. Career or Creative.	自定义模式，随意设定你的游戏，无论是生涯还是创造
-		Classic mode. Career mode with research tree, third person, and teleport.	经典模式。具有研发树、第三人称模式、允许玩家传送
+		Classic mode. Career mode with research tree and third person.	经典模式。具有研发科技树和第三人称模式
 		Career mode. Expand your coastguard empire. Complete missions with survival style settings.	生涯模式。扩张你的海岸警卫队帝国，在更加生存风格的设置下完成任务
 		Custom game mode settings.	自定义游戏模式设置
 		PLEASE CHOOSE ANOTHER KEY	请选择其他按键
@@ -2040,7 +2040,7 @@ id	description	en	local
 		Cancel Tornado	取消龙卷风
 		Spawn Meteor	生成流星
 		Spawn Meteor Shower	生成流星雨
-		Spawn Volcanic Eruption	生成火山喷发
+		Spawn Eruption	生成火山爆发
 		Xmas Tree	圣诞树
 		Xmas Stormworks	圣诞风暴工程
 		Xmas Stormworks 2	圣诞风暴工程2
@@ -2467,6 +2467,7 @@ id	description	en	local
 		30 Dollar Train Yard	30美元列车场
 		A train yard adjacent to the Monkey Brain Launch site and Clarke Airfield.	连接猴脑发射场和克拉克机场的火车货场
 		Threshold (+/-)	阈值(+/-)
+		Clean Oil Spills	清除溢油
 def_01_block_name		Block	方块
 def_01_block_desc		The block is a quarter-metre in size. Components can be attached to all 6 faces.	这个方块有四分之一米大。组件可以连接收到所有6个面
 def_01_block_s_desc		Basic cube-shaped building block.	基本立方形建筑块
@@ -2656,7 +2657,7 @@ def_astronomy_sensor_name		Astronomy Sensor	天文传感器
 def_astronomy_sensor_desc		Outputs relative position data based on the optimal target trajectory between the earth and moon.	根据地月之间的最佳目标轨迹输出相对位置数据
 def_astronomy_sensor_s_desc		A sensor that provides raw space navigation data.	提供原始空间导航数据的传感器
 def_astronomy_sensor_node_0_label		Data	混合输出
-def_astronomy_sensor_node_0_desc		Outputs [1] x position relative to earth-moon trajectory -1 to 1, [2] y position realtive to earth-moon trajectory 0 (earth) to 1 (moon), [3] z position relative to earth-moon trajectory -1 to 1, [4] euler rotation x, [5] euler rotation y, [6] euler rotation z, [7] angular velocity x, [8] angular velocity y, [9] angular velocity z, [10] local z tilt and [11] local x tilt to the respective composite channels.	数字通道:1.相对于地月轨迹的x位置(-1~1);2.相对于地月轨迹的y位置( 0(地球)~ 1(月球));3.相对于地月轨迹的z位置(-1~1);4.欧拉旋转X;5.欧拉旋转Y;6.欧拉旋转Z;7.角速度X;8.角速度Y;9.角速度Z;10.当地Z倾斜;11.当地X倾斜
+def_astronomy_sensor_node_0_desc		Outputs [1] x position in metres, [2] y position in metres (earth sea level is 0), [3] z position in metres, [4] euler rotation x, [5] euler rotation y, [6] euler rotation z, [7] angular velocity x, [8] angular velocity y, [9] angular velocity z, [10] local z tilt and [11] local x tilt to the respective composite channels.	数字通道:[1]x位置(米);[2]y位置(米)(地球海平面为 0);[3]z位置(米);[4]欧拉旋转x;[5]欧拉旋转y;[6]欧拉旋转z;[7]角速度x;[8]角速度y;[9]角速度z;[10]当地Z倾斜[11]当地x倾斜
 def_azimuth_thruster_name		Azimuth Thruster	方位推进器
 def_azimuth_thruster_desc		The thruster can be attached to a robotic pivot to provide steering as well as propulsion. This propeller will only operate underwater.	推进器可以连接收到机器的枢轴上，提供转向和推进。这个螺旋桨只能在水下工作
 def_azimuth_thruster_s_desc		An azimuth thruster for boats.	船用方位推进器
@@ -4502,8 +4503,8 @@ def_inventory_equipment_first_aid_s_desc		A small equipment storage unit contain
 def_inventory_equipment_first_aid_node_0_label		Electric	电
 def_inventory_equipment_first_aid_node_0_desc		Electrical power connection.	电源连接
 def_inventory_equipment_fishing_rod_name		Equipment inventory (Fishing Rod)	装备架(鱼竿)
-def_inventory_equipment_fishing_rod_desc		Hold [$[action_equipment_use]] to repair damaged vehicle components highlighted by the players crosshair. This equipment has a limited fuel capacity and cannot be refilled.	装备鱼竿的装备架
-def_inventory_equipment_fishing_rod_s_desc		A large equipment storage unit containing a welding torch.	装备鱼竿的装备架
+def_inventory_equipment_fishing_rod_desc		Hold and release [$[action_equipment_use]] to load and cast the fishing line. Hold [$[action_equipment_secondary]] to reel in the fishing line.	按住[$[action_equipment_use]]并松开以抛出鱼线,按住[$[action_equipment_secondary]]收杆
+def_inventory_equipment_fishing_rod_s_desc		A large equipment storage unit containing a fishing rod.	大型装备架，存储一套鱼竿
 def_inventory_equipment_fishing_rod_node_0_label		Electric	电
 def_inventory_equipment_fishing_rod_node_0_desc		Electrical power connection.	电源连接
 def_inventory_equipment_flare_name		Equipment inventory (Flare)	装备架(手持燃烧照明棒)
@@ -4964,14 +4965,12 @@ def_liquid_rocket_node_1_label		Hydrogen	氢
 def_liquid_rocket_node_1_desc			
 def_liquid_rocket_node_2_label		Ignition	点火
 def_liquid_rocket_node_2_desc			
-def_liquid_rocket_node_3_label		Electric	电
+def_liquid_rocket_node_3_label		Gimbal Z	云台Z
 def_liquid_rocket_node_3_desc			
-def_liquid_rocket_node_4_label		Gimbal Z	云台Z
+def_liquid_rocket_node_4_label		Gimbal X	云台X
 def_liquid_rocket_node_4_desc			
-def_liquid_rocket_node_5_label		Gimbal X	云台X
+def_liquid_rocket_node_5_label		Throttle	节流阀
 def_liquid_rocket_node_5_desc			
-def_liquid_rocket_node_6_label		Throttle	节流阀
-def_liquid_rocket_node_6_desc			
 def_liquid_rocket_large_name		Liquid Fuel Rocket (Large)	液体火箭发动机(大)
 def_liquid_rocket_large_desc		Fuel with liquid oxygen and hydrogen.	以氢氧为燃料
 def_liquid_rocket_large_s_desc		A liquid fuel rocket engine.	液体火箭发动机
@@ -4981,14 +4980,12 @@ def_liquid_rocket_large_node_1_label		Hydrogen	氢
 def_liquid_rocket_large_node_1_desc			
 def_liquid_rocket_large_node_2_label		Ignition	点火
 def_liquid_rocket_large_node_2_desc			
-def_liquid_rocket_large_node_3_label		Electric	电
+def_liquid_rocket_large_node_3_label		Gimbal Z	云台Z
 def_liquid_rocket_large_node_3_desc			
-def_liquid_rocket_large_node_4_label		Gimbal Z	云台Z
+def_liquid_rocket_large_node_4_label		Gimbal X	云台X
 def_liquid_rocket_large_node_4_desc			
-def_liquid_rocket_large_node_5_label		Gimbal X	云台X
+def_liquid_rocket_large_node_5_label		Throttle	节流阀
 def_liquid_rocket_large_node_5_desc			
-def_liquid_rocket_large_node_6_label		Throttle	节流阀
-def_liquid_rocket_large_node_6_desc			
 def_liquid_rocket_small_name		Liquid Fuel Rocket (Small)	液体火箭发动机(小)
 def_liquid_rocket_small_desc		Fuel with liquid oxygen and hydrogen.	以氢氧为燃料
 def_liquid_rocket_small_s_desc		A liquid fuel rocket engine.	液体火箭发动机
@@ -4998,14 +4995,12 @@ def_liquid_rocket_small_node_1_label		Hydrogen	氢
 def_liquid_rocket_small_node_1_desc			
 def_liquid_rocket_small_node_2_label		Ignition	点火
 def_liquid_rocket_small_node_2_desc			
-def_liquid_rocket_small_node_3_label		Electric	电
+def_liquid_rocket_small_node_3_label		Gimbal Z	云台Z
 def_liquid_rocket_small_node_3_desc			
-def_liquid_rocket_small_node_4_label		Gimbal Z	云台Z
+def_liquid_rocket_small_node_4_label		Gimbal X	云台X
 def_liquid_rocket_small_node_4_desc			
-def_liquid_rocket_small_node_5_label		Gimbal X	云台X
+def_liquid_rocket_small_node_5_label		Throttle	节流阀
 def_liquid_rocket_small_node_5_desc			
-def_liquid_rocket_small_node_6_label		Throttle	节流阀
-def_liquid_rocket_small_node_6_desc			
 def_magall_name		Mag All	万能磁头
 def_magall_desc		While the connector is active the end will glow and it will stick to most surfaces that it touches. The connection will break if enough stress (200) is applied.	当连接件处于活动状态时，末端将发光，并将粘住其接触的大多数曲面。如果施加足够的应力(200)，连接将断开
 def_magall_s_desc		A small connector that will attach to most surfaces.	连接收到大多数表面的小连接头
@@ -6186,9 +6181,9 @@ def_rx_directional_node_6_desc		Strength of connection signal.	信号的强度
 def_rx_directional_node_7_label		Transmit Mode	传输模式
 def_rx_directional_node_7_desc		Whether the radio is transmitting or receiving.	无线电是发射还是接收
 def_rx_directional_node_8_label		Target Pitch	目标俯仰(Pitch)
-def_rx_directional_node_8_desc		Target dish pitch in turns.	以圈为单位的俯仰(Pitch)数据
+def_rx_directional_node_8_desc		Target dish pitch in turns. Max 0.1	以圈为单位的俯仰(Pitch)数据,最大值0.1
 def_rx_directional_node_9_label		Target Yaw	目标偏航(Yaw)
-def_rx_directional_node_9_desc		Target dish yaw in turns. Max 0.1	以圈为单位的偏航(Yaw)数据,最大0.1
+def_rx_directional_node_9_desc		Target dish yaw in turns.	以圈为单位的偏航(Yaw)数据
 def_rx_directional_node_10_label		Video Send	视频发送
 def_rx_directional_node_10_desc		Input for video data to send.	输入以发送视频数据
 def_rx_directional_node_11_label		Video Recv	视频接收
@@ -6213,9 +6208,9 @@ def_rx_directional_large_node_6_desc		Strength of connection signal.	信号的�
 def_rx_directional_large_node_7_label		Transmit Mode	传输模式
 def_rx_directional_large_node_7_desc		Whether the radio is transmitting or receiving.	无线电是发射还是接收
 def_rx_directional_large_node_8_label		Target Pitch	目标俯仰(Pitch)
-def_rx_directional_large_node_8_desc		Target dish pitch in turns.	以圈为单位的俯仰(Pitch)数据
+def_rx_directional_large_node_8_desc		Target dish pitch in turns. Max 0.1	以圈为单位的俯仰(Pitch)数据
 def_rx_directional_large_node_9_label		Target Yaw	目标偏航(Yaw)
-def_rx_directional_large_node_9_desc		Target dish yaw in turns. Max 0.1	以圈为单位的偏航(Yaw)数据,最大0.1
+def_rx_directional_large_node_9_desc		Target dish yaw in turns.	以圈为单位的偏航(Yaw)数据,最大0.1
 def_rx_directional_large_node_10_label		Video Send	视频发送
 def_rx_directional_large_node_10_desc		Input for video data to send.	输入以发送视频数据
 def_rx_directional_large_node_11_label		Video Recv	视频接收
@@ -7018,7 +7013,7 @@ def_stair_top_name		Stair Top	楼梯顶部
 def_stair_top_desc			
 def_stair_top_s_desc		A single step that can be used at the top of a staircase to make it flush with a platform.	可以在楼梯顶部使用的单个台阶,使其与平台齐平
 def_steam_boiler_name		Steam Boiler	蒸汽锅炉
-def_steam_boiler_desc		The boiler should be connected to a firebox to supply heat for evaporation. Allowing too much pressure to build up in the boiler may cause an explosion; control your boiler's heat to restrict steam generation and keep the pressure below the threshold (10).	热流的温度大于100时,就可以开始产生蒸汽压力.更高的温度可以更快的产生压力.压力到达10锅炉就会爆炸.压力低于5会降低性能,5到10的压力似乎没有性能差异
+def_steam_boiler_desc		The boiler should be connected to a firebox to supply heat for evaporation. Control the rate of evaporation to maintain consistent output steam pressure.	锅炉应与火箱相连,为蒸发提供热量.控制蒸发速度,以保持稳定的输出蒸汽压力
 def_steam_boiler_s_desc		A boiler for evaporating water into steam.	蒸汽锅炉用于建造燃煤煤或核动力引擎。热源向锅炉提供热流体，淡水被转化为蒸汽排出
 def_steam_boiler_node_0_label		Coolant A	热水接口 A
 def_steam_boiler_node_0_desc		Port for supplying hot fluid to heat the contents of the boiler.	锅炉热流出入口
@@ -7032,8 +7027,6 @@ def_steam_boiler_node_4_label		Fluid Volume	剩余水量
 def_steam_boiler_node_4_desc			
 def_steam_boiler_node_5_label		Temperature	温度
 def_steam_boiler_node_5_desc			
-def_steam_boiler_node_6_label		Pressure	压力
-def_steam_boiler_node_6_desc			
 def_steam_coal_duct_name		Duct	输送管
 def_steam_coal_duct_desc		Transports resources through the connected system.	通过连接的系统输送资源
 def_steam_coal_duct_s_desc		A basic resource duct.	基础物资输送管
