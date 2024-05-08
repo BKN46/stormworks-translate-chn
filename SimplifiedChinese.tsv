@@ -441,7 +441,7 @@ id	description	en	local
 		SPAWN MISSION	生成任务
 		REMOVE MISSION	删除任务
 		BEGIN RESEARCH	开始研究
-		Are you sure you want to begin researching ###?\n\nThis will spend some of your Research Points and cannot be cancelled.	你确定要开始研究吗？\n\n这将花费您的一些研究点，无法取消
+		Are you sure you want to begin researching ###?\n\nThis will spend some of your Research Points and cannot be cancelled.	你确定要开始研究 ### 吗？\n\n这将花费您的一些研究点，无法取消
 		Are you sure you want to remove this mission?\n\nThis will cause all spawned objects and vehicles created by this mission to be removed from the world.\n\n(You can respawn this mission from the mission selector)	确定要删除此任务吗？\n\n这将导致此任务创建的所有衍生对象和载具从世界上删除。\n\n(您可以从任务选择器重新生成此任务)
 		Map	地图
 		Missions	任务
@@ -562,7 +562,7 @@ id	description	en	local
 		CLEAR BINDING	清除绑定
 		Are you sure you want to clear this binding?	确定要清除此绑定吗？
 		The resolution in the persistent graphics settings is not available. Defaulting to the current resolution.	持续性图形设置中的分辨率不可用。默认为当前分辨率
-		Are you sure you want to clear the binding for ###?	是否确实要清除 #### 的绑定？
+		Are you sure you want to clear the binding for ###?	是否确实要清除 ### 的绑定？
 		Are you sure you want to reset your graphics settings to their defaults?	确定要将图形设置重置为默认设置吗？
 		Are you sure you want to reset your audio settings to their defaults?	确定要将音频设置重置为默认设置吗？
 		Are you sure you want to reset your controls settings to their defaults?	是否确实要将控制设置重置为其默认值？
@@ -901,7 +901,7 @@ id	description	en	local
 		Spawn Failed	生成失败
 		Spawned Mission	生成的任务
 		New Mission	新任务
-		### could not be spawned	### 无法生成
+		### could not be spawned	无法生成 ###
 		No location set	未设置位置
 		GAME MODE	游戏模式
 		World Seed	世界种子
@@ -966,13 +966,13 @@ id	description	en	local
 		Cannot Edit ### When Carrying Someone	携带某人时无法编辑 ###
 		PRESS [###] AGAIN TO REPLACE OR CHOOSE ANOTHER KEY	再次按[###]以替换或选择另一个键
 		[###] is reserved for showing/hiding the profiler	[###] 已经保留用于显示/隐藏分析器
-		[###] is a reserved key	[####] 是保留键
-		Mission '###' must be renamed to something other than '###'	任务“###”必须重命名为“#####”以外的其他名称
+		[###] is a reserved key	[###] 是保留键
+		Mission '###' must be renamed to something other than '###'	任务“###”必须重命名为“###”以外的其他名称
 		Objective ### in mission '###' has no name	任务“###”中的目标“###”没有名称
 		Objective ### in mission '###' has no description	任务“###”中的目标“###”没有描述
 		Objective ### in mission '###' has unfulfilled component dependencies	任务“###”中的目标“###”具有未实现的组件依赖
-		### is already bound to [###]	###已绑定到[####]
-		### is bound to [###]	###绑定到[####]
+		### is already bound to [###]	###已绑定到[###]
+		### is bound to [###]	###绑定到[###]
 		Starter Base	新手基地
 		Features a small dock.	有一个小码头
 		Creative Base	创造模式基地
@@ -1386,7 +1386,7 @@ id	description	en	local
 		Vehicle Functionality	载具功能
 		Misc.	杂项
 		tags	标签
-		 (Made by ###)	(由####制造)
+		 (Made by ###)	(由###制造)
 		SERVER: ### TPS	服务器:### TPS
 		### Degrees	###度
 		Last updated ###	上次更新时间###
@@ -1554,7 +1554,7 @@ id	description	en	local
 		Add Trigger	添加触发器
 		NEW VEHICLE	新载具
 		NEW MICROCONTROLLER	新型微控制器
-		Hold ### to enable multi-linking	按住####可启用多链接
+		Hold ### to enable multi-linking	按住###可启用多链接
 		Press ### to focus on hovered blocks	按###将焦点放在悬浮方块上
 		Press ### to focus on hovered logic nodes	按###将焦点放在悬浮的逻辑节点上
 		Press ### to focus on highlighted components	按###将焦点放在突出显示的组件上
@@ -1740,7 +1740,7 @@ id	description	en	local
 		META FROM THE DEVS	来自开发组的参考
 		This scripting API is very powerful and as such there are some important reminders to take note of:\n\n- Your script has a max execution time of 1000 milliseconds, however it is still possible to create scripts that significantly slow down the game. It is your responsibility to ensure your script runs efficiently.\n\n- Random number functions are provided by the Lua math library. Use of randomness in your scripts is likely to cause desync in multiplayer, so use these functions at your own risk.\n\n- When your vehicle despawns and respawns, your script will be executed 'fresh' and any state stored within the script will be lost. We recommend keeping your script as stateless as possible, and making use of existing logic components (e.g. memory register) to store values that you wish to persist.\n\n- Your scripts run as a 'black box' with only the logic inputs/outputs being synced in multiplayer. Keep in mind that complex logic in your script may behave differently for different players in a multiplayer session.\n\n- A number of safeguards are in place to sandbox your script, however it is still possible to write scripts that will potentially crash your game. If you crash your game with a script, it's likely that you're doing something (very) wrong. This is your own responsibility. If you suspect you have encountered a legitimate bug, please report it on the Stormworks issue tracker (accessible from the pause-menu).\n\n- Malicious and harmful scripts will not be tolerated on the Stormworks Steam Workshop.\n\nFinally, enjoy the almost limitless possibilities that these scripts provide. This short wiki aims to give a good overview of how scripting in Stormworks works, however if you have any questions that are not covered here, please feel free to join us on Discord (accessible from the pause-menu)!	这个脚本API非常强大，因此有一些重要的提示需要注意:\n\n-您的脚本的最大执行时间为1000毫秒，但是仍然可以创建显著减慢游戏速度的脚本。确保脚本有效运行是您的责任。\n\n-Lua数学库提供随机数函数。在脚本中使用随机性可能会在多人游戏中导致desync，因此使用这些功能的风险由您自己承担。\n\n-当您的载具报废和重生时，您的脚本将被“刷新”执行，脚本中存储的任何状态都将丢失。我们建议尽可能使脚本保持无状态，并使用现有的逻辑组件(例如内存寄存器)来存储希望保持的值。\n\n-脚本作为“黑盒”运行，只有逻辑输入/输出在多人游戏中同步。请记住，脚本中的复杂逻辑对于多人会话中的不同玩家可能会有不同的行为。\n\n-有许多保护措施可以对脚本进行沙箱处理，但是仍然可以编写可能会导致游戏崩溃的脚本。如果你用脚本把游戏搞崩溃了，你(很)可能写错了什么。这是你自己的责任。如果怀疑遇到了游戏本身的错误，请在Stormworks问题跟踪程序(可从“暂停”菜单访问)上报告。\n\n-Stormworks Steam创意工坊不允许恶意和有害的脚本。\n\n最后，享受这些脚本提供的几乎无限的可能性。这个简短的wiki旨在很好地概述Stormworks中的脚本是如何工作的，但是如果您有任何此处未涉及的问题，请随时加入我们的Discord(可从暂停菜单访问)！
 		TOUCHSCREEN DATA	触摸屏数据
-		The composite output from the monitors contains data that can be interpreted in your script to create touchscreens. The layout of the composite data is as follows:\n\nNumber Channels\n1: monitorResolutionX\n2: monitorResolutionY\n3: input1X\n4: input1Y\n5: input2X\n6: input2Y\n\nOn/Off Channels:\n1: isInput1Pressed\n2: isInput2Pressed\n\nThis is an example of a script that outputs a signal on composite channel 1 if the player is pressing the screen within a specific rectangle:	屏幕的复合输出包含可以在脚本中解释以创建触摸屏的数据。组合数据的布局如下所示:\n\n频道数\n1:monitorResolutionX\n2:monitorresolution\n3:input1X\n4:input1Y\n5:input2X\n6:input2Y\n\n非/非频道:\n1:isInput1Pressed\n2:isInput2Pressed\n\n这是一个脚本示例，如果玩家在一个特定矩形:
+		The composite output from the monitors contains data that can be interpreted in your script to create touchscreens. The layout of the composite data is as follows:\n\nNumber Channels\n1: monitorResolutionX\n2: monitorResolutionY\n3: input1X\n4: input1Y\n5: input2X\n6: input2Y\n\nOn/Off Channels:\n1: isInput1Pressed\n2: isInput2Pressed\n\nThis is an example of a script that outputs a signal on composite channel 1 if the player is pressing the screen within a specific rectangle:	屏幕的复合输出包含可以在脚本中解释以创建触摸屏的数据。组合数据的布局如下所示:\n\n数字频道:\n1:monitorResolutionX\n2:monitorresolutionY\n3:input1X\n4:input1Y\n5:input2X\n6:input2Y\n\n开关频道:\n1:isInput1Pressed\n2:isInput2Pressed\n\n这是一个脚本示例，如果玩家在一个特定矩形:
 		Check Errors	检查错误
 		Script	脚本
 		Help	帮助
@@ -2469,7 +2469,7 @@ id	description	en	local
 		Threshold (+/-)	阈值(+/-)
 		Clean Oil Spills	清除溢油
 def_01_block_name		Block	方块
-def_01_block_desc		The block is a quarter-metre in size. Components can be attached to all 6 faces.	这个方块有四分之一米大。组件可以连接收到所有6个面
+def_01_block_desc		The block is a quarter-metre in size. Components can be attached to all 6 faces.	这个方块边长25cm,可以连接收到所有6个面
 def_01_block_s_desc		Basic cube-shaped building block.	基本立方形建筑块
 def_01_block_static_name		Static Block	基准块
 def_01_block_static_desc		This block cannot be removed.	无法删除此块
@@ -2477,52 +2477,52 @@ def_01_block_static_s_desc		Static root block used as a base for all vehicles.	�
 def_01_block_weight_name		Weight Block	配重块
 def_01_block_weight_desc		Weight blocks have a larger impact on the vehicle's centre of mass, making them useful for balance and stability.	配重块对载具的质心有较大的影响，使其有助于平衡和稳定
 def_01_block_weight_s_desc		Basic cube-shaped building block with an increased mass.	高重量的基本立方形建筑块
-def_02_wedge_name		Wedge	楔形块
+def_02_wedge_name		Wedge	楔形块1x1
 def_02_wedge_desc		Components can be attached to all faces, with the exception of the sloped face.	组件可以附着到除斜面外的所有面
 def_02_wedge_s_desc		Basic wedge-shaped building block.	基本的楔形建筑块
-def_03_pyramid_name		Pyramid	锥形块
+def_03_pyramid_name		Pyramid	锥形块1x1
 def_03_pyramid_desc		Components can be attached to all faces, with the exception of the triangular face. Pyramids can act as a corner-piece for perpendicular lines of wedge blocks.	组件可以附加到除三角面外的所有面。锥形块可以作为楔形块侧面的角件
 def_03_pyramid_s_desc		Basic pyramid-shaped building block. 	基本的锥形建筑块
-def_04_invpyramid_name		Inverse Pyramid	倒锥形块
+def_04_invpyramid_name		Inverse Pyramid	倒锥形块1x1
 def_04_invpyramid_desc		Components can be attached to all faces, with the exception of the triangular face. Inverse pyramids are useful for closing gaps between perpendicular lines of wedge and pyramid blocks.	组件可以附加到除三角面的所有面。倒锥形块用于填补楔形块侧面和锥形块之间的间隙
 def_04_invpyramid_s_desc		Basic inverse pyramid-shaped building block.	基本的倒锥形建筑块
-def_05_wedge_2_name		Wedge 1x2	1x2楔形块
+def_05_wedge_2_name		Wedge 1x2	楔形块1x2
 def_05_wedge_2_desc		Components can be attached to all faces, with the exception of the sloped face.	组件可以附着到除斜面外的所有面
 def_05_wedge_2_s_desc		1x2 wedge-shaped building block.	1x2楔形建筑块
-def_06_pyramid_2_name		Pyramid 1x2	1x2锥形块
+def_06_pyramid_2_name		Pyramid 1x2	锥形块1x2
 def_06_pyramid_2_desc		Components can be attached to all faces, with the exception of the triangular face. Pyramids can act as a corner-piece for perpendicular lines of wedge blocks.	组件可以附加到除三角面外的所有面。锥形块可以作为楔形块侧面的角件
 def_06_pyramid_2_s_desc		1x2 pyramid-shaped building block. 	1x2楔形形建筑块
-def_07_invpyramid_2_name		Inverse pyramid 1x2	1x2倒锥形块
+def_07_invpyramid_2_name		Inverse pyramid 1x2	倒锥形块1x2
 def_07_invpyramid_2_desc		Components can be attached to all faces, with the exception of the triangular face. Inverse pyramids are useful for closing gaps between perpendicular lines of wedge and pyramid blocks.	组件可以附加到组件可以附加到除三角面外的所有面所有面。倒锥形块用于填补楔形块侧面和锥形块之间的间
 def_07_invpyramid_2_s_desc		1x2 inverse pyramid-shaped building block.	1x2倒锥形建筑块
-def_08_wedge_4_name		Wedge 1x4	1x4楔形块
+def_08_wedge_4_name		Wedge 1x4	楔形块1x4
 def_08_wedge_4_desc		Components can be attached to all faces, with the exception of the sloped face.	组件可以附着到除斜面外的所有面
 def_08_wedge_4_s_desc		1x4 wedge-shaped building block.	1x4楔形形建筑块
-def_09_pyramid_4_name		Pyramid 1x4	1x4锥形块
+def_09_pyramid_4_name		Pyramid 1x4	锥形块1x4
 def_09_pyramid_4_desc		Components can be attached to all faces, with the exception of the triangular face. Pyramids can act as a corner-piece for perpendicular lines of wedge blocks.	组件可以附加到除三角面外的所有面。锥形块可以作为楔形块侧面的角件
 def_09_pyramid_4_s_desc		1x4 pyramid-shaped building block. 	1x4锥形建筑块
-def_10_invpyramid_4_name		Inverse Pyramid 1x4	1x4倒锥形块
+def_10_invpyramid_4_name		Inverse Pyramid 1x4	倒锥形块1x4
 def_10_invpyramid_4_desc		Components can be attached to all faces, with the exception of the triangular face. Inverse pyramids are useful for closing gaps between perpendicular lines of wedge and pyramid blocks.	组件可以附加到组件可以附加到除三角面外的所有面所有面。倒锥形块用于填补楔形块侧面和锥形块之间的间
 def_10_invpyramid_4_s_desc		1x4 inverse pyramid-shaped building block.	1x4倒锥形建筑块
-def_11_pyramid_2x2_name		Pyramid 2x2	楔形2x2
+def_11_pyramid_2x2_name		Pyramid 2x2	金字塔形2x2
 def_11_pyramid_2x2_desc		Components can be attached to all faces, with the exception of the triangular face. Pyramids can act as a corner-piece for perpendicular lines of wedge blocks.	组件可以附加到除三角面外的所有面。锥形块可以作为楔形块侧面的角件
 def_11_pyramid_2x2_s_desc		2x2 pyramid-shaped building block. 	2x2锥形建筑块
-def_12_pyramid_2x4_name		Pyramid 2x4	楔形2x4
+def_12_pyramid_2x4_name		Pyramid 2x4	金字塔形2x4
 def_12_pyramid_2x4_desc		Components can be attached to all faces, with the exception of the triangular face. Pyramids can act as a corner-piece for perpendicular lines of wedge blocks.	组件可以附加到除三角面外的所有面。锥形块可以作为楔形块侧面的角件
 def_12_pyramid_2x4_s_desc		2x4 pyramid-shaped building block. 	2x4锥形建筑块
-def_13_pyramid_4x4_name		Pyramid 4x4	楔形4x4
+def_13_pyramid_4x4_name		Pyramid 4x4	金字塔形4x4
 def_13_pyramid_4x4_desc		Components can be attached to all faces, with the exception of the triangular face. Pyramids can act as a corner-piece for perpendicular lines of wedge blocks.	组件可以附加到除三角面外的所有面。锥形块可以作为楔形块侧面的角件
 def_13_pyramid_4x4_s_desc		4x4 pyramid-shaped building block. 	4x4锥形建筑块
-def_14_invpyramid_2x2_name		Inverse Pyramid 2x2	倒楔形2x2
+def_14_invpyramid_2x2_name		Inverse Pyramid 2x2	倒金字塔2x2
 def_14_invpyramid_2x2_desc		Components can be attached to all faces, with the exception of the triangular face. Pyramids can act as a corner-piece for perpendicular lines of wedge blocks.	组件可以附加到除三角面外的所有面。锥形块可以作为楔形块侧面的角件
 def_14_invpyramid_2x2_s_desc		2x2 inverse pyramid-shaped building block.	2x2倒锥形建筑块
-def_15_invpyramid_2x4_name		Inverse Pyramid 2x4	倒楔形2x4
+def_15_invpyramid_2x4_name		Inverse Pyramid 2x4	倒金字塔2x4
 def_15_invpyramid_2x4_desc		Components can be attached to all faces, with the exception of the triangular face. Pyramids can act as a corner-piece for perpendicular lines of wedge blocks.	组件可以附加到除三角面外的所有面。锥形块可以作为楔形块侧面的角件
 def_15_invpyramid_2x4_s_desc		2x4 inverse pyramid-shaped building block.	2x4倒锥形建筑块
-def_16_invpyramid_4x4_name		Inverse Pyramid 4x4	倒楔形4x4
+def_16_invpyramid_4x4_name		Inverse Pyramid 4x4	倒金字塔4x4
 def_16_invpyramid_4x4_desc		Components can be attached to all faces, with the exception of the triangular face. Pyramids can act as a corner-piece for perpendicular lines of wedge blocks.	组组件可以附加到除三角面外的所有面。锥形块可以作为楔形块侧面的角件
 def_16_invpyramid_4x4_s_desc		4x4 inverse pyramid-shaped building block.	4x4倒锥形建筑块
-def_aircraft_engine_name		Medium Engine	中型发动机
+def_aircraft_engine_name		Medium Engine	发动机(中型)
 def_aircraft_engine_desc		An on/off signal controls engine startup and throttle signal controls energy output.	开/关信号控制发动机操作，油门信号控制能量输出
 def_aircraft_engine_s_desc		Medium diesel engine that can be connected to powered components.	可连接收到动力部件的中型柴油机
 def_aircraft_engine_node_0_label		Throttle	节流阀
@@ -2668,21 +2668,21 @@ def_barometer_desc		Returns the pressure in atmospheres of the compartment or cu
 def_barometer_s_desc		Measures the current air pressure.	测量气压
 def_barometer_node_0_label		Pressure	压强
 def_barometer_node_0_desc			
-def_battery_large_name		Electric Battery Large	大型电池
+def_battery_large_name		Electric Battery Large	电池(大)
 def_battery_large_desc			
 def_battery_large_s_desc		A large battery array for storing electrical charge.	储存电荷的大型电池阵列
 def_battery_large_node_0_label		Electric Store	电力储存
 def_battery_large_node_0_desc		Energy storage for the electrical system.	电力系统的能量储存
 def_battery_large_node_1_label		Charge	剩余电量
 def_battery_large_node_1_desc		Data output giving the charge of the battery from 0 to 1.	从0到1显示电池电量的数据输出
-def_battery_medium_name		Electric Battery Medium	中型电池
+def_battery_medium_name		Electric Battery Medium	电池(中)
 def_battery_medium_desc			
 def_battery_medium_s_desc		A medium battery for storing electrical charge.	储存电荷的中型电池
 def_battery_medium_node_0_label		Electric Store	电力存储
 def_battery_medium_node_0_desc		Energy storage for the electrical system.	电力系统的能量储存
 def_battery_medium_node_1_label		Charge	剩余电量
 def_battery_medium_node_1_desc		Data output giving the charge of the battery from 0 to 1.	从0到1显示电池电量的数据输出
-def_battery_small_name		Electric Battery Small	小型电池
+def_battery_small_name		Electric Battery Small	电池(小)
 def_battery_small_desc			
 def_battery_small_s_desc		A small battery for storing electrical charge.	储存电荷的小型电池
 def_battery_small_node_0_label		Electric Store	电力存储
@@ -2698,7 +2698,7 @@ def_button_key_node_1_label		External Input	外部输入
 def_button_key_node_1_desc		Allows an external on/off signal to hold the button down.	允许外部开/关信号按住按钮
 def_button_key_node_2_label		Electric	电
 def_button_key_node_2_desc		Electrical power connection.	电源连接
-def_button_keypad_large_name		Large Keypad	大键盘
+def_button_keypad_large_name		Large Keypad	键盘(大)
 def_button_keypad_large_desc		Interacting with the keypad will show a menu where the 2 numbers can be entered, along with a button for quickly inputting waypoint coordinates. A short pulse will be emitted from the keypad's pulse node when the confirm button is clicked and the stored numbers will be continuously output from the other output nodes. An on/off signal controls whether or not the keypad's backlight is enabled.	按下键盘将显示一个可输入2个数字的菜单，以及一个快速输入航路点坐标的按钮。当点击确认按钮时，键盘的脉冲节点将发出一个短脉冲，存储的数字将从其他输出节点连续输出。开/关信号控制键盘背光是否启用
 def_button_keypad_large_s_desc		A keypad that allows 2 numbers to be input.	允许输入两个数字的小键盘
 def_button_keypad_large_node_0_label		Output A	输出A
@@ -2711,7 +2711,7 @@ def_button_keypad_large_node_3_label		Pulse	脉冲
 def_button_keypad_large_node_3_desc		Emits a short pulse when a value is entered.	输入值时发出短脉冲
 def_button_keypad_large_node_4_label		Electric	电
 def_button_keypad_large_node_4_desc		Electrical power connection.	电源连接
-def_button_keypad_small_name		Small Keypad	小键盘
+def_button_keypad_small_name		Small Keypad	键盘(小)
 def_button_keypad_small_desc		Interacting with the keypad will show a menu where the number can be entered. The stored numbers will be continuously output from the other output node. An on/off signal controls whether or not the keypad's backlight is enabled.	按键盘将显示一个可输入数字的菜单。存储的数字将从另一个输出节点连续输出。开/关信号控制键盘背光是否启用
 def_button_keypad_small_s_desc		A keypad that allows a number to be input.	允许输入数字的小键盘
 def_button_keypad_small_node_0_label		Output	输出
@@ -2720,7 +2720,7 @@ def_button_keypad_small_node_1_label		Backlight	背光
 def_button_keypad_small_node_1_desc		Enables the backlight when receiving an on signal.	接收到打开信号时启用背光
 def_button_keypad_small_node_2_label		Electric	电
 def_button_keypad_small_node_2_desc		Electrical power connection.	电源连接
-def_button_lock_name		Lockable Button	可锁定按钮
+def_button_lock_name		Lockable Button	按钮(可锁定)
 def_button_lock_desc		An on signal must be sent to the button's unlock node to allow player interaction. The button's default state can be configured by selecting it with the select component.	向按钮的解锁节点发送打开信号才能允许玩家交互。通过使用选择功能可以配置该按钮的默认状态
 def_button_lock_s_desc		A toggle button that can only be interacted with when unlocked.	只有解锁时才能与之交互的切换按钮
 def_button_lock_node_0_label		Toggled	切换
@@ -2729,7 +2729,7 @@ def_button_lock_node_1_label		Unlock	解锁
 def_button_lock_node_1_desc		Allows the button to be interacted with when receiving an on signal.	允许按钮在接收到打开信号时与之交互
 def_button_lock_node_2_label		Electric	电
 def_button_lock_node_2_desc		Electrical power connection.	电源连接
-def_button_push_name		Push Button	按压按钮
+def_button_push_name		Push Button	按钮(按压式)
 def_button_push_desc		An external on/off signal can also be used to control whether or not the button is pressed, allowing you to chain multiple buttons together to unify their outputs.	外部开/关信号也可用于控制是否按下按钮，允许您将多个按钮链接在一起，以统一其输出
 def_button_push_s_desc		A button that outputs an on signal when you interact with [$[action_interact_left]]/[$[action_interact_right]], and an off signal when not interacting.	当你按住[$[action_interact_left]]/[$[action_interact_right]]时输出on信号;松开时输出off信号
 def_button_push_node_0_label		Pressed	按下
@@ -2738,7 +2738,7 @@ def_button_push_node_1_label		External Input	外部输入
 def_button_push_node_1_desc		Allows an external on/off signal to control whether or not the button is pressed.	允许外部开/关信号控制按钮是否按下
 def_button_push_node_2_label		Electric	电
 def_button_push_node_2_desc		Electrical power connection.	电源连接
-def_button_push_2side_name		Push Button (2 Sided)	按压按钮(双面)
+def_button_push_2side_name		Push Button (2 Sided)	按钮(双面按压式)
 def_button_push_2side_desc		An external on/off signal can also be used to control whether or not the button is pressed, allowing you to chain multiple buttons together to unify their outputs.	外部开/关信号也可用于控制是否按下按钮，允许您将多个按钮链接在一起，以统一其输出
 def_button_push_2side_s_desc		A button that outputs an on signal when interacting with [$[action_interact_left]]/[$[action_interact_right]].	当你按住[$[action_interact_left]]/[$[action_interact_right]]时输出一个on信号;松开输出一个off信号
 def_button_push_2side_node_0_label		Pressed	按下
@@ -2758,7 +2758,7 @@ def_button_throttle_lever_node_2_label		Throttle	节流阀
 def_button_throttle_lever_node_2_desc		Outputs the stored Throttle Value.	输出存储的油门值
 def_button_throttle_lever_node_3_label		Electric	电
 def_button_throttle_lever_node_3_desc		Electrical power connection.	电源连接
-def_button_toggle_name		Toggle Button	开关按钮
+def_button_toggle_name		Toggle Button	按钮(切换式)
 def_button_toggle_desc		An external on/off signal can also be used to control whether or not the button is pressed, allowing you to chain multiple buttons together to unify their outputs. The button's default state can be configured by selecting it with the select component.	外部开/关信号也可用于控制是否按下按钮，允许您将多个按钮链接在一起，以统一其输出。通过使用select组件选择按钮，可以配置该按钮的默认状态
 def_button_toggle_s_desc		A button that toggles between sending an on or off signal when you press [$[action_interact_left]]/[$[action_interact_right]] on it.	当您按[$[action_interact_left]]/[$[action_interact_right]]时，在发送开或关信号之间切换的按钮
 def_button_toggle_node_0_label		Toggled	切换
@@ -2767,7 +2767,7 @@ def_button_toggle_node_1_label		External Input	外部输入
 def_button_toggle_node_1_desc		Allows an external on/off signal to control whether or not the button is pressed.	允许外部开/关信号控制按钮是否按下
 def_button_toggle_node_2_label		Electric	电
 def_button_toggle_node_2_desc		Electrical power connection.	电源连接
-def_button_toggle_2side_name		Toggle Button (2 Sided)	开关按钮(双面)
+def_button_toggle_2side_name		Toggle Button (2 Sided)	按钮(双面切换式)
 def_button_toggle_2side_desc		An external on/off signal can also be used to control whether or not the button is pressed, allowing you to chain multiple buttons together to unify their outputs. The button's default state can be configured by selecting it with the select component.	外部开/关信号也可用于控制是否按下按钮，允许您将多个按钮链接在一起，以统一其输出。通过使用select组件选择按钮，可以配置该按钮的默认状态
 def_button_toggle_2side_s_desc		A button that toggles between sending an on or off signal when you press [$[action_interact_left]]/[$[action_interact_right]] on it.	当您按[$[action_interact_left]]/[$[action_interact_right]]时，在发送开或关信号之间切换的按钮
 def_button_toggle_2side_node_0_label		Toggled	切换
@@ -2825,8 +2825,8 @@ def_camera_gimbal_laser_node_10_label		Composite Output	混合输出
 def_camera_gimbal_laser_node_10_desc		x, y, z output for the laser target in channels 1, 2, 3 respectively.	输出目标x,y,z轴位置，对应1,2,3通道
 def_camera_gimbal_laser_node_11_label		Laser Wavelength	激光编码
 def_camera_gimbal_laser_node_11_desc		The specific light wavelength to emit (whole number).	激光编码(整数),激光传感器需要使用相同的编码才能识别激光照射
-def_camera_med_name		Camera Medium	中型摄像头
-def_camera_med_desc		Has infrared mode as well as variable field of view. Can be pivoted up to 0.125 turns using composite input.	具有红外模式以及可变视野,可以使用混合输入控制0.125圈的旋转
+def_camera_med_name		Camera Medium	摄像头(中型)
+def_camera_med_desc		Has infrared mode as well as variable field of view. Can be pivoted up to 0.125 turns using composite input.	具有红外模式以及可变视野,可以使用混合输入控制0.125圈的视野移动
 def_camera_med_s_desc		A camera with video output feed.	有视频输出的摄像头
 def_camera_med_node_0_label		Camera Feed	摄像头输出
 def_camera_med_node_0_desc			
@@ -2838,8 +2838,8 @@ def_camera_med_node_3_label		Field of View	视野
 def_camera_med_node_3_desc		Controls the level of zoom of the camera.	控制摄像头的缩放级别
 def_camera_med_node_4_label		Pivot	轴
 def_camera_med_node_4_desc		Inputs for camera X/Y pivot. (Value 1 : Pivot X) (Value 2 : Pivot Y)	摄像头的X/Y轴数值(数值1:X轴,数值2:Y轴)
-def_camera_small_name		Camera Small	小型摄像机
-def_camera_small_desc		Can be pivoted up to 0.125 turns using composite input.	可以使用混合输入控制0.125圈的旋转
+def_camera_small_name		Camera Small	摄像头(小型)
+def_camera_small_desc		Can be pivoted up to 0.125 turns using composite input.	可以使用混合输入控制0.125圈的视野移动
 def_camera_small_s_desc		A camera with video output feed.	有视频输出的摄像头
 def_camera_small_node_0_label		Camera Feed	摄像头输出
 def_camera_small_node_0_desc			
@@ -2848,7 +2848,7 @@ def_camera_small_node_1_desc
 def_camera_small_node_2_label		Pivot	轴
 def_camera_small_node_2_desc		Inputs for camera X/Y pivot. (Value 1 : Pivot X) (Value 2 : Pivot Y)	摄像头的X/Y轴数值(数值1:X轴,数值2:Y轴)
 def_catalytic_converter_name		Catalytic Converter	催化器
-def_catalytic_converter_desc		Catalytic converter that removes fumes and decreases the number of exhaust particles emitted from an exhaust.	催化转化器，用于清除废气并减少废气中排放的颗粒颗粒物数量
+def_catalytic_converter_desc		Catalytic converter that removes fumes and decreases the number of exhaust particles emitted from an exhaust.	催化转化器，用于清除废气并减少废气中排放的颗粒颗粒物数量(使用时注意进出方向)
 def_catalytic_converter_s_desc		Reduces particles from exhausts.	减少废气的排放颗粒物
 def_catalytic_converter_node_0_label		Exhaust In	废气输入
 def_catalytic_converter_node_0_desc			
@@ -2879,7 +2879,7 @@ def_compass_sensor_node_1_label		Backlight	背光
 def_compass_sensor_node_1_desc		Enables the backlight when receiving an on signal.	接收到打开信号时启用背光
 def_compass_sensor_node_2_label		Electric	电
 def_compass_sensor_node_2_desc		Electrical power connection.	电源连接
-def_connector_electric_name		Electric Connector	电线连接头
+def_connector_electric_name		Electric Connector	连接头(电力)
 def_connector_electric_desc		Two electric connectors will attach when they are within close proximity. When connected, electric energy will flow freely between the connectors.	当两个电线连接头靠近时，它们将连接在一起。连接时，电能将在连接头之间自由流动
 def_connector_electric_s_desc		A small electric connector that can be used to transfer electric energy between vehicles.	小型电线连接头，可用于在载具之间传输电能
 def_connector_electric_node_0_label		Release Connector	连接头释放
@@ -2951,7 +2951,7 @@ def_connector_hardpoint_b_round_node_5_label		Video Data Receive	接收视频数
 def_connector_hardpoint_b_round_node_5_desc		Video data to receive from the connected connector.	从所连接的连接器上接收视频数据
 def_connector_hardpoint_b_round_node_6_label		Electric	电
 def_connector_hardpoint_b_round_node_6_desc		Electrical power connection.	电源连接
-def_connector_hinge_name		Hinge Connector	铰链连接头
+def_connector_hinge_name		Hinge Connector	连接头(铰接)
 def_connector_hinge_desc		Two connectors will attach when they are within close proximity and both are switched on. They will connect along their long edge and hinge along this axis. An on/off output allows you to check whether or not this connector is currently attached to anything.	当两个连接头接近并且都打开时，它们将连接在一起。它们将沿着长边连接，并沿着这条轴转动。开/关输出允许您检查此连接头当前是否连接收到任何对象
 def_connector_hinge_s_desc		A small magnetic connector that can be used to attach two or more vehicles together.	小型磁性连接头，可用于将两辆或多辆载具连接在一起
 def_connector_hinge_node_0_label		Magnet Toggle	磁铁开关
@@ -2968,7 +2968,7 @@ def_connector_hinge_node_5_label		Video Data Send	发送视频数据
 def_connector_hinge_node_5_desc		Video data to send to the connected connector.	将视频数据发送到所连接的连接器上
 def_connector_hinge_node_6_label		Video Data Receive	接收视频数据
 def_connector_hinge_node_6_desc		Video data to receive from the connected connector.	从所连接的连接器上接收视频数据
-def_connector_large_name		Large Connector	大型连接头
+def_connector_large_name		Large Connector	连接头(大)
 def_connector_large_desc		Two large connectors will attach when they are within close proximity and both are switched on. The additional inputs and outputs allow you to send and receive power and signals between two connected magnets, giving you a limited amount of control over a linked vehicle. An additional on/off output allows you to check whether or not this connector is currently attached to anything.	当两个大的连接头靠近并且都打开时，它们会连接起来。附加的输入和输出允许您在两个连接的磁铁之间发送和接收功率和信号，从而限制您对连接载具的控制。附加的开/关输出允许您检查此连接头当前是否连接收到任何对象
 def_connector_large_s_desc		A magnetic connector that can be used to attach two or more vehicles together.	磁性连接头，可用于将两辆或多辆载具连接在一起
 def_connector_large_node_0_label		Magnet Toggle	磁铁开关
@@ -3007,7 +3007,7 @@ def_connector_slider_gripper_node_1_desc		Enables the gripper's brake to keep it
 def_connector_slider_track_name		Sliding Connector Track	滑动连接头轨道
 def_connector_slider_track_desc		Gripper connectors will attach to the track when aligned and close enough, and will detach when they slide off the end.	夹持器连接头将在对齐和足够接近时连接收到轨道，并在滑离末端时分离
 def_connector_slider_track_s_desc		A connector that can be used to build a track for grippers to attach to.	可以用来为夹持器建立一个连接轨道
-def_connector_small_name		Small Connector	小型连接头
+def_connector_small_name		Small Connector	连接头(小)
 def_connector_small_desc		Two small connectors will attach when they are within close proximity and both are switched on. An on/off output allows you to check whether or not this connector is currently attached to anything.	当两个小连接头靠近并且都打开时，它们将连接在一起。开/关输出允许您检查此连接头当前是否连接收到任何对象
 def_connector_small_s_desc		A small magnetic connector that can be used to attach two or more vehicles together.	小型磁性连接头，可用于将两辆或多辆载具连接在一起
 def_connector_small_node_0_label		Magnet Toggle	磁铁开关
@@ -3024,7 +3024,7 @@ def_connector_small_node_5_label		Video Data Send	发送视频数据
 def_connector_small_node_5_desc		Video data to send to the connected connector.	将视频数据发送到所连接的连接器上
 def_connector_small_node_6_label		Video Data Receive	接收视频数据
 def_connector_small_node_6_desc		Video data to receive from the connected connector.	从所连接的连接器上接收视频数据
-def_connector_water_name		Fluid Connector	流体连接头
+def_connector_water_name		Fluid Connector	连接头(流体)
 def_connector_water_desc		Two fluid connectors will attach when they are within close proximity. When connected, fluid will flow freely between the connectors.	当两个流体接头靠近时，它们将连接在一起。连接时，流体将在接头之间自由流动
 def_connector_water_s_desc		A fluid connector that can be used to transfer fluid between vehicles.	流体连接头，可用于在载具之间传输流体
 def_connector_water_node_0_label		Release Connector	连接头释放
@@ -3041,21 +3041,21 @@ def_connector_water_node_5_label		Video Data Send	发送视频数据
 def_connector_water_node_5_desc		Video data to send to the connected connector.	将视频数据发送到所连接的连接器上
 def_connector_water_node_6_label		Video Data Receive	接收视频数据
 def_connector_water_node_6_desc		Video data to receive from the connected connector.	从所连接的连接器上接收视频数据
-def_control_fin_large_name		Control Fin Large	大型控制鳍
+def_control_fin_large_name		Control Fin Large	控制鳍(大)
 def_control_fin_large_desc		It takes a number input between -1 and 1 that represent the two extremes of the fin's rotation.	它需要一个介于-1和1之间的数字输入，表示鳍旋转的两个极值
 def_control_fin_large_s_desc		The fin can be attached to the surface of a vehicle to direct its motion.	鳍可以附着在载具的表面以引导其运动
 def_control_fin_large_node_0_label		Rotation	旋转
 def_control_fin_large_node_0_desc		Accepts a value between -1 and 1 that represent the two extremes of the fin's rotation.	接受介于-1和1之间的值，该值表示鳍旋转的两个极值
 def_control_fin_large_node_1_label		Electric	电
 def_control_fin_large_node_1_desc		Electrical power connection.	电源连接
-def_control_fin_medium_name		Control Fin Medium	中型控制鳍
+def_control_fin_medium_name		Control Fin Medium	控制鳍(中)
 def_control_fin_medium_desc		It takes a number input between -1 and 1 that represent the two extremes of the fin's rotation.	它需要一个介于-1和1之间的数字输入，表示鳍旋转的两个极值
 def_control_fin_medium_s_desc		The fin can be attached to the surface of a vehicle to direct its motion.	鳍可以附着在载具的表面以引导其运动
 def_control_fin_medium_node_0_label		Rotation	旋转
 def_control_fin_medium_node_0_desc		Accepts a value between -1 and 1 that represent the two extremes of the fin's rotation.	接受介于-1和1之间的值，该值表示鳍旋转的两个极值
 def_control_fin_medium_node_1_label		Electric	电
 def_control_fin_medium_node_1_desc		Electrical power connection.	电源连接
-def_control_fin_small_name		Control Fin Small	小型控制鳍
+def_control_fin_small_name		Control Fin Small	控制鳍(小)
 def_control_fin_small_desc		It takes a number input between -1 and 1 that represent the two extremes of the fin's rotation.	它需要一个介于-1和1之间的数字输入，表示鳍旋转的两个极值
 def_control_fin_small_s_desc		The fin can be attached to the surface of a vehicle to direct its motion.	鳍可以附着在载具的表面以引导其运动
 def_control_fin_small_node_0_label		Rotation	旋转
@@ -3137,9 +3137,9 @@ def_door_node_0_label		Open/Close	开门/关门
 def_door_node_0_desc		Opens the door when receiving an on signal, and closes it when receiving an off signal.	接收到打开信号时打开载具门，接收到关闭信号时关闭载具门
 def_door_node_1_label		Electric	电
 def_door_node_1_desc		Electrical power connection.	电源连接
-def_door_dock_large_name		Hinged Dock Door	大型门坞
-def_door_dock_large_desc			
-def_door_dock_large_s_desc		Hinged door that can be opened and closed using an on/off signal.	可使用开/关信号打开和关闭的铰链门
+def_door_dock_large_name		Hinged Dock Door	对接门(大)
+def_door_dock_large_desc			对接后启用磁铁可以连接另一台载具的同型号舱门
+def_door_dock_large_s_desc		Hinged door that can be opened and closed using an on/off signal.	可使用开/关信号打开和关闭的大型舱门
 def_door_dock_large_node_0_label		Open/Close	开门/关门
 def_door_dock_large_node_0_desc		Opens the door when receiving an on signal, and closes it when receiving an off signal.	接收到打开信号时打开载具门，接收到关闭信号时关闭载具门
 def_door_dock_large_node_1_label		Magnet Toggle	磁铁开关
@@ -3160,9 +3160,9 @@ def_door_dock_large_node_8_label		Composite output	综合输出
 def_door_dock_large_node_8_desc		Composite data output.	复合数据输出
 def_door_dock_large_node_9_label		Composite input	复合输入
 def_door_dock_large_node_9_desc		Composite data input.	复合数据输入
-def_door_dock_small_name		Hinged Dock Hatch	小门坞
-def_door_dock_small_desc			
-def_door_dock_small_s_desc		Hinged door that can be opened and closed using an on/off signal.	可使用开/关信号打开和关闭的铰链门
+def_door_dock_small_name		Hinged Dock Hatch	对接门(小)
+def_door_dock_small_desc			对接后启用磁铁可以连接另一台载具的同型号舱门
+def_door_dock_small_s_desc		Hinged door that can be opened and closed using an on/off signal.	可使用开/关信号打开和关闭的小型舱门
 def_door_dock_small_node_0_label		Open/Close	开门/关门
 def_door_dock_small_node_0_desc		Opens the door when receiving an on signal, and closes it when receiving an off signal.	接收到打开信号时打开载具门，接收到关闭信号时关闭载具门
 def_door_dock_small_node_1_label		Magnet Toggle	磁铁开关
@@ -3183,17 +3183,17 @@ def_door_dock_small_node_8_label		Composite output	综合输出
 def_door_dock_small_node_8_desc		Composite data output.	复合数据输出
 def_door_dock_small_node_9_label		Composite input	复合输入
 def_door_dock_small_node_9_desc		Composite data input.	复合数据输入
-def_door_frame_controller_name		Door Frame Controller	门框控制器
+def_door_frame_controller_name		Door Frame Controller	自定义门-门框控制器
 def_door_frame_controller_desc		Placing the controller as part of a door frame will let you lock the door when closed, and check whether the door is closed enough to be forming a seal. Only one controller should be placed per frame.	将控制器作为门框的一部分放置可以让您在关闭时锁定门，并检查门是否关闭到足以形成密封。每个门框只能放置一个控制器
 def_door_frame_controller_s_desc		Controller unit for sealing door frames.	用于密封门框的控制器单元
 def_door_frame_controller_node_0_label		Lock Seal	密封锁
 def_door_frame_controller_node_0_desc		Controls if the door panel will lock in place when sealed.	控制密封时门板是否锁定到位
 def_door_frame_controller_node_1_label		Seal State	密封状态
 def_door_frame_controller_node_1_desc		Indicates if the door panel is closed and forming a seal.	指示门板是否关闭并形成密封
-def_door_frame_corner_name		Door Frame Corner	门框转角
+def_door_frame_corner_name		Door Frame Corner	自定义门-门框转角
 def_door_frame_corner_desc		To create a valid frame, there must be a continuous loop of frame parts in a consistent orientation with no other parts inside the frame.	要创建有效的框架，必须有一个连续的框架部件循环，其方向一致，框架内没有其他部件
 def_door_frame_corner_s_desc		A corner piece for building openings to sealed fluid compartments.	用于在密封的流体室中建立开口
-def_door_frame_straight_name		Door Frame Edge	门框边缘
+def_door_frame_straight_name		Door Frame Edge	自定义门-门框边缘
 def_door_frame_straight_desc		To create a valid frame, there must be a continuous loop of frame parts in a consistent orientation with no other parts inside the frame.	要创建有效的框架，必须有一个连续的框架部件循环，其方向一致，框架内没有其他部件
 def_door_frame_straight_s_desc		A straight edge for building openings to sealed fluid compartments.	用于在密封的流体室中建立开口
 def_door_manual_name		Sliding Door	滑动门(手动)
@@ -3206,7 +3206,7 @@ def_door_manual_large_desc
 def_door_manual_large_s_desc		Hinged door that can be opened and closed by hand and locked using an on/off signal.	铰接门通过手动打开，使用on/off信号锁定
 def_door_manual_large_node_0_label		Lock	锁定
 def_door_manual_large_node_0_desc		Locks the door when receiving an on signal.	当接收到on信号时，锁定门
-def_door_manual_sliding_small_name		Sliding Hatch	滑动舱门
+def_door_manual_sliding_small_name		Sliding Hatch	滑动舱门(手动)
 def_door_manual_sliding_small_desc			
 def_door_manual_sliding_small_s_desc		Sliding door that can be opened and closed by hand and locked using an on/off signal.	滑动门通过手动打开，使用on/off信号锁定
 def_door_manual_sliding_small_node_0_label		Lock	锁定
@@ -3216,10 +3216,10 @@ def_door_manual_small_desc
 def_door_manual_small_s_desc		Hinged door that can be opened and closed by hand and locked using an on/off signal.	铰接门通过手动打开，使用on/off信号锁定
 def_door_manual_small_node_0_label		Lock	锁定
 def_door_manual_small_node_0_desc		Locks the door when receiving an on signal.	当接收到on信号时，锁定门
-def_door_panel_corner_name		Door Panel Corner	门板角
+def_door_panel_corner_name		Door Panel Corner	自定义门-门板角
 def_door_panel_corner_desc		A valid door panel can be created with a loop of door panel pieces, filled with blocks flush to the outer face. Door panels must also fill a door frame and be built in their closed position within the frame to be valid.	一个有效的门板,由门板边缘和门板转角组成框架后,由块状填充物来填充,需要保证填充后的门板平整.而且门板的大小应填满整个门框,并且是在门框内的封闭位置建造.满足以上条件才能创建完整密封的门系统
 def_door_panel_corner_s_desc		A corner piece for building door panels.	用于建造门板的角件
-def_door_panel_straight_name		Door Panel Edge	门板边缘
+def_door_panel_straight_name		Door Panel Edge	自定义门-门板边缘
 def_door_panel_straight_desc		A valid door panel can be created with a loop of door panel pieces, filled with blocks flush to the outer face. Door panels must also fill a door frame and be built in their closed position within the frame to be valid.	一个有效的门板,由门板边缘和门板转角组成框架后,由块状填充物来填充,需要保证填充后的门板平整.而且门板的大小应填满整个门框,并且是在门框内的封闭位置建造.满足以上条件才能创建完整密封的门系统
 def_door_panel_straight_s_desc		A straight edge piece for building door panels.	用于建筑门板的直边件
 def_electric_curcuit_breaker_name		Electric Circuit Breaker	断路器
@@ -3256,7 +3256,7 @@ def_electrolyser_node_2_label		Electric	电
 def_electrolyser_node_2_desc			
 def_electrolyser_node_3_label		Enable	启用
 def_electrolyser_node_3_desc			
-def_engine_name		Small Engine	小型发动机
+def_engine_name		Small Engine	发动机(小型)
 def_engine_desc		An on/off signal controls engine startup and throttle signal controls energy output.	开/关信号控制发动机操作，节气门信号控制能量输出
 def_engine_s_desc		Small diesel engine that can be connected to powered components.	小型柴油机，可与动力部件相连
 def_engine_node_0_label		Throttle	节流阀
@@ -3281,7 +3281,7 @@ def_engine_node_9_label		Temperature	温度
 def_engine_node_9_desc		Output value giving data info on engine temperature.	输出值，提供有关发动机温度的数据信息
 def_engine_node_10_label		Electric	电
 def_engine_node_10_desc		Electrical power connection.	电源连接
-def_engine_diesel_name		Large Engine	大型发动机
+def_engine_diesel_name		Large Engine	发动机(大型)
 def_engine_diesel_desc		An on/off signal controls engine startup and throttle signal controls energy output.	开/关信号控制发动机操作，节气门信号控制能量输出
 def_engine_diesel_s_desc		Large diesel engine that can be connected to powered components.	可连接收到动力部件的大型柴油机
 def_engine_diesel_node_0_label		Throttle	节流阀
@@ -3308,12 +3308,12 @@ def_engine_diesel_node_10_label		Temperature	温度
 def_engine_diesel_node_10_desc		Output value giving data info on engine temperature.	输出值，提供有关发动机温度的数据信息
 def_engine_diesel_node_11_label		Electric	电
 def_engine_diesel_node_11_desc		Electrical power connection.	电源连接
-def_fan_large_name		Large Ducted Fan	大型涵道风扇
+def_fan_large_name		Large Ducted Fan	涵道风扇(大)
 def_fan_large_desc		The amount of force generated by the fan is directly linked to how much torque it receives from a connected engine.	风扇产生的力的取决于它从连接的发动机接收到的扭矩有关
 def_fan_large_s_desc		A large ducted fan used for propulsion.	用于推进的大型涵道风扇
 def_fan_large_node_0_label		RPS	RPS
 def_fan_large_node_0_desc			
-def_fan_small_name		Small Ducted Fan	小型涵道风扇
+def_fan_small_name		Small Ducted Fan	涵道风扇(小)
 def_fan_small_desc		The amount of force generated by the fan is directly linked to how much torque it receives from a connected engine.	风扇产生的力的取决于它从连接的发动机接收到的扭矩有关
 def_fan_small_s_desc		A small ducted fan used for propulsion.	用于推进的小型涵道风扇
 def_fan_small_node_0_label		RPS	RPS
@@ -3437,7 +3437,7 @@ def_fluid_tank_compressed_gas_5_9_node_1_label		Tank Content	剩余储量
 def_fluid_tank_compressed_gas_5_9_node_1_desc		The amount of gas in the tank in litres.	储量(单位升)
 def_fluid_tank_compressed_gas_5_9_node_2_label		Tank Pressure	罐内压强
 def_fluid_tank_compressed_gas_5_9_node_2_desc		The pressure in the tank in atmospheres.	以大气压强表示的罐内气压
-def_fluid_tank_large_name		Fluid Tank Large	大油箱
+def_fluid_tank_large_name		Fluid Tank Large	油箱(大)
 def_fluid_tank_large_desc		The tank will spawn full of the selected fluid type.	油箱充满所选流体类型
 def_fluid_tank_large_s_desc		A tank for storing fluid.	储存流体的罐
 def_fluid_tank_large_node_0_label		Stored Fluid	流体接口
@@ -3448,7 +3448,7 @@ def_fluid_tank_large_node_2_label		Stored Fluid	内容物体积
 def_fluid_tank_large_node_2_desc		The fluid connection for the stored contents.	连通内容物的接口
 def_fluid_tank_large_node_3_label		Tank Pressure	箱内压强
 def_fluid_tank_large_node_3_desc		The pressure in the tank in atmospheres.	以大气压强表示的箱内气压
-def_fluid_tank_medium_name		Fluid Tank Medium	中等油箱
+def_fluid_tank_medium_name		Fluid Tank Medium	油箱(中)
 def_fluid_tank_medium_desc		The tank will spawn full of the selected fluid type.	油箱充满所选流体类型
 def_fluid_tank_medium_s_desc		A tank for storing fluid.	储存流体的罐
 def_fluid_tank_medium_node_0_label		Stored Fluid	流体接口
@@ -3459,7 +3459,7 @@ def_fluid_tank_medium_node_2_label		Stored Fluid	内容物体积
 def_fluid_tank_medium_node_2_desc		The fluid connection for the stored contents.	连通内容物的接口
 def_fluid_tank_medium_node_3_label		Tank Pressure	箱内压强
 def_fluid_tank_medium_node_3_desc		The pressure in the tank in atmospheres.	以大气压强表示的箱内气压
-def_fluid_tank_small_name		Fluid Tank Small	小油箱
+def_fluid_tank_small_name		Fluid Tank Small	油箱(小)
 def_fluid_tank_small_desc		The tank will spawn full of the selected fluid type.	油箱充满所选流体类型
 def_fluid_tank_small_s_desc		A tank for storing fluid.	储存流体的罐
 def_fluid_tank_small_node_0_label		Stored Fluid	流体接口
@@ -3871,7 +3871,7 @@ def_gauge_display_node_2_label		Backlight	背光
 def_gauge_display_node_2_desc		Enables the backlight when receiving an on signal.	接收到打开信号时启用背光
 def_gauge_display_node_3_label		Electric	电
 def_gauge_display_node_3_desc		Electrical power connection.	电源连接
-def_generator_large_name		Large Generator	大型发电机
+def_generator_large_name		Large Generator	发电机(大)
 def_generator_large_desc			
 def_generator_large_s_desc		A large generator unit for converting mechanical power to electricity.	把机械能转换成电能的大型发电机组
 def_generator_large_node_0_label		RPS	RPS
@@ -3880,7 +3880,7 @@ def_generator_large_node_1_label		Electric	电
 def_generator_large_node_1_desc		The electric connection to output electric energy.	输出电能的电源连接
 def_generator_large_node_2_label		Output	输出
 def_generator_large_node_2_desc		Data output giving the electrical generation of the generator.	提供发电机发电的数据输出
-def_generator_medium_name		Medium Generator	中型发电机
+def_generator_medium_name		Medium Generator	发电机(中)
 def_generator_medium_desc			
 def_generator_medium_s_desc		A medium generator unit for converting mechanical power to electricity.	把机械能转换成电能的中型发电机组
 def_generator_medium_node_0_label		RPS	RPS
@@ -3889,7 +3889,7 @@ def_generator_medium_node_1_label		Electric	电
 def_generator_medium_node_1_desc		The electric connection to output electric energy.	输出电能的电源连接
 def_generator_medium_node_2_label		Output	输出
 def_generator_medium_node_2_desc		Data output giving the electrical generation of the generator.	提供发电机发电的数据输出
-def_generator_small_name		Small Generator	小型发电机
+def_generator_small_name		Small Generator	发电机(小)
 def_generator_small_desc			
 def_generator_small_s_desc		A small generator unit for converting mechanical power to electricity.	把机械能转换成电能的小型发电机组
 def_generator_small_node_0_label		RPS	RPS
@@ -3898,7 +3898,7 @@ def_generator_small_node_1_label		Electric	电
 def_generator_small_node_1_desc		The electric connection to output electric energy.	输出电能的电源连接
 def_generator_small_node_2_label		Output	输出
 def_generator_small_node_2_desc		Data output giving the electrical generation of the generator.	提供发电机发电的数据输出
-def_giga_prop_small_name		Giant Propeller	巨型船用推进器
+def_giga_prop_small_name		Giant Propeller	船用螺旋桨(大)
 def_giga_prop_small_desc		Power received from an engine affects the forward and backward force generated. This propeller will only operate underwater.	从发动机获得的动力会产生前进和后退的动力。这个螺旋桨只能在水下工作
 def_giga_prop_small_s_desc		A giant propeller for ships.	船用的巨大螺旋桨
 def_giga_prop_small_node_0_label		RPS	RPS
@@ -4300,7 +4300,7 @@ def_gyroscopic_stabilizer_small_node_1_desc		Input rotation value.	输入旋转�
 def_handle_name		Handle	把手
 def_handle_desc		Interacting with [$[action_interact_left]] or [$[action_interact_right]] again will detach that hand. The handle can be used to drag vehicles around. If a vehicle is too heavy to move, you will be detached automatically when you move outside the handle's interaction range.	在连接上时按[$[action_interact_left]/[$[action_interact_right]]将分离您，具体取决于您开始按了哪个键。把手可以用来拖动载具。如果载具太重而无法移动，则当您在把手的交互作用范围之外移动时，将自动分离
 def_handle_s_desc		A handle that you can attach to by interacting with [$[action_interact_left]] or [$[action_interact_right]].	通过按[$[action_interact_left]]或[$[action_interact_right]]可以抓上把手
-def_hatch_name		Sliding Hatch (Electric)	舱口
+def_hatch_name		Sliding Hatch (Electric)	滑动舱口(电动)
 def_hatch_desc			
 def_hatch_s_desc		Sliding hatch that can be opened and closed using an on/off signal.	滑动舱口，可使用开/关信号打开和关闭
 def_hatch_node_0_label		Hatch Open/Close	舱口打开/关闭
@@ -4568,7 +4568,7 @@ def_inventory_equipment_pistol_ammo_s_desc		A small equipment storage unit conta
 def_inventory_equipment_pistol_ammo_node_0_label		Electric	电
 def_inventory_equipment_pistol_ammo_node_0_desc		Electrical power connection.	电源连接
 def_inventory_equipment_radio_name		Equipment inventory (Radio)	装备架(无线电)
-def_inventory_equipment_radio_desc		Hold [$[action_equipment_use]] transmit voice audio. Press [$[action_equipment_secondary]] to cycle between frequencies 0~8, or turn the radio off. When a frequncy is selected, the radio will transmit and receive voice audio on that frequency only. Requires electric charge to function, and will recharge when placed into a powered small equipment storage unit. (Max Effective Range : 500m)	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按住 [$[action_equipment_use]] 来发送语音，按下 [$[action_equipment_secondary]] 来在频道0~8之间切换或关掉无线电。当选中一个特定频率后，无线电只会在该频率上收发音频信号。该设备需要充电才能发挥作用，放入已供电的小型装备架时充电。不使用时可以挂在腰上
+def_inventory_equipment_radio_desc		Hold [$[action_equipment_use]] transmit voice audio. Press [$[action_equipment_secondary]] to cycle between frequencies 0~8, or turn the radio off. When a frequncy is selected, the radio will transmit and receive voice audio on that frequency only. Requires electric charge to function, and will recharge when placed into a powered small equipment storage unit. (Max Effective Range : 500m)	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按住 [$[action_equipment_use]] 来发送语音，按下 [$[action_equipment_secondary]] 来在频道0~8之间切换或关掉无线电。当选中一个特定频率后，无线电只会在该频率上收发音频信号。该设备需要充电才能发挥作用，放入已供电的小型装备架时充电。不使用时可以挂在腰上(最大距离500m)
 def_inventory_equipment_radio_s_desc		A small equipment storage unit containing a handheld radio.	小型装备架，存储一个手持无线电
 def_inventory_equipment_radio_node_0_label		Electric	电
 def_inventory_equipment_radio_node_0_desc		Electrical power connection.	电源连接
@@ -4578,7 +4578,7 @@ def_inventory_equipment_radio_signal_locator_s_desc		A large equipment storage u
 def_inventory_equipment_radio_signal_locator_node_0_label		Electric	电
 def_inventory_equipment_radio_signal_locator_node_0_desc		Electrical power connection.	电源连接
 def_inventory_equipment_remote_control_name		Equipment inventory (Remote Control Unit)	装备架(远程控制单元)
-def_inventory_equipment_remote_control_desc		Press [$[action_equipment_use]] to toggle the remote control on or off. Press [$[action_equipment_secondary]] to cycle between frequencies 0~8. When active, the remote control uses the basic vehicle pilot seat input bindings and transmits them as composite radio data on the selected frequency. Requires electric charge to function, and will recharge when placed into a powered small equipment storage unit. (Max Effective Range : 500m)	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按下 [$[action_equipment_use]] 来切换远程控制开关，按下 [$[action_equipment_secondary]] 来循环0~8的频率。当开启时，远程控制将玩家操作输出为混合信号(参照基础载具控制)发送到指定频率。该设备需要充电才能发挥作用，放入已供电的小型装备架时充电。不使用时可以挂在腰上
+def_inventory_equipment_remote_control_desc		Press [$[action_equipment_use]] to toggle the remote control on or off. Press [$[action_equipment_secondary]] to cycle between frequencies 0~8. When active, the remote control uses the basic vehicle pilot seat input bindings and transmits them as composite radio data on the selected frequency. Requires electric charge to function, and will recharge when placed into a powered small equipment storage unit. (Max Effective Range : 500m)	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。按下 [$[action_equipment_use]] 来切换远程控制开关，按下 [$[action_equipment_secondary]] 来循环0~8的频率。当开启时，远程控制将玩家操作输出为混合信号(参照基础载具控制)发送到指定频率。该设备需要充电才能发挥作用，放入已供电的小型装备架时充电。不使用时可以挂在腰上(最大距离500m)
 def_inventory_equipment_remote_control_s_desc		A small equipment storage unit containing a remote control unit.	小型装备架，存储一个远程控制单元
 def_inventory_equipment_remote_control_node_0_label		Electric	电
 def_inventory_equipment_remote_control_node_0_desc		Electrical power connection.	电源连接
@@ -4642,12 +4642,12 @@ def_inventory_equipment_welding_torch_desc		Hold [$[action_equipment_use]] to re
 def_inventory_equipment_welding_torch_s_desc		A large equipment storage unit containing a welding torch.	大型装备架，存储一个火旱枪 [译注:这游戏不支持han字...]
 def_inventory_equipment_welding_torch_node_0_label		Electric	电
 def_inventory_equipment_welding_torch_node_0_desc		Electrical power connection.	电源连接
-def_inventory_medium_name		Large equipment inventory (Empty)	大装备架(空)
+def_inventory_medium_name		Large equipment inventory (Empty)	空装备架1x3
 def_inventory_medium_desc		Only large handheld equipment can be stored in this unit. When connected to an electric power source, any rechargable equipment stored in the unit will drain a small amount of electricity until recharged to 100% capacity.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。只有大型手持装备能够放在这个架子中。当连接到电源时，其内的装备可以得到充电
 def_inventory_medium_s_desc		An empty large equipment storage unit.	空的大型装备架
 def_inventory_medium_node_0_label		Electric	电
 def_inventory_medium_node_0_desc		Electrical power connection.	电源连接
-def_inventory_outfit_name		Outfit Inventory (Empty)	装备架(空)
+def_inventory_outfit_name		Outfit Inventory (Empty)	空装备架3x3
 def_inventory_outfit_desc		Interacting with [$[action_interact_left]]/[$[action_interact_right]] will equip/store the selected outfit. Only specialist outfits can be stored in this unit. When connected to an electric power source, any rechargable outfits stored in the unit will drain a small amount of electricity until recharged to 100% capacity.	如果你穿的是专业服装，按$[action_interact_left]/[$[action_interact_right]]将其储存在本单元中。当连接上电源时，会自动对其中装备进行充电
 def_inventory_outfit_s_desc		An empty outfit storage unit.	空的装备储藏室
 def_inventory_outfit_node_0_label		Electric	电
@@ -4725,7 +4725,7 @@ def_inventory_outfit_wep_plate_vest_desc		When equipped, damage from projectiles
 def_inventory_outfit_wep_plate_vest_s_desc		An outfit inventory unit containing specialist millitary clothing for projectile protection.	包含一套战术插板胸挂的装备架
 def_inventory_outfit_wep_plate_vest_node_0_label		Electric	电
 def_inventory_outfit_wep_plate_vest_node_0_desc		Electrical power connection.	电源连接
-def_inventory_small_name		Small equipment inventory (Empty)	小装备架(空)
+def_inventory_small_name		Small equipment inventory (Empty)	空装备架1x1
 def_inventory_small_desc		Only small handheld equipment can be stored in this unit. When connected to an electric power source, any rechargable equipment stored in the unit will drain a small amount of electricity until recharged to 100% capacity.	按下 [$[action_interact_left]]/[$[action_interact_right]] 能装备/收起选中物品。只有小型手持装备能够放在这个架子中。当连接到电源时，其内的装备可以得到充电
 def_inventory_small_s_desc		An empty small equipment storage unit.	空的小型装备架
 def_inventory_small_node_0_label		Electric	电
@@ -4756,22 +4756,22 @@ def_jet_engine_compressor_node_3_label		Temperature	温度
 def_jet_engine_compressor_node_3_desc		The temperature of air transferred by the compressor.	压气机输送气体的温度
 def_jet_engine_compressor_node_4_label		RPS	RPS
 def_jet_engine_compressor_node_4_desc		The rotations per second generated by the compressor.	压气机每秒转数
-def_jet_engine_duct_angle_name		Jet Duct Angle	L型气道
+def_jet_engine_duct_angle_name		Jet Duct Angle	喷气引擎气道(L型)
 def_jet_engine_duct_angle_desc			
 def_jet_engine_duct_angle_s_desc		An angled section of ducting for use in jet engines.	喷气发动机用的有角度的管道部分
-def_jet_engine_duct_cross_name		Jet Duct Cross	十字型气道
+def_jet_engine_duct_cross_name		Jet Duct Cross	喷气引擎气道(X型)
 def_jet_engine_duct_cross_desc			
 def_jet_engine_duct_cross_s_desc		An cross section of ducting for use in jet engines.	喷气发动机用十字管道
-def_jet_engine_duct_diagonal_name		Jet Duct Diagonal	斜气道
+def_jet_engine_duct_diagonal_name		Jet Duct Diagonal	喷气引擎气道(斜面型)
 def_jet_engine_duct_diagonal_desc			
 def_jet_engine_duct_diagonal_s_desc		A diagonal section of ducting for use in jet engines.	喷气发动机用的斜截面管道
-def_jet_engine_duct_straight_name		Jet Duct Straight	直气道
+def_jet_engine_duct_straight_name		Jet Duct Straight	喷气引擎气道(直型)
 def_jet_engine_duct_straight_desc			
 def_jet_engine_duct_straight_s_desc		An straight section of ducting for use in jet engines.	喷气发动机用的一段直的管道
-def_jet_engine_duct_t_name		Jet Duct T	T型气道
+def_jet_engine_duct_t_name		Jet Duct T	喷气引擎气道(T型)
 def_jet_engine_duct_t_desc			
 def_jet_engine_duct_t_s_desc		A T-shaped section of ducting for use in jet engines.	喷气发动机用的T形管道
-def_jet_engine_exhaust_afterburner_name		Jet Exhaust Afterburner	喷气引擎加力燃烧室
+def_jet_engine_exhaust_afterburner_name		Jet Exhaust Afterburner	喷气口(加力型)
 def_jet_engine_exhaust_afterburner_desc		This is part of a set of modular jet engine components. Thrust will be produced at the back of the exhaust proportional to the internal RPS of the engine. Additional thrust is produced when the afterburner is active, at the cost of increased fuel consumption.	这是一套模块化喷气发动机部件的一部分。推力将在排气后部产生，与发动机的内部转速成比例。当加力燃烧室启动时，会以增加燃料消耗为代价，产生额外的推力
 def_jet_engine_exhaust_afterburner_s_desc		A jet engine exhaust that can burn additional fuel for increased output.	喷气引擎的排气装置之一,可以燃烧额外的燃料以增加输出
 def_jet_engine_exhaust_afterburner_node_0_label		Fuel	燃料
@@ -4784,7 +4784,7 @@ def_jet_engine_exhaust_afterburner_node_3_label		Thrust Spoiler	喷管收敛控�
 def_jet_engine_exhaust_afterburner_node_3_desc		The air flow spoiler for reducing effective thrust from the exhaust. Takes value 0 (no reduction in thrust) to 1 (total reduction in thrust).	控制喷气口的阻力。取值为0(不减少推力)到1(完全减少推力)
 def_jet_engine_exhaust_afterburner_node_4_label		Afterburner	加力燃烧室
 def_jet_engine_exhaust_afterburner_node_4_desc		Enable the afterburner.	启用加力燃烧室
-def_jet_engine_exhaust_basic_name		Jet Exhaust	基础喷气口
+def_jet_engine_exhaust_basic_name		Jet Exhaust	喷气口(基础型)
 def_jet_engine_exhaust_basic_desc		This is part of a set of modular jet engine components. Thrust will be produced at the back of the exhaust proportional to the internal RPS of the engine.	这是一套模块化喷气发动机部件的一部分。推力将在排气后部产生，与发动机的内部转速成比例
 def_jet_engine_exhaust_basic_s_desc		A jet engine exhaust that will produce thrust.	产生推力的喷气发动机排气
 def_jet_engine_exhaust_basic_node_0_label		Air Pressure	气压
@@ -4793,7 +4793,7 @@ def_jet_engine_exhaust_basic_node_1_label		Temperature	温度
 def_jet_engine_exhaust_basic_node_1_desc		The temperature of air into the exhaust.	进入排气管的气体温度
 def_jet_engine_exhaust_basic_node_2_label		Thrust Spoiler	喷管收敛控制
 def_jet_engine_exhaust_basic_node_2_desc		The air flow spoiler for reducing effective thrust from the exhaust. Takes value 0 (no reduction in thrust) to 1 (total reduction in thrust).	控制喷气口的阻力。取值为0(不减少推力)到1(完全减少推力)
-def_jet_engine_exhaust_rotating_name		Jet Exhaust Rotating	旋转式喷气口
+def_jet_engine_exhaust_rotating_name		Jet Exhaust Rotating	喷气口(旋转式)
 def_jet_engine_exhaust_rotating_desc		This is part of a set of modular jet engine components. Thrust will be produced at the back of the exhaust proportional to the internal RPS of the engine. The direction of the thrust is controlled using a standard value that sets the target orientation within the pivot's range of motion of -0.5 to 0.5 turns.	这是一套模块化喷气发动机部件的一部分。推力将在排气后部产生，与发动机的内部转速成比例。使用标准值控制推力方向，该值将目标方向设置在枢轴-0.5到0.5圈的运动范围内
 def_jet_engine_exhaust_rotating_s_desc		A jet engine exhaust that has a built-in mechanical pivot.	内置机械枢轴的喷气发动机排气装置
 def_jet_engine_exhaust_rotating_node_0_label		Air Pressure	气压
@@ -4806,21 +4806,21 @@ def_jet_engine_exhaust_rotating_node_3_label		Rotation Target	旋转目标
 def_jet_engine_exhaust_rotating_node_3_desc		The standard value setting the orientation within the range of motion.	在运动范围内设置方向的起始值
 def_jet_engine_exhaust_rotating_node_4_label		Electric	电
 def_jet_engine_exhaust_rotating_node_4_desc		Electrical input to power the exhaust's pivot.	为排气枢轴提供动力的电源输入
-def_jet_engine_intake_large_name		Large Jet Intake	大型喷气式进气道
+def_jet_engine_intake_large_name		Large Jet Intake	喷气式进气道(大)
 def_jet_engine_intake_large_desc		The intake has turbo fans that will provide additional thrust. The intake will provide a greater air flow when travelling through the air.	进气有涡轮风扇，可以提供额外的推力。当通过气体时，进气口将提供更大的气体流量
 def_jet_engine_intake_large_s_desc		A large intake that will suck air into a jet engine.	将气体吸入喷气发动机的大进气口
 def_jet_engine_intake_large_node_0_label		Air Pressure	气压
 def_jet_engine_intake_large_node_0_desc		The pressure of air transferred by the intake.	进气口所传递的气体压力
 def_jet_engine_intake_large_node_1_label		RPS	RPS
 def_jet_engine_intake_large_node_1_desc		The rotations per second generated by the intake.	进气风扇每秒转数
-def_jet_engine_intake_small_name		Small Jet Intake	小型喷气式进气道
+def_jet_engine_intake_small_name		Small Jet Intake	喷气式进气道(小)
 def_jet_engine_intake_small_desc		This is part of a set of modular jet engine components. The intake will provide a greater air flow when travelling through the air.	这是一套模块化喷气发动机部件的一部分。当通过气体时，进气口将提供更大的气体流量
 def_jet_engine_intake_small_s_desc		A small intake that will suck air into a jet engine.	将气体吸入喷气发动机的小进气口
 def_jet_engine_intake_small_node_0_label		Air Pressure	气压
 def_jet_engine_intake_small_node_0_desc		The pressure of air transferred by the intake.	进气口所传递的气体压力
 def_jet_engine_intake_small_node_1_label		RPS	RPS
 def_jet_engine_intake_small_node_1_desc		The rotations per second generated by the intake.	进气风扇每秒转数
-def_jet_engine_turbine_medium_name		Jet Turbine Medium	中型喷气涡轮
+def_jet_engine_turbine_medium_name		Jet Turbine Medium	喷气涡轮(中)
 def_jet_engine_turbine_medium_desc		This is part of a set of modular jet engine components. This turbine has a torque connection for manually starting using an electric motor, or for powering additional props and generators.	这是一套模块化喷气发动机部件的一部分。该涡轮机有一个扭矩连接，用于使用电动机手动启动，或为附加支柱和发电机供电
 def_jet_engine_turbine_medium_s_desc		A medium turbine that will convert air pressure to RPS within a jet engine.	将气体压力转换为喷气发动机内转速的中等涡轮
 def_jet_engine_turbine_medium_node_0_label		RPS	RPS
@@ -4833,7 +4833,7 @@ def_jet_engine_turbine_medium_node_3_label		RPS	RPS
 def_jet_engine_turbine_medium_node_3_desc		The rotations per second generated by the turbine.	涡轮每秒转数
 def_jet_engine_turbine_medium_node_4_label		Electric	电
 def_jet_engine_turbine_medium_node_4_desc		The electric connection to output electric energy.	输出电能的电源连接
-def_jet_engine_turbine_small_name		Jet Turbine Small	小型喷气涡轮
+def_jet_engine_turbine_small_name		Jet Turbine Small	喷气涡轮(小)
 def_jet_engine_turbine_small_desc		This is part of a set of modular jet engine components.	这是一套模块化喷气发动机部件的一部分
 def_jet_engine_turbine_small_s_desc		A small turbine that will convert air pressure to RPS within a jet engine.	将气体压力转换为喷气发动机内转速的小涡轮
 def_jet_engine_turbine_small_node_0_label		Air Pressure	气压
@@ -4850,7 +4850,7 @@ def_ladder_small_s_desc		Single ladder rung. Multiple rungs can placed on top of
 def_landing_float_name		Landing Float	着陆浮子
 def_landing_float_desc		Ideal for attaching to helicopters to allow them to land on the ocean.	非常适合安装在直升机上，使其能够在海上降落
 def_landing_float_s_desc		A buoyant float.	漂浮的浮子
-def_large_propeller_name		Large Propeller	船用螺旋桨(大)
+def_large_propeller_name		Large Propeller	船用螺旋桨(中)
 def_large_propeller_desc		Power received from an engine affects the forward and backward force generated. This propeller will only operate underwater.	从发动机获得的动力会提供产生前进或后退的力。这个螺旋桨只能在水下工作
 def_large_propeller_s_desc		A large boat propeller.	大型船用螺旋桨
 def_large_propeller_node_0_label		RPS	RPS
@@ -4912,17 +4912,17 @@ def_linear_base_node_4_label		RPS	RPS
 def_linear_base_node_4_desc		Power connection for transfering mechanical energy.	用于传输机械能的连接
 def_linear_base_node_5_label		Fluid	流体
 def_linear_base_node_5_desc		Fluid connection for transfering fluid.	用于输送流体的流体接头
-def_linear_compact_base_name		Compact Linear Track Base	紧凑型直线轨道基座
+def_linear_compact_base_name		Compact Linear Track Base	直线轨道基座(紧凑型)
 def_linear_compact_base_desc		You can build the track using the Compact Linear Track Extension component. The speed of the slider can be set using its number input.	可以使用“紧凑线性轨迹扩展”组件构建轨迹。滑块的速度可以使用其数字输入设置
 def_linear_compact_base_s_desc		A compact slider that moves along a modular linear track.	沿模块化线性轨道移动的紧凑滑块
 def_linear_compact_base_node_0_label		Slider Speed	滑块速度
 def_linear_compact_base_node_0_desc			
 def_linear_compact_base_node_1_label		Electric	电
 def_linear_compact_base_node_1_desc		Electrical power connection.	电源连接
-def_linear_compact_head_name		Compact Linear Track Head	紧凑型直线轨头
+def_linear_compact_head_name		Compact Linear Track Head	直线轨头(紧凑型)
 def_linear_compact_head_desc			
 def_linear_compact_head_s_desc			
-def_linear_compact_module_name		Compact Linear Track Extension	紧凑型直线轨道扩展
+def_linear_compact_module_name		Compact Linear Track Extension	直线轨道扩展(紧凑型)
 def_linear_compact_module_desc		A Compact Linear Track Base must be attached somewhere along the track for it to function.	紧凑的线性轨道基座必须附着在轨道的某处，使其发挥作用
 def_linear_compact_module_s_desc		An extension piece that can be used to build compact linear tracks.	可用来建造紧凑的直线轨道的延长件
 def_linear_head_name		Linear Track Head	直线轨头
@@ -4933,7 +4933,7 @@ def_linear_head_node_0_desc		Power connection for transfering mechanical energy.
 def_linear_head_node_1_label		Fluid	流体
 def_linear_head_node_1_desc		Fluid connection for transfering fluid.	用于输送流体的流体接头
 def_linear_matic_a_name		Pneumatic Piston	气动活塞
-def_linear_matic_a_desc		A standard value input sets the target position that the piston rod should move to. There is also an output for taking a measurement of the rod's current position. The piston can expand by a length of 1 metre, making it a total of 2.25m (9 blocks) tall when expanded and 1.25m (5 blocks) tall when contracted. The piston's speed can be configured by selecting it with the select tool.	标准值输入设置活塞杆应移动到的目标位置。还有一个输出用于测量杆的当前位置。活塞可膨胀1米，膨胀时总高度为2。25米(9块)，收缩时总高度为1。25米(5块)。活塞的速度可以通过选择工具进行配置
+def_linear_matic_a_desc		A standard value input sets the target position that the piston rod should move to. There is also an output for taking a measurement of the rod's current position. The piston can expand by a length of 1 metre, making it a total of 2.25m (9 blocks) tall when expanded and 1.25m (5 blocks) tall when contracted. The piston's speed can be configured by selecting it with the select tool.	标准值输入设置活塞杆应移动到的目标位置。还有一个输出用于测量杆的当前位置。活塞可膨胀1米，膨胀时总高度为2.25米(9块)，收缩时总高度为1.25米(5块)。活塞的速度可以通过选择工具进行配置
 def_linear_matic_a_s_desc		A pneumatic piston that can be expanded and contracted.	可以膨胀和收缩的气动活塞
 def_linear_matic_a_node_0_label		Piston Rod Target Position	活塞杆目标位置
 def_linear_matic_a_node_0_desc		Takes a standard value representing the desired position of the rod.	获取表示所需杆位置的标准值
@@ -5053,28 +5053,28 @@ def_modular_engine_air_ram_desc
 def_modular_engine_air_ram_s_desc		Port used to allow air in and out of a fluid system.	只允许气体进出流体系统的端口
 def_modular_engine_air_ram_node_0_label		Air	气体
 def_modular_engine_air_ram_node_0_desc		Allows fluid to flow in and out of an enclosed volume.	允许气体进出某一封闭空间
-def_modular_engine_alternator_name		Modular Engine Alternator	模块化发动机交流发电机
+def_modular_engine_alternator_name		Modular Engine Alternator	模块化引擎发电机
 def_modular_engine_alternator_desc		Alternators convert mechanical energy from a Drive Belt into electric charge.	将歧管连接到气缸上，为该气缸提供气体、燃料和排气的连接。彼此直接相邻的气缸可以共用一个歧管
 def_modular_engine_alternator_s_desc		A modular engine alternator.	模块化的发动机歧管
 def_modular_engine_alternator_node_0_label		Clutch Pressure	离合器接合量(0~1)
 def_modular_engine_alternator_node_0_desc			
 def_modular_engine_alternator_node_1_label		Electric	电
 def_modular_engine_alternator_node_1_desc			
-def_modular_engine_clutch_name		Modular Engine Clutch 1x1	模块化发动机离合器
+def_modular_engine_clutch_name		Modular Engine Clutch 1x1	模块化发动机离合器(1x1)
 def_modular_engine_clutch_desc		Attach a clutch to a crankshaft block to control the torque made available to the connected system.	将飞轮连接到曲轴缸体上，将曲轴中的动力转化为可用的扭矩，用于驱动其他部件
 def_modular_engine_clutch_s_desc		A modular engine clutch.	模块化的发动机离合器
 def_modular_engine_clutch_node_0_label		Clutch Pressure	离合器接合量(0~1)
 def_modular_engine_clutch_node_0_desc			
 def_modular_engine_clutch_node_1_label		RPS	RPS
 def_modular_engine_clutch_node_1_desc		The power supplied by the engine for inputting to other components.	由发动机提供的动力输入到其他部件
-def_modular_engine_clutch_3x3_name		Modular Engine Clutch 3x3	3x3模块化离合器
+def_modular_engine_clutch_3x3_name		Modular Engine Clutch 3x3	模块化发动机离合器(3x3)
 def_modular_engine_clutch_3x3_desc		Attach a clutch to a crankshaft block to control the torque made available to the connected system.	将飞轮连接到曲轴缸体上，将曲轴中的功率转换为驱动其他部件的可用扭矩
 def_modular_engine_clutch_3x3_s_desc		A modular engine clutch.	模块化发动机离合器
 def_modular_engine_clutch_3x3_node_0_label		Clutch Pressure	离合器接合量(0~1)
 def_modular_engine_clutch_3x3_node_0_desc			
 def_modular_engine_clutch_3x3_node_1_label		RPS	RPS
 def_modular_engine_clutch_3x3_node_1_desc		The power supplied by the engine for inputting to other components.	来自发动机的动力
-def_modular_engine_clutch_5x5_name		Modular Engine Clutch 5x5	5x5模块化离合器
+def_modular_engine_clutch_5x5_name		Modular Engine Clutch 5x5	模块化发动机离合器(5x5)
 def_modular_engine_clutch_5x5_desc		Attach a clutch to a crankshaft block to control the torque made available to the connected system.	将飞轮连接到曲轴缸体上，将曲轴中的功率转换为驱动其他部件的可用扭矩
 def_modular_engine_clutch_5x5_s_desc		A modular engine clutch.	模块化发动机离合器
 def_modular_engine_clutch_5x5_node_0_label		Clutch Pressure	离合器接合量(0~1)
@@ -5088,22 +5088,22 @@ def_modular_engine_coolant_manifold_node_0_label		Coolant A	冷却液 A
 def_modular_engine_coolant_manifold_node_0_desc			
 def_modular_engine_coolant_manifold_node_1_label		Coolant B	冷却液 B
 def_modular_engine_coolant_manifold_node_1_desc			
-def_modular_engine_crankshaft_name		Modular Engine Crankshaft 1x1	模块化发动机曲轴
+def_modular_engine_crankshaft_name		Modular Engine Crankshaft 1x1	模块化发动机曲轴(1x1)
 def_modular_engine_crankshaft_desc		The crankshaft is the core of an engine. Attach cylinders to the outer surfaces to generate power. Multiple crankshaft blocks can be placed adajcent to each other to form larger engines.	曲轴是发动机的核心。将气缸连接到外表面产生动力，连接飞轮将产生的动力作为扭矩传递。多个曲轴组可以互相对置，形成较大的发动机
 def_modular_engine_crankshaft_s_desc		A modular engine crankshaft block.	模块化发动机曲轴缸体
 def_modular_engine_crankshaft_node_0_label		RPS	RPS
 def_modular_engine_crankshaft_node_0_desc		Output value giving data info on engine speed.	输出发动机转速数据
-def_modular_engine_crankshaft_3x1_name		Modular Engine Crankshaft 3x1	3x1模块化发动机曲轴
+def_modular_engine_crankshaft_3x1_name		Modular Engine Crankshaft 3x1	模块化发动机曲轴(3x1)
 def_modular_engine_crankshaft_3x1_desc		The crankshaft is the core of an engine. Attach cylinders to the outer surfaces to generate power. Multiple crankshaft blocks can be placed adajcent to each other to form larger engines.	曲轴是发动机的核心。将气缸连接到外表面产生动力，连接飞轮将产生的动力作为扭矩传递。多个曲轴组可以互相对置，形成较大的发动机
 def_modular_engine_crankshaft_3x1_s_desc		A modular engine crankshaft block.	模块化发动机曲轴缸体
 def_modular_engine_crankshaft_3x1_node_0_label		RPS	RPS
 def_modular_engine_crankshaft_3x1_node_0_desc		Output value giving data info on engine speed.	输出发动机转速数据
-def_modular_engine_crankshaft_3x3_name		Modular Engine Crankshaft 3x3	3x3模块化发动机曲轴
+def_modular_engine_crankshaft_3x3_name		Modular Engine Crankshaft 3x3	模块化发动机曲轴(3x3)
 def_modular_engine_crankshaft_3x3_desc		The crankshaft is the core of an engine. Attach cylinders to the outer surfaces to generate power. Multiple crankshaft blocks can be placed adajcent to each other to form larger engines.	曲轴是发动机的核心。将气缸连接到外表面产生动力，连接飞轮将产生的动力作为扭矩传递。多个曲轴组可以互相对置，形成较大的发动机
 def_modular_engine_crankshaft_3x3_s_desc		A modular engine crankshaft block.	模块化发动机曲轴缸体
 def_modular_engine_crankshaft_3x3_node_0_label		RPS	RPS
 def_modular_engine_crankshaft_3x3_node_0_desc		Output value giving data info on engine speed.	输出发动机转速数据
-def_modular_engine_crankshaft_5x5_name		Modular Engine Crankshaft 5x5	5x5模块化发动机曲轴
+def_modular_engine_crankshaft_5x5_name		Modular Engine Crankshaft 5x5	模块化发动机曲轴(5x5)
 def_modular_engine_crankshaft_5x5_desc		The crankshaft is the core of an engine. Attach cylinders to the outer surfaces to generate power. Multiple crankshaft blocks can be placed adajcent to each other to form larger engines.	曲轴是发动机的核心。将气缸连接到外表面产生动力，连接飞轮将产生的动力作为扭矩传递。多个曲轴组可以互相对置，形成较大的发动机
 def_modular_engine_crankshaft_5x5_s_desc		A modular engine crankshaft block.	模块化发动机曲轴缸体
 def_modular_engine_crankshaft_5x5_node_0_label		RPS	RPS
@@ -5118,12 +5118,12 @@ def_modular_engine_crankshaft_converter_5x5_desc		The crankshaft is the core of 
 def_modular_engine_crankshaft_converter_5x5_s_desc		A modular engine crankshaft block.	模块化发动机曲轴缸体
 def_modular_engine_crankshaft_converter_5x5_node_0_label		RPS	RPS
 def_modular_engine_crankshaft_converter_5x5_node_0_desc		Output value giving data info on engine speed.	输出发动机转速数据
-def_modular_engine_cylinder_straight_name		Modular Engine Cylinder 1x1	模块化发动机气缸1x1
+def_modular_engine_cylinder_straight_name		Modular Engine Cylinder 1x1	模块化发动机气缸(1x1)
 def_modular_engine_cylinder_straight_desc		Attach a cylinder to a crankshafts outer surface to produce power for an engine. The cylinder requires a manifold to move air, fuel, and exhaust through the cylinder. Cylinders that are chained directly adjacent to each other can share a single manifold.	将气缸连接到曲轴外表面，为发动机提供动力。气缸需要一个歧管来输送空气、燃油和废气。相互直接相邻的气缸可以共用一个歧管
 def_modular_engine_cylinder_straight_s_desc		A modular engine cylinder.	模块化发动机气缸
 def_modular_engine_cylinder_straight_node_0_label		Composite Data	复合数据
 def_modular_engine_cylinder_straight_node_0_desc		Outputs data from the cylinder. (Value 1 : Air Volume) (Value 2 : Fuel Volume) (Value 3 : Temperature)	从气缸输出数据。(值1:空气量)(值2:燃油量)(值3:温度)
-def_modular_engine_drive_belt_name		Modular Engine Drive Belt 1x1	模块化发动机传动皮带1x1
+def_modular_engine_drive_belt_name		Modular Engine Drive Belt 1x1	模块化发动机传动带1x1
 def_modular_engine_drive_belt_desc		The drive belt attaches to the crankshaft and provides an interface for starters, alternators and pumps.	传动带连接在曲轴上，为起动机、交流发电机和泵提供接口
 def_modular_engine_drive_belt_s_desc		A modular engine drive belt.	模块化发动机传动带
 def_modular_engine_exhaust_manifold_corner_name		Modular Engine Exhaust Manifold (Corner)	模块化发动机排气歧管(拐角)
@@ -5209,12 +5209,12 @@ def_modular_engine_manifold_straight_s_desc		A modular engine manifold.	模块�
 def_modular_engine_manifold_t_name		Modular Engine Manifold (T)	模块化发动机歧管(T)
 def_modular_engine_manifold_t_desc		Attach a manifold to a cylinder to provide connections for air, fuel, and exhaust for that cylinder. Cylinders that are chained directly adjacent to each other can share a single manifold.	将歧管连接到气缸，为气缸提供空气、燃油和排气连接。相互直接相邻的气缸可以共用一个歧管
 def_modular_engine_manifold_t_s_desc		A modular engine manifold.	模块化发动机歧管
-def_modular_engine_piston_3x3_name		Modular Engine Cylinder 3x3	模块化发动机气缸3x3
+def_modular_engine_piston_3x3_name		Modular Engine Cylinder 3x3	模块化发动机气缸(3x3)
 def_modular_engine_piston_3x3_desc		Attach a cylinder to a crankshafts outer surface to produce power for an engine. The cylinder requires a manifold to move air, fuel, and exhaust through the cylinder. Cylinders that are chained directly adjacent to each other can share a single manifold.	将气缸连接到曲轴外表面，为发动机提供动力。气缸需要一个歧管来输送空气、燃油和废气。相互直接相邻的气缸可以共用一个歧管
 def_modular_engine_piston_3x3_s_desc		A modular engine cylinder.	模块化发动机气缸
 def_modular_engine_piston_3x3_node_0_label		Composite Data	复合数据
 def_modular_engine_piston_3x3_node_0_desc		Outputs data from the cylinder. (Value 1 : Air Volume) (Value 2 : Fuel Volume) (Value 3 : Temperature)	从气缸输出数据。(值1:空气量)(值2:燃油量)(值3:温度)
-def_modular_engine_piston_5x5_name		Modular Engine Cylinder 5x5	模块化发动机气缸5x5
+def_modular_engine_piston_5x5_name		Modular Engine Cylinder 5x5	模块化发动机气缸(5x5)
 def_modular_engine_piston_5x5_desc		Attach a cylinder to a crankshafts outer surface to produce power for an engine. The cylinder requires a manifold to move air, fuel, and exhaust through the cylinder. Cylinders that are chained directly adjacent to each other can share a single manifold.	将气缸连接到曲轴外表面，为发动机提供动力。气缸需要一个歧管来输送空气、燃油和废气。相互直接相邻的气缸可以共用一个歧管
 def_modular_engine_piston_5x5_s_desc		A modular engine cylinder.	模块化发动机气缸
 def_modular_engine_piston_5x5_node_0_label		Composite Data	复合数据
@@ -5347,7 +5347,7 @@ def_monitor_hud_3_node_2_label		Electric	电
 def_monitor_hud_3_node_2_desc			
 def_monitor_hud_3_node_3_label		Power Switch	电源开关
 def_monitor_hud_3_node_3_desc		Controls whether or not the screen is switched on.	控制屏幕是否打开
-def_motor_large_name		Large Electric Motor	大型电动机
+def_motor_large_name		Large Electric Motor	电动机(大)
 def_motor_large_desc		Converts electrical energy into mechanical force.	将电能转化为机械力
 def_motor_large_s_desc		A large electric motor.	大型电动机
 def_motor_large_node_0_label		RPS	RPS
@@ -5356,7 +5356,7 @@ def_motor_large_node_1_label		Electric	电
 def_motor_large_node_1_desc		The electric energy input to be converted into mechanical force.	输入的电能被转换成机械能
 def_motor_large_node_2_label		Throttle	节流阀
 def_motor_large_node_2_desc		The throttle input to control how much electric energy is converted to force.	控制多少电能转化为力的油门输入
-def_motor_medium_name		Medium Electric Motor	中型电动机
+def_motor_medium_name		Medium Electric Motor	电动机(中)
 def_motor_medium_desc		Converts electrical energy into mechanical force.	将电能转化为机械能
 def_motor_medium_s_desc		A medium electric motor.	中型电动机
 def_motor_medium_node_0_label		RPS	RPS
@@ -5365,7 +5365,7 @@ def_motor_medium_node_1_label		Electric	电
 def_motor_medium_node_1_desc		The electric energy input to be converted into mechanical force.	输入的电能被转换成机械能
 def_motor_medium_node_2_label		Throttle	节流阀
 def_motor_medium_node_2_desc		The throttle input to control how much electric energy is converted to force.	控制多少电能转化为力的油门输入
-def_motor_small_name		Small Electric Motor	小型电动机
+def_motor_small_name		Small Electric Motor	电动机(小)
 def_motor_small_desc		Converts electrical energy into mechanical force.	将电能转化为机械能
 def_motor_small_s_desc		A small electric motor.	小型电动机
 def_motor_small_node_0_label		RPS	RPS
@@ -5377,21 +5377,21 @@ def_motor_small_node_2_desc		The throttle input to control how much electric ene
 def_multibody_compact_pivot_b_name		Compact Pivot	compact_pivot_b
 def_multibody_compact_pivot_b_desc			
 def_multibody_compact_pivot_b_s_desc			
-def_multibody_compact_pivot_robotic_a_name		Compact Robotic Pivot	紧凑型机械枢轴
+def_multibody_compact_pivot_robotic_a_name		Compact Robotic Pivot	机械枢轴(紧凑型)
 def_multibody_compact_pivot_robotic_a_desc		The pivot has a range of motion of 0.25 turns in both directions. A standard input value sets the target orientation within the pivot's range of motion. The pivot's speed can be configured by selecting it with the select tool.	枢轴在两个方向上的运动范围为0.25圈。标准输入值设置轴运动范围内的目标方向。轴的测量旋转可以从其输出中读取。轴的速度可以通过使用选择工具选择来配置
 def_multibody_compact_pivot_robotic_a_s_desc		A small robotic pivot that will orientate towards the input value within its range of motion.	在其运动范围内朝向输入值的机器枢轴
 def_multibody_compact_pivot_robotic_a_node_0_label		Rotation Target	旋转目标
 def_multibody_compact_pivot_robotic_a_node_0_desc		The standard value setting the orientation within the range of motion.	在运动范围内设置方向的标准值
 def_multibody_compact_pivot_robotic_a_node_1_label		Electric	电
 def_multibody_compact_pivot_robotic_a_node_1_desc		Electrical power connection.	电源连接
-def_multibody_compact_pivot_velocity_a_name		Compact Velocity Pivot	紧凑型速度轴
+def_multibody_compact_pivot_velocity_a_name		Compact Velocity Pivot	速度轴(紧凑型)
 def_multibody_compact_pivot_velocity_a_desc		Inputting a value of 0 will cause it to stop.	输入0将导致其停止
 def_multibody_compact_pivot_velocity_a_s_desc		A small pivot that will continuously rotate at a set input speed.	以输入的速度持续旋转的小枢轴
 def_multibody_compact_pivot_velocity_a_node_0_label		Rotational Speed	转速
 def_multibody_compact_pivot_velocity_a_node_0_desc		The speed at which the pivot should rotate.	枢轴旋转的速度
 def_multibody_compact_pivot_velocity_a_node_1_label		Electric	电
 def_multibody_compact_pivot_velocity_a_node_1_desc		Electrical power connection.	电源连接
-def_multibody_door_hinge_a_name		Robotic Door Hinge	自动门铰链[主]
+def_multibody_door_hinge_a_name		Robotic Door Hinge	自定义门-铰链[主]
 def_multibody_door_hinge_a_desc		The hinge has a range of motion of 0.25 in each direction. A standard input value sets the target orientation within the pivot's range of motion. The measured rotation of the hinge can be read from its output. The hinge's speed can be configured by selecting it with the select tool.	铰链在一个方向上的运动范围为0.25圈。标准输入值设置轴运动范围内的目标方向。铰链的旋转测量值可以从其输出中读取。铰链的速度可以通过选择工具进行配置
 def_multibody_door_hinge_a_s_desc		A powered robotic hinge for custom sealable doors.	用于定制可密封门的电动机械铰链
 def_multibody_door_hinge_a_node_0_label		Rotation Target	旋转目标
@@ -5400,7 +5400,7 @@ def_multibody_door_hinge_a_node_1_label		Current Rotation	当前圈数
 def_multibody_door_hinge_a_node_1_desc		The hinge's measured rotation between -0.25 and 0.25.	铰链在-0.25到0.25之间的旋转测量值
 def_multibody_door_hinge_a_node_2_label		Electric	电
 def_multibody_door_hinge_a_node_2_desc		Electrical power connection.	电源连接
-def_multibody_door_hinge_b_name		Robotic Door Hinge	自动门铰链[从]
+def_multibody_door_hinge_b_name		Robotic Door Hinge	自定义门-铰链[从]
 def_multibody_door_hinge_b_desc			
 def_multibody_door_hinge_b_s_desc			
 def_multibody_piston_suspension_a_name		Piston Suspension	活塞悬挂
@@ -5522,7 +5522,7 @@ def_multibody_velocity_pivot_a_node_1_label		Current Rotation	当前圈数
 def_multibody_velocity_pivot_a_node_1_desc		The pivot's measured rotation expressed in fractions of full turns.	枢轴的测量旋转以整圈的分数表示
 def_multibody_velocity_pivot_a_node_2_label		Electric	电
 def_multibody_velocity_pivot_a_node_2_desc		Electrical power connection.	电源连接
-def_multibody_velocity_pivot_b_name		Robotic Pivot	机器人枢轴b
+def_multibody_velocity_pivot_b_name		Robotic Pivot	机械枢轴b
 def_multibody_velocity_pivot_b_desc			
 def_multibody_velocity_pivot_b_s_desc			
 def_no_sleep_name		Keep Active Block	载具保活块
@@ -5633,12 +5633,12 @@ def_pressure_sensor_desc		Setting the resistance property will tune the amount o
 def_pressure_sensor_s_desc		A sensor activated by contact pressure.	由接触压力激活的传感器
 def_pressure_sensor_node_0_label		Output	输出
 def_pressure_sensor_node_0_desc		Outputs an on signal when the contact sensor is depressed.	按下压力传感器时，输出接通信号
-def_propeller_name		Small Propeller	小型螺旋桨
+def_propeller_name		Small Propeller	船用螺旋桨(小)
 def_propeller_desc		Power received from an engine affects the forward and backward force generated. This propeller will only operate underwater.	从发动机获得的动力会产生前进和后退的动力。该螺旋桨只能在水下工作
-def_propeller_s_desc		A small boat propeller.	小型船用螺旋桨
+def_propeller_s_desc		A small boat propeller.	小型螺旋桨
 def_propeller_node_0_label		RPS	RPS
 def_propeller_node_0_desc		Receives power generated by an engine.	接收发动机产生的动力
-def_propeller_pitch_name		Pitchable Propeller	变距螺旋桨
+def_propeller_pitch_name		Pitchable Propeller	变距螺旋桨(中)
 def_propeller_pitch_desc		A standard number input controls the propeller's hub, allowing you to affect its pitch. Power received from an engine affects forward and backward force generated. This propeller will only operate underwater.	输入数字可控制螺旋桨的桨叶角,从发动机获得的动力会产生前进和后退的动力,该螺旋桨只能在水下工作
 def_propeller_pitch_s_desc		A boat propeller with controllable pitch.	船用可变距螺旋桨
 def_propeller_pitch_node_0_label		RPS	RPS
@@ -5938,7 +5938,7 @@ def_rope_hook_fluid_node_0_label		Rope Node	绳节点
 def_rope_hook_fluid_node_0_desc			
 def_rope_hook_fluid_node_1_label		Fluid Node	流体节点
 def_rope_hook_fluid_node_1_desc			
-def_rope_hook_winch_name		Medium Winch	中型绞车
+def_rope_hook_winch_name		Medium Winch	绞车(中)
 def_rope_hook_winch_desc		Draw a rope logic link between two Rope Nodes to form a cable. Can be extended and retracted.	在两个电缆锚之间画一个绳索逻辑链接，形成一条电缆。仅限于一个链路，但可以通过链路传输数据和电力。可伸缩
 def_rope_hook_winch_s_desc		A mechanical winch that can transfer data/electric/fluid through an attached cable, with an extension length of 40m.	最大长度40米的机械绞车,可以通过绳索传输数据、电力、流体的机械绞车
 def_rope_hook_winch_node_0_label		Down	放下绳索
@@ -5969,7 +5969,7 @@ def_rope_hook_winch_node_12_label		Length	线缆长度
 def_rope_hook_winch_node_12_desc		The current length of the winch cable in metres.	返回当前绞车线缆长度
 def_rope_hook_winch_node_13_label		Fluid	流体
 def_rope_hook_winch_node_13_desc		Fluid connection for the hose coil.	由线缆连接的流体接口
-def_rope_hook_winch_huge_name		Huge Winch	巨型绞车
+def_rope_hook_winch_huge_name		Huge Winch	绞车(巨)
 def_rope_hook_winch_huge_desc		Draw a rope logic link between two Rope Nodes to form a cable. Can be extended and retracted.	在两个电缆锚之间画一个绳索逻辑链接，形成一条电缆。仅限于一个链路，但可以通过链路传输数据和电力。可伸缩
 def_rope_hook_winch_huge_s_desc		A mechanical winch that can transfer data/electric/fluid through an attached cable, with an extension length of 600m.	最大长度600米的机械绞车,可以通过绳索传输数据、电力、流体的机械绞车
 def_rope_hook_winch_huge_node_0_label		Down	放下绳索
@@ -6000,7 +6000,7 @@ def_rope_hook_winch_huge_node_12_label		Length	线缆长度
 def_rope_hook_winch_huge_node_12_desc		The current length of the winch cable in metres.	返回当前绞车线缆长度
 def_rope_hook_winch_huge_node_13_label		Fluid	流体
 def_rope_hook_winch_huge_node_13_desc		Fluid connection for the hose coil.	由线缆连接的流体接口
-def_rope_hook_winch_large_name		Large Winch	大型绞车
+def_rope_hook_winch_large_name		Large Winch	绞车(大)
 def_rope_hook_winch_large_desc		Draw a rope logic link between two Rope Nodes to form a cable. Can be extended and retracted.	在两个电缆锚之间画一个绳索逻辑链接，形成一条电缆。仅限于一个链路，但可以通过链路传输数据和电力。可伸缩
 def_rope_hook_winch_large_s_desc		A mechanical winch that can transfer data/electric/fluid through an attached cable, with an extension length of 150m.	最大长度150米的机械绞车,可以通过绳索传输数据、电力、流体的机械绞车
 def_rope_hook_winch_large_node_0_label		Down	放下绳索
@@ -6031,7 +6031,7 @@ def_rope_hook_winch_large_node_12_label		Length	线缆长度
 def_rope_hook_winch_large_node_12_desc		The current length of the winch cable in metres.	返回当前绞车线缆长度
 def_rope_hook_winch_large_node_13_label		Fluid	流体
 def_rope_hook_winch_large_node_13_desc		Fluid connection for the hose coil.	由线缆连接的流体接口
-def_rope_hook_winch_small_name		Small Winch	小型绞车
+def_rope_hook_winch_small_name		Small Winch	绞车(小)
 def_rope_hook_winch_small_desc		Draw a rope logic link between two Rope Nodes to form a cable. Can be extended and retracted.	在两个电缆锚之间画一个绳索逻辑链接，形成一条电缆。仅限于一个链路，但可以通过链路传输数据和电力。可伸缩
 def_rope_hook_winch_small_s_desc		A mechanical winch that can transfer electric/fluid through an attached cable, with an extension length of 10m.	最大长度10米的机械绞车,可以通过绳索传输数据、电力、流体的机械绞车
 def_rope_hook_winch_small_node_0_label		Down	放下绳索
@@ -6154,7 +6154,7 @@ def_rudder_node_0_label		Rotation	旋转
 def_rudder_node_0_desc		Accepts a value between -1 and 1 that represent the two extremes of the rudder's rotation.	接受介于-1和1之间的值，该值表示方向舵旋转的两个极值
 def_rudder_node_1_label		Electric	电
 def_rudder_node_1_desc		Electrical power connection.	电源连接
-def_rudder_surface_name		Fin Rudder	鳍舵
+def_rudder_surface_name		Fin Rudder	方向舵(鳍型)
 def_rudder_surface_desc		It takes a number input between -1 and 1 that represent the two extremes of the fin's rotation.	它需要一个介于-1和1之间的数字输入，表示鳍旋转的两个极值
 def_rudder_surface_s_desc		The fin rudder can be attached to the keel of a boat to control its yaw, allowing you to steer left and right.	鳍舵可以附在船的龙骨上，以控制船的偏航(Yaw)，使你可以左右控制舵
 def_rudder_surface_node_0_label		Rotation	旋转
@@ -6359,7 +6359,7 @@ def_rx_video_r_node_2_desc
 def_rx_video_r_node_3_label		Signal Strength	信号强度
 def_rx_video_r_node_3_desc			
 def_rx_video_x_name		Radio Video Xmit	无线图传发射端
-def_rx_video_x_desc		Sends a video signal on the frequency specified. (Max Effective Range : 10000m)	按指定的发送频率视频信号
+def_rx_video_x_desc		Sends a video signal on the frequency specified. (Max Effective Range : 10000m)	按指定的发送频率视频信号(最大距离10000m)
 def_rx_video_x_s_desc		A radio transmitter for sending video signals.	发送视频信号的无线电发射器
 def_rx_video_x_node_0_label		Video Send	视频发送
 def_rx_video_x_node_0_desc			
@@ -6389,7 +6389,7 @@ def_searchlight_small_node_0_desc		Controls whether or not the light is switched
 def_searchlight_small_node_1_label		Electric	电
 def_searchlight_small_node_1_desc		Electrical power connection.	电源连接
 def_searchlight_small_node_2_label		Pivot	轴
-def_searchlight_small_node_2_desc		Inputs for spotlight X/Y pivot. (Value 1 : Pivot X) (Value 2 : Pivot Y)	聚光灯的X/Y轴数值(数值1:X轴,数值2:Y轴)
+def_searchlight_small_node_2_desc		Inputs for spotlight X/Y pivot. (Value 1 : Pivot X) (Value 2 : Pivot Y)	聚光灯的X/Y轴数值(数值1:X轴,数值2:Y轴)(值-1~1代表-45°~45°)
 def_searchlight_small_2_name		Small Spotlight (Mounted)	小聚光灯(挂载)
 def_searchlight_small_2_desc		It has a range of 60m. Can be pivoted up to 0.125 turns using composite input.	照明范围60米,可以使用混合输入控制0.125圈的旋转
 def_searchlight_small_2_s_desc		A small spotlight that can be controlled using an on/off signal.	可以由开/关信号控制的小聚光灯
@@ -6398,8 +6398,8 @@ def_searchlight_small_2_node_0_desc		Controls whether or not the light is switch
 def_searchlight_small_2_node_1_label		Electric	电
 def_searchlight_small_2_node_1_desc		Electrical power connection.	电源连接
 def_searchlight_small_2_node_2_label		Pivot	轴
-def_searchlight_small_2_node_2_desc		Inputs for spotlight X/Y pivot. (Value 1 : Pivot X) (Value 2 : Pivot Y)	聚光灯的X/Y轴数值(数值1:X轴,数值2:Y轴)
-def_seat_name		Pilot Seat	驾驶员座椅
+def_searchlight_small_2_node_2_desc		Inputs for spotlight X/Y pivot. (Value 1 : Pivot X) (Value 2 : Pivot Y)	聚光灯的X/Y轴数值(数值1:X轴,数值2:Y轴)(值-1~1代表-45°~45°)
+def_seat_name		Pilot Seat	驾驶座椅
 def_seat_desc		It provides 4 number outputs that produce a standard value ranging from -1 to 1, and 6 on/off outputs. You can get in and out of the pilot seat by interacting with it using [$[action_use_seat]].	它提供4个输出，产生从-1到1的标准值，以及6个开/关输出。您可以通过使用 [$[action_use_seat]]与飞行员座椅交互来进出
 def_seat_s_desc		The pilot seat lets you translate keyboard presses into output signals that can control logic components.	飞行员座椅可以将键盘按键转换成可以控制逻辑元件的输出信号
 def_seat_node_0_label		Occupied	被占用
@@ -6441,8 +6441,8 @@ def_seat_bed_desc		You can get in and out of the bed by interacting with it usin
 def_seat_bed_s_desc		A bed.	一张床
 def_seat_bed_node_0_label		Occupied	被占用
 def_seat_bed_node_0_desc		Outputs an on signal if this bed is occupied by a character.	如果这个床被一个角色占用，则输出一个信号
-def_seat_compact_name		Compact Pilot Seat	紧凑型驾驶员座椅
-def_seat_compact_desc		It provides 4 number outputs that produce a standard value ranging from -1 to 1, and 6 on/off outputs. You can get in and out of the compact pilot seat by interacting with it using [$[action_use_seat]].	它提供4个输出，产生从-1到1的标准值，以及6个开/关输出。您可以通过使用 [$[action_use_seat]]与紧凑型驾驶员座椅交互来进出
+def_seat_compact_name		Compact Pilot Seat	驾驶座椅(紧凑型)
+def_seat_compact_desc		It provides 4 number outputs that produce a standard value ranging from -1 to 1, and 6 on/off outputs. You can get in and out of the compact pilot seat by interacting with it using [$[action_use_seat]].	它提供4个输出，产生从-1到1的标准值，以及6个开/关输出。您可以通过使用 [$[action_use_seat]]与紧凑型驾驶座椅交互来进出
 def_seat_compact_s_desc		The compact pilot seat lets you translate keyboard presses into output signals that can control logic components.	小巧的飞行员座椅可以将键盘按键转换成可以控制逻辑元件的输出信号
 def_seat_compact_node_0_label		Occupied	被占用
 def_seat_compact_node_0_desc		Outputs an on signal if this seat is occupied by a character.	如果该座位被角色占用，则输出接通信号
@@ -6536,7 +6536,7 @@ def_seat_harness_node_7_label		Hotkey 6 [$[action_hotkey_6]]	按键 6 [$[action_
 def_seat_harness_node_7_desc		Outputs an on signal when [$[action_hotkey_6]] is held, and off when it is not.	按住[$[action_hotkey_6]]时输出打开信号，不按住时输出关闭信号
 def_seat_harness_node_8_label		Seat Data	座位数据
 def_seat_harness_node_8_desc		Outputs the axis, hotkey and occupied data from the seat. (On/Off 1+ : Hotkeys) (On/Off 31 : Trigger) (On/Off 32 : Occupied) (Value 1 : [$[action_left]]/[$[action_right]]) (Value 2 : [$[action_up]]/[$[action_down]]) (Value 3 : [$[action_pedal_left]]/[$[action_pedal_right]]) (Value 4 : [$[action_throttle_up]]/[$[action_throttle_down]])	从座椅输出轴、热键和占用数据。(On/Off 1+ : 按键) (On/Off 31 : 扳机) (On/Off 32 : 占用) (值1 : [$[action_left]]/[$[action_right]]) (值2 : [$[action_up]]/[$[action_down]]) (值3 : [$[action_pedal_left]]/[$[action_pedal_right]]) (值4 : [$[action_throttle_up]]/[$[action_throttle_down]])
-def_seat_helm_name		Helm	轮舵
+def_seat_helm_name		Helm	驾驶座椅(轮舵)
 def_seat_helm_desc		You can get in and out of the position by interacting with it using [$[action_use_seat]]. You can place a rescued survivor in any position by using [$[action_use_seat]] while carrying them.	您可以通过使用 [$[action_use_seat]]与之交互来进出该位置。你可以在携带幸存者时使用 [$[action_use_seat]]将获救的幸存者放置在任何位置
 def_seat_helm_s_desc		A steering helm with steering wheel.	带方向盘的轮舵
 def_seat_helm_node_0_label		Occupied	被占用
@@ -6573,7 +6573,7 @@ def_seat_helm_node_15_label		Headset Audio	耳机音频
 def_seat_helm_node_15_desc			
 def_seat_helm_node_16_label		Headset Audio	耳机音频
 def_seat_helm_node_16_desc			
-def_seat_hotas_name		Pilot Seat (HOTAS)	驾驶员座椅(HOTAS)
+def_seat_hotas_name		Pilot Seat (HOTAS)	驾驶座椅(HOTAS)
 def_seat_hotas_desc		It provides 10 number outputs that produce a standard value ranging from -1 to 1, and 48 on/off outputs. You can get in and out of the pilot seat by interacting with it using [$[action_use_seat]]. Designed for use with HOTAS controllers.	它提供8个输出，产生从-1到1的标准值，以及48个开/关输出。您可以通过使用 [$[action_use_seat]]与飞行员座椅交互来进出。设计用于HOTAS控制器
 def_seat_hotas_s_desc		The pilot seat lets you translate controller presses into output signals that can control logic components.	飞行员座椅可以将控制器压力转换成可以控制逻辑元件的输出信号
 def_seat_hotas_node_0_label		Occupied	被占用
@@ -6717,9 +6717,9 @@ def_seat_passenger_desc		You can get in and out of the seat by interacting with 
 def_seat_passenger_s_desc		A basic passenger seat.	基本的乘客座位
 def_seat_passenger_node_0_label		Occupied	被占用
 def_seat_passenger_node_0_desc		Outputs an on signal if this seat is occupied by a character.	如果该座位被角色占用，则输出接通信号
-def_seat_racing_name		Driver seat	驾驶员座椅
-def_seat_racing_desc		It provides 4 number outputs that produce a standard value ranging from -1 to 1, and 6 on/off outputs. You can get in and out of the driver seat by interacting with it using [$[action_use_seat]].	它提供4个输出，产生从-1到1的标准值，以及6个开/关输出。您可以通过使用[[$[action_use_seat]]与驾驶员座椅交互来进出驾驶员座椅
-def_seat_racing_s_desc		The driver seat lets you translate keyboard presses into output signals that can control logic components.	驾驶员座椅允许您将键盘按键转换为可以控制逻辑组件的输出信号
+def_seat_racing_name		Driver seat	驾驶座椅
+def_seat_racing_desc		It provides 4 number outputs that produce a standard value ranging from -1 to 1, and 6 on/off outputs. You can get in and out of the driver seat by interacting with it using [$[action_use_seat]].	它提供4个输出，产生从-1到1的标准值，以及6个开/关输出。您可以通过使用[[$[action_use_seat]]与驾驶座椅交互来进出座椅
+def_seat_racing_s_desc		The driver seat lets you translate keyboard presses into output signals that can control logic components.	驾驶座椅允许您将键盘按键转换为可以控制逻辑组件的输出信号
 def_seat_racing_node_0_label		Occupied	被占用
 def_seat_racing_node_0_desc		Outputs an on signal if this seat is occupied by a character.	如果该座位被角色占用，则输出接通信号
 def_seat_racing_node_1_label		Trigger [$[action_trigger]]	扳机 [$[action_trigger]]
@@ -6754,7 +6754,7 @@ def_seat_racing_node_15_label		Headset Audio	耳机音频
 def_seat_racing_node_15_desc			
 def_seat_racing_node_16_label		Headset Audio	耳机音频
 def_seat_racing_node_16_desc			
-def_seat_space_name		Space Seat	飞船座椅
+def_seat_space_name		Space Seat	驾驶座椅(宇航)
 def_seat_space_desc		It provides 4 number outputs that produce a standard value ranging from -1 to 1, and 6 on/off outputs. You can get in and out of the space seat by interacting with it using [$[action_use_seat]].	提供4个数字轴输出(-1~1)和6个on/off的按钮输出，按下 [$[action_use_seat]] 进出该位置
 def_seat_space_s_desc		The space seat lets you translate keyboard presses into output signals that can control logic components.	飞船座椅可以将键盘输入转化为控制载具的逻辑
 def_seat_space_node_0_label		Occupied	已被占用
@@ -6866,7 +6866,7 @@ def_solar_desc		The cell generates electrical current based on time of day and a
 def_solar_s_desc		A solar cell for generating electricity.	用于发电的太阳能电池
 def_solar_node_0_label		Electric	电
 def_solar_node_0_desc		The electric connection to output electric energy.	输出电能的电源连接
-def_solar_large_name		Large Solar Cell	大型太阳能电池
+def_solar_large_name		Large Solar Cell	太阳能电池(大)
 def_solar_large_desc		The cell generates electrical current based on time of day and angle towards the sun.	电池根据一天中的时间和朝向太阳的角度产生电流
 def_solar_large_s_desc		A large solar cell for generating electricity.	用于发电的太阳能电池
 def_solar_large_node_0_label		Electric	
@@ -6937,7 +6937,7 @@ def_solid_rocket_small_fins_node_0_label		Composite Input	混合输入
 def_solid_rocket_small_fins_node_0_desc		Composite data for the control surfaces.	控制面的混合数据
 def_solid_rocket_small_fins_node_1_label		Electric	电
 def_solid_rocket_small_fins_node_1_desc		Electrical power connection.	电源连接
-def_sonar_advanced_name		Sonar (Small)	小型声纳
+def_sonar_advanced_name		Sonar (Small)	声纳(小)
 def_sonar_advanced_desc		This sensor outputs the relative angle to detected objects within its range using underwater sound waves. The sensor will passively detect certain noisy components such as propellers or engines but can also send out a loud ping to detect quiet underwater bodies. While the ping input is held passive signals will be supressed. After activating a ping additional detected signals will appear momentarily in the data channel as the signal returns to the sonar. Activating another ping will override the previous ping and no further data will be returned from the old signal.	声纳可在水下利用声波探测其探测范围内检测到的物体的相对角度。被动模式可监听测某些嘈杂的部件,如螺旋桨或发动机。也可主动发出一个响亮的Ping来检测安静的水下物体。主动Ping时,无法检测到被动信号。激活Ping后,当信号返回到声纳时,额外的检测信号将暂时出现在数据通道中。激活新的Ping将覆盖前一个Ping,旧信号将不再返回数据
 def_sonar_advanced_s_desc		A sonar that returns information about a detected objects within 60km.	该声纳最大可探测60km内的物体
 def_sonar_advanced_node_0_label		Electric	电
@@ -6950,7 +6950,7 @@ def_sonar_advanced_node_3_label		Sonar Data	声纳数据
 def_sonar_advanced_node_3_desc		Outputs data for up to 16 targets. On/Off 1-16 : Target 1 Found, Target 2 Found, Etc... Values 1-32: Target 1 Pivot, Target 1 Pitch, Target 2 Pivot, Target 2 Pitch, Etc...	输出最多16个目标的数据。开/关1-16:发现目标1,发现目标2,等等...。值1-32:目标1方位角,目标1俯仰角,目标2方位角,目标2俯仰角,等等
 def_sonar_advanced_node_4_label		Torpedo Output	鱼雷输出
 def_sonar_advanced_node_4_desc		Outputs x and y data for the most immediate target. Link this directly into a rocket fins component.	输出凝视目标的x和y数据。将其直接连接到弹翼组件中
-def_sonar_advanced_5_name		Sonar (Medium)	中型声纳
+def_sonar_advanced_5_name		Sonar (Medium)	声纳(中)
 def_sonar_advanced_5_desc		This sensor outputs the relative angle to detected objects within its range using underwater sound waves. The sensor will passively detect certain noisy components such as propellers or engines but can also send out a loud ping to detect quiet underwater bodies. While the ping input is held passive signals will be supressed. After activating a ping additional detected signals will appear momentarily in the data channel as the signal returns to the sonar. Activating another ping will override the previous ping and no further data will be returned from the old signal.	声纳可在水下利用声波探测其探测范围内检测到的物体的相对角度。被动模式可监听测某些嘈杂的部件,如螺旋桨或发动机。也可主动发出一个响亮的Ping来检测安静的水下物体。主动Ping时,无法检测到被动信号。激活Ping后,当信号返回到声纳时,额外的检测信号将暂时出现在数据通道中。激活新的Ping将覆盖前一个Ping,旧信号将不再返回数据
 def_sonar_advanced_5_s_desc		A sonar that returns information about a detected objects within 100km.	该声纳最大可探测100km内的物体
 def_sonar_advanced_5_node_0_label		Electric	电
@@ -6961,7 +6961,7 @@ def_sonar_advanced_5_node_2_label		Ping	Ping
 def_sonar_advanced_5_node_2_desc		Send a ping and listen for return sounds.	进行一次Ping的发送并监听
 def_sonar_advanced_5_node_3_label		Sonar Data	声纳数据
 def_sonar_advanced_5_node_3_desc		Outputs data for up to 16 targets. On/Off 1-16 : Target 1 Found, Target 2 Found, Etc... Values 1-32: Target 1 Pivot, Target 1 Pitch, Target 2 Pivot, Target 2 Pitch, Etc...	输出最多16个目标的数据。开/关1-16:发现目标1,发现目标2,等等...。值1-32:目标1方位角,目标1俯仰角,目标2方位角,目标2俯仰角,等等
-def_sonar_advanced_7_name		Sonar (Large)	大型声纳
+def_sonar_advanced_7_name		Sonar (Large)	声纳(大)
 def_sonar_advanced_7_desc		This sensor outputs the relative angle to detected objects within its range using underwater sound waves. The sensor will passively detect certain noisy components such as propellers or engines but can also send out a loud ping to detect quiet underwater bodies. While the ping input is held passive signals will be supressed. After activating a ping additional detected signals will appear momentarily in the data channel as the signal returns to the sonar. Activating another ping will override the previous ping and no further data will be returned from the old signal.	声纳可在水下利用声波探测其探测范围内检测到的物体的相对角度。被动模式可监听测某些嘈杂的部件,如螺旋桨或发动机。也可主动发出一个响亮的Ping来检测安静的水下物体。主动Ping时,无法检测到被动信号。激活Ping后,当信号返回到声纳时,额外的检测信号将暂时出现在数据通道中。激活新的Ping将覆盖前一个Ping,旧信号将不再返回数据
 def_sonar_advanced_7_s_desc		A sonar that returns information about a detected objects within 200km.	该声纳最大可探测200km内的物体
 def_sonar_advanced_7_node_0_label		Electric	电
@@ -7152,7 +7152,7 @@ def_steam_piston_node_5_label		Steam Out	蒸汽出口
 def_steam_piston_node_5_desc			
 def_steam_piston_node_6_label		RPS	RPS
 def_steam_piston_node_6_desc			
-def_steam_piston_node_7_label		Piston Position	活塞位置
+def_steam_piston_node_7_label		Piston Position	初始活塞位置
 def_steam_piston_node_7_desc			
 def_steam_piston_3x3_name		Steam Piston (Medium)	蒸汽活塞(中)
 def_steam_piston_3x3_desc		Steam pressurized through the outer coupling extends the piston and steam pressurized through the inner coupling retracts the piston. Alternating pressure to the couplings based on the piston position will allow the crankpin to rotate continuously.	通过外侧联轴器加压的蒸汽使活塞伸出,通过内侧联轴器加压的蒸汽使活塞缩回.根据活塞的位置来调整联轴器的压力,可以使曲轴连续旋转.(P.S:就像真正的蒸汽机一样,为了避免失速,最好有一个飞轮或多个不相干的活塞.这是因为曲轴上的扭矩作用在冲程的末端有低效率区,就像真正的活塞一样.彼此相邻的活塞被锁定在一起,但可以用玩家定义的曲柄周期偏移来生成.这允许对发动机的建造方式进行大量的控制.)
@@ -7171,7 +7171,7 @@ def_steam_piston_3x3_node_5_label		Steam Out	蒸汽出口
 def_steam_piston_3x3_node_5_desc			
 def_steam_piston_3x3_node_6_label		RPS	RPS
 def_steam_piston_3x3_node_6_desc			
-def_steam_piston_3x3_node_7_label		Piston Position	活塞位置
+def_steam_piston_3x3_node_7_label		Piston Position	初始活塞位置
 def_steam_piston_3x3_node_7_desc			
 def_steam_piston_5x5_name		Steam Piston (Large)	蒸汽活塞(大)
 def_steam_piston_5x5_desc		Steam pressurized through the outer coupling extends the piston and steam pressurized through the inner coupling retracts the piston. Alternating pressure to the couplings based on the piston position will allow the crankpin to rotate continuously.	通过外侧联轴器加压的蒸汽使活塞伸出,通过内侧联轴器加压的蒸汽使活塞缩回.根据活塞的位置来调整联轴器的压力,可以使曲轴连续旋转.(P.S:就像真正的蒸汽机一样,为了避免失速,最好有一个飞轮或多个不相干的活塞.这是因为曲轴上的扭矩作用在冲程的末端有低效率区,就像真正的活塞一样.彼此相邻的活塞被锁定在一起,但可以用玩家定义的曲柄周期偏移来生成.这允许对发动机的建造方式进行大量的控制.)
@@ -7190,7 +7190,7 @@ def_steam_piston_5x5_node_5_label		Steam Out	蒸汽出口
 def_steam_piston_5x5_node_5_desc			
 def_steam_piston_5x5_node_6_label		RPS	RPS
 def_steam_piston_5x5_node_6_desc			
-def_steam_piston_5x5_node_7_label		Piston Position	活塞位置
+def_steam_piston_5x5_node_7_label		Piston Position	初始活塞位置
 def_steam_piston_5x5_node_7_desc			
 def_steam_turbine_name		Steam Turbine	蒸汽轮机
 def_steam_turbine_desc		Produces torque based on the force generated by steam passing through the turbine.	利用通过的蒸汽来产生扭矩
@@ -7457,7 +7457,7 @@ def_transponder_locator_node_1_label		Electric	电
 def_transponder_locator_node_1_desc		Electrical power connection.	电源连接
 def_transponder_locator_node_2_label		Active	激活
 def_transponder_locator_node_2_desc		Detects any transponder signals when active.	当激活时搜索应急信号
-def_trans_angle_name		Pipe Angle	L型管道
+def_trans_angle_name		Pipe Angle	管道(L型)
 def_trans_angle_desc			
 def_trans_angle_s_desc		An angled pipe for transferring to components from an engine.	从发动机传送到部件的有角度的管子
 def_trans_block_angle_name		Pipe Angle (Enclosed)	封闭管道(L型)
@@ -7516,7 +7516,7 @@ def_turbine_node_2_label		Throttle	节流阀
 def_turbine_node_2_desc		Standard value between 0 and 1 that controls the throttle of the engine.	控制发动机前进/后退油门的-1和1之间的标准值
 def_turbine_node_3_label		Electric	电
 def_turbine_node_3_desc		Electrical power connection.	电源连接
-def_turbocharger_name		Impeller Pump	叶轮流体泵
+def_turbocharger_name		Impeller Pump	机械流体泵
 def_turbocharger_desc		An Impeller that will force fluid through the system when torque is applied.	需要外部动力输入的流体泵
 def_turbocharger_s_desc		An Impeller Pump that can push fluid through a system.	叶轮将流体从一端泵向另一端
 def_turbocharger_node_0_label		Fluid In	入口
@@ -7525,7 +7525,7 @@ def_turbocharger_node_1_label		RPS	RPS
 def_turbocharger_node_1_desc			
 def_turbocharger_node_2_label		Fluid Out	出口
 def_turbocharger_node_2_desc			
-def_turbocharger_small_name		Impeller Pump (Small)	叶轮流体泵(小)
+def_turbocharger_small_name		Impeller Pump (Small)	机械流体泵(小)
 def_turbocharger_small_desc		An Impeller that will force fluid through the system when torque is applied.	需要外部动力输入的流体泵
 def_turbocharger_small_s_desc		An Impeller Pump that can push fluid through a system.	叶轮将流体从一端泵向另一端
 def_turbocharger_small_node_0_label		Fluid In	入口
@@ -7589,8 +7589,8 @@ def_warhead_small_desc		Detonates from an impact, or when receiving damage. Be c
 def_warhead_small_s_desc		A small explosive warhead.	小型爆炸弹头
 def_warhead_small_node_0_label		Arm	解除保险
 def_warhead_small_node_0_desc		Arm the explosives in the warhead to detonate when the internal impact sensor reaches its threshold.	解除碰炸引信的保险.解除保险后受到撞击会产生爆炸
-def_watercannon_name		Fluid Cannon	旋转水炮
-def_watercannon_desc		The cannon is a turret and can rotate on 2 axis.	可以在水平和垂直轴上旋转的炮塔
+def_watercannon_name		Fluid Cannon	水炮云台
+def_watercannon_desc		The cannon is a turret and can rotate on 2 axis.	可以在水平和垂直轴上旋转的喷水炮塔
 def_watercannon_s_desc		A fluid cannon that fires pressurized water for putting out fires.	发射加压过的水来灭火
 def_watercannon_node_0_label		Turret Swivel	水平转动
 def_watercannon_node_0_desc		Yaw axis servo control for the cannon head.	炮头偏航(Yaw)轴伺服控制
@@ -7647,7 +7647,7 @@ def_water_measure_node_1_label		Fluid Capacity	总容量
 def_water_measure_node_1_desc		Returns the total capacity of an enclosed volume in litres, or 0 if not enclosed.	返回封闭空间的总容量(以升为单位).如果是开放空间则返回0
 def_water_measure_node_2_label		Composite Data	混合数据
 def_water_measure_node_2_desc		Outputs the volumes of individual liquid types on their respective channel. The data can be directly merged with a Gas meter. Channels: 1-Water, 2-Diesel, 3-Jet Fuel, 6-Oil, 7-Seawater, 9-Slurry, 10-Saturated Slurry	在各自通道上输出各种液体的容量.数据可直接与气体测量仪合并.通道 1-水;2-柴油;3-喷气燃料;6-油;7-海水;9-泥浆;10-饱和泥浆
-def_water_nozzle_name		Fluid Nozzle	水枪喷嘴
+def_water_nozzle_name		Fluid Nozzle	水炮喷嘴
 def_water_nozzle_desc		The angle of spray can be adjusted.	喷雾角度可以调节
 def_water_nozzle_s_desc		A fluid nozzle that fires pressurized water for putting out fires.	喷射加压水以灭火的水枪喷嘴
 def_water_nozzle_node_0_label		Fluid Supply	进水口
@@ -7661,7 +7661,7 @@ def_water_outlet_desc		Place the port inside of an enclosed volume to connect to
 def_water_outlet_s_desc		Port used to allow fluid in and out of a fluid system.	允许流体进出流体系统的端口
 def_water_outlet_node_0_label		Fluid	流体
 def_water_outlet_node_0_desc		Allows fluid to flow in and out of an enclosed volume or the ocean.	允许流体进出封闭的体积或海洋
-def_water_pump_name		Fluid Pump	流体泵
+def_water_pump_name		Fluid Pump	电动流体泵(小)
 def_water_pump_desc		Connect to an inlet and outlet to create a pumping system to move fluid around a vehicle.	不需要外部动力的电动流体泵，正确连接流体的入口和出口，以创建一个泵送系统
 def_water_pump_s_desc		A small fluid pump.	小型的流体泵
 def_water_pump_node_0_label		On/Off	开/关
@@ -7672,7 +7672,7 @@ def_water_pump_node_2_label		Fluid Out	出口
 def_water_pump_node_2_desc		Connect to an outlet component to release fluid from the system.	连接收到出口部件以释放系统中的流体
 def_water_pump_node_3_label		Electric	电
 def_water_pump_node_3_desc		Electrical power connection.	电源连接
-def_water_pump_large_name		Large Fluid Pump	大型流体泵
+def_water_pump_large_name		Large Fluid Pump	电动流体泵(大)
 def_water_pump_large_desc		Connect to an inlet and outlet to create a pumping system to move fluid around a vehicle.	不需要外部动力的电动流体泵，正确连接流体的入口和出口，以创建一个泵送系统
 def_water_pump_large_s_desc		A large fluid pump.	大型流体泵
 def_water_pump_large_node_0_label		Fluid In	入口
@@ -7700,7 +7700,7 @@ def_water_suction_duct_node_0_label		Fluid	流体
 def_water_suction_duct_node_0_desc		Allows fluid to flow in and out of an enclosed volume or the ocean.	允许流体进出封闭的体积或海洋
 def_wheel_advanced_3_name		Wheel 3x3	3x3轮
 def_wheel_advanced_3_desc		The wheel will rotate forwards and backwards depending on power received. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据接收到的功率前后旋转。它可以通过接收数字信号左右转向，也可以接收数字或开关信号实现制动刹车
-def_wheel_advanced_3_s_desc		Small steerable wheel with power connection and braking.	带动力连接和制动的小型可操纵载具轮
+def_wheel_advanced_3_s_desc		Small steerable wheel with power connection and braking.	带动力输入和制动的小型可操纵载具轮
 def_wheel_advanced_3_node_0_label		Brake	制动器
 def_wheel_advanced_3_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
 def_wheel_advanced_3_node_1_label		RPS	RPS
@@ -7711,7 +7711,7 @@ def_wheel_advanced_3_node_3_label		Steering	转向
 def_wheel_advanced_3_node_3_desc		Accepts a value between -1 and 1 that represents the extremes of the wheels steering rotation	接受一个介于-1和1之间的值，表示车轮转向的角度
 def_wheel_advanced_3_sus_name		Wheel 3x3 (Suspension)	3x3轮(悬挂)
 def_wheel_advanced_3_sus_desc		The wheel will rotate forwards and backwards depending on power received. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据接收到的功率前后旋转。它可以通过接收数字信号左右转向，也可以接收数字或开关信号实现制动刹车
-def_wheel_advanced_3_sus_s_desc		Small steerable wheel with suspension, power connection, and braking.	带悬挂、电源连接和制动的小型可操纵载具轮
+def_wheel_advanced_3_sus_s_desc		Small steerable wheel with suspension, power connection, and braking.	带有悬挂、动力输入和制动的小型可操纵载具轮
 def_wheel_advanced_3_sus_node_0_label		Brake	制动器
 def_wheel_advanced_3_sus_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
 def_wheel_advanced_3_sus_node_1_label		RPS	RPS
@@ -7722,7 +7722,7 @@ def_wheel_advanced_3_sus_node_3_label		Steering	转向
 def_wheel_advanced_3_sus_node_3_desc		Accepts a value between -1 and 1 that represents the extremes of the wheels steering rotation	接受一个介于-1和1之间的值，表示车轮转向的角度
 def_wheel_advanced_5_name		Wheel 5x5	5x5轮
 def_wheel_advanced_5_desc		The wheel will rotate forwards and backwards depending on power received. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据接收到的功率前后旋转。它可以通过接收数字信号左右转向，也可以接收数字或开关信号实现制动刹车
-def_wheel_advanced_5_s_desc		Medium steerable wheel with power connection and braking.	带动力连接和制动的中等方向盘
+def_wheel_advanced_5_s_desc		Medium steerable wheel with power connection and braking.	带动力输入和制动的中型车轮
 def_wheel_advanced_5_node_0_label		Brake	制动器
 def_wheel_advanced_5_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
 def_wheel_advanced_5_node_1_label		RPS	RPS
@@ -7733,7 +7733,7 @@ def_wheel_advanced_5_node_3_label		Steering	转向
 def_wheel_advanced_5_node_3_desc		Accepts a value between -1 and 1 that represents the extremes of the wheels steering rotation	接受一个介于-1和1之间的值，表示车轮转向的角度
 def_wheel_advanced_5_sus_name		Wheel 5x5 (Suspension)	5x5轮(悬挂)
 def_wheel_advanced_5_sus_desc		The wheel will rotate forwards and backwards depending on power received. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据接收到的功率前后旋转。它可以通过接收数字信号左右转向，也可以接收数字或开关信号实现制动刹车
-def_wheel_advanced_5_sus_s_desc		Medium steerable wheel with suspension, power connection, and braking.	带悬挂、电源连接和制动的中等方向盘
+def_wheel_advanced_5_sus_s_desc		Medium steerable wheel with suspension, power connection, and braking.	带悬挂、动力输入和制动的中型车轮
 def_wheel_advanced_5_sus_node_0_label		Brake	制动器
 def_wheel_advanced_5_sus_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
 def_wheel_advanced_5_sus_node_1_label		RPS	RPS
@@ -7744,7 +7744,7 @@ def_wheel_advanced_5_sus_node_3_label		Steering	转向
 def_wheel_advanced_5_sus_node_3_desc		Accepts a value between -1 and 1 that represents the extremes of the wheels steering rotation	接受一个介于-1和1之间的值，表示车轮转向的角度
 def_wheel_advanced_7_name		Wheel 7x7	7x7轮
 def_wheel_advanced_7_desc		The wheel will rotate forwards and backwards depending on power received. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据接收到的功率前后旋转。它可以通过接收数字信号左右转向，也可以接收数字或开关信号实现制动刹车
-def_wheel_advanced_7_s_desc		Large steerable wheel with power connection and braking.	带动力连接和制动的大方向盘
+def_wheel_advanced_7_s_desc		Large steerable wheel with power connection and braking.	带动力输入和制动的大型车轮
 def_wheel_advanced_7_node_0_label		Brake	制动器
 def_wheel_advanced_7_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
 def_wheel_advanced_7_node_1_label		RPS	RPS
@@ -7755,7 +7755,7 @@ def_wheel_advanced_7_node_3_label		Steering	转向
 def_wheel_advanced_7_node_3_desc		Accepts a value between -1 and 1 that represents the extremes of the wheels steering rotation	接受一个介于-1和1之间的值，表示车轮转向的角度
 def_wheel_advanced_7_sus_name		Wheel 7x7 (Suspension)	7x7轮(悬挂)
 def_wheel_advanced_7_sus_desc		The wheel will rotate forwards and backwards depending on power received. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据接收到的功率前后旋转。它可以通过接收数字信号左右转向，也可以接收数字或开关信号实现制动刹车
-def_wheel_advanced_7_sus_s_desc		Large steerable wheel with suspension, power connection, and braking.	带悬挂、电源连接和制动的大方向盘
+def_wheel_advanced_7_sus_s_desc		Large steerable wheel with suspension, power connection, and braking.	带悬挂、动力输入和制动的大型车轮
 def_wheel_advanced_7_sus_node_0_label		Brake	制动器
 def_wheel_advanced_7_sus_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
 def_wheel_advanced_7_sus_node_1_label		RPS	RPS
@@ -7766,7 +7766,7 @@ def_wheel_advanced_7_sus_node_3_label		Steering	转向
 def_wheel_advanced_7_sus_node_3_desc		Accepts a value between -1 and 1 that represents the extremes of the wheels steering rotation	接受一个介于-1和1之间的值，表示车轮转向的角度
 def_wheel_advanced_9_name		Wheel 9x9	9x9轮
 def_wheel_advanced_9_desc		The wheel will rotate forwards and backwards depending on power received. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据接收到的功率前后旋转。它可以通过接收数字信号以左右转向，也可以接收数字或开关信号实现制动刹车
-def_wheel_advanced_9_s_desc		XLarge steerable wheel with power connection and braking.	XLarge方向盘，带电源连接和制动
+def_wheel_advanced_9_s_desc		XLarge steerable wheel with power connection and braking.	带悬挂、动力输入和制动的超大型车轮
 def_wheel_advanced_9_node_0_label		Brake	制动器
 def_wheel_advanced_9_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
 def_wheel_advanced_9_node_1_label		RPS	RPS
@@ -7777,7 +7777,7 @@ def_wheel_advanced_9_node_3_label		Steering	转向
 def_wheel_advanced_9_node_3_desc		Accepts a value between -1 and 1 that represents the extremes of the wheels steering rotation	接受一个介于-1和1之间的值，表示车轮转向的角度
 def_wheel_advanced_9_sus_name		Wheel 9x9 (Suspension)	9x9轮(悬挂)
 def_wheel_advanced_9_sus_desc		The wheel will rotate forwards and backwards depending on power received. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据接收到的功率前后旋转。它可以通过接收数字信号以左右转向，也可以接收数字或开关信号实现制动刹车
-def_wheel_advanced_9_sus_s_desc		XLarge steerable wheel with suspension, power connection, and braking.	XLarge方向盘，带悬挂、电源连接和制动
+def_wheel_advanced_9_sus_s_desc		XLarge steerable wheel with suspension, power connection, and braking.	带悬挂、动力输入和制动的超大型车轮
 def_wheel_advanced_9_sus_node_0_label		Brake	制动器
 def_wheel_advanced_9_sus_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
 def_wheel_advanced_9_sus_node_1_label		RPS	RPS
@@ -7786,21 +7786,21 @@ def_wheel_advanced_9_sus_node_2_label		Variable Brake	可变制动器
 def_wheel_advanced_9_sus_node_2_desc		A value between 0 and 1 for soft braking	输入制动力度(0~1)
 def_wheel_advanced_9_sus_node_3_label		Steering	转向
 def_wheel_advanced_9_sus_node_3_desc		Accepts a value between -1 and 1 that represents the extremes of the wheels steering rotation	接受一个介于-1和1之间的值，表示车轮转向的角度
-def_wheel_coaster_name		Wheel Coaster	辅助轮
+def_wheel_coaster_name		Wheel Coaster	起落架轮(小)
 def_wheel_coaster_desc		You cannot control the forward and backward rotation of this wheel, but it can be locked into place by sending an on signal to the brake input.	您无法控制此载具轮的前后旋转，但可以接收数字或开关信号实现制动刹车
-def_wheel_coaster_s_desc		Simple small wheel that requires no engine power and spins freely.	简单的小轮子，不需要发动机动力，可以自由旋转
+def_wheel_coaster_s_desc		Simple small wheel that requires no engine power and spins freely.	无动力输入且可以自由旋转的小型起落架轮
 def_wheel_coaster_node_0_label		Brake	制动器
 def_wheel_coaster_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
 def_wheel_coaster_node_1_label		Variable Brake	可变制动器
 def_wheel_coaster_node_1_desc		A value between 0 and 1 for soft braking	输入制动力度(0~1)
-def_wheel_coaster_large_name		Large Landing Wheel	大起落轮
+def_wheel_coaster_large_name		Large Landing Wheel	起落架轮(大)
 def_wheel_coaster_large_desc		You cannot control the forward and backward rotation of this wheel, but it can be locked into place by sending an on signal to the brake input.	您无法控制此载具轮的前后旋转，但可以接收数字或开关信号实现制动刹车
-def_wheel_coaster_large_s_desc		Large landing wheel that requires no engine power and spins freely.	无需发动机动力和自由旋转的大型起落架
+def_wheel_coaster_large_s_desc		Large landing wheel that requires no engine power and spins freely.	无动力输入且可以自由旋转的大型起落架轮
 def_wheel_coaster_large_node_0_label		Brake	制动器
 def_wheel_coaster_large_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
 def_wheel_coaster_large_node_1_label		Variable Brake	可变制动器
 def_wheel_coaster_large_node_1_desc		A value between 0 and 1 for soft braking	输入制动力度(0~1)
-def_wheel_medium_name		Medium Wheel	中型轮
+def_wheel_medium_name		Medium Wheel	公路轮(中)
 def_wheel_medium_desc		The wheel will rotate forwards and backwards depending on power received from a connected engine. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据从连接的发动机接收到的功率前后旋转。它可以通过接收数字信号以左右转向，也可以接收数字或开关信号实现制动刹车
 def_wheel_medium_s_desc		Medium wheel that can be controlled using an engine.	可使用发动机控制的中型载具轮
 def_wheel_medium_node_0_label		Brake	制动器
@@ -7811,7 +7811,7 @@ def_wheel_medium_node_2_label		Variable Brake	可变制动器
 def_wheel_medium_node_2_desc		A value between 0 and 1 for soft braking	输入制动力度(0~1)
 def_wheel_medium_node_3_label		Steering	转向
 def_wheel_medium_node_3_desc		Accepts a value between -1 and 1 that represents the extremes of the wheels steering rotation	接受一个介于-1和1之间的值，表示车轮转向的角度
-def_wheel_small_name		Small Wheel	小型轮
+def_wheel_small_name		Small Wheel	公路轮(小)
 def_wheel_small_desc		The wheel will rotate forwards and backwards depending on power received from a connected engine. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据从连接的发动机接收到的功率前后旋转。它可以通过接收数字信号以左右转向，也可以接收数字或开关信号实现制动刹车
 def_wheel_small_s_desc		Small wheel that can be controlled using an engine.	可以用发动机控制的小轮子
 def_wheel_small_node_0_label		Brake	制动器
