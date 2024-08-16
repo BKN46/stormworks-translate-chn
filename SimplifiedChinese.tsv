@@ -2411,8 +2411,9 @@ id	description	en	local
 		Merch Store	周边商店
 		Fish	鱼
 		Fishing Rod	钓鱼竿
-		[$[action_equipment_use]] Cast [$[action_equipment_secondary]] Reel in	[$[action_equipment_use]]:抛杆 [$[action_equipment_secondary]]:收线
+		[$[action_equipment_use]] Cast / Reel in [$[action_equipment_secondary]] Cycle hook depth	[$[action_equipment_use]]抛投/收线  [$[action_equipment_secondary]] 循环勾深
 		Fishing Lure	鱼饵
+		Crabs and Lobsters	蟹与龙虾
 		Anchovy	凤尾鱼
 		Anglerfish	安康鱼
 		Arctic Char	北极红点鲑
@@ -2456,6 +2457,30 @@ id	description	en	local
 		Tubeshoulders Fish	管肩鱼
 		Viperfish	蝰鱼
 		Yellowfin Tuna	黄鳍金枪鱼
+		Blue Crab	青蟹
+		Brown Box Crab	褐箱蟹
+		Coconut Crab	椰子蟹
+		Dungeness Crab	首长黄道蟹
+		Furry Lobster	毛龙虾
+		Atlantic Lobster	美洲螯龙虾
+		Common Lobster	欧洲龙虾
+		Horseshoe Crab	圆尾蝎鲎
+		Red Rock Lobster	红岩龙虾
+		Cape Rock Lobster	角岩龙虾
+		Jonah Crab	北黄道蟹
+		King Crab	帝王蟹
+		Mud Crab	锯缘青蟹
+		Munida Lobster	穆尼达龙虾
+		Ornate Rock Lobster	锦绣龙虾
+		Panulirus Interruptus	断沟龙虾
+		Red King Crab	红王蟹
+		Reef Lobster	礁螯虾
+		Slipper Lobster	琵琶虾
+		Snow Crab	雪蟹
+		Southern Rock Lobster	南方岩龙虾
+		Spider Crab	蜘蛛蟹
+		Spiny Lobster	长臂龙虾
+		Stone Crab	石头蟹
 		Main	主
 		Arctic	北极
 		Sawyer	索耶
@@ -4512,7 +4537,7 @@ def_inventory_equipment_first_aid_s_desc		A small equipment storage unit contain
 def_inventory_equipment_first_aid_node_0_label		Electric	电
 def_inventory_equipment_first_aid_node_0_desc		Electrical power connection.	电源连接
 def_inventory_equipment_fishing_rod_name		Equipment inventory (Fishing Rod)	装备架(鱼竿)
-def_inventory_equipment_fishing_rod_desc		Hold and release [$[action_equipment_use]] to load and cast the fishing line. Hold [$[action_equipment_secondary]] to reel in the fishing line.	按住[$[action_equipment_use]]并松开以抛出鱼线,按住[$[action_equipment_secondary]]收杆
+def_inventory_equipment_fishing_rod_desc		Hold and release [$[action_equipment_use]] to load and cast the fishing line. Hold [$[action_equipment_use]] to reel in the fishing line. Press [$[action_equipment_secondary]] before casting to cycle the sink depth of the hook.	按住[$[action_equipment_use]]并松开以抛出鱼线,按住[$[action_equipment_use]]收杆.投掷前按下 [$[action_equipment_secondary]] 循环鱼钩的下沉深度
 def_inventory_equipment_fishing_rod_s_desc		A large equipment storage unit containing a fishing rod.	大型装备架，存储一套鱼竿
 def_inventory_equipment_fishing_rod_node_0_label		Electric	电
 def_inventory_equipment_fishing_rod_node_0_desc		Electrical power connection.	电源连接
@@ -5010,6 +5035,13 @@ def_liquid_rocket_small_node_4_label		Gimbal X	云台X
 def_liquid_rocket_small_node_4_desc			
 def_liquid_rocket_small_node_5_label		Throttle	节流阀
 def_liquid_rocket_small_node_5_desc			
+def_lobster_pot_name		Lobster Pot	龙虾陷阱
+def_lobster_pot_desc		A portable trap for catching lobsters and crabs on the sea floor.	用于在海底捕捉龙虾和螃蟹的便携式捕捉器
+def_lobster_pot_s_desc		A trap for lobsters and crabs.	龙虾和螃蟹陷阱
+def_lobster_pot_node_0_label		Release	释放
+def_lobster_pot_node_0_desc		When on, releases captured crabs and lobsters. When off, keeps them contained.	输入on信号时,释放捕获的螃蟹和龙虾
+def_lobster_pot_node_1_label		Fill Level	储量
+def_lobster_pot_node_1_desc			
 def_magall_name		Mag All	万能磁头
 def_magall_desc		While the connector is active the end will glow and it will stick to most surfaces that it touches. The connection will break if enough stress (200) is applied.	当连接件处于活动状态时，末端将发光，并将粘住其接触的大多数曲面。如果施加足够的应力(200)，连接将断开
 def_magall_s_desc		A small connector that will attach to most surfaces.	连接收到大多数表面的小连接头
@@ -5958,6 +5990,8 @@ def_rope_hook_net_node_2_label		Extend	放网
 def_rope_hook_net_node_2_desc			
 def_rope_hook_net_node_3_label		Retract	收网
 def_rope_hook_net_node_3_desc			
+def_rope_hook_net_node_4_label		Net Data	渔网信息
+def_rope_hook_net_node_4_desc		Outputs attached net data. Value 1: net fill level, Value 2: net extend factor.	输出当前渔网信息:1:渔网储量;2:展开程度
 def_rope_hook_winch_name		Medium Winch	绞车(中)
 def_rope_hook_winch_desc		Draw a rope logic link between two Rope Nodes to form a cable. Can be extended and retracted.	在两个电缆锚之间画一个绳索逻辑链接，形成一条电缆。仅限于一个链路，但可以通过链路传输数据和电力。可伸缩
 def_rope_hook_winch_s_desc		A mechanical winch that can transfer data/electric/fluid through an attached cable, with an extension length of 40m.	最大长度40米的机械绞车,可以通过绳索传输数据、电力、流体的机械绞车
@@ -7849,7 +7883,7 @@ def_wheel_tank_1_node_0_label		Brake	制动器
 def_wheel_tank_1_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
 def_wheel_tank_5_name		Tank Wheel (Large)	履带从动轮(大)
 def_wheel_tank_5_desc		A drive wheel is required to rotate the connected track. The wheel will form a track with other wheels of the same size and orientation that are placed in line and on the same body.	将相同尺寸和方向的履带轮摆放在相同的平面上，会自动形成一个履带系统
-def_wheel_tank_5_s_desc		Medium wheel for tracked vehicles.	履带载具的中型载具轮
+def_wheel_tank_5_s_desc		Large wheel for tracked vehicles.	履带载具的大型载具轮
 def_wheel_tank_5_node_0_label		Brake	制动器
 def_wheel_tank_5_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
 def_wheel_tank_5_2_name		Tank Wheel (Medium)	履带从动轮(中)
@@ -7859,7 +7893,7 @@ def_wheel_tank_5_2_node_0_label		Brake	制动器
 def_wheel_tank_5_2_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
 def_wheel_tank_7_name		Tank Wheel (Huge)	履带从动轮(巨)
 def_wheel_tank_7_desc		A drive wheel is required to rotate the connected track. The wheel will form a track with other wheels of the same size and orientation that are placed in line and on the same body.	将相同尺寸和方向的履带轮摆放在相同的平面上，会自动形成一个履带系统
-def_wheel_tank_7_s_desc		Large wheel for tracked vehicles.	履带载具用大载具轮
+def_wheel_tank_7_s_desc		Huge wheel for tracked vehicles.	履带载具用巨载具轮
 def_wheel_tank_7_node_0_label		Brake	制动器
 def_wheel_tank_7_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
 def_wheel_tank_drive_1_name		Tank Drive Wheel (Small)	履带主动轮(小)
@@ -7871,7 +7905,7 @@ def_wheel_tank_drive_1_node_1_label		RPS	RPS
 def_wheel_tank_drive_1_node_1_desc		Receives power generated by an engine to control forward and backward rotation.	接收发动机产生的控制前后旋转的动力
 def_wheel_tank_drive_5_name		Tank Drive Wheel (Large)	履带主动轮(大)
 def_wheel_tank_drive_5_desc		The wheel will form a track with other wheels of the same size and orientation that are placed in line and on the same body.	将相同尺寸和方向的履带轮摆放在相同的平面上，会自动形成一个履带系统
-def_wheel_tank_drive_5_s_desc		Medium drive wheel for tracked vehicles.	履带载具的大型驱动轮
+def_wheel_tank_drive_5_s_desc		Large drive wheel for tracked vehicles.	履带载具的大型驱动轮
 def_wheel_tank_drive_5_node_0_label		Brake	制动器
 def_wheel_tank_drive_5_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
 def_wheel_tank_drive_5_node_1_label		RPS	RPS
@@ -7885,7 +7919,7 @@ def_wheel_tank_drive_5_2_node_1_label		RPS	RPS
 def_wheel_tank_drive_5_2_node_1_desc		Receives power generated by an engine to control forward and backward rotation.	接收发动机产生的控制前后旋转的动力
 def_wheel_tank_drive_7_name		Tank Drive Wheel (Huge)	履带主动轮(巨)
 def_wheel_tank_drive_7_desc		The wheel will form a track with other wheels of the same size and orientation that are placed in line and on the same body.	将相同尺寸和方向的履带轮摆放在相同的平面上，会自动形成一个履带系统
-def_wheel_tank_drive_7_s_desc		Large drive wheel for tracked vehicles.	履带载具用巨型驱动轮
+def_wheel_tank_drive_7_s_desc		Huge drive wheel for tracked vehicles.	履带载具用巨型驱动轮
 def_wheel_tank_drive_7_node_0_label		Brake	制动器
 def_wheel_tank_drive_7_node_0_desc		Locks the wheel into place when receiving an on signal.	接收到接通信号时，将轮子制动抱死
 def_wheel_tank_drive_7_node_1_label		RPS	RPS
