@@ -2495,7 +2495,7 @@ id	description	en	local
 		Clean Oil Spills	清除溢油
 		Requires Search and Destroy DLC	需要"搜索并歼灭"DLC
 		Requires Industrial Frontier DLC	需要"工业先锋"DLC
-		Requires Space DLC	需要"跃入深空"DLC
+		Requires Space DLC	需要"太空"DLC
 def_01_block_name		Block	方块
 def_01_block_desc		The block is a quarter-metre in size. Components can be attached to all 6 faces.	这个方块边长25cm,可以连接收到所有6个面
 def_01_block_s_desc		Basic cube-shaped building block.	基本立方形建筑块
