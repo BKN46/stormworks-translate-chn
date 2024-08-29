@@ -2493,6 +2493,9 @@ id	description	en	local
 		A train yard adjacent to the Monkey Brain Launch site and Clarke Airfield.	连接猴脑发射场和克拉克机场的火车货场
 		Threshold (+/-)	阈值(+/-)
 		Clean Oil Spills	清除溢油
+		Requires Search and Destroy DLC	需要"搜索并歼灭"DLC
+		Requires Industrial Frontier DLC	需要"工业先锋"DLC
+		Requires Space DLC	需要"跃入深空"DLC
 def_01_block_name		Block	方块
 def_01_block_desc		The block is a quarter-metre in size. Components can be attached to all 6 faces.	这个方块边长25cm,可以连接收到所有6个面
 def_01_block_s_desc		Basic cube-shaped building block.	基本立方形建筑块
@@ -4692,7 +4695,7 @@ def_inventory_outfit_arctic_s_desc		An outfit inventory unit containing speciali
 def_inventory_outfit_arctic_node_0_label		Electric	电
 def_inventory_outfit_arctic_node_0_desc		Electrical power connection.	电源连接
 def_inventory_outfit_diving_name		Outfit Inventory (Diving)	装备架(潜水)
-def_inventory_outfit_diving_desc		When equipped, it will allow deep sea diving to a depth of 230m, and provides air for 10 minutes. The air tank can be refilled by storing the equipment in an outfit inventory unit.	按 [$[action_interact_left]]/[$[action_interact_right]]将装备/储存装备。如果装备，它将允许深海潜水到230米的深度，并提供10分钟的气体。可通过将设备存储在装备架单元中来重新填充气罐
+def_inventory_outfit_diving_desc		When equipped, it will allow deep sea diving to a depth of 230m, and provides air for 10 minutes. The air tank can be refilled by storing the gear in an outfit inventory unit with an attached air input or via space seat.	装备潜水服后,最大潜深可达到230米,最大续航时间10分钟.将潜水服放入带有空气输入的装备架,或使用太空座椅可为潜水服充气
 def_inventory_outfit_diving_s_desc		An outfit inventory unit containing specialist diving equipment.	包含专业潜水设备的装备架
 def_inventory_outfit_diving_node_0_label		Electric	电
 def_inventory_outfit_diving_node_0_desc		Electrical power connection.	电源连接
@@ -4714,7 +4717,7 @@ def_inventory_outfit_parachute_s_desc		An outfit inventory unit containing a sin
 def_inventory_outfit_parachute_node_0_label		Electric	电
 def_inventory_outfit_parachute_node_0_desc		Electrical power connection.	电源连接
 def_inventory_outfit_scuba_name		Outfit Inventory (Scuba)	装备架(水肺)
-def_inventory_outfit_scuba_desc		When equipped, it will allow diving to a depth of 40m, and provides air for 2 minutes. The air tank can be refilled by storing the gear in an outfit inventory unit.	按[$[action_interact_left]]/[$[action_interact_right]]将装备/储存装备。如果装备，它将允许潜水到40米的深度，并提供2分钟的气体。储气罐可以通过将装备储存在装备架单元中来补充
+def_inventory_outfit_scuba_desc		When equipped, it will allow diving to a depth of 40m, and provides air for 2 minutes. The air tank can be refilled by storing the gear in an outfit inventory unit with an attached air input or via space seat.	装备潜水服后,最大潜深可达到40米,最大续航时间2分钟.将潜水服放入带有空气输入的装备架,或使用太空座椅可为潜水服充气
 def_inventory_outfit_scuba_s_desc		An outfit inventory unit containing specialist scuba gear.	包含一套专业的潜水装备的装备架
 def_inventory_outfit_scuba_node_0_label		Electric	电
 def_inventory_outfit_scuba_node_0_desc		Electrical power connection.	电源连接
@@ -4722,14 +4725,14 @@ def_inventory_outfit_scuba_node_1_label		Fluid In	流体入口
 def_inventory_outfit_scuba_node_1_desc			
 def_inventory_outfit_space_suit_name		Outfit Inventory (Space)	装备架(航天服)
 def_inventory_outfit_space_suit_desc		When equipped, it will protect against low temperatures, low pressures and provide oxygen.	防止低温低压并提供氧气的套装
-def_inventory_outfit_space_suit_s_desc		An outfit inventory unit containing specialist Space Exploration gear required for surviving in space.	包含一套为太空探索准备的探索型航天服
+def_inventory_outfit_space_suit_s_desc		An outfit inventory unit containing specialist Space Exploration gear required for surviving in space. The air tank can be refilled by storing the gear in an outfit inventory unit with an attached air input or via space seat.	包含一套为太空探索准备的航天服.将航天服放入带有空气输入的装备架,或使用太空座椅可为航天服充气
 def_inventory_outfit_space_suit_node_0_label		Electric	电
 def_inventory_outfit_space_suit_node_0_desc		Electrical power connection.	电源连接
 def_inventory_outfit_space_suit_node_1_label		Fluid In	流体入口
 def_inventory_outfit_space_suit_node_1_desc			
 def_inventory_outfit_space_suit_exploration_name		Outfit Inventory (Space Exploration)	装备架(探索型航天服)
 def_inventory_outfit_space_suit_exploration_desc		When equipped, it will protect against low temperatures, low pressures and provide oxygen.	防止低温低压并提供氧气的套装
-def_inventory_outfit_space_suit_exploration_s_desc		An outfit inventory unit containing specialist Space Exploration gear required for surviving in space.	包含一套为太空探索准备的探索型航天服
+def_inventory_outfit_space_suit_exploration_s_desc		An outfit inventory unit containing specialist Space Exploration gear required for surviving in space. The air tank can be refilled by storing the gear in an outfit inventory unit with an attached air input or via space seat.	包含一套为太空探索准备的探索型航天服.将航天服放入带有空气输入的装备架,或使用太空座椅可为航天服充气
 def_inventory_outfit_space_suit_exploration_node_0_label		Electric	电
 def_inventory_outfit_space_suit_exploration_node_0_desc		Electrical power connection.	电源连接
 def_inventory_outfit_space_suit_exploration_node_1_label		Fluid In	流体入口
