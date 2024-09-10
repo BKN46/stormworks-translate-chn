@@ -5098,8 +5098,8 @@ def_modular_engine_air_ram_s_desc		Port used to allow air in and out of a fluid 
 def_modular_engine_air_ram_node_0_label		Air	气体
 def_modular_engine_air_ram_node_0_desc		Allows fluid to flow in and out of an enclosed volume.	允许气体进出某一封闭空间
 def_modular_engine_alternator_name		Modular Engine Alternator	模块化引擎发电机
-def_modular_engine_alternator_desc		Alternators convert mechanical energy from a Drive Belt into electric charge.	将歧管连接到气缸上，为该气缸提供气体、燃料和排气的连接。彼此直接相邻的气缸可以共用一个歧管
-def_modular_engine_alternator_s_desc		A modular engine alternator.	模块化的发动机歧管
+def_modular_engine_alternator_desc		Alternators convert mechanical energy from a Drive Belt into electric charge.	把机械能通过皮带转换成电能(P.S:安装在"模块化发动机传动带"上)
+def_modular_engine_alternator_s_desc		A modular engine alternator.	模块化引擎发电机
 def_modular_engine_alternator_node_0_label		Clutch Pressure	离合器接合量(0~1)
 def_modular_engine_alternator_node_0_desc			
 def_modular_engine_alternator_node_1_label		Electric	电
@@ -5133,32 +5133,32 @@ def_modular_engine_coolant_manifold_node_0_desc
 def_modular_engine_coolant_manifold_node_1_label		Coolant B	冷却液 B口
 def_modular_engine_coolant_manifold_node_1_desc			
 def_modular_engine_crankshaft_name		Modular Engine Crankshaft 1x1	模块化发动机曲轴(1x1)
-def_modular_engine_crankshaft_desc		The crankshaft is the core of an engine. Attach cylinders to the outer surfaces to generate power. Multiple crankshaft blocks can be placed adajcent to each other to form larger engines.	曲轴是发动机的核心。将气缸连接到外表面产生动力。多个曲轴块可以互相对置，形成较大的发动机
+def_modular_engine_crankshaft_desc		The crankshaft is the core of an engine. Attach cylinders to the outer surfaces to generate power. Multiple crankshaft blocks can be placed adajcent to each other to form larger engines.	曲轴是发动机的核心。将气缸连接到外表面产生动力。多个曲轴缸体可以互相对置，形成较大的发动机
 def_modular_engine_crankshaft_s_desc		A modular engine crankshaft block.	模块化发动机曲轴缸体
 def_modular_engine_crankshaft_node_0_label		RPS	每秒转速
 def_modular_engine_crankshaft_node_0_desc		Output value giving data info on engine speed.	输出发动机转速数据
 def_modular_engine_crankshaft_3x1_name		Modular Engine Crankshaft 3x1	模块化发动机曲轴(3x1)
-def_modular_engine_crankshaft_3x1_desc		The crankshaft is the core of an engine. Attach cylinders to the outer surfaces to generate power. Multiple crankshaft blocks can be placed adajcent to each other to form larger engines.	曲轴是发动机的核心。将气缸连接到外表面产生动力。多个曲轴块可以互相对置，形成较大的发动机
+def_modular_engine_crankshaft_3x1_desc		The crankshaft is the core of an engine. Attach cylinders to the outer surfaces to generate power. Multiple crankshaft blocks can be placed adajcent to each other to form larger engines.	曲轴是发动机的核心。将气缸连接到外表面产生动力。多个曲轴缸体可以互相对置，形成较大的发动机
 def_modular_engine_crankshaft_3x1_s_desc		A modular engine crankshaft block.	模块化发动机曲轴缸体
 def_modular_engine_crankshaft_3x1_node_0_label		RPS	每秒转速
 def_modular_engine_crankshaft_3x1_node_0_desc		Output value giving data info on engine speed.	输出发动机转速数据
 def_modular_engine_crankshaft_3x3_name		Modular Engine Crankshaft 3x3	模块化发动机曲轴(3x3)
-def_modular_engine_crankshaft_3x3_desc		The crankshaft is the core of an engine. Attach cylinders to the outer surfaces to generate power. Multiple crankshaft blocks can be placed adajcent to each other to form larger engines.	曲轴是发动机的核心。将气缸连接到外表面产生动力。多个曲轴块可以互相对置，形成较大的发动机
+def_modular_engine_crankshaft_3x3_desc		The crankshaft is the core of an engine. Attach cylinders to the outer surfaces to generate power. Multiple crankshaft blocks can be placed adajcent to each other to form larger engines.	曲轴是发动机的核心。将气缸连接到外表面产生动力。多个曲轴缸体可以互相对置，形成较大的发动机
 def_modular_engine_crankshaft_3x3_s_desc		A modular engine crankshaft block.	模块化发动机曲轴缸体
 def_modular_engine_crankshaft_3x3_node_0_label		RPS	每秒转速
 def_modular_engine_crankshaft_3x3_node_0_desc		Output value giving data info on engine speed.	输出发动机转速数据
 def_modular_engine_crankshaft_5x5_name		Modular Engine Crankshaft 5x5	模块化发动机曲轴(5x5)
-def_modular_engine_crankshaft_5x5_desc		The crankshaft is the core of an engine. Attach cylinders to the outer surfaces to generate power. Multiple crankshaft blocks can be placed adajcent to each other to form larger engines.	曲轴是发动机的核心。将气缸连接到外表面产生动力。多个曲轴块可以互相对置，形成较大的发动机
+def_modular_engine_crankshaft_5x5_desc		The crankshaft is the core of an engine. Attach cylinders to the outer surfaces to generate power. Multiple crankshaft blocks can be placed adajcent to each other to form larger engines.	曲轴是发动机的核心。将气缸连接到外表面产生动力。多个曲轴缸体可以互相对置，形成较大的发动机
 def_modular_engine_crankshaft_5x5_s_desc		A modular engine crankshaft block.	模块化发动机曲轴缸体
 def_modular_engine_crankshaft_5x5_node_0_label		RPS	每秒转速
 def_modular_engine_crankshaft_5x5_node_0_desc		Output value giving data info on engine speed.	输出发动机转速数据
 def_modular_engine_crankshaft_converter_3x3_name		Modular Engine Crankshaft Converter 3 to 1	模块化发动机曲轴变矩器(3至1)
-def_modular_engine_crankshaft_converter_3x3_desc		The crankshaft is the core of an engine. This component efficiently converts torque between different size crankshafts. Multiple crankshaft blocks can be placed adajcent to each other to form larger engines.	曲轴是发动机的核心。变矩器可以高效地将扭力传递到不同大小的曲轴上。将气缸连接到外表面产生动力。多个曲轴块可以互相对置，形成较大的发动机
+def_modular_engine_crankshaft_converter_3x3_desc		The crankshaft is the core of an engine. This component efficiently converts torque between different size crankshafts. Multiple crankshaft blocks can be placed adajcent to each other to form larger engines.	曲轴是发动机的核心。变矩器可以高效地将扭力传递到不同大小的曲轴上。将气缸连接到外表面产生动力。多个曲轴缸体可以互相对置，形成较大的发动机
 def_modular_engine_crankshaft_converter_3x3_s_desc		A modular engine crankshaft block.	模块化发动机曲轴缸体
 def_modular_engine_crankshaft_converter_3x3_node_0_label		RPS	每秒转速
 def_modular_engine_crankshaft_converter_3x3_node_0_desc		Output value giving data info on engine speed.	输出发动机转速数据
 def_modular_engine_crankshaft_converter_5x5_name		Modular Engine Crankshaft Converter 5 to 3	模块化发动机曲轴变矩器(5至3)
-def_modular_engine_crankshaft_converter_5x5_desc		The crankshaft is the core of an engine. This component efficiently converts torque between different size crankshafts. Multiple crankshaft blocks can be placed adajcent to each other to form larger engines.	曲轴是发动机的核心。变矩器可以高效地将扭力传递到不同大小的曲轴上。将气缸连接到外表面产生动力。多个曲轴块可以互相对置，形成较大的发动机
+def_modular_engine_crankshaft_converter_5x5_desc		The crankshaft is the core of an engine. This component efficiently converts torque between different size crankshafts. Multiple crankshaft blocks can be placed adajcent to each other to form larger engines.	曲轴是发动机的核心。变矩器可以高效地将扭力传递到不同大小的曲轴上。将气缸连接到外表面产生动力。多个曲轴缸体可以互相对置，形成较大的发动机
 def_modular_engine_crankshaft_converter_5x5_s_desc		A modular engine crankshaft block.	模块化发动机曲轴缸体
 def_modular_engine_crankshaft_converter_5x5_node_0_label		RPS	每秒转速
 def_modular_engine_crankshaft_converter_5x5_node_0_desc		Output value giving data info on engine speed.	输出发动机转速数据
