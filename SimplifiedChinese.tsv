@@ -3374,6 +3374,8 @@ def_fluid_filter_node_0_label		Fluid A	流体A
 def_fluid_filter_node_0_desc		Fluid connection.	流体连接
 def_fluid_filter_node_1_label		Fluid B	流体B
 def_fluid_filter_node_1_desc		Fluid connection.	流体连接
+def_fluid_filter_node_2_label		Flow Rate	流量
+def_fluid_filter_node_2_desc		Fluid flow rate in L/s.	以L/s为单位的流量
 def_fluid_filter_v2_name		Fluid Filter	流体过滤器
 def_fluid_filter_v2_desc		The valve can be configured to select which fluid groups may pass across the two directional valve. Liquids or gases.	该阀门可以被配置为选择哪种流体类型,气体或液体可以双向通过.
 def_fluid_filter_v2_s_desc		The fluid filter can prevent liquids or gases crossing the valve.	控制特定类型的流体通过
@@ -3514,6 +3516,8 @@ def_fluid_valve_flow_node_0_label		Fluid In	流体进入
 def_fluid_valve_flow_node_0_desc		Fluid connection for the valve input.	阀门输入的流体连接
 def_fluid_valve_flow_node_1_label		Fluid Out	流体流出
 def_fluid_valve_flow_node_1_desc		Fluid connection for the valve output.	阀门输出的流体连接
+def_fluid_valve_flow_node_2_label		Flow Rate	流量
+def_fluid_valve_flow_node_2_desc		Fluid flow rate in L/s.	以L/s为单位的流量
 def_fluid_valve_on_off_name		Fluid On/Off Valve	流体开关阀
 def_fluid_valve_on_off_desc		Controls flow from one side of the valve to the other. Fluid can flow in both directions.	控制从阀门一侧到另一侧的流量。流体可以双向流动
 def_fluid_valve_on_off_s_desc		An on/off fluid valve.	开/关液阀
@@ -3525,6 +3529,8 @@ def_fluid_valve_on_off_node_2_label		Valve Control	阀门控制
 def_fluid_valve_on_off_node_2_desc		Valve gate control for opening and closing the valve.	用于打开和关闭阀门的闸门控制
 def_fluid_valve_on_off_node_3_label		Electric	电
 def_fluid_valve_on_off_node_3_desc		Electrical power connection.	电源连接
+def_fluid_valve_on_off_node_4_label		Flow Rate	流量
+def_fluid_valve_on_off_node_4_desc		Fluid flow rate in L/s.	以L/s为单位的流量
 def_fluid_valve_on_off_manual_name		Fluid On/Off Valve (Manual)	流体开关阀(手动)
 def_fluid_valve_on_off_manual_desc		Interacting with [$[action_interact_left]]/[$[action_interact_right]] will open / close the valve. Controls flow from one side of the valve to the other. Fluid can flow in both directions.	按 [$[action_interact_left]]/[$[action_interact_right]] 开关阀门，流体可以双向流动
 def_fluid_valve_on_off_manual_s_desc		An on/off fluid valve with a manual handle.	手动操作的流体阀门
@@ -3532,6 +3538,8 @@ def_fluid_valve_on_off_manual_node_0_label		Fluid In	流体进入
 def_fluid_valve_on_off_manual_node_0_desc		Fluid input connection for the valve.	流体入口
 def_fluid_valve_on_off_manual_node_1_label		Fluid Out	流体流出
 def_fluid_valve_on_off_manual_node_1_desc		Fluid output connection for the valve.	流体出口
+def_fluid_valve_on_off_manual_node_2_label		Flow Rate	流量
+def_fluid_valve_on_off_manual_node_2_desc		Fluid flow rate in L/s.	以L/s为单位的流量
 def_fluid_valve_variable_name		Fluid Variable Valve	流体变量阀
 def_fluid_valve_variable_desc		Controls flow from one side of the valve to the other. Fluid can flow in both directions.	控制从阀门一侧到另一侧的流量。流体可以双向流动
 def_fluid_valve_variable_s_desc		A variable fluid valve.	可变流体阀
@@ -3543,6 +3551,8 @@ def_fluid_valve_variable_node_2_label		Valve Control	阀门控制
 def_fluid_valve_variable_node_2_desc		Valve gate control for opening and closing the valve.	用于打开和关闭阀门的闸门控制
 def_fluid_valve_variable_node_3_label		Electric	电
 def_fluid_valve_variable_node_3_desc		Electrical power connection.	电源连接
+def_fluid_valve_variable_node_4_label		Flow Rate	
+def_fluid_valve_variable_node_4_desc		Fluid flow rate in L/s.	
 def_foghorn_name		Foghorn	雾号
 def_foghorn_desc		It has an audible range of 1500m.	它的可听范围是500米
 def_foghorn_s_desc		A ship's foghorn that will sound when receiving an on signal.	船上的雾号，当收到接通信号时会响
@@ -5938,6 +5948,8 @@ def_relief_valve_gas_node_0_label		Fluid A	接口A
 def_relief_valve_gas_node_0_desc			
 def_relief_valve_gas_node_1_label		Fluid B	接口B
 def_relief_valve_gas_node_1_desc			
+def_relief_valve_gas_node_2_label		Flow Rate	流量
+def_relief_valve_gas_node_2_desc		Fluid flow rate in L/s.	以L/s为单位的流量
 def_relief_valve_liquid_name		Liquid Relief Valve	液阀
 def_relief_valve_liquid_desc		The valve allows liquids to pass across the two directional valve.	允许液体双向通过的阀门
 def_relief_valve_liquid_s_desc		A relief valve for liquids in a system.	液体系统的连通控制阀
@@ -5945,6 +5957,8 @@ def_relief_valve_liquid_node_0_label		Fluid A	接口A
 def_relief_valve_liquid_node_0_desc			
 def_relief_valve_liquid_node_1_label		Fluid B	接口B
 def_relief_valve_liquid_node_1_desc			
+def_relief_valve_liquid_node_2_label		Flow Rate	
+def_relief_valve_liquid_node_2_desc		Fluid flow rate in L/s.	
 def_rope_hook_name		Rope Anchor	绳锚
 def_rope_hook_desc		Draw a rope logic link between two Rope Anchors to form a rope.	在两个绳锚之间绘制一个绳逻辑链接以形成一条绳
 def_rope_hook_s_desc		An anchor point for a basic rope.	基本绳索的固定点
@@ -7582,6 +7596,8 @@ def_turbocharger_node_1_label		RPS	每秒转速
 def_turbocharger_node_1_desc			
 def_turbocharger_node_2_label		Fluid Out	出口
 def_turbocharger_node_2_desc			
+def_turbocharger_node_3_label		Flow Rate	流量
+def_turbocharger_node_3_desc		Fluid flow rate in L/s.	以L/s为单位的流量
 def_turbocharger_small_name		Impeller Pump (Small)	机械流体泵(小)
 def_turbocharger_small_desc		An Impeller that will force fluid through the system when torque is applied.	需要外部动力输入的流体泵
 def_turbocharger_small_s_desc		An Impeller Pump that can push fluid through a system.	叶轮将流体从一端泵向另一端
@@ -7591,6 +7607,8 @@ def_turbocharger_small_node_1_label		RPS	每秒转速
 def_turbocharger_small_node_1_desc			
 def_turbocharger_small_node_2_label		Fluid Out	出口
 def_turbocharger_small_node_2_desc			
+def_turbocharger_small_node_3_label		Flow Rate	流量
+def_turbocharger_small_node_3_desc		Fluid flow rate in L/s.	以L/s为单位的流量
 def_tyre_large_name		Large Tyre	大轮胎
 def_tyre_large_desc		Useful for creating tyre stacks and fenders.	用于创建轮胎栈和挡泥板
 def_tyre_large_s_desc		A large decorative tyre.	装饰性的大轮胎
@@ -7729,6 +7747,8 @@ def_water_pump_node_2_label		Fluid Out	出口
 def_water_pump_node_2_desc		Connect to an outlet component to release fluid from the system.	连接收到出口部件以释放系统中的流体
 def_water_pump_node_3_label		Electric	电
 def_water_pump_node_3_desc		Electrical power connection.	电源连接
+def_water_pump_node_4_label		Flow Rate	流量
+def_water_pump_node_4_desc		Fluid flow rate in L/s.	以L/s为单位的流量
 def_water_pump_large_name		Large Fluid Pump	电动流体泵(大)
 def_water_pump_large_desc		Connect to an inlet and outlet to create a pumping system to move fluid around a vehicle.	不需要外部动力的电动流体泵，正确连接流体的入口和出口，以创建一个泵送系统
 def_water_pump_large_s_desc		A large fluid pump.	大型流体泵
@@ -7740,6 +7760,8 @@ def_water_pump_large_node_2_label		On/Off	开/关
 def_water_pump_large_node_2_desc		Controls whether or not the fluid is being pumped.	控制是否泵送流体
 def_water_pump_large_node_3_label		Electric	电
 def_water_pump_large_node_3_desc		Electrical power connection.	电源连接
+def_water_pump_large_node_4_label		Flow Rate	流量
+def_water_pump_large_node_4_desc		Fluid flow rate in L/s.	以L/s为单位的流量
 def_water_pump_manual_name		Fluid Pump (Manual)	流体泵(手动)
 def_water_pump_manual_desc		Hold [$[action_interact_left]]/[$[action_interact_right]] to create pressure in the pump. Connect to an inlet and outlet to create a pumping system to move fluid around a vehicle.	按住[$[action_interact_left]]/[$[action_interact_right]]，产生压力
 def_water_pump_manual_s_desc		A small fluid pump with a manual handle.	小型手摇流体泵
@@ -7747,6 +7769,8 @@ def_water_pump_manual_node_0_label		Fluid In	入口
 def_water_pump_manual_node_0_desc		Connect to an inlet component to take fluid into the system.	连接到入口部件以将流体泵入系统
 def_water_pump_manual_node_1_label		Fluid Out	出口
 def_water_pump_manual_node_1_desc		Connect to an outlet component to release fluid from the system.	连接到出口部件以将流体泵入系统
+def_water_pump_manual_node_2_label		Flow Rate	流量
+def_water_pump_manual_node_2_desc		Fluid flow rate in L/s.	以L/s为单位的流量
 def_water_spawner_name		Fluid Spawner	液体生成器
 def_water_spawner_desc		The fluid spawner for helping with custom fluid tanks, so they can be spawned full, without a need to fill after spawning. Gases are spawned compressed (60atm).	在封闭区域生成液体,一般用于制作自定义油箱/水箱等.生成带有压力的气体(60atm)
 def_water_spawner_s_desc		A component to mark an enclosed area to be spawned with fluid inside.	用于标记要在封闭区域内部生成流体的组件
