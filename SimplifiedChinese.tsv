@@ -3113,7 +3113,7 @@ def_control_surface_small_node_0_desc		Accepts a value between -1 and 1 that rep
 def_control_surface_small_node_1_label		Electric	电
 def_control_surface_small_node_1_desc		Electrical power connection.	电源连接
 def_cryo_cooler_name		Cryo Cooler	制冷器
-def_cryo_cooler_desc		A component that cools liquid A and transfers the heat to liquid B.	冷却液体A并将热量传递给液体B的部件
+def_cryo_cooler_desc		A component that cools liquid A and transfers the heat to liquid B.	冷却流体A并将热量传递给流体B的部件(AB至少有一端为液体)
 def_cryo_cooler_s_desc		A powered component that creates a temperature difference between two liquid systems.	在两个液体系统之间产生温差的组件
 def_cryo_cooler_node_0_label		Liquid A In	液体A入口
 def_cryo_cooler_node_0_desc		Input liquid port for liquid that gets cooled.	液体的输出端口,输入需被致冷的液体
