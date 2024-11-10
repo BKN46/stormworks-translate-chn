@@ -2497,6 +2497,13 @@ id	description	en	local
 		Requires Industrial Frontier DLC	需要"工业先锋"DLC
 		Requires Space DLC	需要"太空"DLC
 		Double Wheel	双轮
+		Racing Helmet (Full)	赛车头盔(全盔)
+		Bike Helmet	赛车头盔(重型)
+		Racing Helmet (Open)	赛车头盔(半盔)
+		Racing Jacket	赛车外套(A款)
+		Bike Jacket	赛车外套(B款)
+		Bike Suit	赛车套装(A款)
+		Racing Overalls	赛车套装(B款)
 def_01_block_name		Block	方块
 def_01_block_desc		The block is a quarter-metre in size. Components can be attached to all 6 faces.	这个方块边长25cm,可以连接收到所有6个面
 def_01_block_s_desc		Basic cube-shaped building block.	基本立方形建筑块
@@ -8049,9 +8056,9 @@ def_winch_large_b_desc
 def_winch_large_b_s_desc			
 def_winch_large_b_node_0_label		Fluid	流体
 def_winch_large_b_node_0_desc		Fluid connection for the end of the hose.	软管末端的流体连接
-def_winch_pulley_name		Pulley	滑轮(U型)
-def_winch_pulley_desc		Draw a rope logic link between two rope nodes to form a cable. Ropes will slide based on difference in force applied to each rope.	使用绳索连接滑轮的两个节点，成为滑轮上连接的同一根绳索，绳索将根据施加在每根绳索上的力的差异而滑动
-def_winch_pulley_s_desc		A pulley that changes attached rope lengths based on forces applied to ropes.	滑轮，其上的绳索将根据施加在每根绳索上的力的差异而滑动
+def_winch_pulley_name		Rope Pulley	绳索滑轮(U型)
+def_winch_pulley_desc		Draw a rope logic link between two rope nodes to form a rope. Ropes will slide based on difference in force applied to each rope.	使用绳索连接滑轮的两个节点，成为滑轮上连接的同一根绳索，绳索将根据施加在每根绳索上的力的差异而滑动
+def_winch_pulley_s_desc		A pulley that changes attached rope lengths based on forces applied to ropes.	绳索滑轮，其上的绳索将根据施加在每根绳索上的力的差异而滑动
 def_winch_pulley_node_0_label		Rope 1 Length	绳索1的长度
 def_winch_pulley_node_0_desc		The current length of rope 1 in metres.	绳索1当前长度(米)
 def_winch_pulley_node_1_label		Rope 2 Length	绳索2的长度
@@ -8060,9 +8067,31 @@ def_winch_pulley_node_2_label		Rope 2	绳索2
 def_winch_pulley_node_2_desc			
 def_winch_pulley_node_3_label		Rope 1	绳索1
 def_winch_pulley_node_3_desc			
-def_winch_pulley_corner_name		Pulley (Corner)	滑轮(L型)
-def_winch_pulley_corner_desc		Draw a rope logic link between two rope nodes to form a cable. Ropes will slide based on difference in force applied to each rope.	使用绳索连接滑轮的两个节点，成为滑轮上连接的同一根绳索，绳索将根据施加在每根绳索上的力的差异而滑动
-def_winch_pulley_corner_s_desc		A pulley that changes attached rope lengths based on forces applied to ropes.	滑轮，其上的绳索将根据施加在每根绳索上的力的差异而滑动
+def_winch_pulley_cable_name		Electric Cable Pulley	电缆滑轮(U型)
+def_winch_pulley_cable_desc		Draw a rope logic link between two rope nodes to form a cable. Cables will slide based on difference in force applied to each cable.	使用电缆连接滑轮的两个节点，成为滑轮上连接的同一根电缆，电缆将根据施加在每根电缆上的力的差异而滑动
+def_winch_pulley_cable_s_desc		A pulley that changes attached cable lengths based on forces applied to cables.	电缆滑轮，其上的绳索将根据施加在每根绳索上的力的差异而滑动
+def_winch_pulley_cable_node_0_label		Rope 1 Length	电缆1的长度
+def_winch_pulley_cable_node_0_desc		The current length of rope 1 in metres.	电缆1当前长度(米)
+def_winch_pulley_cable_node_1_label		Rope 2 Length	电缆2的长度
+def_winch_pulley_cable_node_1_desc		The current length of rope 2 in metres.	电缆1当前长度(米)
+def_winch_pulley_cable_node_2_label		Rope 2	电缆2
+def_winch_pulley_cable_node_2_desc			
+def_winch_pulley_cable_node_3_label		Rope 1	电缆1
+def_winch_pulley_cable_node_3_desc			
+def_winch_pulley_cable_corner_name		Electric Cable Pulley (Corner)	电缆滑轮(L型)
+def_winch_pulley_cable_corner_desc		Draw a rope logic link between two rope nodes to form a cable. Cables will slide based on difference in force applied to each cable.	使用电缆连接滑轮的两个节点，成为滑轮上连接的同一根电缆，电缆将根据施加在每根电缆上的力的差异而滑动
+def_winch_pulley_cable_corner_s_desc		A pulley that changes attached cable lengths based on forces applied to cables.	电缆滑轮，其上的绳索将根据施加在每根电缆上的力的差异而滑动
+def_winch_pulley_cable_corner_node_0_label		Rope 1 Length	电缆1的长度
+def_winch_pulley_cable_corner_node_0_desc		The current length of rope 1 in metres.	电缆1当前长度(米)
+def_winch_pulley_cable_corner_node_1_label		Rope 2 Length	电缆2的长度
+def_winch_pulley_cable_corner_node_1_desc		The current length of rope 2 in metres.	电缆2当前长度(米)
+def_winch_pulley_cable_corner_node_2_label		Rope 2	电缆2
+def_winch_pulley_cable_corner_node_2_desc			
+def_winch_pulley_cable_corner_node_3_label		Rope 1	电缆1
+def_winch_pulley_cable_corner_node_3_desc			
+def_winch_pulley_corner_name		Rope Pulley (Corner)	绳索滑轮(L型)
+def_winch_pulley_corner_desc		Draw a rope logic link between two rope nodes to form a rope. Ropes will slide based on difference in force applied to each rope.	使用绳索连接滑轮的两个节点，成为滑轮上连接的同一根绳索，绳索将根据施加在每根绳索上的力的差异而滑动
+def_winch_pulley_corner_s_desc		A pulley that changes attached rope lengths based on forces applied to ropes.	绳索滑轮，其上的绳索将根据施加在每根绳索上的力的差异而滑动
 def_winch_pulley_corner_node_0_label		Rope 1 Length	绳索1的长度
 def_winch_pulley_corner_node_0_desc		The current length of rope 1 in metres.	绳索1当前长度(米)
 def_winch_pulley_corner_node_1_label		Rope 2 Length	绳索2的长度
@@ -8071,6 +8100,36 @@ def_winch_pulley_corner_node_2_label		Rope 2	绳索2
 def_winch_pulley_corner_node_2_desc			
 def_winch_pulley_corner_node_3_label		Rope 1	绳索1
 def_winch_pulley_corner_node_3_desc			
+def_winch_pulley_hose_name		Fluid Hose Pulley	流体软管滑轮(U型)
+def_winch_pulley_hose_desc		Draw a rope logic link between two rope nodes to form a hose. Hoses will slide based on difference in force applied to each hose.	使用流体软管连接滑轮的两个节点，成为滑轮上连接的同一根软管，软管将根据施加在每根软管上的力的差异而滑动
+def_winch_pulley_hose_s_desc		A pulley that changes attached hose lengths based on forces applied to hoses.	流体软管滑轮，其上的软管将根据施加在每根软管上的力的差异而滑动
+def_winch_pulley_hose_node_0_label		Rope 1 Length	软管1的长度
+def_winch_pulley_hose_node_0_desc		The current length of rope 1 in metres.	软管1当前长度(米)
+def_winch_pulley_hose_node_1_label		Rope 2 Length	软管2的长度
+def_winch_pulley_hose_node_1_desc		The current length of rope 2 in metres.	软管2当前长度(米)
+def_winch_pulley_hose_node_2_label		Rope 2	软管2
+def_winch_pulley_hose_node_2_desc			
+def_winch_pulley_hose_node_3_label		Rope 1	软管1
+def_winch_pulley_hose_node_3_desc			
+def_winch_pulley_hose_node_4_label		Fluid Node 1	软管1
+def_winch_pulley_hose_node_4_desc			
+def_winch_pulley_hose_node_5_label		Fluid Node 2	软管2
+def_winch_pulley_hose_node_5_desc			
+def_winch_pulley_hose_corner_name		Fluid Hose Pulley (Corner)	流体软管滑轮(L型)
+def_winch_pulley_hose_corner_desc		Draw a rope logic link between two rope nodes to form a hose. Hoses will slide based on difference in force applied to each hose.	使用流体软管连接滑轮的两个节点，成为滑轮上连接的同一根软管，软管将根据施加在每根软管上的力的差异而滑动
+def_winch_pulley_hose_corner_s_desc		A pulley that changes attached hose lengths based on forces applied to hoses.	流体软管滑轮，其上的软管将根据施加在每根软管上的力的差异而滑动
+def_winch_pulley_hose_corner_node_0_label		Rope 1 Length	软管1的长度
+def_winch_pulley_hose_corner_node_0_desc		The current length of rope 1 in metres.	软管1当前长度(米)
+def_winch_pulley_hose_corner_node_1_label		Rope 2 Length	软管2的长度
+def_winch_pulley_hose_corner_node_1_desc		The current length of rope 2 in metres.	软管2当前长度(米)
+def_winch_pulley_hose_corner_node_2_label		Rope 2	软管2
+def_winch_pulley_hose_corner_node_2_desc			
+def_winch_pulley_hose_corner_node_3_label		Rope 1	软管1
+def_winch_pulley_hose_corner_node_3_desc			
+def_winch_pulley_hose_corner_node_4_label		Fluid Node 1	软管1
+def_winch_pulley_hose_corner_node_4_desc			
+def_winch_pulley_hose_corner_node_5_label		Fluid Node 2	软管2
+def_winch_pulley_hose_corner_node_5_desc			
 def_window_1x1_name		Window 1x1	窗(1x1)
 def_window_1x1_desc		Sits flush with walls and ceilings.	这是一扇平窗，与墙壁和天花板齐平。1个单位宽
 def_window_1x1_s_desc		Basic window piece.	基本的窗户
