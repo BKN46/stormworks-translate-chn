@@ -2497,6 +2497,13 @@ id	description	en	local
 		Requires Industrial Frontier DLC	需要"工业先锋"DLC
 		Requires Space DLC	需要"太空"DLC
 		Double Wheel	双轮
+		Racing Helmet (Full)	赛车头盔(全盔)
+		Bike Helmet	赛车头盔(重型)
+		Racing Helmet (Open)	赛车头盔(半盔)
+		Racing Jacket	赛车外套(A款)
+		Bike Jacket	赛车外套(B款)
+		Bike Suit	赛车套装(A款)
+		Racing Overalls	赛车套装(B款)
 def_01_block_name		Block	方块
 def_01_block_desc		The block is a quarter-metre in size. Components can be attached to all 6 faces.	这个方块边长25cm,可以连接收到所有6个面
 def_01_block_s_desc		Basic cube-shaped building block.	基本立方形建筑块
@@ -3112,6 +3119,25 @@ def_control_surface_small_node_0_label		Rotation	旋转
 def_control_surface_small_node_0_desc		Accepts a value between -1 and 1 that represent the two extremes of the rudder's rotation.	接受介于-1和1之间的值，该值表示方向舵旋转的两个极值
 def_control_surface_small_node_1_label		Electric	电
 def_control_surface_small_node_1_desc		Electrical power connection.	电源连接
+def_cryo_cooler_name		Cryo Cooler	制冷器
+def_cryo_cooler_desc		A component that cools liquid A and transfers the heat to liquid B.	冷却流体A并将热量传递给流体B的部件(AB至少有一端为液体)
+def_cryo_cooler_s_desc		A powered component that creates a temperature difference between two liquid systems.	在两个液体系统之间产生温差的组件
+def_cryo_cooler_node_0_label		Liquid A In	液体A入口
+def_cryo_cooler_node_0_desc		Input liquid port for liquid that gets cooled.	液体的输出端口,输入需被致冷的液体
+def_cryo_cooler_node_1_label		Liquid A Out	液体A出口
+def_cryo_cooler_node_1_desc		Output liquid port for liquid that gets cooled.	液体的输出端口,输出冷却后的液体
+def_cryo_cooler_node_2_label		Liquid B In	液体B入口
+def_cryo_cooler_node_2_desc		Input liquid port for liquid that gets warmed.	液体的输出端口,输入需被加热的液体
+def_cryo_cooler_node_3_label		Liquid B Out	液体B入口
+def_cryo_cooler_node_3_desc		Output liquid port for liquid that gets warmed.	液体的输出端口,输出加热后的液体
+def_cryo_cooler_node_4_label		Temp A	温度A
+def_cryo_cooler_node_4_desc		Compartment temperature.	温度A
+def_cryo_cooler_node_5_label		Temp B	温度B
+def_cryo_cooler_node_5_desc		Compartment temperature.	温度B
+def_cryo_cooler_node_6_label		Electric	电
+def_cryo_cooler_node_6_desc		Electrical power connection.	电源连接
+def_cryo_cooler_node_7_label		On/Off	开/关
+def_cryo_cooler_node_7_desc		Controls whether or not the component transfers heat between liquids.	控制组件是否在液体之间传递热量
 def_data_logger_bool_name		Data Logger (Bool)	数据记录器(布尔)
 def_data_logger_bool_desc		Link to the bool output node of another component to record data for unit tests.	连接到另一个组件的布尔型的输出端,为单元测试进行数据记录
 def_data_logger_bool_s_desc		A bool data logging block for unit tests.	布尔型的单元测试数据记录器
@@ -6787,46 +6813,6 @@ def_seat_medical_desc		You can get in and out of the medical bed by interacting 
 def_seat_medical_s_desc		A bed equiped with medical monitoring equipment, slowly heals injured characters.	装有医疗监护设备的床
 def_seat_medical_node_0_label		Occupied	被占用
 def_seat_medical_node_0_desc		Outputs an on signal if this bed is occupied by a character.	如果这个床被一个角色占用，则输出一个打开信号
-def_seat_motorbike_name		Padded Seat	摩托车软垫
-def_seat_motorbike_desc		You can get in and out of the seat by interacting with it using [$[action_use_seat]]. You can place a rescued survivor in any seat by using [$[action_use_seat]] while carrying them.	通过使用[$[action_use_seat]]与座椅交互以进出座椅。可以在携带获救幸存者时使用[$[action_use_seat]]将其放置在任何座椅上
-def_seat_motorbike_s_desc		A small padded passenger seat.	小型软垫座位
-def_seat_motorbike_node_0_label		Occupied	被占用
-def_seat_motorbike_node_0_desc		Outputs an on signal if this seat is occupied by a character.	如果该座位被角色占用，则输出on信号
-def_seat_motorbike_handle_name		Space Seat	摩托车把手
-def_seat_motorbike_handle_desc		It provides 4 number outputs that produce a standard value ranging from -1 to 1, and 6 on/off outputs. You can get in and out of the space seat by interacting with it using [$[action_use_seat]].	提供4个输出，产生从-1到1的标准值，以及6个开/关输出。您可以通过使用[[$[action_use_seat]]与驾驶座椅交互来进出座椅
-def_seat_motorbike_handle_s_desc		The space seat lets you translate keyboard presses into output signals that can control logic components.	座椅允许您将键盘按键转换为可以控制逻辑组件的输出信号
-def_seat_motorbike_handle_node_0_label		Occupied	被占用
-def_seat_motorbike_handle_node_0_desc		Outputs an on signal if the handle is occupied by a character.	如果该座位被角色占用，则输出on信号
-def_seat_motorbike_handle_node_1_label		Look X	视野X轴
-def_seat_motorbike_handle_node_1_desc		Outputs the character look direction in turns along the X-axis.	输出角色X轴视野方向
-def_seat_motorbike_handle_node_2_label		Look Y	视野Y轴
-def_seat_motorbike_handle_node_2_desc		Outputs the character look direction in turns along the Y-axis.	输出角色Y轴视野方向
-def_seat_motorbike_handle_node_3_label		Axis 1 [$[action_left]]/[$[action_right]]	轴 1 [$[action_left]]/[$[action_right]]
-def_seat_motorbike_handle_node_3_desc		Outputs a standard value between -1 and 1, controlled using [$[action_left]] and [$[action_right]]. [$[action_left]] causes the output value to move towards -1, and [$[action_right]] moves it towards 1.	输出一个介于-1和1之间的值，使用[$[action_left]]和[$[action_right]]进行控制。[$[action_left]]使输出值向-1移动，[$[action_right]]使其向1移动
-def_seat_motorbike_handle_node_4_label		Axis 2 [$[action_up]]/[$[action_down]]	轴 2 [$[action_up]]/[$[action_down]]
-def_seat_motorbike_handle_node_4_desc		Outputs a standard value between -1 and 1, controlled using [$[action_up]] and [$[action_down]]. [$[action_down]] causes the output value to move towards -1, and [$[action_up]] moves it towards 1.	输出一个介于-1和1之间的值，使用[$[action_up]]和[$[action_down]]进行控制。[$[action_down]]使输出值向-1移动，[$[action_up]]使其向1移动
-def_seat_motorbike_handle_node_5_label		Axis 3 [$[action_pedal_left]]/[$[action_pedal_right]]	轴 3 [$[action_pedal_left]]/[$[action_pedal_right]]
-def_seat_motorbike_handle_node_5_desc		Outputs a standard value between -1 and 1, controlled using [$[action_pedal_left]] and [$[action_pedal_right]]. [$[action_pedal_left]] causes the output value to move towards -1, and [$[action_pedal_right]] moves it towards 1.	输出一个介于-1和1之间的值，使用[$[动作踏板左]]和[$[动作踏板右]]进行控制。[$[action_People_left]]使输出值向-1移动，[$[action_People_right]]使其向1移动
-def_seat_motorbike_handle_node_6_label		Axis 4 [$[action_throttle_up]]/[$[action_throttle_down]]	轴 4 [$[action_throttle_up]]/[$[action_throttle_down]]
-def_seat_motorbike_handle_node_6_desc		Outputs a standard value between -1 and 1, controlled using [$[action_throttle_up]] and [$[action_throttle_down]]. [$[action_throttle_down]] causes the output value to move towards -1, and [$[action_throttle_up]] moves it towards 1.	输出一个介于-1和1之间的值，使用[$[action_throttle_up]]和[$[action_throttle_down]]进行控制。[$[action_throttle_down]]使输出值向-1移动，[$[action_throttle_up]]使其向1移动
-def_seat_motorbike_handle_node_7_label		Hotkey 1 [$[action_hotkey_1]]	按键 1 [$[action_hotkey_1]]
-def_seat_motorbike_handle_node_7_desc		Outputs an on signal when [$[action_hotkey_1]] is held, and off when it is not.	按住[$[action_hotkey_1]]时输出on信号，不按住时输出off信号
-def_seat_motorbike_handle_node_8_label		Hotkey 2 [$[action_hotkey_2]]	按键 2 [$[action_hotkey_2]]
-def_seat_motorbike_handle_node_8_desc		Outputs an on signal when [$[action_hotkey_2]] is held, and off when it is not.	按住[$[action_hotkey_2]]时输出on信号，不按住时输出off信号
-def_seat_motorbike_handle_node_9_label		Hotkey 3 [$[action_hotkey_3]]	按键 3 [$[action_hotkey_3]]
-def_seat_motorbike_handle_node_9_desc		Outputs an on signal when [$[action_hotkey_3]] is held, and off when it is not.	按住[$[action_hotkey_3]]时输出on信号，不按住时输出off信号
-def_seat_motorbike_handle_node_10_label		Hotkey 4 [$[action_hotkey_4]]	按键 4 [$[action_hotkey_4]]
-def_seat_motorbike_handle_node_10_desc		Outputs an on signal when [$[action_hotkey_4]] is held, and off when it is not.	按住[$[action_hotkey_4]]时输出on信号，不按住时输出off信号
-def_seat_motorbike_handle_node_11_label		Hotkey 5 [$[action_hotkey_5]]	按键 5 [$[action_hotkey_5]]
-def_seat_motorbike_handle_node_11_desc		Outputs an on signal when [$[action_hotkey_5]] is held, and off when it is not.	按住[$[action_hotkey_5]]时输出on信号，不按住时输出off信号
-def_seat_motorbike_handle_node_12_label		Hotkey 6 [$[action_hotkey_6]]	按键 6 [$[action_hotkey_6]]
-def_seat_motorbike_handle_node_12_desc		Outputs an on signal when [$[action_hotkey_6]] is held, and off when it is not.	按住[$[action_hotkey_6]]时输出on信号，不按住时输出off信号
-def_seat_motorbike_handle_node_13_label		Seat data	座位数据
-def_seat_motorbike_handle_node_13_desc		Outputs the axis, hotkey and occupied data from the helm. (On/Off 1+ : Hotkeys) (On/Off 31 : Trigger) (On/Off 32 : Occupied) (Value 1 : [$[action_left]]/[$[action_right]]) (Value 2 : [$[action_up]]/[$[action_down]]) (Value 3 : [$[action_pedal_left]]/[$[action_pedal_right]]) (Value 4 : [$[action_throttle_up]]/[$[action_throttle_down]]) (Value 9 : Look X)  (Value 10 : Look Y)	从座椅输出轴、热键和占用数据。(On/Off 1+ : 按键) (On/Off 31 : 扳机) (On/Off 32 : 占用) (值1 : [$[action_left]]/[$[action_right]]) (值2 : [$[action_up]]/[$[action_down]]) (值3 : [$[action_pedal_left]]/[$[action_pedal_right]]) (值4 : [$[action_throttle_up]]/[$[action_throttle_down]]) (值9:视野X轴) (值10:视野Y轴)
-def_seat_motorbike_handle_node_14_label		Headset Audio	耳机音频
-def_seat_motorbike_handle_node_14_desc			
-def_seat_motorbike_handle_node_15_label		Headset Audio	耳机音频
-def_seat_motorbike_handle_node_15_desc			
 def_seat_padded_name		Padded Seat	软垫座椅
 def_seat_padded_desc		You can get in and out of the seat by interacting with it using [$[action_use_seat]]. You can place a rescued survivor in any seat by using [$[action_use_seat]] while carrying them.	通过使用[$[action_use_seat]]与座椅交互以进出座椅。可以在携带获救幸存者时使用[$[action_use_seat]]将其放置在任何座椅上
 def_seat_padded_s_desc		A small padded passenger seat.	小型软垫座位
@@ -7941,15 +7927,6 @@ def_wheel_medium_node_2_label		Variable Brake	可变制动器
 def_wheel_medium_node_2_desc		A value between 0 and 1 for soft braking	输入制动力度(0~1)
 def_wheel_medium_node_3_label		Steering	转向
 def_wheel_medium_node_3_desc		Accepts a value between -1 and 1 that represents the extremes of the wheels steering rotation	接受一个介于-1和1之间的值，表示车轮转向的角度
-def_wheel_motorbike_name		motorbike_wheel	摩托车轮
-def_wheel_motorbike_desc		The wheel will rotate forwards and backwards depending on power received. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据从连接的发动机接收到的功率前后旋转。它可以通过接收数字信号以左右转向，也可以接收数字或开关信号实现制动刹车
-def_wheel_motorbike_s_desc		Small steerable wheel with suspension, power connection, and braking.	带有悬挂,动力连接和制动装置的可转向小轮
-def_wheel_motorbike_node_0_label		steering	转向
-def_wheel_motorbike_node_0_desc			
-def_wheel_motorbike_node_1_label		variable_brake	可变制动器
-def_wheel_motorbike_node_1_desc			
-def_wheel_motorbike_node_2_label		logic node	逻辑节点
-def_wheel_motorbike_node_2_desc			
 def_wheel_small_name		Small Wheel	公路轮(小)
 def_wheel_small_desc		The wheel will rotate forwards and backwards depending on power received from a connected engine. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据从连接的发动机接收到的功率前后旋转。它可以通过接收数字信号以左右转向，也可以接收数字或开关信号实现制动刹车
 def_wheel_small_s_desc		Small wheel that can be controlled using an engine.	可以用发动机控制的小轮子
@@ -8079,9 +8056,9 @@ def_winch_large_b_desc
 def_winch_large_b_s_desc			
 def_winch_large_b_node_0_label		Fluid	流体
 def_winch_large_b_node_0_desc		Fluid connection for the end of the hose.	软管末端的流体连接
-def_winch_pulley_name		Pulley	滑轮(U型)
-def_winch_pulley_desc		Draw a rope logic link between two rope nodes to form a cable. Ropes will slide based on difference in force applied to each rope.	使用绳索连接滑轮的两个节点，成为滑轮上连接的同一根绳索，绳索将根据施加在每根绳索上的力的差异而滑动
-def_winch_pulley_s_desc		A pulley that changes attached rope lengths based on forces applied to ropes.	滑轮，其上的绳索将根据施加在每根绳索上的力的差异而滑动
+def_winch_pulley_name		Rope Pulley	绳索滑轮(U型)
+def_winch_pulley_desc		Draw a rope logic link between two rope nodes to form a rope. Ropes will slide based on difference in force applied to each rope.	使用绳索连接滑轮的两个节点，成为滑轮上连接的同一根绳索，绳索将根据施加在每根绳索上的力的差异而滑动
+def_winch_pulley_s_desc		A pulley that changes attached rope lengths based on forces applied to ropes.	绳索滑轮，其上的绳索将根据施加在每根绳索上的力的差异而滑动
 def_winch_pulley_node_0_label		Rope 1 Length	绳索1的长度
 def_winch_pulley_node_0_desc		The current length of rope 1 in metres.	绳索1当前长度(米)
 def_winch_pulley_node_1_label		Rope 2 Length	绳索2的长度
@@ -8090,9 +8067,31 @@ def_winch_pulley_node_2_label		Rope 2	绳索2
 def_winch_pulley_node_2_desc			
 def_winch_pulley_node_3_label		Rope 1	绳索1
 def_winch_pulley_node_3_desc			
-def_winch_pulley_corner_name		Pulley (Corner)	滑轮(L型)
-def_winch_pulley_corner_desc		Draw a rope logic link between two rope nodes to form a cable. Ropes will slide based on difference in force applied to each rope.	使用绳索连接滑轮的两个节点，成为滑轮上连接的同一根绳索，绳索将根据施加在每根绳索上的力的差异而滑动
-def_winch_pulley_corner_s_desc		A pulley that changes attached rope lengths based on forces applied to ropes.	滑轮，其上的绳索将根据施加在每根绳索上的力的差异而滑动
+def_winch_pulley_cable_name		Electric Cable Pulley	电缆滑轮(U型)
+def_winch_pulley_cable_desc		Draw a rope logic link between two rope nodes to form a cable. Cables will slide based on difference in force applied to each cable.	使用电缆连接滑轮的两个节点，成为滑轮上连接的同一根电缆，电缆将根据施加在每根电缆上的力的差异而滑动
+def_winch_pulley_cable_s_desc		A pulley that changes attached cable lengths based on forces applied to cables.	电缆滑轮，其上的绳索将根据施加在每根绳索上的力的差异而滑动
+def_winch_pulley_cable_node_0_label		Rope 1 Length	电缆1的长度
+def_winch_pulley_cable_node_0_desc		The current length of rope 1 in metres.	电缆1当前长度(米)
+def_winch_pulley_cable_node_1_label		Rope 2 Length	电缆2的长度
+def_winch_pulley_cable_node_1_desc		The current length of rope 2 in metres.	电缆1当前长度(米)
+def_winch_pulley_cable_node_2_label		Rope 2	电缆2
+def_winch_pulley_cable_node_2_desc			
+def_winch_pulley_cable_node_3_label		Rope 1	电缆1
+def_winch_pulley_cable_node_3_desc			
+def_winch_pulley_cable_corner_name		Electric Cable Pulley (Corner)	电缆滑轮(L型)
+def_winch_pulley_cable_corner_desc		Draw a rope logic link between two rope nodes to form a cable. Cables will slide based on difference in force applied to each cable.	使用电缆连接滑轮的两个节点，成为滑轮上连接的同一根电缆，电缆将根据施加在每根电缆上的力的差异而滑动
+def_winch_pulley_cable_corner_s_desc		A pulley that changes attached cable lengths based on forces applied to cables.	电缆滑轮，其上的绳索将根据施加在每根电缆上的力的差异而滑动
+def_winch_pulley_cable_corner_node_0_label		Rope 1 Length	电缆1的长度
+def_winch_pulley_cable_corner_node_0_desc		The current length of rope 1 in metres.	电缆1当前长度(米)
+def_winch_pulley_cable_corner_node_1_label		Rope 2 Length	电缆2的长度
+def_winch_pulley_cable_corner_node_1_desc		The current length of rope 2 in metres.	电缆2当前长度(米)
+def_winch_pulley_cable_corner_node_2_label		Rope 2	电缆2
+def_winch_pulley_cable_corner_node_2_desc			
+def_winch_pulley_cable_corner_node_3_label		Rope 1	电缆1
+def_winch_pulley_cable_corner_node_3_desc			
+def_winch_pulley_corner_name		Rope Pulley (Corner)	绳索滑轮(L型)
+def_winch_pulley_corner_desc		Draw a rope logic link between two rope nodes to form a rope. Ropes will slide based on difference in force applied to each rope.	使用绳索连接滑轮的两个节点，成为滑轮上连接的同一根绳索，绳索将根据施加在每根绳索上的力的差异而滑动
+def_winch_pulley_corner_s_desc		A pulley that changes attached rope lengths based on forces applied to ropes.	绳索滑轮，其上的绳索将根据施加在每根绳索上的力的差异而滑动
 def_winch_pulley_corner_node_0_label		Rope 1 Length	绳索1的长度
 def_winch_pulley_corner_node_0_desc		The current length of rope 1 in metres.	绳索1当前长度(米)
 def_winch_pulley_corner_node_1_label		Rope 2 Length	绳索2的长度
@@ -8101,6 +8100,36 @@ def_winch_pulley_corner_node_2_label		Rope 2	绳索2
 def_winch_pulley_corner_node_2_desc			
 def_winch_pulley_corner_node_3_label		Rope 1	绳索1
 def_winch_pulley_corner_node_3_desc			
+def_winch_pulley_hose_name		Fluid Hose Pulley	流体软管滑轮(U型)
+def_winch_pulley_hose_desc		Draw a rope logic link between two rope nodes to form a hose. Hoses will slide based on difference in force applied to each hose.	使用流体软管连接滑轮的两个节点，成为滑轮上连接的同一根软管，软管将根据施加在每根软管上的力的差异而滑动
+def_winch_pulley_hose_s_desc		A pulley that changes attached hose lengths based on forces applied to hoses.	流体软管滑轮，其上的软管将根据施加在每根软管上的力的差异而滑动
+def_winch_pulley_hose_node_0_label		Rope 1 Length	软管1的长度
+def_winch_pulley_hose_node_0_desc		The current length of rope 1 in metres.	软管1当前长度(米)
+def_winch_pulley_hose_node_1_label		Rope 2 Length	软管2的长度
+def_winch_pulley_hose_node_1_desc		The current length of rope 2 in metres.	软管2当前长度(米)
+def_winch_pulley_hose_node_2_label		Rope 2	软管2
+def_winch_pulley_hose_node_2_desc			
+def_winch_pulley_hose_node_3_label		Rope 1	软管1
+def_winch_pulley_hose_node_3_desc			
+def_winch_pulley_hose_node_4_label		Fluid Node 1	软管1
+def_winch_pulley_hose_node_4_desc			
+def_winch_pulley_hose_node_5_label		Fluid Node 2	软管2
+def_winch_pulley_hose_node_5_desc			
+def_winch_pulley_hose_corner_name		Fluid Hose Pulley (Corner)	流体软管滑轮(L型)
+def_winch_pulley_hose_corner_desc		Draw a rope logic link between two rope nodes to form a hose. Hoses will slide based on difference in force applied to each hose.	使用流体软管连接滑轮的两个节点，成为滑轮上连接的同一根软管，软管将根据施加在每根软管上的力的差异而滑动
+def_winch_pulley_hose_corner_s_desc		A pulley that changes attached hose lengths based on forces applied to hoses.	流体软管滑轮，其上的软管将根据施加在每根软管上的力的差异而滑动
+def_winch_pulley_hose_corner_node_0_label		Rope 1 Length	软管1的长度
+def_winch_pulley_hose_corner_node_0_desc		The current length of rope 1 in metres.	软管1当前长度(米)
+def_winch_pulley_hose_corner_node_1_label		Rope 2 Length	软管2的长度
+def_winch_pulley_hose_corner_node_1_desc		The current length of rope 2 in metres.	软管2当前长度(米)
+def_winch_pulley_hose_corner_node_2_label		Rope 2	软管2
+def_winch_pulley_hose_corner_node_2_desc			
+def_winch_pulley_hose_corner_node_3_label		Rope 1	软管1
+def_winch_pulley_hose_corner_node_3_desc			
+def_winch_pulley_hose_corner_node_4_label		Fluid Node 1	软管1
+def_winch_pulley_hose_corner_node_4_desc			
+def_winch_pulley_hose_corner_node_5_label		Fluid Node 2	软管2
+def_winch_pulley_hose_corner_node_5_desc			
 def_window_1x1_name		Window 1x1	窗(1x1)
 def_window_1x1_desc		Sits flush with walls and ceilings.	这是一扇平窗，与墙壁和天花板齐平。1个单位宽
 def_window_1x1_s_desc		Basic window piece.	基本的窗户
@@ -8249,3 +8278,52 @@ def_wing_xl_s_desc		The wing surface cuts through the air while resisting moveme
 def_wing_xxl_name		Wing Section (XXLarge)	机翼面(超大)
 def_wing_xxl_desc		Wing surface to provide lift and cut through the air.	机翼表面提供升力并穿过气体
 def_wing_xxl_s_desc		The wing surface cuts through the air while resisting movement against the flat plane of its surface. The aerofoil section also provides lift.	机翼表面穿透气体，同时抵抗其表面平面的运动。机翼部分也提供升力
+def_seat_motorbike_name		Padded Seat	摩托车软垫
+def_seat_motorbike_desc		You can get in and out of the seat by interacting with it using [$[action_use_seat]]. You can place a rescued survivor in any seat by using [$[action_use_seat]] while carrying them.	通过使用[$[action_use_seat]]与座椅交互以进出座椅。可以在携带获救幸存者时使用[$[action_use_seat]]将其放置在任何座椅上
+def_seat_motorbike_s_desc		A small padded passenger seat.	小型软垫座位
+def_seat_motorbike_node_0_label		Occupied	被占用
+def_seat_motorbike_node_0_desc		Outputs an on signal if this seat is occupied by a character.	如果该座位被角色占用，则输出on信号
+def_seat_motorbike_handle_name		Space Seat	摩托车把手
+def_seat_motorbike_handle_desc		It provides 4 number outputs that produce a standard value ranging from -1 to 1, and 6 on/off outputs. You can get in and out of the space seat by interacting with it using [$[action_use_seat]].	提供4个输出，产生从-1到1的标准值，以及6个开/关输出。您可以通过使用[[$[action_use_seat]]与驾驶座椅交互来进出座椅
+def_seat_motorbike_handle_s_desc		The space seat lets you translate keyboard presses into output signals that can control logic components.	座椅允许您将键盘按键转换为可以控制逻辑组件的输出信号
+def_seat_motorbike_handle_node_0_label		Occupied	被占用
+def_seat_motorbike_handle_node_0_desc		Outputs an on signal if the handle is occupied by a character.	如果该座位被角色占用，则输出on信号
+def_seat_motorbike_handle_node_1_label		Look X	视野X轴
+def_seat_motorbike_handle_node_1_desc		Outputs the character look direction in turns along the X-axis.	输出角色X轴视野方向
+def_seat_motorbike_handle_node_2_label		Look Y	视野Y轴
+def_seat_motorbike_handle_node_2_desc		Outputs the character look direction in turns along the Y-axis.	输出角色Y轴视野方向
+def_seat_motorbike_handle_node_3_label		Axis 1 [$[action_left]]/[$[action_right]]	轴 1 [$[action_left]]/[$[action_right]]
+def_seat_motorbike_handle_node_3_desc		Outputs a standard value between -1 and 1, controlled using [$[action_left]] and [$[action_right]]. [$[action_left]] causes the output value to move towards -1, and [$[action_right]] moves it towards 1.	输出一个介于-1和1之间的值，使用[$[action_left]]和[$[action_right]]进行控制。[$[action_left]]使输出值向-1移动，[$[action_right]]使其向1移动
+def_seat_motorbike_handle_node_4_label		Axis 2 [$[action_up]]/[$[action_down]]	轴 2 [$[action_up]]/[$[action_down]]
+def_seat_motorbike_handle_node_4_desc		Outputs a standard value between -1 and 1, controlled using [$[action_up]] and [$[action_down]]. [$[action_down]] causes the output value to move towards -1, and [$[action_up]] moves it towards 1.	输出一个介于-1和1之间的值，使用[$[action_up]]和[$[action_down]]进行控制。[$[action_down]]使输出值向-1移动，[$[action_up]]使其向1移动
+def_seat_motorbike_handle_node_5_label		Axis 3 [$[action_pedal_left]]/[$[action_pedal_right]]	轴 3 [$[action_pedal_left]]/[$[action_pedal_right]]
+def_seat_motorbike_handle_node_5_desc		Outputs a standard value between -1 and 1, controlled using [$[action_pedal_left]] and [$[action_pedal_right]]. [$[action_pedal_left]] causes the output value to move towards -1, and [$[action_pedal_right]] moves it towards 1.	输出一个介于-1和1之间的值，使用[$[动作踏板左]]和[$[动作踏板右]]进行控制。[$[action_People_left]]使输出值向-1移动，[$[action_People_right]]使其向1移动
+def_seat_motorbike_handle_node_6_label		Axis 4 [$[action_throttle_up]]/[$[action_throttle_down]]	轴 4 [$[action_throttle_up]]/[$[action_throttle_down]]
+def_seat_motorbike_handle_node_6_desc		Outputs a standard value between -1 and 1, controlled using [$[action_throttle_up]] and [$[action_throttle_down]]. [$[action_throttle_down]] causes the output value to move towards -1, and [$[action_throttle_up]] moves it towards 1.	输出一个介于-1和1之间的值，使用[$[action_throttle_up]]和[$[action_throttle_down]]进行控制。[$[action_throttle_down]]使输出值向-1移动，[$[action_throttle_up]]使其向1移动
+def_seat_motorbike_handle_node_7_label		Hotkey 1 [$[action_hotkey_1]]	按键 1 [$[action_hotkey_1]]
+def_seat_motorbike_handle_node_7_desc		Outputs an on signal when [$[action_hotkey_1]] is held, and off when it is not.	按住[$[action_hotkey_1]]时输出on信号，不按住时输出off信号
+def_seat_motorbike_handle_node_8_label		Hotkey 2 [$[action_hotkey_2]]	按键 2 [$[action_hotkey_2]]
+def_seat_motorbike_handle_node_8_desc		Outputs an on signal when [$[action_hotkey_2]] is held, and off when it is not.	按住[$[action_hotkey_2]]时输出on信号，不按住时输出off信号
+def_seat_motorbike_handle_node_9_label		Hotkey 3 [$[action_hotkey_3]]	按键 3 [$[action_hotkey_3]]
+def_seat_motorbike_handle_node_9_desc		Outputs an on signal when [$[action_hotkey_3]] is held, and off when it is not.	按住[$[action_hotkey_3]]时输出on信号，不按住时输出off信号
+def_seat_motorbike_handle_node_10_label		Hotkey 4 [$[action_hotkey_4]]	按键 4 [$[action_hotkey_4]]
+def_seat_motorbike_handle_node_10_desc		Outputs an on signal when [$[action_hotkey_4]] is held, and off when it is not.	按住[$[action_hotkey_4]]时输出on信号，不按住时输出off信号
+def_seat_motorbike_handle_node_11_label		Hotkey 5 [$[action_hotkey_5]]	按键 5 [$[action_hotkey_5]]
+def_seat_motorbike_handle_node_11_desc		Outputs an on signal when [$[action_hotkey_5]] is held, and off when it is not.	按住[$[action_hotkey_5]]时输出on信号，不按住时输出off信号
+def_seat_motorbike_handle_node_12_label		Hotkey 6 [$[action_hotkey_6]]	按键 6 [$[action_hotkey_6]]
+def_seat_motorbike_handle_node_12_desc		Outputs an on signal when [$[action_hotkey_6]] is held, and off when it is not.	按住[$[action_hotkey_6]]时输出on信号，不按住时输出off信号
+def_seat_motorbike_handle_node_13_label		Seat data	座位数据
+def_seat_motorbike_handle_node_13_desc		Outputs the axis, hotkey and occupied data from the helm. (On/Off 1+ : Hotkeys) (On/Off 31 : Trigger) (On/Off 32 : Occupied) (Value 1 : [$[action_left]]/[$[action_right]]) (Value 2 : [$[action_up]]/[$[action_down]]) (Value 3 : [$[action_pedal_left]]/[$[action_pedal_right]]) (Value 4 : [$[action_throttle_up]]/[$[action_throttle_down]]) (Value 9 : Look X)  (Value 10 : Look Y)	从座椅输出轴、热键和占用数据。(On/Off 1+ : 按键) (On/Off 31 : 扳机) (On/Off 32 : 占用) (值1 : [$[action_left]]/[$[action_right]]) (值2 : [$[action_up]]/[$[action_down]]) (值3 : [$[action_pedal_left]]/[$[action_pedal_right]]) (值4 : [$[action_throttle_up]]/[$[action_throttle_down]]) (值9:视野X轴) (值10:视野Y轴)
+def_seat_motorbike_handle_node_14_label		Headset Audio	耳机音频
+def_seat_motorbike_handle_node_14_desc			
+def_seat_motorbike_handle_node_15_label		Headset Audio	耳机音频
+def_seat_motorbike_handle_node_15_desc			
+def_wheel_motorbike_name		motorbike_wheel	摩托车轮
+def_wheel_motorbike_desc		The wheel will rotate forwards and backwards depending on power received. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据从连接的发动机接收到的功率前后旋转。它可以通过接收数字信号以左右转向，也可以接收数字或开关信号实现制动刹车
+def_wheel_motorbike_s_desc		Small steerable wheel with suspension, power connection, and braking.	带有悬挂,动力连接和制动装置的可转向小轮
+def_wheel_motorbike_node_0_label		steering	转向
+def_wheel_motorbike_node_0_desc			
+def_wheel_motorbike_node_1_label		variable_brake	可变制动器
+def_wheel_motorbike_node_1_desc			
+def_wheel_motorbike_node_2_label		logic node	逻辑节点
+def_wheel_motorbike_node_2_desc			
