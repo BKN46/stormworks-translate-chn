@@ -2399,7 +2399,7 @@ id	description	en	local
 		Night Duration	夜间
 		Space	太空
 		ERROR: You are banned	错误:您被禁止访问
-		Banned users are not permitted to play Stormworks online. You have been banned for using a modified version of the game for the purposes of cheating, greifing, piracy, or another illegal purpose.	被禁止登录的用户不允许在线游玩Stormworks.你因使用修改过的游戏版本作弊、贪婪、侵犯版权或其他非法目的而被禁止在线游戏.
+		Banned users are not permitted to play Stormworks online. You have been banned for using a modified version of the game for the purposes of cheating, griefing, piracy, or another illegal purpose.	被禁用的用户不得在线游玩《风暴工程》.您因使用修改过的游戏版本进行作弊、破坏、盗版或其他非法目的而被禁用
 		Buffalo	水牛
 		Bighorn Sheep	大角羊
 		Roadrunner	走鹃
@@ -2504,6 +2504,22 @@ id	description	en	local
 		Bike Jacket	赛车外套(B款)
 		Bike Suit	赛车套装(A款)
 		Racing Overalls	赛车套装(B款)
+		Enabled Mods	启用Mod
+		Your local mods.	本地Mod
+		Mods you've subscribed to on the Steam Workshop.	您在创意工坊订阅的Mod
+		Downloading mods...	Mod下载中...
+		Are you sure you want to upload this mod to the Steam Workshop?	您要上传该Mod到创意工坊吗?
+		Are you sure you want to update this mod on the Steam Workshop?\n\nAny players who have subscribed to your mod will receive your changes.	您要更新该Mod到创意工坊吗?\n\n其他订阅了该Mod的玩家会收到本次更新
+		UPLOAD MOD	上传Mod
+		UPDATE MOD	更新Mod
+		Your mod has failed to upload to the Steam workshop.	上传Mod到创意工坊失败
+		Your mod was successfully uploaded to the Steam workshop.	上传成功
+		MOD UPLOAD COMPLETE	Mod上传完毕
+		Copy filepath	复制文件路径
+		Local	本地
+		Cannot upload modded vehicles.	无法上传带有Mod的载具
+		The vehicle you are trying to load is missing a component definition, ensure your save has the required mods enabled.	您尝试加载的载具缺少组件,请确保开启了需要的Mod
+		Group: Mod Name	组:Mod名称
 def_01_block_name		Block	方块
 def_01_block_desc		The block is a quarter-metre in size. Components can be attached to all 6 faces.	这个方块边长25cm,可以连接收到所有6个面
 def_01_block_s_desc		Basic cube-shaped building block.	基本立方形建筑块
