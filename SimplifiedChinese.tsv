@@ -2520,6 +2520,7 @@ id	description	en	local
 		Cannot upload modded vehicles.	无法上传带有Mod的载具
 		The vehicle you are trying to load is missing a component definition, ensure your save has the required mods enabled.	您尝试加载的载具缺少组件,请确保开启了需要的Mod
 		Group: Mod Name	组:Mod名称
+		Rotation Speed	旋转速度
 def_01_block_name		Block	方块
 def_01_block_desc		The block is a quarter-metre in size. Components can be attached to all 6 faces.	这个方块边长25cm,可以连接收到所有6个面
 def_01_block_s_desc		Basic cube-shaped building block.	基本立方形建筑块
@@ -6166,6 +6167,13 @@ def_rope_hook_winch_small_node_3_label		Electric Node	电力节点
 def_rope_hook_winch_small_node_3_desc			
 def_rope_hook_winch_small_node_4_label		Fluid	流体
 def_rope_hook_winch_small_node_4_desc		Fluid connection for the hose coil.	由线缆连接的流体接口
+def_rotating_light_name		Rotating Light	旋转警灯
+def_rotating_light_desc			
+def_rotating_light_s_desc		A rotating light that can be controlled using an on/off signal.	可以通过on/off信号控制的旋转灯具
+def_rotating_light_node_0_label		Light Switch	灯光切换
+def_rotating_light_node_0_desc		Controls whether or not the light is switched on.	设置灯光亮灭
+def_rotating_light_node_1_label		Electric	电
+def_rotating_light_node_1_desc		Electrical power connection.	电源连接
 def_rotation_sensor_name		Tilt Sensor	倾斜传感器
 def_rotation_sensor_desc		The measurement is expressed in terms of turns, with an output range of -0.25 to 0.25 turns. A value of zero points towards the horizon.	测量值以圈表示，输出范围为-0.25到0.25圈(代表-90°到90°)。输出0代表水平位置
 def_rotation_sensor_s_desc		A sensor that measures how much it has tilted, relative to the horizon.	测量它相对于自身水平面倾斜多少的传感器
