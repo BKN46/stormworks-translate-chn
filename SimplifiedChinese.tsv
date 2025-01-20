@@ -2520,6 +2520,8 @@ id	description	en	local
 		Cannot upload modded vehicles.	无法上传带有Mod的载具
 		The vehicle you are trying to load is missing a component definition, ensure your save has the required mods enabled.	您尝试加载的载具缺少组件,请确保开启了需要的Mod
 		Group: Mod Name	组:Mod名称
+		Rotation Speed	旋转速度
+		No Signal	无信号
 def_01_block_name		Block	方块
 def_01_block_desc		The block is a quarter-metre in size. Components can be attached to all 6 faces.	这个方块边长25cm,可以连接收到所有6个面
 def_01_block_s_desc		Basic cube-shaped building block.	基本立方形建筑块
@@ -2544,7 +2546,7 @@ def_05_wedge_2_s_desc		1x2 wedge-shaped building block.	1x2楔形建筑块
 def_06_pyramid_2_name		Pyramid 1x2	锥形块1x2
 def_06_pyramid_2_desc		Components can be attached to all faces, with the exception of the triangular face. Pyramids can act as a corner-piece for perpendicular lines of wedge blocks.	组件可以附加到除三角面外的所有面。锥形块可以作为楔形块侧面的角件
 def_06_pyramid_2_s_desc		1x2 pyramid-shaped building block. 	1x2楔形形建筑块
-def_07_invpyramid_2_name		Inverse pyramid 1x2	倒锥形块1x2
+def_07_invpyramid_2_name		Inverse Pyramid 1x2	倒锥形块1x2
 def_07_invpyramid_2_desc		Components can be attached to all faces, with the exception of the triangular face. Inverse pyramids are useful for closing gaps between perpendicular lines of wedge and pyramid blocks.	组件可以附加到组件可以附加到除三角面外的所有面所有面。倒锥形块用于填补楔形块侧面和锥形块之间的间
 def_07_invpyramid_2_s_desc		1x2 inverse pyramid-shaped building block.	1x2倒锥形建筑块
 def_08_wedge_4_name		Wedge 1x4	楔形块1x4
@@ -4390,8 +4392,8 @@ def_gyroscopic_stabilizer_small_node_1_desc		Input rotation value.	输入旋转�
 def_handle_name		Handle	把手
 def_handle_desc		Interacting with [$[action_interact_left]] or [$[action_interact_right]] again will detach that hand. The handle can be used to drag vehicles around. If a vehicle is too heavy to move, you will be detached automatically when you move outside the handle's interaction range.	在连接上时按[$[action_interact_left]/[$[action_interact_right]]将分离您，具体取决于您开始按了哪个键。把手可以用来拖动载具。如果载具太重而无法移动，则当您在把手的交互作用范围之外移动时，将自动分离
 def_handle_s_desc		A handle that you can attach to by interacting with [$[action_interact_left]] or [$[action_interact_right]].	通过按[$[action_interact_left]]或[$[action_interact_right]]可以抓上把手
-def_handle_node_0_label		Is Occupied	是否被占用
-def_handle_node_0_desc		Returns true if a player is attached to the handle.	如果有玩家抓住了把手,返回true
+def_handle_node_0_label		Occupied	是否被占用
+def_handle_node_0_desc		Outputs an on signal if a player is attached to the handle.	如果有玩家抓住了把手,返回true
 def_hatch_name		Sliding Hatch (Electric)	滑动舱口(电动)
 def_hatch_desc			
 def_hatch_s_desc		Sliding hatch that can be opened and closed using an on/off signal.	滑动舱口，可使用开/关信号打开和关闭
@@ -6166,6 +6168,13 @@ def_rope_hook_winch_small_node_3_label		Electric Node	电力节点
 def_rope_hook_winch_small_node_3_desc			
 def_rope_hook_winch_small_node_4_label		Fluid	流体
 def_rope_hook_winch_small_node_4_desc		Fluid connection for the hose coil.	由线缆连接的流体接口
+def_rotating_light_name		Rotating Light	旋转警灯
+def_rotating_light_desc			
+def_rotating_light_s_desc		A rotating light that can be controlled using an on/off signal.	可以通过on/off信号控制的旋转灯具
+def_rotating_light_node_0_label		Light Switch	灯光切换
+def_rotating_light_node_0_desc		Controls whether or not the light is switched on.	设置灯光亮灭
+def_rotating_light_node_1_label		Electric	电
+def_rotating_light_node_1_desc		Electrical power connection.	电源连接
 def_rotation_sensor_name		Tilt Sensor	倾斜传感器
 def_rotation_sensor_desc		The measurement is expressed in terms of turns, with an output range of -0.25 to 0.25 turns. A value of zero points towards the horizon.	测量值以圈表示，输出范围为-0.25到0.25圈(代表-90°到90°)。输出0代表水平位置
 def_rotation_sensor_s_desc		A sensor that measures how much it has tilted, relative to the horizon.	测量它相对于自身水平面倾斜多少的传感器
@@ -7680,6 +7689,15 @@ def_vehicle_tool_welder_node_0_label		Electric	电
 def_vehicle_tool_welder_node_0_desc		Electrical power connection.	电源连接
 def_vehicle_tool_welder_node_1_label		Activate	启用
 def_vehicle_tool_welder_node_1_desc		Enable welding torch.	启用电焊机
+def_viewing_scope_name		Viewing Scope	观瞄镜
+def_viewing_scope_desc		Interact to display video data at full detail.	接入视频信号以展示拍摄到的内容
+def_viewing_scope_s_desc		A viewing scope.	观瞄镜
+def_viewing_scope_node_0_label		Video Signal	视频信号
+def_viewing_scope_node_0_desc			
+def_viewing_scope_node_1_label		Electric	电
+def_viewing_scope_node_1_desc			
+def_viewing_scope_node_2_label		Occupied	被占用
+def_viewing_scope_node_2_desc		Outputs an on signal if this viewing scope is occupied by a character.	当玩家占用时输入on信号
 def_warhead_body_large_name		Warhead Body (Large)	弹头(大)
 def_warhead_body_large_desc		Detonates from an impact, or when receiving damage. Be careful!	解除保险后受到指定速度撞击会被引爆,小心处理,该组件在受到攻击时会殉爆
 def_warhead_body_large_s_desc		A large explosive warhead.	巨大的弹头
