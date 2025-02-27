@@ -2876,7 +2876,7 @@ def_camera_gimbal_laser_node_8_desc		Enable stabilization to keep the camera foc
 def_camera_gimbal_laser_node_9_label		Tracker Mode	追踪模式
 def_camera_gimbal_laser_node_9_desc		Enable tracking to direct the camera at the current lazed position.	开启后将相机朝向稳定至当前激光照射位置
 def_camera_gimbal_laser_node_10_label		Composite Output	混合输出
-def_camera_gimbal_laser_node_10_desc		x, y, z output for the laser target in channels 1, 2, 3 respectively.	输出目标x,y,z轴位置，对应1,2,3通道
+def_camera_gimbal_laser_node_10_desc		Composite value channels: 1: x position of laser target, 2: y position of laser target, 3: z position of laser target, 4: pitch of component in turns, 5: yaw of component in turns	1：激光目标的X轴位置;2：激光目标的Y轴位置;3：激光目标的Z轴位置;4：组件的俯仰(圈数);5：组件的偏航(圈数)
 def_camera_gimbal_laser_node_11_label		Laser Wavelength	激光编码
 def_camera_gimbal_laser_node_11_desc		The specific light wavelength to emit (whole number).	激光编码(整数),激光传感器需要使用相同的编码才能识别激光照射
 def_camera_med_name		Camera Medium	摄像头(中型)
@@ -6563,10 +6563,12 @@ def_seat_node_13_label		Hotkey 6 [$[action_hotkey_6]]	按键 6 [$[action_hotkey_
 def_seat_node_13_desc		Outputs an on signal when [$[action_hotkey_6]] is held, and off when it is not.	按住[$[action_hotkey_6]]时输出打开信号，不按住时输出关闭信号
 def_seat_node_14_label		Seat data	座位数据
 def_seat_node_14_desc		Outputs the axis, hotkey and occupied data from the seat. (On/Off 1+ : Hotkeys) (On/Off 31 : Trigger) (On/Off 32 : Occupied) (Value 1 : [$[action_left]]/[$[action_right]]) (Value 2 : [$[action_up]]/[$[action_down]]) (Value 3 : [$[action_pedal_left]]/[$[action_pedal_right]]) (Value 4 : [$[action_throttle_up]]/[$[action_throttle_down]]) (Value 9 : Look X)  (Value 10 : Look Y)	从座椅输出轴、热键和占用数据。 (On/Off 1+ : 按键) (On/Off 31 : 扳机) (On/Off 32 : 占用) (值1 : [$[action_left]]/[$[action_right]]) (值2 : [$[action_up]]/[$[action_down]]) (值3 : [$[action_pedal_left]]/[$[action_pedal_right]]) (值4 : [$[action_throttle_up]]/[$[action_throttle_down]]) (值9 : 视野X轴)  (值10 : 视野Y轴)
-def_seat_node_15_label		Headset Audio	耳机音频
+def_seat_node_15_label		Headset Audio	头盔音频
 def_seat_node_15_desc			
-def_seat_node_16_label		Headset Audio	耳机音频
+def_seat_node_16_label		Headset Audio	头盔音频
 def_seat_node_16_desc			
+def_seat_node_17_label		Headset Video	头盔显示器
+def_seat_node_17_desc		Displays video UI overlay on a helmet mounted display.	头盔显示器输入信号
 def_seat_bed_name		Bed	床
 def_seat_bed_desc		You can get in and out of the bed by interacting with it using [$[action_use_seat]]. You can place a rescued survivor in any bed by using [$[action_use_seat]] while carrying them.	你可以通过使用[$[action_use_seat]]与之交互来上下床。你可以在携带幸存者时使用 [$[action_use_seat]]将获救的幸存者放置在任何床上
 def_seat_bed_s_desc		A bed.	一张床
@@ -6605,10 +6607,12 @@ def_seat_compact_node_13_label		Hotkey 6 [$[action_hotkey_6]]	按键 6 [$[action
 def_seat_compact_node_13_desc		Outputs an on signal when [$[action_hotkey_6]] is held, and off when it is not.	按住[$[action_hotkey_6]]时输出打开信号，不按住时输出关闭信号
 def_seat_compact_node_14_label		Seat data	座位数据
 def_seat_compact_node_14_desc		Outputs the axis, hotkey and occupied data from the seat. (On/Off 1+ : Hotkeys) (On/Off 31 : Trigger) (On/Off 32 : Occupied) (Value 1 : [$[action_left]]/[$[action_right]]) (Value 2 : [$[action_up]]/[$[action_down]]) (Value 3 : [$[action_pedal_left]]/[$[action_pedal_right]]) (Value 4 : [$[action_throttle_up]]/[$[action_throttle_down]]) (Value 9 : Look X)  (Value 10 : Look Y)	从座椅输出轴、热键和占用数据。 (On/Off 1+ : 按键) (On/Off 31 : 扳机) (On/Off 32 : 占用) (值1 : [$[action_left]]/[$[action_right]]) (值2 : [$[action_up]]/[$[action_down]]) (值3 : [$[action_pedal_left]]/[$[action_pedal_right]]) (值4 : [$[action_throttle_up]]/[$[action_throttle_down]]) (值9 : 视野X轴)  (值10 : 视野Y轴)
-def_seat_compact_node_15_label		Headset Audio	耳机音频
+def_seat_compact_node_15_label		Headset Audio	头盔音频
 def_seat_compact_node_15_desc			
-def_seat_compact_node_16_label		Headset Audio	耳机音频
+def_seat_compact_node_16_label		Headset Audio	头盔音频
 def_seat_compact_node_16_desc			
+def_seat_compact_node_17_label		Headset Video	头盔显示器
+def_seat_compact_node_17_desc		Displays video UI overlay on a helmet mounted display.	头盔显示器输入信号
 def_seat_handle_name		Control Handle	控制器手柄
 def_seat_handle_desc		You can get in and out of the position by interacting with it using [$[action_use_seat]].	按下[$[action_use_seat]]进出这个位置
 def_seat_handle_s_desc		A compact control handle.	紧凑的控制器手柄
@@ -6642,10 +6646,12 @@ def_seat_handle_node_13_label		Hotkey 6 [$[action_hotkey_6]]	按键 6 [$[action_
 def_seat_handle_node_13_desc		Outputs an on signal when [$[action_hotkey_6]] is held, and off when it is not.	按住[$[action_hotkey_6]]时输出打开信号，不按住时输出关闭信号
 def_seat_handle_node_14_label		Seat data	座位数据
 def_seat_handle_node_14_desc		Outputs the axis, hotkey and occupied data from the helm. (On/Off 1+ : Hotkeys) (On/Off 31 : Trigger) (On/Off 32 : Occupied) (Value 1 : [$[action_left]]/[$[action_right]]) (Value 2 : [$[action_up]]/[$[action_down]]) (Value 3 : [$[action_pedal_left]]/[$[action_pedal_right]]) (Value 4 : [$[action_throttle_up]]/[$[action_throttle_down]]) (Value 9 : Look X)  (Value 10 : Look Y)	从舵输出轴、热键和占用数据。 (On/Off 1+ : 按键) (On/Off 31 : 扳机) (On/Off 32 : 占用) (值1 : [$[action_left]]/[$[action_right]]) (值2 : [$[action_up]]/[$[action_down]]) (值3 : [$[action_pedal_left]]/[$[action_pedal_right]]) (值4 : [$[action_throttle_up]]/[$[action_throttle_down]]) (值9 : 视野X轴)  (值10 : 视野Y轴)
-def_seat_handle_node_15_label		Headset Audio	耳机音频
+def_seat_handle_node_15_label		Headset Audio	头盔音频
 def_seat_handle_node_15_desc			
-def_seat_handle_node_16_label		Headset Audio	耳机音频
+def_seat_handle_node_16_label		Headset Audio	头盔音频
 def_seat_handle_node_16_desc			
+def_seat_handle_node_17_label		Headset Video	头盔显示器
+def_seat_handle_node_17_desc		Displays video UI overlay on a helmet mounted display.	头盔显示器输入信号
 def_seat_harness_name		Harness	安全带
 def_seat_harness_desc		You can get in and out of the harness by interacting with it using [$[action_use_seat]]. You can place a rescued survivor in any harness by using [$[action_use_seat]] while carrying them.	您可以通过使用[$[action_use_seat]]与它交互来进出安全带。您可以在携带获救幸存者时使用 [$[action_use_seat]]将其放置在任何安全带中
 def_seat_harness_s_desc		A rescue harness.	救生带
@@ -6700,10 +6706,12 @@ def_seat_helm_node_13_label		Hotkey 6 [$[action_hotkey_6]]	按键 6 [$[action_ho
 def_seat_helm_node_13_desc		Outputs an on signal when [$[action_hotkey_6]] is held, and off when it is not.	按住[$[action_hotkey_6]]时输出打开信号，不按住时输出关闭信号
 def_seat_helm_node_14_label		Seat data	座位数据
 def_seat_helm_node_14_desc		Outputs the axis, hotkey and occupied data from the helm. (On/Off 1+ : Hotkeys) (On/Off 31 : Trigger) (On/Off 32 : Occupied) (Value 1 : [$[action_left]]/[$[action_right]]) (Value 2 : [$[action_up]]/[$[action_down]]) (Value 3 : [$[action_pedal_left]]/[$[action_pedal_right]]) (Value 4 : [$[action_throttle_up]]/[$[action_throttle_down]]) (Value 9 : Look X)  (Value 10 : Look Y)	从舵输出轴、热键和占用数据。 (On/Off 1+ : 按键) (On/Off 31 : 扳机) (On/Off 32 : 占用) (值1 : [$[action_left]]/[$[action_right]]) (值2 : [$[action_up]]/[$[action_down]]) (值3 : [$[action_pedal_left]]/[$[action_pedal_right]]) (值4 : [$[action_throttle_up]]/[$[action_throttle_down]]) (值9 : 视野X轴)  (值10 : 视野Y轴)
-def_seat_helm_node_15_label		Headset Audio	耳机音频
+def_seat_helm_node_15_label		Headset Audio	头盔音频
 def_seat_helm_node_15_desc			
-def_seat_helm_node_16_label		Headset Audio	耳机音频
+def_seat_helm_node_16_label		Headset Audio	头盔音频
 def_seat_helm_node_16_desc			
+def_seat_helm_node_17_label		Headset Video	头盔显示器
+def_seat_helm_node_17_desc		Displays video UI overlay on a helmet mounted display.	头盔显示器输入信号
 def_seat_hotas_name		Pilot Seat (HOTAS)	驾驶座椅(HOTAS)
 def_seat_hotas_desc		It provides 10 number outputs that produce a standard value ranging from -1 to 1, and 48 on/off outputs. You can get in and out of the pilot seat by interacting with it using [$[action_use_seat]]. Designed for use with HOTAS controllers.	它提供8个输出，产生从-1到1的标准值，以及48个开/关输出。您可以通过使用 [$[action_use_seat]]与飞行员座椅交互来进出。设计用于HOTAS控制器
 def_seat_hotas_s_desc		The pilot seat lets you translate controller presses into output signals that can control logic components.	飞行员座椅可以将控制器压力转换成可以控制逻辑元件的输出信号
@@ -6829,10 +6837,12 @@ def_seat_hotas_node_59_label		Hotkey 48	耳机音频
 def_seat_hotas_node_59_desc		Outputs an on signal when the controller button is held, and off when it is not.	按住按钮时，输出on信号。松开按钮，输出off信号
 def_seat_hotas_node_60_label		Seat data	座位数据
 def_seat_hotas_node_60_desc		Outputs the axis, hotkey and occupied data from the seat. (On/Off 1+ : Hotkeys) (On/Off 31 : Trigger) (On/Off 32 : Occupied) (Value 1 : [$[action_left]]/[$[action_right]]) (Value 2 : [$[action_up]]/[$[action_down]]) (Value 3 : [$[action_pedal_left]]/[$[action_pedal_right]]) (Value 4 : [$[action_throttle_up]]/[$[action_throttle_down]]) (Values 5/6/7/8 : Controller Axes) (Value 9 : Look X)  (Value 10 : Look Y)	从座椅输出轴、热键和占用数据。(On/Off 1+ : 按键) (On/Off 31 : 扳机) (On/Off 32 : 占用) (值1 : [$[action_left]]/[$[action_right]]) (值2 : [$[action_up]]/[$[action_down]]) (值3 : [$[action_pedal_left]]/[$[action_pedal_right]]) (值4 : [$[action_throttle_up]]/[$[action_throttle_down]])
-def_seat_hotas_node_61_label		Headset Audio	耳机音频
+def_seat_hotas_node_61_label		Headset Audio	头盔音频
 def_seat_hotas_node_61_desc			
-def_seat_hotas_node_62_label		Headset Audio	耳机音频
+def_seat_hotas_node_62_label		Headset Audio	头盔音频
 def_seat_hotas_node_62_desc			
+def_seat_hotas_node_63_label		Headset Video	头盔显示器
+def_seat_hotas_node_63_desc		Displays video UI overlay on a helmet mounted display.	头盔显示器输入信号
 def_seat_medical_name		Medical Bed	病床
 def_seat_medical_desc		You can get in and out of the medical bed by interacting with it using [$[action_use_seat]]. You can place a rescued survivor in any medical bed by using [$[action_use_seat]] while carrying them.	你可以通过使用[$[action_use_seat]]与病床互动来进出病床。您可以在携带获救幸存者时使用 [$[action_use_seat]]将其放置在任何医疗床上
 def_seat_medical_s_desc		A bed equiped with medical monitoring equipment, slowly heals injured characters.	装有医疗监护设备的床
@@ -6881,10 +6891,12 @@ def_seat_racing_node_13_label		Hotkey 6 [$[action_hotkey_6]]	按键 6 [$[action_
 def_seat_racing_node_13_desc		Outputs an on signal when [$[action_hotkey_6]] is held, and off when it is not.	按住[$[action_hotkey_6]]时输出打开信号，不按住时输出关闭信号
 def_seat_racing_node_14_label		Seat data	座位数据
 def_seat_racing_node_14_desc		Outputs the axis, hotkey and occupied data from the seat. (On/Off 1+ : Hotkeys) (On/Off 31 : Trigger) (On/Off 32 : Occupied) (Value 1 : [$[action_left]]/[$[action_right]]) (Value 2 : [$[action_up]]/[$[action_down]]) (Value 3 : [$[action_pedal_left]]/[$[action_pedal_right]]) (Value 4 : [$[action_throttle_up]]/[$[action_throttle_down]]) (Value 9 : Look X)  (Value 10 : Look Y)	从座椅输出轴、热键和占用数据。(On/Off 1+ : 按键) (On/Off 31 : 扳机) (On/Off 32 : 占用) (值1 : [$[action_left]]/[$[action_right]]) (值2 : [$[action_up]]/[$[action_down]]) (值3 : [$[action_pedal_left]]/[$[action_pedal_right]]) (值4 : [$[action_throttle_up]]/[$[action_throttle_down]])
-def_seat_racing_node_15_label		Headset Audio	耳机音频
+def_seat_racing_node_15_label		Headset Audio	头盔音频
 def_seat_racing_node_15_desc			
-def_seat_racing_node_16_label		Headset Audio	耳机音频
+def_seat_racing_node_16_label		Headset Audio	头盔音频
 def_seat_racing_node_16_desc			
+def_seat_racing_node_17_label		Headset Video	头盔显示器
+def_seat_racing_node_17_desc		Displays video UI overlay on a helmet mounted display.	头盔显示器输入信号
 def_seat_space_name		Space Seat	驾驶座椅(宇航)
 def_seat_space_desc		It provides 4 number outputs that produce a standard value ranging from -1 to 1, and 6 on/off outputs. You can get in and out of the space seat by interacting with it using [$[action_use_seat]].	提供4个数字轴输出(-1~1)和6个on/off的按钮输出，按下 [$[action_use_seat]] 进出该位置
 def_seat_space_s_desc		The space seat lets you translate keyboard presses into output signals that can control logic components.	飞船座椅可以将键盘输入转化为控制载具的逻辑
@@ -6918,12 +6930,14 @@ def_seat_space_node_13_label		Hotkey 6 [$[action_hotkey_6]]	按键 6 [$[action_h
 def_seat_space_node_13_desc		Outputs an on signal when [$[action_hotkey_6]] is held, and off when it is not.	按住[$[action_hotkey_6]]时输出打开信号，不按住时输出关闭信号
 def_seat_space_node_14_label		Seat data	座位数据
 def_seat_space_node_14_desc		Outputs the axis, hotkey and occupied data from the helm. (On/Off 1+ : Hotkeys) (On/Off 31 : Trigger) (On/Off 32 : Occupied) (Value 1 : [$[action_left]]/[$[action_right]]) (Value 2 : [$[action_up]]/[$[action_down]]) (Value 3 : [$[action_pedal_left]]/[$[action_pedal_right]]) (Value 4 : [$[action_throttle_up]]/[$[action_throttle_down]]) (Value 9 : Look X)  (Value 10 : Look Y)	从座椅输出轴、热键和占用数据.(On/Off 1+:按键) (On/Off 31:扳机) (On/Off 32:占用) (值1: [$[action_left]]/[$[action_right]])(值2: [$[action_up]]/[$[action_down]])(值3: [$[action_pedal_left]]/[$[action_pedal_right]])(值4: [$[action_throttle_up]]/[$[action_throttle_down]])(值9:视野轴X)(值10:视野轴Y)
-def_seat_space_node_15_label		Headset Audio	耳机音频
+def_seat_space_node_15_label		Headset Audio	头盔音频
 def_seat_space_node_15_desc			
-def_seat_space_node_16_label		Headset Audio	耳机音频
+def_seat_space_node_16_label		Headset Audio	头盔音频
 def_seat_space_node_16_desc			
-def_seat_space_node_17_label		Fluid In	流体输入
-def_seat_space_node_17_desc			
+def_seat_space_node_17_label		Headset Video	头盔显示器
+def_seat_space_node_17_desc		Displays video UI overlay on a helmet mounted display.	头盔显示器输入信号
+def_seat_space_node_18_label		Fluid In	流体输入
+def_seat_space_node_18_desc			
 def_seat_stretcher_name		Stretcher	担架
 def_seat_stretcher_desc		You can get in and out of the stretcher by interacting with it using [$[action_use_seat]]. You can place a rescued survivor in any stretcher by using [$[action_use_seat]] while carrying them.	按 [$[action_use_seat]] 键躺在担架上,或按下 [$[action_use_seat]] 键将获救的幸存者放在担架上
 def_seat_stretcher_s_desc		A strecher that connects below an attachment point.	连接点下方的担架
@@ -8348,9 +8362,9 @@ def_seat_motorbike_handle_node_12_label		Hotkey 6 [$[action_hotkey_6]]	按键 6 
 def_seat_motorbike_handle_node_12_desc		Outputs an on signal when [$[action_hotkey_6]] is held, and off when it is not.	按住[$[action_hotkey_6]]时输出on信号，不按住时输出off信号
 def_seat_motorbike_handle_node_13_label		Seat data	座位数据
 def_seat_motorbike_handle_node_13_desc		Outputs the axis, hotkey and occupied data from the helm. (On/Off 1+ : Hotkeys) (On/Off 31 : Trigger) (On/Off 32 : Occupied) (Value 1 : [$[action_left]]/[$[action_right]]) (Value 2 : [$[action_up]]/[$[action_down]]) (Value 3 : [$[action_pedal_left]]/[$[action_pedal_right]]) (Value 4 : [$[action_throttle_up]]/[$[action_throttle_down]]) (Value 9 : Look X)  (Value 10 : Look Y)	从座椅输出轴、热键和占用数据。(On/Off 1+ : 按键) (On/Off 31 : 扳机) (On/Off 32 : 占用) (值1 : [$[action_left]]/[$[action_right]]) (值2 : [$[action_up]]/[$[action_down]]) (值3 : [$[action_pedal_left]]/[$[action_pedal_right]]) (值4 : [$[action_throttle_up]]/[$[action_throttle_down]]) (值9:视野X轴) (值10:视野Y轴)
-def_seat_motorbike_handle_node_14_label		Headset Audio	耳机音频
+def_seat_motorbike_handle_node_14_label		Headset Audio	头盔音频
 def_seat_motorbike_handle_node_14_desc			
-def_seat_motorbike_handle_node_15_label		Headset Audio	耳机音频
+def_seat_motorbike_handle_node_15_label		Headset Audio	头盔音频
 def_seat_motorbike_handle_node_15_desc			
 def_wheel_motorbike_name		motorbike_wheel	摩托车轮
 def_wheel_motorbike_desc		The wheel will rotate forwards and backwards depending on power received. It can be rotated left and right by sending a number signal to the steering input. It can also be locked into place by sending an on signal to the brake input.	载具轮将根据从连接的发动机接收到的功率前后旋转。它可以通过接收数字信号以左右转向，也可以接收数字或开关信号实现制动刹车
