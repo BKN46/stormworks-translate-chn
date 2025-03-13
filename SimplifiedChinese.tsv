@@ -2652,36 +2652,36 @@ id	description	en	local
 		Gray	灰色
 		White	白色
 		Dark Gray	深灰色
-		Stormworks Logo	风暴工作室标志
-		Geometa Logo	几何元标志
-		Carrier Command 2 Logo	航母指挥2标志
-		GQ Games	GQ游戏
-		Frantic	疯狂工作室
-		Camodo Gaming	卡莫多游戏
-		Lynx Highland	山猫高地
-		ND Gaming	ND游戏
-		Raptor	猛禽
-		Spycakes	间谍蛋糕
-		Rubber Duck	橡皮鸭
-		454SS	454SS（型号/品牌）
-		Neotastic	新潮派
-		ProfNCognito	匿名师
-		Beautiful OB	美丽OB
-		Captain Cockerels	公鸡队长
-		Basil	罗勒
-		Boat	船
-		Plane	飞机
-		Skill Issue	技术问题
-		Pipe	管道
+		Stormworks Logo	Stormwroks Logo
+		Geometa Logo	Geometa Logo
+		Carrier Command 2 Logo	航母指挥官2Logo
+		GQ Games	GQ Games
+		Frantic	Frantic
+		Camodo Gaming	Camodo Gaming
+		Lynx Highland	Lynx Highland
+		ND Gaming	ND Gaming
+		Raptor	Raptor
+		Spycakes	Spycakes
+		Rubber Duck	Rubber Duck
+		454SS	454SS
+		Neotastic	Neotastic
+		ProfNCognito	ProfNCognito
+		Beautiful OB	Beautiful OB
+		Captain Cockerels	Captain Cockerels
+		Basil	Basil
+		Boat	Boat
+		Plane	Plane
+		Skill Issue	Skill Issue
+		Pipe	Pipe
 		Jolly Roger	海盗旗
-		UNO	UNO（品牌）
-		MCRO	MCRO（品牌）
-		LOCKI	LOCKI（品牌）
-		HOPE	希望
-		HANDAO	瀚道
-		NEVERGREEN	永不绿
-		CLAM OIL	蛤油
-		SPAM	斯帕姆（品牌）
+		UNO	UNO
+		MCRO	MCRO
+		LOCKI	LOCKI
+		HOPE	HOPE
+		HANDAO	HANDAO
+		NEVERGREEN	NEVERGREEN
+		CLAM OIL	CLAM OIL
+		SPAM	SPAM
 		OOPS	OOPS
 		ACRES	ACRES
 		Nations	国家
@@ -5119,13 +5119,13 @@ def_jet_engine_turbine_small_node_3_label		Electric	电
 def_jet_engine_turbine_small_node_3_desc		The electric connection to output electric energy.	输出电能的电源连接
 def_keel_large_name		Keel (Large)	龙骨(大)
 def_keel_large_desc		The keel resists rolling forces while submerged, helping to keep a boat upright and stable. The keel also resists lateral sliding forces, causing the majority of a boats movement to be in the direction of the keel axis. When combined with the force provided by a sail, this allows a sailboat to move forward in a crosswind, or even upwind.	龙骨可以抵抗浮力带来的滚转力矩,帮助船只保持直立和稳定.龙骨还能抵抗横向滑动力,使船只的大部分运动都沿着龙骨轴线的方向进行.再加上船帆提供的力量,这使得帆船可以在横风甚至逆风中前进
-def_keel_large_s_desc		A large boat keel used for sailing.	为大型翻船设计的龙骨组件
+def_keel_large_s_desc		A large boat keel used for sailing.	为大型帆船设计的龙骨组件
 def_keel_medium_name		Keel (Medium)	
 def_keel_medium_desc		The keel resists rolling forces while submerged, helping to keep a boat upright and stable. The keel also resists lateral sliding forces, causing the majority of a boats movement to be in the direction of the keel axis. When combined with the force provided by a sail, this allows a sailboat to move forward in a crosswind, or even upwind.	龙骨可以抵抗浮力带来的滚转力矩,帮助船只保持直立和稳定.龙骨还能抵抗横向滑动力,使船只的大部分运动都沿着龙骨轴线的方向进行.再加上船帆提供的力量,这使得帆船可以在横风甚至逆风中前进
-def_keel_medium_s_desc		A medium boat keel used for sailing.	为中型翻船设计的龙骨组件
+def_keel_medium_s_desc		A medium boat keel used for sailing.	为中型帆船设计的龙骨组件
 def_keel_small_name		Keel (Small)	
 def_keel_small_desc		The keel resists rolling forces while submerged, helping to keep a boat upright and stable. The keel also resists lateral sliding forces, causing the majority of a boats movement to be in the direction of the keel axis. When combined with the force provided by a sail, this allows a sailboat to move forward in a crosswind, or even upwind.	龙骨可以抵抗浮力带来的滚转力矩,帮助船只保持直立和稳定.龙骨还能抵抗横向滑动力,使船只的大部分运动都沿着龙骨轴线的方向进行.再加上船帆提供的力量,这使得帆船可以在横风甚至逆风中前进
-def_keel_small_s_desc		A small boat keel used for sailing.	为小型翻船设计的龙骨组件
+def_keel_small_s_desc		A small boat keel used for sailing.	为小型帆船设计的龙骨组件
 def_ladder_small_name		Ladder	梯子
 def_ladder_small_desc		You can attach to the ladder by interacting with [$[action_use_seat]], then detach again with either [$[action_use_seat]] or [$[action_jump]]. You will automatically detach from the ladder when you reach the top.	您可以按[$[action_use_seat]]连接收到梯子，然后按[$[action_use_seat]]或[$[action_jump]]再次分离。到达顶部时，您将自动从梯子上分离
 def_ladder_small_s_desc		Single ladder rung. Multiple rungs can placed on top of each other to form a ladder of abitrary length.	单梯横档。多个横档可以相互叠放，形成一个任意长度的梯子
