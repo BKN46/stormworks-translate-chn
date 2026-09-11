@@ -591,6 +591,7 @@ id	description	en	local
 		Requires Password	需要密码
 		Password	密码
 		Max Players	最大玩家数
+		Allow Modded Components	允许使用修改过的组件
 		Host	创建服务器
 		Submit	提交
 		CHOOSE BASE	选择基地
@@ -2695,6 +2696,32 @@ id	description	en	local
 		Firefighter SCBA	正压式消防空气呼吸器
 		Battery	电池
 		Water	水
+		Spawn Particles	生成烟雾
+		Tourism Castle	观光城堡
+		Fuel Level	剩余燃料
+		Destroy Vehicles	销毁载具
+		FPS Limit	FPS限制
+		Hydrous Ore	含水矿石(水合矿石)
+		Keel Force	龙骨力矩
+		Machine Gun Large Ammo Box (Kinetic)	机枪大弹药箱(动能)
+		Machine Gun Large Ammo Box (High Explosive)	机枪大弹药箱(高爆)
+		Machine Gun Large Ammo Box (Fragmentation)	机枪大弹药箱(破片)
+		Machine Gun Large Ammo Box (Armor Piercing)	机枪大弹药箱(穿甲)
+		Machine Gun Large Ammo Box (Incendiary)	机枪大弹药箱(燃烧)
+		Sort: None	排序:无
+		Sort: Active	排序:激活
+		Sort: Date	排序:日期
+		Sort: A to Z	排序:A到Z
+		Default	默认
+		Set Group	设置分组
+		Assign the vehicle to the selected group	将载具转移到所选分组
+		New Group	新建分组
+		New Group Name	分组名称
+		Delete Group	删除分组
+		Delete the group and return its vehicles to the default group	删除分组将会使该组内载具回到默认分组
+		PHOTOSENSITIVITY WARNING	光敏性警告
+		A small percentage of individuals may experience seizures when exposed, to certain visual images, including light patterns or flashing lights, even with no history of epilepsy or seizures.	极少数人在接触某些视觉图像(包括光影图案或闪烁画面)时,即使没有癫痫病史或曾发生过癫痫发作,也可能出现癫痫发作
+		IMMEDIATELY stop playing and consult a doctor if you experience any symptoms.	若出现任何症状,请立即停止游玩并咨询医生
 def_01_block_name		Block	方块
 def_01_block_desc		The block is a quarter-metre in size. Components can be attached to all 6 faces.	这个方块边长25cm,可以连接收到所有6个面
 def_01_block_s_desc		Basic cube-shaped building block.	基本立方形建筑块
@@ -2916,6 +2943,15 @@ def_battery_small_node_0_label		Electric Store	电力存储
 def_battery_small_node_0_desc		Energy storage for the electrical system.	电力系统的能量储存
 def_battery_small_node_1_label		Charge	剩余电量
 def_battery_small_node_1_desc		Data output giving the charge of the battery from 0 to 1.	从0到1显示电池电量的数据输出
+def_buoyancy_float_block_name		Buoyancy Float Block	
+def_buoyancy_float_block_desc			
+def_buoyancy_float_block_s_desc		A block-shaped buoyant float.	
+def_buoyancy_float_pyramid_name		Buoyancy Float Pyramid	
+def_buoyancy_float_pyramid_desc			
+def_buoyancy_float_pyramid_s_desc		A pyramid-shaped buoyant float.	
+def_buoyancy_float_wedge_name		Buoyancy Float Wedge	
+def_buoyancy_float_wedge_desc			
+def_buoyancy_float_wedge_s_desc		A wedge-shaped buoyant float.	
 def_button_key_name		Key Button	钥匙开关
 def_button_key_desc		Once activated, interacting with the button again will deactivate it instantly. The hold duration can be customised by selecting this component with the select tool. The external input can be used to simulate interacting with the button down using the output of another component. The button's default state can be configured by selecting it with the select component.	一旦激活，再次按下按钮将立即停用。通过使用选择工具选择此组件，可以自定义启动开关所需的按压时间。外部输入可用于模拟使用其他组件的输出按住按钮。通过使用选择工具选择按钮，可以配置该按钮的默认状态
 def_button_key_s_desc		A button that must be held down for a set duration before activating.	需要持续按压设定的一段时间才能激活的按钮
@@ -3382,8 +3418,8 @@ def_digital_display_node_1_desc		Enables the backlight when receiving an on sign
 def_digital_display_node_2_label		Electric	电
 def_digital_display_node_2_desc		Electrical power connection.	电源连接
 def_distance_sensor_name		Distance Sensor	距离传感器
-def_distance_sensor_desc		The reading can be read from the sensor's number output and is measured in metres (1 metre = 4 blocks).	以米为单位输出测量的距离(1米=4块),最大量程500米
-def_distance_sensor_s_desc		A laser distance sensor with a maximum measurement range of 500m.	最大量程为500米的激光测距仪
+def_distance_sensor_desc		The reading can be read from the sensor's number output and is measured in metres (1 metre = 4 blocks).	以米为单位输出测量的距离(1米=4方块),最大量程500米
+def_distance_sensor_s_desc		A laser distance sensor with a maximum measurement range of 500m.	最大量程为500米的测距仪
 def_distance_sensor_node_0_label		Distance	距离
 def_distance_sensor_node_0_desc		The measured distance in metres.	以米为单位测量的距离
 def_distance_sensor_node_1_label		Electric	电
@@ -4258,6 +4294,26 @@ def_gun_belt_corner_xxl_desc		Cannon ammo belts can store and transfer ammo shel
 def_gun_belt_corner_xxl_s_desc		A bertha cannon ammo belt.	贝莎巨炮弹药带
 def_gun_belt_corner_xxl_node_0_label		Contains Ammo	是否有弹药
 def_gun_belt_corner_xxl_node_0_desc		Returns true if the belt contains a shell.	如果弹药带中有弹药，则返回true
+def_gun_belt_flex_name		Autocannon Belt (Flexible)	自动炮弹链
+def_gun_belt_flex_desc		Flexible belts can be connected together by rope nodes to transfer ammo. Autocannon belts can transfer all calibers of autocannon ammo.	柔性弹药带可以通过绳索节点连接在一起以传输弹药.自动炮弹药带可以传输所有口径的自动炮弹药
+def_gun_belt_flex_s_desc		An autocannon ammo belt.	自动炮弹药带
+def_gun_belt_flex_node_0_label		Ammo	弹药
+def_gun_belt_flex_node_0_desc			
+def_gun_belt_flex_l_name		Battle Cannon Belt (Flexible)	坦克炮弹链
+def_gun_belt_flex_l_desc		Flexible belts can be connected together by rope nodes to transfer ammo. Cannon ammo belts can store and transfer ammo shells. Spawned ammo type can be set in component properties window.	柔性弹药带可以通过绳索节点连接在一起以传输弹药,坦克炮弹药带可以储存和转移弹药,生成的弹药类型可以在组件属性窗口中设置
+def_gun_belt_flex_l_s_desc		A battle cannon ammo belt.	坦克炮弹药带
+def_gun_belt_flex_l_node_0_label		Ammo	弹药
+def_gun_belt_flex_l_node_0_desc			
+def_gun_belt_flex_xl_name		Artillery Cannon Belt (Flexible)	大型榴弹炮弹链
+def_gun_belt_flex_xl_desc		Flexible belts can be connected together by rope nodes to transfer ammo. Cannon ammo belts can store and transfer ammo shells. Spawned ammo type can be set in component properties window.	柔性弹药带可以通过绳索节点连接在一起以传输弹药,大型榴弹炮弹药带可以储存和转移弹药,生成的弹药类型可以在组件属性窗口中设置
+def_gun_belt_flex_xl_s_desc		An artillery cannon ammo belt.	大型榴弹炮弹药带
+def_gun_belt_flex_xl_node_0_label		Ammo	弹药
+def_gun_belt_flex_xl_node_0_desc			
+def_gun_belt_flex_xxl_name		Bertha Cannon Belt (Flexible)	贝莎巨炮弹链
+def_gun_belt_flex_xxl_desc		Flexible belts can be connected together by rope nodes to transfer ammo. Cannon ammo belts can store and transfer ammo shells. Spawned ammo type can be set in component properties window. Bertha shells are too large to be moved by hand.	柔性弹药带可以通过绳索节点连接在一起以传输弹药,贝莎巨炮弹药带可以储存和转移弹药。生成的弹药类型可以在组件属性窗口中设置,贝莎巨炮弹药过大,无法手动转移
+def_gun_belt_flex_xxl_s_desc		A bertha cannon ammo belt.	贝莎巨炮弹药带
+def_gun_belt_flex_xxl_node_0_label		Ammo	弹药
+def_gun_belt_flex_xxl_node_0_desc			
 def_gun_belt_junction_name		Autocannon Belt (Junction)	自动火炮弹药带(交叉)
 def_gun_belt_junction_desc		Autocannon belts can transfer all calibers of autocannon ammo. Junction belts redirect the path of ammo transfer.	自动火炮弹药带可以传送所有口径的自动火炮弹药。连接带改变了弹药转移的路径
 def_gun_belt_junction_s_desc		An autocannon ammo belt.	自动火炮弹药带
@@ -4390,6 +4446,11 @@ def_gun_drum_xsmall_desc		Stores machine gun ammo, but can only be reloaded by h
 def_gun_drum_xsmall_s_desc		A machine gun ammo box.	机枪弹药箱
 def_gun_drum_xsmall_node_0_label		Ammo count	弹药数量
 def_gun_drum_xsmall_node_0_desc		Outputs the total ammo count stored in the box.	输出存储在弹药箱子中的弹药总数
+def_gun_drum_xsmall_2_name		Machine Gun Ammo Box (Large)	机枪弹药箱(大)
+def_gun_drum_xsmall_2_desc		Stores machine gun ammo, but can only be reloaded by hand. Machine guns are restricted to Kinetic, Armor-Piercing, and Incendiary ammo only.	储存机枪弹药，机枪只能手动上膛。机枪仅限动能、穿甲和燃烧弹
+def_gun_drum_xsmall_2_s_desc		A machine gun ammo box with greater capacity.	更大的机枪弹药箱
+def_gun_drum_xsmall_2_node_0_label		Ammo count	弹药数量
+def_gun_drum_xsmall_2_node_0_desc		Outputs the total ammo count stored in the box.	输出存储在弹药箱子中的弹药总数
 def_gun_l_name		Battle Cannon	坦克主炮
 def_gun_l_desc		Battle cannons provide powerful, consistent firepower in a compact form.	坦克主炮以紧凑的形式提供强大、稳定的火力
 def_gun_l_s_desc		A battle cannon.	一门坦克主炮
@@ -4399,6 +4460,8 @@ def_gun_l_node_1_label		Loaded	是否已装填
 def_gun_l_node_1_desc		Returns true when a shell is loaded and ready to fire.	当弹药装载完毕并准备发射时，返回true
 def_gun_l_node_2_label		Open Breech	打开炮闩
 def_gun_l_node_2_desc		When true: opens the breech to allow shells to be loaded.	当为true时:打开炮尾以装填炮弹
+def_gun_l_node_3_label		Fuse Timer	引信定时器
+def_gun_l_node_3_desc		Sets the optional time-delay fuse in seconds for high-explosive and fragmentation ammo types.	设置高爆弹和破片弹的延时引信,单位秒
 def_gun_l_barrel_name		Battle Cannon Barrel Extension	坦克主炮炮管加长件
 def_gun_l_barrel_desc		Barrel extensions increase weapon accuracy, but also produce more recoil force.	炮管加长件增加了武器的精度，但也产生了更多的后坐力
 def_gun_l_barrel_s_desc		A battle cannon barrel extension.	一根坦克主炮炮管加长件
@@ -4429,6 +4492,8 @@ def_gun_m_node_1_label		Loaded	是否已装填
 def_gun_m_node_1_desc		Returns true when a cartridge is loaded and ready to fire.	当弹药装载完毕并准备发射时，返回true
 def_gun_m_node_2_label		Electric	电
 def_gun_m_node_2_desc		Electrical power connection.	电源连接
+def_gun_m_node_3_label		Fuse Timer	引信定时器
+def_gun_m_node_3_desc		Sets the optional time-delay fuse in seconds for high-explosive and fragmentation ammo types.	设置高爆弹和破片弹的延时引信,单位秒
 def_gun_m_barrel_name		Heavy Autocannon Barrel Extension	重型自动火炮炮管加长件
 def_gun_m_barrel_desc		Barrel extensions increase weapon accuracy, but add additional weight.	炮管加长件增加了武器的精确度，但增加了额外的重量
 def_gun_m_barrel_s_desc		A heavy autocannon barrel extension.	重型自动火炮炮管加长件
@@ -4504,6 +4569,8 @@ def_gun_xl_node_1_label		Loaded	是否已装填
 def_gun_xl_node_1_desc		Returns true when a shell is loaded and ready to fire.	当弹药装载完毕并准备发射时，返回true
 def_gun_xl_node_2_label		Open Breech	打开炮闩
 def_gun_xl_node_2_desc		When true: opens the breech to allow shells to be loaded.	当为true时:打开炮尾以装载炮弹
+def_gun_xl_node_3_label		Fuse Timer	
+def_gun_xl_node_3_desc		Sets the optional time-delay fuse in seconds for high-explosive and fragmentation ammo types.	
 def_gun_xl_barrel_name		Artillery Cannon Barrel Extension	大型榴弹炮炮管加长件
 def_gun_xl_barrel_desc		Barrel extensions increase weapon accuracy, but also produce more recoil force.	炮管加长件增加了武器的精度，但也产生了更多的后坐力
 def_gun_xl_barrel_s_desc		An artillery cannon barrel extension.	大型榴弹炮炮管加长件
@@ -4541,6 +4608,8 @@ def_gun_xxl_node_1_label		Loaded	是否已装填
 def_gun_xxl_node_1_desc		Returns true when a shell is loaded and ready to fire.	当弹药装载完毕并准备发射时，返回true
 def_gun_xxl_node_2_label		Open Breech	打开炮闩
 def_gun_xxl_node_2_desc		When true: opens the breech to allow shells to be loaded.	当为true时:打开炮尾以装填炮弹
+def_gun_xxl_node_3_label		Fuse Timer	
+def_gun_xxl_node_3_desc		Sets the optional time-delay fuse in seconds for high-explosive and fragmentation ammo types.	
 def_gun_xxl_barrel_name		Bertha Cannon Barrel Extension	贝莎巨炮炮管加长件
 def_gun_xxl_barrel_desc		Barrel extensions increase weapon accuracy, but also produce more recoil force.	炮管加长件增加了武器的精度，但也产生了更多的后坐力
 def_gun_xxl_barrel_s_desc		A Bertha cannon barrel extension.	贝莎巨炮炮管加长件
@@ -4690,6 +4759,17 @@ def_humidity_sensor_desc		The reading can be read from the sensor's number outpu
 def_humidity_sensor_s_desc		A humidity sensor for measuring the current fog and visibility meteorological conditions.	用于测量当前雾和能见度气象条件的湿度传感器
 def_humidity_sensor_node_0_label		Humidity Factor	湿度系数
 def_humidity_sensor_node_0_desc		The level of humidity in the air, relating to the fog visibility.	气体中的湿度水平，与雾的可见度有关
+def_hydrogen_fuel_cell_name		Hydrogen Fuel Cell	氢燃料电池
+def_hydrogen_fuel_cell_desc		Pumping hydrogen and oxygen into the fuel cell generates power while creating water as a byproduct.	将氢气和氧气注入燃料电池可产生电能，同时产生水作为副产物
+def_hydrogen_fuel_cell_s_desc		A hydrogen fuel cell capable of generating electric power.	通过氢氧产生电力的电池
+def_hydrogen_fuel_cell_node_0_label		Electric	电
+def_hydrogen_fuel_cell_node_0_desc		The electric connection to output electric energy.	电源连接
+def_hydrogen_fuel_cell_node_1_label		Oxygen In	氧气输入
+def_hydrogen_fuel_cell_node_1_desc			
+def_hydrogen_fuel_cell_node_2_label		Hydrogen In	氢气输入
+def_hydrogen_fuel_cell_node_2_desc			
+def_hydrogen_fuel_cell_node_3_label		Water Out	排水
+def_hydrogen_fuel_cell_node_3_desc			
 def_impact_sensor_name		Impact Sensor	冲击传感器
 def_impact_sensor_desc		Setting the impact threshold property will tune the sensitivity for impacts. When the instant change in velocity from an impact exceeds the threshold, an on signal is produced.	设置冲击阈值能够调整敏感度。 当来自撞击的瞬时速度变化超过阈值时，输出一个on信号
 def_impact_sensor_s_desc		A sensor activated by a sudden change in velocity.	传感器能够检测瞬间的速度变化
@@ -4962,7 +5042,7 @@ def_inventory_outfit_firefighter_desc		When equipped, it will absorb 95% of dama
 def_inventory_outfit_firefighter_s_desc		An outfit inventory unit containing specialist firefighting gear.	包含专业消防装备的装备架
 def_inventory_outfit_firefighter_node_0_label		Electric	电
 def_inventory_outfit_firefighter_node_0_desc		Electrical power connection.	电源连接
-def_inventory_outfit_firefighter_scba_name		Outfit Inventory (Firefighter SCBA)	装备架(正压式消防空气呼吸器)
+def_inventory_outfit_firefighter_scba_name		Outfit Inventory (Firefighter SCBA)	装备架(呼吸器消防服)
 def_inventory_outfit_firefighter_scba_desc		When equipped, it will absorb 95% of damage dealt by fires, and provides breathable air for the user. The air tank can be refilled by storing the gear in an outfit inventory unit.	该装备可吸收95%的火焰伤害,并为使用者提供呼吸用空气.储气罐可通过装备架进行充气
 def_inventory_outfit_firefighter_scba_s_desc		An outfit inventory unit containing specialist firefighting gear.	包含正压式消防空气呼吸器的装备架
 def_inventory_outfit_firefighter_scba_node_0_label		Electric	电
@@ -5102,8 +5182,8 @@ def_jet_engine_exhaust_rotating_node_1_label		Temperature	温度
 def_jet_engine_exhaust_rotating_node_1_desc		The temperature of air into the exhaust.	进入排气管的气体温度
 def_jet_engine_exhaust_rotating_node_2_label		Thrust Spoiler	喷管收敛控制
 def_jet_engine_exhaust_rotating_node_2_desc		The air flow spoiler for reducing effective thrust from the exhaust. Takes value 0 (no reduction in thrust) to 1 (total reduction in thrust).	控制喷气口的阻力。取值为0(不减少推力)到1(完全减少推力)
-def_jet_engine_exhaust_rotating_node_3_label		Rotation Target	旋转目标
-def_jet_engine_exhaust_rotating_node_3_desc		The standard value setting the orientation within the range of motion.	在运动范围内设置方向的起始值
+def_jet_engine_exhaust_rotating_node_3_label		Rotation Target	目标圈数
+def_jet_engine_exhaust_rotating_node_3_desc		The standard value setting the orientation within the range of motion.	输入运动范围内的目标圈数
 def_jet_engine_exhaust_rotating_node_4_label		Electric	电
 def_jet_engine_exhaust_rotating_node_4_desc		Electrical input to power the exhaust's pivot.	为排气枢轴提供动力的电源输入
 def_jet_engine_intake_large_name		Large Jet Intake	喷气式进气道(大)
@@ -5696,8 +5776,8 @@ def_multibody_compact_pivot_b_s_desc
 def_multibody_compact_pivot_robotic_a_name		Compact Robotic Pivot	机械枢轴(紧凑型)
 def_multibody_compact_pivot_robotic_a_desc		The pivot has a range of motion of 0.25 turns in both directions. A standard input value sets the target orientation within the pivot's range of motion. The pivot's speed can be configured by selecting it with the select tool.	枢轴在两个方向上的运动范围为0.25圈。标准输入值设置轴运动范围内的目标方向。轴的测量旋转可以从其输出中读取。轴的速度可以通过使用选择工具选择来配置
 def_multibody_compact_pivot_robotic_a_s_desc		A small robotic pivot that will orientate towards the input value within its range of motion.	在其运动范围内朝向输入值的机器枢轴
-def_multibody_compact_pivot_robotic_a_node_0_label		Rotation Target	旋转目标
-def_multibody_compact_pivot_robotic_a_node_0_desc		The standard value setting the orientation within the range of motion.	在运动范围内设置方向的标准值
+def_multibody_compact_pivot_robotic_a_node_0_label		Rotation Target	目标圈数
+def_multibody_compact_pivot_robotic_a_node_0_desc		The standard value setting the orientation within the range of motion.	输入运动范围内的目标圈数
 def_multibody_compact_pivot_robotic_a_node_1_label		Electric	电
 def_multibody_compact_pivot_robotic_a_node_1_desc		Electrical power connection.	电源连接
 def_multibody_compact_pivot_torque_a_name		Compact Pivot (Power)	机械枢轴(紧凑 动力型)
@@ -5718,8 +5798,8 @@ def_multibody_compact_pivot_velocity_a_node_1_desc		Electrical power connection.
 def_multibody_door_hinge_a_name		Robotic Door Hinge	自定义门-铰链[主]
 def_multibody_door_hinge_a_desc		The hinge has a range of motion of 0.25 in each direction. A standard input value sets the target orientation within the pivot's range of motion. The measured rotation of the hinge can be read from its output. The hinge's speed can be configured by selecting it with the select tool.	铰链在一个方向上的运动范围为0.25圈。标准输入值设置轴运动范围内的目标方向。铰链的旋转测量值可以从其输出中读取。铰链的速度可以通过选择工具进行配置
 def_multibody_door_hinge_a_s_desc		A powered robotic hinge for custom sealable doors.	用于定制可密封门的电动机械铰链
-def_multibody_door_hinge_a_node_0_label		Rotation Target	旋转目标
-def_multibody_door_hinge_a_node_0_desc		The standard value setting the orientation within the range of motion.	在运动范围内设置方向的标准值
+def_multibody_door_hinge_a_node_0_label		Rotation Target	目标圈数
+def_multibody_door_hinge_a_node_0_desc		The standard value setting the orientation within the range of motion.	输入运动范围内的目标圈数
 def_multibody_door_hinge_a_node_1_label		Current Rotation	当前圈数
 def_multibody_door_hinge_a_node_1_desc		The hinge's measured rotation between -0.25 and 0.25.	铰链在-0.25到0.25之间的旋转测量值
 def_multibody_door_hinge_a_node_2_label		Electric	电
@@ -5752,8 +5832,8 @@ def_multibody_pivot_torque_b_node_0_desc		Power connection for transfering mecha
 def_multibody_robotic_hinge_01_a_name		Robotic Hinge	机械铰链[主]
 def_multibody_robotic_hinge_01_a_desc		The hinge has a range of motion of 0.25 turns in both directions. A standard input value sets the target orientation within the pivot's range of motion. The measured rotation of the hinge can be read from its output. The hinge's speed can be configured by selecting it with the select tool.	铰链在两个方向上的运动范围为0.25圈。标准输入值设置轴运动范围内的目标方向。铰链的旋转测量值可以从其输出中读取。铰链的速度可以通过选择工具进行配置
 def_multibody_robotic_hinge_01_a_s_desc		A powered robotic hinge that will orientate towards the input value within its range of motion.	有动力的机械铰链，它将朝向其运动范围内的输入值
-def_multibody_robotic_hinge_01_a_node_0_label		Rotation Target	旋转目标
-def_multibody_robotic_hinge_01_a_node_0_desc		The standard value setting the orientation within the range of motion.	在运动范围内设置方向的标准值
+def_multibody_robotic_hinge_01_a_node_0_label		Rotation Target	目标圈数
+def_multibody_robotic_hinge_01_a_node_0_desc		The standard value setting the orientation within the range of motion.	输入运动范围内的目标圈数
 def_multibody_robotic_hinge_01_a_node_1_label		Current Rotation	当前圈数
 def_multibody_robotic_hinge_01_a_node_1_desc		The hinge's measured rotation between -0.25 and 0.25.	铰链在0到0.25之间的旋转测量值
 def_multibody_robotic_hinge_01_a_node_2_label		Electric	电
@@ -5772,8 +5852,8 @@ def_multibody_robotic_hinge_01_b_node_1_desc		Fluid connection for transfering f
 def_multibody_robotic_pivot_01_a_name		Robotic Pivot (Power)	机械枢轴(动力)
 def_multibody_robotic_pivot_01_a_desc		The pivot has a range of motion of 0.25 turns in both directions. A standard input value sets the target orientation within the pivot's range of motion. The measured rotation of the pivot can be read from its output. The pivot's speed can be configured by selecting it with the select tool.	枢轴在两个方向上的运动范围为0.25圈。标准输入值设置轴运动范围内的目标方向。铰链的旋转测量值可以从其输出中读取。铰链的速度可以通过选择工具进行配置
 def_multibody_robotic_pivot_01_a_s_desc		A robotic pivot that will orientate towards the input value within its range of motion.	在其运动范围内朝向输入值的机器枢轴
-def_multibody_robotic_pivot_01_a_node_0_label		Rotation Target	旋转目标
-def_multibody_robotic_pivot_01_a_node_0_desc		The standard value setting the orientation within the range of motion.	在运动范围内设置方向的标准值
+def_multibody_robotic_pivot_01_a_node_0_label		Rotation Target	目标圈数
+def_multibody_robotic_pivot_01_a_node_0_desc		The standard value setting the orientation within the range of motion.	输入运动范围内的目标圈数
 def_multibody_robotic_pivot_01_a_node_1_label		Current Rotation	当前圈数
 def_multibody_robotic_pivot_01_a_node_1_desc		The pivot's measured rotation between -0.25 and 0.25.	枢轴在-0.25到0.25之间测量
 def_multibody_robotic_pivot_01_a_node_2_label		Electric	电
@@ -5783,8 +5863,8 @@ def_multibody_robotic_pivot_01_a_node_3_desc		Power connection for transfering m
 def_multibody_robotic_pivot_01_a_fluid_name		Robotic Pivot (Fluid)	机械枢轴(流体)
 def_multibody_robotic_pivot_01_a_fluid_desc		The pivot has a range of motion of 0.25 turns in both directions. A standard input value sets the target orientation within the pivot's range of motion. The measured rotation of the pivot can be read from its output. The pivot's speed can be configured by selecting it with the select tool.	枢轴在两个方向上的运动范围为0.25圈。标准输入值设置轴运动范围内的目标方向。轴的测量旋转可以从其输出中读取。轴的速度可以通过使用选择工具选择来配置
 def_multibody_robotic_pivot_01_a_fluid_s_desc		A robotic pivot that will orientate towards the input value within its range of motion.	在其运动范围内朝向输入值的机器枢轴
-def_multibody_robotic_pivot_01_a_fluid_node_0_label		Rotation Target	旋转目标
-def_multibody_robotic_pivot_01_a_fluid_node_0_desc		The standard value setting the orientation within the range of motion.	在运动范围内设置方向的标准值
+def_multibody_robotic_pivot_01_a_fluid_node_0_label		Rotation Target	目标圈数
+def_multibody_robotic_pivot_01_a_fluid_node_0_desc		The standard value setting the orientation within the range of motion.	输入运动范围内的目标圈数
 def_multibody_robotic_pivot_01_a_fluid_node_1_label		Current Rotation	当前圈数
 def_multibody_robotic_pivot_01_a_fluid_node_1_desc		The pivot's measured rotation between -0.25 and 0.25.	枢轴在-0.25到0.25之间测量
 def_multibody_robotic_pivot_01_a_fluid_node_2_label		Electric	电
@@ -5847,6 +5927,38 @@ def_multibody_turret_small_a_node_2_desc		Electrical power connection.	电源连
 def_multibody_turret_small_b_name		Turret Ring (Small)	炮塔座圈(小)b
 def_multibody_turret_small_b_desc			
 def_multibody_turret_small_b_s_desc			
+def_multibody_velocity_pivot_01_a_fluid_name		Velocity Pivot (Fluid)	速度轴(流体)
+def_multibody_velocity_pivot_01_a_fluid_desc		Inputting a value of 0 will cause it to stop. The pivot's current rotation can be read from its output. An output of 1 corresponds to one full turn, and -1 to a full turn in the opposite direction.	输入值0将导致它停止。可以从输出中读取轴的当前旋转。1的输出对应于一整圈，而-1对应于相反方向的整圈
+def_multibody_velocity_pivot_01_a_fluid_s_desc		A pivot that will continuously rotate at a set input speed.	以设定的输入速度连续旋转的轴
+def_multibody_velocity_pivot_01_a_fluid_node_0_label		Rotational Speed	转速
+def_multibody_velocity_pivot_01_a_fluid_node_0_desc		The speed at which the pivot should rotate.	
+def_multibody_velocity_pivot_01_a_fluid_node_1_label		Current Rotation	当前圈数
+def_multibody_velocity_pivot_01_a_fluid_node_1_desc		The pivot's measured rotation expressed in fractions of full turns.	枢轴的测量旋转以整圈的分数表示
+def_multibody_velocity_pivot_01_a_fluid_node_2_label		Electric	电
+def_multibody_velocity_pivot_01_a_fluid_node_2_desc		Electrical power connection.	电源连接
+def_multibody_velocity_pivot_01_a_fluid_node_3_label		Fluid	流体
+def_multibody_velocity_pivot_01_a_fluid_node_3_desc		Fluid connection for transfering fluids.	用于输送液体的流体连接
+def_multibody_velocity_pivot_01_a_torque_name		Velocity Pivot (Power)	速度轴(动力)
+def_multibody_velocity_pivot_01_a_torque_desc		Inputting a value of 0 will cause it to stop. The pivot's current rotation can be read from its output. An output of 1 corresponds to one full turn, and -1 to a full turn in the opposite direction.	输入值0将导致它停止。可以从输出中读取轴的当前旋转。1的输出对应于一整圈，而-1对应于相反方向的整圈
+def_multibody_velocity_pivot_01_a_torque_s_desc		A pivot that will continuously rotate at a set input speed.	以设定的输入速度连续旋转的轴
+def_multibody_velocity_pivot_01_a_torque_node_0_label		Rotational Speed	转速
+def_multibody_velocity_pivot_01_a_torque_node_0_desc		The speed at which the pivot should rotate.	
+def_multibody_velocity_pivot_01_a_torque_node_1_label		Current Rotation	当前圈数
+def_multibody_velocity_pivot_01_a_torque_node_1_desc		The pivot's measured rotation expressed in fractions of full turns.	枢轴的测量旋转以整圈的分数表示
+def_multibody_velocity_pivot_01_a_torque_node_2_label		Electric	电
+def_multibody_velocity_pivot_01_a_torque_node_2_desc		Electrical power connection.	电源连接
+def_multibody_velocity_pivot_01_a_torque_node_3_label		RPS	RPS
+def_multibody_velocity_pivot_01_a_torque_node_3_desc		Power connection for transfering mechanical energy.	用于传输机械能的连接
+def_multibody_velocity_pivot_01_b_fluid_name		Velocity Pivot	速度轴
+def_multibody_velocity_pivot_01_b_fluid_desc			
+def_multibody_velocity_pivot_01_b_fluid_s_desc			
+def_multibody_velocity_pivot_01_b_fluid_node_0_label		Fluid	流体
+def_multibody_velocity_pivot_01_b_fluid_node_0_desc		Fluid connection for transfering fluids.	用于输送液体的流体连接
+def_multibody_velocity_pivot_01_b_torque_name		Velocity Pivot	速度轴
+def_multibody_velocity_pivot_01_b_torque_desc			
+def_multibody_velocity_pivot_01_b_torque_s_desc			
+def_multibody_velocity_pivot_01_b_torque_node_0_label		RPS	RPS
+def_multibody_velocity_pivot_01_b_torque_node_0_desc		Power connection for transfering mechanical energy.	用于传输机械能的连接
 def_multibody_velocity_pivot_a_name		Velocity Pivot	速度轴
 def_multibody_velocity_pivot_a_desc		Inputting a value of 0 will cause it to stop. The pivot's current rotation can be read from its output. An output of 1 corresponds to one full turn, and -1 to a full turn in the opposite direction.	输入值0将导致它停止。可以从输出中读取轴的当前旋转。1的输出对应于一整圈，而-1对应于相反方向的整圈
 def_multibody_velocity_pivot_a_s_desc		A pivot that will continuously rotate at a set input speed.	以设定的输入速度连续旋转的轴
@@ -6059,7 +6171,7 @@ def_radar_advanced_missile_node_1_desc		Enable the Radar.	启动雷达
 def_radar_advanced_missile_node_2_label		Radar Data	雷达数据
 def_radar_advanced_missile_node_2_desc		Outputs data for up to 8 targets. On/Off 1-8 : Target 1 Found, Target 2 Found, etc... Values 1-32 : Target 1 Distance, Target 1 Azimuth Angle, Target 1 Elevation Angle, Target 1 Time Since Detection, Target 2 Distance, Target 2 Azimuth Angle, Target 2 Elevation Angle, Target 2 Time Since Detection, etc...	输出多达8个目标的数据。(on/off1-8:找到目标)(值1-4:目标1(距离、方位角、仰角、检测后的时间))(值5-8:目标2)等。。
 def_radar_advanced_missile_node_3_label		Missile Output	导弹输出
-def_radar_advanced_missile_node_3_desc		Outputs x and y data for the most immediate target. Link this directly into a rocket fins component.	输出凝视目标的x和y数据。将其直接连接到弹翼组件中
+def_radar_advanced_missile_node_3_desc		Outputs yaw and pitch rotations toward the most immediate target. (Value 1 : Yaw) (Value 2 : Pitch). Link this directly into a rocket fins component.	输出凝视目标的x和y数据。将其直接连接到弹翼组件中(值1 : 偏航) (值2 : 俯仰).
 def_radar_advanced_missile_node_4_label		Radar Rotation	雷达旋转
 def_radar_advanced_missile_node_4_desc		Current radar rotation from forward in turns.	当前雷达从前方开始圈数
 def_radar_advanced_missile_laser_name		Laser Sensor (Missile)	激光传感器(导弹)
@@ -6072,7 +6184,7 @@ def_radar_advanced_missile_laser_node_1_desc		Enable the Laser Sensor.	启用激
 def_radar_advanced_missile_laser_node_2_label		Sensor Data	传感器数据
 def_radar_advanced_missile_laser_node_2_desc		Outputs data for up to 8 targets. On/Off 1-8 : Target 1 Found, Target 2 Found, etc... Values 1-32 : Target 1 Distance, Target 1 Azimuth Angle, Target 1 Elevation Angle, Target 1 Time Since Detection, Target 2 Distance, Target 2 Azimuth Angle, Target 2 Elevation Angle, Target 2 Time Since Detection, etc...	输出多达8个目标的数据。(on/off1-8:找到目标)(值1-4:目标1(距离、方位角、仰角、检测后的时间))(值5-8:目标2)等。。
 def_radar_advanced_missile_laser_node_3_label		Missile Output	导弹输出
-def_radar_advanced_missile_laser_node_3_desc		Outputs x and y data for the most immediate target. Link this directly into a rocket fins component.	输出凝视目标的x和y数据。将其直接连接到弹翼组件中
+def_radar_advanced_missile_laser_node_3_desc		Outputs yaw and pitch rotations toward the most immediate target. (Value 1 : Yaw) (Value 2 : Pitch). Link this directly into a rocket fins component.	输出凝视目标的x和y数据。将其直接连接到弹翼组件中(值1 : 偏航) (值2 : 俯仰).
 def_radar_advanced_missile_laser_node_4_label		Wavelength	激光编码
 def_radar_advanced_missile_laser_node_4_desc		The specific light wavelength to detect (whole number).	要捕获的激光编码
 def_radar_advanced_phalanx_name		Radar (Phalanx)	雷达(密集阵)
@@ -6370,6 +6482,8 @@ def_rope_hook_winch_huge_node_13_label		Fluid	流体
 def_rope_hook_winch_huge_node_13_desc		Fluid connection for the hose coil.	由线缆连接的流体接口
 def_rope_hook_winch_huge_node_14_label		Speed	速度
 def_rope_hook_winch_huge_node_14_desc		The speed of the winch clamped to a relative range of -1 to 1.	绞盘的速度,范围-1~1
+def_rope_hook_winch_huge_node_15_label		Detach Rope	断开绳索
+def_rope_hook_winch_huge_node_15_desc			
 def_rope_hook_winch_large_name		Large Winch	绞车(大)
 def_rope_hook_winch_large_desc		Draw a rope logic link between two Rope Nodes to form a cable. Can be extended and retracted.	在两个电缆锚之间画一个绳索逻辑链接，形成一条电缆。仅限于一个链路，但可以通过链路传输数据和电力。可伸缩
 def_rope_hook_winch_large_s_desc		A mechanical winch that can transfer data/electric/fluid through an attached cable, with an extension length of 150m.	最大长度150米的机械绞车,可以通过绳索传输数据、电力、流体的机械绞车
@@ -6403,6 +6517,8 @@ def_rope_hook_winch_large_node_13_label		Fluid	流体
 def_rope_hook_winch_large_node_13_desc		Fluid connection for the hose coil.	由线缆连接的流体接口
 def_rope_hook_winch_large_node_14_label		Speed	速度
 def_rope_hook_winch_large_node_14_desc		The speed of the winch clamped to a relative range of -1 to 1.	绞盘的速度,范围-1~1
+def_rope_hook_winch_large_node_15_label		Detach Rope	断开绳索
+def_rope_hook_winch_large_node_15_desc			
 def_rope_hook_winch_small_name		Small Winch	绞车(小)
 def_rope_hook_winch_small_desc		Draw a rope logic link between two Rope Nodes to form a cable. Can be extended and retracted.	在两个电缆锚之间画一个绳索逻辑链接，形成一条电缆。仅限于一个链路，但可以通过链路传输数据和电力。可伸缩
 def_rope_hook_winch_small_s_desc		A mechanical winch that can transfer electric/fluid through an attached cable, with an extension length of 10m.	最大长度10米的机械绞车,可以通过绳索传输数据、电力、流体的机械绞车
@@ -7315,7 +7431,7 @@ def_solid_rocket_huge_fins_name		Solid Rocket Fuel (Huge) (Fins)	固体火箭燃
 def_solid_rocket_huge_fins_desc		Fuel can be stacked to increase the burn duration of a rocket booster. Link up to the instruction output of a missile radar for automatic guidance.	燃料段可堆积，以增加火箭助推器的燃烧持续时间。连接到导弹雷达的指令输出进行自动制导
 def_solid_rocket_huge_fins_s_desc		A huge solid rocket fuel segment with in-built controllable fins.	巨大的固体火箭燃料段，内置可控弹翼
 def_solid_rocket_huge_fins_node_0_label		Composite Input	混合输入
-def_solid_rocket_huge_fins_node_0_desc		Composite data for the control surfaces.	控制面的混合数据
+def_solid_rocket_huge_fins_node_0_desc		Composite data for the flight control surfaces. (Value 1 : Yaw) (Value 2 : Pitch).	控制面的混合数据(值1 : 偏航) (值2 : 俯仰).
 def_solid_rocket_huge_fins_node_1_label		Electric	电
 def_solid_rocket_huge_fins_node_1_desc		Electrical power connection.	电源连接
 def_solid_rocket_large_name		Solid Rocket Fuel (Large)	固体火箭燃料(大)
@@ -7325,7 +7441,7 @@ def_solid_rocket_large_fins_name		Solid Rocket Fuel (Large) (Fins)	固体火箭�
 def_solid_rocket_large_fins_desc		Fuel can be stacked to increase the burn duration of a rocket booster. Link up to the instruction output of a missile radar for automatic guidance.	燃料段可堆积，以增加火箭助推器的燃烧持续时间。连接到导弹雷达的指令输出进行自动制导
 def_solid_rocket_large_fins_s_desc		A large solid rocket fuel segment with in-built controllable fins.	带有内置可控弹翼的大型固体火箭燃料段
 def_solid_rocket_large_fins_node_0_label		Composite Input	混合输入
-def_solid_rocket_large_fins_node_0_desc		Composite data for the control surfaces.	控制面的混合数据
+def_solid_rocket_large_fins_node_0_desc		Composite data for the flight control surfaces. (Value 1 : Yaw) (Value 2 : Pitch).	控制面的混合数据(值1 : 偏航) (值2 : 俯仰).
 def_solid_rocket_large_fins_node_1_label		Electric	电
 def_solid_rocket_large_fins_node_1_desc		Electrical power connection.	电源连接
 def_solid_rocket_medium_name		Solid Rocket Fuel (Medium)	固体火箭燃料(中)
@@ -7335,7 +7451,7 @@ def_solid_rocket_medium_fins_name		Solid Rocket Fuel (Medium) (Fins)	固体火�
 def_solid_rocket_medium_fins_desc		Fuel can be stacked to increase the burn duration of a rocket booster. Link up to the instruction output of a missile radar for automatic guidance.	燃料段可堆积，以增加火箭助推器的燃烧持续时间。连接到导弹雷达的指令输出进行自动制导
 def_solid_rocket_medium_fins_s_desc		A medium solid rocket fuel segment with in-built controllable fins.	带有内置可控弹翼的中型固体火箭燃料段
 def_solid_rocket_medium_fins_node_0_label		Composite Input	混合输入
-def_solid_rocket_medium_fins_node_0_desc		Composite data for the control surfaces.	控制面的混合数据
+def_solid_rocket_medium_fins_node_0_desc		Composite data for the flight control surfaces. (Value 1 : Yaw) (Value 2 : Pitch).	控制面的混合数据(值1 : 偏航) (值2 : 俯仰).
 def_solid_rocket_medium_fins_node_1_label		Electric	电
 def_solid_rocket_medium_fins_node_1_desc		Electrical power connection.	电源连接
 def_solid_rocket_nozzle_huge_name		Solid Rocket Booster (Huge)	固体火箭助推器(巨)
@@ -7371,7 +7487,7 @@ def_solid_rocket_small_fins_name		Solid Rocket Fuel (Small) (Fins)	固体火箭�
 def_solid_rocket_small_fins_desc		Fuel can be stacked to increase the burn duration of a rocket booster. Link up to the instruction output of a missile radar for automatic guidance.	燃料段可堆积，以增加火箭助推器的燃烧持续时间。连接到导弹雷达的指令输出进行自动制导
 def_solid_rocket_small_fins_s_desc		A small solid rocket fuel segment with in-built controllable fins.	带有内置可控弹翼的小型固体火箭燃料段
 def_solid_rocket_small_fins_node_0_label		Composite Input	混合输入
-def_solid_rocket_small_fins_node_0_desc		Composite data for the control surfaces.	控制面的混合数据
+def_solid_rocket_small_fins_node_0_desc		Composite data for the flight control surfaces. (Value 1 : Yaw) (Value 2 : Pitch).	控制面的混合数据(值1 : 偏航) (值2 : 俯仰).
 def_solid_rocket_small_fins_node_1_label		Electric	电
 def_solid_rocket_small_fins_node_1_desc		Electrical power connection.	电源连接
 def_sonar_advanced_name		Sonar (Small)	声纳(小)
@@ -7513,6 +7629,11 @@ def_steam_coal_firebox_l_node_5_label		Air	空气
 def_steam_coal_firebox_l_node_5_desc		Port for supplying air to the fire.	燃烧室进气口
 def_steam_coal_firebox_l_node_6_label		Exhaust	排气管
 def_steam_coal_firebox_l_node_6_desc		Port for removing exhaust from burnt coal.	燃煤废气的排气口
+def_steam_coal_flex_name		Flexible Duct	柔性输送管
+def_steam_coal_flex_desc		Transports resources through the connected system. Flexible ducts can be connected together by rope nodes to transfer resources.	通过连接在一起的管道系统输送资源.柔性输送管可以通过绳索节点连接在一起以运输资源
+def_steam_coal_flex_s_desc		A flexible resource duct.	柔性物资输送管
+def_steam_coal_flex_node_0_label		Duct	输送管
+def_steam_coal_flex_node_0_desc			
 def_steam_coal_funnel_name		Funnel Duct	输送管漏斗
 def_steam_coal_funnel_desc		Can be toggled to slowly move resources out of the connected system.	可以通过开关信号将资源缓慢的排出相连接的系统
 def_steam_coal_funnel_s_desc		A funnel for moving resources.	排出资源的漏斗
@@ -7520,17 +7641,17 @@ def_steam_coal_funnel_node_0_label		Open	打开
 def_steam_coal_funnel_node_0_desc			
 def_steam_coal_hopper_name		Hopper	输送管料斗
 def_steam_coal_hopper_desc		Pouring resources into the receptacle will add it to the connected system.	将资源倒入料斗以存储到相连接的系统中
-def_steam_coal_hopper_s_desc		A hopper that can accept bulk minerals, ingots, and fish.	能存储资源的料斗
+def_steam_coal_hopper_s_desc		A hopper that can accept bulk minerals, ingots, and fish.	一个能够容纳散装矿物、金属锭和鱼类的料斗
 def_steam_coal_hopper_node_0_label		Fill Level	储量
 def_steam_coal_hopper_node_0_desc			
 def_steam_coal_hopper_l_name		Hopper Large	输送管料斗(大)
 def_steam_coal_hopper_l_desc		Pouring resources into the receptacle will add it to the connected system.	将矿物倒入料斗以存储到相连接的系统中
-def_steam_coal_hopper_l_s_desc		A hopper that can accept bulk minerals, ingots, and fish.	能存储资源的料斗
+def_steam_coal_hopper_l_s_desc		A hopper that can accept bulk minerals, ingots, and fish.	一个能够容纳散装矿物、金属锭和鱼类的料斗
 def_steam_coal_hopper_l_node_0_label		Fill Level	储量
 def_steam_coal_hopper_l_node_0_desc			
 def_steam_coal_hopper_m_name		Hopper Medium	输送管料斗(中)
 def_steam_coal_hopper_m_desc		Pouring resources into the receptacle will add it to the connected system.	将矿物倒入料斗以存储到相连接的系统中
-def_steam_coal_hopper_m_s_desc		A hopper that can accept bulk minerals, ingots, and fish.	能存储资源的料斗
+def_steam_coal_hopper_m_s_desc		A hopper that can accept bulk minerals, ingots, and fish.	一个能够容纳散装矿物、金属锭和鱼类的料斗
 def_steam_coal_hopper_m_node_0_label		Fill Level	储量
 def_steam_coal_hopper_m_node_0_desc			
 def_steam_coal_vacuum_name		Vacuum Duct	输送管吸口
@@ -7709,14 +7830,16 @@ def_torque_meter_node_2_desc		The torque reading from the power system.	动力�
 def_train_wheels_name		Train Wheel Assembly Classic	火车轮总成(旧版)
 def_train_wheels_desc		Attaches to rail lines.	附着在铁路上
 def_train_wheels_s_desc		Train wheel assembly.	火车轮毂
-def_train_wheels_node_0_label		Brakes	制动器
-def_train_wheels_node_0_desc		Number input to set the level of braking applied to the wheels.	输入制动级别
-def_train_wheels_node_1_label		RPS	RPS
-def_train_wheels_node_1_desc		Receives power generated by an engine to control forward and backward rotation.	接收引擎产生的动力
-def_train_wheels_node_2_label		Wheel Slip	车轮打滑
-def_train_wheels_node_2_desc		Detects if wheels are slipping resulting in reduced torque.	检测车轮是否打滑导致扭矩减小
-def_train_wheels_node_3_label		Wheel Release	离轨
-def_train_wheels_node_3_desc		Input to release wheels.	将车轮脱离轨道
+def_train_wheels_node_0_label		Electric	电
+def_train_wheels_node_0_desc		Electrical power connection. Receives electric energy from the rail lines.	电力连接.接收来自铁路的供电
+def_train_wheels_node_1_label		Brakes	制动器
+def_train_wheels_node_1_desc		Number input to set the level of braking applied to the wheels.	输入制动级别
+def_train_wheels_node_2_label		RPS	RPS
+def_train_wheels_node_2_desc		Receives power generated by an engine to control forward and backward rotation.	接收引擎产生的动力
+def_train_wheels_node_3_label		Wheel Slip	车轮打滑
+def_train_wheels_node_3_desc		Detects if wheels are slipping resulting in reduced torque.	检测车轮是否打滑导致扭矩减小
+def_train_wheels_node_4_label		Wheel Release	离轨
+def_train_wheels_node_4_desc		Input to release wheels.	将车轮脱离轨道
 def_train_wheels_dynamic_flanged_name		Train Wheel Assembly Flanged A	有轮缘轮轴总成A
 def_train_wheels_dynamic_flanged_desc		Attaches to rail lines.	附着在铁路上
 def_train_wheels_dynamic_flanged_s_desc		Unpowered train wheel assembly.	无动力轮轴总成
@@ -7851,28 +7974,43 @@ def_train_wheels_dynamic_x1_small_node_2_label		Wheel Slip	车轮打滑
 def_train_wheels_dynamic_x1_small_node_2_desc		Detects if wheels are slipping resulting in reduced torque.	检测车轮是否打滑导致扭矩减小
 def_train_wheels_dynamic_x1_small_node_3_label		Wheel Release	离轨
 def_train_wheels_dynamic_x1_small_node_3_desc		Input to release wheels.	将车轮脱离轨道
+def_train_wheels_dynamic_x1_xsmall_name		Train Wheel Assembly x1 Small (Compact)	列车转向架总成 x1(小)(紧凑型)
+def_train_wheels_dynamic_x1_xsmall_desc		Attaches to rail lines.	附着在铁路上
+def_train_wheels_dynamic_x1_xsmall_s_desc		Train wheel assembly.	带有悬挂的列车转向架总成
+def_train_wheels_dynamic_x1_xsmall_node_0_label		Brakes	制动器
+def_train_wheels_dynamic_x1_xsmall_node_0_desc		Number input to set the level of braking applied to the wheels.	输入制动级别
+def_train_wheels_dynamic_x1_xsmall_node_1_label		RPS	RPS
+def_train_wheels_dynamic_x1_xsmall_node_1_desc		Receives power generated by an engine to control forward and backward rotation.	
+def_train_wheels_dynamic_x1_xsmall_node_2_label		Wheel Slip	车轮打滑
+def_train_wheels_dynamic_x1_xsmall_node_2_desc		Detects if wheels are slipping resulting in reduced torque.	检测车轮是否打滑导致扭矩减小
+def_train_wheels_dynamic_x1_xsmall_node_3_label		Wheel Release	离轨
+def_train_wheels_dynamic_x1_xsmall_node_3_desc		Input to release wheels.	将车轮脱离轨道
 def_train_wheels_dynamic_x2_name		Train Wheel Assembly x2	列车转向架总成(带悬挂) x2
 def_train_wheels_dynamic_x2_desc		Attaches to rail lines.	附着在铁路上
 def_train_wheels_dynamic_x2_s_desc		Train wheel assembly.	带有悬挂的列车转向架总成 双轴
-def_train_wheels_dynamic_x2_node_0_label		Brakes	制动器
-def_train_wheels_dynamic_x2_node_0_desc		Number input to set the level of braking applied to the wheels.	输入制动级别
-def_train_wheels_dynamic_x2_node_1_label		RPS	RPS
-def_train_wheels_dynamic_x2_node_1_desc		Receives power generated by an engine to control forward and backward rotation.	接收引擎产生的动力
-def_train_wheels_dynamic_x2_node_2_label		Wheel Slip	车轮打滑
-def_train_wheels_dynamic_x2_node_2_desc		Detects if wheels are slipping resulting in reduced torque.	检测车轮是否打滑导致扭矩减小
-def_train_wheels_dynamic_x2_node_3_label		Wheel Release	离轨
-def_train_wheels_dynamic_x2_node_3_desc		Input to release wheels.	将车轮脱离轨道
+def_train_wheels_dynamic_x2_node_0_label		Electric	电
+def_train_wheels_dynamic_x2_node_0_desc		Electrical power connection. Receives electric energy from the rail lines.	电力连接.接收来自铁路的供电
+def_train_wheels_dynamic_x2_node_1_label		Brakes	制动器
+def_train_wheels_dynamic_x2_node_1_desc		Number input to set the level of braking applied to the wheels.	输入制动级别
+def_train_wheels_dynamic_x2_node_2_label		RPS	RPS
+def_train_wheels_dynamic_x2_node_2_desc		Receives power generated by an engine to control forward and backward rotation.	接收引擎产生的动力
+def_train_wheels_dynamic_x2_node_3_label		Wheel Slip	车轮打滑
+def_train_wheels_dynamic_x2_node_3_desc		Detects if wheels are slipping resulting in reduced torque.	检测车轮是否打滑导致扭矩减小
+def_train_wheels_dynamic_x2_node_4_label		Wheel Release	离轨
+def_train_wheels_dynamic_x2_node_4_desc		Input to release wheels.	将车轮脱离轨道
 def_train_wheels_dynamic_x3_name		Train Wheel Assembly x3	列车转向架总成(带悬挂) x3
 def_train_wheels_dynamic_x3_desc		Attaches to rail lines.	附着在铁路上
 def_train_wheels_dynamic_x3_s_desc		Train wheel assembly.	带有悬挂的列车转向架总成 三轴
-def_train_wheels_dynamic_x3_node_0_label		Brakes	制动器
-def_train_wheels_dynamic_x3_node_0_desc		Number input to set the level of braking applied to the wheels.	输入制动级别
-def_train_wheels_dynamic_x3_node_1_label		RPS	RPS
-def_train_wheels_dynamic_x3_node_1_desc		Receives power generated by an engine to control forward and backward rotation.	接收引擎产生的动力
-def_train_wheels_dynamic_x3_node_2_label		Wheel Slip	车轮打滑
-def_train_wheels_dynamic_x3_node_2_desc		Detects if wheels are slipping resulting in reduced torque.	检测车轮是否打滑导致扭矩减小
-def_train_wheels_dynamic_x3_node_3_label		Wheel Release	离轨
-def_train_wheels_dynamic_x3_node_3_desc		Input to release wheels.	将车轮脱离轨道
+def_train_wheels_dynamic_x3_node_0_label		Electric	电
+def_train_wheels_dynamic_x3_node_0_desc		Electrical power connection. Receives electric energy from the rail lines.	电力连接.接收来自铁路的供电
+def_train_wheels_dynamic_x3_node_1_label		Brakes	制动器
+def_train_wheels_dynamic_x3_node_1_desc		Number input to set the level of braking applied to the wheels.	输入制动级别
+def_train_wheels_dynamic_x3_node_2_label		RPS	RPS
+def_train_wheels_dynamic_x3_node_2_desc		Receives power generated by an engine to control forward and backward rotation.	接收引擎产生的动力
+def_train_wheels_dynamic_x3_node_3_label		Wheel Slip	车轮打滑
+def_train_wheels_dynamic_x3_node_3_desc		Detects if wheels are slipping resulting in reduced torque.	检测车轮是否打滑导致扭矩减小
+def_train_wheels_dynamic_x3_node_4_label		Wheel Release	离轨
+def_train_wheels_dynamic_x3_node_4_desc		Input to release wheels.	将车轮脱离轨道
 def_train_wheels_piston_name		Train Wheel Drive Piston Small	蒸汽机车驱动活塞(小)
 def_train_wheels_piston_desc		Attach to the front of a group of train-wheel assemblies to generate torque for them via mechanical steam power. Activate the reverser to flip the internal valves and the direction of travel.	安装在蒸汽机车动轮组前,通过蒸汽动力产生扭矩.激活换向开关以反转内部阀门和行驶方向
 def_train_wheels_piston_s_desc		Steam powered train piston assembly.	蒸汽机车驱动活塞总成
@@ -8084,6 +8222,15 @@ def_watercannon_node_2_label		Fluid Supply	进水口
 def_watercannon_node_2_desc		The fluid input to output from the nozzle. Filters to water only.	只能输入水,用于喷出
 def_watercannon_node_3_label		Electric	电
 def_watercannon_node_3_desc		Electrical power connection.	电源连接
+def_water_extractor_name		Water Extractor	矿石脱水机
+def_water_extractor_desc		Extracts water from hydrous ores when supplied with electric power.	通电后，可从含水矿石中提取水分
+def_water_extractor_s_desc		A machine to process minerals into water.	从矿石中提取水
+def_water_extractor_node_0_label		Power	电源
+def_water_extractor_node_0_desc			
+def_water_extractor_node_1_label		Process	提炼
+def_water_extractor_node_1_desc			
+def_water_extractor_node_2_label		Water Out	排水
+def_water_extractor_node_2_desc			
 def_water_hose_name		Hose	软管
 def_water_hose_desc		This can be used to transport water between Two bodies. Two on/off signals are used to control whether the hose is moving up (towards the base) or down (away from the base). A number output allows you to measure the hose's current length if necessary. The maximum length of the hose is 16 metres (64 blocks). The speed of the hose mechanism can be configured by selecting this component with the select tool.	这可以用来在两个物体之间运输水。两个开/关信号用于控制软管是向上移动(朝向底座)还是向下移动(远离底座)。数字输出允许您在必要时测量软管的当前长度。软管的最大长度为16米(64块)。软管机构的速度可以通过使用选择工具选择此组件来配置
 def_water_hose_s_desc		A building block attached to the end of a mechanical hose that can be raised and lowered.	连接在可伸缩的机械软管末端的方块
